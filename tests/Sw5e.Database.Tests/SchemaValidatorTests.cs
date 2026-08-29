@@ -49,7 +49,7 @@ public sealed class SchemaValidatorTests
         var result = CreateValidator().Validate("source", 1, document);
 
         result.IsValid.ShouldBeFalse();
-        result.Errors.ShouldNotBeEmpty();
+        result.Errors.ShouldContain(error => error.Contains("required"));
     }
 
     [Fact]
