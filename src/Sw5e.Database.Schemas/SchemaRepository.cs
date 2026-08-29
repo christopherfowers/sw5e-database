@@ -40,13 +40,48 @@ public sealed class SchemaRepository
     public JsonSchema Get(string contentType, int version) =>
         _cache.GetOrAdd((contentType, version), key =>
         {
-            var path = Path.Combine(_root, key.Item1, $"v{key.Item2}.json");
+            var (type, ver) = key;
+            var path = ResolveSchemaPath(type, ver);
 
-            if (!File.Exists(path))
+            if (path is null || !File.Exists(path))
             {
-                throw new SchemaNotFoundException(key.Item1, key.Item2);
+                // A path that escapes the schema root and a content type that
+                // legitimately does not exist must be indistinguishable to
+                // the caller, so both fall through to the same exception.
+                throw new SchemaNotFoundException(type, ver);
             }
 
             return JsonSchema.FromFile(path, _buildOptions);
         });
+
+    /// <summary>
+    /// Resolves <c>{root}/{contentType}/v{version}.json</c> and confirms the
+    /// result is genuinely inside <c>_root</c>, refusing to follow path
+    /// traversal (e.g. <c>contentType = "../../etc"</c>) or a <c>contentType</c>
+    /// containing a directory separator out to the filesystem. Returns null
+    /// for any input that fails these checks.
+    /// </summary>
+    private string? ResolveSchemaPath(string contentType, int version)
+    {
+        // No legitimate content type name contains a directory separator or
+        // a "..", on any OS, so reject those outright before touching the
+        // filesystem at all.
+        if (string.IsNullOrEmpty(contentType) ||
+            contentType.Contains("..", StringComparison.Ordinal) ||
+            contentType.IndexOf('/') >= 0 ||
+            contentType.IndexOf('\\') >= 0)
+        {
+            return null;
+        }
+
+        var candidate = Path.GetFullPath(Path.Combine(_root, contentType, $"v{version}.json"));
+        var relative = Path.GetRelativePath(_root, candidate);
+
+        if (relative.StartsWith("..", StringComparison.Ordinal) || Path.IsPathRooted(relative))
+        {
+            return null;
+        }
+
+        return candidate;
+    }
 }

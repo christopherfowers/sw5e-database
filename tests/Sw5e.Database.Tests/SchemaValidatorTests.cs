@@ -1,5 +1,5 @@
 using System.Text.Json.Nodes;
-using FluentAssertions;
+using Shouldly;
 using Sw5e.Database.Schemas;
 using Xunit;
 
@@ -18,7 +18,7 @@ public sealed class SchemaValidatorTests
     {
         var repository = new SchemaRepository(SchemaRoot);
 
-        repository.ListContentTypes().Should().Contain("source");
+        repository.ListContentTypes().ShouldContain("source");
     }
 
     [Fact]
@@ -35,8 +35,8 @@ public sealed class SchemaValidatorTests
 
         var result = CreateValidator().Validate("source", 1, document);
 
-        result.IsValid.Should().BeTrue();
-        result.Errors.Should().BeEmpty();
+        result.IsValid.ShouldBeTrue();
+        result.Errors.ShouldBeEmpty();
     }
 
     [Fact]
@@ -48,8 +48,8 @@ public sealed class SchemaValidatorTests
 
         var result = CreateValidator().Validate("source", 1, document);
 
-        result.IsValid.Should().BeFalse();
-        result.Errors.Should().NotBeEmpty();
+        result.IsValid.ShouldBeFalse();
+        result.Errors.ShouldNotBeEmpty();
     }
 
     [Fact]
@@ -66,7 +66,8 @@ public sealed class SchemaValidatorTests
 
         var result = CreateValidator().Validate("source", 1, document);
 
-        result.IsValid.Should().BeFalse();
+        result.IsValid.ShouldBeFalse();
+        result.Errors.ShouldContain(error => error.Contains("pattern"));
     }
 
     [Fact]
@@ -84,7 +85,8 @@ public sealed class SchemaValidatorTests
 
         var result = CreateValidator().Validate("source", 1, document);
 
-        result.IsValid.Should().BeFalse();
+        result.IsValid.ShouldBeFalse();
+        result.Errors.ShouldContain(error => error.Contains("additionalProperties"));
     }
 
     [Fact]
@@ -92,8 +94,30 @@ public sealed class SchemaValidatorTests
     {
         var repository = new SchemaRepository(SchemaRoot);
 
-        var act = () => repository.Get("does-not-exist", 1);
+        Should.Throw<SchemaNotFoundException>(() => repository.Get("does-not-exist", 1));
+    }
 
-        act.Should().Throw<SchemaNotFoundException>();
+    [Fact]
+    public void Get_ThrowsForContentTypeContainingParentDirectoryTraversal()
+    {
+        var repository = new SchemaRepository(SchemaRoot);
+
+        Should.Throw<SchemaNotFoundException>(() => repository.Get("../../../../etc", 1));
+    }
+
+    [Fact]
+    public void Get_ThrowsForContentTypeContainingDirectorySeparator()
+    {
+        var repository = new SchemaRepository(SchemaRoot);
+
+        Should.Throw<SchemaNotFoundException>(() => repository.Get("source/../../secrets", 1));
+    }
+
+    [Fact]
+    public void Get_StillResolvesLegitimateContentTypeAfterTraversalGuards()
+    {
+        var repository = new SchemaRepository(SchemaRoot);
+
+        Should.NotThrow(() => repository.Get("source", 1));
     }
 }
