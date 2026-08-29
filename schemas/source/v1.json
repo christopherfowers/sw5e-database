@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/source/v1.json",
+  "title": "Source",
+  "description": "A publication or supplement that content originates from.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "title", "abbreviation", "isOfficial"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this source."
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "abbreviation": { "type": "string", "minLength": 1, "maxLength": 12 },
+    "publisher": { "type": "string" },
+    "publishedAt": { "type": "string", "format": "date" },
+    "isOfficial": { "type": "boolean" },
+    "licenseNote": { "type": "string" },
+    "attribution": { "type": "string" }
+  }
+}
