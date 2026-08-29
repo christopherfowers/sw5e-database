@@ -1,3 +1,4 @@
+using System.Text.Json;
 using System.Text.Json.Nodes;
 using Sw5e.Database.Schemas;
 
@@ -21,7 +22,19 @@ switch (command)
 
 static int Validate(string schemaRoot, string contentRoot)
 {
-    var validator = new SchemaValidator(new SchemaRepository(schemaRoot));
+    SchemaValidator validator;
+
+    try
+    {
+        validator = new SchemaValidator(new SchemaRepository(schemaRoot));
+    }
+    catch (DirectoryNotFoundException)
+    {
+        Console.Error.WriteLine(
+            $"ERROR No schema directory at '{schemaRoot}'. Pass the schema root as " +
+            "the first argument, e.g. 'validate schemas content'.");
+        return 1;
+    }
 
     if (!Directory.Exists(contentRoot))
     {
@@ -35,7 +48,19 @@ static int Validate(string schemaRoot, string contentRoot)
     foreach (var file in Directory.EnumerateFiles(contentRoot, "*.json", SearchOption.AllDirectories))
     {
         var contentType = Path.GetFileName(Path.GetDirectoryName(file)) ?? "";
-        var document = JsonNode.Parse(File.ReadAllText(file));
+
+        JsonNode? document;
+
+        try
+        {
+            document = JsonNode.Parse(File.ReadAllText(file));
+        }
+        catch (JsonException error)
+        {
+            Console.Error.WriteLine($"FAIL {file}: not valid JSON - {error.Message}");
+            failures++;
+            continue;
+        }
 
         if (document is null)
         {
@@ -44,7 +69,25 @@ static int Validate(string schemaRoot, string contentRoot)
             continue;
         }
 
-        var result = validator.Validate(contentType, 1, document);
+        SchemaValidationResult result;
+
+        try
+        {
+            result = validator.Validate(contentType, 1, document);
+        }
+        catch (SchemaNotFoundException)
+        {
+            // A contributor's first content PR lands here whenever the
+            // directory name does not match a schema. Report it as a normal
+            // validation failure rather than crashing with a stack trace.
+            Console.Error.WriteLine(
+                $"FAIL {file}: no schema for content type '{contentType}' version 1. " +
+                $"Content must live in '{contentRoot}/<content-type>/' where " +
+                $"<content-type> matches a directory under '{schemaRoot}/'.");
+            failures++;
+            continue;
+        }
+
         checkedCount++;
 
         if (!result.IsValid)
