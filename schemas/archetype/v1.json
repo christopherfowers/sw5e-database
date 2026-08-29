@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/archetype/v1.json",
+  "title": "Archetype",
+  "description": "A specialisation chosen within a class, picked at a level the class sets and kept for the rest of a character's career. An archetype is where a class's identity actually gets decided, so it carries its own casting progression when it grants one and a level-by-level table when its resources grow on their own schedule.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "className", "casterType", "casterRatio", "classCasterType", "description"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this archetype. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name. Archetype names in SW5e are noun phrases naming the discipline rather than the practitioner: Acquisitions Practice, Armormech Engineering."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this archetype was published in, matching a document of the source content type. Values present in the archive are phb and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this archetype belongs to the core rules or to the community expanded-content supplement."
+    },
+    "className": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the class this archetype belongs to, matching a class entry. An archetype is only ever available to that one class."
+    },
+    "casterType": {
+      "enum": ["none", "force", "tech"],
+      "description": "Casting the archetype grants by itself. An archetype on a non-casting class may turn it into a partial caster; one on a class that already casts records none here and leaves the progression to the class."
+    },
+    "casterRatio": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Fraction of class levels that count toward the casting progression this archetype grants: 1/3 for a third-caster, 1/6 for a sixth-caster, 0 when it grants none. Multiclass casting sums these ratios, which is why it is a number and not a label."
+    },
+    "classCasterType": {
+      "enum": ["none", "force", "tech"],
+      "description": "Casting the parent class already provides, copied here so an archetype can be evaluated without loading the class. When this and casterType disagree, the archetype is adding a second casting system to the character."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown body of the archetype: an opening paragraph of flavour, then each granted feature under its own heading with the level it arrives at. Individual features are also stored separately in the feature content type; this field is the printed page."
+    },
+    "progression": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The archetype's own level table, one row per character level from the level the archetype is taken. Present only when the archetype grants resources that grow on a schedule of their own, such as force points or superiority dice; omit it when every grant is described in the text instead. Column headings are the entry labels, which are the same on every row.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "entries"],
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Character level this row applies at."
+          },
+          "entries": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Cells in the row, in printed column order.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["label", "value"],
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Column heading, such as Force Points or Superiority Dice Size."
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Cell contents. Text rather than a number because cells hold values like 1st and d8 alongside plain counts."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

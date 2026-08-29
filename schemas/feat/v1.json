@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/feat/v1.json",
+  "title": "Feat",
+  "description": "An optional talent taken in place of an ability score improvement. A feat is a small bundle of benefits with a single theme, usually a partial ability score increase plus two or three concrete rules exceptions. Keep the bundle tight: a feat that does five unrelated things is two feats.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "description"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this feat. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, usually a noun for the kind of person the feat makes you: Ace Pilot, Sharpshooter, Skilled."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this feat was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this feat belongs to the core rules or to the community expanded-content supplement."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to take this feat, as printed, for example \"Dexterity 13 or higher\" or \"The ability to cast at least one force power\". Omit when anyone may take it. A prerequisite exists to stop a feat being taken at level 1 when it assumes something earned later, so state it when the feat's power depends on that assumption."
+    },
+    "abilityScoreIncreases": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Abilities this feat raises by one, to the usual maximum of 20. Half-feats list the ability they raise; use \"any\" when the feat lets the player choose. Omit for feats that grant no increase at all.",
+      "items": {
+        "enum": ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma", "any"]
+      }
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text in second person. The house style opens with one sentence of flavour, then a bulleted list of benefits, one bullet per benefit including the ability score increase, so a player can check them off at the table."
+    }
+  }
+}

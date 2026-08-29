@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/equipment/v1.json",
+  "title": "Equipment",
+  "description": "A mundane item a character can buy, carry or wear: weapons, armour, tools, kits, clothing, medical supplies and consumables. Enhanced and modified gear is a separate content type. The fields a shop list needs (category, cost, weight) are always present; the combat fields appear only on the categories that use them.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "category", "costInCredits", "weight", "stealthDisadvantage"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this item. Derived from the name once and never reused, so inventories keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name in sentence case, as printed on the equipment tables."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this item was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this item belongs to the core rules or to the community expanded-content supplement."
+    },
+    "category": {
+      "enum": [
+        "ammunition",
+        "explosive",
+        "weapon",
+        "armor",
+        "storage",
+        "communications",
+        "dataRecordingAndStorage",
+        "lifeSupport",
+        "medical",
+        "weaponOrArmorAccessory",
+        "tool",
+        "utility",
+        "gamingSet",
+        "musicalInstrument",
+        "clothing",
+        "kit",
+        "alcoholicBeverage",
+        "spice"
+      ],
+      "description": "What kind of item this is. It drives which section of the equipment tables the item is printed in and which of the optional blocks below apply: only weapon carries damage and weaponClassification, and only armor carries armorClass and armorClassification."
+    },
+    "costInCredits": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "List price in credits. This is the standard price before haggling or local scarcity, and it is a whole number because the archive holds no fractional credit prices."
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Weight in pounds, counting against carrying capacity. Fractional to a quarter pound. Items too light to matter are recorded as 0 rather than omitted, so encumbrance maths never has to guess."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown explaining what the item does beyond its table row. Omit for items whose table row says everything; roughly half of the archived corpus has no description and that is fine."
+    },
+    "properties": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Weapon and armour properties as printed on the table row, one clause per entry, each carrying its own numeric argument: \"burst 2\", \"power cell (range 90/360)\", \"strength 15\". The leading word of each clause names a property defined in the weapon-property or armor-property content type.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "weaponClassification": {
+      "enum": [
+        "simpleBlaster",
+        "martialBlaster",
+        "exoticBlaster",
+        "simpleVibroweapon",
+        "martialVibroweapon",
+        "exoticVibroweapon",
+        "simpleLightweapon",
+        "martialLightweapon",
+        "exoticLightweapon"
+      ],
+      "description": "Proficiency group the weapon belongs to, pairing its family (blaster, vibroweapon, lightweapon) with its training tier. A character is proficient with a weapon only if proficient with its whole classification. Present on weapons only."
+    },
+    "damage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numberOfDice", "dieFaces", "type"],
+      "description": "Damage on a hit, before ability modifiers and properties. Present only on weapons that deal damage on their own; omit it for weapons whose damage comes entirely from a property such as double or versatile.",
+      "properties": {
+        "numberOfDice": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many dice are rolled."
+        },
+        "dieFaces": {
+          "type": "integer",
+          "enum": [3, 4, 6, 8, 10, 12],
+          "description": "Faces on each die: the 8 of 2d8."
+        },
+        "type": {
+          "enum": ["acid", "cold", "energy", "fire", "ion", "kinetic", "lightning", "necrotic", "poison", "psychic", "sonic"],
+          "description": "Damage type, which decides how resistances, immunities and vulnerabilities apply. Blasters deal energy, vibroweapons kinetic, and ion damage is the one that hurts droids and shields specifically."
+        }
+      }
+    },
+    "armorClassification": {
+      "enum": ["light", "medium", "heavy", "shield"],
+      "description": "Proficiency group the armour belongs to, which also decides how the Dexterity modifier applies to armor class. Present on armour only."
+    },
+    "armorClass": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The armor class this armour provides, as printed, including how Dexterity is applied: \"13 + Dex modifier (max 2)\", \"18\". Shields record their bonus instead, as \"+2\". Stored as text because the formula and its cap are part of the value. Present on armour only."
+    },
+    "stealthDisadvantage": {
+      "type": "boolean",
+      "description": "Whether wearing or carrying the item imposes disadvantage on Dexterity (Stealth) checks. Always present, including when false, so a character sheet can total it without a null check."
+    }
+  }
+}

@@ -21,6 +21,15 @@ Thanks for helping maintain this community resource.
 
 See the "Getting started" section of the README for this repository.
 
+## The legacy archive
+
+`ArchiveConformanceTests` checks every content schema against the archived
+export of the legacy SW5e API, so a schema the real corpus cannot satisfy fails
+the build. The archive is not part of this repository. The test looks for it at
+`../../sw5e-legacy-archive/api` relative to the repository root, and at the path
+in `SW5E_LEGACY_ARCHIVE` if that variable is set. Without it the test reports
+where it looked and passes, so a checkout on its own still builds green.
+
 ## Reviewing content changes
 
 Changes to canonical game content are reviewed like code. A content pull request

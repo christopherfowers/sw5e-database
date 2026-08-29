@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/background/v1.json",
+  "title": "Background",
+  "description": "What a character did before adventuring. A background hands out proficiencies, starting gear and one signature feature, then offers roll tables that give the player a personality without inventing one from scratch. Mechanically it is small; most of its weight is the roll tables, so author those carefully.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "lore",
+    "skillProficiencies",
+    "startingEquipment",
+    "feature",
+    "suggestedCharacteristics",
+    "personalityTraitOptions",
+    "idealOptions",
+    "bondOptions",
+    "flawOptions",
+    "featOptions"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this background. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, phrased as the role the character held: Bounty Hunter, Criminal, Jedi."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this background was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this background belongs to the core rules or to the community expanded-content supplement."
+    },
+    "lore": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown introduction written to the player, explaining who takes this background and what the life was like. Rules belong in the fields below; this is the pitch."
+    },
+    "skillProficiencies": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The skills granted, as printed. Phrased as an instruction because most backgrounds offer a choice, for example \"Choose two from Deception, Insight, Persuasion, and Stealth\"."
+    },
+    "toolProficiencies": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Kits, gaming sets, instruments or vehicles granted, as printed. Omit when the background grants none."
+    },
+    "languageProficiencies": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Languages granted, as printed. Usually a count the player chooses from rather than named languages. Omit when the background grants none."
+    },
+    "startingEquipment": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Everything the character begins play with, including the credit pouch, as one printed sentence. Item names here should match equipment entries so a character builder can link them."
+    },
+    "feature": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "description"],
+      "description": "The single narrative privilege the background grants, such as a contact network or safe lodging. Backgrounds grant exactly one, and it is almost always a licence to ask the GM for something rather than a die roll.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Feature heading, such as Safe Haven or Criminal Contact."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Markdown rules text, written in second person. Say plainly what the player may ask for and what the limits are, so a GM can adjudicate it without interpretation."
+        }
+      }
+    },
+    "suggestedCharacteristics": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A short Markdown preamble framing the roll tables that follow: what tends to motivate someone with this history."
+    },
+    "personalityTraitOptions": {
+      "$ref": "#/$defs/rollTable",
+      "description": "Roll table of habits and mannerisms. Entries are descriptions only, written in first person, because a personality trait has no name."
+    },
+    "idealOptions": {
+      "$ref": "#/$defs/rollTable",
+      "description": "Roll table of driving principles. Each entry is named for the ideal and usually closes with the alignment it suits, in parentheses."
+    },
+    "bondOptions": {
+      "$ref": "#/$defs/rollTable",
+      "description": "Roll table of the people, places and obligations the character is tied to. Descriptions only, in first person; these are the hooks a GM pulls on."
+    },
+    "flawOptions": {
+      "$ref": "#/$defs/rollTable",
+      "description": "Roll table of weaknesses and vices. Descriptions only, in first person. A good flaw creates trouble the player wants to play out, not a penalty."
+    },
+    "featOptions": {
+      "$ref": "#/$defs/rollTable",
+      "description": "Roll table of bonus feats appropriate to this history. Entries carry a name only; each name matches a feat entry."
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "description"],
+      "description": "An optional specialisation that narrows the background, such as a criminal's speciality or a soldier's rank. Purely flavour: it does not change proficiencies, equipment or the feature.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Heading for the specialisation, such as Criminal Specialty."
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Markdown explaining what the specialisation covers and how to pick one."
+        },
+        "options": {
+          "$ref": "#/$defs/rollTable",
+          "description": "Roll table of specialisations. Entries carry a name only. Omit when the variant is described in prose without a table."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "rollTable": {
+      "type": "array",
+      "minItems": 1,
+      "description": "A d-something table the player may roll on or choose from. Rolls run from 1 upward with no gaps, and the highest roll is the die size.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["roll"],
+        "anyOf": [
+          { "required": ["name"] },
+          { "required": ["description"] }
+        ],
+        "properties": {
+          "roll": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "The die result that selects this entry."
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Short label for the entry. Present on tables whose rows are named things (ideals, feats, specialisations) and absent on tables of free-form statements."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The entry text. Present on tables of statements the player adopts verbatim; absent when the name is the whole entry."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/monster/v1.json",
+  "title": "Monster",
+  "description": "A creature a GM can drop into an encounter, from a womp rat to a Rancor to a named Sith Lord. The shape mirrors a printed stat block: identity and defences first, then the six abilities, then everything the creature can do as a flat list of behaviours. Write it so a GM can run the creature from this entry alone without cross-referencing anything.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "size",
+    "types",
+    "alignment",
+    "armor",
+    "hitPoints",
+    "speed",
+    "abilities",
+    "languages",
+    "challengeRating",
+    "experiencePoints",
+    "behaviors",
+    "sectionText"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this creature. Derived from the name once and never reused, so saved encounters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name of the stat block. Model designations belong here in full, as printed: 000 Series Protocol Droid, AT-ST."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this creature was published in, matching a document of the source content type. Every archived creature comes from snv."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this creature belongs to the core rules or to the community expanded-content supplement."
+    },
+    "size": {
+      "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
+      "description": "Size category, which fixes the space the creature occupies, its hit die, and how grappling and swallowing resolve against it."
+    },
+    "types": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Creature type, which is what powers and features key off when they say they affect droids or beasts. Kept as an array because swarms and hybrids carry a qualified type. Values in the archive are aberration, beast, construct, droid, elemental, humanoid, plant, tree and undead, plus swarm phrasings such as \"swarm of tiny beasts\".",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "alignment": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Moral and ethical outlook as printed. SW5e uses the light-dark axis in place of good and evil, so expect values such as \"lawful dark\" and \"chaotic balanced\", plus \"unaligned\" for creatures incapable of a moral choice."
+    },
+    "armor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class"],
+      "description": "How hard the creature is to hit, and what is protecting it.",
+      "properties": {
+        "class": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Armor class, already including everything below."
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What accounts for the armor class, as printed in parentheses after it: \"natural armor\", \"battle armor and personal shield\". Omit for a creature whose armor class comes from nothing but its Dexterity."
+        }
+      }
+    },
+    "hitPoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["average", "roll"],
+      "description": "Hit points as the average a GM can use straight away plus the expression to roll if they would rather.",
+      "properties": {
+        "average": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Average hit points, the number printed before the parenthesised dice."
+        },
+        "roll": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Dice expression the average is derived from, for example 5d8 + 5. The die size follows from the creature's size and the constant is its Constitution modifier times the number of dice."
+        }
+      }
+    },
+    "speed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["walk", "text"],
+      "description": "Movement, split into the walking speed most rules ask for and the full printed line covering every movement mode.",
+      "properties": {
+        "walk": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Walking speed in feet. Zero for a creature that cannot walk, including emplacements and creatures that only fly or swim."
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Every movement mode as printed, for example \"0 ft., fly 50 ft.\" or \"30 ft., climb 30 ft.\"."
+        }
+      }
+    },
+    "abilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"],
+      "description": "The six ability scores with the modifiers as printed. The modifier is stored rather than derived because the archived stat blocks are the authority on what a GM reads at the table, and a handful of them disagree with the arithmetic.",
+      "properties": {
+        "strength": { "$ref": "#/$defs/abilityScore" },
+        "dexterity": { "$ref": "#/$defs/abilityScore" },
+        "constitution": { "$ref": "#/$defs/abilityScore" },
+        "intelligence": { "$ref": "#/$defs/abilityScore" },
+        "wisdom": { "$ref": "#/$defs/abilityScore" },
+        "charisma": { "$ref": "#/$defs/abilityScore" }
+      }
+    },
+    "savingThrows": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Saving throws the creature is proficient in, each as an abbreviated ability and its total bonus: \"Dex +7\". Omit when the creature has no saving throw proficiencies.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "skills": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Skills the creature is proficient in, each as a skill name and its total bonus: \"Perception +4\". Omit when the creature has none.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "senses": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Special senses and their ranges, plus the passive Perception score, one entry each: \"darkvision 60 ft.\", \"passive Perception 11\". Include passive Perception even when the creature has no special senses, because a GM needs it for every stealth check made against the creature.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "languages": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Languages the creature knows, one per entry. Record what it can understand but not speak as its own entry saying so, and use an explicit entry such as \"None\" rather than omitting the field, so a GM can tell an unintelligent creature from an unfinished stat block.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "damageVulnerabilities": { "$ref": "#/$defs/damageAffinity", "description": "Damage types the creature takes double from. Omit when it has none." },
+    "damageResistances": { "$ref": "#/$defs/damageAffinity", "description": "Damage types the creature takes half from. Omit when it has none." },
+    "damageImmunities": { "$ref": "#/$defs/damageAffinity", "description": "Damage types the creature ignores entirely. Omit when it has none." },
+    "conditionImmunities": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "description": "Conditions the creature cannot be subjected to. Omit when it has none.",
+      "properties": {
+        "conditions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Named conditions from the standard list.",
+          "items": {
+            "enum": [
+              "blinded",
+              "charmed",
+              "deafened",
+              "exhaustion",
+              "frightened",
+              "grappled",
+              "incapacitated",
+              "paralyzed",
+              "petrified",
+              "poisoned",
+              "prone",
+              "restrained",
+              "stunned"
+            ]
+          }
+        },
+        "other": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Immunities the standard list cannot express, kept verbatim, for example \"restrained in liquid form\". Prefer conditions; reach for this only when the immunity is genuinely conditional.",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "challengeRating": {
+      "enum": [
+        "0", "1/8", "1/4", "1/2",
+        "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+        "11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+        "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
+      ],
+      "description": "Challenge rating, the rough level of a party of four this creature is a fair fight for. Held as text because the low end is fractional. Anything below 1 is a creature that a single character can plausibly beat alone."
+    },
+    "experiencePoints": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Experience awarded for defeating the creature. Determined by the challenge rating, and stored alongside it so an encounter builder does not need the conversion table."
+    },
+    "behaviors": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Everything the creature does, as a flat list rather than separate trait, action and reaction blocks. Sort by behaviorType when rendering a stat block. Attack behaviours carry their to-hit and damage as fields as well as prose, so an initiative tracker can roll them.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "behaviorType", "description", "attackType", "attackBonus"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Heading for the behaviour, such as Bite or Keen Smell."
+          },
+          "behaviorType": {
+            "enum": ["trait", "action", "reaction", "legendary"],
+            "description": "When the behaviour is used. Traits are always on, actions are taken on the creature's turn, reactions need a trigger, and legendary actions are spent from a pool at the end of another creature's turn."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Markdown rules text in third person, written so a GM can resolve it without reading the fields below."
+          },
+          "descriptionWithLinks": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The same text with cross-references marked up as Markdown links to powers, conditions and equipment. Omit when it would be identical to description."
+          },
+          "attackType": {
+            "enum": ["none", "meleeWeapon", "rangedWeapon"],
+            "description": "Whether the behaviour is an attack and at what reach. Use none for anything that is not resolved with an attack roll, including saving-throw effects."
+          },
+          "attackBonus": {
+            "type": "integer",
+            "description": "Total bonus added to the attack roll. Recorded as 0 when the behaviour makes no attack roll."
+          },
+          "usageLimit": {
+            "type": "string",
+            "minLength": 1,
+            "description": "How often the behaviour may be used, when it is limited: \"1/Day\", \"1/Turn\", \"1/rest\". Omit when it is unrestricted."
+          },
+          "range": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reach or range of the attack, as printed: \"5 ft.\", \"100/400\". Omit for behaviours that are not attacks."
+          },
+          "targets": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What the attack can be aimed at, as printed: \"one target\", \"one Medium or smaller creature\". Omit for behaviours that are not attacks."
+          },
+          "averageDamage": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Average damage on a hit, the number a GM can use instead of rolling. Omit for behaviours that deal no fixed damage."
+          },
+          "damageRoll": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Dice expression the average is taken from, including extra dice from riders: \"1d10 + 4 plus 1d8\". Omit when there is no damage roll."
+          },
+          "damageType": {
+            "enum": ["acid", "cold", "energy", "fire", "ion", "kinetic", "lightning", "necrotic", "poison", "psychic", "sonic"],
+            "description": "Type of the damage dealt. Omit when the behaviour deals no damage, or when its damage is described in prose rather than in damageRoll."
+          }
+        }
+      }
+    },
+    "flavorText": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown describing the creature in the fiction: who builds it, where it lives, how it behaves. Optional and often absent; nothing mechanical belongs here."
+    },
+    "sectionText": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown covering the family of creatures this stat block belongs to, shared by every creature in that family. It is where the reusable ecology and tactics live, so it repeats verbatim across related stat blocks by design."
+    }
+  },
+  "$defs": {
+    "abilityScore": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "modifier"],
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The ability score itself."
+        },
+        "modifier": {
+          "type": "integer",
+          "description": "The modifier printed beside the score, normally the score minus 10, halved and rounded down."
+        }
+      }
+    },
+    "damageAffinity": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "types": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "Damage types from the standard list.",
+          "items": {
+            "enum": ["acid", "cold", "energy", "fire", "ion", "kinetic", "lightning", "necrotic", "poison", "psychic", "sonic"]
+          }
+        },
+        "other": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Qualified entries the standard list cannot express, kept verbatim, for example \"kinetic from unenhanced weapons\" or \"ion while in liquid form\". Prefer types; a qualified entry cannot be applied automatically.",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}
