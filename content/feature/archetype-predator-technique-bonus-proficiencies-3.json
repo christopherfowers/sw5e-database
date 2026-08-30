@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Predator Technique",
   "level": 3,
-  "description": "_**Predator Technique:** 3rd level_\nYou gain proficiency in heavy armor."
+  "description": "_**Predator Technique:** 3rd level_\nYou gain proficiency in heavy armor.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

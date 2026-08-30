@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Slicer Pursuit",
   "level": 9,
-  "description": "_**Slicer Pursuit:** 9th level_\nWhen the target of your Critical Analysis feature casts a tech power that affects an area, you can use your reaction to cause that power to instead affect an area in a 10-foot-radius sphere centered on the caster.\nOnce you've used this feature, you must complete a long rest before you can use it again."
+  "description": "_**Slicer Pursuit:** 9th level_\nWhen the target of your Critical Analysis feature casts a tech power that affects an area, you can use your reaction to cause that power to instead affect an area in a 10-foot-radius sphere centered on the caster.\nOnce you've used this feature, you must complete a long rest before you can use it again.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

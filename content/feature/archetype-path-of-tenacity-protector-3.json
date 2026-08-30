@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of Tenacity",
   "level": 3,
-  "description": "_**Path of Tenacity:** 3rd level_\nYou learn the *saber ward* force power, which does not count against your total powers known. Additionally, when you cast it, you can spend 2 force points to extend the benefits to creatures of your choice within 5 feet of you while the power is active. The creatures immediately lose this benefit if they move more than 5 feet away from you."
+  "description": "_**Path of Tenacity:** 3rd level_\nYou learn the *saber ward* force power, which does not count against your total powers known. Additionally, when you cast it, you can spend 2 force points to extend the benefits to creatures of your choice within 5 feet of you while the power is active. The creatures immediately lose this benefit if they move more than 5 feet away from you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

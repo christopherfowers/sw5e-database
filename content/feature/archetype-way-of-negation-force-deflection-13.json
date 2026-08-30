@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Negation",
   "level": 13,
-  "description": "_**Way of Negation:** 3rd, 5th, 9th, 13th, and 17th level_\nWhen you fail a saving throw, you can use your reaction to gain a bonus to that saving throw equal to your Wisdom or Charisma modifier (your choice, minimum of +1).\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest."
+  "description": "_**Way of Negation:** 3rd, 5th, 9th, 13th, and 17th level_\nWhen you fail a saving throw, you can use your reaction to gain a bonus to that saving throw equal to your Wisdom or Charisma modifier (your choice, minimum of +1).\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Construction Engineering",
   "level": 6,
-  "description": "_**Construction Engineering:** 6th level_\nYou've learned how to manipulate the weak points in structures with your technology. Your tech powers and weapon attacks gain the siege property, and your portable structures have resistance to kinetic, energy, and ion damage dealt by weapons."
+  "description": "_**Construction Engineering:** 6th level_\nYou've learned how to manipulate the weak points in structures with your technology. Your tech powers and weapon attacks gain the siege property, and your portable structures have resistance to kinetic, energy, and ion damage dealt by weapons.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

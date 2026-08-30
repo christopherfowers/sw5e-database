@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Beastmaster Approach",
   "level": 6,
-  "description": "_**Beastmaster Approach:** 6th level_\nYou gain a your choice of a climbing or swimming speed equal to your walking speed. Additionally, you gain an effect while raging based on your choice of speed:\n- If you chose a climbing speed, you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n- If you chose a swimming speed, you can use your bonus action to Dash or Disengage while in water."
+  "description": "_**Beastmaster Approach:** 6th level_\nYou gain a your choice of a climbing or swimming speed equal to your walking speed. Additionally, you gain an effect while raging based on your choice of speed:\n- If you chose a climbing speed, you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n- If you chose a swimming speed, you can use your bonus action to Dash or Disengage while in water.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

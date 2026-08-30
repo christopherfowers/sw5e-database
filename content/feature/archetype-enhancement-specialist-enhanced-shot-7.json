@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Enhancement Specialist",
   "level": 7,
-  "description": "_**Enhancement Specialist:** 7th level_\nYou gain the ability to enhance your shots. Whenever you fire an unenhanced shot from a blaster, you can make it enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage."
+  "description": "_**Enhancement Specialist:** 7th level_\nYou gain the ability to enhance your shots. Whenever you fire an unenhanced shot from a blaster, you can make it enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

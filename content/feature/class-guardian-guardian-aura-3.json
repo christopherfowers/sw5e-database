@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Guardian",
   "level": 3,
-  "description": "_**Guardian:** 3rd level_\nYou gain an aura of your choice, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Auras Known column of the guardian table. Your aura has a radius of 5 feet, which increases at higher levels, as shown in the Aura Radius column of the guardian table."
+  "description": "_**Guardian:** 3rd level_\nYou gain an aura of your choice, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Auras Known column of the guardian table. Your aura has a radius of 5 feet, which increases at higher levels, as shown in the Aura Radius column of the guardian table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

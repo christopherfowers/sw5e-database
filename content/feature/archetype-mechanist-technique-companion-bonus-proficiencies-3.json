@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Mechanist Technique (Companion)",
   "level": 3,
-  "description": "_**Mechanist Technique:** 3rd level_\nYou gain proficiency in astrotech's implements."
+  "description": "_**Mechanist Technique:** 3rd level_\nYou gain proficiency in astrotech's implements.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

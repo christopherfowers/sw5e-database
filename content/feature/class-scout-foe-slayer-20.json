@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Scout",
   "level": 20,
-  "description": "_**Scout:** 20th level_\nYou become an unparalleled hunter. Your Strength or Dexterity score increases by 2, and your Intelligence score increases by 2. Your maximum for those scores increases by 2.\nAdditionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make."
+  "description": "_**Scout:** 20th level_\nYou become an unparalleled hunter. Your Strength or Dexterity score increases by 2, and your Intelligence score increases by 2. Your maximum for those scores increases by 2.\nAdditionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

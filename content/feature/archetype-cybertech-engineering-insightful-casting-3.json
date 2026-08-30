@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Cybertech Engineering",
   "level": 3,
-  "description": "***Cybertech Engineering:** 3rd level*\nYou can expend uses of your Potent Aptitude to gain additional tech points, or expend tech points to gain additional Potent Aptitude uses.\n*Creating Tech Points.* You can transform a single use of Potent Aptitude into two tech points as a bonus action on your turn.  These additional tech points can exceed your maximum. Any tech points you create with this feature vanish when you finish a short rest.\n*Creating Potent Aptitude.* As a bonus action on your turn, you can expend two tech points to gain a single use of your Potent Aptitude."
+  "description": "***Cybertech Engineering:** 3rd level*\nYou can expend uses of your Potent Aptitude to gain additional tech points, or expend tech points to gain additional Potent Aptitude uses.\n*Creating Tech Points.* You can transform a single use of Potent Aptitude into two tech points as a bonus action on your turn.  These additional tech points can exceed your maximum. Any tech points you create with this feature vanish when you finish a short rest.\n*Creating Potent Aptitude.* As a bonus action on your turn, you can expend two tech points to gain a single use of your Potent Aptitude.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

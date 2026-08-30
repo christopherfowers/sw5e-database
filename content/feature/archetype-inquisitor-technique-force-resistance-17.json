@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Inquisitor Technique",
   "level": 17,
-  "description": "_**Inquisitor Technique:** 11th and 17th level_\nWhile the target of your Ranger's Quarry feature is within 30 feet of you, you gain the following benefits:\n- You have advantage on saving throws against force powers they cast.\n- You have resistance to damage dealt by force powers they cast.\nThe radius of this feature increases to 60 feet at 17th level."
+  "description": "_**Inquisitor Technique:** 11th and 17th level_\nWhile the target of your Ranger's Quarry feature is within 30 feet of you, you gain the following benefits:\n- You have advantage on saving throws against force powers they cast.\n- You have resistance to damage dealt by force powers they cast.\nThe radius of this feature increases to 60 feet at 17th level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Exhibition Specialist",
   "level": 10,
-  "description": "_**Exhibition Specialist:** 10th level_\nOnce on each of your turns, you can regain a use of your Action Surge (no action required). If you do so, you immediately suffer one level of exhaustion."
+  "description": "_**Exhibition Specialist:** 10th level_\nOnce on each of your turns, you can regain a use of your Action Surge (no action required). If you do so, you immediately suffer one level of exhaustion.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

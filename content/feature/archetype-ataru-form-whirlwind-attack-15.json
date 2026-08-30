@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Ataru Form",
   "level": 15,
-  "description": "_**Ataru Form:** 15th level_\nYou can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+  "description": "_**Ataru Form:** 15th level_\nYou can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

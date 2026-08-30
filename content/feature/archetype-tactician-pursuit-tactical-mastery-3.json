@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Tactician Pursuit",
   "level": 3,
-  "description": "_**Tactician Pursuit:** 3rd level_\nYou learn to better command your allies to victory from afar. Your Critical Analysis range is increased to 90 feet."
+  "description": "_**Tactician Pursuit:** 3rd level_\nYou learn to better command your allies to victory from afar. Your Critical Analysis range is increased to 90 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

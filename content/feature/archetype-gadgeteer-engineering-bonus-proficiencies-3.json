@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Gadgeteer Engineering",
   "level": 3,
-  "description": "_**Gadgeteer Engineering:** 3rd level_\nYou gain proficiency in gadgeteer's implements. Additionally, when you engage in crafting with gadgeteer's implements, the rate at which you craft doubles."
+  "description": "_**Gadgeteer Engineering:** 3rd level_\nYou gain proficiency in gadgeteer's implements. Additionally, when you engage in crafting with gadgeteer's implements, the rate at which you craft doubles.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of the Corsair",
   "level": 13,
-  "description": "_**Path of the Corsair:** 13th level_\nOnce per turn, when you deal damage with a Force-Empowered Detonator or your Double Strike feature, you can deal additional damage using your Kinetic Combat die. The damage type is force, lightning, necrotic, or psychic (your choice)."
+  "description": "_**Path of the Corsair:** 13th level_\nOnce per turn, when you deal damage with a Force-Empowered Detonator or your Double Strike feature, you can deal additional damage using your Kinetic Combat die. The damage type is force, lightning, necrotic, or psychic (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

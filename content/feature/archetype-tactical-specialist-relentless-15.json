@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Tactical Specialist",
   "level": 15,
-  "description": "_**Tactical Specialist:** 15th level_\nWhen you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
+  "description": "_**Tactical Specialist:** 15th level_\nWhen you roll initiative and have no superiority dice remaining, you regain 1 superiority die.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

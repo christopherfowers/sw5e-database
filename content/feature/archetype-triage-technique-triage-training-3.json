@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Triage Technique",
   "level": 3,
-  "description": "_**Triage Technique:** 3rd level_\nYou gain proficiency in the Medicine skill.\nAdditionally, when you would use your action to make an ability check to stabilize a creature, expend a use of a traumakit, or use a medpac, you can instead use your bonus action."
+  "description": "_**Triage Technique:** 3rd level_\nYou gain proficiency in the Medicine skill.\nAdditionally, when you would use your action to make an ability check to stabilize a creature, expend a use of a traumakit, or use a medpac, you can instead use your bonus action.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

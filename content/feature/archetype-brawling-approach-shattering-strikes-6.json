@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Brawling Approach",
   "level": 6,
-  "description": "_**Brawling Approach:** 6th level_\nYour rage causes your strikes to overcome the hardest of materials. While raging, you gain the following benefits:\n- Your unarmed strikes and improved weapons count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.\n- Your unarmed strikes deal double damage against structures."
+  "description": "_**Brawling Approach:** 6th level_\nYour rage causes your strikes to overcome the hardest of materials. While raging, you gain the following benefits:\n- Your unarmed strikes and improved weapons count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.\n- Your unarmed strikes deal double damage against structures.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

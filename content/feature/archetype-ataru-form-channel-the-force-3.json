@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Ataru Form",
   "level": 3,
-  "description": "_**Ataru Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Retreating Leap\nWhen a creature makes a melee attack roll against you, you can expend a use of your Channel the Force and your reaction to jump 10 feet in a direction of your choice, imposing disadvantage on the roll. This movement does not provoke opportunity attacks. You can wait until after the attack roll is made, but before the DM determines whether the attack hits."
+  "description": "_**Ataru Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Retreating Leap\nWhen a creature makes a melee attack roll against you, you can expend a use of your Channel the Force and your reaction to jump 10 feet in a direction of your choice, imposing disadvantage on the roll. This movement does not provoke opportunity attacks. You can wait until after the attack roll is made, but before the DM determines whether the attack hits.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Warchief Approach",
   "level": 6,
-  "description": "_**Warchief Approach:** 6th level_\nYour mere presence on the battlefield rallies your allies. When you rage, choose up to 3 allies that you can see within 30 feet of you. Each creature gains temporary hit points equal to half your berserker level + your Charisma modifier (minimum of +1)."
+  "description": "_**Warchief Approach:** 6th level_\nYour mere presence on the battlefield rallies your allies. When you rage, choose up to 3 allies that you can see within 30 feet of you. Each creature gains temporary hit points equal to half your berserker level + your Charisma modifier (minimum of +1).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

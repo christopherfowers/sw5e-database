@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Totem Specialist",
   "level": 10,
-  "description": "_**Totem Specialist:** 10th level_\nYou learn a third totem. Additionally, the bonus damage of your Totemic Might feature increases to 1d8. Lastly, you have advantage on Lore checks you make about tribal cultures."
+  "description": "_**Totem Specialist:** 10th level_\nYou learn a third totem. Additionally, the bonus damage of your Totemic Might feature increases to 1d8. Lastly, you have advantage on Lore checks you make about tribal cultures.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

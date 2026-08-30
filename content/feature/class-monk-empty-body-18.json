@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Monk",
   "level": 18,
-  "description": "_**Monk:** 18th level_\nYou can use your action to spend 4 focus points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage."
+  "description": "_**Monk:** 18th level_\nYou can use your action to spend 4 focus points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Armstech Engineering",
   "level": 18,
-  "description": "_**Armstech Engineering:** 18th level_\nWhen you use your Targeting Matrix feature, and the tech power would affect more than one creature, you can instead attack each affected creature that would be in the range of the power. Make a separate attack roll for each target. On a hit, each target suffers the effects as though they failed their saving throw."
+  "description": "_**Armstech Engineering:** 18th level_\nWhen you use your Targeting Matrix feature, and the tech power would affect more than one creature, you can instead attack each affected creature that would be in the range of the power. Make a separate attack roll for each target. On a hit, each target suffers the effects as though they failed their saving throw.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

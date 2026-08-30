@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Beastmaster Approach (Companion)",
   "level": 10,
-  "description": "_**Beastmaster Approach:** 10th level_\nWhenever your companion reduces a creature to 0 hit points while you are raging, it gains a number of temporary hit points equal to your berserker level, which last for the duration of your rage."
+  "description": "_**Beastmaster Approach:** 10th level_\nWhenever your companion reduces a creature to 0 hit points while you are raging, it gains a number of temporary hit points equal to your berserker level, which last for the duration of your rage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Detective Pursuit",
   "level": 17,
-  "description": "_**Detective Pursuit:** 17th level_\nWhen you use a scholar maneuver on a hostile creature, you can force that target to make a Wisdom saving throw against your maneuver save DC. On a failed save, the target is stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\nOnce you use this feature, you can't do so again until you finish a short or long rest."
+  "description": "_**Detective Pursuit:** 17th level_\nWhen you use a scholar maneuver on a hostile creature, you can force that target to make a Wisdom saving throw against your maneuver save DC. On a failed save, the target is stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\nOnce you use this feature, you can't do so again until you finish a short or long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

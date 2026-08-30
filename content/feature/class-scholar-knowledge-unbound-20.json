@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Scholar",
   "level": 20,
-  "description": "_**Scholar:** 20th level_\nYou are the pinnacle of your pursuit. Your Intelligence score increases by 4. Your maximum for that score increases by 4. Additionally, you can use any maneuver you know without expending a superiority die, rolling a d4 instead."
+  "description": "_**Scholar:** 20th level_\nYou are the pinnacle of your pursuit. Your Intelligence score increases by 4. Your maximum for that score increases by 4. Additionally, you can use any maneuver you know without expending a superiority die, rolling a d4 instead.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

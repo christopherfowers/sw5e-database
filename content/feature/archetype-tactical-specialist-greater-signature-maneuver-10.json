@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Tactical Specialist",
   "level": 10,
-  "description": "_**Tactical Specialist:** 10th level_\nYou can choose a second signature maneuver."
+  "description": "_**Tactical Specialist:** 10th level_\nYou can choose a second signature maneuver.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Praetorian Specialist",
   "level": 3,
-  "description": "_**Praetorian Specialist:** 3rd level_\nYou gain proficiency in one of the following skills of your choice: Insight, Lore, Performance, or Persuasion. Alternatively, you learn one language of your choice."
+  "description": "_**Praetorian Specialist:** 3rd level_\nYou gain proficiency in one of the following skills of your choice: Insight, Lore, Performance, or Persuasion. Alternatively, you learn one language of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

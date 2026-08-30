@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Juyo/Vaapad Form",
   "level": 3,
-  "description": "_**Juyo/Vaapad Form:** 3rd level_\nYou gain proficiency in heavy armor."
+  "description": "_**Juyo/Vaapad Form:** 3rd level_\nYou gain proficiency in heavy armor.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

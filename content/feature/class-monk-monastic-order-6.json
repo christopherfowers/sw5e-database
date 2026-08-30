@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Monk",
   "level": 6,
-  "description": "_**Monk:** 3rd, 6th, 11th, and 17th level_\nYou commit yourself to one monastic order, which is detailed at the end of the class description."
+  "description": "_**Monk:** 3rd, 6th, 11th, and 17th level_\nYou commit yourself to one monastic order, which is detailed at the end of the class description.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

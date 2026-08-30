@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Guardian",
   "level": 14,
-  "description": "_**Guardian:** 14th level_\nYou can use your action and expend a use of your Channel the Force ability to end one force power on yourself or on one willing creature that you touch."
+  "description": "_**Guardian:** 14th level_\nYou can use your action and expend a use of your Channel the Force ability to end one force power on yourself or on one willing creature that you touch.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Crimson Order",
   "level": 6,
-  "description": "_**Crimson Order:** 6th, 11th, and 17th level_\nYou've learned to enhance your kata. As a bonus action while wielding a monk weapon, you can expend 1 focus point to cause the area within 5 feet of you to become difficult terrain for hostile creatures for 1 minute. This area travels with you, and affected creatures within the area can not make opportunity attacks.\nAt 11th level, the range of this area increases to 15 feet, and at 17th level, the range of this area increases to 30 feet."
+  "description": "_**Crimson Order:** 6th, 11th, and 17th level_\nYou've learned to enhance your kata. As a bonus action while wielding a monk weapon, you can expend 1 focus point to cause the area within 5 feet of you to become difficult terrain for hostile creatures for 1 minute. This area travels with you, and affected creatures within the area can not make opportunity attacks.\nAt 11th level, the range of this area increases to 15 feet, and at 17th level, the range of this area increases to 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

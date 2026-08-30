@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Sentinel",
   "level": 2,
-  "description": "_**Sentinel:** 2nd level_\nYou adopt ideals that exemplify your bond with the Force. You adopt two ideals of your choice, as detailed at the end of the class description, and you adopt more at higher levels, as shown in the Ideals Known column of the sentinel table.\nYou can manifest your ideals a combined total of twice, and you can manifest them more times at higher levels as shown in the Ideal Manifests column of the sentinel table."
+  "description": "_**Sentinel:** 2nd level_\nYou adopt ideals that exemplify your bond with the Force. You adopt two ideals of your choice, as detailed at the end of the class description, and you adopt more at higher levels, as shown in the Ideals Known column of the sentinel table.\nYou can manifest your ideals a combined total of twice, and you can manifest them more times at higher levels as shown in the Ideal Manifests column of the sentinel table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

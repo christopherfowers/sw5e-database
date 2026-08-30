@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Bloodstorm Approach",
   "level": 10,
-  "description": "_**Bloodstorm Approach:** 10th level_\nYou learn to throw creatures as easily as you throw your weapons. When you successfully grapple a creature, you may immediately throw the creature.\n#### Throw Friend\nIf the creature is a willing ally and volunteers to be grappled, you throw the target into any unoccupied space within 60 feet. That creature may immediately use its reaction to make one melee weapon attack, adding your Strength modifier to the attack's damage roll.\n#### Throw Foe\nIf the creature is an opponent, you throw the target into any unoccupied space within 30 feet, where it takes damage equal to your Strength modifier and falls prone."
+  "description": "_**Bloodstorm Approach:** 10th level_\nYou learn to throw creatures as easily as you throw your weapons. When you successfully grapple a creature, you may immediately throw the creature.\n#### Throw Friend\nIf the creature is a willing ally and volunteers to be grappled, you throw the target into any unoccupied space within 60 feet. That creature may immediately use its reaction to make one melee weapon attack, adding your Strength modifier to the attack's damage roll.\n#### Throw Foe\nIf the creature is an opponent, you throw the target into any unoccupied space within 30 feet, where it takes damage equal to your Strength modifier and falls prone.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

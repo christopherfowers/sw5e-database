@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Assault Specialist",
   "level": 3,
-  "description": "_**Assault Specialist:** 3rd level_\nYour critical hit range with weapons increases by 1."
+  "description": "_**Assault Specialist:** 3rd level_\nYour critical hit range with weapons increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

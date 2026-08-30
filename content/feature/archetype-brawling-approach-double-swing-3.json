@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Brawling Approach",
   "level": 3,
-  "description": "_**Cyclone Approach:** 3rd level_\nOnce on each of your turns when you miss with an attack while raging, you can immediately make a melee attack with the weapon in your other hand."
+  "description": "_**Cyclone Approach:** 3rd level_\nOnce on each of your turns when you miss with an attack while raging, you can immediately make a melee attack with the weapon in your other hand.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

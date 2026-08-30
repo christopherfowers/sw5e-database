@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Manipulation",
   "level": 10,
-  "description": "_**Way of Manipulation:** 10th level_\nYou can direct your animated weapons to absorb damage while your Saber Storm is activate. When you take damage, you can use your reaction to expend a number of force points up to your proficiency bonus to have your animated weapon intercept it, and reduce that damage to you by an amount equal to five times the number of points spent."
+  "description": "_**Way of Manipulation:** 10th level_\nYou can direct your animated weapons to absorb damage while your Saber Storm is activate. When you take damage, you can use your reaction to expend a number of force points up to your proficiency bonus to have your animated weapon intercept it, and reduce that damage to you by an amount equal to five times the number of points spent.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

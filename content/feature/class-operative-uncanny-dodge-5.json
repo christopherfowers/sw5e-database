@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Operative",
   "level": 5,
-  "description": "_**Operative:** 5th level_\nWhen an attacker that you can see deals damage to you with an attack, you can use your reaction to halve the attack's damage against you."
+  "description": "_**Operative:** 5th level_\nWhen an attacker that you can see deals damage to you with an attack, you can use your reaction to halve the attack's damage against you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

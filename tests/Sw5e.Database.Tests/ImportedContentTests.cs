@@ -240,6 +240,32 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
         features.Count(feature => LegacyArchive.Text(feature, "grantedBy") == "class").ShouldBe(218);
         features.Count(feature => LegacyArchive.Text(feature, "grantedBy") == "archetype").ShouldBe(871);
 
+        // A feature is printed inside whatever grants it, so its provenance is
+        // that entry's. The archive supplies none of its own, and the site
+        // refuses to publish an item it cannot attribute to a book, so a
+        // feature that lost this would simply not appear.
+        var provenance = ByKey(documents, "class").Values
+            .Concat(archetypes.Values)
+            .ToDictionary(
+                document => LegacyArchive.Text(document, "name")!,
+                document => (LegacyArchive.Text(document, "sourceKey"),
+                             LegacyArchive.Text(document, "contentSet")),
+                StringComparer.Ordinal);
+
+        foreach (var feature in features)
+        {
+            var expected = provenance[LegacyArchive.Text(feature, "grantedByName")!];
+
+            (LegacyArchive.Text(feature, "sourceKey"), LegacyArchive.Text(feature, "contentSet"))
+                .ShouldBe(expected, LegacyArchive.Text(feature, "key"));
+        }
+
+        // Ataru Form is expanded content, so everything it grants is too — the
+        // archive's storage partition files two of its features under Core,
+        // and it is the partition that is wrong.
+        ByKey(documents, "feature")["archetype-ataru-form-hawk-bat-swoop-7"]["sourceKey"]!
+            .GetValue<string>().ShouldBe("ec");
+
         // Every class grants at least one feature at 1st level, or a character
         // could take it and gain nothing.
         foreach (var className in classNames)

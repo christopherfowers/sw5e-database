@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Soresu Form",
   "level": 3,
-  "description": "_**Soresu Form:** 3rd level_\nYou gain proficiency in heavy armor."
+  "description": "_**Soresu Form:** 3rd level_\nYou gain proficiency in heavy armor.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Lethality Practice",
   "level": 3,
-  "description": "_**Lethality Practice:** 3rd level_\nWhen you hit a creature that you are hidden from with a weapon attack, you can choose to turn that hit into a critical hit. If the attack reduces the creature to 0 hit points, it does not automatically reveal your presence to any remaining creatures. Make a Dexterity (Stealth) check contested by the creatures' Wisdom (Perception) check. On a success, you remain hidden. If you would already be able to make a Dexterity (Stealth) check to remain hidden as part of the attack, you instead gain advantage on the check.\nYou can use this feature once. You gain an additional use at 9th and 17th level. You regain all expended uses when you finish a long rest."
+  "description": "_**Lethality Practice:** 3rd level_\nWhen you hit a creature that you are hidden from with a weapon attack, you can choose to turn that hit into a critical hit. If the attack reduces the creature to 0 hit points, it does not automatically reveal your presence to any remaining creatures. Make a Dexterity (Stealth) check contested by the creatures' Wisdom (Perception) check. On a success, you remain hidden. If you would already be able to make a Dexterity (Stealth) check to remain hidden as part of the attack, you instead gain advantage on the check.\nYou can use this feature once. You gain an additional use at 9th and 17th level. You regain all expended uses when you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

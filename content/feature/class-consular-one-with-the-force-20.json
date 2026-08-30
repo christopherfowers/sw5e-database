@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Consular",
   "level": 20,
-  "description": "_**Consular:** 20th level_\nYour attunement to the Force is absolute. Your Wisdom or Charisma score increases by 4, and your maximum for this score increases by 4. Additionally, you gain mastery over a single force power, and can cast it with little effort. Choose one 3rd-level force power that you know as your signature power. You can cast it once at 3rd level without expending force points. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast it at a higher level, you must expend force points as normal."
+  "description": "_**Consular:** 20th level_\nYour attunement to the Force is absolute. Your Wisdom or Charisma score increases by 4, and your maximum for this score increases by 4. Additionally, you gain mastery over a single force power, and can cast it with little effort. Choose one 3rd-level force power that you know as your signature power. You can cast it once at 3rd level without expending force points. When you do so, you can't do so again until you finish a short or long rest.\nIf you want to cast it at a higher level, you must expend force points as normal.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

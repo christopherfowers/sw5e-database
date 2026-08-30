@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Occultist Pursuit",
   "level": 6,
-  "description": "_**Occultist Pursuit:** 6th level_\nWhen you use your Curse of Objurgation feature, each time the cursed creature deals damage to you or an allied creature you can see within 5 feet of you, the creature takes psychic damage equal to twice your Critical Analysis ability modifer (minimum of 2)."
+  "description": "_**Occultist Pursuit:** 6th level_\nWhen you use your Curse of Objurgation feature, each time the cursed creature deals damage to you or an allied creature you can see within 5 feet of you, the creature takes psychic damage equal to twice your Critical Analysis ability modifer (minimum of 2).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

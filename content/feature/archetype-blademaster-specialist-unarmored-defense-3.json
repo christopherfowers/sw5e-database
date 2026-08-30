@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Blademaster Specialist",
   "level": 3,
-  "description": "_**Blademaster Specialist:** 3rd level_\nWhile you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Strength modifier."
+  "description": "_**Blademaster Specialist:** 3rd level_\nWhile you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Strength modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

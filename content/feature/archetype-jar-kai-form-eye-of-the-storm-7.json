@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Jar'Kai Form",
   "level": 7,
-  "description": "_**Jar'Kai Form:** 7th level_\nWhen you score a critical hit with a melee weapon attack, you regain an expended use of your Channel the Force."
+  "description": "_**Jar'Kai Form:** 7th level_\nWhen you score a critical hit with a melee weapon attack, you regain an expended use of your Channel the Force.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

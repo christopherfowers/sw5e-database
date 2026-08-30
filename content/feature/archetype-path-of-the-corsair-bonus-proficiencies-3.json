@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of the Corsair",
   "level": 3,
-  "description": "_**Path of the Corsair:** 3rd level_\nYou gain proficiency with demolitions kits and three blasters of your choice."
+  "description": "_**Path of the Corsair:** 3rd level_\nYou gain proficiency with demolitions kits and three blasters of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

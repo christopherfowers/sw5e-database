@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Tactical Specialist",
   "level": 3,
-  "description": "_**Tactical Specialist:** 3rd level_\nYou choose a maneuver you know from this class as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round."
+  "description": "_**Tactical Specialist:** 3rd level_\nYou choose a maneuver you know from this class as your signature maneuver. Whenever you use that maneuver, you can use it without expending a Superiority Dice. You may only use this feature once per round.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

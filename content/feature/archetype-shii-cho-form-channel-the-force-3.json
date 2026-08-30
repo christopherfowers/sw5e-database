@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Shii-Cho Form",
   "level": 3,
-  "description": "_**Shii-Cho Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Disarming Slash\nWhen you hit a creature with a melee weapon attack, you can expend a use of your Channel the Force (no action required)  to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The creature must make a Strength saving throw against your universal force save DC. On a failed save, it drops the object you choose. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet."
+  "description": "_**Shii-Cho Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Disarming Slash\nWhen you hit a creature with a melee weapon attack, you can expend a use of your Channel the Force (no action required)  to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The creature must make a Strength saving throw against your universal force save DC. On a failed save, it drops the object you choose. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Occultist Pursuit",
   "level": 3,
-  "description": "_**Occultist Pursuit:** 3rd level_\nYou gain proficiency in the Lore and Nature skills. Additionally, you can't have disadvantage on checks you make with them."
+  "description": "_**Occultist Pursuit:** 3rd level_\nYou gain proficiency in the Lore and Nature skills. Additionally, you can't have disadvantage on checks you make with them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

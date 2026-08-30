@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Sentinel",
   "level": 1,
-  "description": "_**Sentinel:** 1st level_\nYou can add half your proficiency bonus to any ability check you make that doesn't already include your proficiency bonus."
+  "description": "_**Sentinel:** 1st level_\nYou can add half your proficiency bonus to any ability check you make that doesn't already include your proficiency bonus.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

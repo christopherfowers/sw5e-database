@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Jar'Kai Form",
   "level": 3,
-  "description": "_**Jar'Kai Form:** 3rd level_\nAs a bonus action, you can enter a destructive stance for one minute. While in this stance, you can add half your Strength or Dexterity modifier (your choice, minimum of one) to any melee weapon damage roll you make that doesn't already include that modifier. Additionally, when you hit a creature with a melee weapon attack, you can move up to 5 feet without provoking opportunity attacks.\nThis effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest."
+  "description": "_**Jar'Kai Form:** 3rd level_\nAs a bonus action, you can enter a destructive stance for one minute. While in this stance, you can add half your Strength or Dexterity modifier (your choice, minimum of one) to any melee weapon damage roll you make that doesn't already include that modifier. Additionally, when you hit a creature with a melee weapon attack, you can move up to 5 feet without provoking opportunity attacks.\nThis effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

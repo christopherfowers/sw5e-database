@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Frenzied Approach",
   "level": 3,
-  "description": "_**Frenzied Approach:** 3rd level_\nWhile raging, you have advantage on Charisma (Intimidation) checks."
+  "description": "_**Frenzied Approach:** 3rd level_\nWhile raging, you have advantage on Charisma (Intimidation) checks.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

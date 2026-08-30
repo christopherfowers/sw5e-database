@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Balance",
   "level": 14,
-  "description": "_**Way of Balance:** 14th level_\nWhen you cast a force power that requires you to make an ability check as a part of casting that power, such as *sever force* or *force suppression*, you add your proficiency bonus to that ability check."
+  "description": "_**Way of Balance:** 14th level_\nWhen you cast a force power that requires you to make an ability check as a part of casting that power, such as *sever force* or *force suppression*, you add your proficiency bonus to that ability check.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

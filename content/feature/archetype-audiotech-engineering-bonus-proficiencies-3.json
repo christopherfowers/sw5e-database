@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Audiotech Engineering",
   "level": 3,
-  "description": "_**Audiotech Engineering:** 3rd level_\nYou gain proficiency in three musical instruments and audiotech's implements. Additionally, when you engage in crafting with audiotech's implements, the rate at which you craft doubles."
+  "description": "_**Audiotech Engineering:** 3rd level_\nYou gain proficiency in three musical instruments and audiotech's implements. Additionally, when you engage in crafting with audiotech's implements, the rate at which you craft doubles.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

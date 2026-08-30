@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Scout",
   "level": 7,
-  "description": "_**Scout:** 3rd, 7th, 11th, and 15th level_\nYou choose to focus on a specific scout technique, which is detailed at the end of the class description."
+  "description": "_**Scout:** 3rd, 7th, 11th, and 15th level_\nYou choose to focus on a specific scout technique, which is detailed at the end of the class description.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

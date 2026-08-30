@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Hunter Technique",
   "level": 7,
-  "description": "_**Hunter Technique:** 7th level_\nYou gain one of the following features of your choice.\n#### Escape the Horde\nOpportunity attacks against you are made with disadvantage.\n#### Multiattack Defense\nWhen a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.\n#### Steel Will\nYou have advantage on saving throws against being frightened."
+  "description": "_**Hunter Technique:** 7th level_\nYou gain one of the following features of your choice.\n#### Escape the Horde\nOpportunity attacks against you are made with disadvantage.\n#### Multiattack Defense\nWhen a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.\n#### Steel Will\nYou have advantage on saving throws against being frightened.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

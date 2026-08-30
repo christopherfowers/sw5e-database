@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Tactical Specialist",
   "level": 3,
-  "description": "_**Tactical Specialist:** 3rd level_\nYou gain proficiency in your choice of artisan's implements."
+  "description": "_**Tactical Specialist:** 3rd level_\nYou gain proficiency in your choice of artisan's implements.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

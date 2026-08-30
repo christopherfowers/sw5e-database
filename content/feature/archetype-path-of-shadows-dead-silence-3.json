@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of Shadows",
   "level": 3,
-  "description": "_**Path of Shadows:** 3rd level_\nYou learn the *psychic charge* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and when you hit a creature with the *psychic charge* force power and the target tries to speak, it takes additional damage equal to your Wisdom or Charisma modifier (your choice, minimum of +1), and its voice does not produce sound until the end of your next turn."
+  "description": "_**Path of Shadows:** 3rd level_\nYou learn the *psychic charge* force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and when you hit a creature with the *psychic charge* force power and the target tries to speak, it takes additional damage equal to your Wisdom or Charisma modifier (your choice, minimum of +1), and its voice does not produce sound until the end of your next turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

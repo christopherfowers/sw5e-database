@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Bulwark Technique",
   "level": 3,
-  "description": "_**Bulwark Technique:** 3rd level_\nYou gain proficiency in heavy armor."
+  "description": "_**Bulwark Technique:** 3rd level_\nYou gain proficiency in heavy armor.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

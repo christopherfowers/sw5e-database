@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Explorer Pursuit",
   "level": 17,
-  "description": "_**Explorer Pursuit:** 17th level_\nWhen you use the Surveyed Area feature, the area affected is a 30-foot cube instead of a 15-foot cube."
+  "description": "_**Explorer Pursuit:** 17th level_\nWhen you use the Surveyed Area feature, the area affected is a 30-foot cube instead of a 15-foot cube.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

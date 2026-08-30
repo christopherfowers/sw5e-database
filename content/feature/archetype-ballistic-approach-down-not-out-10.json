@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Ballistic Approach",
   "level": 10,
-  "description": "_**Ballistic Approach:** 10th level_\nWhen you are hit with an attack by a creature within 30 feet of you, you can use your reaction to make a single attack against that creature with a blaster with which you are proficient."
+  "description": "_**Ballistic Approach:** 10th level_\nWhen you are hit with an attack by a creature within 30 feet of you, you can use your reaction to make a single attack against that creature with a blaster with which you are proficient.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

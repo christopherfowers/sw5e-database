@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Detective Pursuit",
   "level": 3,
-  "description": "_**Detective Pursuit:** 3rd level_\nYou gain proficiency in martial vibroweapons and the Investigation skill. Additionally, you can't have disadvantage on checks you make with it."
+  "description": "_**Detective Pursuit:** 3rd level_\nYou gain proficiency in martial vibroweapons and the Investigation skill. Additionally, you can't have disadvantage on checks you make with it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

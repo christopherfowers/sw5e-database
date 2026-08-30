@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Heavy Weapons Specialist",
   "level": 3,
-  "description": "_**Heavy Weapons Specialist:** 3rd level_\nYou have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn."
+  "description": "_**Heavy Weapons Specialist:** 3rd level_\nYou have learned to use the heft of your weapon to root yourself in place. At the end of each of your turns, if you move less than half your speed while wielding a weapon with the heavy or strength properties, you have advantage on saving throws to avoid being restrained, moved, or knocked prone. This advantage lasts until the end of your next turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

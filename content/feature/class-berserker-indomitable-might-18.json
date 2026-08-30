@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Berserker",
   "level": 18,
-  "description": "_**Berserker:** 18th level_\nIf your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+  "description": "_**Berserker:** 18th level_\nIf your total for a Strength check is less than your Strength score, you can use that score in place of the total.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Maverick Practice",
   "level": 3,
-  "description": "_**Maverick Practice:** 3rd level_\nYou can add half your proficiency bonus to any ability check you make that doesn't already include your proficiency bonus."
+  "description": "_**Maverick Practice:** 3rd level_\nYou can add half your proficiency bonus to any ability check you make that doesn't already include your proficiency bonus.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

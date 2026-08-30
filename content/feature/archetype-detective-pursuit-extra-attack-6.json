@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Detective Pursuit",
   "level": 6,
-  "description": "_**Detective Pursuit:** 6th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn."
+  "description": "_**Detective Pursuit:** 6th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Fighter",
   "level": 11,
-  "description": "_**Fighter:** 11th level_\nYou can attack three times, instead of twice, whenever you take the Attack action on your turn.\nAdditionally, when you use a bonus action to engage in Double- or Two-Weapon Fighting, you can make two attacks, instead of one."
+  "description": "_**Fighter:** 11th level_\nYou can attack three times, instead of twice, whenever you take the Attack action on your turn.\nAdditionally, when you use a bonus action to engage in Double- or Two-Weapon Fighting, you can make two attacks, instead of one.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

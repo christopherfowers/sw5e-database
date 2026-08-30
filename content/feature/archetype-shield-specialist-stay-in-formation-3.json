@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Shield Specialist",
   "level": 3,
-  "description": "_**Shield Specialist:** 3rd level_\nYou can take the Guard action as a bonus action on your turn."
+  "description": "_**Shield Specialist:** 3rd level_\nYou can take the Guard action as a bonus action on your turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Assault Specialist",
   "level": 10,
-  "description": "_**Assault Specialist:** 10th level_\nYou can choose a second fighting style option."
+  "description": "_**Assault Specialist:** 10th level_\nYou can choose a second fighting style option.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

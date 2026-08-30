@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Geneticist Pursuit",
   "level": 3,
-  "description": "_**Geneticist Pursuit:** 3rd level_\nYou gain proficiency with geneticist's implements and your choice of Medicine or Survival skills. Additionally, you can't have disadvantage on checks you make with them."
+  "description": "_**Geneticist Pursuit:** 3rd level_\nYou gain proficiency with geneticist's implements and your choice of Medicine or Survival skills. Additionally, you can't have disadvantage on checks you make with them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

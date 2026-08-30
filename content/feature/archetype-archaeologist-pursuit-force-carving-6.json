@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Archaeologist Pursuit",
   "level": 6,
-  "description": "_**Archaeologist Pursuit:** 6th level_\nYou have unlocked more control over the Force, allowing you to choose wisely who it affects. When you cast a force power that affects other creatures that you can see, you can choose a number of them equal to 1 + the power's level. The chosen creatures automatically succeed on their saving throws against the power, and they take no damage if they would normally take half damage on a successful save."
+  "description": "_**Archaeologist Pursuit:** 6th level_\nYou have unlocked more control over the Force, allowing you to choose wisely who it affects. When you cast a force power that affects other creatures that you can see, you can choose a number of them equal to 1 + the power's level. The chosen creatures automatically succeed on their saving throws against the power, and they take no damage if they would normally take half damage on a successful save.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

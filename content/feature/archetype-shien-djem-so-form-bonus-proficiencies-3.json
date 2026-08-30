@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Shien/Djem So Form",
   "level": 3,
-  "description": "_**Shien/Djem So Form:** 3rd level_\nYou gain proficiency in heavy armor."
+  "description": "_**Shien/Djem So Form:** 3rd level_\nYou gain proficiency in heavy armor.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Blademaster Specialist",
   "level": 7,
-  "description": "_**Blademaster Specialist:** 7th level_\nWhen you score a critical hit with a melee weapon attack, you regain an expended use of your Adaptive Fighting."
+  "description": "_**Blademaster Specialist:** 7th level_\nWhen you score a critical hit with a melee weapon attack, you regain an expended use of your Adaptive Fighting.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

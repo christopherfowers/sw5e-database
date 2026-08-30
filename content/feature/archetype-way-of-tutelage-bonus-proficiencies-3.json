@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Tutelage",
   "level": 3,
-  "description": "_**Way of Tutelage:** 3rd level_\nYou gain proficiency in your choice of Intimidation or Persuasion."
+  "description": "_**Way of Tutelage:** 3rd level_\nYou gain proficiency in your choice of Intimidation or Persuasion.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

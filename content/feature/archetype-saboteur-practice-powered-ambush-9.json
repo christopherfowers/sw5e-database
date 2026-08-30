@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Saboteur Practice",
   "level": 9,
-  "description": "_**Saboteur Practice:** 9th level_\nIf you are hidden from a creature when you cast a power on it, the creature has disadvantage on any saving throw it makes against the power this turn."
+  "description": "_**Saboteur Practice:** 9th level_\nIf you are hidden from a creature when you cast a power on it, the creature has disadvantage on any saving throw it makes against the power this turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

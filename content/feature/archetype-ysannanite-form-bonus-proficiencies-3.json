@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Ysannanite Form",
   "level": 3,
-  "description": "_**Ysannanite Form:** 3rd level_\nYou gain proficiency in simple blasters and martial blasters that lack the two-handed property."
+  "description": "_**Ysannanite Form:** 3rd level_\nYou gain proficiency in simple blasters and martial blasters that lack the two-handed property.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

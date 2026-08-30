@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Exhibition Specialist",
   "level": 3,
-  "description": "_**Exhibition Specialist:** 3rd level_\nYou gain proficiency in one Charisma skill of your choice."
+  "description": "_**Exhibition Specialist:** 3rd level_\nYou gain proficiency in one Charisma skill of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

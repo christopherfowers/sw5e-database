@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Archaeologist Pursuit",
   "level": 3,
-  "description": "_**Archaeologist Pursuit:** 3rd level_\nWhen you analyze a hostile creature, you can use maneuvers that require a weapon attack when you cast a force power that requires a force attack and you can use maneuvers that require a hit with a weapon attack when a creature fails a saving throw against a force power you cast."
+  "description": "_**Archaeologist Pursuit:** 3rd level_\nWhen you analyze a hostile creature, you can use maneuvers that require a weapon attack when you cast a force power that requires a force attack and you can use maneuvers that require a hit with a weapon attack when a creature fails a saving throw against a force power you cast.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of the Corsair",
   "level": 3,
-  "description": "_**Path of the Corsair:** 3rd level_\nYou learn the *force disarm* force power, which does not count against your total powers known. Additionally, you can use Double Strike Force-Empowered Self option to deal kinetic damage when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* force power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action."
+  "description": "_**Path of the Corsair:** 3rd level_\nYou learn the *force disarm* force power, which does not count against your total powers known. Additionally, you can use Double Strike Force-Empowered Self option to deal kinetic damage when you cast it as your action and the target fails its save. Finally, when you cast the *force disarm* force power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

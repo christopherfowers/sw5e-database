@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Bulwark Technique",
   "level": 3,
-  "description": "_**Bulwark Technique:** 3rd level_\nWhen the target of your Ranger's Quarry feature makes a melee attack against a friendly creature within 5 feet of you, you can use your reaction to force the attack to target you instead. If the attack hits, and your Personal Barrier has hit points, the attacking creature takes bonus damage equal to your Ranger's Quarry Damage Die."
+  "description": "_**Bulwark Technique:** 3rd level_\nWhen the target of your Ranger's Quarry feature makes a melee attack against a friendly creature within 5 feet of you, you can use your reaction to force the attack to target you instead. If the attack hits, and your Personal Barrier has hit points, the attacking creature takes bonus damage equal to your Ranger's Quarry Damage Die.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

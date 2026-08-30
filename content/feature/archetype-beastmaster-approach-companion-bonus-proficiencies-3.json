@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Beastmaster Approach (Companion)",
   "level": 3,
-  "description": "_**Beastmaster Approach:** 3rd level_\nYou gain proficiency in Animal Handling."
+  "description": "_**Beastmaster Approach:** 3rd level_\nYou gain proficiency in Animal Handling.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

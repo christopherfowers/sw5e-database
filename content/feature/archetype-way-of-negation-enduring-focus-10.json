@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Negation",
   "level": 10,
-  "description": "_**Way of Negation:** 10th level_\nYou can casually deflect attacks while channeling your power. While you are concentrating on a Force power, you have a +2 bonus to your AC and all saving throws.\nAdditionally, you can extend your Force Deflection to a creature within 5 feet of you when they fail a saving throw."
+  "description": "_**Way of Negation:** 10th level_\nYou can casually deflect attacks while channeling your power. While you are concentrating on a Force power, you have a +2 bonus to your AC and all saving throws.\nAdditionally, you can extend your Force Deflection to a creature within 5 feet of you when they fail a saving throw.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

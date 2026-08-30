@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Sokan Form",
   "level": 3,
-  "description": "_**Sokan Form:** 3rd level_\nAs a bonus action, you can enter an unyielding stance for one minute. While in this stance, you have advantage on ability checks and saving throws to shove, trip, and avoid being moved, and you ignore difficult terrain. Additionally, once per turn, when you hit with a melee weapon attack, you can attempt to shove the target up to 10 feet away from you (no action required).\nThis effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest."
+  "description": "_**Sokan Form:** 3rd level_\nAs a bonus action, you can enter an unyielding stance for one minute. While in this stance, you have advantage on ability checks and saving throws to shove, trip, and avoid being moved, and you ignore difficult terrain. Additionally, once per turn, when you hit with a melee weapon attack, you can attempt to shove the target up to 10 feet away from you (no action required).\nThis effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Deadeye Technique",
   "level": 3,
-  "description": "_**Deadeye Technique:** 3rd level_\nThe range of your Ranger's Quarry feature doubles. Additionally, when making ranged weapon attacks against the target of your Ranger's Quarry, the normal and long range of your blaster weapons double."
+  "description": "_**Deadeye Technique:** 3rd level_\nThe range of your Ranger's Quarry feature doubles. Additionally, when making ranged weapon attacks against the target of your Ranger's Quarry, the normal and long range of your blaster weapons double.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

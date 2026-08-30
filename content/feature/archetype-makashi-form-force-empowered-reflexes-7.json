@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Makashi Form",
   "level": 7,
-  "description": "_**Makashi Form:** 7th level_\nYou can take a second reaction each round."
+  "description": "_**Makashi Form:** 7th level_\nYou can take a second reaction each round.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

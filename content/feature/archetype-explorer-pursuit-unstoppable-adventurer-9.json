@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Explorer Pursuit",
   "level": 9,
-  "description": "_**Explorer Pursuit:** 9th level_\nYou learn to swim and scale vertical surfaces with ease. You gain swimming and climbing speed equal to your walking speed.\nAdditionally, your Sage Advice feature can be used to give friendly creatures knowledge on how to swim or climb, provided you have a swimming or climbing speed. Chosen creatures have a swimming speed or climbing speed for the entire duration."
+  "description": "_**Explorer Pursuit:** 9th level_\nYou learn to swim and scale vertical surfaces with ease. You gain swimming and climbing speed equal to your walking speed.\nAdditionally, your Sage Advice feature can be used to give friendly creatures knowledge on how to swim or climb, provided you have a swimming or climbing speed. Chosen creatures have a swimming speed or climbing speed for the entire duration.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

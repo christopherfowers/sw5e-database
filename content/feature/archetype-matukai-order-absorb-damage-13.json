@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Matukai Order",
   "level": 13,
-  "description": "_**Matukai Order:** 11th, 13th, and 17th level_\nYou learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a bonus action to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.\nYou can use this feature four times. You gain an additional use at 13th and 17th level. You regain all expended uses when you finish a long rest."
+  "description": "_**Matukai Order:** 11th, 13th, and 17th level_\nYou learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a bonus action to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.\nYou can use this feature four times. You gain an additional use at 13th and 17th level. You regain all expended uses when you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

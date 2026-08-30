@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Brawling Approach",
   "level": 3,
-  "description": "_**Brawling Approach:** 3rd level_\nYou've learned to hone your rage through your fists. Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8)."
+  "description": "_**Brawling Approach:** 3rd level_\nYou've learned to hone your rage through your fists. Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

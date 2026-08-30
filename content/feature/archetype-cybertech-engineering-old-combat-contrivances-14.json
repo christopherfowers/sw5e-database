@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Cybertech Engineering (Old)",
   "level": 14,
-  "description": "_**Cybertech Engineering (Old):** 14th level_\nWhen you use your action to a cast a 1st-level or higher tech power, you can use your bonus action to gain temporary hit points equal to the level of the tech power + your Intelligence modifier."
+  "description": "_**Cybertech Engineering (Old):** 14th level_\nWhen you use your action to a cast a 1st-level or higher tech power, you can use your bonus action to gain temporary hit points equal to the level of the tech power + your Intelligence modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of Focus",
   "level": 3,
-  "description": "_**Path of Focus:** 3rd level_\nWhen you deal damage to a creature within 5 feet of you, you can move up to 10 feet without provoking opportunity attacks."
+  "description": "_**Path of Focus:** 3rd level_\nWhen you deal damage to a creature within 5 feet of you, you can move up to 10 feet without provoking opportunity attacks.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

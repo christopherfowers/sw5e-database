@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Confluence",
   "level": 3,
-  "description": "_**Way of Confluence:** 3rd level_\nWhen you reduce a hostile creature to 0 hit points with a force power, or restore hit points to a creature with 0 hit points with a force power, you gain temporary hit points equal to half your consular level + your Wisdom or Charisma modifier (your choice, minimum of one)."
+  "description": "_**Way of Confluence:** 3rd level_\nWhen you reduce a hostile creature to 0 hit points with a force power, or restore hit points to a creature with 0 hit points with a force power, you gain temporary hit points equal to half your consular level + your Wisdom or Charisma modifier (your choice, minimum of one).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

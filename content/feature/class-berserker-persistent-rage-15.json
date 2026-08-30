@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Berserker",
   "level": 15,
-  "description": "_**Berserker:** 15th level_\nYour rage is so fierce that it ends early only if you fall unconscious or if you choose to end it."
+  "description": "_**Berserker:** 15th level_\nYour rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

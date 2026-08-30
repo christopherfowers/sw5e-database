@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Monk",
   "level": 4,
-  "description": "_**Monk:** 4th level_\nYou can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level."
+  "description": "_**Monk:** 4th level_\nYou can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

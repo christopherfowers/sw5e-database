@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Explorer Pursuit",
   "level": 3,
-  "description": "_**Explorer Pursuit:** 3rd level_\nYou gain proficiency in two of the Perception, Piloting, Survival, and Acrobatics skills. Additionally, you can't have disadvantage on checks you make with them."
+  "description": "_**Explorer Pursuit:** 3rd level_\nYou gain proficiency in two of the Perception, Piloting, Survival, and Acrobatics skills. Additionally, you can't have disadvantage on checks you make with them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

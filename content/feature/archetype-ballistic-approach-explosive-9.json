@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Ballistic Approach",
   "level": 9,
-  "description": "_**Ballistic Approach:** 3rd and 9th level_\nWhile raging, you gain the following benefits:\n- Your blaster weapon damage rolls gain a minimum roll threshold, discussed in chapter 7.\n- You add your rage damage to damage rolls from ranged weapon attacks using Strength.\n- At 9th level, when a creature rolls a 1 on a saving throw against your burst or rapid property, you can add your Brutal Critical dice to the damage."
+  "description": "_**Ballistic Approach:** 3rd and 9th level_\nWhile raging, you gain the following benefits:\n- Your blaster weapon damage rolls gain a minimum roll threshold, discussed in chapter 7.\n- You add your rage damage to damage rolls from ranged weapon attacks using Strength.\n- At 9th level, when a creature rolls a 1 on a saving throw against your burst or rapid property, you can add your Brutal Critical dice to the damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Slicer Pursuit",
   "level": 6,
-  "description": "_**Slicer Pursuit:** 6th level_\nWhen a creature succeeds on a saving throw against an at-will tech power you cast that deals damage, the creature takes half the power's damage, but suffers no additional effects of the power."
+  "description": "_**Slicer Pursuit:** 6th level_\nWhen a creature succeeds on a saving throw against an at-will tech power you cast that deals damage, the creature takes half the power's damage, but suffers no additional effects of the power.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

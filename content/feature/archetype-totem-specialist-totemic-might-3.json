@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Totem Specialist",
   "level": 3,
-  "description": "_**Totem Specialist:** 3rd level_\nYou can channel the power of your Force awareness temporarily. As a bonus action, you can gain the following benefits for 1 minute. You can invoke a totem as a part of this same bonus action.\n- Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.\n- You have advantage on Strength checks and Strength saving throws.\n- Your weapon attacks deal an extra 1d6 damage.\nThis effect ends early if you are incapacitated or die. You can use this feature twice. You regain all expended uses of it when you finish a long rest."
+  "description": "_**Totem Specialist:** 3rd level_\nYou can channel the power of your Force awareness temporarily. As a bonus action, you can gain the following benefits for 1 minute. You can invoke a totem as a part of this same bonus action.\n- Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.\n- You have advantage on Strength checks and Strength saving throws.\n- Your weapon attacks deal an extra 1d6 damage.\nThis effect ends early if you are incapacitated or die. You can use this feature twice. You regain all expended uses of it when you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

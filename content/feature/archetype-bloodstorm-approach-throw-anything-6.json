@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Bloodstorm Approach",
   "level": 6,
-  "description": "_**Bloodstorm Approach:** 6th level_\nYour strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a light- or vibro-weapon with which you are proficient, it gains the thrown property (range 20/60)."
+  "description": "_**Bloodstorm Approach:** 6th level_\nYour strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a light- or vibro-weapon with which you are proficient, it gains the thrown property (range 20/60).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

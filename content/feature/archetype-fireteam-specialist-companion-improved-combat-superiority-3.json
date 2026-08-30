@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Fireteam Specialist (Companion)",
   "level": 3,
-  "description": "_**Fireteam Specialist:** 3rd level_\nYour tactical skill in combat improves, granting bonuses to your Combat Superiority.\n#### Improved Maneuvers\nYou know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Superiority table.\n#### Improved Superiority Dice\nYou have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Fireteam Superiority table."
+  "description": "_**Fireteam Specialist:** 3rd level_\nYour tactical skill in combat improves, granting bonuses to your Combat Superiority.\n#### Improved Maneuvers\nYou know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Superiority table.\n#### Improved Superiority Dice\nYou have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Fireteam Superiority table.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

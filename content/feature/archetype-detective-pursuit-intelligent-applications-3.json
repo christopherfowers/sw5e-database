@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Detective Pursuit",
   "level": 3,
-  "description": "_**Detective Pursuit:** 3rd level_\nWhen you analyze a hostile creature with your Critical Analysis, you can use your Critical Analysis ability modifer with any weapon, as long as it does not have the heavy or special properties."
+  "description": "_**Detective Pursuit:** 3rd level_\nWhen you analyze a hostile creature with your Critical Analysis, you can use your Critical Analysis ability modifer with any weapon, as long as it does not have the heavy or special properties.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Slicer Pursuit",
   "level": 3,
-  "description": "_**Slicer Pursuit:** 3rd level_\nYou gain proficiency with slicer's kits and in the Technology skill. Additionally, you can't have disadvantage on checks you make with them."
+  "description": "_**Slicer Pursuit:** 3rd level_\nYou gain proficiency with slicer's kits and in the Technology skill. Additionally, you can't have disadvantage on checks you make with them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

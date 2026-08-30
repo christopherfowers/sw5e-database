@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Blademaster Specialist",
   "level": 10,
-  "description": "_**Blademaster Specialist:** 10th level_\nWhen you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn."
+  "description": "_**Blademaster Specialist:** 10th level_\nWhen you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

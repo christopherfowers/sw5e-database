@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Teleportation Technique",
   "level": 3,
-  "description": "_**Teleportation Technique:** 3rd level_\nOn your turn, when you deal damage to the target of your Ranger's Quarry, and either you, your weapon, or the source of your damage have passed through your portals on this turn, when you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Intelligence modifier (minimum of one) in this way."
+  "description": "_**Teleportation Technique:** 3rd level_\nOn your turn, when you deal damage to the target of your Ranger's Quarry, and either you, your weapon, or the source of your damage have passed through your portals on this turn, when you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Intelligence modifier (minimum of one) in this way.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

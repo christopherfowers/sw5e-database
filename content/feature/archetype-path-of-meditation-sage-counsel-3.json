@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of Meditation",
   "level": 3,
-  "description": "_**Path of Meditation:** 3rd level_\nYou learn the *guidance* force power, which does not count against your total powers known. Additionally, this power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12)."
+  "description": "_**Path of Meditation:** 3rd level_\nYou learn the *guidance* force power, which does not count against your total powers known. Additionally, this power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

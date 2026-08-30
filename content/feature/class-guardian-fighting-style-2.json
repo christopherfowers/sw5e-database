@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Guardian",
   "level": 2,
-  "description": "_**Guardian:** 2nd level_\nYou adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6."
+  "description": "_**Guardian:** 2nd level_\nYou adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

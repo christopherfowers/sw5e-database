@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Berserker",
   "level": 2,
-  "description": "_**Berserker:** 2nd level_\nYou've honed two instincts, as detailed at the end of the class description, and you hone more at higher levels, as shown in the Berserker Instincts column of the berserker table."
+  "description": "_**Berserker:** 2nd level_\nYou've honed two instincts, as detailed at the end of the class description, and you hone more at higher levels, as shown in the Berserker Instincts column of the berserker table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

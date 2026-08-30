@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Aqinos Form",
   "level": 3,
-  "description": "_**Aqinos Form:** 3rd level_\nYou gain proficiency in astrotech's implements and the Technology skill."
+  "description": "_**Aqinos Form:** 3rd level_\nYou gain proficiency in astrotech's implements and the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

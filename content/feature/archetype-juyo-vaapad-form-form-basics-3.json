@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Juyo/Vaapad Form",
   "level": 3,
-  "description": "_**Juyo/Vaapad Form:** 3rd level_\nYou gain your choice of the Juyo or Vaapad lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know the chosen form, you can instead choose another lightsaber form."
+  "description": "_**Juyo/Vaapad Form:** 3rd level_\nYou gain your choice of the Juyo or Vaapad lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know the chosen form, you can instead choose another lightsaber form.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

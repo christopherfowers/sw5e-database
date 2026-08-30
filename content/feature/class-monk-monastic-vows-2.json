@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Monk",
   "level": 2,
-  "description": "_**Monk:** 2nd level_\nYou've sworn two vows, as detailed at the end of the class description. You swear an additional vow at 7th, 13th, and 17th level."
+  "description": "_**Monk:** 2nd level_\nYou've sworn two vows, as detailed at the end of the class description. You swear an additional vow at 7th, 13th, and 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

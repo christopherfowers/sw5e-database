@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Slayer Technique",
   "level": 3,
-  "description": "_**Slayer Technique:** 3rd level_\nYou have advantage on saving throws against being frightened."
+  "description": "_**Slayer Technique:** 3rd level_\nYou have advantage on saving throws against being frightened.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Demolitions Specialist",
   "level": 10,
-  "description": "_**Demolitions Specialist:** 10th level_\nWhen a creature within 5 feet of you makes a melee attack against you, you can use your reaction and throw a charge behind the target. If the target fails its saving throw against the charge, you impose disadvantage on the attack roll made against you."
+  "description": "_**Demolitions Specialist:** 10th level_\nWhen a creature within 5 feet of you makes a melee attack against you, you can use your reaction and throw a charge behind the target. If the target fails its saving throw against the charge, you impose disadvantage on the attack roll made against you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Kage Order",
   "level": 6,
-  "description": "_**Kage Order:** 6th level_\nOnce per turn, when you hit a creature with a melee weapon attack when you have advantage, or it fails a saving throw against an effect that you control, you can choose to roll a Martial Arts die and deal additional psychic damage equal to the amount rolled.\nYou can use this feature a number of times equal to your proficiency bonus, as shown in the monk table. You regain any expended uses when you finish a short or long rest."
+  "description": "_**Kage Order:** 6th level_\nOnce per turn, when you hit a creature with a melee weapon attack when you have advantage, or it fails a saving throw against an effect that you control, you can choose to roll a Martial Arts die and deal additional psychic damage equal to the amount rolled.\nYou can use this feature a number of times equal to your proficiency bonus, as shown in the monk table. You regain any expended uses when you finish a short or long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

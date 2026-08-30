@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Precision Approach",
   "level": 3,
-  "description": "_**Precision Approach:** 3rd level_\nYou gain skills that represent your precise movement. You gain proficiency in your choice of Acrobatics or Stealth. While raging, you have advantage on checks you make with the chosen skill."
+  "description": "_**Precision Approach:** 3rd level_\nYou gain skills that represent your precise movement. You gain proficiency in your choice of Acrobatics or Stealth. While raging, you have advantage on checks you make with the chosen skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

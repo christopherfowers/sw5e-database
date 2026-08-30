@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Scholar",
   "level": 17,
-  "description": "_**Scholar:** 14th and 17th level_\nWhen you make a saving throw caused by an effect you can see, you may gain a bonus to the saving throw equal to your Intelligence modifier.\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a long rest."
+  "description": "_**Scholar:** 14th and 17th level_\nWhen you make a saving throw caused by an effect you can see, you may gain a bonus to the saving throw equal to your Intelligence modifier.\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

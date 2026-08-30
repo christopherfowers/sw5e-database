@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Juggernaut Approach",
   "level": 3,
-  "description": "_**Juggernaut Approach:** 3rd level_\nYou've learned to fight in the heaviest of armors, using your weight to your advantage. You gain proficiency in heavy armor, you can enter a rage while wearing heavy armor, and you can gain the benefits of your Rage feature while wearing heavy armor."
+  "description": "_**Juggernaut Approach:** 3rd level_\nYou've learned to fight in the heaviest of armors, using your weight to your advantage. You gain proficiency in heavy armor, you can enter a rage while wearing heavy armor, and you can gain the benefits of your Rage feature while wearing heavy armor.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

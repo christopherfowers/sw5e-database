@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Audiotech Engineering",
   "level": 14,
-  "description": "_**Audiotech Engineering:** 14th level_\nWhenever you use your Potent Aptitude while your playing an enhanced song, you can roll a d6 and use it instead of expending a Potent Aptitude Dice."
+  "description": "_**Audiotech Engineering:** 14th level_\nWhenever you use your Potent Aptitude while your playing an enhanced song, you can roll a d6 and use it instead of expending a Potent Aptitude Dice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

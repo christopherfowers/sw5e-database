@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Scout",
   "level": 3,
-  "description": "_**Scout:** 3rd level_\nYou've developed one routine, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Routines Known column of the scout table. Your routine has a radius of 5 feet, which increases at higher levels, as shown in the Routine Radius column of the scout table."
+  "description": "_**Scout:** 3rd level_\nYou've developed one routine, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Routines Known column of the scout table. Your routine has a radius of 5 feet, which increases at higher levels, as shown in the Routine Radius column of the scout table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

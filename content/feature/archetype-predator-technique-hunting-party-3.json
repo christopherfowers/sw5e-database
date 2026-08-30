@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Predator Technique",
   "level": 3,
-  "description": "_**Predator Technique:** 3rd, 5th, 9th, 13th, and 17th level_\nWhen you take the Attack action on your turn, you can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack.\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses of it when you finish a long rest."
+  "description": "_**Predator Technique:** 3rd, 5th, 9th, 13th, and 17th level_\nWhen you take the Attack action on your turn, you can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack.\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses of it when you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

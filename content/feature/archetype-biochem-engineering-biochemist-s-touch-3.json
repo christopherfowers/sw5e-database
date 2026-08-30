@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Biochem Engineering",
   "level": 3,
-  "description": "_**Biochem Engineering:** 3rd level_\nWhenever you grant temporary hit points, or deal acid or poison damage using a tech power or class feature, you may expend one use of your Potent Aptitude to increase the potency. When you do so, the amount of temporary hit points you grant or damage you deal is increased by the amount rolled on the die. The damage is the same type as the original damage."
+  "description": "_**Biochem Engineering:** 3rd level_\nWhenever you grant temporary hit points, or deal acid or poison damage using a tech power or class feature, you may expend one use of your Potent Aptitude to increase the potency. When you do so, the amount of temporary hit points you grant or damage you deal is increased by the amount rolled on the die. The damage is the same type as the original damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

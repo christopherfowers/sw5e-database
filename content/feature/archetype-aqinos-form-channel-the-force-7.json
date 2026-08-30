@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Aqinos Form",
   "level": 7,
-  "description": "_**Aqinos Form:** 7th level_\nYou learn your choice of the Cause Harm or Lend Aid Channel the Force options, and when you use either of these options, you gain additional benefits.\n#### Cause Harm\nYou can choose to deal ion damage instead of necrotic.\n#### Lend Aid\nDroids and constructs are now valid targets."
+  "description": "_**Aqinos Form:** 7th level_\nYou learn your choice of the Cause Harm or Lend Aid Channel the Force options, and when you use either of these options, you gain additional benefits.\n#### Cause Harm\nYou can choose to deal ion damage instead of necrotic.\n#### Lend Aid\nDroids and constructs are now valid targets.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

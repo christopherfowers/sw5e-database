@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Path of Tenacity",
   "level": 7,
-  "description": "_**Path of Tenacity:** 7th level_\nYou can extend your Kinetic Ward to a creature within 5 feet of you when they are hit by a melee weapon attack. If this damage is not reduced to 0, the warded creature takes any remaining damage."
+  "description": "_**Path of Tenacity:** 7th level_\nYou can extend your Kinetic Ward to a creature within 5 feet of you when they are hit by a melee weapon attack. If this damage is not reduced to 0, the warded creature takes any remaining damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

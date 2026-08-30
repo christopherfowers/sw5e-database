@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Fireteam Specialist (Companion)",
   "level": 3,
-  "description": "_**Fireteam Specialist:** 3rd level_\nYou gain proficiency in your choice of the Persuasion or Intimidation skill."
+  "description": "_**Fireteam Specialist:** 3rd level_\nYou gain proficiency in your choice of the Persuasion or Intimidation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

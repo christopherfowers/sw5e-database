@@ -102,7 +102,10 @@ public static class LegacyContentImport
             LegacyArchive.Read(archivePath, "SplashclassImprovement"), "class-improvement/splashclass"));
 
         documents.AddRange(Import("archetype", LegacyArchive.Read(archivePath, "Archetype"), "archetype"));
-        documents.AddRange(Import("feature", Features(archivePath), "feature"));
+
+        var features = Import("feature", Features(archivePath), "feature").ToList();
+        AttributeFeatures(features, documents);
+        documents.AddRange(features);
 
         return [.. documents
             .OrderBy(document => Array.IndexOf(ContentTypes, document.ContentType))
@@ -154,6 +157,56 @@ public static class LegacyContentImport
             .Select(group => group
                 .OrderByDescending(record => LegacyArchive.Text(record, "timestamp"), StringComparer.Ordinal)
                 .First());
+
+    /// <summary>
+    /// Gives every feature the provenance of whatever grants it.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// A feature record in the archive carries no source and no content set at
+    /// all — unlike every other type, whose provenance is copied straight
+    /// across. It does carry a storage partition that looks like one, and using
+    /// it would be wrong: the partition disagrees with the granting entry for
+    /// 47 of these 1,089 features, and the partition is the side that must be
+    /// wrong, because a feature is printed inside the class or archetype that
+    /// grants it. An Ataru Form feature cannot be in the Player's Handbook when
+    /// Ataru Form itself is in Expanded Content.
+    /// </para>
+    /// <para>
+    /// This matters beyond a badge. The site refuses to render an item whose
+    /// source it cannot resolve, on the grounds that a library with its
+    /// provenance quietly stripped off hides a disagreement between the content
+    /// set and the mapping. Without this pass, no feature could be published at
+    /// all.
+    /// </para>
+    /// </remarks>
+    private static void AttributeFeatures(
+        IEnumerable<ImportedDocument> features,
+        IEnumerable<ImportedDocument> grantors)
+    {
+        var provenance = grantors
+            .Where(document => document.ContentType is "class" or "archetype")
+            .ToDictionary(
+                document => (document.ContentType, LegacyArchive.Text(document.Document, "name")!),
+                document => (Source: LegacyArchive.Text(document.Document, "sourceKey")!,
+                             Set: LegacyArchive.Text(document.Document, "contentSet")!));
+
+        foreach (var feature in features)
+        {
+            var grantor = (LegacyArchive.Text(feature.Document, "grantedBy")!,
+                           LegacyArchive.Text(feature.Document, "grantedByName")!);
+
+            if (!provenance.TryGetValue(grantor, out var inherited))
+            {
+                throw new InvalidOperationException(
+                    $"'{feature.Key}' is granted by {grantor.Item1} '{grantor.Item2}', which this " +
+                    "import did not produce, so its provenance cannot be established.");
+            }
+
+            feature.Document["sourceKey"] = inherited.Source;
+            feature.Document["contentSet"] = inherited.Set;
+        }
+    }
 
     // ----------------------------------------------------------- adjudication
 

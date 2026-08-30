@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Tactical Specialist",
   "level": 3,
-  "description": "_**Tactical Specialist:** 3rd level_\nYour tactical skill in combat improves, granting bonuses to your Combat Superiority.\n#### Improved Maneuvers\nYou know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Superiority table.\n#### Improved Superiority Dice\nYou have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Tactical Superiority table."
+  "description": "_**Tactical Specialist:** 3rd level_\nYour tactical skill in combat improves, granting bonuses to your Combat Superiority.\n#### Improved Maneuvers\nYou know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Superiority table.\n#### Improved Superiority Dice\nYou have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Tactical Superiority table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

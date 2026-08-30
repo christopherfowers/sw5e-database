@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Rakatan Order",
   "level": 11,
-  "description": "_**Rakatan Order:** 11th level_\nYou can use your Focus features using your tech points. When you do so, your maximum tech points are reduced by 1 until you complete a long rest.\nAdditionally, you are constantly under the effects of the *detect enhancement* tech power. As an action, you can cast the *analyze* tech power without expending tech points. When you do so, *detect enhancement* is suppressed and you can't do so again until you complete a short or long rest."
+  "description": "_**Rakatan Order:** 11th level_\nYou can use your Focus features using your tech points. When you do so, your maximum tech points are reduced by 1 until you complete a long rest.\nAdditionally, you are constantly under the effects of the *detect enhancement* tech power. As an action, you can cast the *analyze* tech power without expending tech points. When you do so, *detect enhancement* is suppressed and you can't do so again until you complete a short or long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

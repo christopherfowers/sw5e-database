@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Nightsister Order",
   "level": 11,
-  "description": "_**Nightsister Order:** 11th level_\nWhen you are reduced to 0 hit points, you can expend 1 focus point (no action required) to have 1 hit point instead."
+  "description": "_**Nightsister Order:** 11th level_\nWhen you are reduced to 0 hit points, you can expend 1 focus point (no action required) to have 1 hit point instead.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

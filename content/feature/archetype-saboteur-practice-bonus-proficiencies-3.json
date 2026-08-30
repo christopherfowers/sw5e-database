@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Saboteur Practice",
   "level": 3,
-  "description": "_**Saboteur Practice:** 3rd level_\nYou gain proficiency in astrotech's implements."
+  "description": "_**Saboteur Practice:** 3rd level_\nYou gain proficiency in astrotech's implements.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

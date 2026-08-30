@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Shii-Cho Form",
   "level": 7,
-  "description": "_**Shii-Cho Form:** 7th level_\nWhile you are wielding a light- or vibro-weapon, opportunity attacks against you are made at disadvantage."
+  "description": "_**Shii-Cho Form:** 7th level_\nWhile you are wielding a light- or vibro-weapon, opportunity attacks against you are made at disadvantage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

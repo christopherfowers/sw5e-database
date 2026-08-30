@@ -26,6 +26,15 @@
       "minLength": 1,
       "description": "Name of the specific class, archetype or species that grants it, matching an entry of the kind named by grantedBy."
     },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this feature was printed in, matching a document of the source content type. A feature is printed inside the class, archetype or species that grants it, so this is that entry's source and cannot differ from it. The archive has no source field of its own on a feature, which is why this is derived rather than copied; its storage partition looks like one and is not, disagreeing with the parent for 47 of the 1,089 class and archetype features."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this feature belongs to the core rules or to the community expanded-content supplement, taken from the entry that grants it for the same reason sourceKey is."
+    },
     "level": {
       "type": "integer",
       "minimum": 1,

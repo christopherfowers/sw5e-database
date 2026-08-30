@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Totem Specialist",
   "level": 3,
-  "description": "_**Totem Specialist:** 3rd level_\nYou gain proficiency with your choice of artist's implements or jeweler's implements."
+  "description": "_**Totem Specialist:** 3rd level_\nYou gain proficiency with your choice of artist's implements or jeweler's implements.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

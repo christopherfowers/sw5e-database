@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Mastermind Technique",
   "level": 3,
-  "description": "_**Mastermind Technique:** 3rd level_\nYou have learned to use your wits to help you survive. While you are wearing light or medium armor, you can use your Intelligence modifier instead of your Dexterity modifier when determining your AC."
+  "description": "_**Mastermind Technique:** 3rd level_\nYou have learned to use your wits to help you survive. While you are wearing light or medium armor, you can use your Intelligence modifier instead of your Dexterity modifier when determining your AC.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

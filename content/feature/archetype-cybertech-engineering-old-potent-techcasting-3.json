@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Cybertech Engineering (Old)",
   "level": 3,
-  "description": "_**Cybertech Engineering (Old):** 3rd level_\nWhen you miss with a tech attack roll, or a creature succeeds on a saving throw against a tech power you cast, you can expend one use of your Potent Aptitude to overwhelm them. Roll the die, and either add it to the attack roll or subtract it from their saving throw."
+  "description": "_**Cybertech Engineering (Old):** 3rd level_\nWhen you miss with a tech attack roll, or a creature succeeds on a saving throw against a tech power you cast, you can expend one use of your Potent Aptitude to overwhelm them. Roll the die, and either add it to the attack roll or subtract it from their saving throw.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

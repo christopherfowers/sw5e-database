@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Cybertech Engineering",
   "level": 3,
-  "description": "***Cybertech Engineering:** 3rd level*\nYou gain proficiency in cybertech's implements. additionally, when you engage in crafting with cybertech's implements, the rate at which you craft doubles."
+  "description": "***Cybertech Engineering:** 3rd level*\nYou gain proficiency in cybertech's implements. additionally, when you engage in crafting with cybertech's implements, the rate at which you craft doubles.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

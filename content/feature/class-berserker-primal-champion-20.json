@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Berserker",
   "level": 20,
-  "description": "_**Berserker:** 20th level_\nYou embody the power of the wilds. Your Strength or Dexterity score increases by 2, and your Constitution score increases by 2. Your maximum for those scores increases by 2.\nAdditionally, you can enter rage an unlimited number of times, and entering rage no longer requires your bonus action on your turn."
+  "description": "_**Berserker:** 20th level_\nYou embody the power of the wilds. Your Strength or Dexterity score increases by 2, and your Constitution score increases by 2. Your maximum for those scores increases by 2.\nAdditionally, you can enter rage an unlimited number of times, and entering rage no longer requires your bonus action on your turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

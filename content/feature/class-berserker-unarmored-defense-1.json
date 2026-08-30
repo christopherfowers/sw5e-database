@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Berserker",
   "level": 1,
-  "description": "_**Berserker:** 1st level_\nWhile you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit."
+  "description": "_**Berserker:** 1st level_\nWhile you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

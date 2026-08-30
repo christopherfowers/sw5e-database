@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Makashi Form",
   "level": 7,
-  "description": "_**Makashi Form:** 7th level_\nIf you spend at least 1 minute observing or interacting with another creature outside combat, you can use your connection to the Force to sense their strengths and weaknesses, and learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:\n- Strength score\n- Dexterity score\n- Wisdom score\n- Charisma score\n- Armor Class\n- Current hit points\n- Total class levels (if any)\n- Total Forcecaster levels (if any)"
+  "description": "_**Makashi Form:** 7th level_\nIf you spend at least 1 minute observing or interacting with another creature outside combat, you can use your connection to the Force to sense their strengths and weaknesses, and learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:\n- Strength score\n- Dexterity score\n- Wisdom score\n- Charisma score\n- Armor Class\n- Current hit points\n- Total class levels (if any)\n- Total Forcecaster levels (if any)",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

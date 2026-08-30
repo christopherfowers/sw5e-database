@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Occultist Pursuit",
   "level": 9,
-  "description": "_**Occultist Pursuit:** 3rd, 5th, 9th, 13th, and 17th level_\nWhen you target a creature with your Critical Analysis, you can choose one ability. While it can see you, the target has disadvantage on ability checks made with the chosen ability.\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest."
+  "description": "_**Occultist Pursuit:** 3rd, 5th, 9th, 13th, and 17th level_\nWhen you target a creature with your Critical Analysis, you can choose one ability. While it can see you, the target has disadvantage on ability checks made with the chosen ability.\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

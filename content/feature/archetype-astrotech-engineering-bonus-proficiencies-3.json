@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Astrotech Engineering",
   "level": 3,
-  "description": "_**Astrotech Engineering:** 3rd level_\nYou gain proficiency in astrotech's implements. Additionally, when you engage in crafting with astrotech's implements, the rate at which you craft doubles."
+  "description": "_**Astrotech Engineering:** 3rd level_\nYou gain proficiency in astrotech's implements. Additionally, when you engage in crafting with astrotech's implements, the rate at which you craft doubles.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

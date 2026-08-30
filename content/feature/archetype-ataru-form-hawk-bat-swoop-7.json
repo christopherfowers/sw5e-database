@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Ataru Form",
   "level": 7,
-  "description": "_**Ataru Form:** 7th level_\nYou gain the ability to move along vertical surfaces without falIing during the move. If you end your turn in the air, you fall immediately to the ground.\nAdditionally, you no longer take damage when falling from a distance no greater than your walking speed."
+  "description": "_**Ataru Form:** 7th level_\nYou gain the ability to move along vertical surfaces without falIing during the move. If you end your turn in the air, you fall immediately to the ground.\nAdditionally, you no longer take damage when falling from a distance no greater than your walking speed.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

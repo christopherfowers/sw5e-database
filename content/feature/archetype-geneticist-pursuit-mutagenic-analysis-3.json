@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Geneticist Pursuit",
   "level": 3,
-  "description": "_**Geneticist Pursuit:** 3rd level_\nWhile you are the target of your Critical Analysis feature, you can add half your Critical Analysis ability modifer (minimum of one) to any saving throw you make that doesn't already include that modifier."
+  "description": "_**Geneticist Pursuit:** 3rd level_\nWhile you are the target of your Critical Analysis feature, you can add half your Critical Analysis ability modifer (minimum of one) to any saving throw you make that doesn't already include that modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
 }

@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Lethality Practice",
   "level": 9,
-  "description": "_**Lethality Practice:** 9th level_\nYou have become a master at avoiding detection.\nWhen you or a creature within 5 feet of you fails a Dexterity (Stealth) check, you can use your reaction to allow that creature to reroll the check. It must use the new roll."
+  "description": "_**Lethality Practice:** 9th level_\nYou have become a master at avoiding detection.\nWhen you or a creature within 5 feet of you fails a Dexterity (Stealth) check, you can use your reaction to allow that creature to reroll the check. It must use the new roll.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }
