@@ -1,0 +1,121 @@
+{
+  "key": "forest-nexu-adult",
+  "name": "Forest Nexu, Adult",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 58,
+    "roll": "13d8"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft., climb 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 19,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex +8"
+  ],
+  "skills": [
+    "Perception +5",
+    "Stealth +8"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "truesight 60 ft.",
+    "passive Perception 15"
+  ],
+  "languages": [
+    "—"
+  ],
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "behaviors": [
+    {
+      "name": "Avoidance",
+      "behaviorType": "trait",
+      "description": "If the nexu is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Sight and Smell",
+      "behaviorType": "trait",
+      "description": "The nexu has advantage on Wisdom (Perception) checks that rely on sight and smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pounce",
+      "behaviorType": "trait",
+      "description": "If the nexu moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the nexu can make one bite attack against it as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The nexu can make two claw attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 15,
+      "damageRoll": "2d10 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "2d8 + 4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Nexu are predatory felines native to the planet Cholganna. They are also found on Zhanox.***Biology & Appearance.*** There are other breeds of nexu on Cholganna's other continents, but only the forest nexu has an additional set of eyes able to view in infrared wavelength, which aid in their hunting of bark rats and tree-climbing octopi. Nexu are 4.5 meters long and generally 1 meter tall. The nexu has claws which can slice a Human in half. They have quills along their back, and a long tail that allows the nexu to swing from tree branch to tree branch. The tail also splits into two equal sections for a better grip on the tree branch they are swinging from. They have extremely sharp instincts and reflexes, although they are known to tire easily, and often use swift movements to finish an enemy quickly, biting down and thrashing their head about to break their victim's neck. Cubs are born pure white. The black nexu is particularly stealthy and rare.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

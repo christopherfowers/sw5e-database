@@ -1,0 +1,12 @@
+{
+  "key": "light-physical-shield",
+  "name": "Light physical shield",
+  "category": "armor",
+  "costInCredits": 50,
+  "weight": 0.0,
+  "armorClassification": "shield",
+  "armorClass": "+1",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -30,6 +30,20 @@ dotnet test
 dotnet run --project src/Sw5e.Database.Tools -- validate schemas content
 ```
 
+## Seed content
+
+`content/` holds a curated, hand-verified seed set covering every content type,
+so the API, the site, search and cross-linking all have correct data to be built
+and demonstrated against. Three rules hold it together, each enforced by a test
+in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
+
+- every file validates against the schema for the directory it sits in;
+- no file contains U+FFFD, the replacement character left behind wherever the
+  original scrape lost an apostrophe, a dash or an accented letter;
+- every cross-reference resolves inside the set: `sourceKey`, a background's
+  suggested feats, a feat prerequisite naming another feat, and the class,
+  archetype or species a feature is granted by.
+
 ## Adding a content type
 
 Create `schemas/<content-type>/v1.json` as a JSON Schema 2020-12 document, then

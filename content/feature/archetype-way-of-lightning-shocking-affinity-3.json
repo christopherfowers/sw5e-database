@@ -1,0 +1,8 @@
+{
+  "key": "archetype-way-of-lightning-shocking-affinity-3",
+  "name": "Shocking Affinity",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Lightning",
+  "level": 3,
+  "description": "_**Way of Lightning:** 3rd level_\nWhen you cast a force power that deals lightning damage, you can use Wisdom or Charisma as your forcecasting ability for it.\nAdditionally, when you cast a damage-dealing force power that requires a force attack or saving throw, you can cause that power to instead deal lightning damage. If the power would call for a saving throw other than Dexterity, it instead calls for a Dexterity saving throw. If\nyou hit with the power, or the target fails the power's saving throw, affected creatures become *shocked* until the start of your next turn. You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a short or long rest."
+}

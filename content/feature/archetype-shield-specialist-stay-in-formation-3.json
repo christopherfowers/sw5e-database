@@ -1,0 +1,8 @@
+{
+  "key": "archetype-shield-specialist-stay-in-formation-3",
+  "name": "Stay in Formation",
+  "grantedBy": "archetype",
+  "grantedByName": "Shield Specialist",
+  "level": 3,
+  "description": "_**Shield Specialist:** 3rd level_\nYou can take the Guard action as a bonus action on your turn."
+}

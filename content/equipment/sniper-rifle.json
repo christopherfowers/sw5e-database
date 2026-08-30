@@ -1,0 +1,22 @@
+{
+  "key": "sniper-rifle",
+  "name": "Sniper rifle",
+  "category": "weapon",
+  "costInCredits": 1300,
+  "weight": 13.5,
+  "properties": [
+    "power cell (range 150/600)",
+    "reload 2",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

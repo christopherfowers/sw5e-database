@@ -1,0 +1,17 @@
+{
+  "key": "shutdown",
+  "name": "Shutdown",
+  "powerType": "tech",
+  "level": 5,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You emit an electromagnetic pulse, shutting down all electronic devices, with the exception of your tech focus, that are not held by or under the direct control of a creature. If it is, the creature must succeed on an Intelligence saving throw to stop the device from being shut down. While the power is active, no electronic device in range can be started or restarted.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,155 @@
+{
+  "key": "agent",
+  "name": "Agent",
+  "lore": "Many organizations active in the galaxy aren't bound by strictures of geography. These factions pursue their agendas without regard for political boundaries, and their members operate anywhere the organization deems necessary. These groups employ listeners, rumormongers, smugglers, mercenaries, cache-holders (people who guard caches of wealth or items for use by the faction's operatives), haven keepers, and message drop minders, to name a few. At the core of every faction are those who don't merely fulfill a small function for that organization, but who serve as its hands, head, and heart. As a prelude to your adventuring career (and in preparation for it), you served as an agent of a particular faction. You might have operated openly or secretly, depending on the faction and its goals, as well as how those goals mesh with your own. Becoming an adventurer doesn't necessarily require you to relinquish membership in your faction (though you can choose to do so), and it might enhance your status in the faction.",
+  "skillProficiencies": "Choose two from Deception, Investigation, Lore, and Persuasion",
+  "languageProficiencies": "Two of your choice",
+  "startingEquipment": "Badge or emblem of your faction, a copy of a seminal faction text (or a code-book for a covert faction), a set of common clothes, and a pouch containing 150 cr",
+  "feature": {
+    "name": "Safe Haven",
+    "description": "As a faction agent, you have access to a secret network of supporters and operatives who can provide assistance on your adventures. You know a set of secret signs and passwords you can use to identify such operatives, who can provide you with access to a hidden safe house, free room and board, or assistance in finding information. These agents never risk their lives for you or risk revealing their true identities."
+  },
+  "suggestedCharacteristics": "Agents are shaped by their experience in their faction's communities. Their study of the history and tenets of their faction and their relationships to it affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I idolize a particular hero of my faction, and constantly refer to that person's deeds and example."
+    },
+    {
+      "roll": 2,
+      "description": "I can find common ground between the fiercest enemies, empathizing with them and always working towards peace."
+    },
+    {
+      "roll": 3,
+      "description": "I see omens in every event and action."
+    },
+    {
+      "roll": 4,
+      "description": "Nothing can shake my optimistic attitude."
+    },
+    {
+      "roll": 5,
+      "description": "I quote (or misquote) sacred texts and proverbs in almost every situation."
+    },
+    {
+      "roll": 6,
+      "description": "I am tolerant (or intolerant) of other factions and respect (or condemn) them."
+    },
+    {
+      "roll": 7,
+      "description": "I've enjoyed fine food, drink, and high society among my faction's elite. Rough living grates on me."
+    },
+    {
+      "roll": 8,
+      "description": "I have little practical experience dealing with people in the world."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Tradition",
+      "description": "The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Charity",
+      "description": "I always try to help those in need, no matter what the personal cost. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Change",
+      "description": "We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Power",
+      "description": "I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+    },
+    {
+      "roll": 5,
+      "name": "Faith",
+      "description": "I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Lawful)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I seek to prove myself worthy of my leader's favor by matching my actions against his or her teachings. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I would die to recover an artifact of my faction that was lost long ago."
+    },
+    {
+      "roll": 2,
+      "description": "I will someday get revenge on the corrupt faction hierarchy who branded me a heretic."
+    },
+    {
+      "roll": 3,
+      "description": "I owe my life to the faction member who took me in when my parents died."
+    },
+    {
+      "roll": 4,
+      "description": "Everything I do is for the common people."
+    },
+    {
+      "roll": 5,
+      "description": "I will do anything to protect the faction where I served."
+    },
+    {
+      "roll": 6,
+      "description": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I judge others harshly, and myself even more severely."
+    },
+    {
+      "roll": 2,
+      "description": "I put too much trust in those who wield power within my faction's hierarchy."
+    },
+    {
+      "roll": 3,
+      "description": "My piety sometimes leads me to blindly trust those that profess faith in my faction."
+    },
+    {
+      "roll": 4,
+      "description": "I am inflexible in my thinking."
+    },
+    {
+      "roll": 5,
+      "description": "I am suspicious of strangers and expect the worst of them."
+    },
+    {
+      "roll": 6,
+      "description": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 4,
+      "name": "Charmer"
+    },
+    {
+      "roll": 5,
+      "name": "Linguist"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

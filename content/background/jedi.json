@@ -1,0 +1,160 @@
+{
+  "key": "jedi",
+  "name": "Jedi",
+  "lore": "You are a devout follower of the Jedi Order: an ancient, monastic peacekeeping organization united in its observance of the light side of the Force. A noble order of protectors noted for their ability to tap into the power of the Force, the Jedi serve as guardians of peace and justice in the Galactic Republic. You follow the Jedi Code:\n\n*\"There is no emotion, there is peace.\nThere is no ignorance, there is knowledge.\nThere is no passion, there is serenity.\nThere is no chaos, there is harmony.\nThere is no death, there is the Force.\"*",
+  "skillProficiencies": "Choose two from Insight, Investigation, Lore, and Persuasion",
+  "toolProficiencies": "Artificer's tools",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A copy of the Jedi code, a set of common clothes including a robe, and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Shelter of the Faithful",
+    "description": "As a Jedi, you command the respect of those who are loyal to the Jedi Order. You and your adventuring companions can expect to receive free healing and care at any Jedi temple, and those who support your religion will support you (but only you) at a modest lifestyle.\n\nYou might also have ties to a specific Jedi temple and have a residence there. This could be the temple where you trained, or a temple where you have found a new home. While near your temple, you can call upon the Jedi for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+  },
+  "suggestedCharacteristics": "Jedi are shaped by their experience in their temple. Their study of the history and tenets of the Jedi Order and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I idolize a particular Jedi, and constantly refer to that person's deeds and example."
+    },
+    {
+      "roll": 2,
+      "description": "I can find common ground between the fiercest enemies, empathizing with them and always working towards peace."
+    },
+    {
+      "roll": 3,
+      "description": "I see omens in every event and action. The Force tries to speak to us, we just need to listen"
+    },
+    {
+      "roll": 4,
+      "description": "Nothing can shake my optimistic attitude."
+    },
+    {
+      "roll": 5,
+      "description": "I quote (or misquote) sacred Jedi texts and proverbs in almost every situation."
+    },
+    {
+      "roll": 6,
+      "description": "I am tolerant (or intolerant) of those who don't support the Jedi."
+    },
+    {
+      "roll": 7,
+      "description": "I've enjoyed fine food, drink, and high society. Rough living grates on me."
+    },
+    {
+      "roll": 8,
+      "description": "I've spent so long in the Jedi temple that I have little practical experience dealing with people in the world."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Tradition",
+      "description": "The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Charity",
+      "description": "I always try to help those in need, no matter what the personal cost. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Change",
+      "description": "We must help bring about the changes the Force is constantly working in the world. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Power",
+      "description": "I hope to one day rise to the rank of Jedi Master. (Lawful)"
+    },
+    {
+      "roll": 5,
+      "name": "Faith",
+      "description": "I trust that the Force will guide my actions; I have faith that if I work hard, things will go well. (Lawful)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I seek to prove myself worthy of the Force by matching my actions against the Jedi teachings. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I would die to recover an ancient Jedi relic that was lost long ago."
+    },
+    {
+      "roll": 2,
+      "description": "I will someday get revenge on those who razed my temple."
+    },
+    {
+      "roll": 3,
+      "description": "I owe my life to the Jedi who took me in when my parents died."
+    },
+    {
+      "roll": 4,
+      "description": "Everything I do is for the common people."
+    },
+    {
+      "roll": 5,
+      "description": "I will do anything to protect the temple where I served."
+    },
+    {
+      "roll": 6,
+      "description": "I seek to preserve a sacred text that my enemies seek to destroy."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I judge others harshly, and myself even more severely."
+    },
+    {
+      "roll": 2,
+      "description": "I put too much trust in those who wield power within my temple's hierarchy."
+    },
+    {
+      "roll": 3,
+      "description": "My piety sometimes leads me to blindly trust those that profess faith in the Force."
+    },
+    {
+      "roll": 4,
+      "description": "I am inflexible in my thinking."
+    },
+    {
+      "roll": 5,
+      "description": "I am suspicious of strangers and expect the worst of them."
+    },
+    {
+      "roll": 6,
+      "description": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Investigator"
+    },
+    {
+      "roll": 2,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 3,
+      "name": "Charmer"
+    },
+    {
+      "roll": 4,
+      "name": "Linguist"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
+      "name": "Force-Sensitive"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

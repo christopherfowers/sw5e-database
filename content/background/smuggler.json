@@ -1,0 +1,147 @@
+{
+  "key": "smuggler",
+  "name": "Smuggler",
+  "lore": "You have spent your life hiding in the darkness, making shady deals behind closed doors. What led you to engage in a life of crime? Do you crave the thrill of lawbreaking, or did you enter the profession to pay off a debt, risking your hide on behalf of a less than honorable noble? A smuggler is an individual trained in the art of acquisition, a professional thug who can deliver anything... for a price. Smugglers tend to be bolder criminals than most, preferring bribery or distraction over subterfuge and stealth.",
+  "skillProficiencies": "Choose two from Deception, Piloting, Sleight of Hand, and Stealth",
+  "toolProficiencies": "One type of gaming set and your choice of demolitions kit, security kit, or slicer's kit",
+  "startingEquipment": "A fusion cutter, a set of dark common clothes including a hood, and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Careful Selection",
+    "description": "Some close brushes with the law have taught you that not every city guard can be bribed, and some people are simply too keen to miss minute discrepancies. This feature allows you to study a person and gain insight into whether or not they would accept a bribe, or to pick up on whether they are exceptionally more perceptive than you. It does not reveal how expensive a bribe may be for a given situation, however."
+  },
+  "suggestedCharacteristics": "Smugglers might seem like villains on the surface, and many of them are nefarious to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but spies rarely show any respect for law or authority.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I am extremely sociable, especially over a mug of ale."
+    },
+    {
+      "roll": 2,
+      "description": "I always keep my wares close to me, you never know who might stumble across them otherwise."
+    },
+    {
+      "roll": 3,
+      "description": "The best way to hide is out in the open."
+    },
+    {
+      "roll": 4,
+      "description": "I'm a terrible gossip."
+    },
+    {
+      "roll": 5,
+      "description": "Being seen with any unsavory figures is a sure way to undermine my work, which is why I work out of sight."
+    },
+    {
+      "roll": 6,
+      "description": "Deflecting questions has become second nature to me, so I rarely answer straight."
+    },
+    {
+      "roll": 7,
+      "description": "I have dozens of identities and live in constant fear of answering to the wrong name."
+    },
+    {
+      "roll": 8,
+      "description": "I act irrationally confident in the face of danger, nobody suspects anything when you seem like you're in charge."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Morals",
+      "description": "I only smuggle things to improve the lives of the common folk. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Ruthless",
+      "description": "I will rise to the top of the heap by any means necessary. (Dark)"
+    },
+    {
+      "roll": 3,
+      "name": "Friendship",
+      "description": "My associates are dear to me, and I want them to rise with me when I hit it big. (Lawful)"
+    },
+    {
+      "roll": 4,
+      "name": "Dauntless",
+      "description": "No border crossing or bribe is too difficult- that's just the coward's way of saying exciting! (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Greater Good",
+      "description": "I work for a greater cause, and ply my trade only in service to it. (Any)"
+    },
+    {
+      "roll": 6,
+      "name": "Unperturbed",
+      "description": "I only want to make a living for myself, and smuggling is just an edge I can use to do so. (Neutral)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "A corrupt official shut me down back in my honest days. I aim to show him a thing or two about recovery."
+    },
+    {
+      "roll": 2,
+      "description": "I never wanted to be a criminal, but it pays the bills."
+    },
+    {
+      "roll": 3,
+      "description": "A bloodthirsty pirate stole a shipment from me and killed a dear friend of mine. I will have my vengeance."
+    },
+    {
+      "roll": 4,
+      "description": "Someone I cared about discovered my profession and has publicly denounced me, and I am caught between protecting my reputation and restoring our relationship."
+    },
+    {
+      "roll": 5,
+      "description": "My love interest is someone who once stole from right under my nose- but they have no idea who I am or how much I admire them for their accomplishment."
+    },
+    {
+      "roll": 6,
+      "description": "My business partners are closer to me than my family."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "\"Trust nobody, not even yourself.\" I am plagued by paranoia."
+    },
+    {
+      "roll": 2,
+      "description": "I'm so charismatic that sometimes I woo myself. Who am I, Narcissus?"
+    },
+    {
+      "roll": 3,
+      "description": "Money is my greatest motivator. I'll do almost anything given enough of it, even if I'll regret it later."
+    },
+    {
+      "roll": 4,
+      "description": "I would betray anyone to save my own skin."
+    },
+    {
+      "roll": 5,
+      "description": "I detach myself from the results of my actions in order to sleep better at night."
+    },
+    {
+      "roll": 6,
+      "description": "Someone who knows me well might call me \"two-faced\" but those who don't have no idea what hit 'em."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Ace Pilot"
+    },
+    {
+      "roll": 3,
+      "name": "Competitor"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

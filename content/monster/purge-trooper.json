@@ -1,0 +1,131 @@
+{
+  "key": "purge-trooper",
+  "name": "Purge Trooper",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 16,
+    "type": "battle armor"
+  },
+  "hitPoints": {
+    "average": 77,
+    "roll": "14d8 + 14"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 11,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "savingThrows": [
+    "Dex +5",
+    "Wis +5"
+  ],
+  "skills": [
+    "Perception +5",
+    "Stealth +5",
+    "Survival +3"
+  ],
+  "senses": [
+    "passive Perception 15"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one other of your choice"
+  ],
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Jedi Hunter",
+      "behaviorType": "trait",
+      "description": "The trooper has advantage on Wisdom (Survival) checks to track humanoids that can cast force powers and on Intelligence (Lore) checks to recall information about Jedi and the Force.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Force Combat Training",
+      "behaviorType": "trait",
+      "description": "The trooper has advantage on saving throws against Force powers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Surprise Attack",
+      "behaviorType": "trait",
+      "description": "If the trooper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The trooper makes two melee or three ranged attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "energy"
+    },
+    {
+      "name": "Electrostaff",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d4 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Volley",
+      "behaviorType": "action",
+      "description": "The trooper makes one ranged attack against every enemy within 10 feet of a point it can see.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 6"
+    }
+  ],
+  "flavorText": "Purge troopers were Imperial clones led by the Sith Lord Darth Vader and the Inquisitorius during the reign of the Galactic Empire. Trained as expendable death squads, they were activated after the Jedi Purge and subsequent termination of the cloning operation on Kamino, making them the last generation produced from the Jango Fett template. As with their precursors in the Grand Army of the Galactic Republic, Purge Troopers were programmed to obey Order 66, making them hostile towards all Jedi. Purge Troopers were organized into death squads, although some Purge Troopers were known to engage their enemies without any nearby support. Each member had a red tattoo on the right side of their faces and had no hair. Every member was equipped with black armor that included several red or silver designs, kamas, and black helmets similar to that of clone paratroopers, with some sections of red. At least three members were also equipped with red pauldrons and at least three other members had a black pauldron with red lining, which was worn on their right shoulder. Each member had the Imperial crest on both shoulder pads. They utilized DC-15 blaster rifles and electrostaffs in combat. The troopers made use of Zeta-class shuttles and Imperial submarines as transports to carry out their duties.",
+  "sectionText": "Also known as the Order of Inquisitors, The Inquisitorious was an organization of Force-sensitive agents who worked for the Galactic Empire. Members of the Inquisitorius were known as Imperial Inquisitors, Inquisitors, Red Blades, Mystics by Imperial officers, and sometimes even Jedi hunters. They were tasked with hunting down the remaining Jedi who had survived Order 66 at the end of the Clone Wars.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

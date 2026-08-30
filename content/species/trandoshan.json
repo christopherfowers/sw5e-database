@@ -1,0 +1,89 @@
+{
+  "key": "trandoshan",
+  "name": "Trandoshan",
+  "size": "medium",
+  "homeworld": "Trandosha",
+  "nativeLanguage": "Dosh",
+  "lore": "### Biology and Appearance\nTrandoshans are a large, bipedal sentient species, with scaly skin which was shed roughly once every standard year and was thought to be very durable. Cold-blooded reptiles, trandoshans had two super-sensitive varied color eyes with horizontal black pupils, which could see far into the infrared range. Each of their four limbs ends in three razor sharp claws. These are perfect for combat, but did not grant them manual dexterity, making a trandoshan's finger movements somewhat clumsy and awkward.\n\n### Society and Culture\nTrandoshans worship their goddess, the Scorekeeper, whom they would appease through acts which increased their Jagannath points. This is done by living a lifestyle which was, by non-trandoshan standards, overtly aggressive, leading many trandoshans to become bounty hunters, mercenaries, or slavers. Trandoshans especially prize wookiee pelts, which consequently play a large part in earning Jagannath points-capturing the pelts of particularly infamous wookiees would give the hunter a large increase in Jagganath points. To be shamed or captured during a hunt would zero one's Jagganath points-effectively making their life forfeit in the eyes of the Scorekeeper. They could, however, win all those points back by killing the one who zeroed their score.\n\n### Names\nTrandoshan names are quite harsh and contain a lot of elongated sounds, as well as a lot of s's. Differences between male and female names are often very subtle, but there is a higher chance for female names to contain softer sounds.\n\n**Male Names.** Bossk, Tshyrrng, Varrsk, Wuikkekss\n\n**Female Names.** Aksa, Idwiks, Kluks, Mezuus, Shokss\n\n**Surnames.** Dallosss, Druc, Groqisch, Hsac, Nausdot",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Trandoshans reach adulthood in their early teens and rarely live to be older than 70."
+    },
+    {
+      "name": "Alignment",
+      "description": "Trandoshans tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Trandoshans stand as tall as 7 and a half feet and can weigh over 300 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+    },
+    {
+      "name": "Regenerative",
+      "description": "When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0."
+    },
+    {
+      "name": "Saving Face",
+      "description": "Trandoshans are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can’t use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Dosh. Dosh is characterized by its harsh grunts, hisses and growls, and its written form that used alphabetic glyphs."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "130 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Reptilian, scaly skin, regenerative properties",
+    "skinColorOptions": "Green, yellow, brown, orange, red",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Yellow, orange"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_trandoshan%20(2).png"
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

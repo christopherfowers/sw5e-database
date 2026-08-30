@@ -1,0 +1,119 @@
+{
+  "key": "dianoga-adult",
+  "name": "Dianoga, Adult",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 105,
+    "roll": "10d12 + 40"
+  },
+  "speed": {
+    "walk": 15,
+    "text": "15 ft., swim 60 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 19,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 6,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Constitution +7"
+  ],
+  "skills": [
+    "Stealth +5"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "languages": [
+    "Dianoga"
+  ],
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "behaviors": [
+    {
+      "name": "Grasping Tendrils",
+      "behaviorType": "trait",
+      "description": "The dianoga can have up to seven at a time. Each tentacle can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tentacle deals no damage to the dianoga, which can extrude a replacement tentacle on its next turn. A tentacle can also be broken if a creature takes an action and succeeds on a DC 16 Strength check against it.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "behaviorType": "trait",
+      "description": "The dianoga can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The dianoga can make three attacks: two with its tentacles and one with its bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "2d8 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tentacles",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 11 (2d8 + 2) kinetic damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "2d8 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tentacle Slam",
+      "behaviorType": "action",
+      "description": "The dianoga slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) kinetic damage and be stunned until the end of the dianoga's next turn. On a successful save, the target takes half the kinetic damage and isn't stunned.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Dianoga were large cephalopods, capable of growing up to ten meters in length, though most specimens grew to approximately five or six meters. They had a single eyestalk protruding from their mollusk-like bodies, and seven suckered tentacles surrounding a fanged maw containing a sharp serrated probe. Their bodies would become transparent when unfed, and, conversely, were known to change to reflect the color of the food they had eaten. This was achieved by diverting small portions of digested food into a series of ducts underneath the creature's skin, which would appear to affect the color of the dianoga's flesh. Over many millennia, dianoga migrated from Vodran by stowing away aboard garbage ships in their microscopic larval forms, and could be commonly found in trash compactors, garbage pits, and sewers across the galaxy, living off any present organic matter. They were primarily scavengers, and only posed a threat to living creatures when starving or threatened. Because of their penchant for living in and feeding on organic waste, dianoga were sometimes referred to as garbage squids, sewage squids, or trash monsters. Smaller dianoga were known to crawl out of toilets. Despite this, they could prove useful, since they served to rid waste of biological material, leaving behind salvageable minerals and metals. Only when a dianoga grew too large was it usually considered a threat, especially in urban areas. However, the presence of a single dianoga was often cause for alarm, since the creatures were self-fertilizing hermaphrodites, and could quickly multiply to pose a larger problem.***Dianoga's Lair.*** A dianoga can often be found in trash compactors, garbage pits, sewers, water treatment facilities, and the like, throughout the galaxy. Alternatively, some Dianoga's still live in natural environments such lakes and swamps. A dianoga knows its territory like the back of its tentacle, and can use the terrain to it's advantage. When found in a confined setting with lots of refuse, such as in a garbage compactor, dianoga's are at their most deadly. A dianoga encountered in it's lair has a challenge rating 1 higher than otherwise indicated.#### Lair ActionsOn initiative count 20 (losing initiative ties, the dianoga can take a lair action to cause one of the following effects; the dianoga cannot use the same effect two rounds in a row:- The water within 60 feet of the dianoga is filled with rippling waves. Until initiative count 20 on the next round, that area is difficult terrain, and when a Medium or smaller creature moves into that area or starts its turn there, it must succeed on a DC 13 Strength saving throw or be knocked prone.- The dianoga retreats into the water and becomes invisible until initiative count 20 on the next turn or until the dianoga attacks, whichever comes first.- The dianoga causes the effects of the *Burst* power cast by a 1st level caster at any point it can see within the lair.#### Regional Effects- The area within 120 feet of the lair (if not separated from the lair by walls) is filled with a odorous mist, lightly obscuring the area. The mist can be cleared away, for example, by a light wind, if the lair is not enclosed.- The area surrounding the lair is permeated by the stench of death and decay. If a creature spends as least 1 hour within 500 feet of the lair (if not separated from the lair by walls), the creature must succeed a DC 12 Constitution saving throw or become poisoned. A short rest in clean air will remove this poisoned condition.- Molds and fungi do not grow on surfaces within 500 feet of the lair, even where they would normally find purchase.- There are no obviously organic surfaces or creatures within 120 feet of the lair. If the Dianoga dies, these effects fade over the course of 1d10 days.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}
