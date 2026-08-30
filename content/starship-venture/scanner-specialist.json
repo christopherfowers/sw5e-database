@@ -1,0 +1,7 @@
+{
+  "key": "scanner-specialist",
+  "name": "Scanner Specialist",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you take the Search action, you have advantage on Wisdom (Scan) and Intelligence (Probe) checks that rely on the scanner."
+}

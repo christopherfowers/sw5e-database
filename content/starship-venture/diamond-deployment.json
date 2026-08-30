@@ -1,0 +1,15 @@
+{
+  "key": "diamond-deployment",
+  "name": "Diamond Deployment",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 14 levels in monk",
+      "className": "monk",
+      "level": 14
+    }
+  ],
+  "description": "While deployed, when your ship fails a saving throw, you can spend 1 focus point to reroll the die."
+}

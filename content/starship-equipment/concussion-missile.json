@@ -1,0 +1,34 @@
+{
+  "key": "concussion-missile",
+  "name": "Concussion missile",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 750,
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 4,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "weightInPounds": 75,
+  "weightInPoundsForLargerShips": 150,
+  "range": {
+    "normal": 600,
+    "long": 2400
+  },
+  "properties": [
+    "auto",
+    "burst 1",
+    "explosive",
+    "rapid 1"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

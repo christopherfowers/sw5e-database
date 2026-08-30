@@ -1,0 +1,9 @@
+{
+  "key": "emergency-generator",
+  "name": "Emergency Generator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with an emergency generator to recharge shields. When your ship is reduced to 0 shield points but not destroyed outright, a crewmember can use their reaction to have it drop to 1 shield point instead. Alternatively, if the ship has 0 shield points, a crewmember can use their action to restore shield points equal to twice the ship's strength modifier.\nOnce either feature has been used, the emergency generator can't be used again until the ship recharges."
+}

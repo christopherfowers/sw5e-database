@@ -1,0 +1,16 @@
+{
+  "key": "ship-slicer-mk-ii",
+  "name": "Ship Slicer, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Ship Slicer, Mk I",
+      "modificationName": "Ship Slicer, Mk I"
+    }
+  ],
+  "description": "As an action, a crewmember may upload a computer virus that stalls a ship within 900 feet. Roll 7d6; if the ship’s remaining hull points are less than the total, the ship is stalled for one minute or until the ship takes damage.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

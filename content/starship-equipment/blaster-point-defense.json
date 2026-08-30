@@ -1,0 +1,26 @@
+{
+  "key": "blaster-point-defense",
+  "name": "Blaster point-defense",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4000,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "saturate",
+    "zone"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 200,
+    "long": 800
+  }
+}

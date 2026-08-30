@@ -1,0 +1,19 @@
+{
+  "key": "explosive-payload",
+  "name": "Explosive Payload",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "weaponMounting",
+      "text": "Tertiary or Quaternary Weapon",
+      "mountings": [
+        "tertiary",
+        "quaternary"
+      ]
+    }
+  ],
+  "description": "When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Strength modifier. The damage is of the same type dealt by the original attack."
+}

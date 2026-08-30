@@ -1,0 +1,32 @@
+{
+  "key": "proton-rocket",
+  "name": "Proton rocket",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 950,
+  "damage": {
+    "numberOfDice": 10,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 20,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "weightInPounds": 95,
+  "weightInPoundsForLargerShips": 190,
+  "range": {
+    "normal": 200,
+    "long": 800
+  },
+  "properties": [
+    "explosive",
+    "vicious 1"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

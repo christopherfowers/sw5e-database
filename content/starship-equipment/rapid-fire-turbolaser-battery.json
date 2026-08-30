@@ -1,0 +1,28 @@
+{
+  "key": "rapid-fire-turbolaser-battery",
+  "name": "Rapid-fire turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4600,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "auto",
+    "burst 16",
+    "overheat 16",
+    "rapid 4"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 400,
+    "long": 1600
+  }
+}

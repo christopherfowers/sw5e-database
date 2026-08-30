@@ -1,0 +1,9 @@
+{
+  "key": "tractor-beam",
+  "name": "Tractor Beam",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "This modification adds a tractor beam to a ship, which can be used to grasp and guide vessels and debris.\nAs an action, a crewmember can activate the tractor beam, which has a range of 600 feet and a limited firing arc, as described in Chapter 9. Each ship or object of your size or smaller within the firing arc must make a Strength saving throw (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship is tractored. An object automatically fails this saving throw.\nAs a bonus action, a crewmember can move a tractored ship or object in any direction.  A ship or object two or more sizes smaller than you can be moved up to 200 feet, a ship or object one size category smaller than you can be moved up to 100 feet, and a ship or object your size can be moved up to 50 feet. If at the end of this movement the ship or object strikes another ship or object, it must make a Dexterity saving throw. An object automatically fails this saving throw. On a failed save, they both take 1d4 kinetic damage.\nAs an action, a crewmember at the helm of the tractored ship can repeat the saving throw, ending the effect on a success.\nThe saving throws are made with disadvantage if the ship is smaller than you.\nIf you attempt to tractor a ship or object larger than you, you can choose to gain the tractored condition and move yourself.\nYou can end the tractor beam at any time (no action required).\nThis feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Tractor Beam installed, they all share this amount of uses, and each Tractor Beam past the first grants an additional use."
+}

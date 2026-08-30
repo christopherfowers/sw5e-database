@@ -1,0 +1,15 @@
+{
+  "key": "resourceful-boost",
+  "name": "Resourceful Boost",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 1 rank in mechanic",
+      "deploymentName": "Mechanic",
+      "rank": 1
+    }
+  ],
+  "description": "Once per round, when you use your System Boost feature, you can roll the tech die twice and take either result.\n\\pagebreakNum"
+}

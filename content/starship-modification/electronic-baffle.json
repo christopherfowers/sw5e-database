@@ -1,0 +1,9 @@
+{
+  "key": "electronic-baffle",
+  "name": "Electronic Baffle",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "description": "When your ship would become ionized, shocked, or stunned, a crewmember can use their reaction to roll one hull die and suffer damage to the hull equal to the amount rolled in order to ignore the triggering condition.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+}

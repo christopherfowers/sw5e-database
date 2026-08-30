@@ -1,0 +1,27 @@
+{
+  "key": "pulse-laser-cannon",
+  "name": "Pulse laser cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 2500,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "keen 1",
+    "piercing 1",
+    "overheat 20"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 500,
+    "long": 2000
+  }
+}

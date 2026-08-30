@@ -1,0 +1,15 @@
+{
+  "key": "experienced-slicer",
+  "name": "Experienced Slicer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 1 rank in operator",
+      "deploymentName": "Operator",
+      "rank": 1
+    }
+  ],
+  "description": "When setting your Operator's Disruptions save DC and whenever a Disruption uses your ship's Charisma modifier, you may add half your Intelligence modifier."
+}

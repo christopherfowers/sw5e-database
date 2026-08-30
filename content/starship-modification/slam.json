@@ -1,0 +1,9 @@
+{
+  "key": "slam",
+  "name": "SLAM",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "description": "Your ship gains a SubLight Acceleration Motor (SLAM).\nAs an action, a crewmember can activate the SLAM to cause the ship to immediately move forward an amount up to the ship's movement speed.  This movement must be made in a straight line and the ship's heading cannot change during this movement.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once) but no more than once per ship's turn. All expended uses are regained when the ship recharges."
+}

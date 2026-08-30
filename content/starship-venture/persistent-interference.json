@@ -1,0 +1,15 @@
+{
+  "key": "persistent-interference",
+  "name": "Persistent Interference",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 3 ranks in operator",
+      "deploymentName": "Operator",
+      "rank": 3
+    }
+  ],
+  "description": "When you take the Interfere action and succeed on the contest, the target has disadvantage on the next Charisma (Interfere) check before the end of your next turn."
+}

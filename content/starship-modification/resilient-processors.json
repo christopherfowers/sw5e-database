@@ -1,0 +1,9 @@
+{
+  "key": "resilient-processors",
+  "name": "Resilient Processors",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You overhaul your ship's computer to make it more adaptive. Your ship is proficiently equipped for Intelligence saving throws."
+}

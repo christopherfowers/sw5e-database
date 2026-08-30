@@ -1,0 +1,21 @@
+{
+  "key": "shock-absorbers",
+  "name": "Shock Absorbers",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "Your ship has been modified to withstand sudden impacts, and to be more effective at ramming. Your ship has resistance to kinetic damage caused by ramming."
+}

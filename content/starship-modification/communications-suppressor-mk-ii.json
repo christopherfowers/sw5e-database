@@ -1,0 +1,9 @@
+{
+  "key": "communications-suppressor-mk-ii",
+  "name": "Communications Suppressor, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 2,
+  "description": "***Modification Grade** 2*\n***Prerequisite:** Communications Suppressor, Mk I*\nThis modification improves the communications suppressor. Your ship can now attempt to suppress the communications of a single target on a planet, a space station, or a starship within 1,000 feet of your ship or the communications of a space station or starship within 1 mile.\nAdditionally, your ship is expertly equipped for Charisma (Interfere) checks."
+}

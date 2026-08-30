@@ -1,0 +1,16 @@
+{
+  "key": "frame-mk-iv",
+  "name": "Frame, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Frame, Mk III",
+      "modificationName": "Frame, Mk III"
+    }
+  ],
+  "description": "You massively improve your ship's frame. Your ship's Constitution score increases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+}

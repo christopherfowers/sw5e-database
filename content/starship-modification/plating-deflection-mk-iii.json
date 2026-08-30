@@ -1,0 +1,21 @@
+{
+  "key": "plating-deflection-mk-iii",
+  "name": "Plating, Deflection Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Deflection Armor",
+      "equipmentName": "Deflection armor"
+    },
+    {
+      "kind": "modification",
+      "text": "Plating, Deflection MK II",
+      "modificationName": "Plating, Deflection Mk II"
+    }
+  ],
+  "description": "You substantially upgrade your ship's armor plating, removing your ship's disadvantage on Dexterity (Hide) checks caused by your armor's plating."
+}

@@ -1,0 +1,12 @@
+{
+  "key": "fuel-cell-reactor",
+  "name": "Fuel cell reactor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "reactor",
+  "costInCredits": 4500,
+  "description": "Fuel cell reactors are the most common and balanced reactors on the market.",
+  "reactor": {
+    "powerDiceRecovered": "1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "key": "targeting-fire",
+  "name": "Targeting Fire",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 1 rank in gunner",
+      "deploymentName": "Gunner",
+      "rank": 1
+    }
+  ],
+  "description": "When you take this Venture, you may select two areas that you are adept at targeting.  You may take this Venture multiple times.  Each time you do so, you may select two additional target areas.\nOnce per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to either forego advantage if you have advantage, spend one tech point, or spend one force point to target a specific area of the ship causing targeted damage there:\nThe target gain 1 slowed level until the end of its turn as it suffers damage to its engines.\nYou damage the target's targeting systems.  The first time the target forces you to make a saving throw before the start of your next turn, the target takes an additional 1d6 ionic damage, and you can roll 1d4 and add the number rolled to your saving throw.\nYou cause each Large or smaller ship within 100 feet of the target to make a Strength saving throw (DC = 8 + your proficiency bonus + your ship's Strength modifier).  On a failure, that ship is pulled to the nearest unoccupied space adjacent to the target.\n\\columnbreak\nYou destabilize the ship's reactor. Until the start of your next turn, if the target becomes tractored, ionized, or shocked, the reactor suffers damaging feedback, causing the ship to immediately take 1d8 ionic damage.\nYou create an illusory duplicate of your ship in your space that only the target can see. The target has disadvantage on the next attack roll it makes against your ship before the start of your next turn.\nYou cause the target to take additional damage to the target's shields equal to your techcasting ability modifier at the start of your next turn.\nYou cause the target to become shocked until the end of your ship's next turn. When this attack hits a target, if there is a ship within 300 feet who is shocked, an arc of lightning courses between the two ships, dealing 1d6 lightning damage to both of them. If there are multiple other ships who are shocked, the lightning leaps to the closest ship.\nYou damage the ship's weapon systems.  The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6.\n> #### GM Note:\n>\n> If a ship being fought does not have the system that is targeted in the Targeting Fire venture (e.g., an X-Wing hit by an attack utilizing Targeting Fire: Gravity Generator does not have a gravity generator), then consider allowing the venture's effects to work via alternative means (e.g., the hyperdrive is hit instead)."
+}

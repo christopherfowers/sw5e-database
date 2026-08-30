@@ -1,0 +1,26 @@
+{
+  "key": "fire-linked-mounting",
+  "name": "Fire-Linked Mounting",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or smaller",
+      "shipSizes": [
+        "tiny",
+        "small",
+        "medium"
+      ]
+    },
+    {
+      "kind": "modification",
+      "text": "A Hardpoint",
+      "modificationName": "Hardpoint",
+      "count": 1
+    }
+  ],
+  "description": "The Fire-Linked Mounting is a modification to a Hardpoint that allows a primary weapon with no constitution requirement to synchronize it's fire with another identical primary weapon having no constitution requirement.\nWhen you Fire a primary weapon equipped to this hardpoint, you can use an object interaction to link an eligible weapon and a bonus action to Fire the linked weapon in the same firing arc if it has not yet been Fired this round. You don't add the ship's ability modifier to the damage roll of the bonus attack, unless that modifier is negative. A weapon that has been Fired using your bonus action in this way cannot be Fired again this round."
+}

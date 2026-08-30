@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/starship-rule/v1.json",
+  "title": "Starship rule chapter",
+  "description": "One chapter of the starship rulebook, kept whole. Unlike every other content type this is prose rather than a record: it is the text a player reads to learn how starship combat, movement, repair and encounter building work, and it is where the tables that no single item owns are printed — power dice by tier, fuel and cargo capacity by size, docking fees. Splitting a chapter into items was considered and rejected: its headings are not a taxonomy, its tables are referenced from the middle of paragraphs, and the sections cross-reference each other by chapter number.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "title", "sourceKey", "contentSet", "chapterNumber", "body"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this chapter, derived from its title rather than its number so that inserting a chapter does not change every URL after it."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Chapter title without its number, as printed in the table of contents: \"Generating Encounters\", not \"Chapter 10: Generating Encounters\". The numbered form opens the body, so a page that showed both would repeat itself."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this chapter belongs to, matching a document of the source content type."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
+    },
+    "chapterNumber": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The chapter's own number, which is what fixes reading order and what the chapters use to cross-reference each other. Zero is the introduction. The book's changelog is numbered far above the others so that it sorts last, which is why this is not capped."
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The whole chapter as Markdown, headings and tables included. Long — the equipment chapter runs to about forty-eight thousand characters — because a rules chapter that has been cut into pieces is no longer usable as rules."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "key": "advanced-proton-torpedo",
+  "name": "Advanced proton torpedo",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 850,
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 4,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "weightInPounds": 85,
+  "weightInPoundsForLargerShips": 170,
+  "range": {
+    "normal": 800,
+    "long": 3200
+  },
+  "properties": [
+    "explosive",
+    "keen 1"
+  ],
+  "firedBy": [
+    "Torpedo launcher",
+    "Assault torpedo launcher"
+  ]
+}

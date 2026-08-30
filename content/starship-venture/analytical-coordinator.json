@@ -1,0 +1,15 @@
+{
+  "key": "analytical-coordinator",
+  "name": "Analytical Coordinator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 1 level in scholar",
+      "className": "scholar",
+      "level": 1
+    }
+  ],
+  "description": "When an ally makes an ability check or attack roll affected by your Direct action, and they are also the target of your Critical Analysis class feature, they can also roll a d6 and add it to the ability check or attack roll."
+}

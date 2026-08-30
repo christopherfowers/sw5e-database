@@ -1,0 +1,7 @@
+{
+  "key": "pilot-in-training",
+  "name": "Pilot in Training",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you make a Dexterity (Maneuvering) check while at the helm, you can add your proficiency bonus to checks you make if you do not already do so."
+}

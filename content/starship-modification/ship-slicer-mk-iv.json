@@ -1,0 +1,16 @@
+{
+  "key": "ship-slicer-mk-iv",
+  "name": "Ship Slicer, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Ship Slicer, Mk III",
+      "modificationName": "Ship Slicer, Mk III"
+    }
+  ],
+  "description": "As an action, a crewmember may cause a ship that you can see within 600 feet to succeed on an Intelligence saving throw (DC = 8 + prof. bonus + ship's charisma modifier) or be disabled for up to a minute, until the feature ends. At the beginning of each of its turns, the ship can make another Intelligence saving throw. On a success, the feature ends.\nThe effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

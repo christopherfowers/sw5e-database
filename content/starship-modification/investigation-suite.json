@@ -1,0 +1,9 @@
+{
+  "key": "investigation-suite",
+  "name": "Investigation Suite",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite comes with a number of investigation rooms equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. Investigation rooms are equipped with an integrated archaeologist kit, disguise kit, forgery kit, jeweler’s implements, security kit, slicer’s kit, and surveyor’s implements.\nWhile making a check with any of these tools in an investigation room, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.\nAdditionally, while crafting in an investigation room using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your proficiency bonus to checks you make with them, the market value increases by 10 x your character level.\nLastly, when a creature completes a long rest involving this suite, they gain advantage on the first Dexterity (Stealth), Intelligence (Investigation), Wisdom (Insight), or Wisdom (Perception) check they make before the start of their next long rest."
+}

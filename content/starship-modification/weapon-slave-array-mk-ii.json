@@ -1,0 +1,16 @@
+{
+  "key": "weapon-slave-array-mk-ii",
+  "name": "Weapon Slave Array, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Weapon Slave Array",
+      "modificationName": "Weapon Slave Array"
+    }
+  ],
+  "description": "A crewmember at the helm, when taking the Fire action with a weapon equipped to this hardpoint, no longer suffers disadvantage."
+}

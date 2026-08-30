@@ -1,0 +1,16 @@
+{
+  "key": "central-computer-mk-ii",
+  "name": "Central Computer, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Central Computer, Mk I",
+      "modificationName": "Central Computer, Mk I"
+    }
+  ],
+  "description": "You further improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 3. Additionally, your ship can now take reactions granted by modifications and can take the Fire action with ship weapons.  It is proficient in ship weapons.  It is still limited to one action per turn."
+}

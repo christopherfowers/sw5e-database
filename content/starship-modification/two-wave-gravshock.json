@@ -1,0 +1,16 @@
+{
+  "key": "two-wave-gravshock",
+  "name": "Two-Wave Gravshock",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Gravitic Polarization Beam",
+      "modificationName": "Gravitic Polarization Beam"
+    }
+  ],
+  "description": "As an action, a crewmember can use a gravity well projector to wrack the hull of a Large or larger ship that you can see within the projector's arc with violent gravwaves. The target must make a Constitution saving throw (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, it takes 14d6 kinetic damage, or half as much damage on a successful save. The damage can’t reduce the target’s hull points below 1. If the target fails the saving throw, its hull point maximum is reduced until the ship is recharged by an amount equal to the kinetic damage it took.\nThis feature can be used once before a ship recharges."
+}

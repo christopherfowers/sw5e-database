@@ -1,0 +1,9 @@
+{
+  "key": "ablative-plating-layer",
+  "name": "Ablative Plating Layer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You add an ablative coating to your hull, granting your hull resistance to energy damage."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "combat-thrusters-mk-iv",
+  "name": "Combat Thrusters, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "description": "***Prerequisite:** Dexterity 15, Combat Thrusters, Mk III*\nYour ship’s turning speed decreases by 50 feet."
+}

@@ -1,0 +1,15 @@
+{
+  "key": "thread-the-needle",
+  "name": "Thread the Needle",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 3 ranks in pilot",
+      "deploymentName": "Pilot",
+      "rank": 3
+    }
+  ],
+  "description": "When you take the Evade action, you can gain the benefits of Evade against only a single target in order to avoid the penalty of disadvantage on any skill check or attack roll made by your ship or anyone on it."
+}

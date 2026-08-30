@@ -1,0 +1,9 @@
+{
+  "key": "reactive-plating-layer",
+  "name": "Reactive Plating Layer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You add a reactive layer to your ship's hull granting your hull resistance to kinetic damage."
+}

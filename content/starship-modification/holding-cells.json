@@ -1,0 +1,9 @@
+{
+  "key": "holding-cells",
+  "name": "Holding Cells",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite includes a security post and a number of individual holding cells equal to the ship’s suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table, equipped with both a key and a code lock. Holding cell doors are magnetically sealed to prevent them opening in the event of power failure."
+}

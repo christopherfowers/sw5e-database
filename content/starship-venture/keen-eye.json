@@ -1,0 +1,14 @@
+{
+  "key": "keen-eye",
+  "name": "Keen Eye",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "Rank 4",
+      "rank": 4
+    }
+  ],
+  "description": "When you take the Search action and succeed on a Wisdom (Scan) or Intelligence (Probe) check aided by your ship's scanners, you can learn certain information about a target if you are aware of them. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to one of the following characteristics of your choice:\n- Any one Ability Score\n- Armor Class\n- Current total hull and shield points\n- Current Shield die type and number, and shield regeneration rate\n- Total ship tiers (if any)\n- Total deployment ranks (if any)\nOnce you've targeted a ship with this feature, you can't target it again until you complete a long rest."
+}

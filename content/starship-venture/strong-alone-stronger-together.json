@@ -1,0 +1,15 @@
+{
+  "key": "strong-alone-stronger-together",
+  "name": "Strong Alone, Stronger Together",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 3 ranks in coordinator",
+      "deploymentName": "Coordinator",
+      "rank": 3
+    }
+  ],
+  "description": "When you take the Direct action, you have advantage on the next ability check or saving throw you make before the start of your next turn."
+}

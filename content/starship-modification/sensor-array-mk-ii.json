@@ -1,0 +1,16 @@
+{
+  "key": "sensor-array-mk-ii",
+  "name": "Sensor Array, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Sensor Array, Mk I",
+      "modificationName": "Sensor Array, Mk I"
+    }
+  ],
+  "description": "You further improve your ship's Sensor Array. Your ship's Wisdom score increases by 1. As normal, you can't increase your ship's Wisdom score above the maximum for your size with this system."
+}

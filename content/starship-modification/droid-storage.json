@@ -1,0 +1,9 @@
+{
+  "key": "droid-storage",
+  "name": "Droid Storage",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite offers a single room featuring tightly-packed racks suitable for storing and housing a number of Medium droids equal to four times the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nAlternatively, this suite can house droids of other sizes. A Huge droid takes up the space of two Large droids, which in turn takes up the place of two Medium droids, and so on."
+}

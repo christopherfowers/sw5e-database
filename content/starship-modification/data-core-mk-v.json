@@ -1,0 +1,16 @@
+{
+  "key": "data-core-mk-v",
+  "name": "Data Core, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Data Core, Mk IV",
+      "modificationName": "Data Core, Mk IV"
+    }
+  ],
+  "description": "Your ship's Data Core has reached it's maximum potential. Your ship's Intelligence score increases by 2. Your ship's maximum for this score increases by 2."
+}

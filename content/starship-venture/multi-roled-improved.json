@@ -1,0 +1,14 @@
+{
+  "key": "multi-roled-improved",
+  "name": "Multi-Roled, Improved",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "venture",
+      "text": "Multi-Roled",
+      "ventureName": "Multi-Roled"
+    }
+  ],
+  "description": "When you advance a rank in your primary deployment, you may select a deployment maneuver (collaboration, gambit, technique, disruption, tactic, or stratagem) from any deployment instead of your primary deployment.\nIf your chosen maneuver is a technique, you can use a power die from any location instead of a tech die for that technique."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "frame-makeshift",
+  "name": "Frame, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You improve your ship's frame, at a cost. Your ship's Constitution score increases by 1. One ability score other than Constitution (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+}

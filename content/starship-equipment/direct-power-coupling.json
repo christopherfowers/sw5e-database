@@ -1,0 +1,12 @@
+{
+  "key": "direct-power-coupling",
+  "name": "Direct power coupling",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "powerCoupling",
+  "costInCredits": 4100,
+  "description": "Direct power coupling has a central power capacitor that feeds power directly to each system.",
+  "powerCoupling": {
+    "centralStorageCapacity": 4
+  }
+}

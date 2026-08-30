@@ -1,0 +1,20 @@
+{
+  "key": "upgraded-retrorockets",
+  "name": "Upgraded RETROROCKETS",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or smaller",
+      "shipSizes": [
+        "tiny",
+        "small",
+        "medium"
+      ]
+    }
+  ],
+  "description": "Your ship's retrorockets allow it to abruptly reverse its thrust. As a reaction on this ship's turn, a crewmember at the helm can activate the retrorockets and immediately move the ship 100 feet directly backward from the direction the ship is facing.\nThis feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

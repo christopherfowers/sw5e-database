@@ -1,0 +1,15 @@
+{
+  "key": "recurrent-repairs",
+  "name": "Recurrent Repairs",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 3 ranks in mechanic",
+      "deploymentName": "Mechanic",
+      "rank": 3
+    }
+  ],
+  "description": "When you succeed on a Constitution (Patch) check as a part of a Patch action you take, you have advantage on the next Constitution (Patch) check you take as a part of the Patch action you take before the end of your next turn."
+}

@@ -1,0 +1,23 @@
+{
+  "key": "pinpointing-addition-mk-2",
+  "name": "Pinpointing Addition, Mk 2",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "weaponMounting",
+      "text": "Secondary weapon",
+      "mountings": [
+        "secondary"
+      ]
+    },
+    {
+      "kind": "modification",
+      "text": "Pinpointing Addition, Mk I",
+      "modificationName": "Pinpointing Addition, Mk I"
+    }
+  ],
+  "description": "The weapon's close range returns to its normal close range."
+}

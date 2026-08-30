@@ -1,0 +1,21 @@
+{
+  "key": "security-suite",
+  "name": "Security Suite",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite comes equipped with a full base of security for your ship, including secured storage, a brig, and a compact armory.\n- The secured storage can hold an amount equal to one-tenth the ship's base cargo capacity, as shown in the **[Starship Size Cargo Capacity](#Starship%20Size%20Cargo%20Capacity)** table on page 79. The secured storage is equipped with both a key and a code lock, and is magnetically sealed to prevent it opening in the event of power failure. The secured storage can be accessed with a DC 20 Intelligence (Security Kit) check.\n- The brig can host a number of prisoners equal to one-fourth the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\n- The armory comes equipped with an amount of simple blasters and vibroweapons, as well as light armor and shields, to outfit a force equal to one-half the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. When installed it comes fully stocked with blaster pistols, blaster carbines, and techblades, as well as combat suits and light shields"
+}

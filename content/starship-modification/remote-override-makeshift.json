@@ -1,0 +1,19 @@
+{
+  "key": "remote-override-makeshift",
+  "name": "Remote Override, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Small or smaller",
+      "shipSizes": [
+        "tiny",
+        "small"
+      ]
+    }
+  ],
+  "description": "You install a remote override that can allow your ship to be controlled from afar, provided the controller has access to a console and transmitter to control the ship from.  If proper credentials are not supplied, a successful Intelligence (Slicer Kit) check (DC = 10 + the ship's Tier + the ship's Intelligence Modifier) is required to control the ship.  If the ship is currently controlled by another party, the check is made with disadvantage.\nYour ship’s maximum and minimum crew requirement become 1: the remote controller.  Your starship cannot benefit from features that would increase or decrease its crew capacity. The controller instead controls all aspects of the ship, as if they were deployed inside of it.\nThe starship has disadvantage on attack rolls and ability checks while being remote controlled.\nThis ship can be controlled remotely from a distance of 10,000 feet.\nLastly, if an effect would suppress communications for the ship, it cannot be controlled remotely for the duration of that suppression."
+}

@@ -1,0 +1,22 @@
+{
+  "key": "central-computer-makeshift",
+  "name": "Central Computer, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Small or larger",
+      "shipSizes": [
+        "small",
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "You install a central computer, complete with artificial intelligence, in your ship. Your ship gains the ability to take one action of its own on it's turn: it can take any action granted by a modification. The artificial intelligence has a proficiency bonus of +2. Additionally, your ship can move itself based on a pre-selected destination, avoiding obstacles, outside of combat conditions."
+}

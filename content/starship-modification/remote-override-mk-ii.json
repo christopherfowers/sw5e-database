@@ -1,0 +1,16 @@
+{
+  "key": "remote-override-mk-ii",
+  "name": "Remote Override, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Remote Override, Mk I",
+      "modificationName": "Remote Override, Mk I"
+    }
+  ],
+  "description": "This modification allows the ship it is installed in to be remotely controlled from anywhere in the system by a properly equipped controller."
+}

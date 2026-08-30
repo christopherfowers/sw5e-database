@@ -1,0 +1,9 @@
+{
+  "key": "adaptive-ailerons",
+  "name": "Adaptive Ailerons",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "While you are in atmosphere, this modification reduces your turn speed by 100 feet (min. 50 feet) and grants you a +1 bonus to AC and Dexterity saving throws."
+}

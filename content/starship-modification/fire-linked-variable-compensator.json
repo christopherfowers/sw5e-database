@@ -1,0 +1,9 @@
+{
+  "key": "fire-linked-variable-compensator",
+  "name": "Fire-Linked Variable Compensator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 2,
+  "description": "***Prerequisite:*** *Fire-Linked Mounting*\nYou can gain the benefits of your Fire-Linked Mounting even if the weapons are different from each other."
+}

@@ -1,0 +1,15 @@
+{
+  "key": "explosive-gambits",
+  "name": "Explosive Gambits",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 3 ranks in gunner",
+      "deploymentName": "Gunner",
+      "rank": 3
+    }
+  ],
+  "description": "Once per turn, when you roll the maximum on a gambit die, you can roll an additional die and add it to the roll."
+}

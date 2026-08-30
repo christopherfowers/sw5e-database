@@ -1,0 +1,9 @@
+{
+  "key": "alternative-fuel-converter",
+  "name": "Alternative Fuel Converter",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with an alternative fuel converter which allows the conversion of materials to a potential fuel source. Over the course of 10 minutes, a crewmember can make a constitution (Regulation) check (DC  = 10 or half the number of days since the ship's last refueling, whichever number is higher). On a success, the ship recovers one unit worth of fuel.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+}

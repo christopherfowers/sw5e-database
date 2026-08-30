@@ -1,0 +1,16 @@
+{
+  "key": "assault-cluster-pod-launcher",
+  "name": "Assault cluster pod launcher",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 6000,
+  "weapon": {
+    "mounting": "tertiary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "ammunition",
+    "reload 24"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "key": "central-computer-mk-i",
+  "name": "Central Computer, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Central Computer, Makeshift",
+      "modificationName": "Central Computer, Makeshift"
+    }
+  ],
+  "description": "You improve your ship's central computer. Your ship can now take bonus actions granted by modifications.  Additionally, your ship can now take any standard action except the Fire and Helm actions.\nFinally, your ship gains advantage on Intelligence (Astrogation) checks."
+}

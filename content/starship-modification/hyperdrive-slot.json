@@ -1,0 +1,9 @@
+{
+  "key": "hyperdrive-slot",
+  "name": "Hyperdrive Slot",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "description": "This modification adds a hyperdrive slot on your ship and includes a class 15 hyperdrive."
+}
