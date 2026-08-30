@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/power/v1.json",
+  "title": "Power",
+  "description": "A force or tech power: the SW5e replacement for spells. Force powers are fuelled by force points and carry a light or dark alignment; tech powers are fuelled by tech points and never do. The header fields below are what a player reads mid-combat, so every one of them should be answerable without opening the description.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "powerType",
+    "level",
+    "castingTime",
+    "range",
+    "duration",
+    "concentration",
+    "description"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this power. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name. Stored in title case; render it lowercase and italic when it is referenced from inside another power's text, as the books do."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this power was published in, matching a document of the source content type. Values present in the archive are phb and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this power belongs to the core rules or to the community expanded-content supplement."
+    },
+    "powerType": {
+      "enum": ["force", "tech"],
+      "description": "Which casting system the power belongs to. This decides the point pool it spends, the casting ability, and whether forceAlignment applies."
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9,
+      "description": "Power level. Level 0 is an at-will power that costs no points and scales with character level; levels 1 to 9 cost that many points to cast at their base level."
+    },
+    "forceAlignment": {
+      "enum": ["none", "universal", "dark", "light"],
+      "description": "Where the power sits on the light-dark axis, which governs who may learn it and whether casting it costs dark side points. Universal powers are available to any force user. Tech powers always record none."
+    },
+    "castingTime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["period", "text"],
+      "description": "How long casting takes, split into the machine-readable period a turn tracker needs and the printed phrasing a player reads.",
+      "properties": {
+        "period": {
+          "enum": ["none", "action", "bonusAction", "reaction", "minute", "hour"],
+          "description": "The unit of the casting time. Use reaction for powers with a trigger and none for powers that are not cast in the usual sense."
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The casting time exactly as printed, including the quantity and, for reactions, the trigger: \"1 reaction, which you take when you take kinetic damage\"."
+        }
+      }
+    },
+    "range": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Range as printed, including any area of effect in parentheses: \"90 feet\", \"Self (15-foot cone)\", \"Touch\"."
+    },
+    "duration": {
+      "type": "string",
+      "minLength": 1,
+      "description": "How long the effect lasts as printed, for example Instantaneous, 1 round, or Up to 1 minute. Record concentration separately rather than folding it in here."
+    },
+    "concentration": {
+      "type": "boolean",
+      "description": "Whether maintaining the power requires concentration, so a character sheet can drop it automatically when a new concentration power is cast or a save is failed. Always present, including when false."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to learn this power, typically a prerequisite power or a minimum level. Omit when there is none."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text in second person, describing what happens on a cast. Where the effect scales, the archived corpus writes the scaling into the closing paragraph of this text rather than into a separate field."
+    }
+  }
+}

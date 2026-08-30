@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/species/v1.json",
+  "title": "Species",
+  "description": "A playable species: the heritage a character is born into. A species grants an ability score increase, a size, a set of inherent traits, and the physical ranges used to roll or pick a character's build. Everything here applies at character creation and never changes with level; anything gained at a later level belongs in a feature instead.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "lore", "traits"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this species. Derived from the name once and never reused, so saved characters keep resolving after a species is renamed."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as it appears in the species list, singular and in the form a player would say at the table (Bothan, not Bothans)."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this species was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this species belongs to the core rules or to the community expanded-content supplement. Tables that mix both should let players filter on it."
+    },
+    "size": {
+      "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
+      "description": "Size category, which drives carrying capacity, the space the creature occupies, and which weapons it can wield. Omit only for a species that inherits its size from another species."
+    },
+    "homeworld": {
+      "type": "string",
+      "minLength": 1,
+      "description": "World the species originates from. Free text rather than a reference, because entries name regions, fleets and lost worlds as well as planets."
+    },
+    "nativeLanguage": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Language every member of the species speaks from birth, on top of anything granted by a trait or background. Some entries name more than one, so this stays free text."
+    },
+    "lore": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Long-form Markdown on biology, appearance, society and homeworld. This is colour for the player, not rules: keep every mechanical effect in traits so it can be applied automatically."
+    },
+    "traits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The abilities every member of the species has from level 1, one entry per heading in the published block. Include the ability score increase, age, alignment and size headings too, so the printed block can be reproduced verbatim.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Trait heading, such as Darkvision or Powerful Build."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Markdown rules text for the trait, written in second person because it addresses the player directly."
+          }
+        }
+      }
+    },
+    "abilityScoreIncreaseOptions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Mutually exclusive ways to spend the species' ability score increase. Most species offer exactly one; humans offer a choice between a fixed spread and a smaller bonus spread wider. Omit entirely when the increase comes from another species, as it does for a half-species.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["increases"],
+        "properties": {
+          "increases": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Every increase applied together if the player picks this option.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["amount"],
+              "oneOf": [
+                { "required": ["abilities"] },
+                { "required": ["anyAbilityCount"] }
+              ],
+              "properties": {
+                "amount": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "How many points each ability covered by this increase gains."
+                },
+                "abilities": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "description": "The specific abilities that gain the amount. Use this when the species dictates which abilities improve.",
+                  "items": {
+                    "enum": ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"]
+                  }
+                },
+                "anyAbilityCount": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 6,
+                  "description": "How many abilities of the player's choice gain the amount. Use this instead of abilities when the species leaves the decision open."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "physique": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "The height and weight table used to roll or pick a character's build. The averages are the base values and the modifiers are the dice added on top, exactly as printed.",
+      "properties": {
+        "heightAverage": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Base height in feet and inches, for example 4'9\"."
+        },
+        "heightModifier": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Dice expression added to the base height, for example +2d6\"."
+        },
+        "weightAverage": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Base weight including its unit, for example 100 lb."
+        },
+        "weightModifier": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Expression applied to the height modifier roll to derive weight, for example x(2d4) lb."
+        }
+      }
+    },
+    "appearance": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Guidance for describing a character of this species. Each field is a prose list of possibilities rather than a closed set, because players pick something plausible instead of rolling.",
+      "properties": {
+        "distinctions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The one or two features that make a member of the species recognisable at a glance."
+        },
+        "skinColorOptions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Typical skin, scale or hide colours."
+        },
+        "hairColorOptions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Typical hair or fur colours. Species with none say so explicitly rather than leaving this out."
+        },
+        "eyeColorOptions": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Typical eye colours."
+        },
+        "colorScheme": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Finish or livery of a constructed species, standing in for skin colour on droids."
+        },
+        "manufacturer": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Companies that build this species. Constructed species only."
+        }
+      }
+    },
+    "imageUrls": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Illustrations of the species, most representative first.",
+      "items": { "type": "string", "format": "uri" }
+    },
+    "halfHumanTraits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "For a half-species only: the single trait inherited from each possible non-human parent. A player picks one row and gains that species' trait in place of a fixed trait list.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["speciesName", "traitName"],
+        "properties": {
+          "speciesName": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the non-human parent species."
+          },
+          "traitName": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the inherited trait, matching a trait name on the referenced species."
+          }
+        }
+      }
+    }
+  }
+}

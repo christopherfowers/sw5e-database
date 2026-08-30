@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/feature/v1.json",
+  "title": "Feature",
+  "description": "One granted ability, extracted from the class, archetype or species that grants it. A feature is the unit a character sheet actually tracks: it is what appears on the sheet when a character reaches the level that grants it. The parent's own body text still contains the same prose for reading; this content type exists so the grant can be resolved by level without parsing that prose.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "grantedBy", "grantedByName"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this feature. A feature name alone is not unique across the corpus, so the key is built from the granting kind, the granting entry, the feature name and the level."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, as it appears as a heading in the parent's text and on a character sheet."
+    },
+    "grantedBy": {
+      "enum": ["class", "archetype", "species"],
+      "description": "What kind of entry grants this feature. It decides how the grant is triggered: class and archetype features arrive at a level, species features are held from level 1."
+    },
+    "grantedByName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the specific class, archetype or species that grants it, matching an entry of the kind named by grantedBy."
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "Level in the granting class at which the feature is gained. Present for class and archetype features and absent for species features, which are held from character creation."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text in second person. The house style opens with an italic line naming the parent and level, then the rules. Omit only when the source text is genuinely missing, which is a data defect rather than a design choice."
+    }
+  }
+}
