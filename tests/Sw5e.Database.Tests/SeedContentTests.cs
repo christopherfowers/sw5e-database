@@ -270,10 +270,8 @@ public sealed class SeedContentTests
             .Select(entry => Text(entry.Document, "name")!)
             .ToHashSet(StringComparer.Ordinal);
 
-        // Classes are not a content type of their own yet, so the archetypes are
-        // the seed set's only record of which classes exist.
-        var classNames = Items("archetype")
-            .Select(entry => Text(entry.Document, "className")!)
+        var classNames = Items("class")
+            .Select(entry => Text(entry.Document, "name")!)
             .ToHashSet(StringComparer.Ordinal);
 
         var creditCategoryKeys = Items("credit-category")
@@ -371,10 +369,21 @@ public sealed class SeedContentTests
 
                         case "class":
                             Require(classNames.Contains(grantedByName), path,
-                                "grantedByName", grantedByName, "class named by an archetype");
+                                "grantedByName", grantedByName, "class");
                             break;
                     }
 
+                    break;
+
+                // An archetype belongs to exactly one class and an improvement
+                // describes exactly one class. Both name it by display name
+                // rather than by key, because that is the string their own
+                // rules text prints, and a name that resolves to nothing would
+                // orphan the entry from the only page it can be reached from.
+                case "archetype":
+                case "class-improvement":
+                    var className = Text(document, "className")!;
+                    Require(classNames.Contains(className), path, "className", className, "class");
                     break;
 
                 case "species":

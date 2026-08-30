@@ -1,0 +1,8 @@
+{
+  "key": "class-scout-extra-attack-5",
+  "name": "Extra Attack",
+  "grantedBy": "class",
+  "grantedByName": "Scout",
+  "level": 5,
+  "description": "_**Scout:** 5th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "scholar-splashclass-improvement",
+  "name": "Scholar Splashclass Improvement",
+  "className": "Scholar",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in scholar",
+  "description": "You are able to analyze a target, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a bonus action on your turn, you can analyze a target you can see within 60 feet of you. For the next minute, or until you analyze another target, you gain the following benefits:\n- When you analyze a hostile creature, your attack and damage rolls made with weapons with the finesse property or blaster weapons against that target may use your Intelligence modifier instead of Strength or Dexterity.\n- When you analyze a friendly creature, the target can end your Critical Analysis on them (no action required) to add your Intelligence modifier to one attack roll, ability check, or saving throw. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest.\n\nYou can use this feature a number of times equal to half your proficiency bonus, rounded up. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

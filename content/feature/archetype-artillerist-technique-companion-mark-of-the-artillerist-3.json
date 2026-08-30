@@ -1,0 +1,8 @@
+{
+  "key": "archetype-artillerist-technique-companion-mark-of-the-artillerist-3",
+  "name": "Mark of the Artillerist",
+  "grantedBy": "archetype",
+  "grantedByName": "Artillerist Technique (Companion)",
+  "level": 3,
+  "description": "_**Artillerist Technique:** 3rd level_\nOnce per round, when your turret deals damage to the target of your Ranger's Quarry, you can roll your Ranger's Quarry die and add it to the damage roll."
+}

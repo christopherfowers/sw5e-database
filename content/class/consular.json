@@ -1,0 +1,530 @@
+{
+  "key": "consular",
+  "name": "Consular",
+  "summary": "Force-wielder who focuses on utilizing force powers",
+  "primaryAbility": "wisdom",
+  "hitPoints": {
+    "dieFaces": 6,
+    "atFirstLevel": "6 + your Constitution modifier",
+    "atFirstLevelValue": 6,
+    "atHigherLevels": "1d6 (or 4) + your Constitution modifier per consular level after 1st",
+    "atHigherLevelsAverage": 4
+  },
+  "proficiencies": {
+    "weapons": "Simple lightweapons, simple vibroweapons",
+    "savingThrows": [
+      "wisdom",
+      "charisma"
+    ],
+    "skills": {
+      "choose": 2,
+      "from": [
+        "Deception",
+        "Insight",
+        "Intimidation",
+        "Investigation",
+        "Lore",
+        "Medicine",
+        "Persuasion"
+      ],
+      "text": "Choose two from Deception, Insight, Intimidation, Investigation, Lore, Medicine, and Persuasion"
+    }
+  },
+  "multiclassProficiencies": "Simple lightweapons",
+  "startingEquipment": "- *(a)* a simple lightweapon or *(b)* a simple vibroweapon\n- *(a)* a scholar's pack, *(b)* an explorer's pack, or *(c)* a diplomat's pack",
+  "startingWealth": "5d4 x 100 cr",
+  "casterType": "force",
+  "casterRatio": 1,
+  "archetypeLabel": "Consular Traditions",
+  "archetypeIntroduction": "Different consulars select different traditions, called Ways, to follow as they hone their powers. Your tradition grants you features at 3rd, 6th, 10th, 14th, and 18th level.",
+  "lore": "A twi'lek in black robes steps on a terrified rodian, who  scampers away on the ground. Lightning sparks from his fingers, illuminating his red and black tattoos. The rodian's pleas for mercy fall on deaf ears as the Sith channels his lightning into his failed apprentice, leaving nothing but a charred husk behind.\n\nSitting cross-legged on a dense patch of grass, a miraluka mystic meditates on the Force. With every breath, the trees sway with a rhythmic breeze. Though she lacks simple vision, she can see the Force as it moves everything around her.\n\nA drably-robed human focuses inward, channeling the Force into the ground around him. Slowly, all the debris within arms reach rises into the air around him; with a flick of his wrist, he clears the air, sending his projectiles to pound on the approaching tank.\n\nConsulars are the supreme wielders of the Force, defined and united by the powers they cast. Drawing on the omnipresent Force that permeates the universe, consulars cast powers of rejuvenating healing and destructive lightning, draining life-force and manipulating minds; the most powerful with the Force can even experience brief glimpses of the future.\n\n### Strong with the Force\nRefraining from drawing their lightsabers except as a measure of last resort, consulars spend a great deal of time studying the mysteries of the Force. Their knowledge allows them to channel the Force to greater heights, unlocking unrivaled power, and twisting those powers to greater effect.\n\n### Sage or Sorcerer\nConsulars who follow the light side of the Force, using their powers to better their communities and people, are often called sages, while consulars who fall to the dark side and subjugate or cast aside all in their path are commonly called sorcerers. Alternatively, they may tend toward the middle, refraining from politics and war, spending their time in isolation and study.",
+  "creatingCharacter": "While creating your consular, consider your personal philosophy in regards to the Force and its most famous practitioners — the Jedi and the Sith. Are you a member of one of the two orders, or do you walk a different path? Perhaps you were ostracized from your primitive village out of superstition or jealousy. You may have been brutally trained from a young age in the dark side, fueling your innate thirst for power, or perhaps you were trained as a padawan in one of the Jedi temples. How do you treat strangers, and how do they treat you once they know your abilities? What was your family like, or what did you have instead of a family? Do you see the Force as light and dark, or an impartial river of gray?",
+  "quickBuild": "You can make a consular quickly by following these suggestions. First, make Wisdom or Charisma your highest ability score, followed by Dexterity. Second, choose the Jedi or Sith background.",
+  "description": "### Forcecasting\n_**Consular:** 1st level_\nIn your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.\n\n#### Force Powers Known\nYou learn 9 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the consular table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.\n\n#### Force Points\nYou have a number of force points equal to your consular level x 4, as shown in the Force Points column of the consular table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.\n\n#### Max Power Level\nMany force powers can be overpowered, consuming more force points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the consular table.\n\nYou may only cast force powers at 6th, 7th, 8th, and 9th-level once. You regain the ability to do so after a long rest.\n\n#### Forcecasting Ability\nYour forcecasting ability varies based on the alignment of the powers you cast. You use Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability whenever a power refers to your forcecasting ability. Additionally, you use this ability modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.\n\n___\n\n**Force save DC** = 8 + your proficiency bonus + your forcecasting ability modifier\n\n___\n\n**Force attack modifier** = your proficiency bonus + your forcecasting ability modifier\n\n___\n\n### Force Recovery\n_**Consular:** 1st level_\nYou have learned to regain some of your energy by briefly meditating. When you finish a short rest, you can regain a number of force points equal to half your consular level + your Wisdom or Charisma modifier (your choice, minimum of one). Once you've used this feature, you must complete a long rest before you can use it again.\n\n### Force-Empowered Casting\n_**Consular:** 2nd level_\nYou gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two Force-Empowered Casting options, located at the end of the class description, and you learn more at higher levels, as shown in the Force-Empowered Casting Options of the cnosular table.\n\nYou can use only one Force-Empowered Casting option on a power when you cast it, unless otherwise noted.\n\n### Force Shield\n_**Consular:** 2nd level_\nYou learn how to defend yourself purely through your strength with the Force. When you are hit by an attack, you can use your reaction to shroud yourself in Force energy. Until the start of your next turn, you have a bonus to AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1). This includes the triggering attack.\n\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.\n\n### Force Affinity\n_**Consular:** 3rd level_\nYou've developed an affinity for one of the three aspects of the Force: the Ashla, the Bendu, or the Bogan. Choose one from the following:\n\n#### Ashla\nWhen you successfully cast a light side power, either your or the target's (your choice) hit point maximum and current hit points increase by an amount equal to the power's level. This effect lasts for 1 minute. You can only have one instance of this effect active at a time.\n\n#### Bendu\nYou can add both your Wisdom and Charisma modifier to your maximum number of force points, instead of just one.\n\n#### Bogan\nYour dark side power damage rolls gain a minimum roll threshold, discussed in chapter 7.\n\n### Consular Tradition\n_**Consular:** 3rd, 6th, 10th, 14th, and 18th level_\nYou choose a consular tradition, which is detailed at the end of the class description.\n\n### Ability Score Improvement\n_**Consular:** 4th, 8th, 12th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature.\n\n### One with the Force\n_**Consular:** 20th level_\nYour attunement to the Force is absolute. Your Wisdom or Charisma score increases by 4, and your maximum for this score increases by 4. Additionally, you gain mastery over a single force power, and can cast it with little effort. Choose one 3rd-level force power that you know as your signature power. You can cast it once at 3rd level without expending force points. When you do so, you can't do so again until you finish a short or long rest.\n\nIf you want to cast it at a higher level, you must expend force points as normal.\n\n### Force-Empowered Castings\nThe castings are presented in alphabetical order.\n\n#### Careful Power\nWhen you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from the power's full force. To do so, you spend 1 additional force point and choose a number of those creatures up to your Wisdom or Charisma modifier (your choice, minimum of one). A chosen creature automatically succeeds on its saving throw against the power.\n\n#### Distant Power\nWhen you cast a power that has a range of 5 feet or greater, you can spend 1 additional force point to double the range of the power.\n\nAlternatively, when you cast a power that has a range of touch, you can spend 1 additional force point to make the range of the power 30 feet.\n\n#### Extended Power\nWhen you cast a power that has a duration of 1 minute or longer, you can spend 1 additional force point to double its duration, to a maximum duration of 24 hours.\n\n#### Heightened Power\nWhen you cast a power that forces a creature to make a saving throw to resist its effects, you can spend 3 additional force points to give one target of the power disadvantage on its first saving throw made against the power.\n\n#### Improved Power\nWhen you roll damage for a power, you can spend 1 additional force point to reroll a number of the damage dice up to your Wisdom or Charisma modifier (your choice, minimum of one). You must use the new rolls.\n\nYou can use Improved Power even if you have already used a different Force-Empowered Casting option during the casting of the power.\n\n#### Lingering Power\nWhen you cast a power that requires concentration to maintain you can choose to spend 3 additional force points. If you do, when you lose concentration on the power, the power will not end until the end of your next turn.\n\n#### Pinpoint Power\nWhen you cast a power that allows you to force creatures in an area to make a saving throw you can instead spend 1 force point and make a ranged force attack against a single target that would be in the range. On a hit the target suffers the effects as though they failed their saving throw.\n\n#### Quickened Power\nWhen you cast a power that has a casting time of 1 action, you can spend 2 additional force points to change the casting time to 1 bonus action for this casting.\n\n#### Refocused Power\nWhen you are forced to make a Constitution saving throw to maintain concentration on a power you can use your reaction and spend 2 force points to automatically succeed on the saving throw.\n\nYou can use Refocused Power even if you have already used a different Force-Empowered Casting option during the casting of the power.\n\n#### Seeking Power\nIf you miss with a force power that calls for an attack roll, you can spend 2 force points to reroll the attack. You must use the new roll.\n\nYou can use Seeking Power even if you have already used a different Force-Empowered Casting option during the casting of the power.\n\n#### Twinned Power\nWhen you cast a power that can only have one target and doesn't have a range of self, you can spend a number of additional force points equal to the power's level to choose a second target in range with the same power (1 force point if the power is at-will).",
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_01.png",
+    "https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_02.png"
+  ],
+  "progression": [
+    {
+      "level": 1,
+      "proficiencyBonus": 2,
+      "features": [
+        "Forcecasting",
+        "Force Recovery"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Force Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "proficiencyBonus": 2,
+      "features": [
+        "Force-Empowered Casting",
+        "Force Shield"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "11"
+        },
+        {
+          "label": "Force Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "proficiencyBonus": 2,
+      "features": [
+        "Force Affinity",
+        "Consular Tradition"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Force Points",
+          "value": "12"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "proficiencyBonus": 2,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Force Points",
+          "value": "16"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "proficiencyBonus": 3,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Force Points",
+          "value": "20"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "proficiencyBonus": 3,
+      "features": [
+        "Tradition feature"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Force Points",
+          "value": "24"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "proficiencyBonus": 3,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "21"
+        },
+        {
+          "label": "Force Points",
+          "value": "28"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "proficiencyBonus": 3,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "23"
+        },
+        {
+          "label": "Force Points",
+          "value": "32"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "proficiencyBonus": 4,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "25"
+        },
+        {
+          "label": "Force Points",
+          "value": "36"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "proficiencyBonus": 4,
+      "features": [
+        "Tradition feature"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "26"
+        },
+        {
+          "label": "Force Points",
+          "value": "40"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "proficiencyBonus": 4,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "28"
+        },
+        {
+          "label": "Force Points",
+          "value": "44"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "proficiencyBonus": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "29"
+        },
+        {
+          "label": "Force Points",
+          "value": "48"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "proficiencyBonus": 5,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "31"
+        },
+        {
+          "label": "Force Points",
+          "value": "52"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "proficiencyBonus": 5,
+      "features": [
+        "Tradition feature"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "32"
+        },
+        {
+          "label": "Force Points",
+          "value": "56"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "proficiencyBonus": 5,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "34"
+        },
+        {
+          "label": "Force Points",
+          "value": "60"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "8th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "proficiencyBonus": 5,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "35"
+        },
+        {
+          "label": "Force Points",
+          "value": "64"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "8th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "proficiencyBonus": 6,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "37"
+        },
+        {
+          "label": "Force Points",
+          "value": "68"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "proficiencyBonus": 6,
+      "features": [
+        "Tradition feature"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "38"
+        },
+        {
+          "label": "Force Points",
+          "value": "72"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "proficiencyBonus": 6,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "39"
+        },
+        {
+          "label": "Force Points",
+          "value": "76"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "proficiencyBonus": 6,
+      "features": [
+        "One with the Force"
+      ],
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "40"
+        },
+        {
+          "label": "Force Points",
+          "value": "80"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Force-Empowered Casting Options",
+          "value": "4"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

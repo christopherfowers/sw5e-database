@@ -1,0 +1,8 @@
+{
+  "key": "archetype-triage-technique-mark-of-triage-3",
+  "name": "Mark of Triage",
+  "grantedBy": "archetype",
+  "grantedByName": "Triage Technique",
+  "level": 3,
+  "description": "_**Triage Technique:** 3rd level_\nYou learn new ways to use your Ranger's Quarry.\n- While a hostile creature is the target of your Ranger's Quarry, you always know any conditions it is suffering from, and you know at roughly what percentage its current hit points is relative to its maximum. Additionally, if the target is within 60 feet of you, when it is forced to make a Constitution saving throw, you can use your reaction to force it to make the roll with disadvantage. Once you've used this feature, you must complete a short or long rest before you can use it again.\n- While a friendly creature is the target of your Ranger's Quarry, you have advantage on Wisdom (Medicine) checks made to stabilize it. Additionally, if the target is within 60 feet of you, you can use your bonus action and roll your Ranger's Quarry and either restore hit points equal to the amount rolled, or grant temporary hit points equal to the amount rolled. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or long rest."
+}

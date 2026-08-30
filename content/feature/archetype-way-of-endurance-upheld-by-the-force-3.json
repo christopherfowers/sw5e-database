@@ -1,0 +1,8 @@
+{
+  "key": "archetype-way-of-endurance-upheld-by-the-force-3",
+  "name": "Upheld by the Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Endurance",
+  "level": 3,
+  "description": "_**Way of Endurance:** 3rd level_\nThe Force flowing through your body strengthens you, granting the following benefits:\n- Your hit point maximum increases by 3, and it increases by 1 again whenever you gain a level in this class.\n- Your base AC becomes 13 + your Constitution modifier.\n- When you make a melee weapon attack as a part of a force power you cast, you can use Wisdom or Charisma (your choice) instead of Strength for the attack and damage rolls.\nAdditionally, as an action, you can gain resistance to kinetic and energy damage for 1 minute. This effect lasts until you end it as a bonus action, you are incapacitated, or you don armor other than a shield. You can use this feature twice. You regain all expended uses of it when you finish a short or long rest."
+}

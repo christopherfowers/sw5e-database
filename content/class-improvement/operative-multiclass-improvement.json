@@ -1,0 +1,10 @@
+{
+  "key": "operative-multiclass-improvement",
+  "name": "Operative Multiclass Improvement",
+  "className": "Operative",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in operative",
+  "description": "You can add half your other chosen class's levels (rounded down) to your operative levels when determining your amount of Sneak Attack dice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "archetype-industrial-approach-industrious-tech-3",
+  "name": "Industrious Tech",
+  "grantedBy": "archetype",
+  "grantedByName": "Industrial Approach",
+  "level": 3,
+  "description": "_**Industrial Approach:** 3rd level_\nYou can cast tech powers while raging as long as the power's casting time is no more than 1 action and the power does not require concentration. While raging, you add your rage damage to damage rolls from tech powers you cast that require a tech attack or saving throw. If a tech power damages more than one target, you may only apply your rage damage to one of them.\nCasting tech powers during rage counts as attacking for the purposes of maintaining rage, and you can use your Reckless Attack feature to gain advantage when casting a tech power that requires a tech attack."
+}

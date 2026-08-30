@@ -1,0 +1,8 @@
+{
+  "key": "archetype-inquisitor-technique-sense-force-9",
+  "name": "Sense Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Inquisitor Technique",
+  "level": 9,
+  "description": "_**Inquisitor Technique:** 7th, 9th, 13th, and 17th level_\nYou can use your action to gain the benefits of the *force sight* force power until the end of your next turn.\nYou can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest."
+}

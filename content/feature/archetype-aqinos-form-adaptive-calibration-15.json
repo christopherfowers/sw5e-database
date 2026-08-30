@@ -1,0 +1,8 @@
+{
+  "key": "archetype-aqinos-form-adaptive-calibration-15",
+  "name": "Adaptive Calibration",
+  "grantedBy": "archetype",
+  "grantedByName": "Aqinos Form",
+  "level": 15,
+  "description": "_**Aqinos Form:** 15th level_\nWhen you reduce a hostile creature to 0 hit points with a tech power, or you restore hit points to a friendly creature that is at 0 hit points with a tech power, you regain an expended use of your Channel the Force, and you gain temporary force points equal to the power's level."
+}

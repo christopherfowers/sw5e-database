@@ -1,0 +1,8 @@
+{
+  "key": "archetype-bulwark-technique-regenerative-shielding-11",
+  "name": "Regenerative Shielding",
+  "grantedBy": "archetype",
+  "grantedByName": "Bulwark Technique",
+  "level": 11,
+  "description": "_**Bulwark Technique:** 11th level_\nWhen a hostile creature forces you to make a saving throw and you succeed, your personal barrier regains hit points equal to your Intelligence modifier."
+}

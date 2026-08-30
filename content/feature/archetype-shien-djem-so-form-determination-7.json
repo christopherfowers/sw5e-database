@@ -1,0 +1,8 @@
+{
+  "key": "archetype-shien-djem-so-form-determination-7",
+  "name": "Determination",
+  "grantedBy": "archetype",
+  "grantedByName": "Shien/Djem So Form",
+  "level": 7,
+  "description": "_**Shien/Djem So Form:** 7th level_\nYou gain one of the following features. Choose Aggressive Negotiations for Shien or Reliable Vigor for Djem So.\n#### Aggressive Negotiations\nYou gain proficiency in Intimidation or Persuasion. Additionally, while you are wielding a weapon with which you are proficient, you can't have disadvantage on Charisma (Intimidation) and Charisma (Persuasion) checks, and if the target would make a contested check, they can't have advantage on it.\n#### Reliable Vigor\nIf the d20 result for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the result. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest."
+}

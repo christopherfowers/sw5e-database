@@ -1,0 +1,8 @@
+{
+  "key": "archetype-saboteur-practice-ion-pulse-13",
+  "name": "Ion Pulse",
+  "grantedBy": "archetype",
+  "grantedByName": "Saboteur Practice",
+  "level": 13,
+  "description": "_**Saboteur Practice:** 13th level_\nAs a bonus action on your turn, you can expend one or more of your tracker droid's Hit Dice to have it emit an pulse of ion energy. Each creature within 5 feet of your tracker droid must make a Constitution saving throw against your tech save DC. A creature takes ion damage for each Hit Die expended in this way on a failed save, or half as much as on a successful one. The size of the damage die equals the size of your tracker droid's Hit Die. Any electronics not being worn or carried within the blast radius are disabled until rebooted.\n##### Saboteur Techcasting\n| Level | Tech Powers Known | Tech Points | Max Power Level |\n|:---:|:---:|:---:|:---:|\n|  3rd |  3 |  2 | 1st |\n|  4th |  4 |  2 | 1st |\n|  5th |  5 |  3 | 1st |\n|  6th |  6 |  3 | 1st |\n|  7th |  7 |  4 | 2nd |\n|  8th |  8 |  4 | 2nd |\n|  9th |  9 |  5 | 2nd |\n| 10th | 10 |  5 | 2nd |\n| 11th | 11 |  6 | 2nd |\n| 12th | 12 |  6 | 2nd |\n| 13th | 13 |  7 | 3rd |\n| 14th | 14 |  7 | 3rd |\n| 15th | 15 |  8 | 3rd |\n| 16th | 16 |  8 | 3rd |\n| 17th | 17 |  9 | 4th |\n| 18th | 18 |  9 | 4th |\n| 19th | 19 | 10 | 4th |\n| 20th | 20 | 10 | 4th |"
+}

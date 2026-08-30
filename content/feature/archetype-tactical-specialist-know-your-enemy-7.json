@@ -1,0 +1,8 @@
+{
+  "key": "archetype-tactical-specialist-know-your-enemy-7",
+  "name": "Know Your Enemy",
+  "grantedBy": "archetype",
+  "grantedByName": "Tactical Specialist",
+  "level": 7,
+  "description": "_**Tactical Specialist:** 7th level_\nIf you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:\n##### Tactical Superiority\nLevel|Maneuvers Known|Superiority Dice Quantity|\n|:---:|:---:|:---:|:---:|\n| 3rd| 4| 4|\n| 4th| 5| 4|\n| 5th| 6| 5|\n| 6th| 7| 5|\n| 7th| 9| 6|\n| 8th|10| 6|\n| 9th|11| 7|\n|10th|12| 7|\n|11th|14| 8|\n|12th|15| 8|\n|13th|16| 9|\n|14th|17| 9|\n|15th|19|10|\n|16th|20|10|\n|17th|21|11|\n|18th|22|11|\n|19th|23|12|\n|20th|24|12|\n- Strength score\n- Dexterity score\n- Constitution score\n- Armor Class\n- Current hit points\n- Total class levels (if any)\n- Fighter class levels (if any)"
+}

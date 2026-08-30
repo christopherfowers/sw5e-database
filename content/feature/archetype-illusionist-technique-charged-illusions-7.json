@@ -1,0 +1,8 @@
+{
+  "key": "archetype-illusionist-technique-charged-illusions-7",
+  "name": "Charged Illusions",
+  "grantedBy": "archetype",
+  "grantedByName": "Illusionist Technique",
+  "level": 7,
+  "description": "_**Illusionist Technique:** 7th level_\nWhen a creature discerns the nature of an illusion you have created using a tech power or class feature while within 5 feet of it, you can dispel the illusion (no action required) to have the creature take energy damage equal to 1d10 + half your scout level."
+}

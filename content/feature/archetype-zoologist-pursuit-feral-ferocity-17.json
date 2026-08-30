@@ -1,0 +1,8 @@
+{
+  "key": "archetype-zoologist-pursuit-feral-ferocity-17",
+  "name": "Feral Ferocity",
+  "grantedBy": "archetype",
+  "grantedByName": "Zoologist Pursuit",
+  "level": 17,
+  "description": "_**Zoologist Pursuit:** 17th level_\nYou have learned how to push your beast beyond its limits. If your beast is within 30 feet of you and can see or hear you, you can command it to enter a furious state. While raging, your beast gains the following benefits:\n- Your beast has advantage on Strength checks and Strength saving throws if it is size Medium or larger.\n- Your beast has advantage on Dexterity checks and Dexterity saving throws if it is size Small or smaller.\n- When your beast hits with an attack, it deals bonus damage equal to your Critical Analysis ability modifer.\n- Your beast has resistance to kinetic and energy damage.\nYour beast's furious state lasts for 1 minute. It ends early if your beast is knocked unconscious. You can end your beast's furious state as a bonus action.\nOnce you've used this feature, you can't use it again until you finish a long rest."
+}

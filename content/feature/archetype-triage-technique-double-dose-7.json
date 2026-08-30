@@ -1,0 +1,8 @@
+{
+  "key": "archetype-triage-technique-double-dose-7",
+  "name": "Double Dose",
+  "grantedBy": "archetype",
+  "grantedByName": "Triage Technique",
+  "level": 7,
+  "description": "_**Triage Technique:** 7th, 9th, 13th, and 17th level_\nYour application of medicine does not interfere with your own ability to recover from injuries. When you restore hit points or grant temporary hit points to another creature with a tech power or class feature, you recover the same amount of hit points or gain the same number of temporary hit points.\nYou can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest."
+}

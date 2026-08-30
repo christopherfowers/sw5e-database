@@ -1,0 +1,8 @@
+{
+  "key": "archetype-gambler-pursuit-risk-versus-reward-3",
+  "name": "Risk versus Reward",
+  "grantedBy": "archetype",
+  "grantedByName": "Gambler Pursuit",
+  "level": 3,
+  "description": "_**Gambler Pursuit:** 3rd, 9th, 13th, and 17th level_\nWhen you make your first attack on your turn against the target of your Critical Analysis feature, you can decide to gamble by rolling a d6. On a roll of 4 or higher, you have advantage on attack rolls against that creature until the start of your next turn. On a roll of 3 or lower, that creature instead has advantage on attack rolls against you until the start of your next turn.\nThis die increases to d8 at 9th level, d10 at 13th level, and d12 at 17th level."
+}

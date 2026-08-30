@@ -1,0 +1,8 @@
+{
+  "key": "archetype-way-of-balance-at-will-barrier-10",
+  "name": "At-Will Barrier",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Balance",
+  "level": 10,
+  "description": "_**Way of Balance:** 10th level_\nYour at-will universal powers grant a small boost to your Force Barrier. When you cast an at-will universal power, the barrier regains 1 hit point. You can't restore your barrier above half its maximum hit points in this way."
+}

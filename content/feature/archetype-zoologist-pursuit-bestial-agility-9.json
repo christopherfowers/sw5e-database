@@ -1,0 +1,8 @@
+{
+  "key": "archetype-zoologist-pursuit-bestial-agility-9",
+  "name": "Bestial Agility",
+  "grantedBy": "archetype",
+  "grantedByName": "Zoologist Pursuit",
+  "level": 9,
+  "description": "_**Zoologist Pursuit:** 9th level_\nYour beast's reflexes and agility allow it to move with a burst of speed. When your beast moves on its turn in combat, it can double its speed until the end of the turn. Once its used this feature, it can't use it again until it moves 0 feet on one of its turns."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "scout-multiclass-improvement",
+  "name": "Scout Multiclass Improvement",
+  "className": "Scout",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in scout",
+  "description": "You can add your other chosen class's levels to your scout levels when determining the size of your Ranger's Quarry die and the duration of your Ranger's Quarry feature.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

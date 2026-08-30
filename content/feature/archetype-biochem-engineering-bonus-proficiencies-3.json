@@ -1,0 +1,8 @@
+{
+  "key": "archetype-biochem-engineering-bonus-proficiencies-3",
+  "name": "Bonus Proficiencies",
+  "grantedBy": "archetype",
+  "grantedByName": "Biochem Engineering",
+  "level": 3,
+  "description": "_**Biochem Engineering:** 3rd level_\nYou gain proficiency in the Medicine skill, biochemist's kits, and poisoner's kits. Additionally, when you engage in crafting with biochemist's kits and poisoner's kits, the rate at which you craft doubles."
+}

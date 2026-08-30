@@ -1,0 +1,8 @@
+{
+  "key": "archetype-artificer-engineering-force-resonance-3",
+  "name": "Force Resonance",
+  "grantedBy": "archetype",
+  "grantedByName": "Artificer Engineering",
+  "level": 3,
+  "description": "_**Artificer Engineering:** 3rd level_\nOnce per round, when you hit a creature with your modified lightsaber, you can expend one use of your Potent Aptitude to deal an extra 2d6 damage to that target. The damage is the same type as your modified lightsaber's damage.\nThe damage increases when you reach certain levels in this class, increasing to 3d6 at 5th level, 5d6 at 11th level, and 8d6 at 17th level."
+}

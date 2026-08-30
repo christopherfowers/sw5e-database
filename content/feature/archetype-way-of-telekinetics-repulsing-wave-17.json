@@ -1,0 +1,8 @@
+{
+  "key": "archetype-way-of-telekinetics-repulsing-wave-17",
+  "name": "Repulsing Wave",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Telekinetics",
+  "level": 17,
+  "description": "_**Way of Telekinetics:** 14th and 17th level_\nWhen you are dealt damage by a creature within 5 feet of you, you can use your reaction to deal force damage to the creature equal to your consular level + your Wisdom or Charisma modifier (your choice, minimum of +1). If the attacker is Huge or smaller, it must also make a Strength saving throw against your universal force save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest."
+}

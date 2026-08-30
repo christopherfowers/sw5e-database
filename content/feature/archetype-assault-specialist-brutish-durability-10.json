@@ -1,0 +1,8 @@
+{
+  "key": "archetype-assault-specialist-brutish-durability-10",
+  "name": "Brutish Durability",
+  "grantedBy": "archetype",
+  "grantedByName": "Assault Specialist",
+  "level": 10,
+  "description": "_**Assault Specialist:** 10th, 13th, and 17th level_\nOnce per round, you can roll a d8 and add the die to a saving throw you make. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20.\nThis die increases to a d10 at 13th level and a d12 at 17th level."
+}

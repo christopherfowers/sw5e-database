@@ -1,0 +1,8 @@
+{
+  "key": "archetype-beguiler-practice-enthralling-vigor-13",
+  "name": "Enthralling Vigor",
+  "grantedBy": "archetype",
+  "grantedByName": "Beguiler Practice",
+  "level": 13,
+  "description": "_**Beguiler Practice:** 13th level_\nWhenever a creature fails a Wisdom or Charisma saving throw against a force power or class feature you use, you can gain temporary hit points equal to half your operative level + your Charisma modifier (minimum of +1).\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a short or long rest."
+}

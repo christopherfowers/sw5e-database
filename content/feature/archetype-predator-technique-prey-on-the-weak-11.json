@@ -1,0 +1,8 @@
+{
+  "key": "archetype-predator-technique-prey-on-the-weak-11",
+  "name": "Prey on the Weak",
+  "grantedBy": "archetype",
+  "grantedByName": "Predator Technique",
+  "level": 11,
+  "description": "_**Predator Technique:** 11th level_\nWhen you hit a creature with a weapon attack, and the creature is below its hit point maximum, the next attack roll made against that creature before the end of your next turn by someone other than you has advantage."
+}

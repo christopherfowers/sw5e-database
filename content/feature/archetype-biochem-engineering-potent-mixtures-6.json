@@ -1,0 +1,8 @@
+{
+  "key": "archetype-biochem-engineering-potent-mixtures-6",
+  "name": "Potent Mixtures",
+  "grantedBy": "archetype",
+  "grantedByName": "Biochem Engineering",
+  "level": 6,
+  "description": "_**Biochem Engineering:** 6th level_\nWhen you cast a tech power of 1st-level or higher that grants temporary hit points, or deals acid or poison damage, you add your Intelligence modifier (a minimum of +1) to the roll."
+}

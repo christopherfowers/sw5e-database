@@ -1,0 +1,8 @@
+{
+  "key": "class-guardian-extra-attack-5",
+  "name": "Extra Attack",
+  "grantedBy": "class",
+  "grantedByName": "Guardian",
+  "level": 5,
+  "description": "_**Guardian:** 5th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn."
+}

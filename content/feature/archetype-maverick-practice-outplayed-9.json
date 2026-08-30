@@ -1,0 +1,8 @@
+{
+  "key": "archetype-maverick-practice-outplayed-9",
+  "name": "Outplayed",
+  "grantedBy": "archetype",
+  "grantedByName": "Maverick Practice",
+  "level": 9,
+  "description": "_**Maverick Practice:** 9th level_\nWhen a creature fails a saving throw or ability check against you or an effect you control, you don't need advantage on your attack roll to use Sneak Attack, you can't have disadvantage on attack rolls against that creature, and that creature can't have advantage on ability checks and saving throws against effects you control. These effects last until the end of your next turn.\n##### Maverick Superiority\n|Level|Maneuvers Known|Superiority Dice Quantity|Superiority Dice Size|\n|:--:|:--:|:--:|:--:|\n| 3rd| 2|2| d4|\n| 4th| 2|2| d4|\n| 5th| 4|3| d6|\n| 6th| 4|3| d6|\n| 7th| 5|3| d6|\n| 8th| 5|3| d6|\n| 9th| 6|4| d8|\n|10th| 6|4| d8|\n|11th| 7|4| d8|\n|12th| 7|4| d8|\n|13th| 9|5|d10|\n|14th| 9|5|d10|\n|15th|10|5|d10|\n|16th|10|5|d10|\n|17th|11|6|d12|\n|18th|11|6|d12|\n|19th|12|6|d12|\n|20th|12|6|d12|"
+}

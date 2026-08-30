@@ -1,0 +1,10 @@
+{
+  "key": "engineer-class-improvement",
+  "name": "Engineer Class Improvement",
+  "className": "Engineer",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in engineer",
+  "description": "When a creature has a Potent Aptitude die from you and casts a power, they can roll the die and add the number rolled to one damage or healing roll of the power. If the power would damage or heal multiple targets, this bonus only applies to one of them. The Potent Aptitude die is then lost.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,319 @@
+{
+  "key": "industrial-approach",
+  "name": "Industrial Approach",
+  "className": "Berserker",
+  "casterType": "tech",
+  "casterRatio": 0.1666666666666667,
+  "classCasterType": "none",
+  "description": "While some berserkers are content to surrender to their rage, others prefer a more tactful approach. Berserkers of the Industrial Approach augment their rage with the versatility of technology, adding elemental explosions to their already fearsome arsenal.\n\n### Techcasting\n_**Industrial Approach:** 3rd level_\nYou have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.\n\n#### Tech Powers Known\nYou learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Industrial Approach Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.\n\n#### Tech Points\nYou have a number of tech points equal to half of your berserker level, as shown in the Tech Points column of the Industrial Approach Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.\n\n#### Max Power Level\nMany tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Industrial Approach Techcasting table.\n\nYou may only cast tech powers at 4th-level once. You regain the ability to do so after a long rest.\n\n#### Techcasting Ability\nIntelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.\n\n___\n\n**Tech save DC** = 8 + your proficiency bonus + your Intelligence modifier\n\n___\n\n**Tech attack modifier** = your proficiency bonus + your Intelligence modifier\n\n___\n\n#### Techcasting Focus\nYou use a wristpad (found in chapter 5 of the Player's Handbook) as a tech focus for your tech powers.\n\n### Industrious Tech\n_**Industrial Approach:** 3rd level_\nYou can cast tech powers while raging as long as the power's casting time is no more than 1 action and the power does not require concentration. While raging, you add your rage damage to damage rolls from tech powers you cast that require a tech attack or saving throw. If a tech power damages more than one target, you may only apply your rage damage to one of them.\n\nCasting tech powers during rage counts as attacking for the purposes of maintaining rage, and you can use your Reckless Attack feature to gain advantage when casting a tech power that requires a tech attack.\n\n### Explosive Resilience\n_**Industrial Approach:** 6th, 9th, 13th, and 17th level_\nOnce per round, when you deal damage that includes your rage damage, you can cause a localized explosion around the recipient of that damage. Each creature within 5 feet of the damaged creature other than you takes acid, cold, fire, ion, or lightning damage (your choice) equal to your rage damage bonus, and you gain resistance to the chosen damage type until the end of your next turn.\n\nYou can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you complete a short or long rest.\n\n### Painkiller\n_**Industrial Approach:** 10th level_\nWhenever you cast a tech power of 1st-level or higher, or deal damage using your Explosive Resilience feature, you can cause a friendly creature you can see within 30 feet to gain temporary hit points equal to half your berserker level + your Intelligence modifier. Additionally, while they have these temporary hit points, they have advantage on saving throws against effects that would cause them to be frightened.\n\n### Final Countdown\n_**Industrial Approach:** 14th level_\nWhen you are reduced to 0 hit points but not killed outright, and you have at least one tech point remaining, you can expend all your remaining tech points and instead to drop to one hit point (no action required). If you do so, each creature within 30 feet of you must make a Dexterity saving throw against your tech save DC. On a failed save, they take 1d12 acid, cold, fire, ion, or lightning damage (your choice) damage for each tech point spent in this way, or half as much on a successful one.\n\n##### Industrial Techcasting",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "3"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "4"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "5"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "6"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "8"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "10"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "11"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "14"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "16"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "20"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

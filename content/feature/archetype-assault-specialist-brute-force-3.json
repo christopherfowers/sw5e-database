@@ -1,0 +1,8 @@
+{
+  "key": "archetype-assault-specialist-brute-force-3",
+  "name": "Brute Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Assault Specialist",
+  "level": 3,
+  "description": "_**Assault Specialist:** 3rd, 10th, and 16th level_\nWhen you make a weapon attack, you gain a +2 bonus to the damage roll. This bonus increases to +3 at 10th level and +4 at 16th level."
+}

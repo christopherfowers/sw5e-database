@@ -1,0 +1,8 @@
+{
+  "key": "archetype-gambler-pursuit-lucky-number-7-6",
+  "name": "Lucky Number 7",
+  "grantedBy": "archetype",
+  "grantedByName": "Gambler Pursuit",
+  "level": 6,
+  "description": "_**Gambler Pursuit:** 6th level_\nWhenever you roll a 7 on an attack roll against the target of your Critical Analysis feature, the attack automatically hits and you regain an expended superiority die.\nWhen attacking with advantage or disadvantage, this effect applies if either roll is a 7. If both rolls are a 7, the attack is a critical hit."
+}

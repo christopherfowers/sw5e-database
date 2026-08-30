@@ -1,0 +1,10 @@
+{
+  "key": "scholar-class-improvement",
+  "name": "Scholar Class Improvement",
+  "className": "Scholar",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in scholar",
+  "description": "When you complete a long rest, you can choose one of the maneuvers you know and replace it with another one.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "class-engineer-potent-aptitude-1",
+  "name": "Potent Aptitude",
+  "grantedBy": "class",
+  "grantedByName": "Engineer",
+  "level": 1,
+  "description": "_**Engineer:** 1st level_\nYour technological experience lends you an uncommon insight that you can use to bolster your allies. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Potent Aptitude die, a d4. This die changes as you gain engineer levels, as shown in the Potent Aptitude column of the engineer table.\nOnce within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. Once the Potent Aptitude die is rolled, it is lost.\nA creature can have only one Potent Aptitude die at a time.\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a short or long rest."
+}

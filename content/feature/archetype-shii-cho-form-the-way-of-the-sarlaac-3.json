@@ -1,0 +1,8 @@
+{
+  "key": "archetype-shii-cho-form-the-way-of-the-sarlaac-3",
+  "name": "The Way of the Sarlaac",
+  "grantedBy": "archetype",
+  "grantedByName": "Shii-Cho Form",
+  "level": 3,
+  "description": "_**Shii-Cho Form:** 3rd level_\nAs a bonus action, you can enter a frenetic stance for one minute. While in this stance, the first time you hit a creature with a melee weapon attack on your turn, it has disadvantage on the next melee attack roll it makes against you before the start of your next turn. Additionally, if that creature is within 5 feet of you, it must make a Strength saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier). On a failed save, it is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.\nThis effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest."
+}

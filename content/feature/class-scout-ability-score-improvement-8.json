@@ -1,0 +1,8 @@
+{
+  "key": "class-scout-ability-score-improvement-8",
+  "name": "Ability Score Improvement",
+  "grantedBy": "class",
+  "grantedByName": "Scout",
+  "level": 8,
+  "description": "_**Scout:** 4th, 8th, 12th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature."
+}

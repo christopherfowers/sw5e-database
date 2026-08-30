@@ -1,0 +1,8 @@
+{
+  "key": "archetype-biotech-engineering-focused-augmentation-18",
+  "name": "Focused Augmentation",
+  "grantedBy": "archetype",
+  "grantedByName": "Biotech Engineering",
+  "level": 18,
+  "description": "_**Biotech Engineering:** 18th level_\nYou add your Intelligence modifier to Constitution saving throws you make to maintain concentration.\nAdditionally, when you cast a power that requires concentration and would affect only one target, you can target an additional creature with that power."
+}

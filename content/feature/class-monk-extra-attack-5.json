@@ -1,0 +1,8 @@
+{
+  "key": "class-monk-extra-attack-5",
+  "name": "Extra Attack",
+  "grantedBy": "class",
+  "grantedByName": "Monk",
+  "level": 5,
+  "description": "_**Monk:** 5th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn."
+}

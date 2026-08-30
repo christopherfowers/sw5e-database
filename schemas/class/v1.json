@@ -1,0 +1,267 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/class/v1.json",
+  "title": "Class",
+  "description": "One of the ten character classes: the spine of a character sheet, chosen at 1st level and advanced one level at a time to 20th. Everything a class hands out is tied to a level, so the level table is the primary structure here and the prose is secondary. The table is stored row by row rather than as rendered text because it is read three ways that plain prose cannot serve: a character sheet asks what arrives at level 7, a print layout asks for the columns in order, and a multiclass calculation asks for the caster ratio and the proficiencies a second class contributes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "primaryAbility",
+    "hitPoints",
+    "proficiencies",
+    "casterType",
+    "casterRatio",
+    "description",
+    "progression"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this class. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, singular and capitalised: Berserker, Consular, Scout. Features and archetypes refer to a class by this name rather than by key, because that is the string printed in their own rules text."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this class was published in, matching a document of the source content type. Every class in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this class belongs to the core rules or to the community expanded-content supplement."
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One line describing what the class does at a table, used where a full page will not fit: an index row, a search result, a class picker."
+    },
+    "primaryAbility": {
+      "$ref": "#/$defs/ability",
+      "description": "The ability the class leans on hardest. It is advice rather than a rule — nothing in the class enforces it — but it is what the books lead with and what a quick build assigns the highest score to."
+    },
+    "hitPoints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dieFaces", "atFirstLevel", "atHigherLevels"],
+      "description": "Hit dice and the two hit point calculations that follow from them. The prose and the numbers are both kept: the prose is what the page prints, and the numbers are what a character sheet adds up without parsing English.",
+      "properties": {
+        "dieFaces": {
+          "type": "integer",
+          "enum": [6, 8, 10, 12],
+          "description": "Faces on this class's hit die. One die per class level, and the class's hit dice are also its short-rest recovery pool."
+        },
+        "atFirstLevel": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Printed first-level line, such as \"12 + your Constitution modifier\"."
+        },
+        "atFirstLevelValue": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The fixed part of the first-level line — the maximum roll of the hit die — with the Constitution modifier left to the character."
+        },
+        "atHigherLevels": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Printed line for every level after the first, such as \"1d12 (or 7) + your Constitution modifier per berserker level after 1st\"."
+        },
+        "atHigherLevelsAverage": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "The take-the-average alternative to rolling, which is what most tables actually use."
+        }
+      }
+    },
+    "proficiencies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["savingThrows", "skills"],
+      "description": "What a character gains for taking this class at 1st level. Saving throws and skills are enumerated because a character sheet has a box for each of them; armor, weapons and tools are kept as their printed lines, because in this corpus they are prose — \"martial vibroweapons that lack the dexterity, heavy, special, and two-handed properties\" is one clause, not four items, and splitting it on its commas would invent four proficiencies that do not exist.",
+      "properties": {
+        "armor": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Printed armor proficiency line. Absent when the class grants none."
+        },
+        "weapons": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Printed weapon proficiency line."
+        },
+        "tools": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Printed tool proficiency line. Absent when the class grants none."
+        },
+        "savingThrows": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "description": "The two abilities this class is proficient in saving throws with. Always exactly two in the published classes, but the count is not fixed here because a homebrew class in a later content set may differ.",
+          "items": { "$ref": "#/$defs/ability" }
+        },
+        "skills": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["choose"],
+          "description": "A choice of skills, expressed as a count and the list it is drawn from.",
+          "properties": {
+            "choose": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "How many skills the character picks."
+            },
+            "from": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "description": "The skills the choice is drawn from. Absent when the class may choose from any skill, which is the operative's case and the only one in the corpus — an absent list means \"any\", which is why it is omitted rather than filled with all eighteen skill names.",
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The printed sentence, kept so the page can show exactly what the book says rather than a sentence reassembled from the two fields above."
+            }
+          }
+        }
+      }
+    },
+    "multiclassProficiencies": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The shorter proficiency line a character gets when this class is taken as a second class rather than a first. Kept as its printed line for the same reason as the proficiencies above."
+    },
+    "startingEquipment": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown list of the equipment choices offered at 1st level, one line per choice, with the alternatives marked *(a)*, *(b)* and *(c)* as the books mark them."
+    },
+    "startingWealth": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The dice expression a character rolls instead of taking the starting equipment, such as \"5d4 x 100 cr\"."
+    },
+    "casterType": {
+      "enum": ["none", "force", "tech"],
+      "description": "Which casting system, if either, the class itself provides. An archetype may add the other one on top; that is recorded on the archetype."
+    },
+    "casterRatio": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Fraction of this class's levels that count toward its casting progression: 1 for a full caster, 1/2 for a half caster, 2/3 for the sentinel, 0 for a non-caster. Multiclass casting sums these ratios across classes, which is why it is a number and not a label."
+    },
+    "archetypeLabel": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What this class calls its archetypes in the plural — Berserker Approaches, Monastic Orders, Academic Pursuits. Every class names them differently, and the name is used in its own level table, so it cannot be a constant in the UI."
+    },
+    "archetypeIntroduction": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown paragraph introducing the archetype choice: when it is made and what it means for this class."
+    },
+    "lore": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown colour opening the class: the vignettes and the description of what these characters are. No rules here."
+    },
+    "creatingCharacter": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown advice on building a character of this class — background, motivation, the questions to answer before play."
+    },
+    "quickBuild": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown shortcut for a player who wants to start now: which ability scores to favour and which background to take."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown body of the class features, each under its own heading. Individual features are also stored separately in the feature content type keyed by level; this field is the printed page."
+    },
+    "imageUrls": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Illustrations of the class, most representative first.",
+      "items": { "type": "string", "format": "uri" }
+    },
+    "progression": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "description": "The class table: one row per class level, in ascending order. Columns are not fixed across classes — a berserker tracks rages and rage damage, a scout tracks tech points and routine radius — so the class-specific cells are carried as labelled entries rather than as named fields, while the three columns every class prints get fields of their own.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "proficiencyBonus"],
+        "properties": {
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Class level this row describes."
+          },
+          "proficiencyBonus": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 6,
+            "description": "Proficiency bonus at this level. Identical across all classes, and printed anyway, because the table is read at the table without a second book open."
+          },
+          "features": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Names of what arrives at this level, as the Features column prints them. Most name a feature document granted by this class at this level; the rest are the printed conventions the books use — \"Ability Score Improvement\", a qualified repeat such as \"Brutal Critical (two dice)\", or a placeholder such as \"Approach feature\" standing for whatever the character's archetype grants. Resolving a name to a feature document is therefore best-effort by design: this array is what the table prints, and the authoritative record of what a class grants is the level on each feature document. Absent when nothing arrives at this level.",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "entries": {
+            "type": "array",
+            "minItems": 1,
+            "description": "The class-specific cells of this row, in printed column order. The labels are the same on every row of one class, which is what makes them the table's column headings.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["label", "value"],
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Column heading, such as Rage Damage or Max Power Level."
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "Cell contents. Text rather than a number because cells hold values like 3rd, d8 and +10 ft. alongside plain counts. A cell the book prints as an em dash is omitted rather than stored, so a row carries only the columns that say something at that level."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "ability": {
+      "enum": [
+        "strength",
+        "dexterity",
+        "constitution",
+        "intelligence",
+        "wisdom",
+        "charisma"
+      ],
+      "description": "One of the six ability scores, lower-cased as every content type in this repository spells them."
+    }
+  }
+}

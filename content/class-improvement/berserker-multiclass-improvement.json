@@ -1,0 +1,10 @@
+{
+  "key": "berserker-multiclass-improvement",
+  "name": "Berserker Multiclass Improvement",
+  "className": "Berserker",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in berserker",
+  "description": "You can add half your other chosen class's levels (rounded down) to your berserker levels when determining the number of times you can enter a rage and the bonus to weapon damage rolls while raging.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "archetype-armormech-engineering-armormech-s-celerity-17",
+  "name": "Armormech's Celerity",
+  "grantedBy": "archetype",
+  "grantedByName": "Armormech Engineering",
+  "level": 17,
+  "description": "_**Armormech Engineering:** 14th and 17th level_\nWhen you take the Attack action or use your action to a cast a tech power of 1st-level or higher, you can make one weapon attack as a bonus action.\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a long rest."
+}

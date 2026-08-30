@@ -1,0 +1,10 @@
+{
+  "key": "scout-class-improvement",
+  "name": "Scout Class Improvement",
+  "className": "Scout",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in scout",
+  "description": "As an action, you can reduce your exhaustion level by 1 and give yourself a number of temporary hit points equal to 1d10 + your scout level.\n\nOnce you've used this feature, you must complete a short or long rest before you can use it again.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

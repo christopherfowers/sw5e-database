@@ -1,0 +1,10 @@
+{
+  "key": "consular-class-improvement",
+  "name": "Consular Class Improvement",
+  "className": "Consular",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in consular",
+  "description": "When you complete a long rest, you can choose one of the force powers you know and replace it with another force power, as long as that power is not of a higher level than your Max Power Level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

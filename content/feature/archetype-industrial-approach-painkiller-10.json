@@ -1,0 +1,8 @@
+{
+  "key": "archetype-industrial-approach-painkiller-10",
+  "name": "Painkiller",
+  "grantedBy": "archetype",
+  "grantedByName": "Industrial Approach",
+  "level": 10,
+  "description": "_**Industrial Approach:** 10th level_\nWhenever you cast a tech power of 1st-level or higher, or deal damage using your Explosive Resilience feature, you can cause a friendly creature you can see within 30 feet to gain temporary hit points equal to half your berserker level + your Intelligence modifier. Additionally, while they have these temporary hit points, they have advantage on saving throws against effects that would cause them to be frightened."
+}

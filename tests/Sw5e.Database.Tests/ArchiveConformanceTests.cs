@@ -16,11 +16,18 @@ namespace Sw5e.Database.Tests;
 public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 {
     /// <summary>
-    /// Content type, the legacy file it is extracted from, and the number of
+    /// Mapping key, the legacy file it is extracted from, and the number of
     /// items that file holds. The count is asserted so a truncated or swapped
     /// archive fails loudly instead of quietly validating a handful of items.
+    /// <para>
+    /// The mapping key is usually the content type, but three legacy files map
+    /// into the single <c>class-improvement</c> type and are told apart by a
+    /// suffix, because nothing in those records says which file they came
+    /// from. <see cref="LegacyContentMapper.SchemaType"/> takes the key back to
+    /// the content type, and so to the schema.
+    /// </para>
     /// </summary>
-    private static readonly (string ContentType, string LegacyFile, int ItemCount)[] Corpus =
+    private static readonly (string MappingKey, string LegacyFile, int ItemCount)[] Corpus =
     [
         ("species", "Species", 141),
         ("background", "Background", 61),
@@ -43,10 +50,19 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
         ("fighting-mastery", "FightingMastery", 32),
         ("lightsaber-form", "LightsaberForm", 20),
         ("weapon-focus", "WeaponFocus", 8),
-        ("weapon-supremacy", "WeaponSupremacy", 8)
+        ("weapon-supremacy", "WeaponSupremacy", 8),
+
+        // The class graph. Three of these mapping keys are not content types:
+        // the archive keeps class, multiclass and splashclass improvements in
+        // separate files whose records are identical, so the file is the only
+        // thing that says which kind a record is.
+        ("class", "Class", 10),
+        ("class-improvement/class", "ClassImprovement", 10),
+        ("class-improvement/multiclass", "MulticlassImprovement", 10),
+        ("class-improvement/splashclass", "SplashclassImprovement", 10)
     ];
 
-    public static TheoryData<string> ContentTypes
+    public static TheoryData<string> MappingKeys
     {
         get
         {
@@ -54,7 +70,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 
             foreach (var entry in Corpus)
             {
-                data.Add(entry.ContentType);
+                data.Add(entry.MappingKey);
             }
 
             return data;
@@ -81,8 +97,8 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
     };
 
     [Theory]
-    [MemberData(nameof(ContentTypes))]
-    public void EverySourceItemValidatesAfterMapping(string contentType)
+    [MemberData(nameof(MappingKeys))]
+    public void EverySourceItemValidatesAfterMapping(string mappingKey)
     {
         var archive = LegacyArchive.TryLocate();
 
@@ -92,7 +108,8 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
             return;
         }
 
-        var (_, legacyFile, expectedCount) = Corpus.Single(entry => entry.ContentType == contentType);
+        var (_, legacyFile, expectedCount) = Corpus.Single(entry => entry.MappingKey == mappingKey);
+        var contentType = LegacyContentMapper.SchemaType(mappingKey);
         var validator = new SchemaValidator(new SchemaRepository(LegacyArchive.SchemaRoot));
         var items = LegacyArchive.Read(archive, legacyFile);
 
@@ -108,7 +125,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 
             try
             {
-                mapped = LegacyContentMapper.Map(contentType, item);
+                mapped = LegacyContentMapper.Map(mappingKey, item);
             }
             catch (Exception exception)
             {
@@ -155,7 +172,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 
         foreach (var ((contentType, name), reason) in KnownCorruptItems)
         {
-            var legacyFile = Corpus.Single(entry => entry.ContentType == contentType).LegacyFile;
+            var legacyFile = Corpus.Single(entry => entry.MappingKey == contentType).LegacyFile;
 
             var item = LegacyArchive.Read(archive, legacyFile)
                 .SingleOrDefault(candidate => LegacyArchive.Text(candidate, "name") == name);
@@ -175,9 +192,9 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
     {
         var discovered = new SchemaRepository(LegacyArchive.SchemaRoot).ListContentTypes();
 
-        foreach (var (contentType, _, _) in Corpus)
+        foreach (var (mappingKey, _, _) in Corpus)
         {
-            discovered.ShouldContain(contentType);
+            discovered.ShouldContain(LegacyContentMapper.SchemaType(mappingKey));
         }
     }
 

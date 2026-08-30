@@ -1,0 +1,8 @@
+{
+  "key": "archetype-tactician-pursuit-all-out-attack-17",
+  "name": "All-Out Attack",
+  "grantedBy": "archetype",
+  "grantedByName": "Tactician Pursuit",
+  "level": 17,
+  "description": "_**Tactician Pursuit:** 17th level_\nYou can use your action to initiate an all-out attack. Choose a number of allies up to your Critical Analysis ability modifier within 60 feet who can see or hear you. The chosen allies may then immediately use their reaction to make one weapon attack against a target of your choice. You may choose the target for each attack separately.\nOnce you use this feature, you cannot use it again until you finish a short or long rest."
+}

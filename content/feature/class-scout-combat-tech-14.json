@@ -1,0 +1,8 @@
+{
+  "key": "class-scout-combat-tech-14",
+  "name": "Combat Tech",
+  "grantedBy": "class",
+  "grantedByName": "Scout",
+  "level": 14,
+  "description": "_**Scout:** 14th level_\nWhen you use your action to cast a tech power, you can make one weapon attack as a bonus action."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "consular-multiclass-improvement",
+  "name": "Consular Multiclass Improvement",
+  "className": "Consular",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in consular",
+  "description": "You can add half your other chosen class's levels (rounded down) to half your consular levels (rounded down) when determining the force points you regain through your Force Recovery feature, and you gain 1 force point for each of your other chosen class's levels.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

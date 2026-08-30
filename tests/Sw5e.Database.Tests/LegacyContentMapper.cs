@@ -38,8 +38,27 @@ public static class LegacyContentMapper
         "lightsaber-form" => Finish(LightsaberForm(item)),
         "weapon-focus" => Finish(WeaponGrouped(item, " Focus")),
         "weapon-supremacy" => Finish(WeaponGrouped(item, " Supremacy")),
+        "class" => Finish(Class(item)),
+
+        // The three improvement files hold identical records and become one
+        // content type, so the kind cannot be read off the record: nothing in
+        // it says which of the three files it came from. The caller names the
+        // kind after the slash, and the part before the slash is the content
+        // type, and therefore the schema, the result is validated against.
+        "class-improvement/class" => Finish(ClassImprovement(item, "class")),
+        "class-improvement/multiclass" => Finish(ClassImprovement(item, "multiclass")),
+        "class-improvement/splashclass" => Finish(ClassImprovement(item, "splashclass")),
+
         _ => throw new ArgumentOutOfRangeException(nameof(contentType), contentType, "No mapping defined.")
     };
+
+    /// <summary>
+    /// The content type, and so the schema directory, a mapping key belongs to.
+    /// Everything before the first slash; keys without one are already the
+    /// content type.
+    /// </summary>
+    public static string SchemaType(string mappingKey) =>
+        mappingKey.Split('/', 2)[0];
 
     private static JsonObject Finish(JsonObject mapped) =>
         Prune(mapped) as JsonObject ?? new JsonObject();
@@ -461,6 +480,226 @@ public static class LegacyContentMapper
                         .ToArray())
                 })
                 .ToArray());
+
+    // ------------------------------------------------------------------ class
+
+    /// <summary>
+    /// A class record, which is the widest in the archive: fifty-odd fields
+    /// covering prose, proficiencies, starting equipment and a twenty-row
+    /// level table.
+    /// <para>
+    /// Two shapes need a decision the other content types never forced.
+    /// </para>
+    /// <para>
+    /// The proficiency arrays are not lists. The scrape split one printed line
+    /// on its commas, so the monk's "martial vibroweapons that lack the
+    /// dexterity, heavy, special, and two-handed properties" arrives as four
+    /// elements, three of which are sentence fragments. Joining them back with
+    /// ", " reproduces the printed line exactly and is lossless; treating them
+    /// as four proficiencies would not be. Saving throws and the skill choice
+    /// list are genuine lists in the source and stay lists.
+    /// </para>
+    /// <para>
+    /// The level table arrives as an object keyed by level, each value an
+    /// object keyed by column heading. Property order in that inner object is
+    /// the printed column order — <c>levelChangeHeadersJson</c> holds the same
+    /// order, and it agrees with the row keys for all ten classes, so the rows
+    /// are read directly and the stringified field is dropped with the rest of
+    /// the <c>*Json</c> duplicates. Three columns every class prints get
+    /// fields of their own; the rest become labelled entries, because no two
+    /// classes share them.
+    /// </para>
+    /// </summary>
+    private static JsonObject Class(JsonObject item)
+    {
+        var name = Text(item, "name")!;
+        var skillOptions = Strings(item, "skillChoicesList").ToList();
+
+        var mapped = new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name,
+            ["summary"] = Text(item, "summary"),
+            ["primaryAbility"] = Lower(Text(item, "primaryAbility")!),
+            ["hitPoints"] = new JsonObject
+            {
+                ["dieFaces"] = Int(item, "hitDiceDieType"),
+                ["atFirstLevel"] = Text(item, "hitPointsAtFirstLevel"),
+                ["atFirstLevelValue"] = Int(item, "hitPointsAtFirstLevelNumber"),
+                ["atHigherLevels"] = Text(item, "hitPointsAtHigherLevels"),
+                ["atHigherLevelsAverage"] = Int(item, "hitPointsAtHigherLevelsNumber")
+            },
+            ["proficiencies"] = new JsonObject
+            {
+                ["armor"] = ProficiencyLine(item, "armorProficiencies"),
+                ["weapons"] = ProficiencyLine(item, "weaponProficiencies"),
+                ["tools"] = ProficiencyLine(item, "toolProficiencies"),
+                ["savingThrows"] = new JsonArray(Strings(item, "savingThrows")
+                    .Select(ability => (JsonNode)JsonValue.Create(Lower(ability)))
+                    .ToArray()),
+                ["skills"] = new JsonObject
+                {
+                    ["choose"] = Int(item, "numSkillChoices"),
+
+                    // "Any" is the operative's entire list: the class picks
+                    // from every skill there is. Storing that as a one-element
+                    // list of the literal string "Any" would make it look like
+                    // a skill named Any, so the list is omitted instead and an
+                    // absent list means the choice is unrestricted.
+                    ["from"] = skillOptions is ["Any"]
+                        ? null
+                        : new JsonArray(skillOptions
+                            .Select(skill => (JsonNode)JsonValue.Create(skill))
+                            .ToArray()),
+                    ["text"] = Text(item, "skillChoices")
+                }
+            },
+            ["multiclassProficiencies"] = ProficiencyLine(item, "multiClassProficiencies"),
+
+            // The equipment lines are already markdown bullets in the archive,
+            // so they are rejoined into one markdown block rather than kept as
+            // an array the renderer would have to reassemble anyway.
+            ["startingEquipment"] = JoinLines(Strings(item, "equipmentLines")),
+            ["startingWealth"] = Text(item, "startingWealthVariant"),
+            ["casterType"] = Lower(Text(item, "casterType")!),
+            ["casterRatio"] = Number(item, "casterRatio"),
+            ["archetypeLabel"] = Text(item, "archetypeFlavorName"),
+            ["archetypeIntroduction"] = Text(item, "archetypeFlavorText"),
+            ["lore"] = Text(item, "flavorText"),
+            ["creatingCharacter"] = Text(item, "creatingText"),
+            ["quickBuild"] = Text(item, "quickBuildText"),
+
+            // classFeatureText2 is empty for all ten classes; it is the second
+            // column of a two-column layout that no class overflowed into.
+            ["description"] = Text(item, "classFeatureText"),
+            ["imageUrls"] = new JsonArray(Strings(item, "imageUrls")
+                .Select(url => (JsonNode)JsonValue.Create(url))
+                .ToArray()),
+            ["progression"] = ClassProgression(Object(item, "levelChanges"))
+        };
+
+        return With(mapped, Provenance(item));
+    }
+
+    /// <summary>
+    /// One printed proficiency line, rebuilt from the commas the scrape split
+    /// it on. "None" is the archive's way of writing an empty line, so it
+    /// becomes null and the field is pruned away.
+    /// </summary>
+    private static JsonNode? ProficiencyLine(JsonObject item, string field)
+    {
+        var parts = Strings(item, field).ToList();
+
+        return parts is [] or ["None"]
+            ? null
+            : JsonValue.Create(string.Join(", ", parts));
+    }
+
+    private static JsonNode? JoinLines(IEnumerable<string> lines)
+    {
+        var joined = string.Join("\n", lines);
+
+        return string.IsNullOrWhiteSpace(joined) ? null : JsonValue.Create(joined);
+    }
+
+    /// <summary>
+    /// Columns the level table prints that do not become labelled entries: the
+    /// level and the features get fields of their own, and the printed "Level"
+    /// column ("1st", "2nd") is a rendering of the row's own key, so it is
+    /// dropped as a duplicate the way every other stringified copy is.
+    /// </summary>
+    private static readonly HashSet<string> ClassTableFixedColumns =
+        new(StringComparer.Ordinal) { "Level", "Proficiency Bonus", "Features" };
+
+    private static JsonNode? ClassProgression(JsonObject? table) =>
+        table is null
+            ? null
+            : new JsonArray(table
+                .Where(row => int.TryParse(row.Key, out _))
+                .OrderBy(row => int.Parse(row.Key))
+                .Select(row => (JsonNode)ClassProgressionRow(int.Parse(row.Key), row.Value as JsonObject))
+                .ToArray());
+
+    private static JsonObject ClassProgressionRow(int level, JsonObject? row)
+    {
+        row ??= [];
+
+        return new JsonObject
+        {
+            ["level"] = level,
+            ["proficiencyBonus"] = ProficiencyBonus(Text(row, "Proficiency Bonus")),
+            ["features"] = new JsonArray(SplitFeatures(Text(row, "Features"))
+                .Select(feature => (JsonNode)JsonValue.Create(feature))
+                .ToArray()),
+            ["entries"] = new JsonArray(row
+                .Where(cell => !ClassTableFixedColumns.Contains(cell.Key))
+                .Select(cell => (JsonNode)new JsonObject
+                {
+                    ["label"] = cell.Key,
+                    ["value"] = cell.Value is JsonValue value && value.TryGetValue<string>(out var text)
+                        ? text
+                        : null
+                })
+                .ToArray())
+        };
+    }
+
+    /// <summary>
+    /// "+3" becomes 3. The column is written with its sign because it is a
+    /// bonus, and it is stored as a number because a character sheet adds it.
+    /// </summary>
+    private static int? ProficiencyBonus(string? printed) =>
+        printed is not null && int.TryParse(printed.TrimStart('+'), out var bonus)
+            ? bonus
+            : null;
+
+    /// <summary>
+    /// The Features column is a comma-separated list of what arrives at this
+    /// level. Splitting is all that happens here: a name that no feature
+    /// document matches — "Ability Score Improvement", "Approach feature",
+    /// "Brutal Critical (two dice)" — is what the book prints and is kept as
+    /// printed. Cells that hold nothing but a lost character survive this step
+    /// and are dropped by the repair stage, which is where corruption is
+    /// handled.
+    /// </summary>
+    private static IEnumerable<string> SplitFeatures(string? printed) =>
+        string.IsNullOrWhiteSpace(printed)
+            ? []
+            : printed
+                .Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+
+    // ------------------------------------------------------ class improvement
+
+    private static readonly Dictionary<string, string> ImprovementLabels = new(StringComparer.Ordinal)
+    {
+        ["class"] = "Class Improvement",
+        ["multiclass"] = "Multiclass Improvement",
+        ["splashclass"] = "Splashclass Improvement"
+    };
+
+    /// <summary>
+    /// One of the three per-class improvement rules. The archive stores the
+    /// class name in <c>name</c> and nothing else identifying, so both the key
+    /// and the display name are rebuilt from the class and the kind: ten
+    /// records called "Berserker" in three files would otherwise collide into
+    /// one slug and read as three copies of the same entry in a list.
+    /// </summary>
+    private static JsonObject ClassImprovement(JsonObject item, string improvementType)
+    {
+        var className = Text(item, "name")!;
+
+        var mapped = new JsonObject
+        {
+            ["key"] = Slug(className, improvementType, "improvement"),
+            ["name"] = $"{className} {ImprovementLabels[improvementType]}",
+            ["className"] = className,
+            ["improvementType"] = improvementType,
+            ["prerequisite"] = Text(item, "prerequisite"),
+            ["description"] = Text(item, "description")
+        };
+
+        return With(mapped, Provenance(item));
+    }
 
     // ---------------------------------------------------------------- feature
 

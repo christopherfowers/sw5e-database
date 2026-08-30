@@ -1,0 +1,682 @@
+{
+  "key": "scout",
+  "name": "Scout",
+  "summary": "Versatile combatant who blends tech powers with weapons",
+  "primaryAbility": "dexterity",
+  "hitPoints": {
+    "dieFaces": 10,
+    "atFirstLevel": "10 + your Constitution modifier",
+    "atFirstLevelValue": 10,
+    "atHigherLevels": "1d10 (or 6) + your Constitution modifier per scout level after 1st",
+    "atHigherLevelsAverage": 6
+  },
+  "proficiencies": {
+    "armor": "Light armor, medium armor",
+    "weapons": "All blasters, all vibroweapons",
+    "savingThrows": [
+      "strength",
+      "dexterity"
+    ],
+    "skills": {
+      "choose": 3,
+      "from": [
+        "Animal Handling",
+        "Athletics",
+        "Insight",
+        "Investigation",
+        "Perception",
+        "Piloting",
+        "Stealth",
+        "Survival",
+        "Technology"
+      ],
+      "text": "Choose three from Animal Handling, Athletics, Insight, Investigation, Perception, Piloting, Stealth, Survival, and Technology"
+    }
+  },
+  "multiclassProficiencies": "Light armor, all blasters, all vibroweapons, medium armor",
+  "startingEquipment": "- *(a)* mesh armor or *(b)* a combat suit, blaster rifle or simple blaster, and two power cells\n- *(a)* a vibroweapon and a light physical shield or *(b)* two simple vibroweapons\n- *(a)* a hold-out and a power cell or *(b)* two vibrodaggers\n- *(a)* a dungeoneer's pack or *(b)* an explorer's pack\n- A wristpad",
+  "startingWealth": "8d4 x 100 cr",
+  "casterType": "tech",
+  "casterRatio": 0.5,
+  "archetypeLabel": "Scout Techniques",
+  "archetypeIntroduction": "Scouts tend to share knowledge amongst them selves, focusing on specific techniques and honing them to perfection. Your technique grants you features at 3rd, 7th, 11th, and 15th level.",
+  "lore": "Rough and grizzled looking, a human stalks alone through the shadows of trees, hunting the quarry he knows is planning a raid on a nearby settlement. Clutching a techblade in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.\n\nAfter tumbling away from the shrapnel of a missile's explosion, a bothan finds her feet and quick-fires two shots from her carbine at the oncoming tank. Shrugging off the wave of fear that threatens to permeate her entire being, she strafes around her foe, firing shot after shot to try to penetrate the tank's thick armor.\n\nGlancing at his wristpad, a sullustan looks through the eyes of his tracker droid. Transmitting instructions, he sends his droid to distract the houk he's been tracking while he readies his sniper rifle for the shot.\n\nScouts are the first on the trail and the last to lose it, tracking their quarry for miles unimpeded. They are adaptable, wielding both tech powers and their weaponry to overcome their foes.\n\n### Deadly Hunters\nWarriors in their own right, scouts specialize in tracking and hunting the monsters that threaten civilization—humanoid raiders, rampaging beasts and monstrosities, terrible Force-wielders, and renegade droids. They learn to track their quarry as a predator does, moving stealthily through any terrain and hiding themselves in brush and rubble. Scouts focus their combat training on techniques that are particularly useful against their specific favored foes.\n\nScouts acquire the ability to cast tech powers through utilization of a wristpad. Their powers, like their combat abilities, emphasize speed, stealth, and the hunt. A scout's talents and abilities are honed with deadly focus on the grim task of protecting the civilization.\n\n### Independent Adventurers\nThough a scout might make a living as a bounty hunter, a guide, or a tracker, a scout's true calling is to defend civilization from the ravages of monsters and humanoid hordes that press in. In some places, scouts gather in secretive orders, though many scouts are independent almost to a fault, knowing that, when a rancor or a band of pirates attacks, a scout might be the first—and possibly the last—line of defense. This fierce independence makes scouts well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, scouts respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization's foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways.",
+  "creatingCharacter": "As you create your scout character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, tracking together until you mastered the scout's ways? Did you leave your apprenticeship, or was your mentor slain—perhaps by some kind of bestial monstrosity on which you've sworn revenge? Or perhaps you learned your skills as part of a band of mercenaries.\n\nWhat's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work, or a significant change?\n\nWhat made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
+  "quickBuild": "You can make a scout quickly by following these suggestions. First, make Strength or Dexterity your highest ability modifier, depending on whether you want to focus on melee combat or on ranged weapons (or finesse weapons). Your next-highest score should be Intelligence. Second, choose the bounty hunter background.",
+  "description": "### Ranger's Quarry\n_**Scout:** 1st, 5th, 9th, and 17th level_\nYou learn how to effectively read and track your prey. Once on each of your turns, you can choose a creature you can see within 120 feet and mark it as your quarry (no action required). For the next hour, you gain the following benefits:\n- Once per turn, when you hit the target with a weapon attack, you can deal 1d4 additional damage to it of the same type as the weapon's damage. This die changes as you gain scout levels, as shown in the Ranger's Quarry column of the scout table.\n- You have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it while it's on the same planet as you.\n\nYou can only have one creature marked in this way at a time. Beginning at 5th level, you can use your reaction to mark a creature when it enters your line of sight, provided it is within range of your Ranger's Quarry.\n\nThe duration increases to 8 hours at 9th level and 24 hours at 17th level.\n\n### Pathfinder\n_**Scout:** 1st level_\nYou are skilled at navigating the untamed wilds. You ignore difficult terrain, and when traveling for an hour or more, you gain the following benefits:\n- Difficult terrain doesn't slow your group, provided they can see and hear you.\n- You can't become lost by unenhanced means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food.\n- You have advantage on Survival checks.\n\n### Techcasting\n_**Scout:** 2nd level_\nYou have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.\n\n#### Tech Powers Known\nYou learn 4 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the scout table. You may not learn a tech power of a level higher than your Max Power Level.\n\n#### Tech Points\nYou have a number of tech points equal to your scout level, as shown in the Tech Points column of the scout table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.\n\n#### Max Power Level\nMany tech powers can be overcharged, consuming\n\nmore tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the scout table.\n\nYou may only cast tech powers at 4th and 5th-level once. You regain the ability to do so after a long rest.\n\n#### Techcasting Ability\nIntelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.\n\n___\n\n**Tech save DC** = 8 + your proficiency bonus + your Intelligence modifier\n\n___\n\n**Tech attack modifier** = your proficiency bonus + your Intelligence modifier\n\n___\n\n#### Techcasting Focus\nYou use a wristpad (found in chapter 5) as a tech focus for your tech powers.\n\n### Fighting Style\n_**Scout:** 2nd level_\nYou adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6.\n\n### Scout Routine\n_**Scout:** 3rd level_\nYou've developed one routine, as detailed at the end of the class description, and you gain more at higher levels, as shown in the Routines Known column of the scout table. Your routine has a radius of 5 feet, which increases at higher levels, as shown in the Routine Radius column of the scout table.\n\n### Scout Technique\n_**Scout:** 3rd, 7th, 11th, and 15th level_\nYou choose to focus on a specific scout technique, which is detailed at the end of the class description.\n\n### Ability Score Improvement\n_**Scout:** 4th, 8th, 12th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature.\n\n### Extra Attack\n_**Scout:** 5th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn.\n\n### Expertise\n_**Scout:** 6th and 14th level_\nChoose two of your skill proficiencies, or one of skill proficiencies and one of your tool proficiencies, or two of your tool proficiencies. You gain expertise in those skills or tools.\n\nAt 14th level, you can choose another two proficiencies (in skills or tools) to gain this benefit.\n\n### Commando\n_**Scout:** 10th level_\nYou can take the Dash or Hide actions as a bonus action on each of your turns. Additionally, you can remain perfectly still for long periods of time to set up ambushes.\n\nWhen you attempt to hide on your turn, you can opt to not move on that turn. If you avoid moving, creatures that attempt to detect you take a -10 penalty to their Wisdom (Perception) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.\n\nIf you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.\n\nFinally, you can no longer be tracked by unenhanced means, unless you choose to leave a trail.\n\n### Combat Tech\n_**Scout:** 14th level_\nWhen you use your action to cast a tech power, you can make one weapon attack as a bonus action.\n\n### Supreme Awareness\n_**Scout:** 18th level_\nYou gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.\n\nYou are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.\n\n### Foe Slayer\n_**Scout:** 20th level_\nYou become an unparalleled hunter. Your Strength or Dexterity score increases by 2, and your Intelligence score increases by 2. Your maximum for those scores increases by 2.\n\nAdditionally, once on each of your turns, you can add your Intelligence modifier to the attack roll or the damage roll of an attack you make.\n\n### Scout Routines\nThe routines are presented in alphabetical order. If multiple scouts grant the same routine, affected creatures can only benefit from it once. You must be conscious to grant the benefit of your routines.\n\n#### Adaptability Routine\nAt the start of each of your turns, you can choose an ability score with a saving throw in which you are not proficient. Until the start of your next turn, you add half your proficiency bonus to saving throws you make with the chosen ability. Alternatively,\n\nyou can choose to extend this benefit to allies within 5 feet of you.\n\n#### Maven's Routine\nAt the start of each of your turns, you can choose to gain resistance to damage from tech powers until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.\n\n#### Mesmer's Routine\nAt the start of each of your turns, you can choose to have advantage on saving throws against effects that would incapacitate you or put you to sleep until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.\n\n#### Nomad's Routine\nAt the start of each of your turns, you can choose to gain advantage on Constitution saving throws to avoid exhaustion from unenhanced sources, as well as being naturally adapted to both hot and cold climates. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.\n\n#### Responder's Routine\nWhen you roll initiative, you can choose to add your proficiency bonus to the initiative check and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your proficiency bonus to the initiative check and have advantage on the first attack roll they make against a creature that has not yet acted.\n\n#### Sharpshooter's Routine\nAt the start of each of your turns, you can choose to gain a bonus to the first weapon attack roll you make before the start of your next turn equal to your Intelligence modifier. Alternatively, you can choose to allow each friendly creature within 5 feet of you to add half your Intelligence modifier to the first weapon attack roll they make before the start of your next turn.\n\n#### Strider's Routine\nAt the start of each of your turns, you can choose to have each slowed level only reduce your speed by 5 feet, unless it would reduce your speed to 0 until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.\n\n#### Warden's Routine\nAt the start of each of your turns, you can choose to gain a crawling, climbing, and swimming speed equal to your walking speed until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you.",
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_01.png",
+    "https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_02.png"
+  ],
+  "progression": [
+    {
+      "level": 1,
+      "proficiencyBonus": 2,
+      "features": [
+        "Ranger's Quarry",
+        "Pathfinder"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d4"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "proficiencyBonus": 2,
+      "features": [
+        "Techcasting",
+        "Fighting Style"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d4"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "4"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "proficiencyBonus": 2,
+      "features": [
+        "Scout Routine",
+        "Scout Technique"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d4"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "5"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        },
+        {
+          "label": "Routines Known",
+          "value": "1"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "5 ft."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "proficiencyBonus": 2,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d4"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "6"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        },
+        {
+          "label": "Routines Known",
+          "value": "1"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "5 ft."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "proficiencyBonus": 3,
+      "features": [
+        "Extra Attack"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d6"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "1"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "5 ft."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "proficiencyBonus": 3,
+      "features": [
+        "Expertise"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d6"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "8"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "1"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "5 ft."
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "proficiencyBonus": 3,
+      "features": [
+        "Technique feature"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d6"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "5 ft."
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "proficiencyBonus": 3,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d6"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "10"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "5 ft."
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "proficiencyBonus": 4,
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d8"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "proficiencyBonus": 4,
+      "features": [
+        "Commando"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d8"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "proficiencyBonus": 4,
+      "features": [
+        "Technique feature"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d8"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "14"
+        },
+        {
+          "label": "Tech Points",
+          "value": "11"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "proficiencyBonus": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d8"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Tech Points",
+          "value": "12"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "proficiencyBonus": 5,
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d10"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "16"
+        },
+        {
+          "label": "Tech Points",
+          "value": "13"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "proficiencyBonus": 5,
+      "features": [
+        "Expertise",
+        "Combat Tech"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d10"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Tech Points",
+          "value": "14"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "2"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "proficiencyBonus": 5,
+      "features": [
+        "Technique feature"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d10"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Tech Points",
+          "value": "15"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "3"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "proficiencyBonus": 5,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d10"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Tech Points",
+          "value": "16"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "3"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "15 ft."
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "proficiencyBonus": 6,
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d12"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "20"
+        },
+        {
+          "label": "Tech Points",
+          "value": "17"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "3"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "30 ft."
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "proficiencyBonus": 6,
+      "features": [
+        "Supreme Awareness"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d12"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "21"
+        },
+        {
+          "label": "Tech Points",
+          "value": "18"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "3"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "30 ft."
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "proficiencyBonus": 6,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d12"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "22"
+        },
+        {
+          "label": "Tech Points",
+          "value": "19"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "3"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "30 ft."
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "proficiencyBonus": 6,
+      "features": [
+        "Foe Slayer"
+      ],
+      "entries": [
+        {
+          "label": "Ranger's Quarry",
+          "value": "d12"
+        },
+        {
+          "label": "Tech Powers Known",
+          "value": "23"
+        },
+        {
+          "label": "Tech Points",
+          "value": "20"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Routines Known",
+          "value": "3"
+        },
+        {
+          "label": "Routine Radius",
+          "value": "30 ft."
+        }
+      ]
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

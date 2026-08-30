@@ -1,0 +1,8 @@
+{
+  "key": "archetype-pugnacity-practice-blitz-attack-3",
+  "name": "Blitz Attack",
+  "grantedBy": "archetype",
+  "grantedByName": "Pugnacity Practice",
+  "level": 3,
+  "description": "_**Pugnacity Practice:** 3rd level_\nYou've learned ways to use your martial ability to boost your combat performance. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to make the attack a blitz attack.\nSome of your blitz attacks require your target to make a saving throw to resist the attack's effects. The saving throw DC is as follows:\n___\n**Blitz Attack save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)\n___\n#### Demoralizing Attack\nThe target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.\n#### Diverting Attack\nRoll two of your Sneak Attack dice. The first time the target would deal damage before the start of your next turn, that damage is reduced by an amount equal to the resulting roll.\n#### Warmonger's Attack\nIf the target makes an attack against you or an allied creature within 5 feet of you before the start of your next turn, you can use your reaction to make a melee weapon attack against it."
+}

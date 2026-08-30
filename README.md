@@ -42,8 +42,9 @@ in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
   original scrape lost an apostrophe, a dash or an accented letter;
 - every cross-reference resolves inside the set: `sourceKey`, a background's
   suggested feats, a feat prerequisite naming another feat, a maneuver
-  prerequisite or upgrade naming another maneuver, and the class, archetype or
-  species a feature is granted by.
+  prerequisite or upgrade naming another maneuver, the class, archetype or
+  species a feature is granted by, and the class an archetype or a class
+  improvement belongs to.
 
 The six combat-option types — maneuvers, fighting styles, fighting masteries,
 lightsaber forms, weapon focuses and weapon supremacies — are the exception to
@@ -78,6 +79,52 @@ The test names each of these losses and asserts the archive field is still
 empty, so a re-scrape that recovers one fails loudly instead of leaving the
 recovery in place unnoticed.
 
+
+## The class graph
+
+Classes, their archetypes, the features either of them grants, and the three
+optional improvement rules each class carries are imported from the legacy
+archive rather than hand-written, because there are 1,266 of them.
+
+| Directory | Documents | What it holds |
+|---|---|---|
+| `content/class` | 10 | The class, and its twenty-row level table as data |
+| `content/class-improvement` | 30 | Class, multiclass and splashclass improvements, three per class |
+| `content/archetype` | 137 | Specialisations, each belonging to one class |
+| `content/feature` | 1,089 | One document per granted ability, keyed by level |
+
+They are a graph, not four lists. An archetype names its class in `className`;
+a feature names what grants it in `grantedBy` and `grantedByName`, and the level
+it arrives at in `level`. A class's level table names, per row, the proficiency
+bonus, whatever the class prints in its Features column, and the class-specific
+columns as labelled cells — so a character sheet can ask what a 7th-level scout
+has without reading a word of prose, and a print layout can lay the columns out
+in the order the book does.
+
+`content/feature` is shared: the archive's feature dump also holds 1,593 species
+features, which name a species rather than a class and belong with the species
+import. Nothing here imports them, and the guard in
+`tests/Sw5e.Database.Tests/ImportedContentTests.cs` leaves them alone rather
+than reporting them as stale.
+
+### Regenerating it
+
+The import is `tests/Sw5e.Database.Tests/LegacyContentImport.cs`, and it runs in
+one step: map the archive record mechanically, repair the encoding damage, apply
+the handful of named adjudications, and drop table cells that lost their
+contents. It is deterministic — the same archive produces the same bytes.
+
+```bash
+SW5E_WRITE_CONTENT=1 dotnet test --filter ImportedContentTests
+```
+
+`ImportedContentTests` then asserts that every committed file in those four
+directories is exactly what the import produces. That is what makes 1,266
+generated files reviewable: a diff on `content/` is a diff on the archive plus a
+named judgement, never an unexplained edit, and a hand-correction fails the
+suite until it is written down as an adjudication with a reason. Like every
+other archive-backed test here, it reports and returns on a machine with no
+archive checked out rather than passing silently.
 ## Adding a content type
 
 Create `schemas/<content-type>/v1.json` as a JSON Schema 2020-12 document, then
