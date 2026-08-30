@@ -1,0 +1,79 @@
+{
+  "key": "reek-adult",
+  "name": "Reek, Adult",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 114,
+    "roll": "12d12 + 36"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 23,
+      "modifier": 6
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "passive Perception 11"
+  ],
+  "languages": [
+    "—"
+  ],
+  "challengeRating": "7",
+  "experiencePoints": 2900,
+  "behaviors": [
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the reek moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 18 (4d8) kinetic damage. If the target is a Huge or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Gore",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 24,
+      "damageRoll": "4d8 + 6",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Reeks are large, muscular quadrupeds native to the planet Ylesia. Though naturally herbivores, a starved reek can become a ravenous meat-eater. They sport two large cheek horns that can be used for head-locking in combat with another Reek as a sign of dominance.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

@@ -1,0 +1,87 @@
+{
+  "key": "trooper",
+  "name": "Trooper",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any alignment",
+  "armor": {
+    "class": 15,
+    "type": "light battle armor"
+  },
+  "hitPoints": {
+    "average": 13,
+    "roll": "2d8 + 4"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 9,
+      "modifier": -1
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one other"
+  ],
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 7 (1d8 + 3) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d8 + 3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Stock Strike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 3,
+      "damageRoll": "1d4 + 1",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Whether clones, conscripts, or academy recruits, the backbone of the central government's war and peace machine are well trained, well armed, and well armored individuals. Deployed throughout the galaxy to deal with threats to authority, these troopers have various roles and specialties.",
+  "sectionText": "As the branch of the galactic military that dealt with surface operations, the galactic army was composed of many sub-units and organizations, and utilized a vast array of vehicles to achieve its objectives throughout the years.***Grand Army of the Republic.*** The Grand Army of the Republic (GAR), also known as the Republic Army or the clone army, was the army branch of the Republic Military during the Clone Wars. The Grand Army initially consisted of over a million clone troopers; genetically identical soldiers cloned from a human template, outfitted with armor, weapons and gear, and programmed for absolute loyalty to the Galactic Republic. Formed as a result of the Republic's efforts to create a centralized army in response to the threat of separatism, the Grand Army represented the evolution of galactic warfare at the time of its introduction on Geonosis, and was instrumental to the Sith Order's secret plot to take over the galaxy.***Imperial Army.*** As the ultimate evolution of the Grand Army of the Republic, the Imperial Army swiftly asserted dominance throughout the galaxy, making use of highly trained soldiers, mechanized walkers, and overwhelming numbers. The Imperial Army worked in tandem with the forces of the Imperial Navy, relying on the numerous fleets to transport legions of troopers across the far reaches of the galaxy. The most common soldiers of the Empire's ground forces were known as Imperial Army soldiers, the core infantry of the army tasked with establishing Imperial regimes and pacifying troublesome worlds. As the Imperials reinforced their grip on the galaxy, these units were gradually phased out in favor of stormtroopers, elite shock troops fanatically loyal to the Emperor himself.***First Order.*** The First Order army was the ground-based service branch of the First Order military. Formed from the Imperial Army of the Galactic Empire, it was responsible for maintaining order throughout First Order space as well as the gradual conquest and colonization of the Unknown Regions.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

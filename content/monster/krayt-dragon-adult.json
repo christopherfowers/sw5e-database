@@ -1,0 +1,161 @@
+{
+  "key": "krayt-dragon-adult",
+  "name": "Krayt Dragon, Adult",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 19,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 262,
+    "roll": "21d12 + 126"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft., burrow 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 25,
+      "modifier": 7
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 22,
+      "modifier": 6
+    },
+    "intelligence": {
+      "score": 6,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 17,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Str +12",
+    "Con +11",
+    "Wis +7"
+  ],
+  "skills": [
+    "Perception +7",
+    "Stealth +5"
+  ],
+  "senses": [
+    "blindsight 60 ft.",
+    "darkvision 60 ft.",
+    "passive Perception 18"
+  ],
+  "languages": [
+    "—"
+  ],
+  "damageImmunities": {
+    "types": [
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ]
+  },
+  "challengeRating": "17",
+  "experiencePoints": 18000,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) kinetic damage plus 7 (2d6) poison damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 12,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 18,
+      "damageRoll": "2d10 + 7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 12,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 14,
+      "damageRoll": "2d6 + 7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tail Stinger",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) kinetic damage. The target must make a DC 15 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 12,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 16,
+      "damageRoll": "2d8 + 7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Frightful Presence",
+      "behaviorType": "action",
+      "description": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Venom Spray",
+      "behaviorType": "action",
+      "description": "The dragon spits poison in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    },
+    {
+      "name": "Detect",
+      "behaviorType": "legendary",
+      "description": "The dragon makes a Wisdom (Perception) check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Swat Away",
+      "behaviorType": "legendary",
+      "description": "The dragon makes a claw attack. If the attack hits, the target must succeed on a DC 18 Strength saving throw or be pushed 15 feet in a straight line away from the dragon. If the saving throw fails by 5 or more, the target falls prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tail Attack",
+      "behaviorType": "legendary",
+      "description": "The dragon makes a tail stinger attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The greater krayt was a rarer, larger species of krayt dragon, known for its tremendous size and continual growth over time. Creatures of near legendary status, greater krayt dragons had ten legs, measured at least 100 meters from snout to tail tip and had the ability to move through or on Tatooine's desert sand. Greater krayt dragons attacked with their massive jaws or whip-like spike-tail, using their claws only to move through the sand.",
+  "sectionText": "Krayt dragons were large, carnivorous reptiles that hailed from Tatooine, a desert planet in the galaxy's Outer Rim Territories. They came in two subspecies and, despite their fierceness, were hunted for the precious pearls found in their bodies.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

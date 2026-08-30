@@ -1,0 +1,11 @@
+{
+  "key": "grappling-hook",
+  "name": "Grappling hook",
+  "category": "utility",
+  "costInCredits": 50,
+  "weight": 4.0,
+  "description": "A grappling hook allows a user to climb or ascend large objects. It can be mounted to a blaster, belt, or elsewhere. It has a 50-foot length.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

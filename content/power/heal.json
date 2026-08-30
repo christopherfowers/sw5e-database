@@ -1,0 +1,17 @@
+{
+  "key": "heal",
+  "name": "Heal",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "A creature you touch regains a number of hit points equal to 1d8 + your forcecasting ability modifier. This power has no effect on droids or constructs.\n\n***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

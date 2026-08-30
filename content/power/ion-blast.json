@@ -1,0 +1,17 @@
+{
+  "key": "ion-blast",
+  "name": "Ion Blast",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You create a blast of ion energy. Choose one creature within range that you can see, or choose two creatures within range that are within 5 feet of each other that you can see. A target must succeed on a Dexterity saving throw or take 1d4 ion damage.\n\nThis power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

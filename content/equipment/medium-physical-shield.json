@@ -1,0 +1,15 @@
+{
+  "key": "medium-physical-shield",
+  "name": "Medium physical shield",
+  "category": "armor",
+  "costInCredits": 150,
+  "weight": 18.0,
+  "properties": [
+    "strength 13"
+  ],
+  "armorClassification": "shield",
+  "armorClass": "+2",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

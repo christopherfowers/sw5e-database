@@ -1,0 +1,20 @@
+{
+  "key": "blaster-pistol",
+  "name": "Blaster pistol",
+  "category": "weapon",
+  "costInCredits": 175,
+  "weight": 2.5,
+  "properties": [
+    "power cell (range 50/200)",
+    "reload 16"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

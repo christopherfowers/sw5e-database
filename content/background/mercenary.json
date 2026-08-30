@@ -1,0 +1,164 @@
+{
+  "key": "mercenary",
+  "name": "Mercenary",
+  "lore": "As a sell-sword who fought battles for coin, you're well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield. You might have served with a large outfit or a smaller band of sell-swords, maybe even more than one.\n\nNow you're looking for something else, perhaps greater reward for the risks you take, or the freedom to choose your own activities. For whatever reason, you're leaving behind the life of a soldier for hire, but your skills are undeniably suited for battle, so now you fight on in a different way.",
+  "skillProficiencies": "Choose two from Athletics, Investigation, Persuasion, and Piloting",
+  "toolProficiencies": "One type of gaming set",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A uniform of your company (traveler's clothes in quality), an insignia of your rank, a gaming set (one of your choice), and a pouch containing the remainder of your last wages (100 cr)",
+  "feature": {
+    "name": "Mercenary Life",
+    "description": "You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the cantinas and feasthalls where mercenaries abide in any area, as long as you speak the language, and if you spend at least an hour in such a location you can come across one of the following bits of information: a job offer, significant rumor, referral to a skilled merchant, blacksmith, etc., or a hint towards the pursuit of your current quest. Additionally, you can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see \"Practicing a Profession\" under \"Downtime Activities\" in chapter 8 of the Player's Handbook)."
+  },
+  "suggestedCharacteristics": "Mercenaries are shaped by their lively nature, for the better and the worse. They tend to be driven by either their commitment to money or something more valuable.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I do not fear death, but accept it as part of life."
+    },
+    {
+      "roll": 2,
+      "description": "I have a crude sense of humor."
+    },
+    {
+      "roll": 3,
+      "description": "I face problems head-on. A simple, direct solution is the best path to success."
+    },
+    {
+      "roll": 4,
+      "description": "I find it good luck to have a flask of ale on me even when the most of my other belongings are gone."
+    },
+    {
+      "roll": 5,
+      "description": "I ask a lot of questions."
+    },
+    {
+      "roll": 6,
+      "description": "I never pass up a friendly wager."
+    },
+    {
+      "roll": 7,
+      "description": "I am always polite and respectful when speaking to those above my station."
+    },
+    {
+      "roll": 8,
+      "description": "I like a job well done, especially if I'm not the one doing it."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Greed",
+      "description": "I'm only doing it for the money. (Dark)"
+    },
+    {
+      "roll": 2,
+      "name": "Fairness",
+      "description": "We all did the work. it is only right that everyone gets a share of the reward. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Live and Let Live",
+      "description": "You may not have a family left, but your enemy may. A little compassion goes a long way. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Measure of Last Resort",
+      "description": "Sometimes we have to do things that we REALLY don't want to do, but we must remember that we only do them because we have to. (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Debts",
+      "description": "I never leave a favor left undone and nor will I leave those whom owe me favors on the hook. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I have heard a tale of a legendary person of my class. I strive to be more like them. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I have a personal debt that must be paid."
+    },
+    {
+      "roll": 2,
+      "description": "I am with friends whom I trust with my life as they should trust me with theirs."
+    },
+    {
+      "roll": 3,
+      "description": "I come from a family that dislikes weaknesses, so I push myself to know my weaknesses."
+    },
+    {
+      "roll": 4,
+      "description": "My life is my honor. I shall, until death, shape my life to what I want it to be."
+    },
+    {
+      "roll": 5,
+      "description": "Without a purpose in the world, I find myself to be broken which I do not like."
+    },
+    {
+      "roll": 6,
+      "description": "I secretly pursue a love interest that is forbidden by a family whether it is my own or my love's family."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I am always looking for the bigger pay."
+    },
+    {
+      "roll": 2,
+      "description": "I can't tell a lie for the life of me."
+    },
+    {
+      "roll": 3,
+      "description": "I judge too easily by special appearance and pride."
+    },
+    {
+      "roll": 4,
+      "description": "I am almost always carrying some ale in with my gear."
+    },
+    {
+      "roll": 5,
+      "description": "I believe that I am the only skilled person of the group and am even open about it."
+    },
+    {
+      "roll": 6,
+      "description": "I will never let a comrade stand alone, even if it gets me killed."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Brawny"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Charmer"
+    },
+    {
+      "roll": 4,
+      "name": "Ace Pilot"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Durable"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

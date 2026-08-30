@@ -1,0 +1,20 @@
+{
+  "key": "techblade",
+  "name": "Techblade",
+  "category": "weapon",
+  "costInCredits": 100,
+  "weight": 1.5,
+  "properties": [
+    "finesse",
+    "light"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

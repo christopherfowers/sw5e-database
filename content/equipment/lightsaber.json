@@ -1,0 +1,21 @@
+{
+  "key": "lightsaber",
+  "name": "Lightsaber",
+  "category": "weapon",
+  "costInCredits": 450,
+  "weight": 2.25,
+  "properties": [
+    "hidden",
+    "luminous",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

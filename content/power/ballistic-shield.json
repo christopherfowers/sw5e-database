@@ -1,0 +1,17 @@
+{
+  "key": "ballistic-shield",
+  "name": "Ballistic Shield",
+  "powerType": "tech",
+  "level": 4,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "A flickering blue shield surrounds your body. Until the power ends, you have resistance to kinetic, energy, and ion damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

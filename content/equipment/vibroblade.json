@@ -1,0 +1,19 @@
+{
+  "key": "vibroblade",
+  "name": "Vibroblade",
+  "category": "weapon",
+  "costInCredits": 200,
+  "weight": 5.0,
+  "properties": [
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

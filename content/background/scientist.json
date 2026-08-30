@@ -1,0 +1,152 @@
+{
+  "key": "scientist",
+  "name": "Scientist",
+  "lore": "Nothing excites you more than pushing the boundaries of scientific knowledge. Most of your time is spent in a lab performing experiments to further your interests. Few people understand the work you do. You can solve complex problems most people can't begin to wrap their heads around, and can solve simple problems in unexpected ways that surprise most people.\n\nWhat is your scientific field of interest? Is it your insatiable curiousity, or a personal goal that drives you? Did you leave your lab voluntarily, or were you kicked out? One thing is for sure - there are too many interesting research ideas, and too little time.",
+  "skillProficiencies": "Choose two from Lore, Medicine, Nature, and Technology",
+  "toolProficiencies": "One of your choice",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, a datapad, a book on your field of research, a pouch containing 100 cr",
+  "feature": {
+    "name": "Scientific Method",
+    "description": "You are well acquainted with your field of research from having read numerous journals or having attended scientific conferences. Concepts that are complicated, involving technical jargon that usually goes over most people's heads, are simple to you. You fully understand concepts, can recall key information, and know how to use equipment related to your field, unless the research was hidden from the public, in which case you may only partially understand it. You also recognize well-known figures in your field."
+  },
+  "suggestedCharacteristics": "Scientist are interested in things most don't care about. Their research is their life, and drives their personality traits. Their flaws, ideals, and bond are a result of their hours spent researching.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I look up to a renowned scientist in my field, and often talk about their work."
+    },
+    {
+      "roll": 2,
+      "description": "I constantly compare my current situation to my past experiments, many of which went terrifyingly wrong."
+    },
+    {
+      "roll": 3,
+      "description": "I believe scientific results always comes first."
+    },
+    {
+      "roll": 4,
+      "description": "I only speak in short incomplete and concise sentences, as they are optimized for efficient communication."
+    },
+    {
+      "roll": 5,
+      "description": "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings."
+    },
+    {
+      "roll": 6,
+      "description": "I am unable to think logically under great stress, and begin to shout random scientific words."
+    },
+    {
+      "roll": 7,
+      "description": "I do not believe in etiquette and disregard social expectations."
+    },
+    {
+      "roll": 8,
+      "description": "I was, in fact, grown and raised in a laboratory."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Transparency",
+      "description": "All discoveries should be open to everyone. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Logic",
+      "description": "Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Greed",
+      "description": "I'm only in it for the money and fame. (Dark)"
+    },
+    {
+      "roll": 4,
+      "name": "Free Thinking",
+      "description": "Inquiry and curiosity are the pillars of progress. (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Live and Let Live",
+      "description": "Meddling in the affairs of others only causes trouble. (Balanced)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I work hard to be the best there is at my craft. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "My research is also my best companion."
+    },
+    {
+      "roll": 2,
+      "description": "I will get revenge on the criminals that stole my research."
+    },
+    {
+      "roll": 3,
+      "description": "The school I studied at is the most important place in the world to me."
+    },
+    {
+      "roll": 4,
+      "description": "One day I will return to my home planet and prove that I am the greatest scientist of them all."
+    },
+    {
+      "roll": 5,
+      "description": "I believe my research will be the key to saving the life of a loved one."
+    },
+    {
+      "roll": 6,
+      "description": "I owe my instructor a great debt for forging me into the person I am today."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I believe only other scientists deserve my respect."
+    },
+    {
+      "roll": 2,
+      "description": "I fail to understand why people don't understand my technical jargon."
+    },
+    {
+      "roll": 3,
+      "description": "I experiment on myself without thinking about the long term consequences."
+    },
+    {
+      "roll": 4,
+      "description": "I am paranoid that people are out to steal my research."
+    },
+    {
+      "roll": 5,
+      "description": "I believe I work better when under the influence of intoxicants."
+    },
+    {
+      "roll": 6,
+      "description": "I work on my research to the point where I ignore my own bodily needs."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 2,
+      "name": "Crafter"
+    },
+    {
+      "roll": 3,
+      "name": "Linguist"
+    }
+  ],
+  "variant": {
+    "name": "Field of Research",
+    "description": "While scientist's are widely knowledgeable, they also choose a focus for their studies. Choose an option or roll on the table below to define your field of research.\n\n| d8 | Field of Research |\n|:----:|:-------------|\n| 1 | Biology |\n| 2 | Artificial Intelligence |\n| 3 | Chemistry |\n| 4 | Geology |\n\n| d8 | Field of Research |\n|:----:|:-------------|\n| 5 | Physics |\n| 6 | the Force |\n| 7 | Astrogation |\n| 8 | Medicine |"
+  },
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

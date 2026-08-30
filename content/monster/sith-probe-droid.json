@@ -1,0 +1,115 @@
+{
+  "key": "sith-probe-droid",
+  "name": "Sith Probe Droid",
+  "size": "tiny",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 1,
+    "roll": "1d4-1"
+  },
+  "speed": {
+    "walk": 5,
+    "text": "5 ft., fly 60 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 3,
+      "modifier": -4
+    },
+    "dexterity": {
+      "score": 13,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +3",
+    "Stealth +3",
+    "Survival +3"
+  ],
+  "senses": [
+    "Darkvision 120 ft.",
+    "passive Perception 13"
+  ],
+  "languages": [
+    "—"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Flyby",
+      "behaviorType": "trait",
+      "description": "The droid doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "behaviorType": "trait",
+      "description": "The droid has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Shockprod",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 lightning damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "targets": "one target"
+    }
+  ],
+  "flavorText": "Sith probe droids were designed as passive spy units, and were plated with energy-absorbing stealth armor that baffled most sensor scans. However, weaponry could be mounted on the Sith Probe Droids in many configurations: the most common being a miniaturized grenade launcher. Armaments adopted by the Sith included blaster cannons, stun blasters, and dart launchers loaded with poison needles.",
+  "sectionText": "Probe droids (AKA probots or recon droids) are droids specifically designed to perform reconnaissance, reporting anything of significance as defined by specific preprogrammed protocols. Some models are equipped with a self-destruct mechanism in order to prevent those whom it had been sent to observe from studying them and determining their source, as well as a small blaster-type weapon for defense.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

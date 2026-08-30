@@ -1,0 +1,21 @@
+{
+  "key": "vibroknife",
+  "name": "Vibroknife",
+  "category": "weapon",
+  "costInCredits": 225,
+  "weight": 1.0,
+  "properties": [
+    "finesse",
+    "light",
+    "piercing 1"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

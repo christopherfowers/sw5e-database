@@ -1,0 +1,11 @@
+{
+  "key": "macrobinoculars",
+  "name": "Macrobinoculars",
+  "category": "utility",
+  "costInCredits": 750,
+  "weight": 1.0,
+  "description": "Macrobinoculars are handheld viewing devices that allow users to observe distant objects. Some models are able to see into space from the surface of a planet.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

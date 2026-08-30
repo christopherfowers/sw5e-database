@@ -1,0 +1,11 @@
+{
+  "key": "commlink",
+  "name": "Commlink",
+  "category": "communications",
+  "costInCredits": 50,
+  "weight": 0.5,
+  "description": "Commlinks are simple handheld communication devices, fitted with microphones and receivers. Basic, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference. The commlink lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}
