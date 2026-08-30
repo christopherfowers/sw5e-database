@@ -1,0 +1,9 @@
+{
+  "key": "one-step-ahead",
+  "name": "One Step Ahead",
+  "maneuverType": "physical",
+  "superiorityDice": 1,
+  "description": "When you roll initiative and you are not surprised, you can expend a superiority die and add the number rolled to your Initiative check.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

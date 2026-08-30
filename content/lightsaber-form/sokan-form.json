@@ -1,0 +1,12 @@
+{
+  "key": "sokan-form",
+  "name": "Sokan Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Until the start of your next turn, you ignore difficult terrain. Additionally, when a hostile creature makes a melee weapon attack against you, you can use your reaction to move to another space within 5 feet of that creature without provoking opportunity attacks, imposing disadvantage on the triggering roll."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

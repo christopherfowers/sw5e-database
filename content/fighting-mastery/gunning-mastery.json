@@ -1,0 +1,13 @@
+{
+  "key": "gunning-mastery",
+  "name": "Gunning Mastery",
+  "description": "You've mastered using blasters in unique ways, controlling the battlefield. You gain the following benefits:",
+  "benefits": [
+    "When a creature succeeds on the saving throw against the burst or rapid property of your weapon, they take damage equal to the weapon's governing ability modifier.",
+    "You treat the strength number of weapons as one step lower (19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely.",
+    "When you use the burst property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, each creature that fails the save takes additional damage equal to your proficiency bonus.",
+    "When you use the rapid property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, and the target fails the save, they take additional damage equal to twice your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

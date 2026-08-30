@@ -1,0 +1,11 @@
+{
+  "key": "great-weapon-style",
+  "name": "Great Weapon Style",
+  "description": "You are skilled at putting the weight of a weapon to your advantage. You gain the following benefits:",
+  "benefits": [
+    "While you are wielding a two-handed light- or vibro-weapon with which you are proficient, your weapon damage rolls gain a minimum roll threshold, discussed in chapter 7.",
+    "Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

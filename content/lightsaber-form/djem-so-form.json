@@ -1,0 +1,12 @@
+{
+  "key": "djem-so-form",
+  "name": "Djem So Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Before the end of your next turn, you can add half your Wisdom or Charisma modifier (your choice, minimum of +1) to one ability check or attack roll you make using Strength."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

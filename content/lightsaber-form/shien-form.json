@@ -1,0 +1,12 @@
+{
+  "key": "shien-form",
+  "name": "Shien Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Before the end of your next turn, you can add half your Wisdom or Charisma modifier (your choice, minimum of +1) to your AC against one attack."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

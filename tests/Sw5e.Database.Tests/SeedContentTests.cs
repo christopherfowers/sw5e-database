@@ -142,6 +142,10 @@ public sealed class SeedContentTests
             .Select(entry => Text(entry.Document, "name")!)
             .ToHashSet(StringComparer.Ordinal);
 
+        var maneuverNames = Items("maneuver")
+            .Select(entry => Text(entry.Document, "name")!)
+            .ToHashSet(StringComparer.Ordinal);
+
         // Classes are not a content type of their own yet, so the archetypes are
         // the seed set's only record of which classes exist.
         var classNames = Items("archetype")
@@ -181,9 +185,32 @@ public sealed class SeedContentTests
                 case "feat":
                     // Prerequisites name other feats as "<Name> feat", e.g.
                     // Tough's "4th level, Durable feat".
-                    foreach (var required in PrerequisiteFeats(Text(document, "prerequisite")))
+                    foreach (var required in PrerequisiteNames(Text(document, "prerequisite"), "feat"))
                     {
                         Require(featNames.Contains(required), path, "prerequisite", required, "feat");
+                    }
+
+                    break;
+
+                case "maneuver":
+                    // Maneuvers reference each other twice over, and the two
+                    // references mean different things. The prerequisite is the
+                    // gate — "Administer Aid (Improved) maneuver" — and names
+                    // the tier immediately below. `improves` names the base
+                    // maneuver the whole chain hangs off, which for a third
+                    // tier is not the same document. Both have to resolve, or
+                    // a character builder offers an upgrade to something that
+                    // was never published.
+                    foreach (var required in PrerequisiteNames(Text(document, "prerequisite"), "maneuver"))
+                    {
+                        Require(maneuverNames.Contains(required), path,
+                            "prerequisite", required, "maneuver");
+                    }
+
+                    if (Text(document, "improves") is { } improved)
+                    {
+                        Require(maneuverNames.Contains(improved), path,
+                            "improves", improved, "maneuver");
                     }
 
                     break;
@@ -229,22 +256,27 @@ public sealed class SeedContentTests
     }
 
     /// <summary>
-    /// Pulls the feat names out of a prerequisite line. A prerequisite is a
-    /// comma-separated list of clauses, and a clause that names another feat
-    /// always ends in the word "feat".
+    /// Pulls the referenced names out of a prerequisite line. A prerequisite is
+    /// a comma-separated list of clauses, and a clause that names another
+    /// document of the same type always ends in that type's noun: "Durable
+    /// feat", "Administer Aid maneuver". Clauses that name something else — an
+    /// ability score, a skill proficiency, a level — end in nothing of the sort
+    /// and are skipped.
     /// </summary>
-    private static IEnumerable<string> PrerequisiteFeats(string? prerequisite)
+    private static IEnumerable<string> PrerequisiteNames(string? prerequisite, string noun)
     {
         if (string.IsNullOrWhiteSpace(prerequisite))
         {
             yield break;
         }
 
+        var suffix = $" {noun}";
+
         foreach (var clause in prerequisite.Split([',', ';'], StringSplitOptions.TrimEntries))
         {
-            if (clause.EndsWith(" feat", StringComparison.Ordinal))
+            if (clause.EndsWith(suffix, StringComparison.Ordinal))
             {
-                yield return clause[..^" feat".Length].Trim();
+                yield return clause[..^suffix.Length].Trim();
             }
         }
     }

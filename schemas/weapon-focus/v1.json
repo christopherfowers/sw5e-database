@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/weapon-focus/v1.json",
+  "title": "Weapon Focus",
+  "description": "A specialisation in one group of weapons, from Wretched Hives. There are exactly eight, one per weapon group, and a character's benefits apply only while wielding a weapon from that group. The group is therefore the field the whole type turns on: it is what a character sheet matches against the weapon in hand to decide whether the focus is live, and it is the only thing distinguishing one of these eight entries from another once the prose is stripped.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "weaponGroup",
+    "description",
+    "benefits"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this focus. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as printed: Blade Focus, Crushing Weapon Focus, Trip Weapon Focus. The books are inconsistent about whether the word \"Weapon\" appears — it does for crushing, heavy and trip and not for the rest — so the name is reproduced rather than generated from the group."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this focus was published in, matching a document of the source content type. Every weapon focus in the archive is wh."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this focus belongs to the core rules or to the community expanded-content supplement. Wretched Hives is a core rulebook, so these are core despite not being in the Player's Handbook."
+    },
+    "weaponGroup": {
+      "enum": [
+        "blade",
+        "carbine",
+        "crushing",
+        "heavy",
+        "polearm",
+        "rifle",
+        "sidearm",
+        "trip"
+      ],
+      "description": "The group of weapons the focus applies to. This is a separate axis from a weapon's proficiency classification in the equipment type — a martial vibroweapon can be a blade, a polearm or a crushing weapon — so the two are never conflated. A character may take a focus once per group and gains nothing while holding a weapon outside it."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence that opens the entry, saying what the character has trained on and under what condition the benefits apply, ending at the colon that introduces them. It stops there: the benefits live in their own field and are not repeated here."
+    },
+    "benefits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The concrete rules the focus grants while wielding a weapon of its group, one entry per bullet as printed, in the printed order.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

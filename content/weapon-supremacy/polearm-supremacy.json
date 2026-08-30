@@ -1,0 +1,14 @@
+{
+  "key": "polearm-supremacy",
+  "name": "Polearm Supremacy",
+  "weaponGroup": "polearm",
+  "description": "You've specialized your combat training with polearm weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's attack rolls.",
+    "Whenever you have advantage on an attack roll and hit and the lower of the two d20 rolls would also hit (or a creature has disadvantage on a saving throw and the higher of the two d20s would also fail), and the target is no more than one size larger than you (your size or smaller if your weapon has the light property), you have advantage on the weapon's damage roll.",
+    "When you make an ability check or saving throw against an effect that would shove or trip you, you can treat a d20 roll of below half your level (rounded up) as half your level.",
+    "When you take the Attack action, you can choose to forgo one of your attacks to **choke up**. If you do so, your reach increases by 5 feet until the start of your next turn. If you could already choke up, instead you can do so as your bonus action."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

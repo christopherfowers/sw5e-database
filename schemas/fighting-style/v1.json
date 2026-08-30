@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/fighting-style/v1.json",
+  "title": "Fighting Style",
+  "description": "A specialisation in one way of fighting, chosen once from a class's list and kept for the rest of the character's career. Every fighting style is written the same way in the books: a sentence saying what the character is skilled at, then a short list of concrete benefits. That is not incidental formatting — the list is the rules text, and each bullet is an independent exception a player checks against the situation in front of them. The two halves are therefore stored apart, so a character sheet can print the benefits without the flavour sentence and the print pipeline can set them as a list rather than re-deriving one from a paragraph.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "description", "benefits"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this fighting style. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, always \"<Discipline> Style\": Duelist Style, Great Weapon Style, Sharpshooter Style. The suffix is kept rather than stripped because it is how the books name them, and because each discipline also has a fighting mastery of the same name with \"Mastery\" in place of \"Style\"; dropping the suffix would make the two indistinguishable."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this fighting style was published in, matching a document of the source content type. Every fighting style in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this fighting style belongs to the core rules or to the community expanded-content supplement."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to take this style, as printed. Only one style in the archive carries one — Formfighting Style requires the ability to cast force powers — but it is a field rather than a leading line of the description so that a class builder can filter on it instead of reading English."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The flavour text that opens the entry: one or two sentences in second person saying what the character has trained at, ending at the colon that introduces the benefits. It deliberately does not repeat the benefits, because they are carried in their own field and printing both would show a reader the same rules twice."
+    },
+    "benefits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The concrete rules the style grants, one entry per bullet as printed, in the printed order. Each is markdown, in second person, and stands on its own: a player reads one bullet, decides whether it applies, and moves on. Order is preserved because the books print the most commonly used benefit first.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

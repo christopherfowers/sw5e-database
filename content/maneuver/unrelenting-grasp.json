@@ -1,0 +1,10 @@
+{
+  "key": "unrelenting-grasp",
+  "name": "Unrelenting Grasp",
+  "maneuverType": "physical",
+  "superiorityDice": 1,
+  "prerequisite": "Proficiency in Athletics",
+  "description": "When you hit a creature within 5 feet of you with an opportunity attack, you may expend a superiority die. The creature takes additional damage equal to your superiority die, and you may attempt to grapple the target as part of the same reaction.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

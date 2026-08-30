@@ -1,0 +1,13 @@
+{
+  "key": "heavy-weapon-focus",
+  "name": "Heavy Weapon Focus",
+  "weaponGroup": "heavy",
+  "description": "You've focused your combat training on heavy weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's damage rolls.",
+    "When you score a critical hit with the weapon, you add the attack's governing ability modifier twice, instead of once, to the attack's damage.",
+    "When you take the Attack action, you can choose to forgo one or more attacks to **suppress**. For each attack you forgo, you expend ammunition equal to half your weapon's reload number (minimum of 2) and choose a 10-foot-cube area within your weapon's normal range. Each creature in the area that is no more than one size larger than you (your size or smaller if your weapon has the light property) must make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon) or become frightened of you until the end of their next turn."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

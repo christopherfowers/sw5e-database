@@ -1,0 +1,10 @@
+{
+  "key": "sic-em",
+  "name": "Sic 'Em",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "prerequisite": "Companion",
+  "description": "As an action, you can expend a superiority die and command your companion to savage a nearby enemy. Your companion can use its reaction to immediately move up to 10 feet and make one attack, adding the superiority dice to the damage roll on a hit.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

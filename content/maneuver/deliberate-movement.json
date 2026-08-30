@@ -1,0 +1,9 @@
+{
+  "key": "deliberate-movement",
+  "name": "Deliberate Movement",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "description": "You can expend one superiority die to take the Dash action as a bonus action and ignore the effects of unenhanced difficult terrain until the end of your turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

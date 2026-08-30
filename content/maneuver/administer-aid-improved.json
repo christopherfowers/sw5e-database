@@ -1,0 +1,11 @@
+{
+  "key": "administer-aid-improved",
+  "name": "Administer Aid (Improved)",
+  "maneuverType": "mental",
+  "superiorityDice": 0,
+  "prerequisite": "Administer Aid maneuver",
+  "improves": "Administer Aid",
+  "description": "You can use your Administer Aid maneuver as an action or bonus action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "overwhelming-wit",
+  "name": "Overwhelming Wit",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "The ability to cast force powers",
+  "description": "Once per round, when a creature succeeds on a force power you cast or your class feature that requires a Wisdom or Charisma saving throw, you can expend a superiority die to make a universal forcecasting ability check with proficiency, substituting the result of the roll for the save DC for that power.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

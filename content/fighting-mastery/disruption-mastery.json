@@ -1,0 +1,12 @@
+{
+  "key": "disruption-mastery",
+  "name": "Disruption Mastery",
+  "description": "Choose one from force- or tech-casting. You've mastered fighting and interfering with casters of the chosen type, confounding their concentration. You gain the following benefits:",
+  "benefits": [
+    "When a creature within 30 feet of you that you can see casts a power, they provoke an opportunity attack from you.",
+    "You have advantage on saving throws against powers cast by creatures you can see if you've dealt damage to them since the start of your last turn.",
+    "Whenever you force a creature to make a saving throw to maintain concentration, the DC for the saving throw increases by an amount equal to your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

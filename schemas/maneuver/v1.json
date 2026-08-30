@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/maneuver/v1.json",
+  "title": "Maneuver",
+  "description": "One option a character with superiority dice can spend them on. A maneuver is the smallest unit of the superiority system: a character learns a fixed number of them, and using one normally costs a die out of a pool that refreshes on a rest. Two things therefore have to be answerable without reading the prose, because a player answers them every round: which list the maneuver comes from, and what using it costs. Both are fields here rather than sentences in the description.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "maneuverType",
+    "superiorityDice",
+    "description"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this maneuver. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, usually a verb phrase for what the maneuver does: Disarming Blow, Goading Attack, Tactical Assessment. An upgrade of an existing maneuver keeps the base name and adds a parenthesised tier, as in \"Administer Aid (Improved)\"; that spelling is load-bearing, because it is how the printed lists show that the two are one maneuver at two tiers."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this maneuver was published in, matching a document of the source content type. Values present in the archive are phb and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this maneuver belongs to the core rules or to the community expanded-content supplement."
+    },
+    "maneuverType": {
+      "enum": ["general", "physical", "mental"],
+      "description": "Which of the three maneuver lists this one is drawn from. This is not flavour: a class feature grants access to a named list, so the type decides who may learn the maneuver at all. General maneuvers are open to everyone with superiority dice; physical and mental ones are gated on the feature that grants them, which is why Parry (Improved) exists purely to move Parry from one list to the other."
+    },
+    "superiorityDice": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "How many superiority dice using this maneuver spends. Almost every maneuver spends exactly one. Zero is the meaningful case and there are two kinds of it: an upgrade that changes how an already-paid-for maneuver behaves rather than being used on its own, and the handful whose printed text has the player roll a superiority die without expending it. Recording the cost as a number rather than inferring it from the prose is what lets a character sheet subtract from the pool, and what lets the print pipeline set the cost in the margin the way the books do."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to learn this maneuver, as printed: a skill proficiency (\"Proficiency in Medicine\"), a casting ability (\"The ability to cast force powers\"), a companion, or another maneuver named as \"<Name> maneuver\". Omit when anyone with superiority dice may learn it."
+    },
+    "improves": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the maneuver this one is an upgrade of, for the tiered maneuvers whose text reads \"When you use your <base> maneuver, ...\". Recorded separately from prerequisite because the two answer different questions and do not always agree: Administer Aid (Greater) improves Administer Aid, but its prerequisite is Administer Aid (Improved), the tier in between. A reader needs the chain; a character builder needs the gate."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text in second person, describing what happens when the maneuver is used. The archived corpus writes the action cost into the opening clause of this text — \"As an action, you can expend a superiority die\" — rather than into a field of its own, and that phrasing is kept verbatim rather than parsed, because the same maneuver can be usable at several action costs depending on which tiers of it a character has taken."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "key": "assist",
+  "name": "Assist",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "prerequisite": "Proficiency in Medicine",
+  "description": "When you make an Medicine check, you can expend a superiority die, rolling the die and adding it to the d20 roll. You can wait until after rolling the d20 before doing so, but you must decide before the GM says whether the roll succeeds or fails.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

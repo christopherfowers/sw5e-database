@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/fighting-mastery/v1.json",
+  "title": "Fighting Mastery",
+  "description": "The late-career counterpart to a fighting style: the same disciplines, taken again at higher level for a stronger set of benefits. It is a content type of its own rather than a second tier inside fighting-style because the two are chosen from separate lists by separate class features, and nothing in the rules requires a character who takes Duelist Mastery to have taken Duelist Style. The naming correspondence between the two lists is real and deliberate, but it is a naming correspondence and not a prerequisite, so it is left as something a reader can see rather than a link this schema asserts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "description", "benefits"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this fighting mastery. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, always \"<Discipline> Mastery\": Duelist Mastery, Great Weapon Mastery, Sharpshooter Mastery. The suffix is kept because it is the only thing distinguishing the entry from the fighting style of the same discipline."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this fighting mastery was published in, matching a document of the source content type. Every fighting mastery in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this fighting mastery belongs to the core rules or to the community expanded-content supplement."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to take this mastery, as printed. Only Formfighting Mastery carries one, requiring the ability to cast force powers. Omit when anyone eligible for a mastery may take it."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The flavour text that opens the entry: one or two sentences in second person saying what the character has mastered, ending at the colon that introduces the benefits. The benefits themselves are not repeated here."
+    },
+    "benefits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The concrete rules the mastery grants, one entry per bullet as printed, in the printed order. Masteries run to three or four bullets where a style runs to two, which is most of what makes them a later-career choice.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

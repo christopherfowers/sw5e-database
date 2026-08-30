@@ -1,0 +1,11 @@
+{
+  "key": "sweeping-attack-improved",
+  "name": "Sweeping Attack (Improved)",
+  "maneuverType": "physical",
+  "superiorityDice": 0,
+  "prerequisite": "Sweeping Attack maneuver",
+  "improves": "Sweeping Attack",
+  "description": "When you use the Sweeping Attack maneuver, you add your maneuver ability modifier to the damage roll of the second creature.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

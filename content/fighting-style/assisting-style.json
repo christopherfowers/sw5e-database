@@ -1,0 +1,11 @@
+{
+  "key": "assisting-style",
+  "name": "Assisting Style",
+  "description": "You are skilled at enabling your allies. You gain the following benefits:",
+  "benefits": [
+    "You can take the Help action as a bonus action. If you could already take the Help action as a bonus action, you can instead take it as a reaction on your turn.",
+    "Creatures benefiting from your Help action can't have disadvantage on the affected ability check or attack roll."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

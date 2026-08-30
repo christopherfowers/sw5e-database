@@ -1,0 +1,14 @@
+{
+  "key": "heavy-weapon-supremacy",
+  "name": "Heavy Weapon Supremacy",
+  "weaponGroup": "heavy",
+  "description": "You've specialized your combat training with heavy weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's attack rolls.",
+    "Whenever you have advantage on an attack roll and hit and the lower of the two d20 rolls would also hit (or a creature has disadvantage on a saving throw and the higher of the two d20s would also fail), and the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your bonus to attacks with the weapon) or it is pushed 5 feet in a direction of your choice.",
+    "When a creature rolls a 1 on the saving throw against one of these weapons, they treat the effect's damage as if it had rolled the maximum. If a creature would already treat the effect's damage as if it had rolled the maximum when it rolls a 1 on this weapon's saving throw, it instead does so on a roll of 1 or 2.",
+    "When you take the Attack action, you can choose to forgo one or more attacks to **suppress**. For each attack you forgo, you expend ammunition equal to half your weapon's reload number (minimum of 2) and choose a 10-foot-cube area within your weapon's normal range. Each creature in the area that is no more than one size larger than you (your size or smaller if your weapon has the light property) must make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon) or become frightened of you until the end of their next turn. If you could already suppress, instead you can do so as your bonus action."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

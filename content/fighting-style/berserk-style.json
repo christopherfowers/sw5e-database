@@ -1,0 +1,11 @@
+{
+  "key": "berserk-style",
+  "name": "Berserk Style",
+  "description": "You are skilled at returning pain to those who deliver it. You gain the following benefits:",
+  "benefits": [
+    "When you hit with a melee weapon attack using Strength, you deal additional damage equal to your Strength modifier if that creature dealt damage to you since the start of your last turn.",
+    "When you choose to let an attack that would miss you hit you instead, the creature rolls the damage as normal instead of choosing the maximum."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

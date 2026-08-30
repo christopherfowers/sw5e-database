@@ -1,0 +1,13 @@
+{
+  "key": "polearm-focus",
+  "name": "Polearm Focus",
+  "weaponGroup": "polearm",
+  "description": "You've focused your combat training on polearm weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's damage rolls.",
+    "When you score a critical hit with the weapon, you can roll one additional weapon damage die.",
+    "When you take the Attack action, you can choose to forgo one of your attacks to **choke up**. If you do so, your reach increases by 5 feet until the start of your next turn."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}
