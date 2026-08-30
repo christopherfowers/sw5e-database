@@ -1,0 +1,11 @@
+{
+  "key": "ship-shield-fine",
+  "name": "Ship Shield (Fine)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "shipShield",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "Your ship has a +1 bonus to Strength, Dexterity, and Constitution saving throws while this shield is installed."
+}

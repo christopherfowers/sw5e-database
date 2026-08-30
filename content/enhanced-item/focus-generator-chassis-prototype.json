@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator-chassis-prototype",
+  "name": "Focus Generator Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "force",
+  "description": "_**Requires attunement**_\nThis modifiable focus generator chassis comes with vacant modification slots for focus generator modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

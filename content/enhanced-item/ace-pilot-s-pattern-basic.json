@@ -1,0 +1,11 @@
+{
+  "key": "ace-pilot-s-pattern-basic",
+  "name": "Ace Pilot's Pattern (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Piloting increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+}

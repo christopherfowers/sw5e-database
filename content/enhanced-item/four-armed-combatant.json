@@ -1,0 +1,12 @@
+{
+  "key": "four-armed-combatant",
+  "name": "Four-Armed Combatant",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Class IV droid",
+  "description": "You install two additional arms which you can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms your are benefiting from (no action required).\n\nWhile you have at least 3 arms free, you have a climbing speed equal to your walking speed."
+}

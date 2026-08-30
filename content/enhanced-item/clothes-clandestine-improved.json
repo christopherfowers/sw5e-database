@@ -1,0 +1,11 @@
+{
+  "key": "clothes-clandestine-improved",
+  "name": "Clothes, Clandestine (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "body",
+  "description": "These clothes come with five hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 21 Investigation check."
+}

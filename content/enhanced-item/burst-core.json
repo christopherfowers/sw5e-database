@@ -1,0 +1,12 @@
+{
+  "key": "burst-core",
+  "name": "Burst Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "Blaster that uses cells or cartridges",
+  "description": "This weapon gains the burst property, with a burst number equal to its reload number, minimum of 2. If it already has the burst property, the burst number is reduced to one-half its reload number (rounded up), to a minimum of 2."
+}

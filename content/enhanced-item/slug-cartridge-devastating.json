@@ -1,0 +1,11 @@
+{
+  "key": "slug-cartridge-devastating",
+  "name": "Slug Cartridge (Devastating)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack rolls and deal an additional 1d10 damage with this enhanced slug cartridge. This bonus is in addition to any bonuses granted by the weapon. Once the slug cartridge has been fired, it no longer gives a bonus."
+}

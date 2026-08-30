@@ -1,0 +1,11 @@
+{
+  "key": "storing-emitter-basic",
+  "name": "Storing Emitter (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the storing 1 property. If it already has the storing property, its storing number increases by 1, to a maximum of 6."
+}

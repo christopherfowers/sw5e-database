@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-chassis-standard",
+  "name": "Handwraps Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "hands",
+  "description": "_**Requires attunement**_\nThese modifiable handwraps chassis comes with vacant modification slots for vibroweapon modifications. They can house modifications of standard rarity."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "survivalist-s-pattern-choice",
+  "name": "Survivalist's Pattern (Choice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Survival increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+}

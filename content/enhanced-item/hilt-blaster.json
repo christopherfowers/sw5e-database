@@ -1,0 +1,11 @@
+{
+  "key": "hilt-blaster",
+  "name": "Hilt Blaster",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "You convert this weapon's hilt into a small blaster. The blaster is a ranged weapon with the range 20/60 and reload 6 properties that you are proficient with, and deals 1d4 energy damage."
+}

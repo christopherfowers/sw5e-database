@@ -38,8 +38,10 @@ and demonstrated against. Three rules hold it together, each enforced by a test
 in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
 
 - every file validates against the schema for the directory it sits in;
-- no file contains U+FFFD, the replacement character left behind wherever the
-  original scrape lost an apostrophe, a dash or an accented letter;
+- every U+FFFD — the replacement character left behind wherever the original
+  scrape lost an apostrophe, a dash or an accented letter — is either repaired
+  or recorded, exactly and per file, in the ledger of characters that cannot be
+  recovered without inventing content;
 - every cross-reference resolves inside the set: `sourceKey`, a background's
   suggested feats, a feat prerequisite naming another feat, a maneuver
   prerequisite or upgrade naming another maneuver, the class, archetype or
@@ -52,6 +54,49 @@ lightsaber forms, weapon focuses and weapon supremacies — are the exception to
 self-contained, and complete. `CombatOptionContentTests` asserts the size and
 shape of each type, so a partial import fails rather than quietly publishing a
 sample.
+
+## Enhanced items, properties and rules
+
+Five more types are published whole rather than sampled, because they were
+imported wholesale from the 2022 archive of the old API rather than authored:
+1,918 enhanced items, 46 weapon properties, 30 armour properties, 75 passages of
+rules prose and 30 reference tables.
+
+```bash
+dotnet run --project src/Sw5e.Database.Tools --   import-legacy ../sw5e-legacy-archive/api content
+```
+
+The importer is deterministic and re-runnable: the same archive produces
+byte-identical documents, so re-running it after a change to a repair rule shows
+up as a diff of exactly what changed. It is the only stage in the pipeline that
+repairs anything — the archive's encoding damage is fixed once, here, so nothing
+reading `content/` has to know the corpus was scraped badly. It writes files and
+never deletes them, so a document corrected by hand after import is not silently
+reverted.
+
+Two decisions are worth knowing about before editing any of it.
+
+**Enhanced items are not equipment.** The two types share `key`, `name`,
+`sourceKey`, `contentSet` and `description` and no mechanical field at all.
+Equipment carries a price, a weight and a stealth flag on every one of its 505
+documents; an enhanced item carries a rarity band, an attunement requirement and
+a kind on every one of its 1,918, and no price whatsoever — `valueText` is null
+on every archived record and not one description names a credit amount. They
+relate by cross-reference: an enhanced item's `subtype` names the gear it is
+built on or installed in, and for 20 of the 56 subtypes that is exactly one
+equipment document.
+
+**Three types carry no `sourceKey`.** The archive records `contentSource` as
+"None" for all 46 weapon properties, all 30 armour properties and all 33
+reference tables, and unlike the rule chapters — where the file a record sits in
+names the book — there is nothing to infer one from. They are published without
+a citation rather than with a guessed one.
+
+Four archived records are deliberately not imported: the Player's Handbook
+preface and three starship reference tables, each of which the scrape reduced to
+a title with no text under it. They are named, with their reasons, in
+`ArchiveConformanceTests.KnownCorruptItems`, and asserted to still be unusable,
+so a recovery upstream goes stale loudly rather than silently.
 
 ## Starship content
 

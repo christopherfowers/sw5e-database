@@ -1,0 +1,11 @@
+{
+  "key": "constitution-augment-improved",
+  "name": "Constitution Augment (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Constitution score increases by 1, and your maximum for this score increases by 1. One ability score other than Constitution (chosen by the GM) decreases by 1."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator-chassis-legendary",
+  "name": "Focus Generator Chassis (Legendary)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "force",
+  "description": "_**Requires attunement**_\nThis modifiable focus generator chassis comes with vacant modification slots for focus generator modifications, as well as two augment slots. It can house modifications of legendary rarity or lower."
+}

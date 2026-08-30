@@ -1,0 +1,11 @@
+{
+  "key": "defel-mimicker",
+  "name": "Defel Mimicker",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile you wear this belt, it casts a shadow that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while you are incapacitated, restrained, or otherwise unable to move.\n\n_The only visible trace of this stealth field generator's user is a vague shadow, much like the Defel themselves._"
+}

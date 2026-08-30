@@ -1,0 +1,11 @@
+{
+  "key": "processing-amplifier-training",
+  "name": "Processing Amplifier (Training)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "While using this item as your focus, you gain a +1 bonus to melee tech attacks and a -1 penalty to ranged tech attacks."
+}

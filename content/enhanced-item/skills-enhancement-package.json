@@ -1,0 +1,12 @@
+{
+  "key": "skills-enhancement-package",
+  "name": "Skills Enhancement Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Intelligence 15",
+  "description": "When you make an ability check using a skill you are proficient in, you can roll a d4 and add the result to your total.\n\n**Side Effect:** When you make an ability check using a skill you are not proficient in, you must roll a d4 and subtract the result from the total.\n\n_This implant includes a library of situational information that it injects directly into your consciousness._"
+}

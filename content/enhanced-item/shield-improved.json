@@ -1,0 +1,11 @@
+{
+  "key": "shield-improved",
+  "name": "Shield (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +2 bonus to AC while wielding this shield."
+}

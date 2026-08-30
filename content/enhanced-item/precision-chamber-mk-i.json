@@ -1,0 +1,11 @@
+{
+  "key": "precision-chamber-mk-i",
+  "name": "Precision Chamber Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon's range increases by 10/40."
+}

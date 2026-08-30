@@ -1,0 +1,11 @@
+{
+  "key": "channeling-amplifier-training",
+  "name": "Channeling Amplifier (Training)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "While using this item as your focus, you gain a +1 bonus to melee force attacks and a -1 penalty to ranged force attacks."
+}

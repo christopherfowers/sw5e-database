@@ -1,0 +1,11 @@
+{
+  "key": "bansche-purifier-menad-pro-mk-i",
+  "name": "Bansche Purifier MENAD Pro Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you cast a tech power with this wristpad that gives you a bonus to AC or saving throws, you can increase that bonus by +1."
+}

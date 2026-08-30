@@ -1,0 +1,11 @@
+{
+  "key": "blaster-chassis-prototype",
+  "name": "Blaster Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any blaster",
+  "description": "_**Requires attunement**_\nThis modifiable blaster chassis comes with vacant modification slots for blaster modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "electrifying-dart-lethal",
+  "name": "Electrifying Dart (Lethal)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack and damage rolls made with this wrist launcher dart, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the dart has been fired, it no longer gives a bonus. Also on a hit, the creature must make a DC 22 Dexterity saving throw, taking 1d6 lightning damage on a failed save.\n\nAdditionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
+}

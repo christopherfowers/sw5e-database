@@ -1,0 +1,11 @@
+{
+  "key": "surging-processor-mk-i",
+  "name": "Surging Processor Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the surging 1 property. If it already has the surging property, its surging number increases by 1, to a maximum of 6."
+}

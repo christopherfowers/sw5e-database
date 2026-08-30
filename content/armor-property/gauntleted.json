@@ -1,0 +1,6 @@
+{
+  "key": "gauntleted",
+  "name": "Gauntleted",
+  "contentSet": "core",
+  "description": "While wearing armor with this property, your unarmed strikes deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier."
+}

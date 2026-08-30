@@ -1,0 +1,12 @@
+{
+  "key": "monk-offensive-augment",
+  "name": "Monk Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in monk",
+  "description": "When you roll a 1 on the damage roll for an unarmed strike or monk weapon, you can reroll the die. You must use the new roll."
+}

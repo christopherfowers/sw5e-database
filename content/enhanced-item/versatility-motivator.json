@@ -1,0 +1,12 @@
+{
+  "key": "versatility-motivator",
+  "name": "Versatility Motivator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Class I droid",
+  "description": "Your speed increases by 5 feet, and you can now speak Binary in addition to understanding it."
+}

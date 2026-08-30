@@ -1,0 +1,11 @@
+{
+  "key": "serrated-edge-mk-iv",
+  "name": "Serrated Edge Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you deal damage with this weapon, you can roll a d10 and add the result to the total."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "mandalorian-helmet",
+  "name": "Mandalorian Helmet",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "head",
+  "description": "_**Requires attunement**_\nThis helmet comes equipped with a headcomm and holorecorder. Additionally, while wearing this helmet, you have darkvision out to 60 feet.\n\n***Mandalorian Vestments.*** While wearing and attuned to this helmet and Mandalorian Beskar'gam, you have advantage on Wisdom (Perception) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, Mandalorian Beskar'gam, and Mandalorian Shuk'orok, you have advantage on Intelligence (Investigation) checks within 5 feet.\n\n_Featuring the iconic T-shaped visor of the Mandalorians, this helmet strikes fear into the hearts of the unwary._"
+}

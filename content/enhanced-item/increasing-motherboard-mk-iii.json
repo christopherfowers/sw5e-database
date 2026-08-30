@@ -1,0 +1,11 @@
+{
+  "key": "increasing-motherboard-mk-iii",
+  "name": "Increasing Motherboard Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the increasing 30 property. If it already has the increasing property, its increasing number increases by 30, to a maximum of 60."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "animal-handler-s-pattern-exquisite",
+  "name": "Animal Handler's Pattern (Exquisite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain grand mastery in Animal Handling."
+}

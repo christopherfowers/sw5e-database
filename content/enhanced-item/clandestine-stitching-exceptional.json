@@ -1,0 +1,11 @@
+{
+  "key": "clandestine-stitching-exceptional",
+  "name": "Clandestine Stitching (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This article of clothing come with five hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 27 Investigation check."
+}

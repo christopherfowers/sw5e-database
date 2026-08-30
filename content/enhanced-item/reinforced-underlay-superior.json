@@ -1,0 +1,11 @@
+{
+  "key": "reinforced-underlay-superior",
+  "name": "Reinforced Underlay (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "You gain a +3 bonus to AC against ranged attacks while wearing this armor or wielding this shield."
+}

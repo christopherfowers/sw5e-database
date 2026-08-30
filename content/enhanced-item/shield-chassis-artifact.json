@@ -1,0 +1,11 @@
+{
+  "key": "shield-chassis-artifact",
+  "name": "Shield Chassis (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable shield chassis comes with vacant modification slots for armor modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+}

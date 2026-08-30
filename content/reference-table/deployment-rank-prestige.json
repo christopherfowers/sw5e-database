@@ -1,0 +1,7 @@
+{
+  "key": "deployment-rank-prestige",
+  "name": "Deployment Rank Prestige",
+  "contentSet": "core",
+  "body": "|DeploymentRank|TotalPrestige|\n|:--:|:--:|\n|1st|1|\n|2nd|4|\n|3rd|8|\n|4th|12|\n|5th|16|",
+  "subject": "Starships"
+}

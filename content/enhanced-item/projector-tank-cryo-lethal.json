@@ -1,0 +1,11 @@
+{
+  "key": "projector-tank-cryo-lethal",
+  "name": "Projector Tank, Cryo (Lethal)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "When triggered, this enhanced vapor projector ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Constitution saving throw. On a failed save, a creature takes 6d4 cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+}

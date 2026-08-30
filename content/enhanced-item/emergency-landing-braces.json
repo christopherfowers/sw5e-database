@@ -1,0 +1,11 @@
+{
+  "key": "emergency-landing-braces",
+  "name": "Emergency Landing Braces",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "You can use your reaction to reduce any falling damage you would take by half."
+}

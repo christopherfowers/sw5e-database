@@ -1,0 +1,11 @@
+{
+  "key": "beemon-cardio-regulator",
+  "name": "Beemon Cardio-Regulator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "neck",
+  "description": "_**Requires attunement**_\nYour Constitution score is 19 while you wear this choker. It has no effect on you if your Constitution is already 19 or higher.\n\n_Demand for Beemon Laboratories' implants streches even to those too sickly to use them without assistance from another of their fine products._"
+}

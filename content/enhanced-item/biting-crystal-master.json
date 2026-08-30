@@ -1,0 +1,11 @@
+{
+  "key": "biting-crystal-master",
+  "name": "Biting Crystal (Master)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the biting 17 property. If it already has the biting property, its biting number increases by 5, to a maximum of 18."
+}

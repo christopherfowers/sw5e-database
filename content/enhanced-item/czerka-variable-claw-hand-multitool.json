@@ -1,0 +1,12 @@
+{
+  "key": "czerka-variable-claw-hand-multitool",
+  "name": "Czerka Variable Claw-Hand Multitool",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Intelligence 13",
+  "description": "This augmentation replaces a hand.\n\nAs a bonus action, you can transform this claw-hand into one of the following items of your choice, or back its default claw-hand state. While your claw-hand is transformed, you are considered to be proficient in the item it is replicating, if you are not already:\n - Security kit\n - Artisan tools (one set, chosen at the time this augmentation is installed)\n - Commlink\n - Fusion cutter\n - Grappling hook (with 50 feet of fibercord cable)\n - Hydrospanner\n - Traumakit\n - Repair kit\n - Hidden blade _(martial vibroweapon)_\n - Hold out _(simple blaster)_\n - Medium shield generator _(medium armor)_\n\nFor items that have charges such as the repair kit, you regain all expended charges at the end of a long rest. For items that use power cells, you can reload those with power cells normally.\n\n**Side Effect:** Once this hand replacement has been installed, you can no longer wield weapons in this hand other than those this augmentation can transform into.\n\n_The CVCM hand replacement appears to be a simple claw, but it contains a startling variety of tools, transforming to become whatever gadget is needed at the moment._"
+}

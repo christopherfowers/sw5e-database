@@ -1,0 +1,11 @@
+{
+  "key": "gloom-cell",
+  "name": "Gloom Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon loses the luminous property."
+}

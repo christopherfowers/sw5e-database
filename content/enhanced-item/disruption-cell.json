@@ -1,0 +1,11 @@
+{
+  "key": "disruption-cell",
+  "name": "Disruption Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the disruptive property."
+}

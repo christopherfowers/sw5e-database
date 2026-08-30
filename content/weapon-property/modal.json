@@ -1,0 +1,6 @@
+{
+  "key": "modal",
+  "name": "Modal",
+  "contentSet": "core",
+  "description": "A weapon with this property can switch between modes. A list of weapons in parentheses appears with the property-the weapons between which an exotic weapon can be switched by using an object interaction."
+}

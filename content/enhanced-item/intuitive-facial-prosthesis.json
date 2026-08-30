@@ -1,0 +1,11 @@
+{
+  "key": "intuitive-facial-prosthesis",
+  "name": "Intuitive Facial Prosthesis",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces your face.\n\nYour Intelligence score becomes 13. If your Intelligence score is already equal to or greater than 13, it has no effect on you. Additionally, you can add half your proficiency bonus (rounded down) to any Intelligence check you make that doesn't already include your proficiency bonus.\n\n**Side Effect:** When you roll a 1 an Intelligence saving throw, the implant stutters, causing any ability checks in which you are proficient you make before the start of your next turn to not include your proficiency bonus.\n\n_This facial prosthetic includes a solid state drive, allowing for quick recall._"
+}

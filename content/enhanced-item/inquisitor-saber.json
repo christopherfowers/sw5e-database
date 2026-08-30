@@ -1,0 +1,12 @@
+{
+  "key": "inquisitor-saber",
+  "name": "Inquisitor Saber",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any lightweapon",
+  "prerequisite": "Double property",
+  "description": "You have a +1 bonus to attack and damage rolls made with this enhanced weapon.\n\nAs a bonus action, you cause the lightsaber to rapidly spin. When you do so, you lose the +1 bonus to attack and damage rolls made with the weapon, but you gain a +1 bonus to AC. Additionally, while spinning, you have a 30-foot flying speed. While flying, if you take damage, you must make a concentration check as if concentrating on a power. On a failure, you immediately fall to the ground.\n\n_These lightweapons, favored by the Jedi hunters known as Inquisitors, have the unique ability to rapidly spin, granting its wielder a limited flying ability._"
+}

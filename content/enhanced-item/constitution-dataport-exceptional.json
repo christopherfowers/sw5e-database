@@ -1,0 +1,11 @@
+{
+  "key": "constitution-dataport-exceptional",
+  "name": "Constitution Dataport (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item's constitution number is reduced by five steps (from 21 to 11). If the constitution number is 19 or lower, this modification removes the constitution property from it entirely."
+}

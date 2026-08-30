@@ -1,0 +1,11 @@
+{
+  "key": "shoulder-cannon-champion",
+  "name": "Shoulder Cannon (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "shoulder cannon",
+  "description": "Mounted in the shoulder slot, a shoulder cannon does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon. You have a +3 bonus to attack rolls and deal an additional 1d10 damage with this enhanced shoulder cannon, which has the smart (20, +6) property."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "smugglepack-superior",
+  "name": "Smugglepack (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "back",
+  "description": "This backpack comes with a main compartment that stores 12 lb., not exceeding 3/8 cubic foot. Additionally, it has a hidden storage compartment that stores 8 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 24 Investigation check."
+}

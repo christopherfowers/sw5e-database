@@ -1,0 +1,11 @@
+{
+  "key": "monomolecular-oscillator-mk-ii",
+  "name": "Monomolecular Oscillator Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon ignores resistance to kinetic damage, and treats immunity as resistance."
+}

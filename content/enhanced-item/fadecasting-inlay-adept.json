@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-inlay-adept",
+  "name": "Fadecasting Inlay (Adept)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +3 bonus to the force save DC of powers that require a Strength or Constitution saving throw."
+}

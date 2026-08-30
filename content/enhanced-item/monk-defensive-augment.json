@@ -1,0 +1,12 @@
+{
+  "key": "monk-defensive-augment",
+  "name": "Monk Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in monk",
+  "description": "You gain one Monastic Vow option."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "tool-integration",
+  "name": "Tool Integration",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "One tool of your choice in which you are proficient is integrated into your chassis."
+}

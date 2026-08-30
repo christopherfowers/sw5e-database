@@ -1,0 +1,11 @@
+{
+  "key": "impermeable-inlay-basic",
+  "name": "Impermeable Inlay (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the impermeable 2 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 2, to a maximum of 9."
+}

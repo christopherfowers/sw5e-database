@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-oscillator-mk-i",
+  "name": "Fadecasting Oscillator Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +1 bonus to the tech save DC of powers that require a Strength or Constitution saving throw and a -1 penalty to the tech save DC of powers that require a Dexterity or Intelligence saving throw."
+}

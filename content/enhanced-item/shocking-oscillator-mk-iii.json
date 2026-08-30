@@ -1,0 +1,11 @@
+{
+  "key": "shocking-oscillator-mk-iii",
+  "name": "Shocking Oscillator Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the shocking 15 property. If it already has the shocking property, its shocking number increases by 3, to a maximum of 18."
+}

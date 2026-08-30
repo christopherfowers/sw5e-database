@@ -1,0 +1,11 @@
+{
+  "key": "darkvision-goggles",
+  "name": "Darkvision Goggles",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "head",
+  "description": "While wearing these goggles, you have darkvision to a range of 60 feet. If you already have darkvision, these goggles increase its range by 30 feet."
+}

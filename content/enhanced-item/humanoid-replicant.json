@@ -1,0 +1,12 @@
+{
+  "key": "humanoid-replicant",
+  "name": "Humanoid Replicant",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Humanoid proportions",
+  "description": "Your droid gains an exterior layer that makes it indistinguishable from a species of your choice of the same size. Additionally, you have advantage on checks made to conceal your nature, and scanners of standard rarity or lower automatically fail to determine that you are a droid."
+}

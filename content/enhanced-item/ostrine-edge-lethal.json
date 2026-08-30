@@ -1,0 +1,11 @@
+{
+  "key": "ostrine-edge-lethal",
+  "name": "Ostrine Edge (Lethal)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you deal damage with this weapon, you deal an additional 1d6 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item)."
+}

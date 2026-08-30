@@ -1,0 +1,11 @@
+{
+  "key": "environmental-barrier-mk-vi",
+  "name": "Environmental Barrier Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "barrier",
+  "description": "As an action, you can administer this barrier to a creature within 5 feet. The barrier has 90 hit points, and lasts 8 hours. Whenever the creature takes damage (one of acid, cold, fire, force, lightning, necrotic, poison, psychic, or sonic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage. A creature can benefit from only one barrier at a time."
+}

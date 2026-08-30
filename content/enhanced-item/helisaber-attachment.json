@@ -1,0 +1,12 @@
+{
+  "key": "helisaber-attachment",
+  "name": "Helisaber Attachment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "prerequisite": "Double property",
+  "description": "As a bonus action, you can activate the attachment. While active, you have a 30-foot flying speed, and whenever you take damage you must make a concentration check as if concentrating on a power. On a failure, you immediately fall to the ground."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-core-fighting",
+  "name": "Fadecasting Core (Fighting)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "While using this item as your focus, you gain a +1 bonus to the tech save DC of powers that require a Strength or Constitution saving throw."
+}

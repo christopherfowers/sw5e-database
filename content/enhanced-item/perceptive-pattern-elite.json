@@ -1,0 +1,11 @@
+{
+  "key": "perceptive-pattern-elite",
+  "name": "Perceptive Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Perception increases by five steps (to high mastery or from trained to grand mastery)."
+}

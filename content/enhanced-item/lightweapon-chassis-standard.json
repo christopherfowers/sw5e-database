@@ -1,0 +1,11 @@
+{
+  "key": "lightweapon-chassis-standard",
+  "name": "Lightweapon Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "any lightweapon",
+  "description": "_**Requires attunement**_\nThis modifiable lightweapon chassis comes with vacant modification slots for lightweapon modifications. It can house modifications of standard rarity."
+}

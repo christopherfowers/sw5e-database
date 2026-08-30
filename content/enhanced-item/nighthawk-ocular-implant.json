@@ -1,0 +1,12 @@
+{
+  "key": "nighthawk-ocular-implant",
+  "name": "Nighthawk Ocular Implant",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Intelligence 13",
+  "description": "This augmentation replaces your eyes.\n\nYou can activate or deactivate this implant as a bonus action. While active, you gain darkvision to a range of 120 feet.\n\n**Side Effect:** While active and in bright light, you have disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+}

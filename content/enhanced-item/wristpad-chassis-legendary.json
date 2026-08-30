@@ -1,0 +1,11 @@
+{
+  "key": "wristpad-chassis-legendary",
+  "name": "Wristpad Chassis (Legendary)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "tech",
+  "description": "_**Requires attunement**_\nThis modifiable wristpad chassis comes with vacant modification slots for wristpad modifications, as well as two augment slots. It can house modifications of legendary rarity or lower."
+}

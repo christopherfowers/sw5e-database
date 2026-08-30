@@ -1,0 +1,11 @@
+{
+  "key": "serrated-edge-mk-ii",
+  "name": "Serrated Edge Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you deal damage with this weapon, you can roll a d6 and add the result to the total."
+}

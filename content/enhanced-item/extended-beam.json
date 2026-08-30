@@ -1,0 +1,11 @@
+{
+  "key": "extended-beam",
+  "name": "Extended Beam",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the reach property."
+}

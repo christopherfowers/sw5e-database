@@ -1,0 +1,11 @@
+{
+  "key": "crystalizing-amplifier-mastery",
+  "name": "Crystalizing Amplifier (Mastery)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "While using this item as your focus, you gain a +3 bonus to melee force attacks."
+}

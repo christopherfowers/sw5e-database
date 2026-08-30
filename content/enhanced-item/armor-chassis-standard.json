@@ -1,0 +1,11 @@
+{
+  "key": "armor-chassis-standard",
+  "name": "Armor Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable armor chassis comes with vacant modification slots for armor modifications. It can house modifications of standard rarity."
+}

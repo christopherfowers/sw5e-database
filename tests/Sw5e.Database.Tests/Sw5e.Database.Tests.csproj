@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Sw5e.Database.Schemas\Sw5e.Database.Schemas.csproj" />
+    <ProjectReference Include="..\..\src\Sw5e.Database.Tools\Sw5e.Database.Tools.csproj" />
   </ItemGroup>
 
 </Project>

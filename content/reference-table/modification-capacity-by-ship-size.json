@@ -1,0 +1,7 @@
+{
+  "key": "modification-capacity-by-ship-size",
+  "name": "Modification Capacity by Ship Size",
+  "contentSet": "core",
+  "body": "| Starship Size | Modification Slots |\n|:----:|:----:|\n| Tiny  |10 |\n| Small |20 |\n| Medium |30 |\n| Large |50 |\n| Huge |60 |\n| Gargantuan |70 |",
+  "subject": "Starships"
+}

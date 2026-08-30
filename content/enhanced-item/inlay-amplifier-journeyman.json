@@ -1,0 +1,11 @@
+{
+  "key": "inlay-amplifier-journeyman",
+  "name": "Inlay Amplifier (Journeyman)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +2 bonus to melee force attacks."
+}

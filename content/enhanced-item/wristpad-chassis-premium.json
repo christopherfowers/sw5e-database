@@ -1,0 +1,11 @@
+{
+  "key": "wristpad-chassis-premium",
+  "name": "Wristpad Chassis (Premium)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "tech",
+  "description": "_**Requires attunement**_\nThis modifiable wristpad chassis comes with vacant modification slots for wristpad modifications. It can house modifications of premium rarity or lower."
+}

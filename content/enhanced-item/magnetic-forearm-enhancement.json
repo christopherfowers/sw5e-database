@@ -1,0 +1,11 @@
+{
+  "key": "magnetic-forearm-enhancement",
+  "name": "Magnetic Forearm Enhancement",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces a forearm.\n\nUnarmed strikes with this hand have the reach property.\n\n**Side Effect:** When you roll a 1 on an ability check, attack roll, or saving throw with this arm, the hand disconnects and falls to the ground. It can be picked up and replaced as a bonus action.\n\n_This hand replacement creates a magnetic connection between the hand and forearm, emitting a minor hum._"
+}

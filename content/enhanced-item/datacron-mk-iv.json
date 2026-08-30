@@ -1,0 +1,10 @@
+{
+  "key": "datacron-mk-iv",
+  "name": "Datacron Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "description": "This datacron contains a single 5th-level tech power, or multiple powers of 1st-4th level with a combined level no greater than 5. After tinkering with the datacron for at least 16 hours, a techcaster with a Max Power Level of 5th or higher can make a DC 22 techcasting ability check with proficiency. On a success, they learn the contained tech power(s), which does not count against their tech powers known. On a failure, the power is not learned and the techcaster can't try again for 24 hours.\n\n_Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "electrifying-oscillator",
+  "name": "Electrifying Oscillator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you hit with the weapon, you can create an electronic burst. Each creature in a 15-foot cone centered on the creature you hit must make a DC 15 Dexterity saving throw, taking 1d8 lightning damage on a failed save or half as much on a successful one.\n\nOnce you've used this feature, you must complete a long rest before you can use it again."
+}

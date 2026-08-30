@@ -1,0 +1,12 @@
+{
+  "key": "gauntlet-armoring",
+  "name": "Gauntlet Armoring",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the gauntleted (1d4) property. If it already has the gauntleted property, the gauntleted damage increases by one step (from d4 to d6, or from d6 to d8)."
+}

@@ -1,0 +1,12 @@
+{
+  "key": "czerka-attenuating-pulsator",
+  "name": "Czerka Attenuating Pulsator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "The ability to cast tech powers",
+  "description": "When you score a critical hit or reduce a creature to 0 hit points with a ranged attack using this weapon, you can regain a number of tech points equal to your Intelligence modifier (a minimum of one, no action required).  Once you've used this feature, you must complete a short or long rest before you can use it again."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "tool-improved",
+  "name": "Tool (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "description": "Your level of proficiency in these tools increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery)."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "repulsor-lifts-improved",
+  "name": "Repulsor Lifts (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "Repulsor lifts are a form of rocket propulsion affixed to the lower part of a droid's chassis. Activating or deactivating the repulsors requires a bonus action and, while active, you have a flying speed of 35 feet. The repulsor lifts last for 1 minute. Once they've been used, they can't be used again until an hour has passed."
+}

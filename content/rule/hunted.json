@@ -1,0 +1,8 @@
+{
+  "key": "hunted",
+  "name": "Hunted",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "ruleType": "variant",
+  "body": "In some eras of Star Wars history, forcecasters are a rarity, and are hunted across the galaxy by the likes of Inquisitors, or if they're unlucky, a Dark Lord of the Sith, in an attempt to crush any foreseen threats to their rule. Should you want your forcecasting players to experience this additional level of drama and suspense, here is an alternate rule to implement:\n\nWhenever a player casts a force power, others in the Galaxy may detect their presence through ripples in the Force. Each player has a pool of Disturbance Points. This pool of Disturbance Points increases every time a force power is cast by a number of points equal to the level of the force power used (at-will powers are treated as Level 0).\n\nAfter each combat, roll a percentile dice for each player that used a force power. If you roll a number equal to or lower than the players Disturbance Pool, they are detected by Jedi Hunters of your determination, who begin to hunt the player they detected.\n\nDuring each long rest, decrease each player's pool of Disturbance Points by an amount equal to their level."
+}

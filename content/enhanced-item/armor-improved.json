@@ -1,0 +1,11 @@
+{
+  "key": "armor-improved",
+  "name": "Armor (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +2 bonus to AC while wearing this armor."
+}

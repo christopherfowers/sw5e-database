@@ -1,0 +1,12 @@
+{
+  "key": "analysis-protocol",
+  "name": "Analysis Protocol",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "prerequisite": "Class I droid",
+  "description": "You know the *detect enhancement* and *toxin scan* tech powers. You can cast each power once per day. Intelligence is your techcasting ability for these powers. You do not require use of a wristpad for these powers."
+}

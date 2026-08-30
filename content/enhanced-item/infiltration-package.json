@@ -1,0 +1,11 @@
+{
+  "key": "infiltration-package",
+  "name": "Infiltration Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces a hand.\n\nThis implant appears to be a standard cybernetic mechanical arm, but conceals a security kit and a slicer's kit. Additionally, you can also use an action to cast _release_ at 2nd level without expending tech points or use of a tech focus. Intelligence is your techcasting ability for this power. Once you've done so, you can't do so again until you complete a long rest.\n\n**Side Effect:** This hand can no longer wield items that weigh more than 7 lbs.\n\n_This fully cybernetic hand replacement contains a hidden array of infiltration tools optimized for defeating a wide variety of security barriers._"
+}

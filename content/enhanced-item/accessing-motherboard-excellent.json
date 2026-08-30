@@ -1,0 +1,11 @@
+{
+  "key": "accessing-motherboard-excellent",
+  "name": "Accessing Motherboard (Excellent)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the accessing 4 property. If it already has the accessing property, its accessing number increases by 4, to a maximum of 6."
+}

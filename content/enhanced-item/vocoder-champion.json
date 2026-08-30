@@ -1,0 +1,11 @@
+{
+  "key": "vocoder-champion",
+  "name": "Vocoder (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "A vocoder is an adjustment to a droid's speech center. The vocoder includes all registered languages, and grants the droid the ability to speak, read, and write each language."
+}

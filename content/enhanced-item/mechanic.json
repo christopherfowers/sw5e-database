@@ -1,0 +1,11 @@
+{
+  "key": "mechanic",
+  "name": "Mechanic",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "As an action, you can activate the repair tools, choosing one of the following options:\n- You can stabilize a droid within 5 feet of you that has 0 hit points, without needing to make an Intelligence (Technology) check.\n- You can restore 2d4+2 hit points to a droid or construct within 5 feet.\n\nYou can use each feature once. You regain all expended uses when you complete a long rest.\n\n_This part equips the droid with a series of machine repair tools._"
+}

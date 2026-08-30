@@ -1,0 +1,12 @@
+{
+  "key": "manipulator-upgrade",
+  "name": "Manipulator Upgrade",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Class II droid",
+  "description": "You lose the Undersized special trait."
+}

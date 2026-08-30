@@ -1,0 +1,11 @@
+{
+  "key": "absorptive-reinforcement-mk-ii",
+  "name": "Absorptive Reinforcement Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield gains the absorptive 2 property. If it already has the absorptive property, its absorptive number increases by 2, to a maximum of 3."
+}

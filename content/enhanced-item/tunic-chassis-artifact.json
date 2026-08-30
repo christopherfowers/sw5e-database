@@ -1,0 +1,11 @@
+{
+  "key": "tunic-chassis-artifact",
+  "name": "Tunic Chassis (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nThis modifiable clothing chassis comes with vacant modification slots for clothing modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "shield-chassis-standard",
+  "name": "Shield Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable shield chassis comes with vacant modification slots for armor modifications. It can house modifications of standard rarity."
+}

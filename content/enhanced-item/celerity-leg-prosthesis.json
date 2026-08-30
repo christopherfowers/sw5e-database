@@ -1,0 +1,11 @@
+{
+  "key": "celerity-leg-prosthesis",
+  "name": "Celerity Leg Prosthesis",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces both legs.\n\nWhen determining your bonus to AC and saving throws from Dexterity, your Dexterity score is treated as 15. Additionally, you can substitute this score for your own whenever you make an ability check or attack roll that uses your legs. If your Dexterity score is already equal to or greater than 15, it has no effect on you.\n\n**Side Effect:** When you roll a 1 an ability check, attack roll, or saving throw using Dexterity that involves these legs, they seize up, reducing your speed to 0 until the start of your next turn.\n\n_This leg replacement is common for those travelers interested in making a quick getaway._"
+}

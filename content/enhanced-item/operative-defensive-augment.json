@@ -1,0 +1,12 @@
+{
+  "key": "operative-defensive-augment",
+  "name": "Operative Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in operative",
+  "description": "You learn an additional Operative Exploit option."
+}

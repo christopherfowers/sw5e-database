@@ -1,0 +1,11 @@
+{
+  "key": "spiked-shielding-mk-iii",
+  "name": "Spiked Shielding Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "_**Prerequiste:** Shield_\nThis shield gains the spiked (1d8) property. If it already has the spiked property, the spiked damage increases to d8."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "cilona-pure",
+  "name": "Cilona (Pure)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "substance",
+  "description": "Cilona, the active ingredient in deathsticks, is a hallucinogen that causes an ecstatic feeling that improves strength. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that allows them to roll an additional d12 when making an ability check, attack roll, or saving throw using Strength. At the end of the high, the creature must succeed on a DC 24 Wisdom saving throw or experience a low that lasts 8 hours, during which they must roll a d12 and subtract the result when making an ability check, attack roll, or saving throw using Strength. At the end of the low, the creature must make a DC 24 Constitution saving throw to resist addiction."
+}

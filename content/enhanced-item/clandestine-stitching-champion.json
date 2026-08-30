@@ -1,0 +1,11 @@
+{
+  "key": "clandestine-stitching-champion",
+  "name": "Clandestine Stitching (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This article of clothing come with six hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 30 Investigation check."
+}

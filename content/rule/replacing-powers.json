@@ -1,0 +1,8 @@
+{
+  "key": "replacing-powers",
+  "name": "Replacing Powers",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "ruleType": "variant",
+  "body": "Often a player might feel restricted because they made a bad power choice, and they don't want to wait until their next level up to do so. If this is a mechanic that suits your players, consider using the following variant rule.\n\nEach time a character completes a long rest, they can attempt to take one power they know and replace it with another power, as long as that power is not of a higher level than their Max Power Level. If the character knows both force and tech powers, those powers can only be replaced with another force or tech power, respectively.\n\nThe character immediately unlearns the power they are trying to replace, and then must make a force- or tech-casting ability check (using Wisdom or Charisma as appropriate, depending on force power alignment) with proficiency. The DC of the check varies depending on the level of the power the character is attempting to learn, as shown in the Power Level Check DC table below.\n\n##### Power Level Check DC\n\n|Power Level|Check DC|\n|:--:|:--:|\n|0|10|\n|1|14|\n|2|16|\n|3|18|\n|4|20|\n\n|Power Level|Check DC|\n|:--:|:--:|\n|5|22|\n|6|24|\n|7|26|\n|8|28|\n|9|30|\n\nOn a success, the new power is learned. On a failure, the new power is not learned, the old power is still forgotten, and the character can't try again until their next long rest.\n\nWhen attempting to replace a power, if the character currently has a vacant power known slot, they do not need to first unlearn a power before attempting to fill that slot."
+}

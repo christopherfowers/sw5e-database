@@ -1,0 +1,11 @@
+{
+  "key": "weapon-champion",
+  "name": "Weapon (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +3 bonus to attack rolls and deal an additional 1d10 damage with this enhanced weapon."
+}

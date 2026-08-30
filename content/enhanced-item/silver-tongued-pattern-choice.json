@@ -1,0 +1,11 @@
+{
+  "key": "silver-tongued-pattern-choice",
+  "name": "Silver-Tongued Pattern (Choice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Deception increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "interfaced-healing-protocol",
+  "name": "Interfaced Healing Protocol",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "description": "While you are interfaced via the *tracker droid interface* tech power, when your handler restores hit points to a creature that is within 5 feet of you, they can roll the dice twice and take either total."
+}

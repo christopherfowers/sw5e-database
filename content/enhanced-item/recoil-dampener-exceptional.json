@@ -1,0 +1,11 @@
+{
+  "key": "recoil-dampener-exceptional",
+  "name": "Recoil Dampener (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon's strength number is reduced by five steps (from 21 to 11). If the strength number is 19 or lower, this modification removes the strength property from it entirely."
+}

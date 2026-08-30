@@ -1,0 +1,11 @@
+{
+  "key": "mitigating-channel-adept",
+  "name": "Mitigating Channel (Adept)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the mitigating 4 property. If it already has the mitigating property, its mitigating number increases by 4, to a maximum of 6."
+}

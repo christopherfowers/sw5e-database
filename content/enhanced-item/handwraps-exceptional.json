@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-exceptional",
+  "name": "Handwraps (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "hands",
+  "description": "While wearing these handwraps, you have a +3 bonus to attack rolls and deal an additional 1d8 damage with your unarmed strikes."
+}

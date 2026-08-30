@@ -1,0 +1,11 @@
+{
+  "key": "grenade-fragmentation-major",
+  "name": "Grenade, Fragmentation (Major)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "explosive",
+  "description": "Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 18 Dexterity saving throw. A creature takes 6d10 kinetic damage on a failed save, or half as much as on a successful one."
+}

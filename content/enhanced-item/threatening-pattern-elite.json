@@ -1,0 +1,11 @@
+{
+  "key": "threatening-pattern-elite",
+  "name": "Threatening Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Intimidation increases by five steps (to high mastery or from trained to grand mastery)."
+}

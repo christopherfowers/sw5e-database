@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator-fine",
+  "name": "Focus Generator (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "force",
+  "description": "_**Requires attunement**_\nYou gain a +1 bonus to the force attack rolls for force powers you cast through this focus generator."
+}

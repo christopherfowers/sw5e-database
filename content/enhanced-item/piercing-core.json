@@ -1,0 +1,11 @@
+{
+  "key": "piercing-core",
+  "name": "Piercing Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon gains the piercing 1 property. If it already has the piercing property, its piercing number increases by 1, to a maximum of 3."
+}

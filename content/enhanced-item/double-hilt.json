@@ -1,0 +1,12 @@
+{
+  "key": "double-hilt",
+  "name": "Double Hilt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "prerequisite": "Lacks two-handed or versatile property",
+  "description": "This weapon gains the double property, with a double damage value equal to its normal damage."
+}

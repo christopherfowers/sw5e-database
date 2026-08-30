@@ -1,0 +1,11 @@
+{
+  "key": "grenade-plasma-devastating",
+  "name": "Grenade, Plasma (Devastating)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "explosive",
+  "description": "Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 24 Dexterity saving throw. A creature takes 12d10 energy damage on a failed save, or half as much as on a successful one."
+}

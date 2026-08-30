@@ -1,0 +1,12 @@
+{
+  "key": "ion-amplifying-core",
+  "name": "Ion Amplifying Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "Ion damage",
+  "description": "This weapon ignores resistance to ion damage."
+}

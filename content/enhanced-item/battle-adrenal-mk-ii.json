@@ -1,0 +1,11 @@
+{
+  "key": "battle-adrenal-mk-ii",
+  "name": "Battle Adrenal Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "adrenal",
+  "description": "As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, when the target takes the Attack action, it can make two additional attacks (no action required). This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time."
+}

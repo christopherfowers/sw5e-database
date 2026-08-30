@@ -1,0 +1,11 @@
+{
+  "key": "quickened-subroutine",
+  "name": "Quickened Subroutine",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you cast a power that has a casting time of 1 action, you can spend 2 additional tech points to change the casting time to 1 bonus action for this casting.\n\nYou can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.\n\nYou can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+}

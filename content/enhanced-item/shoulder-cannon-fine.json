@@ -1,0 +1,11 @@
+{
+  "key": "shoulder-cannon-fine",
+  "name": "Shoulder Cannon (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "shoulder cannon",
+  "description": "Mounted in the shoulder slot, a shoulder cannon does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon. You have a +1 bonus to attack and damage rolls made with this enhanced shoulder cannon, which has the smart (16, +2) property."
+}

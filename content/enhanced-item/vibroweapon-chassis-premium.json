@@ -1,0 +1,11 @@
+{
+  "key": "vibroweapon-chassis-premium",
+  "name": "Vibroweapon Chassis (Premium)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "any vibroweapon",
+  "description": "_**Requires attunement**_\nThis modifiable vibroweapon chassis comes with vacant modification slots for vibroweapon modifications. It can house modifications of premium rarity or lower."
+}

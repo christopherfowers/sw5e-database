@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-fuel-capacity",
+  "name": "Starship Size Fuel Capacity",
+  "contentSet": "core",
+  "body": "|Starship Size|Fuel Capacity|\n|:--|--:|\n|Tiny| 5 units|\n|Small| 10 units|\n|Medium| 30 units|\n|Large| 300 units|\n|Huge| 600 units|\n|Gargantuan| 1,800 units|",
+  "subject": "Starships"
+}

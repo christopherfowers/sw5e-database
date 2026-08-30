@@ -1,0 +1,12 @@
+{
+  "key": "flexible-armoring",
+  "name": "Flexible Armoring",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor loses the rigid property."
+}

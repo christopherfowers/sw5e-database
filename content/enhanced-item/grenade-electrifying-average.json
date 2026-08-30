@@ -1,0 +1,11 @@
+{
+  "key": "grenade-electrifying-average",
+  "name": "Grenade, Electrifying (Average)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "explosive",
+  "description": "Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 16 Dexterity saving throw. A creature takes 4d6 lightning damage on a failed save, or half as much as on a successful one.\n\nAdditionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
+}

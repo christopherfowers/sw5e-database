@@ -1,0 +1,10 @@
+{
+  "key": "blueprint-artifact",
+  "name": "Blueprint (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "description": "This blueprint contains information regarding the raw and rare materials, tools, and steps required to craft an item of artifact rarity. Over the course of 1 hour, which can be done during a short rest, a character can attempt to learn the blueprint. If they do so, they must make a DC 30 Intelligence check with the appropriate tools. On a success, the blueprint for the item is learned. On a failure, the blueprint is not learned, and the character must wait 24 hours before they can try again.\n\n_Blueprints contain the secrets of how to craft items of a more complex nature._"
+}

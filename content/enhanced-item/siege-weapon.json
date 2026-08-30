@@ -1,0 +1,11 @@
+{
+  "key": "siege-weapon",
+  "name": "Siege Weapon",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "You modify this weapon to be more effective against barriers. The weapon deals double damage against structures."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "responsive-shielding-mk-i",
+  "name": "Responsive Shielding Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "_**Prerequiste:** Shield_\nThis shield gains the responsive 1 property. If it already has the responsive property, its responsive number increases by 1, to a maximum of 3."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "stamina-adrenal-fine",
+  "name": "Stamina Adrenal (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "adrenal",
+  "description": "As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target's current and maximum hit points increase by 20. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time."
+}

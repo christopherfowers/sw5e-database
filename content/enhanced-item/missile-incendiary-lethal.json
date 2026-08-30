@@ -1,0 +1,11 @@
+{
+  "key": "missile-incendiary-lethal",
+  "name": "Missile, Incendiary (Lethal)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack rolls made with this enhanced wrist launcher ammunition, which deals 2d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 22 Dexterity saving throw. On a failed save, the creature takes 5d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+}

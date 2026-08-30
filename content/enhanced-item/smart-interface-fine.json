@@ -1,0 +1,11 @@
+{
+  "key": "smart-interface-fine",
+  "name": "Smart Interface (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon gains the smart (16, +2) property. If it already has the smart property, its smart numbers increase by +2 and +1, respectively, to a maximum of 20 and +6."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "armor-fine",
+  "name": "Armor (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +1 bonus to AC while wearing this armor."
+}

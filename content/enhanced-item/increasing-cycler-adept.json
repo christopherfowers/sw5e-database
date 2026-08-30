@@ -1,0 +1,11 @@
+{
+  "key": "increasing-cycler-adept",
+  "name": "Increasing Cycler (Adept)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the increasing 40 property. If it already has the increasing property, its increasing number increases by 40, to a maximum of 60."
+}

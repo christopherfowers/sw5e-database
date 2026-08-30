@@ -1,0 +1,12 @@
+{
+  "key": "microphasic-hypervisor",
+  "name": "Microphasic Hypervisor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Constitution 13",
+  "description": "This augmentation replaces your eyes.\n\nYou can activate or deactivate this implant as a bonus action. While active, you have truesight to a range of 30 feet.\n\n**Side Effect:** While active, you have disadvantage on Wisdom (Perception) checks beyond 30 feet.\n\n_This augmentation is a large, boxy eye replacement that covers both eyes with digital optic feeds and high resolution sensors._"
+}

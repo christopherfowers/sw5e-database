@@ -1,0 +1,12 @@
+{
+  "key": "engineer-defensive-augment",
+  "name": "Engineer Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in engineer",
+  "description": "This item becomes a valid target of the Infuse Item feature if it wasn't already, granting a bonus appropriate to the item's type. Additionally, you gain an additional use of your Potent Aptitude."
+}

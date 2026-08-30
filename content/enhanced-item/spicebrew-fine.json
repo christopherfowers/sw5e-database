@@ -1,0 +1,11 @@
+{
+  "key": "spicebrew-fine",
+  "name": "Spicebrew (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "substance",
+  "description": "Spicebrew, a popular drink across the galaxy, is a tanned alcoholic beverage topped with foam. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum force points by 2d4. At the end of the high, the creature must succeed on a DC 16 Constitution saving throw or experience a low that lasts 1 hour, their current and maximum force points are reduced by 2d4. At the end of the low, the creature must make a DC 16 Wisdom saving throw to resist addiction."
+}

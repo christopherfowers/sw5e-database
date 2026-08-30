@@ -49,6 +49,19 @@ public static class LegacyContentMapper
         "class-improvement/multiclass" => Finish(ClassImprovement(item, "multiclass")),
         "class-improvement/splashclass" => Finish(ClassImprovement(item, "splashclass")),
 
+        "enhanced-item" => Finish(EnhancedItem(item)),
+        "weapon-property" or "armor-property" => Finish(Property(item)),
+        "reference-table" => Finish(ReferenceTable(item)),
+
+        // And four more mapping keys that are not content types. Every rules
+        // record in the archive has a contentSource of "None", so nothing in
+        // one says which book printed it; the file it came from is the only
+        // evidence there is, and the caller names it after the slash.
+        "rule/phb" => Finish(Rule(item, "phb", "core", "chapter")),
+        "rule/wh" => Finish(Rule(item, "wh", "core", "chapter")),
+        "rule/ec" => Finish(Rule(item, "ec", "expanded-content", "chapter")),
+        "rule/variant" => Finish(Rule(item, "ec", "expanded-content", "variant")),
+
         _ => throw new ArgumentOutOfRangeException(nameof(contentType), contentType, "No mapping defined.")
     };
 
@@ -945,4 +958,171 @@ public static class LegacyContentMapper
 
         return With(mapped, Provenance(item));
     }
+
+    // ---------------------------------------------------------- enhanced item
+
+    /// <summary>
+    /// An enhanced item: a specific artefact, a modification, an augmentation or
+    /// a consumable.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// Two groups of legacy fields are dropped beyond the usual ones. The first
+    /// is the ten <c>*Type</c> discriminators - <c>enhancedWeaponType</c>,
+    /// <c>itemModificationType</c> and eight more - of which at most one is ever
+    /// set on a record and all ten are "None" on more than half of them. They
+    /// say less than <c>subtype</c>, which is populated on every record that has
+    /// a kind at all, so <c>subtype</c> is the one that is kept.
+    /// </para>
+    /// <para>
+    /// The second is the four spellings of rarity. <c>rarityOptions</c> is a
+    /// one-element array on all 1,918 records, <c>rarityOptionsJson</c> is its
+    /// stringified duplicate, <c>rarityText</c> is the same value with
+    /// inconsistent casing, and <c>searchableRarity</c> is a display artefact of
+    /// the old site's search box. The array is the one the target model keeps,
+    /// collapsed to the scalar the data always was.
+    /// </para>
+    /// <para>
+    /// <c>valueText</c> is dropped because it is null on every one of the 1,918
+    /// records: no enhanced item in the corpus has a price. Rarity is what
+    /// stands in for one, which is why the schema requires it.
+    /// </para>
+    /// </remarks>
+    private static JsonObject EnhancedItem(JsonObject item)
+    {
+        var name = Text(item, "name")!;
+        var subtype = Text(item, "subtype");
+
+        var mapped = new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name,
+            ["itemType"] = CamelCase(Text(item, "type")!),
+            ["rarity"] = SingleRarity(item),
+            ["requiresAttunement"] = Bool(item, "requiresAttunement"),
+            ["subtype"] = subtype is null ? null : Lower(subtype),
+            ["prerequisite"] = Text(item, "prerequisite"),
+            ["description"] = Text(item, "text")
+        };
+
+        return With(mapped, Provenance(item));
+    }
+
+    /// <summary>
+    /// The record's one rarity, or null when it does not have exactly one. Null
+    /// fails validation, which is the point: a record with two rarities would
+    /// need an array and a decision about what a list page sorts on, and this
+    /// mapping must not quietly pick one.
+    /// </summary>
+    private static JsonNode? SingleRarity(JsonObject item)
+    {
+        var options = Array(item, "rarityOptions");
+
+        if (options is null || options.Count != 1 ||
+            options[0] is not JsonValue value ||
+            !value.TryGetValue<string>(out var rarity))
+        {
+            return null;
+        }
+
+        return Lower(rarity);
+    }
+
+    // ------------------------------------------------------------- properties
+
+    /// <summary>
+    /// A weapon or armour property glossary entry. One mapping serves both
+    /// content types: the records are the same shape, and which glossary an
+    /// entry belongs to is decided by the file it is in rather than by anything
+    /// in the record.
+    /// </summary>
+    /// <remarks>
+    /// <c>Provenance</c> is deliberately not used. It would derive a
+    /// <c>sourceKey</c> of "none" from a <c>contentSource</c> of "None", and a
+    /// property that cites a book called None is worse than one that cites no
+    /// book at all - which is why neither property schema has the field.
+    /// </remarks>
+    private static JsonObject Property(JsonObject item)
+    {
+        var name = Text(item, "name")!;
+
+        return new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name,
+            ["contentSet"] = ContentSet(Text(item, "contentType")),
+            ["description"] = Text(item, "content")
+        };
+    }
+
+    // ------------------------------------------------------------------ rules
+
+    /// <summary>
+    /// A chapter of a book, or one optional variant rule.
+    /// </summary>
+    /// <remarks>
+    /// The book and the kind come from the mapping key rather than the record,
+    /// because the record does not carry them: all 76 have a contentSource of
+    /// "None". VariantRule is attributed to the Expanded Content supplement
+    /// because that is the book whose "Variant Rules" chapter prints them, and
+    /// because every one of its records is already marked as expanded content.
+    /// <para>
+    /// Chapter keys carry the book's key as a prefix because seven chapter
+    /// titles are printed in more than one book - all three print one called
+    /// "Equipment" - and an unprefixed key would collide. Variant rule titles
+    /// are unique across the corpus and take an unprefixed key.
+    /// </para>
+    /// </remarks>
+    private static JsonObject Rule(JsonObject item, string sourceKey, string contentSet, string ruleType)
+    {
+        var name = Text(item, "chapterName")!;
+        var isChapter = ruleType == "chapter";
+
+        return new JsonObject
+        {
+            ["key"] = isChapter ? Slug(sourceKey, name) : Slug(name),
+            ["name"] = name,
+            ["sourceKey"] = sourceKey,
+            ["contentSet"] = contentSet,
+            ["ruleType"] = ruleType,
+            ["chapterNumber"] = isChapter ? Int(item, "chapterNumber") : null,
+            ["body"] = Text(item, "contentMarkdown")
+        };
+    }
+
+    // ------------------------------------------------------- reference tables
+
+    /// <summary>
+    /// A standalone lookup table. Like the properties, these carry no usable
+    /// provenance: the archive records "None" as the source, and unlike the rule
+    /// chapters there is no file name to infer a book from, because the
+    /// thirty-three tables come from at least three different ones.
+    /// </summary>
+    /// <remarks>
+    /// <c>subject</c> is not mapped here. It is derived from the caption at
+    /// import time to group the tables into a browsable list, and deriving it is
+    /// a judgement rather than a rename - which is exactly the kind of thing
+    /// this class does not do.
+    /// </remarks>
+    private static JsonObject ReferenceTable(JsonObject item)
+    {
+        var name = Text(item, "name")!;
+
+        return new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name,
+            ["contentSet"] = ContentSet(Text(item, "contentType")),
+            ["body"] = Text(item, "content")
+        };
+    }
+
+    /// <summary>
+    /// The content set a record belongs to. Wretched Hives is the case this
+    /// exists for: its rule chapters record "None" while its 1,550 enhanced
+    /// items record "Core", and they are the same book, so "None" resolves to
+    /// core rather than being passed through as an enum value no schema accepts.
+    /// </summary>
+    private static string ContentSet(string? contentType) =>
+        contentType == "ExpandedContent" ? "expanded-content" : "core";
 }

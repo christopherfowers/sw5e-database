@@ -1,0 +1,11 @@
+{
+  "key": "strength-augment-fine",
+  "name": "Strength Augment (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Strength score increases by 1."
+}

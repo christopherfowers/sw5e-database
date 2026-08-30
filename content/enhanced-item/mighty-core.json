@@ -1,0 +1,12 @@
+{
+  "key": "mighty-core",
+  "name": "Mighty Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "Lacks strength property",
+  "description": "This weapon gains the mighty property."
+}

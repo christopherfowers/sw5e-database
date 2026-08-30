@@ -1,0 +1,12 @@
+{
+  "key": "uncanniness-motivator",
+  "name": "Uncanniness Motivator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "prerequisite": "Class III droid",
+  "description": "When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again."
+}

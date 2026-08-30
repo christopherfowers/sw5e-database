@@ -1,0 +1,12 @@
+{
+  "key": "scout-offensive-augment",
+  "name": "Scout Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in scout",
+  "description": "You can apply the additional damage from your Ranger's Quarry feature one additional time per turn."
+}

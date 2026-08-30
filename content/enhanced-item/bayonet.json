@@ -1,0 +1,11 @@
+{
+  "key": "bayonet",
+  "name": "Bayonet",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "You affix a short blade to the barrel of this weapon, allowing you to make a melee weapon attack with it. The blade is a melee weapon with the finesse property that you are proficient with, and deals 1d6 kinetic damage."
+}

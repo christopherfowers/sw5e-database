@@ -1,0 +1,12 @@
+{
+  "key": "fighter-defensive-augment",
+  "name": "Fighter Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in fighter",
+  "description": "When you use your Second Wind feature, you also gain temporary hit points equal to the amount of hit points you regain."
+}

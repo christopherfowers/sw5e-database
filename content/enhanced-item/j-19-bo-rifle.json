@@ -1,0 +1,11 @@
+{
+  "key": "j-19-bo-rifle",
+  "name": "J-19 Bo-Rifle",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "bo-rifle",
+  "description": "You have a +1 bonus to attack and damage rolls with this enhanced weapon. Additionally, while it is in staff mode, the save DC for its shocking property increases to 14.\n\n_This more recent and less artfully designed model of bo-rifle comes with a bayonet attached to the top edge._"
+}

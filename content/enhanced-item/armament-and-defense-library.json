@@ -1,0 +1,12 @@
+{
+  "key": "armament-and-defense-library",
+  "name": "Armament and Defense Library",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Intelligence 13",
+  "description": "You gain proficiency in all simple and martial weapons, all armor, and the Piloting skill. Additionally, when you make an Intelligence check to recall or discern information about a weapon, piece of armor, or a military vehicle that this library contains information on, you are considered proficient in the check.\n\n**Side Effect:** This aggressively effective library can make it difficult to focus in stressful situations. You have disadvantage on Constitution saving throws to maintain concentration. Additionally, you have disadvantage on ability checks while concentrating on a power.\n\n_This small and unassuming electronic module installed in the parietal lobe contains a massive library of information pertaining to weapons, armor, droids, and every other defense system known to the galaxy at large. Even rare or obscure pieces of technology are described here, offering a unique perspective on the universe - if you can handle it._"
+}

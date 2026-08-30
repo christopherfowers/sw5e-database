@@ -1,0 +1,11 @@
+{
+  "key": "torpedo-fragmentation-major",
+  "name": "Torpedo, Fragmentation (Major)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +2 bonus to attack rolls made with this enhanced torpedo launcher ammunition, which deals 20d8 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+}

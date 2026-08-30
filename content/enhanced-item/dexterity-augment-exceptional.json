@@ -1,0 +1,11 @@
+{
+  "key": "dexterity-augment-exceptional",
+  "name": "Dexterity Augment (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Dexterity score increases by 2, and your maximum for this score increases by 1."
+}

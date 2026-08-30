@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/weapon-property/v1.json",
+  "title": "Weapon property",
+  "description": "One entry from the weapon-property glossary: the rules a weapon obeys because its table row names this property. Weapon and armour properties are two content types rather than one because four names — interlocking, silent, strength and versatile — are published in both glossaries with different rules, and merging them would mean showing a reader the armour rule for a property their blaster has.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "contentSet", "description"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this property. It is the property's name lower-cased, which is also the leading word of the clause an equipment row writes — \"burst 2\" is the burst property with an argument of 2 — so a consumer can resolve a printed clause to this document by taking its leading words."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name in title case, as printed at the head of the glossary entry."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this property belongs to the core rules or to the community expanded-content supplement. Every archived weapon property is core."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown giving the property's rules. The archived text opens with a level-four heading repeating the property's name; that heading is dropped on import, because the name is already the document's own name and a page that prints it twice reads as a mistake."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "key": "underlay-amplifier-mk-i",
+  "name": "Underlay Amplifier Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +1 bonus to melee tech attacks and a -1 penalty to ranged tech attacks."
+}

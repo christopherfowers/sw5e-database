@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator-chassis-premium",
+  "name": "Focus Generator Chassis (Premium)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "force",
+  "description": "_**Requires attunement**_\nThis modifiable focus generator chassis comes with vacant modification slots for focus generator modifications. It can house modifications of premium rarity or lower."
+}

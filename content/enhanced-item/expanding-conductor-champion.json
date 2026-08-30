@@ -1,0 +1,11 @@
+{
+  "key": "expanding-conductor-champion",
+  "name": "Expanding Conductor (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the expanding 30 property. If it already has the expanding property, its expanding number increases to 30."
+}

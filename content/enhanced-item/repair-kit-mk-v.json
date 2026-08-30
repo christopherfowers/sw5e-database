@@ -1,0 +1,11 @@
+{
+  "key": "repair-kit-mk-v",
+  "name": "Repair Kit Mk V",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "technology",
+  "description": "A repair kit included the basic tools needed to repair a droid after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls five dice equal to the size of their Hit Die and regains hit points equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of."
+}

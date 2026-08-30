@@ -1,0 +1,12 @@
+{
+  "key": "gauntlets-of-the-warrior",
+  "name": "Gauntlets of the Warrior",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "hands",
+  "prerequisite": "At least 3 levels in guardian",
+  "description": "This item can hold a number of charges equal to half your guardian level (rounded up). When you complete a long rest, this item regains all missing charges. When you would use your Force-Empowered Strikes feature, you can expend charges instead of force points.\n\nWhen you reach 5th level in guardian, when you roll a damage die for your Force-Empowered Strikes or Improved Force-Empowered Strikes feature, if you roll less than your Wisdom or Charisma modifier (your choice), you can use the chosen modifier instead of the result on the die.\n\nWhen you reach 11th level in guardian, the radius of your Guardian Auras increases by 10 feet. Additionally, when you use your Cause Harm or Lend Aid feature, you can add both your Wisdom and Charisma modifier, instead of just one.\n\nWhen you reach 17th level in guardian, once per turn, when you roll the maximum on a damage die for your Force-Empowered Strikes or Improved Force-Empowered Strikes feature, you regain a use of your Channel the Force, to a maximum of your Wisdom or Charisma modifier (your choice, minimum of one).\n\n_These metallic gauntlets are decorated with ornate, sweeping symbols, and are each inlaid with six precious stones of varying colors._"
+}

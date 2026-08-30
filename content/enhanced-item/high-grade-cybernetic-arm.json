@@ -1,0 +1,12 @@
+{
+  "key": "high-grade-cybernetic-arm",
+  "name": "High-Grade Cybernetic Arm",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Constitution 13",
+  "description": "This augmentation replaces an arm.\n\nWhen you hit with a melee weapon attack using Strength with a weapon wielded by this arm, you gain a +1 bonus to the damage roll. Additionally, when you make a Strength (Athletics) check that involves this arm, you gain a +1 bonus to the check.\n\n**Side Effect:** You have disadvantage on melee weapon attacks and ability checks using Dexterity that involve this arm.\n\n_This arm replacement features enhanced strength._"
+}

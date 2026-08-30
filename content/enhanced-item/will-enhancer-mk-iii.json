@@ -1,0 +1,12 @@
+{
+  "key": "will-enhancer-mk-iii",
+  "name": "Will Enhancer Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Wisdom and Charisma 15",
+  "description": "When you are subjected to an effect that allows you to make a Wisdom or Charisma saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail.\n\n**Side Effect:** When you fail a Wisdom or Charisma saving throw, you treat the damage as if the source had rolled the maximum."
+}

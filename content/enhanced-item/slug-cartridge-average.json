@@ -1,0 +1,11 @@
+{
+  "key": "slug-cartridge-average",
+  "name": "Slug Cartridge (Average)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +1 bonus to attack and damage rolls made with this enhanced slug cartridge. This bonus is in addition to any bonuses granted by the weapon. Once the slug cartridge has been fired, it no longer gives a bonus."
+}

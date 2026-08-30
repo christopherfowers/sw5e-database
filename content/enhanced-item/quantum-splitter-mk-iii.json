@@ -1,0 +1,11 @@
+{
+  "key": "quantum-splitter-mk-iii",
+  "name": "Quantum Splitter Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "When you deal damage with this weapon, you can roll a d8 and add the result to the total."
+}
