@@ -1,0 +1,10 @@
+{
+  "key": "climber",
+  "name": "Climber",
+  "abilityScoreIncreases": [
+    "strength"
+  ],
+  "description": "You excel at scaling cliffsides, hills, trees, and general climbing. You gain the following benefits:\n- Increase your Strength score by 1, to a maximum of 20.\n- You gain a climbing speed equal to your movement speed.\n- You have advantage on ability checks and saving throws to avoid falling off or down while climbing.\n- You can spend 5 minutes instructing, pointing out handholds, and guiding other creatures before making a climb. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you. Each creature can add a 1d6 to any ability check or saving throw they make for that climb.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

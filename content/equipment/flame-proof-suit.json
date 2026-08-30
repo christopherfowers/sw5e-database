@@ -1,0 +1,10 @@
+{
+  "key": "flame-proof-suit",
+  "name": "Flame-proof suit",
+  "category": "lifeSupport",
+  "costInCredits": 2250,
+  "weight": 20.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

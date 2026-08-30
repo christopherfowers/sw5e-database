@@ -1,0 +1,131 @@
+{
+  "key": "krayt-dragon-greater",
+  "name": "Krayt Dragon, Greater",
+  "size": "gargantuan",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 22,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 487,
+    "roll": "25d20+225"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft., Burrow 80ft"
+  },
+  "abilities": {
+    "strength": {
+      "score": 30,
+      "modifier": 10
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 29,
+      "modifier": 9
+    },
+    "intelligence": {
+      "score": 5,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 15,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "* Dex +7",
+    "Con +16"
+  ],
+  "senses": [
+    "darkvision 120ft",
+    "passive perception 21"
+  ],
+  "challengeRating": "23",
+  "experiencePoints": 0,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) kinetic damage plus 7 (3d4) toxin damage. The target must then succeed on a Constitution saving throw (DC 19) or become poisoned.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) kinetic damage. plus 7 (3d4) toxin damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tail",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Frightful Presence",
+      "behaviorType": "action",
+      "description": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Poisonous Saliva",
+      "behaviorType": "action",
+      "description": "The dragon spits its poisonous saliva in a 90-foot cone. Each creature in that area must make a DC 24 Constitution saving throw, taking 67 (15d8) toxin damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    },
+    {
+      "name": "Detect",
+      "behaviorType": "legendary",
+      "description": "The dragon makes a Wisdom (Perception) check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tail Attack",
+      "behaviorType": "legendary",
+      "description": "The dragon makes a tail attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sand Swimmer",
+      "behaviorType": "legendary",
+      "description": "The greater krayt dragon dives into the ground, sand blasting all creatures around it. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) kinetic damage and be knocked prone. The greater krayt dragon is now burrowed.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    }
+  ],
+  "flavorText": "The greater krayt was a rarer, larger species of krayt dragon, known for its tremendous size and continual growth over time. Creatures of near legendary status, greater krayt dragons had ten legs, measured at least 100 meters from snout to tail tip and had the ability to move through or on Tatooine's desert sand. Greater krayt dragons attacked with their massive jaws or whip-like spike-tail, using their claws only to move through the sand.",
+  "sectionText": "Krayt dragons were large, carnivorous reptiles that hailed from Tatooine, a desert planet in the galaxy's Outer Rim Territories. They came in two subspecies and, despite their fierceness, were hunted for the precious pearls found in their bodies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

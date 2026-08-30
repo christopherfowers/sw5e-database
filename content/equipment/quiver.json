@@ -1,0 +1,11 @@
+{
+  "key": "quiver",
+  "name": "Quiver",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 10,
+  "weight": 0.0,
+  "description": "A quiver which can hold up to 20 arrows, 10 bolts, or 10 darts. Drawing an item from the quiver does not require an object interaction.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

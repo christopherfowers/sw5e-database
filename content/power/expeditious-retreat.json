@@ -1,0 +1,17 @@
+{
+  "key": "expeditious-retreat",
+  "name": "Expeditious Retreat",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Self",
+  "duration": "up to 10 minutes",
+  "concentration": true,
+  "description": "This power gives you a burst of adrenaline that allows you to move at an incredible pace. When you cast this power, and then as a bonus action on each of your turns until the power ends, you can take the Dash action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

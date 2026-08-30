@@ -1,0 +1,101 @@
+{
+  "key": "fambaa",
+  "name": "Fambaa",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 85,
+    "roll": "10d12 + 20"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 22,
+      "modifier": 6
+    },
+    "dexterity": {
+      "score": 9,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Con +5"
+  ],
+  "senses": [
+    "passive Perception 10"
+  ],
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Amphibious",
+      "behaviorType": "trait",
+      "description": "The fambaa can breathe air and water.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Siege Monster",
+      "behaviorType": "trait",
+      "description": "The fambaa deals double damage to objects and structures.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 11 (3d6 + 6) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "3d6 + 6",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Stomp",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 24,
+      "damageRoll": "4d8 + 6",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Large non-sentient amphibians native to Naboo and Onderon, biologists surmise that both the fambaas and the falumpasets of Onderon were originally brought there by Naboo merchants, but there is little fossil evidence to back up that hypothesis. Their only known predators are sando aqua monsters breaching the surface of the swamp.\n\n***Biology.*** Fambaas obtain food by knocking over trees to get at leaves and berries. They also forage for underwater plants, breathing underwater and swimming with ease. Fambaas reach sizes of up to 9 meters. Females lay large numbers of sticky, gelatinous eggs, which they deposit in puddles and underwater. The young hatch with moist skin and gills, and upon maturity, the gills disappear and their skin hardens.\n\n***Herds.*** In the wild, fambaas travel in herds of up to twelve, but form breeding herds of hundreds of family units that are so large they are traditionally put to pasture in sacred swampy areas. There are also special fambaa stables contained inside the underwater hydrostatic bubble-enclosed cities for the domesticated breeds kept by Gungans. ***Domestication.*** The fambaa have been domesticated by Gungans for millennia as beasts of burden and cavalry/artillery draft beasts, sometimes carrying portable deflector shield generators or large booma cannons.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

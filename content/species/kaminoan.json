@@ -1,0 +1,85 @@
+{
+  "key": "kaminoan",
+  "name": "Kaminoan",
+  "size": "medium",
+  "homeworld": "Kamino",
+  "nativeLanguage": "Kaminoan, Galactic Basic",
+  "lore": "### Biology and Appearance\nKaminoans' evolution from aquatic creatures in the vast oceans of Kamino is reflected in their tall shape, glassy coated eyes, near luminescent skin, and long, thin necks. The almond-shaped eyes of kaminoans are also able to see color in the ultraviolet spectrum. While female kaminoans are bald, males possess headcrests and fin ridges along the rear of their small, bulbous skulls.\n\n### Society and Culture\nThe kaminoans see themselves as a superior form of life, but nevertheless remained polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who do not are obviously inferior; self-improvement has a central role in Kaminoan society. Through the development and mastery of selective breeding, genetics, and cloning, the kaminoans were able to overcome a cataclysm that pushed them to the brink of extinction.\n\nKaminoans live in a caste based society, determined by the color of the kaminoan's eyes. Gray eyed individuals handle administration and are considered of the highest-level caste; middle castes had yellow eyes and handle the skilled work; and lower castes had blue eyes and perform manual labor and other menial tasks. Although it is extremely rare, kaminoans are sometimes born with green eyes. Those are viewed as genetically inferior and as a threat to the kaminoans' well ordered society and as such are exterminated shortly after birth.\n\n### Names\nKaminoan names typically are composed by around two syllables and a brief surname.\n\n**Male Names.** Lama, Ni, Orun, Koa\n\n**Female Names.** Taun, Ko, Nala, Kina\n\n**Surnames.** Ha, Su, We, Sai, Wa",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2 and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Kaminoans reach adulthood at 11 years old and live around 100 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Kaminoans highly organized society lead individuals to tend toward a lawful alignment, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Kaminoans typically stand 7 to 8 feet tall and weigh around 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Geneticist",
+      "description": "You have proficiency in the Medicine skill."
+    },
+    {
+      "name": "Long-Limbed",
+      "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+    },
+    {
+      "name": "Tech Dabbler",
+      "description": "You know the *temporary boost* at-will tech power. Your techcasting ability is Intelligence. You do not require use of a wristpad for this power."
+    },
+    {
+      "name": "Ultraviolet Sight",
+      "description": "Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Kaminoan. Kaminoan is characterized by its flowing water-like sound."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'4\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "150 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Very tall, long limbs, long necks",
+    "skinColorOptions": "White",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Grey, yellow, blue, green"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kaminoan.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

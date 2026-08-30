@@ -1,0 +1,10 @@
+{
+  "key": "torpedo-plasma",
+  "name": "Torpedo, plasma",
+  "category": "ammunition",
+  "costInCredits": 725,
+  "weight": 20.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

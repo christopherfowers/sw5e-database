@@ -1,0 +1,24 @@
+{
+  "key": "affixed-rifle",
+  "name": "Affixed Rifle",
+  "category": "weapon",
+  "costInCredits": 700,
+  "weight": 8.0,
+  "properties": [
+    "power cell (range 90/360)",
+    "fixed",
+    "rapid 4",
+    "reload 8",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

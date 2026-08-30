@@ -1,0 +1,17 @@
+{
+  "key": "read-memory",
+  "name": "Read Memory",
+  "powerType": "tech",
+  "level": 3,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "10 feet",
+  "duration": "10 minutes",
+  "concentration": false,
+  "description": "You read the memory of an incapacitated droid or construct within range. The target must have its memory core (and/or other appropriate components) intact.\n\nUntil the power ends, you can ask up to five questions. Depending on what it would know or has witnessed, the target provides visual, audio, or text-based data in response. The target can't provide new information, and can't speculate about future events.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

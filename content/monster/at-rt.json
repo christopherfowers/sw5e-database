@@ -1,0 +1,126 @@
+{
+  "key": "at-rt",
+  "name": "AT-RT",
+  "size": "large",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 58,
+    "roll": "9d10+9"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 15,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex +5"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Piloted",
+      "behaviorType": "trait",
+      "description": "The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The construct makes two attacks with its repeating blaster cannon or uses its mortar launcher.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Repeating Blaster Cannon",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 10 (2d6+3) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 10,
+      "damageRoll": "2d6+3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Mortar Launcher",
+      "behaviorType": "action",
+      "description": "The construct launches a mortar at a point it can see within 100 feet. Each creature in a 20-foot radius centered on that point must make a DC 13 Dexterity saving throw. A target takes 14 (4d6) damage on a failed save, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Redirect",
+      "behaviorType": "reaction",
+      "description": "If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The All Terrain Recon Transport (AT-RT), is a one-man bipedal walker used for reconnaissance and patrolling made by Kuat Drive Yards as part of their All Terrain series. It is equipped with a single seat for a pilot, as well as a repeating blaster cannon and mortar launcher, and is 3.2 meters tall and 2.9 meters long,. Also known as the Republic scout walker, the AT-RT was used mainly during the Clone Wars by Advanced Recon Force troopers. It was the precursor to both the All Terrain Defense Pod and the All Terrain Scout Transport. During the Galactic Civil War, these walkers were adopted by both the Galactic Empire, who used Scout troopers to man the vehicles, and the Alliance to Restore the Republic, who upgraded them to compete with the advancements of the Empire. The AT-RT's were usually used for a variety of missions including ground support, police support, civil defense, and post-battle cleanup efforts. They occasionally took up position on the front lines of ground battles when difficult terrain prevented the use of larger vehicles.",
+  "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

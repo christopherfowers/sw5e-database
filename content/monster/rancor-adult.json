@@ -12,7 +12,7 @@
   },
   "hitPoints": {
     "average": 250,
-    "roll": "20d12 + 120"
+    "roll": "20d12+120"
   },
   "speed": {
     "walk": 40,
@@ -54,9 +54,6 @@
     "darkvision 120 ft.",
     "passive Perception 14"
   ],
-  "languages": [
-    "—"
-  ],
   "challengeRating": "12",
   "experiencePoints": 8400,
   "behaviors": [
@@ -70,55 +67,58 @@
     {
       "name": "Multiattack",
       "behaviorType": "action",
-      "description": "The rancor makes three attacks: two with its claws, and one with its bite. It can use its swallow instead of its bite.",
+      "description": "instead of its bite. The rancor makes three attacks: two with its claws, and one with its bite. It can use its swallow",
       "attackType": "none",
       "attackBonus": 0
     },
     {
       "name": "Claw",
       "behaviorType": "action",
-      "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) kinetic damage.",
+      "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit 15 (2d8+6) kinetic damage.",
       "attackType": "meleeWeapon",
       "attackBonus": 10,
       "range": "reach 10 ft.",
       "targets": "one target",
       "averageDamage": 15,
-      "damageRoll": "2d8 + 6",
+      "damageRoll": "2d8+6",
       "damageType": "kinetic"
     },
     {
       "name": "Bite",
       "behaviorType": "action",
-      "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (2d12 + 6) kinetic damage. If the target is a creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the rancor can't bite another target.",
+      "description": "a creature, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the rancor can't bite another target. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit 19 (2d12+6) kinetic damage. If the target is",
       "attackType": "meleeWeapon",
       "attackBonus": 10,
       "range": "reach 5 ft.",
       "targets": "one target",
       "averageDamage": 19,
-      "damageRoll": "2d12 + 6",
+      "damageRoll": "2d12+6",
       "damageType": "kinetic"
     },
     {
       "name": "Throw Boulder",
       "behaviorType": "action",
-      "description": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 25 (3d12 + 6) kinetic damage.",
+      "description": "Ranged Weapon Attack: +10 to hit, reach 60/240 ft., one target. Hit 25 (3d12+6) kinetic damage.",
       "attackType": "rangedWeapon",
       "attackBonus": 10,
-      "range": "range 60/240 ft.",
+      "range": "reach 60/240 ft.",
       "targets": "one target",
       "averageDamage": 25,
-      "damageRoll": "3d12 + 6",
+      "damageRoll": "3d12+6",
       "damageType": "kinetic"
     },
     {
       "name": "Swallow",
       "behaviorType": "action",
-      "description": "The rancor makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the rancor, and it takes 21 (6d6) acid damage at the start of each of the rancor's turns. If the rancor takes 25 damage or more on a single turn from a creature inside it, the Rancor must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the Rancor. If the Rancor dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.",
+      "description": "hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the rancor, and it takes 21 (6d6) acid damage at the start of each of the rancor's turns. If the rancor takes 25 damage or more on a single turn from a creature inside it, the Rancor must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the Rancor. If the Rancor dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone. The rancor makes one bite attack against a Medium or smaller creature it is grappling. If the attack",
       "attackType": "none",
       "attackBonus": 0
     }
   ],
   "sectionText": "Rancors are large carnivorous reptomammals native to the planet of Dathomir. They are commonly kept as pets by affluent, less-than-reputable types.",
   "sourceKey": "snv",
-  "contentSet": "core"
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
 }

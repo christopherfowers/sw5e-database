@@ -1,0 +1,89 @@
+{
+  "key": "caamasi",
+  "name": "Caamasi",
+  "size": "medium",
+  "homeworld": "Caamas",
+  "nativeLanguage": "Caamasi",
+  "lore": "### Biology and Appearance\nA species of furry mammalians, the caamasi are covered in dense fur and have a spicy, woody body scent that is similar to that of Corellian whiskey. They have long arms with three-fingered hands, and pointed ears which stick out from the sides of their heads. They also have extremely acute senses of smell, with their nose positioned at the end of a tooth-filled snout. Caamasi have the interesting ability to share vivid memories called memnii with their near relatives and Force-sensitives. A memnis is as vivid to one who receives it as it was to the one who participated in the event remembered. Their peace-loving natures are in part due to memnii, as having a memory of killing or harming will be particularly strong, becoming unbearable in time, and something caamasi will seek to avoid except in defense of themselves or others, for which case they would accept their burden.\n\n### Society and Culture\nA pacifist race, culture on Caamas evolved around the basic tenets of peace and social justice; influencing the evolution of the Jedi Order. Working as explorers, diplomats, and artists, the caamasi are a monogamous people who value single partners while mating and starting a family. However following the devastation of their homeworld by the Empire, caamasi who were off-world at the time considered evolving to a position of polygamy so as to regrow the population. While the argument is one of survival, many sociologists familiar with the culture of the caamasi believe that they will not accept the idea.\n\n### Names\nCaamasi surnames are often composed of two parts, with the second part designating clan membership.\n\n**Male Names.** Althanic, Gelerit, Ryg'gos, Shren\n\n**Female Names.** Eeshraq, Heshrisa, Nulana, Yr'na\n\n**Surnames.** A'kriy, I'tela, O'Tul, Sho'cyl",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Caamasi reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Caamasi's peaceful and just nature causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Caamasi typically stand 5 to 6 feet tall and generally weigh about 170 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Call for Peace",
+      "description": "As an action on your turn, you can emphatically demand that your foes embrace peace, thereby distracting them. Until the end of your next turn, enemies within 10 feet of you that can see you gain disadvantage on attack rolls against your allies. Once you use this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Diplomatic",
+      "description": "You have proficiency in the Persuasion skill."
+    },
+    {
+      "name": "Keen Smell",
+      "description": "You have advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Memnii Transfer",
+      "description": "As an action, while touching a creature, you can initiate a memnii transfer. The creature must make an Intelligence saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier), a creature can choose to fail this saving throw if it wishes. On a failed save the target is stunned, and you can share vivid memories with the target as if they were their own for 1 minute or until your concentration ends (as if you were concentrating on a power). The transfer ends if you stop touching the target. At the end of each of its turns, the creature can repeat the saving throw to resist the transfer. On a success, the transfer ends. Otherwise, you may end the transfer on your turn (no action required). Once you've used this trait, you can't use it again until you finish a long rest. This feature has no effect on droids, constructs, or Force-Insensitive creatures."
+    },
+    {
+      "name": "Scholarly",
+      "description": "You have proficiency in the Insight skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Caamasi. Caamasi uses smooth tones and low volumes, making it soothing to listen to. Many popular nursery rhymes have been written in Caamasi to help children to sleep."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "115 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Snouts, memnii, distinct scent",
+    "skinColorOptions": "Pink and gray",
+    "hairColorOptions": "Brown, gray, white, or gold",
+    "eyeColorOptions": "Yellow or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_caamasi.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

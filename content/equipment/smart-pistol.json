@@ -1,0 +1,24 @@
+{
+  "key": "smart-pistol",
+  "name": "Smart pistol",
+  "category": "weapon",
+  "costInCredits": 1075,
+  "weight": 4.0,
+  "properties": [
+    "piercing 1",
+    "rapid 2",
+    "reload 16",
+    "slug cartridge (range 40/160)",
+    "smart (15/+2)",
+    "strength 11"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,89 @@
+{
+  "key": "twirrl",
+  "name": "Twirrl",
+  "size": "tiny",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13
+  },
+  "hitPoints": {
+    "average": 3,
+    "roll": "2d4 - 2"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., fly 60 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 5,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 4,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +4"
+  ],
+  "senses": [
+    "passive Perception 14"
+  ],
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Dive Attack",
+      "behaviorType": "trait",
+      "description": "If the twirrl is flying and dives at least 30 feet straight toward a target and then hits it with a talon attack, the attack deals an extra 2 (1d4) damage to the target.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Sight",
+      "behaviorType": "trait",
+      "description": "The twirrl has advantage on Wisdom (Perception) checks that rely on sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Talons",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d4 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Twirrls area carnivorous, mammalian falconid species, native to Naboo. The Twirrl prey upon plain-dwelling avians, small rodents, and Naboo's four-legged waterfowl.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

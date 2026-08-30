@@ -1,0 +1,20 @@
+{
+  "key": "hooked-vibroblade",
+  "name": "Hooked vibroblade",
+  "category": "weapon",
+  "costInCredits": 225,
+  "weight": 3.75,
+  "properties": [
+    "disarming",
+    "finesse"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

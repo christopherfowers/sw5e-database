@@ -1,0 +1,90 @@
+{
+  "key": "steelpecker",
+  "name": "Steelpecker",
+  "size": "tiny",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11
+  },
+  "hitPoints": {
+    "average": 9,
+    "roll": "2d4 + 4"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., fly 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 4,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Iron Scent",
+      "behaviorType": "trait",
+      "description": "The steelpecker can pinpoint, by scent, the location of metal within 30 feet of it.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Sight and Smell",
+      "behaviorType": "trait",
+      "description": "The steelpecker has advantage on Wisdom (Perception) checks that rely on sight or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Beak",
+      "behaviorType": "action",
+      "description": "If the object attacked is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object attacked is a held metal weapon, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) kinetic damage. The steelpecker devours any unenhanced metal object it attacks. If the object isn't being worn or carried, the attack destroys a 1-inch cube of it.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 3,
+      "damageRoll": "1d4 + 1",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Steelpeckers are a non-sentient species of carrion bird native to the planet Jakku. They have beaks and talons that are tipped with iron; they feed mainly on metal, to which they are drawn by its magnetic signature. To digest the metal they consume, Steelpeckers store vanadium, osmiridium, and corundum in their gizzards. Named for their diet, these birds are useful commodities to scavengers, who collect their carcasses and guano.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

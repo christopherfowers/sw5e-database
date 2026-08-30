@@ -1,0 +1,97 @@
+{
+  "key": "gizka-swarm",
+  "name": "Gizka Swarm",
+  "size": "medium",
+  "types": [
+    "swarm of tiny beasts"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 22,
+    "roll": "5d8"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 7,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "blindsight 120 feet (blind beyond this radius)",
+    "passive Perception 10"
+  ],
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ]
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Swarm",
+      "behaviorType": "trait",
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny gizka. The swarm can't regain hit points or gain temporary hit points.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Echolocation",
+      "behaviorType": "trait",
+      "description": "The swarm can't use its blindsight while deafened.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) kinetic damage or 3 (1d6) kinetic damage if the swarm has half of its hit points or fewer.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 2,
+      "range": "reach 5 ft.",
+      "targets": "one target in the swarm's space",
+      "averageDamage": 7,
+      "damageRoll": "2d6",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Gizka are small reptiles that can be found all across the galaxy.\n\n***History.*** Whatever their native world, their extraordinary reproduction rate led to a fair amount of gizka on many worlds, even including uncharted planets such as Lehon, finding their way from the wreckage of crashed starships. It has been alternatively postulated that they came from that planet originally, spreading along with the Infinite Empire. Their exponential population growth led to them being considered pests on almost as many worlds as they inhabited, as they commonly eat electrical wiring.\n\n***Culture.*** They are the source for the delicacy gizka steak. Some species of sentient carnivores, like Trandoshans, seemed to think that gizka were one of those kinds of animals that \"everything tastes like.\"",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

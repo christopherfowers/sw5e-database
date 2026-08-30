@@ -1,0 +1,17 @@
+{
+  "key": "guidance",
+  "name": "Guidance",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You touch one willing creature. Once before the power ends, the target can roll a d4 and add the number rolled to one ability check of its choice. The power then ends.\n\nThis power's die increases at higher levels: to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

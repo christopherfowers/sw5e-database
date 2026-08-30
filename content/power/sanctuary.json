@@ -1,0 +1,17 @@
+{
+  "key": "sanctuary",
+  "name": "Sanctuary",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "30 feet",
+  "duration": "1 minute",
+  "concentration": false,
+  "description": "Until the power ends, any creature who targets the warded creature with an attack, a harmful power, or a hostile action must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or power. This power doesn't protect the warded creature from area effects.\n\nIf the warded creature makes an attack, casts a power that affects an enemy creature, or takes a hostile action this power ends.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

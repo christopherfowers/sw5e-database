@@ -1,0 +1,18 @@
+{
+  "key": "rocket-launcher",
+  "name": "Rocket launcher",
+  "category": "weapon",
+  "costInCredits": 2250,
+  "weight": 14.0,
+  "description": "Rather than traditional power cells, the rocket launcher fires specialized projectiles in the form of rockets. When firing a rocket at long range, or if you don't meet the rocket launcher's strength requirement, creatures within the radius of the rocket's explosion have advantage on the saving throw.",
+  "properties": [
+    "reload 1",
+    "special (range 150/600)",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

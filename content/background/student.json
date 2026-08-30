@@ -1,0 +1,167 @@
+{
+  "key": "student",
+  "name": "Student",
+  "lore": "As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to one of the galaxy's great institutes of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home- not to abandon it, but to quest for new lore to add to its storehouse of knowledge.\n\nThe most well-known of the galaxy's fonts of knowledge is the Library of the Republic. The great library is always in need of workers and attendants, some of whom rise through the ranks to assume roles of greater responsibility and prominence. You might be one of Coruscant's own, dedicated to the curatorship of what is likely the most complete body of lore and history in all the world.",
+  "skillProficiencies": "Choose two from Insight, Lore, Investigation, and Nature",
+  "languageProficiencies": "Two of your choice",
+  "startingEquipment": "A set of common clothes, a datapad and 10 data cards, a book on the subject of your current study, and a pouch containing 100 cr",
+  "feature": {
+    "name": "Library Access",
+    "description": "Though others must often endure extensive interviews and significant fees to gain access to even the most common archives in your library, you have free and easy access to the majority of the library, though it might also have repositories of lore that are too valuable, powerful, or secret to permit anyone immediate access.\n\nYou have a working knowledge of your cloister's personnel and bureaucracy, and you know how to navigate those connections with some ease.\n\nAdditionally, you are likely to gain preferential treatment at other libraries across the galaxy, as professional courtesy shown to a fellow scholar."
+  },
+  "suggestedCharacteristics": "Cloistered scholars are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, they value knowledge highly — as a worthy goal in itself, or as a means to a desirable end.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I use polysyllabic words that convey the impression of great erudition."
+    },
+    {
+      "roll": 2,
+      "description": "I've read every book in the world's greatest libraries—or I like to boast that I have."
+    },
+    {
+      "roll": 3,
+      "description": "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others."
+    },
+    {
+      "roll": 4,
+      "description": "There's nothing I like more than a good mystery."
+    },
+    {
+      "roll": 5,
+      "description": "I'm willing to listen to every side of an argument before I make my own judgment."
+    },
+    {
+      "roll": 6,
+      "description": "I... speak... slowly... when talking... to idiots,... which... almost... everyone... is... compared... to me."
+    },
+    {
+      "roll": 7,
+      "description": "I am horribly, horribly awkward in social situations."
+    },
+    {
+      "roll": 8,
+      "description": "I'm convinced that people are always trying to steal my secrets."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Knowledge",
+      "description": "The path to power and self-improvement is through knowledge. (Neutral)"
+    },
+    {
+      "roll": 2,
+      "name": "Beauty",
+      "description": "What is beautiful points us beyond itself toward what is true. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Logic",
+      "description": "Emotions must not cloud our logical thinking. (Lawful)"
+    },
+    {
+      "roll": 4,
+      "name": "No Limits",
+      "description": "Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Power",
+      "description": "Knowledge is the path to power and domination. (Dark)"
+    },
+    {
+      "roll": 6,
+      "name": "Self-Improvement",
+      "description": "The goal of a life of study is the betterment of oneself. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "It is my duty to protect my students."
+    },
+    {
+      "roll": 2,
+      "description": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands."
+    },
+    {
+      "roll": 3,
+      "description": "I work to preserve a library, university, scriptorium, or monastery."
+    },
+    {
+      "roll": 4,
+      "description": "My life's work is a series of tomes related to a specific field of lore."
+    },
+    {
+      "roll": 5,
+      "description": "I've been searching my whole life for the answer to a certain question."
+    },
+    {
+      "roll": 6,
+      "description": "I sold my soul for knowledge. I hope to do great deeds and win it back."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I am easily distracted by the promise of information."
+    },
+    {
+      "roll": 2,
+      "description": "Most people scream and run when they see a monster. I stop and take notes on its anatomy."
+    },
+    {
+      "roll": 3,
+      "description": "Unlocking an ancient mystery is worth the price of a civilization."
+    },
+    {
+      "roll": 4,
+      "description": "I overlook obvious solutions in favor of complicated ones."
+    },
+    {
+      "roll": 5,
+      "description": "I speak without really thinking through my words, invariably insulting others."
+    },
+    {
+      "roll": 6,
+      "description": "I can't keep a secret to save my life, or anyone else's."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 1,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 4,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 5,
+      "name": "Linguist"
+    },
+    {
+      "roll": 6,
+      "name": "Keen Mind"
+    },
+    {
+      "roll": 7,
+      "name": "Observant"
+    },
+    {
+      "roll": 8,
+      "name": "Healer"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

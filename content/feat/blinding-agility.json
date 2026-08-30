@@ -1,0 +1,8 @@
+{
+  "key": "blinding-agility",
+  "name": "Blinding Agility",
+  "prerequisite": "12th level, Dexterity 20",
+  "description": "You have the reflexes one who can see things before they happen, granting the following benefits:\n- You gain proficiency in Dexterity saving throws. If you are already proficient in them, you instead gain expertise in them.\n- Weapons that lack the two-handed or special properties are considered to have the finesse property for you.\n- Opportunity attacks made against you have disadvantage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

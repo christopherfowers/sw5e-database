@@ -1,0 +1,17 @@
+{
+  "key": "cloaking-screen",
+  "name": "Cloaking Screen",
+  "powerType": "tech",
+  "level": 4,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You or a creature you touch becomes invisible until the power ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

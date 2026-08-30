@@ -1,0 +1,89 @@
+{
+  "key": "zygerrian",
+  "name": "Zygerrian",
+  "size": "medium",
+  "homeworld": "Zygerria",
+  "nativeLanguage": "Zygerrian",
+  "lore": "### Biology and Appearance\nThe Zygerrians are a bipedal, sentient humanoid species. Feline in appearance, the species possesses strong, angular features, with long fangs jutting from their jaws and claws extending from their hands. The Zygerrians' faces and their pointed ears are almost entirely covered with fur; males usually have more hair than females, with bands of fur growing on their cheeks. Male Zygerrians also display a number of bony spurs protruding from the chin, which females typically lack. Zygerrians usually have sallow complexions and are physically strong, but some suffer from obesity.\n\n### Society and Culture\nA warlike species, the Zygerrians hold strength—both physical and mental—in great esteem, viewing it as a means to gain power and authority. They believe that it is the natural order of life for the strong to dominate the weak, so slavery is normal for the species, and a display of weakness could mean death or enslavement in their culture. Those who become their slaves are viewed as inferior by the Zygerrians.\n\nZygerrian society is organized into clans and classes. They have a noble class, many members of which, despite their high status, pursue a career in the military. The Zygerrian government is a monarchy; female rulers hold the title of Queen, and males are addressed as Kings.\n\nThe center of the Zygerrian society is the Zygerrian Slavers Guild, which focuses on the slave trade in the Outer Rim Territories.\n\n### Names\nZygerrian names are rather diverse, though shorter names are the most common. Surnames are familial.\n\n**Male Names.** Agruss, Darts, Atai, Sono\n\n**Female Names.** Miraj, Faralhi, Latrans, MaDall\n\n**Surnames.** D'nar, Molec, Scientel, Thanda, Tyne",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Zygerrians reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Zygerrian culture's emphasis on subjugation and strength causes them to tend towards chaotic dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Zygerrians normally stand between 5 to 6 feet tall and weigh about 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Acrobatic",
+      "description": "You have proficiency in Acrobatics."
+    },
+    {
+      "name": "Claws",
+      "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Notorious Slavers",
+      "description": "Whenever you make an ability check related to the buying, selling, or controlling of slaves, you are considered proficient in the check. If you would already be proficient, you instead have expertise."
+    },
+    {
+      "name": "Reputation for Cruelty",
+      "description": "You are proficient in Intimidation, as well as the saberwhip and vibrowhip."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Zygerrian. Zygerrian is characterized by its subtle growls and purrs."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'1\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "120 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Large pointed ears, clawed hands, fur-covered faces, bony facial spurs",
+    "skinColorOptions": "Light tones",
+    "hairColorOptions": "Black, brown, gray, or red",
+    "eyeColorOptions": "Blue or yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_zygerrian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

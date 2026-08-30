@@ -1,0 +1,21 @@
+{
+  "key": "claymoresaber",
+  "name": "Claymoresaber",
+  "category": "weapon",
+  "costInCredits": 2300,
+  "weight": 3.5,
+  "properties": [
+    "dexterity 13",
+    "luminous",
+    "two-handed"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

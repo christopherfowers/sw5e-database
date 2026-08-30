@@ -1,0 +1,11 @@
+{
+  "key": "propulsion-pack",
+  "name": "Propulsion pack",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 400,
+  "weight": 20.0,
+  "description": "Propulsion packs enhance underwater movement. Activating or deactivating the propulsion pack requires a bonus action and, while active, you have a swimming speed of 30 feet. The propulsion pack lasts for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

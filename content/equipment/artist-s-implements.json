@@ -1,0 +1,10 @@
+{
+  "key": "artist-s-implements",
+  "name": "Artist's implements",
+  "category": "tool",
+  "costInCredits": 100,
+  "weight": 5.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

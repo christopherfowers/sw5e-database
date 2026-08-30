@@ -1,0 +1,11 @@
+{
+  "key": "tankard",
+  "name": "Tankard",
+  "category": "storage",
+  "costInCredits": 3,
+  "weight": 1.0,
+  "description": "A tankard stores 1 pint of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,103 @@
+{
+  "key": "swamp-wampa",
+  "name": "Swamp Wampa",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 76,
+    "roll": "8d10+32"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 5,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "skills": [
+    "Perception +2",
+    "Stealth +2"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 12"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Putrid Smell",
+      "behaviorType": "trait",
+      "description": "The wampa has disadvantage on Dexterity (Stealth) checks. At the start of each wampas turns, each creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 10 (4d4) poison damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The wampa makes two attacks, one with its claw and one with its bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d6+4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d6+4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d10+4) kinetic damage. The target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the wampa can't bite another target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 7,
+      "damageRoll": "1d10+4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Wampas are semi-sentient predators with humanoid proportions that stand up to 12 feet tall. While they all share characteristics in common, there are three variations of wampa that are distinct based on their native planet.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "key": "vibroclaw",
+  "name": "Vibroclaw",
+  "category": "weapon",
+  "costInCredits": 50,
+  "weight": 0.75,
+  "properties": [
+    "finesse",
+    "fixed",
+    "light"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

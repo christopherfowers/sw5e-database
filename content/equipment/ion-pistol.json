@@ -1,0 +1,20 @@
+{
+  "key": "ion-pistol",
+  "name": "Ion pistol",
+  "category": "weapon",
+  "costInCredits": 250,
+  "weight": 1.0,
+  "properties": [
+    "power cell (range 40/160)",
+    "reload 16"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 3,
+    "type": "ion"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,111 @@
+{
+  "key": "kolkpravis-baatar",
+  "name": "Kolkpravis Baatar",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful balanced",
+  "armor": {
+    "class": 17,
+    "type": "powered battle armor"
+  },
+  "hitPoints": {
+    "average": 72,
+    "roll": "11d8 + 28"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 11,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Str +6",
+    "Con +6",
+    "Wis +2"
+  ],
+  "skills": [
+    "Athletics +5",
+    "Intimidation +5"
+  ],
+  "senses": [
+    "darkvision 60ft",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Kaleesh",
+    "Galactic Basic"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Kolkpravis Baatar makes two attacks with its Greater Lig Sword or its Shoni Spear.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Greater Lig Sword",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit 12 (1d8 + 4 plus 1d8) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft",
+      "targets": "one target",
+      "averageDamage": 12,
+      "damageRoll": "1d8 + 4 plus 1d8",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Shoni Spear",
+      "behaviorType": "action",
+      "description": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60, one target. Hit 11 (1d6 + 4 plus 1d8) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft. or range 20/60",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "1d6 + 4 plus 1d8",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Leadership",
+      "behaviorType": "action",
+      "description": "For 1 minute, the Baatar can utter a special command or warning whenever a nonhostile creature that it can see within 30 feetof it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Baatar. A creature can benefit from only one Leadership die at a time. This effect ends if the Baatar is incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharges after a Short or Long Rest"
+    }
+  ],
+  "flavorText": "The Kolkpravis were a large united band of Kaleesh tribal warriors from the eastern hemisphere of the planet Kalee. The organization of the kolkpravis was naturally tribal, as well as the names. The beginning rank of the kolkpravis was a warrior, who made up a kamen. Kamen was lead by a blackarm. Roughly 100 kamen made up a horde, which was lead by a tarkhan. Around 100 to 200 hordes made up a brigade which was lead by baatars. From several brigades came a khanate' which was lead by one of the eight khans of the Izvoshra. The Supreme Commander of the kolkpravis was the khagan, a title held first by Qymaen jai Sheelal, the infamous Lord Grievous.",
+  "sectionText": "Kaleesh were reptilian humanoids from the planet Kalee. They had scaly skin, tusks, and long nostrils, though few outsiders ever saw a Kaleesh face that wasn't obscured behind a traditional mask. Kaleesh culture was deeply spiritual and warlike. War was seen as an essential part of life, and wars between tribes were common.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

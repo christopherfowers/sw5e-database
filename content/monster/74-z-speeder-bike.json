@@ -1,0 +1,126 @@
+{
+  "key": "74-z-speeder-bike",
+  "name": "74-Z Speeder Bike",
+  "size": "large",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 39,
+    "roll": "6d10 + 6"
+  },
+  "speed": {
+    "walk": 0,
+    "text": "0 ft., fly 50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 11,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 17,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex +5"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Comm Jammers",
+      "behaviorType": "trait",
+      "description": "The construct suppresses all electronic communications devices within 60 feet of it.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Piloted",
+      "behaviorType": "trait",
+      "description": "The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The construct makes two attacks with its blaster cannon.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Cannon",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6+3) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6+3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Redirect",
+      "behaviorType": "reaction",
+      "description": "If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The 74-Z speeder bike is a model of speeder bike manufactured by the Aratech Repulsor Company. It iscommonly used for reconnaissance missions as well as rapid transportation in combat zones. They were capable of reaching speeds up to and beyond five hundred kilometers per hour, and had a flight ceiling of twenty-five meters. 74-Zs were the military variant of the civilian 74-Y. They were controlled by handlebars located towards the front of the vehicle, and foot pedals slung underneath adjusted speed and altitude. The highly maneuverable vehicles were equipped with sensor and communications devices located between the handlebars, including a comlink and a comlink-jamming device. The speeder was equipped with terrain-following sensors that linked up with the HUD in the driver's helmet. They were armed with a forward rotating blaster cannon for combat. They were also equipped with a very powerful boost that could propel them over vast distances in a shorter amount of time. In addition, the 74-Z was stripped down to just its fundamental components, namely the engine and steering vane, in order to increase its overall speed, and as such a single, scaled-down, forward-facing blaster cannon was fixed on the undercarriage.",
+  "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

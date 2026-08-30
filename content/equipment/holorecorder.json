@@ -1,0 +1,11 @@
+{
+  "key": "holorecorder",
+  "name": "Holorecorder",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 100,
+  "weight": 1.0,
+  "description": "A holorecorder is a device used to record and project holograms. Some droid models are equipped with internal holorecorders.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

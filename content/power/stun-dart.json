@@ -1,0 +1,17 @@
+{
+  "key": "stun-dart",
+  "name": "Stun Dart",
+  "powerType": "tech",
+  "level": 8,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You emit a tiny crippling dart at a target within range. If the target has 150 hit points or fewer, it is stunned. Otherwise, the power has no effect.\n\nThe stunned target must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

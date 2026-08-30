@@ -1,0 +1,17 @@
+{
+  "key": "feedback",
+  "name": "Feedback",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You unleash a burst of psychic energy at a target within range. If the target can hear you (though it need not understand you), it must succeed on an Intelligence saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.\n\nThis power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

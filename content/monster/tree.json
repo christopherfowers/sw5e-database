@@ -1,0 +1,98 @@
+{
+  "key": "tree",
+  "name": "Tree",
+  "size": "large",
+  "types": [
+    "plant"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 73,
+    "roll": "7d10 + 28"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 21,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 6,
+      "modifier": -2
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "Tremorsense 120 ft. (blind beyond this radius)",
+    "passive Perception 10"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "fire"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "kinetic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "prone"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "False Appearance",
+      "behaviorType": "trait",
+      "description": "While the tree remains motionless, it is indistinguishable from a normal tree.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Slam",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 23 (4d8 + 5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 23,
+      "damageRoll": "4d8 + 5",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "While most plants are harmless, many plants are malicious and self-aware, becoming formidable foes.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

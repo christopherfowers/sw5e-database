@@ -1,0 +1,10 @@
+{
+  "key": "throat-prosthesis",
+  "name": "Throat prosthesis",
+  "category": "medical",
+  "costInCredits": 325,
+  "weight": 0.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

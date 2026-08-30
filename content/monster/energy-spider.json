@@ -1,0 +1,132 @@
+{
+  "key": "energy-spider",
+  "name": "Energy Spider",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13
+  },
+  "hitPoints": {
+    "average": 18,
+    "roll": "4d6 + 4"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Stealth +7",
+    "Perception +3"
+  ],
+  "senses": [
+    "blindsight 10 ft.",
+    "darkvision 120 ft.",
+    "passive Perception 13"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "energy"
+    ]
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Energy Absorption,",
+      "behaviorType": "trait",
+      "description": "Whenever the spider is subjected to energy damage, it takes no damage and instead regains a number of hit points equal to the energy damage dealt.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "behaviorType": "trait",
+      "description": "While in sunlight, the spider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Spider Climb",
+      "behaviorType": "trait",
+      "description": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Web Sense",
+      "behaviorType": "trait",
+      "description": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Web Walker",
+      "behaviorType": "trait",
+      "description": "The spider ignores movement restrictions caused by webbing.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6 + 3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Web",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to kinetic, poison, and psychic damage).",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "usageLimit": "Recharge 5-6",
+      "range": "range 30/60 ft.",
+      "targets": "one creature"
+    }
+  ],
+  "sectionText": "Energy spiders or spice spiders are arachnids that inhabit the spice mines of Kessel. They live in complete darkness inside the mine's caves spinning webs made of glitterstim, a rare kind of spice. When fed ryll, the energy spiders produce glitteryll and grow to large sizes. A number of the creatures have been smuggled onto Ryloth, which is one of the few other worlds capable of supporting them.\n\n***Behavior.*** The spiders shoot webbing from their mouths to capture prey, impale them and then quickly suck the life energy from them. The spiders are known to feed on bogeys, as they are sources of pure energy that caused the glitterstim to react and produce light, alerting the spiders to their presence. The spiders also disliked bright light, since they lived in pitch black caves. Energy spiders were, however, drawn to the light produced by the glitterstim-bogey interaction, and there are even cases of mistaking other lighting sources for this interaction. They are one of the many threats faced by the spice miners, especially those who wander too deep into the caves where the spiders lived. Often, the administrators and superiors on Kessel will send disruptive prisoners to work in these deep tunnels, ensuring an often permanent solution to a prisoner problem. As energy spiders feed on energy, blaster bolts are ineffective against them and are merely absorbed. Curiously, ion weapons, since they affect energy and its distribution, are highly effective (but not lethal) against them.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "key": "gamorrean-guard",
+  "name": "Gamorrean Guard",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "chaotic dark",
+  "armor": {
+    "class": 15,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 84,
+    "roll": "9d8 + 36"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 9,
+      "modifier": -1
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "senses": [
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Gamorrese",
+    "Galactic Basic (underst",
+    "s but can't speak)"
+  ],
+  "damageResistances": {
+    "other": [
+      "kinetic and energy from unenhanced weapons"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Reckless",
+      "behaviorType": "trait",
+      "description": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Brutal Critical",
+      "behaviorType": "trait",
+      "description": "When the guards scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vibroaxe",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit 12 (1d12 + 6)",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 12,
+      "damageRoll": "1d12 + 6"
+    }
+  ],
+  "sectionText": "Gamorreans were a sentient species of green-skinned porcine humanoids that hailed from the Outer Rim planet of Gamorr.\n\n***Biology & Appearance.*** A species of tall, strong bipeds, the Gamorreans have porcine traits, like an upturned, large-nostriled cartilaginous snout, jowls, and upturned tusks. Their hulking bodies are covered in green, thick and hairless skin. They have five digits on every extremity, each sporting a hard nail. The digits of their hands include an opposable thumb, which allows the Gamorreans to easily grasp and handle objects. The species has two sexes: the males, referred to as boars, and the females, called sows.\n\n***Society & Culture.*** Gamorreans have a clan-based society. Each clan is ruled by a female leader, the Clan Matron, and a male leader, the Warlord, although the Gamorrean society is, at heart, a matriarchy. Indeed, a Warlord holds his position by way of marriage to a Matron rather than force, although Matrons make their selections based on the boars' combat skills. Gamorreans see war as glorious, and violent clashes between clans are rife. Because of their low intelligence, Gamorreans tend to be both stubborn and loyal; philosophically, they believe that any problem can be solved by hitting it with brute force. They have a language of their own that sounds like mere grunts and squeals to outsiders. Although they can understand other languages, such as Galactic Basic, they find most of them too difficult to pronounce. Technologically speaking, the Gamorreans are primitive, and they favor melee weapons like vibro-axes and vibro-lances over blasters. They did not discover space travel on their own. Moreover, Gamorrean boars fail to maintain personal hygiene, rarely changing their clothes or wiping the streaming mucus from under their snouts.\n\n***Across the Galaxy.*** Offworld Gamorreans are a common sight, be they mercenaries or enforcers working for crime lords. They also colonized the planet Pzob in the K749 system and are the majority sentient species on Lanthrym in the Elrood sector.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

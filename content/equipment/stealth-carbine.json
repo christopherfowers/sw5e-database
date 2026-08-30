@@ -1,0 +1,22 @@
+{
+  "key": "stealth-carbine",
+  "name": "Stealth carbine",
+  "category": "weapon",
+  "costInCredits": 500,
+  "weight": 6.0,
+  "properties": [
+    "power cell (range 70/280)",
+    "reload 16",
+    "silent",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

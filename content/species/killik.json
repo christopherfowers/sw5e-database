@@ -1,0 +1,85 @@
+{
+  "key": "killik",
+  "name": "Killik",
+  "size": "medium",
+  "homeworld": "Alderaan",
+  "nativeLanguage": "Killik",
+  "lore": "### Biology and Appearance\nKilliks possess a strong chitinous exoskeleton that is glossy and greenish with their carcasses capable of surviving thousands of years of erosion as seen by the colonists of Alderaan. The exoskeleton also contains a number of spiracles which served as their way of breathing. Typically, these Human-sized hive creatures have four arms with each ending in a powerful three-fingered claw. They stand on two stout legs that are capable of leaping great distances. Killiks can communicate with other Killiks through use of pheromones.\n\n### Society and Culture\nThe Killiks have a communal society, with each and every Killik being in mental contact with another. Due to their hive mind, every Killik nest is virtually one individual. Killiks are also peaceful in nature. Their telepathic connection is capable of extending to other species which includes non-insectoids. A willing creature can submit to this telepathy to become a Joiner. They effectively become another vessel of the hive mind.\n\nKilliks lose connection to their hive mind at great distances. Those who voluntarily leave the hive mind are referred to as Leavers. It is rare that they are allowed to rejoin their hive without reason.\n\n### Names\nKilliks are a hive-mind insectoid that typically don't use names. On the offchance they do, it's usually an incomprehensible series of clicking noises. They are receptive to nicknames given by others.",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Killiks reach adulthood in their 40s and live an average of 200 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Killiks' willingness to brainwash or kill their enemies cause them to tend towards the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Killiks stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Four-Armed",
+      "description": "Killiks have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required)."
+    },
+    {
+      "name": "Hardened Carapace",
+      "description": "While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier."
+    },
+    {
+      "name": "Strong-Legged",
+      "description": "When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+    },
+    {
+      "name": "Telepathy",
+      "description": "You can communicate telepathically with creatures within 30 feet of you. You must share a language with the target in order to communicate in this way."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Killik. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "110 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Chitinous armor, mandibles projected from face, four arms ending in long three toed claws protrude from their torsos",
+    "skinColorOptions": "Brown, chestnut, green, red, scarlet, or yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black or orange"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_killik.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

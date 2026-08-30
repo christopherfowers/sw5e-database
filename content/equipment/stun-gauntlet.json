@@ -1,0 +1,21 @@
+{
+  "key": "stun-gauntlet",
+  "name": "Stun gauntlet",
+  "category": "weapon",
+  "costInCredits": 400,
+  "weight": 2.25,
+  "properties": [
+    "disruptive",
+    "fixed",
+    "shocking 13"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

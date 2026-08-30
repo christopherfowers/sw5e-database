@@ -1,0 +1,17 @@
+{
+  "key": "saberstaff",
+  "name": "Saberstaff",
+  "category": "weapon",
+  "costInCredits": 1375,
+  "weight": 0.0,
+  "properties": [
+    "modal (double-saber and tech-staff)"
+  ],
+  "weaponClassification": "exoticLightweapon",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "additionalWeaponClassifications": [
+    "exoticVibroweapon"
+  ]
+}

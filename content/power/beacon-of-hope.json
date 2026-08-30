@@ -1,0 +1,18 @@
+{
+  "key": "beacon-of-hope",
+  "name": "Beacon of Hope",
+  "powerType": "force",
+  "level": 3,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "30 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Heroism",
+  "description": "This power bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

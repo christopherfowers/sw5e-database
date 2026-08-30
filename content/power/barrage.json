@@ -1,0 +1,17 @@
+{
+  "key": "barrage",
+  "name": "Barrage",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You launch 4d6 tiny projectiles at up to four creatures you can see within range. The projectiles can be divided between the targets as desired. Each target must make a Dexterity saving throw. A target takes 1 kinetic damage per projectile, or half as much damage on a successful save.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you launch an additional 1d6 projectiles and can target one additional creature for each slot level above 1st.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

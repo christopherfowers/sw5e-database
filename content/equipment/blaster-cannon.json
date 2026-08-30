@@ -1,0 +1,25 @@
+{
+  "key": "blaster-cannon",
+  "name": "Blaster cannon",
+  "category": "weapon",
+  "costInCredits": 5500,
+  "weight": 18.5,
+  "description": "Rather than traditional power cells, the blaster cannon uses a specialized power generator that allows it to fire continuously for 10 minutes. Replacing a power generator takes an action.\n\nBefore firing the blaster cannon, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you’re able to make multiple attacks with the Attack action, this action replaces one of them. While deployed in this way, you treat this weapon’s strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the blaster cannon as an action or bonus action.",
+  "properties": [
+    "auto",
+    "burst",
+    "rapid",
+    "special (range 120/480)",
+    "strength 19",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

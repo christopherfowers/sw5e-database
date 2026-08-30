@@ -1,0 +1,11 @@
+{
+  "key": "chronometer",
+  "name": "Chronometer",
+  "category": "utility",
+  "costInCredits": 100,
+  "weight": 1.0,
+  "description": "A chronometer is a device that measures and keeps linear time.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

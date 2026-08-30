@@ -1,0 +1,21 @@
+{
+  "key": "vibrohammer",
+  "name": "Vibrohammer",
+  "category": "weapon",
+  "costInCredits": 600,
+  "weight": 7.5,
+  "properties": [
+    "heavy",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

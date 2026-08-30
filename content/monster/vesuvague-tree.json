@@ -1,0 +1,101 @@
+{
+  "key": "vesuvague-tree",
+  "name": "Vesuvague Tree",
+  "size": "large",
+  "types": [
+    "tree"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 164,
+    "roll": "16d10+80"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 6,
+      "modifier": -2
+    },
+    "constitution": {
+      "score": 20,
+      "modifier": 5
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 6,
+      "modifier": -2
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "blindsight 90 ft.",
+    "passive Perception 8"
+  ],
+  "languages": [
+    "Galactic basic",
+    "one other"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "fire"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "kinetic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "blinded",
+      "deafened",
+      "frightened"
+    ],
+    "other": [
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "7",
+  "experiencePoints": 2900,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The vesuvague tree may make two constrict attacks per turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Constrict",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit 11 (1d8 + 5) kinetic damage, and a Large or smaller target is grappled (escape DC 16).",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "1d8 + 5",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "The Vesuvague Tree, also known as the Vesuvague Hanging Tree, is a carnivorous, semi-sentient, red-barked tree from the planet of Ithor. It is one of a number of intelligent plants from the world, a category of which included the Bafforr tree. The vesuvague tree, though rooted in the earth, is able to detect and move itself towards motion by sensing air vibrations in its leaves and ground vibrations in its roots. In order to catch its prey, it uses its quickly growing vines and roots, capable of extending multiple meters in mere seconds, to seize, strangle, and crush its food. Once a creature is dead, the tree buries its vines and roots inside of its prey, and slowly feeds off of its bodily fluids. The tree can be trained to respond to simple commands, much like a pet, and can understand words by using its leaves to sense the vibrations and patterns of spoken languages.",
+  "sectionText": "While most plants are harmless, many plants are malicious and self-aware, becoming formidable foes.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

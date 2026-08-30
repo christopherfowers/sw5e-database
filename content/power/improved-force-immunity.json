@@ -1,0 +1,18 @@
+{
+  "key": "improved-force-immunity",
+  "name": "Improved Force Immunity",
+  "powerType": "force",
+  "level": 6,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (15-foot radius)",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Force Immunity",
+  "description": "An immobile, faintly shimmering barrier springs into existence in a 15-foot radius around you and remains for the duration. The barrier moves with you.\n\nAny force power of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the power is cast using a higher level force slot. Such a power can target creatures and objects within the barrier, but the power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such powers.\n\n***Force Potency.*** When you cast this power using a force slot of 7th level or higher, the barrier blocks powers of one level higher for each slot level above 6th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

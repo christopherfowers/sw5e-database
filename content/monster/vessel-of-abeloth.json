@@ -1,0 +1,173 @@
+{
+  "key": "vessel-of-abeloth",
+  "name": "Vessel of Abeloth",
+  "size": "medium",
+  "types": [
+    "undead"
+  ],
+  "alignment": "neutral dark",
+  "armor": {
+    "class": 17,
+    "type": "force shield"
+  },
+  "hitPoints": {
+    "average": 153,
+    "roll": "18d6 + 90"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 11,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 20,
+      "modifier": 5
+    },
+    "intelligence": {
+      "score": 16,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 20,
+      "modifier": 5
+    }
+  },
+  "savingThrows": [
+    "Con +12",
+    "Wis +9",
+    "Cha +12"
+  ],
+  "skills": [
+    "Lore +10",
+    "Perception +9",
+    "Insight +9",
+    "Deception +19",
+    "Persuasion +12"
+  ],
+  "senses": [
+    "truesight 120 ft.",
+    "passive Perception 19"
+  ],
+  "languages": [
+    "all",
+    "telepathy 120 ft."
+  ],
+  "damageResistances": {
+    "types": [
+      "cold",
+      "lightning",
+      "necrotic"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "ion"
+    ],
+    "other": [
+      "poison; kinetic",
+      "and energy from unenhanced weapons"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "paralyzed",
+      "poisoned"
+    ],
+    "other": [
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "21",
+  "experiencePoints": 33000,
+  "behaviors": [
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If Abeloth fails a saving throw, she can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Force Resistance",
+      "behaviorType": "trait",
+      "description": "Abeloth has advantage on saving throws against Force Powers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Font of Power",
+      "behaviorType": "trait",
+      "description": "When Abeloth rolls damage for a power, she can spend 1 additional force point to reroll a number of the damage dice up to her Charisma modifier (5). She must use the new rolls.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pool of Knowledge",
+      "behaviorType": "trait",
+      "description": "When you cast a power that has a casting time of 1 action, you can spend 2 additional force points to change the casting time to 1 bonus action for this casting.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Forcecasting",
+      "behaviorType": "trait",
+      "description": "At will: burst, feedback, force push/pull, give life, saber reflect, shock 1st level: cloud mind, force mask, force throw, project 2nd level: coerce mind, hallucination 3rd level: force lightning, force repulse, knight speed, telekinetic storm 4th level: drain life, mind trap 5th level: dominate mind, greater feedback, siphon life 6th level: mass coerce mind, telekinetic burst 7th level: force project, whirlwind 8th level: death field, earthquake, telekinetic wave 9th level: master feedback Abeloth is an 18th-level forcecaster. Her Forcecasting Ability is Charisma (force save DC 20, +12 to hit with force powers). Abeloth has 77 force points and knows the following force powers:",
+      "descriptionWithLinks": "Forcecasting. Abeloth is an 18th-level forcecaster. Her Forcecasting Ability is Charisma (force save DC 20, +12 to hit with force powers). Abeloth has 77 force points and knows the following force powers: [](#)\n At will: [burst](#burst), [feedback](#feedback), [force push/pull](#force%20push/pull), [give life](#give%20life), [saber reflect](#saber%20reflect), [shock](#shock)\n 1st level: [cloud mind](#cloud%20mind), [force mask](#force%20mask), [force throw](#force%20throw), [project](#project)\n 2nd level: [coerce mind](#coerce%20mind), [hallucination](#hallucination)\n 3rd level: [force lightning](#force%20lightning), [force repulse](#force%20repulse), [knight speed](#knight%20speed), [telekinetic storm](#telekinetic%20storm)\n 4th level: [drain life](#drain%20life), [mind trap](#mind%20trap)\n 5th level: [dominate mind](#dominate%20mind), [greater feedback](#greater%20feedback), [siphon life](#siphon%20life)\n 6th level: [mass coerce mind](#mass%20coerce%20mind), [telekinetic burst](#telekinetic%20burst)\n 7th level: [force project](#force%20project), [whirlwind](#whirlwind)\n 8th level: [death field](#death%20field), [earthquake](#earthquake), [telekinetic wave](#telekinetic%20wave)\n 9th level: [master feedback](#master%20feedback)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Shotosaber",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) energy damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Teleport",
+      "behaviorType": "action",
+      "description": "Abeloth teleports up to 120 feet into an unoccupied space she can see.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "At Will Power",
+      "behaviorType": "legendary",
+      "description": "Abeloth casts an at will power.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Attack",
+      "behaviorType": "legendary",
+      "description": "Abeloth attacks once with shotosaber.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Teleport",
+      "behaviorType": "legendary",
+      "description": "Abeloth uses her teleport action.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Abeloth, also known as the Bringer of Chaos and Beloved Queen of the Stars, is a being very powerful in both the dark the light sides of the Force. She first lived as the Servant, a mortal woman who served the powerful Ones on an unknown jungle planet over a hundred thousand years before the Battle of Yavin. Over the course of her life, she became the Mother: she kept the peace between the Father's warring Son and Daughter and became a loving part of the family. But she was still mortal—she grew old while her ageless family lived on—and she feared she would lose her precious family. In a desperate attempt to hold onto the life she so loved, she drank from the Font of Power and bathed in the Pool of Knowledge. Her actions corrupted her, transforming the Mother into the twisted, immortal entity known as Abeloth.\n\n***Loneliness.*** Abeloth is antagonized by loneliness; she feels an absolute need to be loved and adored. She has fed her cravings by instilling in Force-sensitives a desire to be with her, and in turn catered to their every need and assumed the role as their mother. This need stems from her original fear of losing her family. When her family abandoned her on their planet—the very reason she committed her crimes in the first place—she was driven insane by loneliness and despair. She feeds on fear and destruction in an attempt to gain more power; her ultimate goal is to recreate her lost family. She may try to force players to drink from the Font of Power, attempting to make replacements for the Son and Daughter.\n\n***Appearance.*** Abeloth has the ability to change her appearance at will. However, Abeloth's true form is that of a humanoid and barely-female being with deeply-sunken black eye sockets and tiny silver eyes reminiscent of tiny stars at the bottom of a deep well. She has a long cascade of straw-like, honey-blond hair that reaches to the ground and a large, full-lipped mouth that stretches from ear-to-ear and contains needle-like teeth. Her arms are stubby, protruding no more than ten centimeters from her shoulders, with hands that had long, writhing tentacles for fingers with suction cup tips. Her body is rigid and straight, and when she walks or runs, her legs ripple forward more than they swing. In addition, her body may be enshrouded in mist, giving her an ethereal aspect to her already frightening appearance.\n\n***Powers & Abilities.*** Abeloth's strength in the Force is a dozen times that of the most powerful Force user in the galaxy. She wields exceptional telekinetic powers, being able to release waves of Force energy that cause beings in her vicinity to implode, those farther away to be ripped to pieces, and buildings to melt to the ground. She is also able to teleport herself from one place to another. Abeloth can produce a Force-flash, affecting the visuals of ships in an entire star system. Abeloth can command the native flora of her planet. She has the ability to influence the minds of Force-sensitive beings who have spent an extended period of time in the Maw, causing a psychosis which makes them believe that everyone—except for other such psychotic beings—has been replaced by impostors and instilling in them a desire to find her. ***Possession.*** Abeloth is capable of possessing or absorbing the consciousness of beings in order to further enhance her power. Abeloth is able to take on the physical appearances of beings that she has consumed, and she is also able to project images of other beings. She prefers to inhabit the bodies of Force-sensitives, as non Force-sensitives' bodies fail to last for long before deteriorating. However, her dependency on avatars may ultimately be her greatest weakness: killing a significant number of avatars in her possession appears to result in her strength weakening such that her manifestation may be defeated. ***Imprisonment.*** For thousands of years, Abeloth has been imprisoned in the Maw, which is a cluster of black holes artificially created by Centerpoint Station and maintained from within by Sinkhole Station. These stations are believed to have been created by the Celestials. Abeloth's release from the Maw may be due to a number of reasons including the destruction or compromise of Sinkhole Station, or by a Current of the Force being altered and the flow of time changing. ***Defeat.*** If enough of her avatars are defeated, Abeloth's primary manifestation, usually in and about her home planet in the Maw, may be defeated in combat. Such a Force entity cannot be \"truly\" killed by normal means. It is thought that, if defeated, Abeloth would return: perhaps in one hundred years or perhaps in one hundred thousand years. However, it is believed by some that the Dagger of Mortis would be capable of killing Abeloth permanently. Additionally or alternatively, Abeloth may be contained by recreating the prison of the Maw or by some other equivalent means.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

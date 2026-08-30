@@ -1,0 +1,141 @@
+{
+  "key": "mistryl-prime",
+  "name": "Mistryl Prime",
+  "size": "medium",
+  "types": [
+    "human"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 17,
+    "type": "heavy combat suit"
+  },
+  "hitPoints": {
+    "average": 105,
+    "roll": "14d8 + 42"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 20,
+      "modifier": 5
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 18,
+      "modifier": 4
+    },
+    "charisma": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Dex +8",
+    "Int +5"
+  ],
+  "skills": [
+    "Acrobatics +8",
+    "Athletics +4",
+    "Deception +6",
+    "Insight +7",
+    "Perception +7",
+    "Sleight of Hand +8",
+    "Stealth +8"
+  ],
+  "senses": [
+    "passive Perception 17"
+  ],
+  "challengeRating": "8",
+  "experiencePoints": 3900,
+  "behaviors": [
+    {
+      "name": "Assassinate",
+      "behaviorType": "trait",
+      "description": "During her first turn, the Mistryl has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Mistryl scores against a surprised creature is a critical hit.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Cunning Action",
+      "behaviorType": "trait",
+      "description": "On each of her turns, she can use a bon-us action to take the Dash, Disengage, or Hide action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sneak Attack",
+      "behaviorType": "trait",
+      "description": "The Mistryl deals an extra 17 (5d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Mistryl that isn't incapacitated and the Mistryl doesn't have disadvantage on the attack roll.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/turn"
+    },
+    {
+      "name": "Tech Casting",
+      "behaviorType": "trait",
+      "description": "At Will: encrypted message, light, poison spray 1st Level: alarm, decryption program, holographic disguise 2nd Level: concealed caltrops, infiltrate, paralyze humanoid 3rd Level: invisibility to cameras, tactical advantage The Mistryl is a 5th level tech caster (tech save DC 13, +5 to hit with power attacks, 22 tech points). The Mistryl knows the following powers.",
+      "descriptionWithLinks": "Tech Casting. The Mistryl is a 5th level tech caster (tech save DC 13, +5 to hit with power attacks, 22 tech points). The Mistryl knows the following powers.\n At Will: [encrypted message](#encrypted%20message), [light](#light), [poison spray](#poison%20spray)\n 1st Level: [alarm](#alarm), [decryption program](#decryption%20program), [holographic disguise](#holographic%20disguise)\n 2nd Level: [concealed caltrops](#concealed%20caltrops), [infiltrate](#infiltrate), [paralyze humanoid](#paralyze%20humanoid)\n 3rd Level: [invisibility to cameras](#invisibility%20to%20cameras), [tactical advantage](#tactical%20advantage)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Mistryl makes two melee weapon attacks or two ranged weapon attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Techblade",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) kinetic damage, and the target must make a DC 14 Constitution saving throw. On a failure, the target takes 24 (7d6) poison damage and is poisoned for 1 minute. On a success, the target takes half damage and isn't poisoned.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 8,
+      "damageRoll": "1d6 + 5",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Holdout Blaster",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 6 (1d4 + 4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 7,
+      "range": "range 30/120 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d4 + 4",
+      "damageType": "energy"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "behaviorType": "reaction",
+      "description": "The Mistryl halves the damage that she takes from an attack that hits her. The Mistryl must be able to see the attacker.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The Mistryl Shadow Guards were an elite group of all-female Human mercenaries, sent from their home planet of Emberlene to earn money in support of the devastated communities of their world.\n\n***Emberlene.*** Using its might and wealth to conquer its neighbors, Emberlene subjugated dozens of worlds in their sector, plundering their wealth, and destroyed anything of value couldn't be taken.\n\n***The Destruction.*** The remaining planets in the sector pooled their resources and hired a mercenary army to fight for them. The mercenaries struck hard and fast, devastating Emberlene's forces and reducing the planet's infrastructure to rubble. Ensuing firestorms and air strikes against populated areas effectively ended the Emberlene threat, reducing its people to abject poverty.\n\n***The Lie.*** In the years after their destruction and partial reconstruction, the Eleven Elders decided to create a lie from this disaster. From a young age, the citizens of Emberlene were taught that many years ago, while the Galactic Empire was still young and early resistance had not been crushed, Emperor Palpatine ordered the destruction of Emberlene as an example to all who thought they could escape the rule of the Empire. This lie was created to instill a sense of loyalty and pride in the people of Emberlene, as well as a false sense of duty amongst the Mistryl.\n\n***Organization.*** The Shadow Guard typically operated in small teams led by a commander known as the Team Prime. On the other hand, Mistryl sometimes traveled as master-and-apprentice pairs, and individual warriors could be contracted out long-term as bodyguards. True to their mythos that Emberlene had been ravaged by Imperial forces, the Mistryl claimed that they never worked for the New Order, although when that loathing got in the way of a job, they often forgot this animosity, either through convenience or necessity.\n\n***Equipment & Methods.*** While the Guard were deadly at any time, the Shadow Guard were especially adept at close-quarters combat. They were well trained in martial arts, and also had a large amount of weapons training as well. They were trained to use hold-out blasters and vibroblades, and were also educated in the use of more exotic weapons such as hand claws, shock whips, and zenji needles. The Mistryl were legendary for their stealth and ability to remain unnoticed at all times. They had access to a huge database of profiles of galactic citizens. When needed, a guard could quickly use one of these and assume that person's identity in order to either get close to a target or get away from an area.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "key": "vibrostaff",
+  "name": "Vibrostaff",
+  "category": "weapon",
+  "costInCredits": 100,
+  "weight": 4.0,
+  "properties": [
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

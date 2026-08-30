@@ -1,0 +1,155 @@
+{
+  "key": "at-st",
+  "name": "AT-ST",
+  "size": "huge",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 17,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 168,
+    "roll": "16d12+64"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 23,
+      "modifier": 6
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 19,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Str +10",
+    "Con +8"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "psychic"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "poison",
+      "necrotic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned",
+      "frightened",
+      "petrified",
+      "restrained",
+      "incapacitated",
+      "stunned",
+      "prone",
+      "blinded",
+      "charmed"
+    ],
+    "other": [
+      "disease"
+    ]
+  },
+  "challengeRating": "11",
+  "experiencePoints": 7200,
+  "behaviors": [
+    {
+      "name": "Towering",
+      "behaviorType": "trait",
+      "description": "Creatures of Medium size or smaller can stand in the AT-ST's space.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Piloted",
+      "behaviorType": "trait",
+      "description": "The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vulnerable Interior",
+      "behaviorType": "trait",
+      "description": "The AT-ST's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The AT-ST can use its Frightful Presence. It then makes two attacks with its medium repeating blasters or takes the Stomp action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Medium Repeating Blasters",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +7 to hit, range 120/240 ft., one target. Hit: 25 (4d10+3) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 7,
+      "range": "range 120/240 ft.",
+      "targets": "one target",
+      "averageDamage": 25,
+      "damageRoll": "4d10+3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Stomp",
+      "behaviorType": "action",
+      "description": "All creatures standing within the AT-ST's space or within 5 feet of it must make a DC 18 Dexterity saving throw, taking 39 (6d12) kinetic damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Frightful Presence",
+      "behaviorType": "action",
+      "description": "Each creature of the AT-ST's choice that is within 80 feet of the AT-ST and aware of it must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-ST's Frightful Presence for the next 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The All Terrain Scout Transport (or AT-ST), also known as the chicken walker for its two-legged design, is a bipedal walker used by the Galactic Republic during the late Clone Wars and, later and more extensively, by the Galactic Empire during the Galactic Civil War. AT-STs are commonly used to screen the flanks of larger assault walkers for major ground operations. The Empire used them for swift reconnaissance and troop support. As such, they are essential for cleaning up minor resistance along the path of a planned invasion route, and can quickly eliminate small threats that evade an AT-AT's barrage. The walker is commonly used on anti-personnel hunting missions, and is piloted by two AT-ST drivers. Despite its speed and agility, an AT-ST walker's offensive and defensive power are significantly compromised. Offensively, its weapons systems are only good against lightly armored targets at close range. Defensively, its lighter armor can repel attacks from small-arms fire, but not laser cannons, missiles, or other heavy ordnance. Its armor does not cover its entire frame, lest the walker lose its agility. Striking the walker's unprotected gyros underneath the command module can destabilize the walker and cause it to fall. Additionally, deep trenches or cable lines leveled at the height of the AT-ST's ankles and knees can cause it to trip and topple the vehicle. The modular design of the AT-ST allows for ease in customizing the walker with armaments and tools for specific mission parameters such as mortar launchers attached to the command pod.",
+  "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

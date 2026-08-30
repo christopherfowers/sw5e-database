@@ -1,0 +1,81 @@
+{
+  "key": "mirialan",
+  "name": "Mirialan",
+  "size": "medium",
+  "homeworld": "Mirial",
+  "nativeLanguage": "Mirialan",
+  "lore": "### Biology and Appearance\nMirialans are a near-human species native to the planet Mirial. They have green to yellow skin and tattoos on their faces. The Mirialans are known for their spirituality and strong connection with the world around them. Mirialans are very flexible and agile, making them fast and formidable foes.\n\n### Society and Culture\nThe Mirialan people are deeply religious and practice a primitive understanding of the Force. They believe each individual's actions contribute to their destiny, building upon past successes and failures to drive them towards their fates. Within their belief system was the view that individual actions ripple through the Force, also affecting the destiny of the species as a whole.\n\nA Mirialan often places a unique, geometrically repeated tattoo on their face and hands to signify that they have completed a certain test or task, or achieved sufficient aptitude for a certain skill. The number of tattoos often acts as a good indicator of how mature and/or skilled a Mirialan was. Because the more markings brings about a form of status, Mirialan society is stratified and allows the heavily marked citizens to access greater opportunities. Despite its importance, most Mirialans do not know the entirety of the tattoo lexicon due to its complexity. The interaction between placement and positioning of the shapes is incredibly subtle and changes their meaning greatly.\n\n### Names\nMirialan names are typically concise and rarely more than two syllables. Surnames are familial.\n\n**Male Names.** Boca, Floha, Jemy, Puv, Choqa\n\n**Female Names.** Buf, Ches, Kebe, Ovof, Shaqa\n\n**Surnames.** Acave, Ishakee, Kefvi, Uflozi, Zoria",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Mirialan reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Mirialans spiritual tendencies cause them to tend towards the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Mirialan typically stand 5 to 6 feet tall and weight 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 35 feet."
+    },
+    {
+      "name": "Spiritual",
+      "description": "You have proficiency in Lore. Additionally, you are considered to have expertise in Intelligence (Lore) checks made to learn or recall something about a culture's religion."
+    },
+    {
+      "name": "Surprise Attack",
+      "description": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+    },
+    {
+      "name": "Unarmed Combatant",
+      "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Mirialan."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'6\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Facial tattoos, flexible and agile",
+    "skinColorOptions": "Green, olive, or yellow",
+    "hairColorOptions": "Black, blonde, brown, or red",
+    "eyeColorOptions": "Blue, green, violet, grey, red, yellow, or orange"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_mirialan.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

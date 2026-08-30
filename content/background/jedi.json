@@ -132,26 +132,34 @@
   "featOptions": [
     {
       "roll": 1,
-      "name": "Investigator"
+      "name": "Empathic"
     },
     {
       "roll": 2,
-      "name": "Loremaster"
+      "name": "Investigator"
     },
     {
       "roll": 3,
-      "name": "Charmer"
+      "name": "Loremaster"
     },
     {
       "roll": 4,
-      "name": "Linguist"
+      "name": "Charmer"
     },
     {
       "roll": 5,
-      "name": "Crafter"
+      "name": "Linguist"
     },
     {
       "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Formfighting Dabbler"
+    },
+    {
+      "roll": 8,
       "name": "Force-Sensitive"
     }
   ],

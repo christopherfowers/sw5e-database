@@ -1,0 +1,11 @@
+{
+  "key": "flux-collimator",
+  "name": "Flux collimator",
+  "category": "ammunition",
+  "costInCredits": 180,
+  "weight": 1.0,
+  "description": "As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +1 bonus to damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

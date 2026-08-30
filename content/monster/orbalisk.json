@@ -1,0 +1,89 @@
+{
+  "key": "orbalisk",
+  "name": "Orbalisk",
+  "size": "tiny",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 21,
+    "roll": "6d4+6"
+  },
+  "speed": {
+    "walk": 5,
+    "text": "5 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 4,
+      "modifier": -3
+    },
+    "charisma": {
+      "score": 3,
+      "modifier": -4
+    }
+  },
+  "senses": [
+    "passive Perception 7"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "lightning"
+    ]
+  },
+  "damageImmunities": {
+    "other": [
+      "All except lightning"
+    ]
+  },
+  "challengeRating": "1",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Detect Dark Side",
+      "behaviorType": "trait",
+      "description": "The orbalisk can sense the presence and location of any dark side aligned creature within 300 feet.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Attach",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) kinetic damage, and the orbalisk attaches to the target. Once attached to a target, the orbalisk begins to reproduce through fragmentation. Whenever the host completes a long rest, they must make a DC 14 Wisdom saving throw. For each saving throw the host fails, the size of their Hit Dice is reduced: from d12 to d10, from d10 to d8, from d8 to d6, from d6 to d4, or from d4 to d2. If the host fails a saving throw while their Hit Die is a d2, they die as the orbalisks consume them.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Orbalisks are parasitic creatures native to Dxun. They lay inactive in caves or other dark places, until they find a suitable host creature on whose skin they can attach themselves to in order to feed. Orbalisks, once attached to a host, rapidly multiply, eventually enveloping and suffocating their victim. However, the holocron of Freedon Nadd contains the knowledge to make armament to prevent the orbalisks from covering the face, hands, and feet of the host, allowing them to keep this armor hidden. Perhaps by nature or as a result of residing on Dxun (which was itself a great focus of dark side power), orbalisks are able to feed on the Force-sensitivity of dark side wielders. It is said that the orbalisk armor's durability was such that lightsabers have a hard time penetrating it, making a wearer effectively immune to lightsaber attacks. The only weaknesses to this armor are the exposed joints at the neck and wrists, but these gaps are so small a lightsaber can only barely slice through. However, orbalisk armor is unable to protect the wearer from electricity. Orbalisks cause the wearer to feel pain, fueling the wearers dark side power; if they are removed or killed, they release a highly potent toxin into the host's body.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

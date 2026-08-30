@@ -1,0 +1,104 @@
+{
+  "key": "droid-class-iii",
+  "name": "Droid, Class III",
+  "size": "medium",
+  "nativeLanguage": "Varies based on location",
+  "lore": "### Appearance\nClass III droids are typically human-like in both shape and size, standing at around 6 feet. They are usually a polished metallic color, though this can vary based on tasks for which they are created, their affiliation, or quirks of their owner.\n\nThey are noteworthy for their slow, shuffling gait and typically overly talkative nature.\n\n### Utility\nClass III droids are programmed to interact with humans. They are said to be the most advanced droids ever invented. Protocol, servant, tutor, and child care droids are all class III droids.\n\nThey are usually equipped with protocol chips which give them the cognitive functionality to engage socially.\n\n### Names\nDroids are typically called by their designation, given to them when they are created, or some affectation given to them by their owner. Often this affectation is a play on their designation. Occasionally, noteworthy droids will earn monikers based on their accomplishments.\n\n**Designations (Names).** K-OHN (Kone), I-5YQ (I-Five), O-MR1 (Omri), TC-14 (Teesee Fourteen)",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Droids don't age, though they require maintenance to retain functionality."
+    },
+    {
+      "name": "Alignment",
+      "description": "Droids tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Class III droids stand around the height of humans and weigh about 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Type",
+      "description": "Your creature type is droid."
+    },
+    {
+      "name": "Armor Integration",
+      "description": "You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+    },
+    {
+      "name": "Droid Resistances",
+      "description": "You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+    },
+    {
+      "name": "Droid Systems",
+      "description": "You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+    },
+    {
+      "name": "Droid Vulnerabilities",
+      "description": "You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+    },
+    {
+      "name": "Force-Insensitive",
+      "description": "While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+    },
+    {
+      "name": "Knowledge Protocol",
+      "description": "You have proficiency in the Lore skill."
+    },
+    {
+      "name": "Maintenance Mode",
+      "description": "Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+    },
+    {
+      "name": "Rapid Reconstruction",
+      "description": "You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write all registered languages."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence",
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'6\"",
+    "heightModifier": "+2d4\"",
+    "weightAverage": "120 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Human-like size, shuffling gait, typically talkative",
+    "colorScheme": "Typically metallic",
+    "manufacturer": "Cybot Galactica, Industrial Automaton"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclas03_01.png"
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

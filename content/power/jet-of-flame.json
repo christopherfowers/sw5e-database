@@ -1,0 +1,17 @@
+{
+  "key": "jet-of-flame",
+  "name": "Jet of Flame",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (30-foot sphere)",
+  "duration": "10 minutes",
+  "concentration": false,
+  "description": "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The power ends if you dismiss it as an action or if you cast it again.\n\nYou can also attack with the flame, although doing so ends the power. When you cast this power, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged tech attack. On a hit, the target takes 1d8 fire damage. The fire ignites any flammable objects in the area that aren't being worn or carried.\n\nThis power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

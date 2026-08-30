@@ -1,0 +1,22 @@
+{
+  "key": "switch-carbine",
+  "name": "Switch carbine",
+  "category": "weapon",
+  "costInCredits": 925,
+  "weight": 7.5,
+  "properties": [
+    "power cell (range 70/280)",
+    "reload 16",
+    "switch (1d4 acid)",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

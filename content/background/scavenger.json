@@ -1,0 +1,206 @@
+{
+  "key": "scavenger",
+  "name": "Scavenger",
+  "lore": "You are experienced with collecting lost or abandoned items or recovering wreckage from the aftermath of large scale conflicts or natural disasters. Scavengers sole occupation is to salvage anything they can find that they can reuse or sell for much needed credits.",
+  "skillProficiencies": "Choose two from Persuasion, Sleight of Hand, Survival, and Technology",
+  "toolProficiencies": "Your choice of archaeologist kit, jeweler's implements, mechanic's kit, or scavenging kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes with a hood, 2 days field rations, mechanic's goggles, a bedroll, and a pouch containing 200 cr",
+  "feature": {
+    "name": "Rugged Survivalist",
+    "description": "Scavengers due to their line of work have an eye for spotting useful or even valuable parts of technology or artifacts. You can easily spot the best place to scavenge the most valuable parts."
+  },
+  "suggestedCharacteristics": "Scavengers are usually self-employed while searching for the next piece of technology or random junk to sell for profit or merely for survival.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I am quiet, reserved, and focused on my work. It takes a lot for me to raise my voice or object outside of my job."
+    },
+    {
+      "roll": 2,
+      "description": "If I find an intact piece of technology, I'll be focused on how many credits I can get by salvaging it."
+    },
+    {
+      "roll": 3,
+      "description": "When I find myself in a trove full of technology, I'm thinking of a way to use them for profit."
+    },
+    {
+      "roll": 4,
+      "description": "I look down on people that do not like getting their hands dirty."
+    },
+    {
+      "roll": 5,
+      "description": "I like making friends, those who don't like widening their circle are fools."
+    },
+    {
+      "roll": 6,
+      "description": "I am polite around my customers or patrons, though I am harsh toward my fellow Scavengers."
+    },
+    {
+      "roll": 7,
+      "description": "I am slow to trust people as in my line of work; it's every individual for themselves."
+    },
+    {
+      "roll": 8,
+      "description": "If there is a lost individual that is in need, I will always lend a hand."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Honor",
+      "description": "I don't steal from other in or outside of the trade. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Independence",
+      "description": "I do not work well with others, I work alone. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Charity",
+      "description": "I use the credits I gain to help those less fortunate. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Greed",
+      "description": "I will do whatever it takes to get more credits. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Community",
+      "description": "I'm loyal to my friends and fellow Scavengers. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Hope",
+      "description": "I hope to one day get enough money to start a new life in the stars. (Neutral)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I carry with me a unique piece of technology unknown to me, but I keep it as a good luck charm."
+    },
+    {
+      "roll": 2,
+      "description": "My fellow scavengers mean the world to me."
+    },
+    {
+      "roll": 3,
+      "description": "I unintentionally killed someone by stealing their property. I hope to redeem myself for it."
+    },
+    {
+      "roll": 4,
+      "description": "I used to work for a horrible employer that abused their power; I will take my revenge on any who bully others."
+    },
+    {
+      "roll": 5,
+      "description": "I'm working off the debt I owe to a wealthy benefactor."
+    },
+    {
+      "roll": 6,
+      "description": "Someone I loved died because of a mistake I made. That will never happen again."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "When I see something valuable, I can't think about anything but how to make a profit from it."
+    },
+    {
+      "roll": 2,
+      "description": "When faced with a choice between money and my friends, I usually choose the money."
+    },
+    {
+      "roll": 3,
+      "description": "If there's a plan, I'll forget it. If I don't forget it, I'll ignore it."
+    },
+    {
+      "roll": 4,
+      "description": "I have a \"tell\" that reveals when I'm lying."
+    },
+    {
+      "roll": 5,
+      "description": "I turn tail and run when things look bad."
+    },
+    {
+      "roll": 6,
+      "description": "I tend to hold people who work normal jobs in contempt."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 3,
+      "name": "Quick-Fingered"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Tech Dabbler"
+    }
+  ],
+  "variant": {
+    "name": "Scavenger Specialty",
+    "description": "|d8|Specialty|\n|:---:|:----------:|\n|1|Droid Scavenger|\n|2|Ship Scavenger|\n|3|Junk Dealer|\n|4|Scrapper|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Collector|\n|6|Trader|\n|7|Clean-up|\n|8|Fence|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Droid Scavenger"
+      },
+      {
+        "roll": 2,
+        "name": "Ship Scavenger"
+      },
+      {
+        "roll": 3,
+        "name": "Junk Dealer"
+      },
+      {
+        "roll": 4,
+        "name": "Scrapper"
+      },
+      {
+        "roll": 5,
+        "name": "Collector"
+      },
+      {
+        "roll": 6,
+        "name": "Trader"
+      },
+      {
+        "roll": 7,
+        "name": "Clean-up"
+      },
+      {
+        "roll": 8,
+        "name": "Fence"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,109 @@
+{
+  "key": "horned-kath-hound",
+  "name": "Horned Kath Hound",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natutal armor"
+  },
+  "hitPoints": {
+    "average": 22,
+    "roll": "4d8 + 4"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 30 ft.",
+    "passive Perception 13"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Keen Hearing and Smell",
+      "behaviorType": "trait",
+      "description": "The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the hound moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the hound can make another attack with its tusks against it as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d4 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tusk",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 9,
+      "damageRoll": "2d6 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Kath hounds are about the size of a large dog, fur-covered, and each limb ends in four hoofed digits. They are generally not very hostile, unless provoked. At one point, the kath hounds started attacking the citizens of Dantooine and were blamed for numerous crimes, including the theft of a protocol droid. Kath hounds are also a popular pet for the crime lords of Nar Shaddaa, including Visquis and Vogga the Hutt. Domesticated kath hounds, called salkies, are also popular pets on Coruscant.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

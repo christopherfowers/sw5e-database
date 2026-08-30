@@ -1,0 +1,99 @@
+{
+  "key": "vines",
+  "name": "Vines",
+  "size": "large",
+  "types": [
+    "plant"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 84,
+    "roll": "12d10 + 24"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., climb 15 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 7,
+      "modifier": -2
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "Blindsight 60 ft. (blind beyond this radius)",
+    "passive Perception 8"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "fire"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "prone"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Constrict",
+      "behaviorType": "trait",
+      "description": "Creatures grappled by the vines take 4 (1d8) kinetic damage at the start of every round.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "False Appearance",
+      "behaviorType": "trait",
+      "description": "While the vines remains motionless, they are indistinguishable from normal vines.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vines",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 22 (4d8 + 4) kinetic damage, and the target is Grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the vines can't constrict another target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 22,
+      "damageRoll": "4d8 + 4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "While most plants are harmless, many plants are malicious and self-aware, becoming formidable foes.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

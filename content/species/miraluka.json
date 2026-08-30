@@ -1,0 +1,77 @@
+{
+  "key": "miraluka",
+  "name": "Miraluka",
+  "size": "medium",
+  "homeworld": "Alpheridies",
+  "nativeLanguage": "Miralukese",
+  "lore": "### Biology and Appearance\nThe Miraluka are a near-human species that differs from Humans in that they lack eyes, only retaining vestigial eye sockets, and perceive the environment around them through *force sight* instead of regular vision. This vision is so strong that if a Miraluka looks upon a Jedi or Sith, they can \"see\" Force radiating off them. The strength of a Miraluka's connection to the Force varies by individual.\n\n### Society and Culture\nMiraluka are a thoughtful, cautious, and deliberative species. They have little interest in personal gain or glory. For social reasons, Miraluka hide their appearance by wearing a headband, a mask, or similar concealing headwear. In addition all Miraluka are very united by species. They call themselves \"brothers\" and are considered as members of a great family. As a Force-using species, Miraluka are often quite shocked if 'shown' life not connected to the Force.\n\nMany Miraluka worship two gods, Ashla and Bogan, through the philosophy of the Greater Force. They do not believe in good or evil, but were taught to accept both life and death.\n\nMiraluka Force-sensitives are an order of their own called the Luka Sene. Academic in atmosphere and culture, the Luka Sene focus primarily on developing the sense-related powers of their members. However, unlike the Jedi, Sith and other traditions, the Luka Sene does not dictate a member's personal life.\n\n### Names\nMiraluka names are generally two syllables. Miraluka don't use surnames, as they believe they are one family.\n\n**Male Names.** Aakih, Pafil, Rikhor, Vociif, Xuwuth\n\n**Female Names.** Auchaod, Favom, Mucem, Wilierth",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Miraluka reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Miraluka believe in balance and thus tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Miraluka typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Force-Sensitive",
+      "description": "You know the *mind trick* at-will force power. When you reach 3rd level, you learn and can cast the *sanctuary* force power once per day. When you reach 5th level, you learn and can cast the *force confusion* power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for these powers."
+    },
+    {
+      "name": "Force Sight",
+      "description": "Miraluka perceive the environment around them through use of the Force. You are constantly under the effects of the force power *force sight*, though the power does not require concentration for you."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Miralukese."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "110 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Lack of physical eyes, inherent *force sight*",
+    "skinColorOptions": "Pale to brown",
+    "hairColorOptions": "Black, brown, grey, or white",
+    "eyeColorOptions": "None"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_miraluka.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

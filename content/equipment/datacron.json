@@ -1,0 +1,11 @@
+{
+  "key": "datacron",
+  "name": "Datacron",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 1000,
+  "weight": 2.0,
+  "description": "A datacron is a type of holocron that can be accessed by non-Force-sensitives and are mainly used to store encrypted data. They are complete with an interactive projection to access the information.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

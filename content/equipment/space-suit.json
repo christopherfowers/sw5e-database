@@ -1,0 +1,10 @@
+{
+  "key": "space-suit",
+  "name": "Space suit",
+  "category": "lifeSupport",
+  "costInCredits": 1500,
+  "weight": 30.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

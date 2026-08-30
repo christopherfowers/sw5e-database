@@ -1,0 +1,18 @@
+{
+  "key": "telekinetic-shield",
+  "name": "Telekinetic Shield",
+  "powerType": "force",
+  "level": 3,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Animate Weapon",
+  "description": "You lift three piles of debris or small objects from the ground and interpose them between you and your opponents for the duration.\n\nWhile at least three piles remain, you have three-quarters cover. While two piles remain, you have half cover. While only one pile remains, you have one-quarter cover. The piles don't hinder your attacks. When you cast the power, or as an action on a subsequent turn, you can direct up to two piles to attack up to two creatures you can see within 30 feet. Make a ranged force attack roll for each pile. On a hit, a creature takes 2d6 kinetic plus 1d10 force damage. The pile is destroyed whether it hits or misses.\n\n***Force Potency.*** If you cast this power with a force slot of 4th level or higher, the power creates one additional pile for each level above 3rd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

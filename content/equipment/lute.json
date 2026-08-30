@@ -1,0 +1,10 @@
+{
+  "key": "lute",
+  "name": "Lute",
+  "category": "musicalInstrument",
+  "costInCredits": 350,
+  "weight": 2.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

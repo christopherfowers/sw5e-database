@@ -1,0 +1,104 @@
+{
+  "key": "ax-108-sentry-gun",
+  "name": "Ax-108 Sentry Gun",
+  "size": "medium",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 33,
+    "roll": "6d8 + 6"
+  },
+  "speed": {
+    "walk": 0,
+    "text": "0 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 2,
+      "modifier": -4
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Targeting Systems",
+      "behaviorType": "trait",
+      "description": "The sentry gun uses its Intelligence modifier for attack, damage, and intitiative rolls.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Repeating Blaster Burst",
+      "behaviorType": "action",
+      "description": "The sentry gun sprays a 10-foot-cube area within 100 feet with shots. Each creature in the area must make a Dexterity saving throw (DC 14). On a failure, the creature takes 9 (1d12 + 3) energy damage. On a success, the creature takes half damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "Sentry guns come in a wide variety of different sizes, yields, and types. These weapons can typically be found near high-value areas such as detention cells, command centers, and laboratories. For best results, they are placed in areas such as corners, above security doors, or other positions that afford them a wide field of fire. Sentry guns are usually linked to the central security system, but can be operated manually by remote. Once activated, these turrets may use active sensors and preprogrammed criteria to identify threats and fire upon any hostiles they encounter. Sentry guns are also used on starships and may automatically engage nearby hostiles and are linked to the ship's central security system. Some sentry guns include targeting sensors that seek out energy signatures from enemy weapons, with built-in computers to determine which targets pose the most immediate threat.",
+  "sectionText": "A turret is a mount for a weapon that enabled it to turn and pivot, allowing it to fire in many different directions. They are mounted on many vehicles, starfighters, and starships. Other turrets are mounted on the ground, and can be both manned and un-manned. Weapons mounted on turrets included laser cannons and other types of projectile cannons.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

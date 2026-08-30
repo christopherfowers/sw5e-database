@@ -1,0 +1,10 @@
+{
+  "key": "artificer-s-implements",
+  "name": "Artificer's implements",
+  "category": "tool",
+  "costInCredits": 300,
+  "weight": 5.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

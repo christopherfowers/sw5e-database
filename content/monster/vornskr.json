@@ -1,0 +1,102 @@
+{
+  "key": "vornskr",
+  "name": "Vornskr",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 14,
+    "roll": "4d6"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 15,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +4",
+    "Stealth +6"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 14"
+  ],
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Force Tracking",
+      "behaviorType": "trait",
+      "description": "The vornskr can sense the presence of force creatures and objects up to 1 mile away. It knows the general direction they're in but not their exact locations.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Smell",
+      "behaviorType": "trait",
+      "description": "The vornskr has advantage on Wisdom (Perception) checks that rely on smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d8 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tail",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) kinetic damage plus 7 (2d6) poison damage. If the target is a creature it must also make DC 13 Constitution saving throw. On a failure, a creature is paralyzed for 1 minute. The creature can repeat this saving throw at end of each of its turns, ending the effect on itself.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "The vornskr, native to the planet Myrkr, are a wild, vicious canine species that have the unusual ability to sense the Force. This ability evolved to help them hunt ysalamiri, but a side effect caused them to think that Force-sensitives were their favorite prey, including Jedi in their appetite. Vornskrs were also used as guards in the Dark Force Temple on Dromund Kaas. The Yuuzhan Vong used the species as a biological template for the voxyn.\n\n***Behavior.*** Vornskrs are primarily nocturnal hunters, and use their whip-like, mildly venomous tails to stun prey before finishing them off with their teeth. They are normally sedate during the day, but hunger or other factors may drive them to hunt during daylight hours.\n\n***Lightsaber Form.*** Before Jedi Master Mace Windu refined it into Vaapad, the Form VII style of lightsaber combat was referred to as the Way of the Vornskr.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

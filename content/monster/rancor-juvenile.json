@@ -1,0 +1,92 @@
+{
+  "key": "rancor-juvenile",
+  "name": "Rancor, Juvenile",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 95,
+    "roll": "10d8+50"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 20,
+      "modifier": 5
+    },
+    "intelligence": {
+      "score": 4,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 9,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "darkvision 120 ft.",
+    "passive Perception 9"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The rancor makes two attacks: one with its claws, and one with its bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 7 (1d6+4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d6+4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 9 (1d10+4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 9,
+      "damageRoll": "1d10+4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Rancors are large carnivorous reptomammals native to the planet of Dathomir. They are commonly kept as pets by affluent, less-than-reputable types.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

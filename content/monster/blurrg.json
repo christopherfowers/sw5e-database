@@ -1,0 +1,96 @@
+{
+  "key": "blurrg",
+  "name": "Blurrg",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 67,
+    "roll": "9d10 + 18"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 6,
+      "modifier": -2
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 7,
+      "modifier": -2
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Athletics +6"
+  ],
+  "senses": [
+    "passive Perception 8"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Siege Monster",
+      "behaviorType": "trait",
+      "description": "The blurrg deals double damage to objects and structures.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sure-Footed",
+      "behaviorType": "trait",
+      "description": "The blurrg has advantage on Strength and Dexterity saving throws made against effects that would shove it or knock it prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Beast of Burden",
+      "behaviorType": "trait",
+      "description": "The blurrg is considered to be a Huge animal for the purposes of determining its carrying capacity.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "1d12 + 5",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Blurrgs were a two-legged non-sentient species that were used as beasts of burden on a number of worlds located across the galaxy, including Endor, Ryloth, and Zygerria. Stoic and strong, they are used for everything from agricultural labor to war; the Twi'lek Resistance on Ryloth rode blurrgs in battle during the Battle of Ryloth, where they were used at the final offensive against Separatist forces in Lessu, charging at droid troops with the Grand Army of the Republic's Lightning Squadron. The blurrg's huge mouth could chew through almost anything edible, which made it perfect for clearing savanna grass, weeds, and saplings. Blurrgs were strong, fast, but stupid—so much so that they walked right into small trees, knocking them down. The egg-laying creatures usually produced 5 or 6 babies at a time. In their early years babies stayed very close to their mothers for protection from Boar-wolves. Blurrgs communicated through a series of roars. They are also vicious when driven to a fury, and are reputedly noisy when agitated.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

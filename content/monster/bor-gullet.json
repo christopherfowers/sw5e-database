@@ -1,0 +1,176 @@
+{
+  "key": "bor-gullet",
+  "name": "Bor Gullet",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 180,
+    "roll": "19d10 + 76"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., swim 10 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 20,
+      "modifier": 5
+    },
+    "wisdom": {
+      "score": 18,
+      "modifier": 4
+    },
+    "charisma": {
+      "score": 17,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Con +9",
+    "Int +10",
+    "Wis +9"
+  ],
+  "skills": [
+    "Lore +10",
+    "Perception +9",
+    "Insight +14",
+    "Deception +8",
+    "Persuasion +8"
+  ],
+  "senses": [
+    "blindsight 120 ft.",
+    "passive Perception 18"
+  ],
+  "languages": [
+    "underst",
+    "s Galactic Basic but can't speak",
+    "telepathy 120 ft."
+  ],
+  "damageImmunities": {
+    "types": [
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ]
+  },
+  "challengeRating": "13",
+  "experiencePoints": 10000,
+  "behaviors": [
+    {
+      "name": "Creature Sense",
+      "behaviorType": "trait",
+      "description": "The bor gullet is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each such creature, as well as each such creature's intelligence score, but it can't sense anything else about it. Droids and creatures protected by a mind blank power or other similar power cannot be perceived in this manner.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Fortified Mind",
+      "behaviorType": "trait",
+      "description": "The bor gullet has advantage on saving throws against being charmed and frightened, and it can't be put to sleep.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the bor gullet fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Psychic Link",
+      "behaviorType": "trait",
+      "description": "The bor gullet can establish a psychic link with any creature that it successfully grapples with its tentacles. Until the psychic link ends, the bor gullet can perceive everything the target senses. The target is aware that its mind is linked, and the bor gullet can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Intelligence saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the bor gullet are more than 1 mile apart, with no consequences to the target. The bor gullet can form psychic links with up to ten creatures at a time.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The bor gullet makes three tentacle attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tentacle",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 6 (1d6 + 3) kinetic damage, and the target is grappled (escape DC 16) if it is Large or smaller. Until the grapple ends, the target takes 9 (1d8 + 5) psychic damage at the start of each of its turns, and bor gullet can't use this tentacle on another target. The bor gullet has six tentacles.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 20 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6 + 3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Mind Blast",
+      "behaviorType": "action",
+      "description": "The bor gullet emits psychic energy. Creatures of the bor gullet's choice within 60 feet of it must succeed on a DC 18 Intelligence saving throw or take 32 (5d10 + 5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    },
+    {
+      "name": "Sense Thoughts",
+      "behaviorType": "action",
+      "description": "The bor gullet targets a creature with which it has a psychic link. The bor gullet gains insight into the target's emotional state and any thoughts that loom large in its mind (including worries, loves, and hates). The bor gullet can also make a Charisma (Deception) check with advantage to deceive the target's mind into thinking it believes one idea or feels a particular emotion. The target contests this attempt with a Wisdom (Insight) check. If the bor gullet succeeds, the mind believes the deception for 1 hour or until evidence of the lie is presented to the target.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tentacle",
+      "behaviorType": "legendary",
+      "description": "The bor gullet makes a tentacle attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Break Concentration",
+      "behaviorType": "legendary",
+      "description": "The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet breaks the creature's concentration on a power it is using. The creature also takes 1d4 psychic damage per level of the power.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Psychic Pulse",
+      "behaviorType": "legendary",
+      "description": "The bor gullet targets a creature within 120 feet of it with which it has a psychic link. Enemies of the bor gullet within 10 feet of that creature take 10 (3d6) psychic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sever Psychic Link",
+      "behaviorType": "legendary",
+      "description": "The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Bor gullets are a non-sentient, tentacled species found in the galaxy. They have the unique ability to read minds, with the unfortunate side-effect of causing insanity. As a result, they were often used as a form of torture. Notably, Saw Gerrera's Partisans owned a bor gullet, and Harra the Hutt had collected a bor gullet in her menagerie on the planet Vodran.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

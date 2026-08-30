@@ -1,0 +1,79 @@
+{
+  "key": "reek-adolescent",
+  "name": "Reek, Adolescent",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 45,
+    "roll": "6d10+12"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 21,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "passive Perception 11"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the reek moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) kinetic damage. If the target is a Large or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Gore",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 14,
+      "damageRoll": "2d8+5",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Reeks are large, muscular quadrupeds native to the planet Ylesia. Though naturally herbivores, a starved reek can become a ravenous meat-eater. They sport two large cheek horns that can be used for head-locking in combat with another Reek as a sign of dominance.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

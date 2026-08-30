@@ -1,0 +1,197 @@
+{
+  "key": "cyborg-khagan",
+  "name": "Cyborg Khagan",
+  "size": "medium",
+  "types": [
+    "humanoid (villainous"
+  ],
+  "alignment": "kaleesh)",
+  "armor": {
+    "class": 17,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 77,
+    "roll": "14d8 + 14"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft., climb 20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "savingThrows": [
+    "Con +5",
+    "Int +6"
+  ],
+  "skills": [
+    "Athletics +9",
+    "History +6",
+    "Intimidation +4",
+    "Perception +4",
+    "Stealth +7"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 14"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Huttese",
+    "Kaleesh",
+    "Nemodian"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ]
+  },
+  "challengeRating": "10",
+  "experiencePoints": 5900,
+  "behaviors": [
+    {
+      "name": "Villainous Hit Points",
+      "behaviorType": "trait",
+      "description": "Damage and healing only applies to the currently active hit point pool. When a pool is depleted of all hit points, it becomes inactive. Only one pool can be active at any time. If a hit point pool is depleted, the Cyborg Khagan immediately saves against all ongoing conditions and effects. Any abilities which can reset do so. If all pools of hit points are inactive, Cyborg Khagan is killed. If Cyborg Khagan takes a long rest, it fully heals the currently active pool and fully heals one depleted pool. Cyborg Khagan has multiple pools of hit points, each of which is tracked separately.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Villainous Exhaustion",
+      "behaviorType": "trait",
+      "description": "If a hit point pool is depleted, Cyborg Khagan also loses one villainous action. Cyborg Khagan may use a villainous action after any other creature takes a turn. If Cyborg Khagan does so, it regains its reaction. A villainous action is a complete turn. They have an action, bonus action and may move up to their full speed. The villainous actions refresh at the start of Cyborg Khagan's turn and any remaining actions from the previous turn are lost. Cyborg Khagan rolls initiative with advantage. Cyborg Khagan starts with a number of villainous actions equal to one less than it's villainous multiplier.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Jedi Slayer",
+      "behaviorType": "trait",
+      "description": "Cyborg Khagan has advantage on saving throws against force powers cast by enemies within 5 feett. When an enemy within 5 feet casts a force power, Cyborg Khagan can make a melee attack against that character as a reaction. When Cyborg Khagan damages an enemy character, they have disadvantage on Concentration saves to maintain their Force powers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Rage",
+      "behaviorType": "trait",
+      "description": "On Cyborg Khagan's turn, he may choose to go into a Rage as a bonus action. While in a rage, his attacks deal +3 damage, he has Advantage on strength-based skill checks and saving throws, and he has resistance to kinetic and energy damage. As part of the bonus action to go into a Rage, he can make a Lightsaber or unarmed attack. While in a Rage, all attacks against him have Advantage. The Rage lasts for 1 minute, or until Cyborg Khagan ends his rage as a Bonus action, or until Cyborg Khagan falls unconscious or loses all hitpoints in his current health pool.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "More Machine than Man",
+      "behaviorType": "trait",
+      "description": "Cyborg Khagan has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Cowardice",
+      "behaviorType": "trait",
+      "description": "While Cyborg Khagan has only one health pool remaining, he has Advantage on Stealth and Acrobatics checks, and he can take the Dash or Disengage actions as a Bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "On each of his turns, Cyborg Khagan can use one of Crush Them!, Frightful Presence, or Whirling Advance and then make one Unarmed Slam, Lightsaber, or Blaster attack; or he may make two attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Lightsaber",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack. +9 to hit, reach 5 ft., one target. Hit: 1d6+5 energy damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "Unarmed Slam",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack.+9 to hit, reach 5 ft., one target. Hit: 1d6+5 kinetic damage",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft.",
+      "targets": "one target"
+    },
+    {
+      "name": "Heavy Blaster Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack. +7 to hit, range 40/160, one target. Hit: 1d8+3 energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 7,
+      "range": "range 40/160",
+      "targets": "one target"
+    },
+    {
+      "name": "Crush Them!",
+      "behaviorType": "action",
+      "description": "Choose an ally within 30'. That ally can use their reaction to make an attack. If that attack hits, it deals an additional 1d8 damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Frightful Presence",
+      "behaviorType": "action",
+      "description": "Choose any number of characters within 80'. Each of those characters who fails a Wisdom saving throw (DC 14) becomes frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Cyborg Khagan's Frightful Presence for the next 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Whirling Advance",
+      "behaviorType": "action",
+      "description": "Whirling his blades, Cyborg Khagan advances with a shield of sparks and light. Choose a creature within 30 feet to make a DC 19 Dexterity saving throw. On a fail, the target is pushed 10 feet, Cyborg Khagan moves into their current square ignoring opportunity attacks, and he has advantage on his next attack against them this combat. On a success, Cyborg Khagan moves into a square adjacent to the target and opportunity attacks against Cyborg Khagan have disadvantage during that move.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "When Cyborg Khagan is attacked and hit by an adjacent character while he is holding one or more Lightsabers, he may use his reaction to reduce the damage taken by 1d10+15. If the damage is reduced to 0, he may use this reaction to make a Lightsaber attack against the attacker.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The Kolkpravis were a large united band of Kaleesh tribal warriors from the eastern hemisphere of the planet Kalee. The organization of the kolkpravis was naturally tribal, as well as the names. The beginning rank of the kolkpravis was a warrior, who made up a kamen. Kamen was lead by a blackarm. Roughly 100 kamen made up a horde, which was lead by a tarkhan. Around 100 to 200 hordes made up a brigade which was lead by baatars. From several brigades came a khanate' which was lead by one of the eight khans of the Izvoshra. The Supreme Commander of the kolkpravis was the khagan, a title held first by Qymaen jai Sheelal, the infamous Lord Grievous.",
+  "sectionText": "Kaleesh were reptilian humanoids from the planet Kalee. They had scaly skin, tusks, and long nostrils, though few outsiders ever saw a Kaleesh face that wasn't obscured behind a traditional mask. Kaleesh culture was deeply spiritual and warlike. War was seen as an essential part of life, and wars between tribes were common.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

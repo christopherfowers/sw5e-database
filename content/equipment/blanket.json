@@ -1,0 +1,10 @@
+{
+  "key": "blanket",
+  "name": "Blanket",
+  "category": "utility",
+  "costInCredits": 5,
+  "weight": 3.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

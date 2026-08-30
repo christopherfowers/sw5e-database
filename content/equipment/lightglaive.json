@@ -1,0 +1,23 @@
+{
+  "key": "lightglaive",
+  "name": "Lightglaive",
+  "category": "weapon",
+  "costInCredits": 2050,
+  "weight": 5.75,
+  "properties": [
+    "brutal 1",
+    "dexterity 13",
+    "luminous",
+    "reach",
+    "two-handed"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

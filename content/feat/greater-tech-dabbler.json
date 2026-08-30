@@ -1,0 +1,8 @@
+{
+  "key": "greater-tech-dabbler",
+  "name": "Greater Tech Dabbler",
+  "prerequisite": "The ability to cast 3rd-level tech powers",
+  "description": "You know one at-will tech power. Additionally, you know one 4th-level tech power, which you can cast once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

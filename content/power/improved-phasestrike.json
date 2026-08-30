@@ -1,0 +1,18 @@
+{
+  "key": "improved-phasestrike",
+  "name": "Improved Phasestrike",
+  "powerType": "force",
+  "level": 5,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "30 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "prerequisite": "Phasestrike",
+  "description": "Choose up to five creatures you can see within range. Make a melee force attack against each one. On hit, a target takes 6d10 force damage. You can then teleport to an unoccupied space you can see within 5 feet of one of the creatures you chose.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

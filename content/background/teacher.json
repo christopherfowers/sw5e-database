@@ -1,0 +1,168 @@
+{
+  "key": "teacher",
+  "name": "Teacher",
+  "lore": "You are an experienced teacher who knows how to best instruct others in an array of disciplines. Although you have a vast amount of knowledge yourself, pedagogy is the most important tool in your toolbox because it allows the rest of your knowledge to spread most efficiently.",
+  "skillProficiencies": "Choose two from Lore, Nature, Performance, and Technology",
+  "toolProficiencies": "One instrument or set of artisan's implements of your choice",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, an instrument or set of tools with which you are proficient, a token from a former student, and a belt pouch containing 50 cr",
+  "feature": {
+    "name": "Knowledge",
+    "description": "If you need information on something, you know if there is a book containing that information and where to find it. Further, when you hear a creature speaking or when you see language written down, you can identify exactly what language is being used even if you are not proficient in the language. Finally, when you hear music, you know which instruments are being used in the performance, even if you are not proficient in their use."
+  },
+  "suggestedCharacteristics": "As a teacher you are devoted to educating others, as well as learning new information for yourself. It is up to you whether you are preachy or wise, a bookworm or more kinesthetic, a note taker or visual learner. In any case, you are most likely underappreciated.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "Books are my everything."
+    },
+    {
+      "roll": 2,
+      "description": "Knowledge is the most important thing in the world."
+    },
+    {
+      "roll": 3,
+      "description": "I have quotes for every occasion."
+    },
+    {
+      "roll": 4,
+      "description": "My vocabulary is vast enough I sometimes use words that are larger than necessary."
+    },
+    {
+      "roll": 5,
+      "description": "I love working with kids."
+    },
+    {
+      "roll": 6,
+      "description": "Because I understand why people can make mistakes, I am also patient with them."
+    },
+    {
+      "roll": 7,
+      "description": "Sometimes I start explaining things at a level much to basic for the audience."
+    },
+    {
+      "roll": 8,
+      "description": "I reward hard work and good manners."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Teach",
+      "description": "I must spread what I have learned. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Insatiable",
+      "description": "When I find something new I must learn everything about it, no matter the cost. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Discovery",
+      "description": "Every single piece of information is waiting to be discovered. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Greed",
+      "description": "Every piece of knowledge will be mine. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I will teach anybody anything. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Power",
+      "description": "Knowledge is power. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I was picked on while growing up for being a bookworm."
+    },
+    {
+      "roll": 2,
+      "description": "The world is such an open place, I feel like there is still so much to learn. I want to compile knowledge from different places."
+    },
+    {
+      "roll": 3,
+      "description": "I like reading books and writing, but I'm no poet yet. It is just a hobby I want to share with others, looking for exotic inspirations."
+    },
+    {
+      "roll": 4,
+      "description": "I will become the power behind the throne by controlling the information the throne receives."
+    },
+    {
+      "roll": 5,
+      "description": "Children are our future, and I will mold them."
+    },
+    {
+      "roll": 6,
+      "description": "I can't teach what I don't know. I will teach everything."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "Someone showing bad manners does not exist to me. I will never talk to or acknowledge that person."
+    },
+    {
+      "roll": 2,
+      "description": "I overemphasize the importance of discipline."
+    },
+    {
+      "roll": 3,
+      "description": "I invest so much time into planning that I can't bring myself to deviate from the plan, even when it is needed."
+    },
+    {
+      "roll": 4,
+      "description": "I look down on uneducated adults."
+    },
+    {
+      "roll": 5,
+      "description": "I'd give up my companions for a piece of secret information."
+    },
+    {
+      "roll": 6,
+      "description": "I can't stand not reading at least one page of a book a day."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 2,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 3,
+      "name": "Performer"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Entertainer"
+    },
+    {
+      "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Feigned Confidence"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

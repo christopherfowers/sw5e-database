@@ -1,0 +1,87 @@
+{
+  "key": "kiffar",
+  "name": "Kiffar",
+  "size": "medium",
+  "homeworld": "Kiffu, Kiffex",
+  "nativeLanguage": "Galactic Basic",
+  "lore": "### Biology and Appearance\nThe kiffar are very closely related to humans, enough that they can interbreed, though kiffar typically have darker hair. The biggest visual difference between the two is that the kiffar always wear tattoos, that represent their clan. Kiffar are more likely to be Force-sensitive, which is typically manifested in psychometry, a rare Force power that about one percent of the kiffar population can use. Using psychometry, kiffar can touch objects and receive visions from the Force that show them the object's past.\n\n### Society and Culture\nThe kiffar reside on the planets of Kiffu and Kiffex. Kiffar are a people who value their own independence, staying out of galactic affairs and being ruled only by themselves. They see outsiders as dangerous and are generally nationalists. They are organized into clans, and clan heritage is very important to them. Their markings, which they call qukuuf, are passed down through the family maternally, but kiffar with a human mother will typically use their father's tattoos. Conversely, clan membership is passed down paternally, and those with a human father can join their mother's clan. The traditional colors of the facial tattoos are red, yellow, and green. Various patterns and designs are used to identify the clan.\n\nKiffu Guardians, also known as the Guardians of Kiffu, are an important kiffar institution that acts as a police force in their space. The Kiffu Guardians wear black armor, and they share a symbol with clan Vos, which is a gold five-pointed star outlined by a circle.\n\n### Names\nKiffar use names similar to those of humans, varying drastically clan by clan. Surnames are familiar.\n\n**Male Names.** Kurros, Sathran, Vis, Ziflos\n\n**Female Names.** Grai, Ian�, Kinnas, Sonti\n\n**Surnames.** Gov, Keffane, Mullisa, Vel",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength or Dexterity score increases by 2, and your Wisdom or Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Kiffar reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Kiffar are independent and free spirited, causing them to tend towards chaotic alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Kiffar vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Iron Will",
+      "description": "You have advantage on saving throws against being charmed."
+    },
+    {
+      "name": "Nimble Reflexes",
+      "description": "Kiffar are naturally adapted to avoiding the Force. You have advantage on Dexterity and Intelligence saving throws against force powers."
+    },
+    {
+      "name": "Tribal Warrior",
+      "description": "You have proficiency with two vibroweapons of your choice."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and one extra language of your choice. Kiffar never had a tongue to call their own, using Galactic Basic as far back as their history goes."
+    },
+    {
+      "name": "Kiffar Heritage",
+      "description": "A small percentage of the kiffar population are naturally Force-sensitive, able to read the memories contained within inanimate objects, while others train to become proud guardians of their home sector. You choose one of the following heritages:"
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength",
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom",
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "115 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Near-human, rare psychometry ability",
+    "skinColorOptions": "Light to dark tones",
+    "hairColorOptions": "Black or brown",
+    "eyeColorOptions": "Orange, brown, green, blue, or gray"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kiffar.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

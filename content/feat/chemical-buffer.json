@@ -1,0 +1,12 @@
+{
+  "key": "chemical-buffer",
+  "name": "Chemical Buffer",
+  "abilityScoreIncreases": [
+    "dexterity",
+    "constitution",
+    "intelligence"
+  ],
+  "description": "You're able to neutralize caustic chemicals, mitigating their worst effects. You gain the following benefits:\n- Increase your Dexterity, Constitution, or Intelligence score by 1, to a maximum of 20.\n- You cannot be disintegrated, and you ignore the first corroded level you receive.\n- You have advantage on saving throws made to avoid acid damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

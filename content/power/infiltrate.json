@@ -1,0 +1,17 @@
+{
+  "key": "infiltrate",
+  "name": "Infiltrate",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target attacks, casts a power, or otherwise take a hostile action.\n\n***Overcharge Tech.*** You can target one additional creature for each slot level above 2nd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

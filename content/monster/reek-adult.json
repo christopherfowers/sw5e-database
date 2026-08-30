@@ -12,7 +12,7 @@
   },
   "hitPoints": {
     "average": 114,
-    "roll": "12d12 + 36"
+    "roll": "12d12+36"
   },
   "speed": {
     "walk": 50,
@@ -47,9 +47,6 @@
   "senses": [
     "passive Perception 11"
   ],
-  "languages": [
-    "—"
-  ],
   "challengeRating": "7",
   "experiencePoints": 2900,
   "behaviors": [
@@ -63,17 +60,20 @@
     {
       "name": "Gore",
       "behaviorType": "action",
-      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) kinetic damage.",
+      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8+6) kinetic damage.",
       "attackType": "meleeWeapon",
       "attackBonus": 9,
       "range": "reach 5 ft.",
       "targets": "one target",
       "averageDamage": 24,
-      "damageRoll": "4d8 + 6",
+      "damageRoll": "4d8+6",
       "damageType": "kinetic"
     }
   ],
   "sectionText": "Reeks are large, muscular quadrupeds native to the planet Ylesia. Though naturally herbivores, a starved reek can become a ravenous meat-eater. They sport two large cheek horns that can be used for head-locking in combat with another Reek as a sign of dominance.",
   "sourceKey": "snv",
-  "contentSet": "core"
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
 }

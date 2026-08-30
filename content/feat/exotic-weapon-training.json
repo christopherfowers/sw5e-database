@@ -1,0 +1,12 @@
+{
+  "key": "exotic-weapon-training",
+  "name": "Exotic Weapon Training",
+  "abilityScoreIncreases": [
+    "strength",
+    "dexterity",
+    "constitution"
+  ],
+  "description": "Mastery of simple and martial weapons has unlocked new potential for you. You gain the following benefits:\n- Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.\n- You gain proficiency in three exotic weapons. You must have proficiency in all simple and martial weapons in the exotic weapon's category to gain proficiency in it. If the exotic has modes that would fall in two different weapon categories, you require proficiency all simple and martial weapons in both categories in order to gain proficiency in that exotic.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

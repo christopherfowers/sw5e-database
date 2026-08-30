@@ -1,0 +1,17 @@
+{
+  "key": "carbon-fog",
+  "name": "Carbon Fog",
+  "powerType": "tech",
+  "level": 6,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You create a cloud of icy fog in a 20-foot-radius sphere centered on a point you can see. The sphere extends around corners, and its area is heavily obscured. The fog is semi-solid, and its area is considered difficult terrain. Each creature that enters the power's area for the first time on a turn or starts its turn there takes 4d6 cold damage and gains 1 slowed level until the end of its turn. The fog lasts for the duration of the power or until it's dispersed by a wind of moderate or greater speed (at least 10 mph).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,85 @@
+{
+  "key": "neimoidian",
+  "name": "Neimoidian",
+  "size": "medium",
+  "homeworld": "Neimoidia",
+  "nativeLanguage": "Pak Pak",
+  "lore": "### Biology and Appearance\nNeimoidians are distant genetic relatives of the duros and retain many similarities to them, including basic form, noseless faces, and green-blue skin (though neimoidians tend to be grayer). Their eyes also have pupils that split horizontally, and they are distinguished by small lumps on their foreheads and down-turned mouths. Instead of noses, they have olfactory glands underneath their eyes. These genetic differences are attributed to the distinct features of their homeworld, Neimoidia, including its gravity, which is markedly heavier than duro.\n\n### Society and Culture\nNeimoidians spend their formative years as puny grubs in the communal hives of Neimoidia, until the age of seven standard years. They are knowingly neglected by being given limited amounts of food. This way, the weaker individuals are weeded out, while the most acquisitive grubs hoard more food than they can eat by themselves. Neimoidian education ensures the survival of the greediest. Neimoidians place tremendous value on wealth and material possessions, and would go to great lengths to gain money and power. This has resulted in a stereotype of neimoidians being greedy and cowardly. While not all neimoidians are easily intimidated, many prefer to avoid direct combat.\n\n### Names\nNeimoidian names are usually short and easy to pronounce, to make them more memorable to other species that approach them as consumers. Their surnames are familial.\n\n**Male Names.** Lok, Gap, Krinit, Mar, Nute\n\n**Female Names.** Bu, Fia, Feza, Vissi\n\n**Surnames.** Dod, How, Kethe, Preelli, Tuuk",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Neimoidians reach adulthood in their 20s and live about 150 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Neimoidians' greedy nature causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Neimoidians typically stand around 6 feet tall and generally weigh about 135 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Grovel, Cower, and Beg",
+      "description": "As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Smooth Talker",
+      "description": "You have proficiency in Deception and Persuasion."
+    },
+    {
+      "name": "Wealthy",
+      "description": "During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Pak Pak. Pak Pak is often considered an elegant-sounding language by those who hear it. It consists of husky sighs and guttural ululations."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'1\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "90 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Horizontal pupils, noseless",
+    "skinColorOptions": "Green-gray",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Dark red or pink"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_neimoidian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

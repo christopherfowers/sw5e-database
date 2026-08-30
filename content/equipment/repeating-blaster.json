@@ -1,0 +1,25 @@
+{
+  "key": "repeating-blaster",
+  "name": "Repeating blaster",
+  "category": "weapon",
+  "costInCredits": 1025,
+  "weight": 9.0,
+  "properties": [
+    "auto",
+    "burst 4",
+    "power cell (range 75/300)",
+    "rapid 4",
+    "reload 8",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

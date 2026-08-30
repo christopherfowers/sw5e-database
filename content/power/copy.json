@@ -1,0 +1,17 @@
+{
+  "key": "copy",
+  "name": "Copy",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "This power creates a perfect duplicate of any written, drawn, or digital visual, audio or text-based data that you touch onto a datapad or datacard you supply. You can copy up to 10 pages of text or 10 minutes of visual or audio data with one casting of this power. Enhanced documents, such as datacrons, blueprints, or encrypted documents, can't be copied with this power.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "nervebaton",
+  "name": "Nervebaton",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 2.0,
+  "properties": [
+    "disruptive",
+    "neuralizing 13"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

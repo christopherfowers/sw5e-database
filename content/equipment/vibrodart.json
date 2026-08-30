@@ -1,0 +1,22 @@
+{
+  "key": "vibrodart",
+  "name": "Vibrodart",
+  "category": "weapon",
+  "costInCredits": 5,
+  "weight": 0.5,
+  "description": "Due to their diminutive size, vibrodarts make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage.",
+  "properties": [
+    "finesse",
+    "special",
+    "thrown (range 20/60)"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "carbonite-explosion",
+  "name": "Carbonite Explosion",
+  "powerType": "tech",
+  "level": 9,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "250 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You generate an explosion of cryogenic energy in a 60-foot-radius sphere centered on a point you can see\n\nwithin range. Each creature in the affected area must make a Constitution saving throw. On a failed save, the creature takes 8d6 + 20 cold damage and is restrained for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is restrained until the end of its next turn.\n\nAs an action, a restrained creature can make a Strength check against your tech save DC, ending this effect on itself on a success.\n\nA creature reduced to 0 hit points by this power dies instantly, as its body shatters into frozen chunks.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

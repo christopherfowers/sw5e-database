@@ -1,0 +1,10 @@
+{
+  "key": "fanfar",
+  "name": "Fanfar",
+  "category": "musicalInstrument",
+  "costInCredits": 220,
+  "weight": 4.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

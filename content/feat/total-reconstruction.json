@@ -1,0 +1,11 @@
+{
+  "key": "total-reconstruction",
+  "name": "Total Reconstruction",
+  "prerequisite": "Type beast or humanoid",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You are more machine than man. While repaired in a similar configuration as your own species, you are subject to the following changes:\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- Choose one class of droid (class I-V or tracker). You count as the chosen creature type in addition to your other type.\n- You are resistant to necrotic and poison damage, and are immune to poison and disease.\n- You do not need to eat or drink. Additionally, you no longer require a tech focus to cast tech powers.\n- You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.\n- You can not sense the Force, use force powers, or take levels in forcecasting classes.\n- You are no longer a valid target for cybernetic augmentations or genetic mutations. However, you are now a valid target for droid customizations.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

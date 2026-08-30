@@ -1,0 +1,77 @@
+{
+  "key": "rock-wart",
+  "name": "Rock Wart",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 13,
+    "roll": "3d8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 9,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 3,
+      "modifier": -4
+    }
+  },
+  "skills": [
+    "Stealth +4"
+  ],
+  "senses": [
+    "blindsight 30 ft.",
+    "passive Perception 9"
+  ],
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, Reach 5 ft., one target. Hit: 1 (1d3-1) kinetic damage, and the target must make a Constitution saving throw (DC 14). On a success, the creature is unaffected by the venom. On a failure, the creature loses 1d6 Strength, then must attempt another save 1 minute (10 rounds) later. If the second save fails, the creature loses an additional 1d6 Strength. If this reduces the creature's Strength to 0 or lower, it dies.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "Reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 1,
+      "damageRoll": "1d3-1",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Rock warts were orange/brown insect-like crustaceans found on many planets. Their bite delivered a neurotoxin to their victim, which was then used as an incubator for up to twenty eggs.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

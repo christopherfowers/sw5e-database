@@ -1,0 +1,17 @@
+{
+  "key": "cloud-mind",
+  "name": "Cloud Mind",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "90 feet",
+  "duration": "1 minute",
+  "concentration": false,
+  "description": "Roll 5d8; the total is how many hit points of creatures this power can affect. Creatures within 20 feet of a point you choose are affected in order of their current hit points.\n\nStarting with the creature that has the lowest current hit points, each creature affected by this power falls unconscious. If the power ends, the sleeper takes damage, or someone uses an action wake the sleeper, they will be awoken.\n\nSubtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.\n\nThis power has no effect on droids or constructs.\n\n***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, you can roll an additional 2d8 for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

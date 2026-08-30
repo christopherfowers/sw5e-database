@@ -1,0 +1,10 @@
+{
+  "key": "bedroll",
+  "name": "Bedroll",
+  "category": "utility",
+  "costInCredits": 10,
+  "weight": 7.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

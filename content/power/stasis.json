@@ -1,0 +1,18 @@
+{
+  "key": "stasis",
+  "name": "Stasis",
+  "powerType": "force",
+  "level": 5,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "90 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Stun",
+  "description": "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs.\n\n***Force Potency.*** When you cast this power using a force slot of 6th level or higher, you can target an additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

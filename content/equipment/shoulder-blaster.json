@@ -1,0 +1,24 @@
+{
+  "key": "shoulder-blaster",
+  "name": "Shoulder blaster",
+  "category": "weapon",
+  "costInCredits": 1275,
+  "weight": 3.0,
+  "description": "Mounted by the shoulder slot, a shoulder blaster does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.",
+  "properties": [
+    "power cell (range 40/160)",
+    "rapid 4",
+    "reload 16",
+    "smart (15/+2)",
+    "special"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "force-imbuement",
+  "name": "Force Imbuement",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Touch",
+  "duration": "1 minute",
+  "concentration": false,
+  "description": "The crystal inside of a simple lightweapon or the material of a simple vibroweapon or an improvised weapon you are holding is imbued with the power of the Force. For the duration, you can use your forcecasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes 1d8. The weapon also becomes enhanced, if it isn't already, and you become proficient with it, if you aren't already. The power ends if you cast it again or if you let go of the weapon.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

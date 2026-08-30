@@ -1,0 +1,10 @@
+{
+  "key": "tinker-s-implements",
+  "name": "Tinker's implements",
+  "category": "tool",
+  "costInCredits": 500,
+  "weight": 0.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

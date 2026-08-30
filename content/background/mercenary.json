@@ -156,6 +156,10 @@
     },
     {
       "roll": 7,
+      "name": "Weapon Expert"
+    },
+    {
+      "roll": 8,
       "name": "Durable"
     }
   ],

@@ -1,0 +1,17 @@
+{
+  "key": "slow-release-medpac",
+  "name": "Slow-Release Medpac",
+  "powerType": "tech",
+  "level": 3,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (30-foot radius)",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "Kolto energy radiates from you in an aura with a 30-foot radius. Until the power ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points. This power has no effect on droids or constructs.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

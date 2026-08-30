@@ -1,0 +1,93 @@
+{
+  "key": "diathim",
+  "name": "Diathim",
+  "size": "medium",
+  "homeworld": "Iego",
+  "nativeLanguage": "Galactic Basic",
+  "lore": "### Biology and Appearance\nDiathim are a mysterious species of winged sentients famed for their radiance and beauty. They often make appearances as angelic figures in the folklore of numerous species. Their bodies naturally give off an intense light, obfuscating their physical forms to the naked eye. They have three pairs of thin, translucent wings that appear fragile, but are more than capable of flight. Diathim have been known to survive in the vacuum of space without the need for protective gear, and have a mild hypnotic effect on others in their presence, adding to the legends surrounding them.\n\n### Society and Culture\nThe diathim give off an aura of kindness, and are consistently described as benevolent by spacers, causing tales of their rare appearances to morph over time into the grandiose mythology of the \"Angels.\" The diathim are reputed for their beauty, and the way in which they appear varies depending on the beholder. Diathim are fascinated by spacecraft, which often prompted them to mob any ships that found themselves in the vicinity of their homeworld Iego and its largest moon Millius Prime.\n\nDiathim have only commonly been seen gathering in flocks to welcome arriving ships, and knowledge of their habitat remains a mystery to outsiders. Although they have no apparent language of their own, they have readily adopted Galactic Basic, the common language of the galaxy.\n\n### Names\nTraditional diathim names are difficult to pronounce. When among other species, they tend to simply go by shortened nicknames for others to refer to them by.\n\n**Birth Names.** Aiubhirr'merh, D'yz'xarh, Ihuithrhe, Vyxendel'ahitraxr\n\n**Nicknames.** Mirra, Diz, Huu, Vix",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Diathim reach adulthood in their late teens and live about 100 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Diathim are naturally empathetic, causing them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Diathim typically stand 6 to 9 feet tall and generally weigh about 100 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Type",
+      "description": "Your creature type is both aberration and humanoid."
+    },
+    {
+      "name": "Celestial Physiology",
+      "description": "You can survive for one day within the vacuum of space."
+    },
+    {
+      "name": "Enthralling Hypnosis",
+      "description": "You can use your psychic aura to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs."
+    },
+    {
+      "name": "Flight",
+      "description": "You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half."
+    },
+    {
+      "name": "Fragile",
+      "description": "Diathim are too weak to pack much of a punch. You have disadvantage on Strength saving throws, and when determining your bonus to attack and damage rolls for weapon attacks using Strength, you can't add more than +3."
+    },
+    {
+      "name": "Luminescent Aura",
+      "description": "Starting at 3rd level, you can use your action to amplify your radiant aura, causing a searing light to radiate from you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take psychic damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra psychic damage to one target when you deal damage to it with an attack or a power. The extra psychic damage equals your level."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and one extra language of your choice."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'6\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "80 lb.",
+    "weightModifier": "x(1d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Six wings, yellow aura, hypnotic abilities",
+    "skinColorOptions": "Glowing white",
+    "hairColorOptions": "Blonde, light brown",
+    "eyeColorOptions": "Varies"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_diathim.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

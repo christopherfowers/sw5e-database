@@ -1,0 +1,21 @@
+{
+  "key": "vibromace",
+  "name": "Vibromace",
+  "category": "weapon",
+  "costInCredits": 700,
+  "weight": 7.0,
+  "properties": [
+    "dexterity 11",
+    "heavy",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

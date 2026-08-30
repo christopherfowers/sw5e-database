@@ -1,0 +1,85 @@
+{
+  "key": "abyssin",
+  "name": "Abyssin",
+  "size": "medium",
+  "homeworld": "Byss",
+  "nativeLanguage": "Abyssin",
+  "lore": "### Biology and Appearance\nThe hulking abyssin have long limbs and a single large eye that dominates their foreheads. Typically well-muscled, the abyssin's stooping gait results in a slightly hunched appearance.\n\nA distinctive trait of the abyssin is their ability to heal quickly; their fast regeneration is believed to have been an adaptation to prevent fluid loss via bleeding on their desert homeworld. All cells in the abyssin body are replaced every 80 hours, and organs which typically were paired in other species appear singularly.\n\n### Society and Culture\nA primitive tribal society, the abyssin of Byss are known as violent and brutish, and their planet is avoided by most beings in the civilized galaxy. Unstable resources on Byss do not allow for mass population growth or for the stabilization of a central government, economy or trade system.\n\nExisting simply in nomadic tribes, abyssin groups can interact peacefully with one another, though only if both groups have plentiful water and food supplies. Otherwise, they began a 'Blooding', a brawl that ends only when one tribe's warriors are all killed, captured, or incapacitated. Warriors who survive a Blooding are usually allowed to join the winning tribe once they finish their regeneration. This tradition led to some violent incidents when spacers tried to make first contact and trade with Abyssin tribes with scarce water resources, especially since the abyssin assumed the alien traders could regenerate as quickly as they did.\n\n### Names\nThere does not appear to be any distinction between male and female names for abyssin. Abyssin don't use surnames.\n\n**Names.** Anami, Easym, Myo, Qawohl, Seh-run, Sidie",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Abyssin reach adulthood at age 30 and can live up to 300 years thanks to their regenerative abilities."
+    },
+    {
+      "name": "Alignment",
+      "description": "Abyssin's violent and anarchic upbringing cause them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Abyssin stand around 6 feet tall and weigh between 200 and 400 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Rapidly Regenerative",
+      "description": "You heal quickly, both at will and in response to danger. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points. Additionally, when you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0."
+    },
+    {
+      "name": "Rugged Survivalist",
+      "description": "You are proficient in the Survival skill. Additionally, you are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Tech-Impaired",
+      "description": "While abyssin can figure out basic technology, they experience difficulty using more complex equipment like wristpads. You can not use tech powers or take levels in techcasting classes."
+    },
+    {
+      "name": "Savage Attacks",
+      "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Abyssin. Abyssin uses mainly growls and grunts that many species consider primitive. The written form of language uses only a small number of simple hieroglyphs."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "150 lbs.",
+    "weightModifier": "x2d4 lbs."
+  },
+  "appearance": {
+    "distinctions": "Single eye, regenerative abilities",
+    "skinColorOptions": "Green, tan",
+    "hairColorOptions": "Black, turning white with age",
+    "eyeColorOptions": "Yellow, white"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_abyssin.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

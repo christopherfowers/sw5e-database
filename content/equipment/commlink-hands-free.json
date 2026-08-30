@@ -1,0 +1,11 @@
+{
+  "key": "commlink-hands-free",
+  "name": "Commlink, hands-free",
+  "category": "communications",
+  "costInCredits": 200,
+  "weight": 1.0,
+  "description": "A hands-free commlink functions as a commlink, but can be installed in a helmet or worn independently, such as on your head or ear.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

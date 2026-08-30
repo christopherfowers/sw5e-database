@@ -1,0 +1,18 @@
+{
+  "key": "wakefulness",
+  "name": "Wakefulness",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 8 hours",
+  "concentration": true,
+  "prerequisite": "Breath Control",
+  "description": "You use the Force to control your body's functions. For the duration, you gain the following benefits:\n\n- You ignore the effects of any levels of exhaustion you have.\n- You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch.\n\nIf you still have any levels of exhaustion when this power ends, you must make a DC 15 Constitution saving throw. On a failed save, you gain one additional level of exhaustion.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

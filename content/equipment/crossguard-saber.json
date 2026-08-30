@@ -1,0 +1,23 @@
+{
+  "key": "crossguard-saber",
+  "name": "Crossguard saber",
+  "category": "weapon",
+  "costInCredits": 725,
+  "weight": 3.25,
+  "properties": [
+    "defensive 1",
+    "dexterity 13",
+    "heavy",
+    "luminous",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

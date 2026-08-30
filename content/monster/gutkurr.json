@@ -1,0 +1,87 @@
+{
+  "key": "gutkurr",
+  "name": "Gutkurr",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 16,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 45,
+    "roll": "6d10 + 12"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 8,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 9"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Wounded Fury",
+      "behaviorType": "trait",
+      "description": "While it has 10 hit points or fewer, the gutkurr has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The gutkuur can make two claw attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 12,
+      "damageRoll": "2d8 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Gutkurrs are a species of predatory insectoid carnivores native to the planet Ryloth. ***Biology & Appearance.*** Gutkurrs have both reptilian and insectoid characteristics. Their two-legged gait is very similar to that of a reptilian species, whereas their hard-shelled, spined carapace and sharp-mandible heads appear very insect-like. They ere approximately two meters high, and their tough hide and carapace are able to withstand several blaster shots. They are also carnivorous and very aggressive. They display little intelligence. They make a noise that sounds between a roar and a hiss.\n\n***Clone Wars.*** During the Clone Wars, the Confederacy of Independent Systems deployed gutkurrs to attack Galactic Republic clone troopers during the Battle of Ryloth. Gutkurrs were resistant to blaster bolts and were said to be the second-most dangerous predator on Ryloth, the first being lyleks. ***Distribution.*** Gutkurrs were found on the planet Ryloth and on the planet Onderon.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

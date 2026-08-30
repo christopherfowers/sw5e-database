@@ -1,0 +1,93 @@
+{
+  "key": "arcona",
+  "name": "Arcona",
+  "size": "medium",
+  "homeworld": "Cona",
+  "nativeLanguage": "Arconese",
+  "lore": "### Biology and Appearance\nArcona have anvil-shaped heads, claws, marble-like eyes, and protective skin. Cona is always hot, and has very little water, but the atmosphere is filled with ammonia vapor. Arcona adapted to this environment by eating the ammonia-converting roots of flora as a source of water. Arcona depended on the ammonia to live and, as a result, arcona living offworld have to take ammonia supplements. Despite their large eyes, arcona have very poor eyesight. Their eyes, made up of thousands of photoreceptors, can not detect fine shapes, only seeing blurry objects. To aid this, they have a small sensory organ between their eyes. Often mistaken for their nose, this organ detects heat patterns from living beings. Thus, arcona can recognize things by its heat pattern.\n\nArcona are highly susceptible to addiction to spice and common salt, which serves as a hallucinogen with effects resembling that of intoxication. Their eyes shift to gold after prolonged addiction.\n\n### Society and Culture\nArcona normally think of themselves not as individuals but as a collective whole. Largely forsaking individuality, they often refer to themselves as \"we\" even when alone. The arcona live in loose, family-based communities called nests, which are ruled by a Grand Nest. Because arcona are born in nests underground, they obtain a close sense of family living in close quarters with siblings. Males raise the young, since females are typically impulsive thrill-seekers.\n\n### Names\nArcona names are quite diverse, named by their fathers in the nest. Surnames are either familial or nest-based.\n\n**Male Names.** Bijrik, El, Jat, Kazat, Onalol, Shle\n\n**Female Names.** Ak, Cimam, Cuten, He, Madan, Omik\n\n**Surnames.** Cheen, -drell, -faxel, Shran, Takonak, -voll",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Arcona reach adulthood in their late teens and live for more than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Arcona tend toward no particular alignment. They can vary from the chaotic thrillseekers to the orderly lawkeepers. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Arcona typically stand 5 and a half to 6 and a half feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your sharp talons are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Clever",
+      "description": "You have proficiency in one Intelligence skill of your choice."
+    },
+    {
+      "name": "Easily Addicted",
+      "description": "Arcona are susceptible to spice addiction, and as a result you are taught to identify it from an early age. Additionally, consuming salt can cause them to hallucinate, potentially replicating the effects of spice. Whenever you make an ability check related to identifying salt or spice or seeing whether something contains salt or spice, you have advantage."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Keen Smell",
+      "description": "You have advantage on Wisdom (Perception) checks that involve smell."
+    },
+    {
+      "name": "Reptilian Senses",
+      "description": "Whenever you make a Wisdom (Perception) check related to sensing heat, you are considered to have expertise in the Perception skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Arconese. Arconese is spoken through complex, guttural squeaks from the back of the throat. However, arcona born and raised in colonies outside of Cona often did not learn Arconese, but the local language instead."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'0\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "95 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Flat heads, easily addicted",
+    "skinColorOptions": "Ebony to mahogany",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Green, blue, pink, gold when addicted"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_arcona.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,132 @@
+{
+  "key": "dark-side-spirit",
+  "name": "Dark Side Spirit",
+  "size": "medium",
+  "types": [
+    "undead"
+  ],
+  "alignment": "neutral dark",
+  "armor": {
+    "class": 13
+  },
+  "hitPoints": {
+    "average": 40,
+    "roll": "9d8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., fly 40 ft. (hover)"
+  },
+  "abilities": {
+    "strength": {
+      "score": 6,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 17,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 17,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 15,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Int +6",
+    "Wis +5"
+  ],
+  "skills": [
+    "Perception +5",
+    "Stealth +6"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 15"
+  ],
+  "languages": [
+    "the languages it knew in life"
+  ],
+  "damageResistances": {
+    "types": [
+      "acid",
+      "fire",
+      "sonic",
+      "kinetic"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "cold",
+      "necrotic",
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "poisoned",
+      "prone",
+      "restrained"
+    ],
+    "other": [
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "behaviors": [
+    {
+      "name": "Incorporeal Movement",
+      "behaviorType": "trait",
+      "description": "The spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Maddening Touch",
+      "behaviorType": "action",
+      "description": "Melee Power Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6+3) psychic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 17,
+      "damageRoll": "4d6+3",
+      "damageType": "psychic"
+    },
+    {
+      "name": "Whispers of Madness",
+      "behaviorType": "action",
+      "description": "The spirit chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the spirit's choice that the spirit can see.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Howling Babble",
+      "behaviorType": "action",
+      "description": "Each creature within 30 feet of the spirit that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 6"
+    }
+  ],
+  "sectionText": "While most Jedi would lose their solid form and become one with the Force upon their death, some had learned a technique to retain their own identities separate from the Force for a time. Those individuals could linger in the physical world in the form of \"Force Spirits,\" nonphysical entities that exhibited most traits and abilities they had in life. According to the knowledge contained in Asli Krimsan's holocron, that feat could be achieved by sublimating one's organic cells into a state of pure energy. In its \"normal\" state, a Force Spirit could only interact with other noncorporeal entities. In order to be heard or seen by the living, the Spirit had to manifest itself. There were different types of manifestation. On a basic level, a Force ghost could appear as a floating, milky gray mass of energy that lacked distinctive features. But it could also manifest itself as the exact image of the dead being during their lifetime, only transparent and emitting a bluish glow. While it could appear to anyone it wished, a spirit could not choose to become audible or visible to only some beings and not the others, since the ability to perceive the manifestation depended on the beholder's strength in the Force. While many Force ghosts could appear as a vision of their former selves unmarked by injury or disease, others still bore the marks of what killed them. Normally, force spirits could neither harm nor be harmed by physical entities, due to their spiritual nature. For the same reason, they could pass through solid matter effortlessly and were never hampered in their movements. While some spirits would simulate the walk of the living beings, subject to gravity, others would hover and drift above ground level. However, in some cases, a spirit could acquire temporary solidity by drawing on a living creature's link with the Force, which allowed it to actually touch the material world for a time. A manifested spirit could wield Force powers, although not all of them. It also had the ability to travel instantaneously to any point in the galaxy by force of will, as long as the spirit was familiar with that place.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

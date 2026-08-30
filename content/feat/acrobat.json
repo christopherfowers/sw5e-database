@@ -1,0 +1,10 @@
+{
+  "key": "acrobat",
+  "name": "Acrobat",
+  "abilityScoreIncreases": [
+    "dexterity"
+  ],
+  "description": "You become more nimble, gaining the following benefits:\n- Increase your Dexterity score by 1, to a maximum of 20.\n- You gain proficiency in the Acrobatics skill. If you are already proficient in it, you instead gain expertise in it.\n- As a bonus action, you can make a DC 15 Dexterity (Acrobatics) check. If you succeed, difficult terrain doesn't cost you extra movement until the end of the current turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

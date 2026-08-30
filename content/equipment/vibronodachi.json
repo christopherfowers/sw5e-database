@@ -1,0 +1,22 @@
+{
+  "key": "vibronodachi",
+  "name": "Vibronodachi",
+  "category": "weapon",
+  "costInCredits": 2200,
+  "weight": 12.0,
+  "properties": [
+    "dexterity 17",
+    "piercing 1",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

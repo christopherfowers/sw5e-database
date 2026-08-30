@@ -1,0 +1,78 @@
+{
+  "key": "k-lor-slug",
+  "name": "K'lor'slug",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 4,
+    "roll": "1d6+1"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 5,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 2,
+      "modifier": -4
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "blindsight 30 ft.",
+    "passive Perception 11"
+  ],
+  "challengeRating": "1/4",
+  "experiencePoints": 0,
+  "behaviors": [
+    {
+      "name": "Swarm Tactics",
+      "behaviorType": "trait",
+      "description": "The K'lor'slug has advantage on an attack roll against a creature if at least one of the k'lor'slug's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) kinetic damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "K'lor'slugs are dangerous vermiforms native to the swamps of Noe'ha'on. They were also found on Korriban and Taris.\n\n***Biology & Appearance.*** K'lor'slugs are large worm-like creatures that possess a serpentine body propelled by many dangerously-edged legs. The mouth is a gaping circular maw filled with concentric rings of teeth.\n\n***Behavior.*** K'lor'slugs are carnivorous hunters on their homeworld, possessing keen olfactory and visual senses in addition to a deadly venom. For reproduction, the creatures lay more than 300 eggs in a single birthing period. When hatched, the young k'lor'slug is immediately ravenous for food. In addition to their aggressiveness, these creatures are considered pests aboard starships. They are known to invade the darkest spots on unsanitary space vehicles and breed. When dealing with more than 300 eggs hatching, an infestation aboard a space vehicle could become harder to control—and more potentially fatal—the longer it is tolerated.\n\n***Cultural Impact.*** Because of their notoriety as an aggressive and deadly species, they are used as a holomonster playing piece in the popular strategy game, dejarik.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

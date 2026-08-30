@@ -1,0 +1,22 @@
+{
+  "key": "electrowhip",
+  "name": "Electrowhip",
+  "category": "weapon",
+  "costInCredits": 725,
+  "weight": 4.25,
+  "properties": [
+    "dexterity 11",
+    "disruptive",
+    "reach",
+    "shocking 13"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

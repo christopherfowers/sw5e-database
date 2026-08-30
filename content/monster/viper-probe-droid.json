@@ -1,0 +1,117 @@
+{
+  "key": "viper-probe-droid",
+  "name": "Viper Probe Droid",
+  "size": "large",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 37,
+    "roll": "5d10+10"
+  },
+  "speed": {
+    "walk": 5,
+    "text": "5 ft., fly 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 11,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 17,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Investigation +5",
+    "Perception +4"
+  ],
+  "senses": [
+    "Darkvision 120 ft.",
+    "passive Perception 14"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "behaviorType": "trait",
+      "description": "The probe droid has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Cannon",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 60/240 ft., one target. Hit: 7 (1d10+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d10+2",
+      "damageType": "energy"
+    },
+    {
+      "name": "Self-Destruct",
+      "behaviorType": "action",
+      "description": "When the probe droid is reduced to half of its hit point maximum, it attempts to self-destruct. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The Viper Probe Droid is a deep-space exploration and reconnaissance probe droid produced by Arakyd Industries. The probe droid is equipped with a blaster cannon and a self-destruct mechanism. The lightly-armored Viper droid measures 1.6 meters in height with six manipulator arms extending from a central pod and several retractable sensor arms for gathering samples. High resolution receivers and sensors cover the domed head—including motion, acoustic, sonic, and seismic sensors, a radiation meter, magnetic imager, and holocamera. It has an atmosphere sensor capable of determining a planet's atmosphere class within one half-hour. It moves on a repulsorlift generator which is equipped to operate over any terrain. One of the arms is high-torque, and the droid is equipped with a floodlight on its head. Information is relayed back to superiors via a high-frequency HoloNet transceiver. Vipers are delivered to their targets through single-use custom built hyperspace pods. They are commonly deployed along the perimeters of key strategic star systems and hyperlanes to act as automated guardians. Typically, a Viper probe droid costs 14,500 credits. ***History.*** Many thousands of the Imperial Viper probe droids were manufactured on Mechis III, and were in production when the rogue assassin droid IG-88 took control of the planet's automated factories. IG-88 included a secondary set of programming into the Viper droids to relay any obtained intelligence back to Mechis III, as well as to the Empire. Thus, they simultaneously served as the eyes and ears of the Droid Revolution. The Imperial Intelligence's Analysis Bureau also used them as remote surveillance droids posted largely in the Outer Rim Territories. In conflict zones, probots often worked alongside the Imperial Navy to monitor traffic and provide early warnings of attack. They could also be programmed to engage pursuit mode, whereupon the Viper would track an enemy vessel and report back on its location and destination.\n\n***Variants.*** Arakyd's success with the military model of the Viper yielded the C-Viper probe droid variant designed for planetary law enforcement organizations, the Infiltrator probe droid for sabotage missions, and the Hunter-Killer probot.",
+  "sectionText": "Probe droids (AKA probots or recon droids) are droids specifically designed to perform reconnaissance, reporting anything of significance as defined by specific preprogrammed protocols. Some models are equipped with a self-destruct mechanism in order to prevent those whom it had been sent to observe from studying them and determining their source, as well as a small blaster-type weapon for defense.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

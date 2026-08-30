@@ -1,0 +1,17 @@
+{
+  "key": "homing-rockets",
+  "name": "Homing Rockets",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You lock on to one or more targets within range and expel a series of three small explosives. Each explosive hits a creature of your choice that you can see within range. An explosive deals 1d4 + 1 fire damage to its target. The explosives all strike simultaneously, and you can direct them to hit one creature or several.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the power creates one more explosive for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

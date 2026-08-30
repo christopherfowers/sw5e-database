@@ -1,0 +1,17 @@
+{
+  "key": "capacity-boost",
+  "name": "Capacity Boost",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You empower a blaster weapon you are holding. For the duration, you can reload the weapon once on each of your turns without using an action, and as a bonus action on each of your turns you can make one attack with the weapon.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 5th level or higher, you can make two attacks with your bonus action, instead of one.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

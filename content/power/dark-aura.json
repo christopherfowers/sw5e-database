@@ -1,0 +1,18 @@
+{
+  "key": "dark-aura",
+  "name": "Dark Aura",
+  "powerType": "force",
+  "level": 3,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Hex",
+  "description": "You manifest a mantle of malevolent dark side energy for the duration.\n\nUntil the power ends, any attack you make deals an extra 1d8 necrotic damage when you hit a creature within 10 feet of you. Any creature that takes this damage can't regain hit points until the start of your next turn.\n\nAdditionally, any creature of your choice that you can see that starts its turn within 10 feet of you gains 1 slowed level until the start of your next turn.\n\n***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the extra damage increases by 1d8 for for every two slot levels above 3rd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,90 @@
+{
+  "key": "massiff",
+  "name": "Massiff",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 18,
+    "roll": "4d6 + 4"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Keen Hearing and Smell",
+      "behaviorType": "trait",
+      "description": "The massiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Spiked Hide",
+      "behaviorType": "trait",
+      "description": "Any creature that grapples the massif takes 3 (1d6) kinetic damage at the end of its turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 10,
+      "damageRoll": "2d6 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "The massiff was a species of dangerous hunters found on desert planets including Tatooine and Geonosis. Massiffs were domesticated for sentry and guard tasks, and were used by the Tusken Raiders of Tatooine.\n\n***Biology & Appearance.*** A massiff is a squat quadruped with a row of spines along their humped backs. Native to desert environments, massiffs are snarling hunters with powerful and dangerous bites. The creature's spines afford it an extra level of defense, and its large eyes allow it to see well at night. An average massiff stood at roughly one meter high, and the species is found on a variety of worlds, typically in desert habitats such as Tatooine, Geonosis, and Florrum. It is easy to tell the age of a massiff, for they grow a new pair of antlers every standard year.\n\n***Domestication.*** Many massiffs are domesticated and trained for sentry and guard duty. Tusken Raiders, Weequay pirates, and even clone troopers of the Grand Army of the Republic utilize massiffs as guard beasts. During the Clone Wars, ARF troopers trained massiffs as trackers. On occasion, massiffs were used in arena fighting.\n\n***Geonosis.*** The Geonosians and massiffs have a somewhat symbiotic relationship; in exchange for shelter, the creatures rid the hives of pests. On Geonosis, possession of a massiff is a sign of authority and aristocracy.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

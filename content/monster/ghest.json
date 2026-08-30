@@ -1,0 +1,116 @@
+{
+  "key": "ghest",
+  "name": "Ghest",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 104,
+    "roll": "11d12 + 33"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., swim 60 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 21,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 9,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Stealth +5",
+    "Perception +3"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "challengeRating": "6",
+  "experiencePoints": 2300,
+  "behaviors": [
+    {
+      "name": "Ambusher",
+      "behaviorType": "trait",
+      "description": "In the first round of a combat, the ghest has advantage on attack rolls against any creature it surprised.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Hold Breath",
+      "behaviorType": "trait",
+      "description": "The ghest can hold its breath for 30 minutes.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The ghest can make two attacks: one with its bite and one with its claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) kinetic damage and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the ghest can't bite another target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 21,
+      "damageRoll": "3d10 + 5",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 14,
+      "damageRoll": "2d8 + 5",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Swallow",
+      "behaviorType": "action",
+      "description": "If the ghest takes 25 damage or more on a single turn from a creature inside it, the ghest must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the swallowed creatures, which fall prone in a space within 10 feet of the ghest. If the ghest dies, the swallowed creatures are no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone. The ghest makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the ghest, and it takes 10 (3d6) acid damage at the start of each of the ghest's turns. The ghest can have only one target swallowed at a time.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "A non-sentient, predatory, serpentine species native to the jungle swamps of the planet Rodia. ***Biology & Appearance.*** Ghests possess cartilaginous skeletons, a pair of bulbous, featureless eyes and a maw full of razor-sharp teeth. Their head is located at the end of a long, slender body, which is, on average, six meters in length. They possess slick skin, a tail, and four relatively thin limbs: two forelimbs and two larger hindlimbs, all ending in four thick, clawed digits. Where the forelimbs attach to the body beneath the head, the skin is particularly wrinkled. The species reproduces sexually, and females can even extract and use sperm from dead male members of the species. Once fertilized, a female lays hundreds of eggs which will hatch into juveniles, which appear as tiny versions of their parents. They are capable of extended hibernation.\n\n***Behavior.*** Ghests hunt large species of herbivore and can walk on their hind limbs while on land, but hunt and mate while submerged in water. Ghests swim slowly when hunting, keeping all but their eyes and forehead submerged below the surface. It is not unknown for ghests to attack small Rodian settlements, devouring all residents within a few hours. Ghests have no natural predators on Rodia.\n\n***Rodian Culture.*** Ghests hold an important place in Rodian myth and legend. Ancient Rodians believed that ghests, or swamp demons, captured the spirits of the dead; thus, sightings of the species were considered bad omens. Killing a ghest is sometimes believed to remove a curse, such as a drought or famine, so groups of male Rodians sometimes band together to ritually hunt down a ghest and kill it.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

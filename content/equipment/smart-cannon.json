@@ -1,0 +1,26 @@
+{
+  "key": "smart-cannon",
+  "name": "Smart cannon",
+  "category": "weapon",
+  "costInCredits": 2250,
+  "weight": 13.5,
+  "properties": [
+    "auto",
+    "burst 2",
+    "rapid 2",
+    "reload 4",
+    "slug cartridge (range 75/300)",
+    "smart (15/+2)",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

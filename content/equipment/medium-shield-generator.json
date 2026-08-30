@@ -1,0 +1,12 @@
+{
+  "key": "medium-shield-generator",
+  "name": "Medium shield generator",
+  "category": "armor",
+  "costInCredits": 375,
+  "weight": 0.0,
+  "armorClassification": "shield",
+  "armorClass": "+2",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

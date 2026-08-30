@@ -1,0 +1,89 @@
+{
+  "key": "toydarian",
+  "name": "Toydarian",
+  "size": "small",
+  "homeworld": "Toydaria",
+  "nativeLanguage": "Toydarian",
+  "lore": "### Biology and Appearance\nA mammalian species of winged, stout bodied humanoids, the Toydarians have stubby facial tusks which protruded from their lower jaw and framed a short pudgy trunk. While their stubby legs can support their body weight, Toydarians' primary mode of locomotion was their use of the wings on their upper back. Though their wings can beat as fast as ten times a second, the effort burned up large amounts of energy, causing the species to need to replenish itself often through regularly eating mass quantities of food. In order to fuel this hyperactive metabolism, Toydarians eat concentrated foods and egg-seeds. Most of the bloodiest wars in their history were fought over food supplies.\n\n### Society and Culture\nDespite being ruled by the Hutts, the Toydarian people are able to govern themselves free of major outside intervention through the establishment of a feudal monarchy. A ruling king sits on the planet's throne, allowing vassals to form allegiances and have minor disputes to solve their own problems. The king makes sure to keep his vassals happy and to have their allegiance, but will occasionally encourage infighting to reveal the true character of the vassals and weed out treachery.\n\nToydarians are known as shrewd businessmen.\n\n### Names\nToydarian names are fairly simple and guttural, but a few harsher elements can be found here and there. Male names are generally shorter than female names. Female names always end in a vowel.\n\n**Male Names.** Dod, Nesteddo, Tul, Zloomroo\n\n**Female Names.** Fefiffe, Lenlibo, Nugni, Zoldibu\n\n**Surnames.** Daab, Faabb, Kepo, Mitra, Vulba",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Toydarians reach adulthood at 10 and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Toydarians' greedy nature causes them to tend toward chaotic balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Toydarians average 4 feet tall and weigh less than 50 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Business Savvy",
+      "description": "A common trait of all Toydarians is their shrewd business sense and their ability to haggle any deal. A loyal and proud people, these traits could be off-putting to outsiders, as many Toydarians in the galaxy were seen as crooks or slimy businessmen, but this was not always the case. Whenever you make a Charisma (Persuasion) check involving haggling you are considered to have expertise in the Persuasion skill."
+    },
+    {
+      "name": "Closed Mind",
+      "description": "Toydarian brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers."
+    },
+    {
+      "name": "Flight",
+      "description": "You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half."
+    },
+    {
+      "name": "Shrewd Demeanor",
+      "description": "You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, Huttese, and Toydarian."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "3'3\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "40 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Two wings, facial tusks, snout, three fingers and toes on appendages",
+    "skinColorOptions": "Blue, green, grey, or pink",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, brown, or green"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_toydarian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

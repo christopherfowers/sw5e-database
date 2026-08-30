@@ -1,0 +1,17 @@
+{
+  "key": "burst-of-flame",
+  "name": "Burst of Flame",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (30-foot line)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You expel a burst of flame in a line 30 feet long and 5 feet wide, originating from you. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "lightclub",
+  "name": "Lightclub",
+  "category": "weapon",
+  "costInCredits": 1300,
+  "weight": 3.75,
+  "properties": [
+    "dexterity 11",
+    "heavy",
+    "luminous",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

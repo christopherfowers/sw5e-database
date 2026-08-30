@@ -1,0 +1,18 @@
+{
+  "key": "improved-force-intuition",
+  "name": "Improved Force Intuition",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "reaction",
+    "text": "1 reaction, which you take when you would roll initiative"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Force Intuition",
+  "description": "You make your initiative check at advantage, and gain a +2 bonus to AC until the power ends. In addition, until the end of your first turn in the combat, your speed increases by 10 feet and you add 1d4 to your attack rolls. This power ends early if you fail a saving throw or are hit by an attack.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

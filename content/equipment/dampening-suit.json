@@ -1,0 +1,10 @@
+{
+  "key": "dampening-suit",
+  "name": "Dampening suit",
+  "category": "lifeSupport",
+  "costInCredits": 2500,
+  "weight": 18.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

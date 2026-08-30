@@ -1,0 +1,83 @@
+{
+  "key": "voxyn",
+  "name": "Voxyn",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "chaotic balanced",
+  "armor": {
+    "class": 17
+  },
+  "hitPoints": {
+    "average": 170,
+    "roll": "20d10+60"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 18,
+      "modifier": 4
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +12",
+    "Stealth +11 Atheletics +9"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 20"
+  ],
+  "languages": [
+    "Yuuzhan Vong"
+  ],
+  "damageResistances": {
+    "types": [
+      "acid",
+      "energy",
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ]
+  },
+  "challengeRating": "15",
+  "experiencePoints": 0,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "Bite. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (3d8 + 5) kinetic damage & 12 (2d12) acid damage If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone. Tail. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 17 (4d6 + 5) kinetic damage plus 18 (6d6) poison damage. If the target is a creature it must also make DC 16 Constitution saving throw. On a failure, a creature is paralyzed for 1 minute. The creature can repeat this saving throw at end of each of its turns, ending the effect on itself. Sonic Blast (Recharge 5-6). The Voxyn emits a sonic howl from its snout. Creatures within 30 feet of it must succeed on a DC 16 Constitution saving throw or take 32 (5d10 + 5) Sonic damage, be stunned for 1 minute, and is deafened. Takes half damage on a successful save. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Voxyn can make two bite attacks and one tail attack",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Voxyn are a genetic cross between a fero xyn and a vornskr—both deadly predators—shaped into being by the sentient Yuuzhan Vong species. Designed to hunt and kill the Force-sensitive Jedi of the galaxy, the reptilian hounds are all clones of the voxyn queen.\n\n***Biology.*** The cells of voxyn deteriorate at a rapid rate if they are not exposed to a nutrient from the planet Myrkr, and as such, voxyn in other parts of the galaxy typically do not survive for more than a few months. Voxyn are naturally sterile.\n\n***Characteristics.*** Standing one meter high, mature voxyn measure over four meters in length and are reptilian in appearance, although warm-blooded. A pair of oval yellow eyes with excellent night vision are located on the voxyn's flattish head, which has a broad snout over six inches long filled with fangs, and its lithe body is covered in black or green scales and sports eight clawed legs. The toe pads house a hundred deadly retroviruses, whose medium is the green slime that covers the voxyn's claws. A series of sensory bristles covered in a powerful neurotoxin run down the creature's spine, ending in a whip-like tail that has a white, poisonous barb on it. The poison causes swelling and makes most creatures' flesh red for one to six days. The tail's barb can also be used to deliver a neural shock. Voxyn also have long, forked tongues and are able to shoot out of its mouth a jet of brown, acid-like saliva that burns anything it touches. The creatures can also emit a sonic blast from their snouts, sending a compression wave that can temporarily disable a person's hearing, make them feel nauseous, and shatter eardrums. Voxyn's purple blood, when exposed to air, becomes a neurotoxin that smells like smoke and ammonia. Voxyn are fast and agile on their feet, able to jump to great heights, and can swim in and under water. Voxyn possess the ability to sense Force-sensitives through the Force. Jedi can sometimes feel voxyn as well, registering the creatures as a hungry or feral presence. However, voxyn can hide their presence from Force-sensitives.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

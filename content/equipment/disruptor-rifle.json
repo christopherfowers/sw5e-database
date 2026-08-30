@@ -1,0 +1,23 @@
+{
+  "key": "disruptor-rifle",
+  "name": "Disruptor rifle",
+  "category": "weapon",
+  "costInCredits": 2900,
+  "weight": 13.5,
+  "properties": [
+    "disintegrate 13",
+    "power cell (range 60/240)",
+    "reload 4",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "acid"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

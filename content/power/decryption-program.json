@@ -1,0 +1,17 @@
+{
+  "key": "decryption-program",
+  "name": "Decryption Program",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "You gain insight into an encrypted message you are holding when you cast this power, granting you advantage on ability checks you make to decipher the document.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}
