@@ -1,0 +1,93 @@
+{
+  "key": "quarren",
+  "name": "Quarren",
+  "size": "medium",
+  "homeworld": "Mon Cala",
+  "nativeLanguage": "Quarrenese",
+  "lore": "### Biology and Appearance\nThe Quarren are squid-like with four facial tentacles which protrude from their lower jaw. They have a pair of deep, turquoise eyes and finned hands with suction-tipped fingers. As an amphibious species, they are strong swimmers. They are also bipedal beings that can walk and sit upright. In the two long protrusions that extended from either side of their faces, Quarren have gill-like structures that are actually hearing organs. The Quarren are also capable of spitting out clouds of ink as a defensive measure.\n\n### Society and Culture\nQuarren are a very self-centered and proud species, almost to the point of being xenophobic, would coincides with their isolationist behavior. Quarren find Humans to be very crude beings and think Galactic Basic to be very cumbersome and unsuitable for speech. The Quarren instead speak their native language more frequently.\n\nThe Quarren are conservative and practical in their thinking, yet they reminisce more than they look to the future. The Quarren are isolationist, preferring to stay in the depths of the oceans of their homeworld. However, some Quarren make their living in the galaxy as business managers and accountants. The Quarren diligently mine metal ore from the deepest parts of the ocean, where they live deep beneath the waves. Their cities stretch far below the surface.\n\n### Names\nQuarren names are typically harsh. Male and female names do not significantly deviate. Surnames are familial.\n\n**Names.** Bagker, Jujon, Kibkyl, Qiockish, Yuntoz\n\n**Surnames.** Chobnek, Geeckol, Nukranx, Tsastanx",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Quarren reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Quarren desire for equal rights causes them to tend toward balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Quarren typically stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Climb",
+      "description": "You have a climbing speed of 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Ink Cloud",
+      "description": "As an action, you can expel ink in a 10-foot cone. When you do so, each creature in the area of the exhalation must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, a creature is blinded until the end of its next turn. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest."
+    },
+    {
+      "name": "Keen Hearing",
+      "description": "You have advantage on Wisdom (Perception) checks that rely on hearing."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Quarrenese. The Quarrenese language is characterized by its garbled nature that evokes an image of speaking underwater."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "105 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Four tentacles that protrude from their jaws, finned or suction-cup tipped fingers, able to spit out clouds of ink in defense",
+    "skinColorOptions": "Orange, pink, purple, or red",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Blue or green"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_quarren.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}
