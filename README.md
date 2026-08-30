@@ -51,6 +51,56 @@ add content files under `content/<content-type>/`. CI validates every content
 file against its schema on each pull request. Adding a content type requires no
 code change.
 
+## Container image
+
+`ghcr.io/christopherfowers/sw5e-database` is an init container that publishes
+this repository's canonical content to the rest of the stack. It bakes
+`content/` and `schemas/` into the image, copies them into a shared volume on
+start, verifies the copy, and exits 0. It is not a long-running service, and it
+holds no secrets.
+
+The copy is checked rather than assumed: every file is compared by SHA-256
+against the baked-in source, both after staging and again once it is in place.
+A partial or truncated publish exits non-zero, because an API serving an
+incomplete catalogue while reporting healthy is worse than a failed deploy.
+Publishing is idempotent, so re-running it against a populated volume is safe,
+and content withdrawn upstream is removed rather than left behind.
+
+The image carries no database client and no connection string. The API reads
+content from these files. Applying the SQL migrations in `migrations/` is
+separate work that lands together with the content graph, and this image gains
+that step at that point.
+
+### Environment variables
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `SW5E_CONTENT_SOURCE` | `/opt/sw5e/content` | Where the content is baked into the image |
+| `SW5E_SCHEMA_SOURCE` | `/opt/sw5e/schemas` | Where the schemas are baked into the image |
+| `SW5E_CONTENT_TARGET` | `/srv/content` | Where content is published for the API |
+| `SW5E_SCHEMA_TARGET` | `/srv/schemas` | Where schemas are published for the API |
+
+The two targets must be different directories. The defaults suit the QA stack,
+so in practice only the targets are ever overridden, and usually not even those.
+
+### Volume
+
+Mount a shared volume at `/srv` and the container writes `/srv/content` and
+`/srv/schemas` into it for the API container to read.
+
+The container runs as non-root, uid and gid `65532`. The volume must be
+writable by that user or the publish fails by design. Docker seeds a fresh named
+volume from the image's ownership, so `-v sw5e-content:/srv` works as-is; under
+Kubernetes set `securityContext.fsGroup: 65532` on the pod.
+
+```bash
+docker run --rm -v sw5e-content:/srv ghcr.io/christopherfowers/sw5e-database:latest
+```
+
+Images are built and pushed from `main` and from `v*.*.*` tags, tagged `latest`,
+`sha-<short>` and semver respectively, with build provenance and an SBOM
+attached.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Game content is governed separately; see

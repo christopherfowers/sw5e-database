@@ -53,3 +53,96 @@ jobs:
             echo "::error::Vulnerable packages detected"
             exit 1
           fi
+
+  container-image:
+    name: Container image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: docker/setup-buildx-action@v4
+
+      # Local Docker is unavailable on the development machine, so this job is
+      # the only place the image is exercised. It builds, then actually runs the
+      # publisher and proves the published tree matches the repository.
+      - name: Build image
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          push: false
+          load: true
+          tags: sw5e-database:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Image runs as a non-root user
+        run: |
+          set -euo pipefail
+
+          uid=$(docker run --rm --entrypoint id sw5e-database:ci -u)
+
+          if [ "$uid" = "0" ]; then
+            echo "::error::image runs as root"
+            exit 1
+          fi
+
+          echo "image runs as uid $uid"
+
+      - name: Publisher fills the shared volume with the repository content
+        run: |
+          set -euo pipefail
+
+          docker volume create sw5e-ci-content
+
+          # Run it twice: a redeploy re-runs the init container against a volume
+          # that is already populated, so publishing has to be idempotent.
+          docker run --rm -v sw5e-ci-content:/srv sw5e-database:ci
+          docker run --rm -v sw5e-ci-content:/srv sw5e-database:ci
+
+          mkdir -p extracted
+          docker run --rm \
+            -v sw5e-ci-content:/srv \
+            -v "$PWD/extracted:/out" \
+            alpine:3.22 sh -c 'cp -a /srv/. /out/'
+          sudo chown -R "$(id -u):$(id -g)" extracted
+
+          diff -r content extracted/content
+          diff -r schemas extracted/schemas
+
+          echo "published $(find extracted/content -type f | wc -l) content file(s)"
+          echo "published $(find extracted/schemas -type f | wc -l) schema file(s)"
+
+      - name: Publisher removes content that no longer exists upstream
+        run: |
+          set -euo pipefail
+
+          docker run --rm -v sw5e-ci-content:/srv alpine:3.22 \
+            sh -c 'echo stale > /srv/content/stale-entry.json'
+
+          docker run --rm -v sw5e-ci-content:/srv sw5e-database:ci
+
+          if docker run --rm -v sw5e-ci-content:/srv alpine:3.22 \
+               test -e /srv/content/stale-entry.json; then
+            echo "::error::publisher left a stale file behind; the API would serve withdrawn content"
+            exit 1
+          fi
+
+      - name: Publisher fails loudly when the volume is not writable
+        run: |
+          set -euo pipefail
+
+          # A silent partial publish would leave the API serving an incomplete
+          # catalogue, so an unwritable target must gate the deploy.
+          # The marker file matters: Docker seeds an *empty* named volume from
+          # the image, which would hand /srv straight back to the runtime user
+          # and quietly undo this setup.
+          docker volume create sw5e-ci-locked
+          docker run --rm -u 0:0 -v sw5e-ci-locked:/srv alpine:3.22 \
+            sh -c 'touch /srv/.occupied && chown -R 0:0 /srv && chmod 0755 /srv'
+
+          if docker run --rm -v sw5e-ci-locked:/srv sw5e-database:ci; then
+            echo "::error::publisher exited 0 despite an unwritable target volume"
+            exit 1
+          fi
+
+          echo "publisher correctly exited non-zero"
