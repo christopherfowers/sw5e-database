@@ -1,0 +1,10 @@
+{
+  "key": "munitions-kit",
+  "name": "Munitions kit",
+  "category": "kit",
+  "costInCredits": 425,
+  "weight": 0.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

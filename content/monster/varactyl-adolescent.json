@@ -1,0 +1,78 @@
+{
+  "key": "varactyl-adolescent",
+  "name": "Varactyl, Adolescent",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 10
+  },
+  "hitPoints": {
+    "average": 13,
+    "roll": "2d10+2"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "passive Perception 10"
+  ],
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Trampling Charge",
+      "behaviorType": "trait",
+      "description": "If the varactyl moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the varactyl can make another attack with its bite against it as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "2d4+3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Varactyls are a species of majestic, giant reptavian herbivores native to the world of Utapau. They typically have blue and green feather manes and feather ridges along their back. They are incredibly loyal and obedient mounts, that had strong long strides to navigate the uneven and vertical surfaces of their homeworld.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

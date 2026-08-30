@@ -1,0 +1,21 @@
+{
+  "key": "ion-carbine",
+  "name": "Ion carbine",
+  "category": "weapon",
+  "costInCredits": 600,
+  "weight": 6.0,
+  "properties": [
+    "power cell (range 60/240)",
+    "reload 12",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "ion"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

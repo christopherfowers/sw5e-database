@@ -1,0 +1,167 @@
+{
+  "key": "urchin",
+  "name": "Urchin",
+  "lore": "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.\n\nYou begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?",
+  "skillProficiencies": "Choose two from Deception, Insight, Sleight of Hand, and Stealth",
+  "toolProficiencies": "Disguise kit, security kit",
+  "startingEquipment": "A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "City of Secrets",
+    "description": "You know the secret patterns and flows to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+  },
+  "suggestedCharacteristics": "Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life� and maybe get some payback on all the rich people who treated them badly.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I hide scraps of food and trinkets away in my pockets."
+    },
+    {
+      "roll": 2,
+      "description": "I ask a lot of questions."
+    },
+    {
+      "roll": 3,
+      "description": "I like to squeeze into small places where no one else can get to me."
+    },
+    {
+      "roll": 4,
+      "description": "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms."
+    },
+    {
+      "roll": 5,
+      "description": "I eat like a pig and have bad manners."
+    },
+    {
+      "roll": 6,
+      "description": "I think anyone who's nice to me is hiding Dark intent."
+    },
+    {
+      "roll": 7,
+      "description": "I don't like to bathe."
+    },
+    {
+      "roll": 8,
+      "description": "I bluntly say what other people are hinting at or hiding."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Respect",
+      "description": "All people, rich or poor, deserve respect. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Community",
+      "description": "We have to take care of each other, because no one else is going to do it. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Change",
+      "description": "The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Retribution",
+      "description": "The rich need to be shown what life and death are like in the gutters. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I help the people who help me—that's what keeps us alive. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I'm going to prove that I'm worthy of a better life. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "My town or city is my home, and I'll fight to defend it."
+    },
+    {
+      "roll": 2,
+      "description": "I sponsor an orphanage to keep others from enduring what I was forced to endure."
+    },
+    {
+      "roll": 3,
+      "description": "I owe my survival to another urchin who taught me to live on the streets."
+    },
+    {
+      "roll": 4,
+      "description": "I owe a debt I can never repay to the person who took pity on me."
+    },
+    {
+      "roll": 5,
+      "description": "I escaped my life of poverty by robbing an important person, and I'm wanted for it."
+    },
+    {
+      "roll": 6,
+      "description": "No one else should have to endure the hardships I've been through."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "If I'm outnumbered, I will run away from a fight."
+    },
+    {
+      "roll": 2,
+      "description": "Gold seems like a lot of money to me, and I'll do just about anything for more of it."
+    },
+    {
+      "roll": 3,
+      "description": "I will never fully trust anyone other than myself."
+    },
+    {
+      "roll": 4,
+      "description": "I'd rather kill someone in their sleep then fight fair."
+    },
+    {
+      "roll": 5,
+      "description": "It's not stealing if I need it more than someone else."
+    },
+    {
+      "roll": 6,
+      "description": "People who can't take care of themselves get what they deserve."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Empathic"
+    },
+    {
+      "roll": 3,
+      "name": "Quick-Fingered"
+    },
+    {
+      "roll": 4,
+      "name": "Stealthy"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Alert"
+    },
+    {
+      "roll": 7,
+      "name": "Athlete"
+    },
+    {
+      "roll": 8,
+      "name": "Observant"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

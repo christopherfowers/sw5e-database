@@ -1,0 +1,119 @@
+{
+  "key": "b1-series-b1-a",
+  "name": "B1 Series, B1-A",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 7,
+    "roll": "2d8-2"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 9,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 9,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 13,
+      "modifier": 1
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Battle Droid Swarm",
+      "behaviorType": "trait",
+      "description": "When an ally of the battle droid hits a hostile creature that it can see with a weapon attack, the battle droid can use its reaction to make one weapon attack against that creature.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d8+2",
+      "damageType": "energy"
+    },
+    {
+      "name": "Stock Strike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 1,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 1,
+      "damageRoll": "1d4-1",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "B1 battle droids, also referred to as standard battle droids, are the most widely-used battle droids manufactured by Baktoid Combat Automata and Baktoid Armor Workshop and were the successor to the OOM-series battle droids. The B1 battle droid sees extensive service as the mainlines soldiers due to their cheap, mass produced nature. The B1-X model serves as an officer unit.\n\n***History.*** Early versions of the model required the use of a Central Control Computer, but despite these weaknesses they saw extensive service as the mainlines soldier of the Trade Federation's mechanized droid army. Despite their limitations and despite battle droids being outlawed under the Empire, B1 battle droids continued to see use through Separatist holdouts and the black market during the Imperial Era.",
+  "sectionText": "Battle droids, also known as combat droids or battle bots, are a type of droid designed for combat. One thing most battle droids have in common is limited intelligence. They are programmed to follow orders, and not much else, though they do have personalities. Some battle droids, however, have some form of intelligence. These droids are much more expensive to make, due to their advanced brains.\n\n***Clone Wars.*** Over the years, many different models of battle droid have been utilized by various factions throughout the galaxy. The Confederacy of Independent Systems, for example, used a number of different models of battle droid during the Clone Wars to make up the Separatist Droid Army. Under the command of General Grievous, varying models of battle droid fought against the Galactic Republic's clone troopers until the final days of the war, when the Confederate battle droids were deactivated by the Galactic Empire.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

@@ -1,0 +1,96 @@
+{
+  "key": "aiwha",
+  "name": "Aiwha",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 82,
+    "roll": "11d12 + 11"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., fly 80 ft., swim 60 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "blindsight 120 ft.",
+    "passive Perception 13"
+  ],
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Dive Attack",
+      "behaviorType": "trait",
+      "description": "If the aiwha is flying and dives at least 30 feet straight toward a target and then hits it with a bite attack, the attack deals an extra 10 (3d6) damage to the target.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Echolocation",
+      "behaviorType": "trait",
+      "description": "The aiwha can't use its blindsight while deafened.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Hold Breath",
+      "behaviorType": "trait",
+      "description": "The aiwha can hold its breath for 30 minutes",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 14,
+      "damageRoll": "3d6 + 4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Massive, winged cetaceans, the aiwha were native to both the oceans and skies of the planet Kamino, capable of both swimming and flying using their wingtips to propel them through either substance. Their long, beak-like mouths featured a baleen used for filtering krill from seawater. The non-sentient species, one of a wide variety of aquatic life on Kamino, was also known as the \"air whale\", and were a peaceful and majestic species. Aiwha gave out bleating cries when dying.\n\n***History.*** When the climate of Kamino changed drastically, leading to planet-wide flooding when the ice caps melted, the native Kaminoans adapted both themselves and some of their fellow creatures to their new environment. The aiwhas were among those who were adapted using the Kaminoans' advanced cloning technologies, and became biological curiosities used as mounts to traverse Kamino's endless ocean. The Kaminoans used aiwhas as mounts, although aiwha-riders traveled beneath the waters during the lashing tempests of the severe electrical storms which raged for much of the planet's year.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "key": "drum",
+  "name": "Drum",
+  "category": "musicalInstrument",
+  "costInCredits": 60,
+  "weight": 3.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

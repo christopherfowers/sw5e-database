@@ -1,0 +1,10 @@
+{
+  "key": "constructor-s-implements",
+  "name": "Constructor's implements",
+  "category": "tool",
+  "costInCredits": 100,
+  "weight": 7.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

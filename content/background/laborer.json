@@ -1,0 +1,205 @@
+{
+  "key": "laborer",
+  "name": "Laborer",
+  "lore": "You are an experienced laborer and come from a humble social rank. You work with your hands, and anything worth doing is worth doing well. Your life is full of hard work and too little respect for your efforts, but you share a deep camaraderie with your fellow workers.",
+  "skillProficiencies": "Choose two from Animal Handling, Athletics, Survival, and Technology",
+  "toolProficiencies": "One type of gaming set and one set of artisan's implements",
+  "startingEquipment": "A set of common clothes, a sturdy knife, a gaming set (one of your choice), and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "Working Class",
+    "description": "You have a contact that acts as your liaison to a union or faction. You know how to reach your contact at all times. Your contact can provide you with the means to requisition equipment used in manufacturing or shipping."
+  },
+  "suggestedCharacteristics": "Laborers run the gamut from independent operator and owners to lazy and incompetent employees.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I am quiet and reserved. I rarely raise my voice or object."
+    },
+    {
+      "roll": 2,
+      "description": "I take pride in what my hands create or fix."
+    },
+    {
+      "roll": 3,
+      "description": "I have little respect for people who call others to fix their problems."
+    },
+    {
+      "roll": 4,
+      "description": "I am fiercely independent."
+    },
+    {
+      "roll": 5,
+      "description": "I look down on book learning and take pride in my street-smarts."
+    },
+    {
+      "roll": 6,
+      "description": "I may be quite calm and polite around those of higher power than I; but I'm harsh towards all my underlings, flexing the little power I have."
+    },
+    {
+      "roll": 7,
+      "description": "I work to live."
+    },
+    {
+      "roll": 8,
+      "description": "I live to work."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Prestige",
+      "description": "I hope to one day rise to the top of my field and command the respect of those who work for me. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Superiority",
+      "description": "Rules are meant to control the sheep. I'm no sheep. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Community",
+      "description": "It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Greed",
+      "description": "I will do whatever it takes to climb to the top. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Faith",
+      "description": "I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I will someday get revenge on the corrupt boss who fired me."
+    },
+    {
+      "roll": 2,
+      "description": "Everything I do is for the common people."
+    },
+    {
+      "roll": 3,
+      "description": "I will do anything to protect my co-workers."
+    },
+    {
+      "roll": 4,
+      "description": "No one must ever learn that I once stole from my employer."
+    },
+    {
+      "roll": 5,
+      "description": "I'm guilty of a terrible crime. I hope I can redeem myself for it."
+    },
+    {
+      "roll": 6,
+      "description": "I am committed to my group's goals over my own."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I put too much trust in those who wield power within my employer's hierarchy."
+    },
+    {
+      "roll": 2,
+      "description": "I am inflexible in my thinking."
+    },
+    {
+      "roll": 3,
+      "description": "I like things more than people."
+    },
+    {
+      "roll": 4,
+      "description": "I do anything I can to avoid real work."
+    },
+    {
+      "roll": 5,
+      "description": "I am not an independent thinker. I need detailed instructions and close supervision."
+    },
+    {
+      "roll": 6,
+      "description": "I gossip about others to hide my inadequacies."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Animal Handler"
+    },
+    {
+      "roll": 2,
+      "name": "Brawny"
+    },
+    {
+      "roll": 3,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Athlete"
+    },
+    {
+      "roll": 8,
+      "name": "Durable"
+    }
+  ],
+  "variant": {
+    "name": "Labor Specialty",
+    "description": "There are many kinds of manual laborors, skilled and unskilled. Choose your field or specialty or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Construction|\n|2|Droid Repair|\n|3|Electrician|\n|4|Facilities Maintenance|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Logistics/Shipping|\n|6|Manufacturing|\n|7|Mechanic|\n|8|Plumbing/HVAC|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Construction"
+      },
+      {
+        "roll": 2,
+        "name": "Droid Repair"
+      },
+      {
+        "roll": 3,
+        "name": "Electrician"
+      },
+      {
+        "roll": 4,
+        "name": "Facilities Maintenance"
+      },
+      {
+        "roll": 5,
+        "name": "Logistics/Shipping"
+      },
+      {
+        "roll": 6,
+        "name": "Manufacturing"
+      },
+      {
+        "roll": 7,
+        "name": "Mechanic"
+      },
+      {
+        "roll": 8,
+        "name": "Plumbing/HVAC"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

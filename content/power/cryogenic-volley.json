@@ -1,0 +1,17 @@
+{
+  "key": "cryogenic-volley",
+  "name": "Cryogenic Volley",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "90 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "An explosion of cold energy erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes 3d6 cold damage, and gains 1 slowed level until the start of your next turn. On a successful save, a creature takes half as much damage and isn't slowed.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

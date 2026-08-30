@@ -1,0 +1,89 @@
+{
+  "key": "advozse",
+  "name": "Advozse",
+  "size": "medium",
+  "homeworld": "Riflor",
+  "nativeLanguage": "Advb",
+  "lore": "### Biology and Appearance\nAdvozsec evolved from herbivorous reptile-analogs which fed on the vegetation known to form around Riflor's hot springs. Evolving into a class of reptomammal, advozsec have a single horn at the crown of their heads, four digits on each hand and foot, pointed ears, and large eyes. Advozsec are strictly vegetarian, unable to properly digest meat. The geothermal hot springs that appear on their homeworld forced the species to evolve thick skin in order to survive. The large eyes of the advozsec are adaptations to the clouds of volcanic ash which darken Riflor's skies.\n\n### Society and Culture\nSince so much of the sunlight on Riflor is blocked by volcanic eruptions, advozsec tend to settle near geothermal springs for heat. Unfortunately, these springs also tend to be in geologically unstable regions, and anything built near them is often destroyed or abandoned due to eruptions or groundquakes. As a result, the advozse people ended up having little attachment to material goods or long-term plans, and developed a pessimistic, selfish, and even paranoid outlook on life. This facet of their culture remained long after contact with the Galactic Republic gave them access to modern construction techniques allowing for more permanent buildings. Seeing financial stability as the only truly achievable stability one could find in life, the advozsec constantly strive to accumulate as much monetary wealth as they can in a lifetime in order to have the ability to rebuild when the worst happens.\n\n### Names\nAdvozsec have simple names that do not distinguish between genders, using familiar surnames.\n\n**First Names.** Dleck, Fjemm, Gorde, Rollar, Xon\n\n**Surnames.** Ghantere, Leventraim, Timack, Vy, Zimda",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Advozsec reach adulthood in their late teens and typically live for over half a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Advozsec's paranoid and pessimistic nature causes them to tend towards balanced alignments, particularly lawful balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Advozsec typically stand 5 to 6 feet tall and generally weigh about 130 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+    },
+    {
+      "name": "Horn",
+      "description": "Your sharp horn is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Lava Dweller",
+      "description": "Your body is well accustomed to extreme heat, giving you resistance to fire damage."
+    },
+    {
+      "name": "Vigilant",
+      "description": "When you would roll initiative, you can choose to have advantage on the roll. Once you've done so, you must complete a short or long rest before you can do so again."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Advb. Advb sounds quick and aggressive. It's incredibly rare to find a non-advozsec speaking Advb, some linguists even considering it all but a dead language."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Large eyes, single horn on head, pointed ears",
+    "skinColorOptions": "Green, brown, muddy yellow, or tan",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_advozse.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

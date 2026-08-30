@@ -1,0 +1,206 @@
+{
+  "key": "soldier",
+  "name": "Soldier",
+  "lore": "War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army, a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war.\n\nWhen you choose this background, work with your GM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a town guard, a village militia, or perhaps a private company.",
+  "skillProficiencies": "Choose two from Athletics, Intimidation, Persuasion, and Piloting",
+  "toolProficiencies": "One type of gaming set",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "An insignia of rank, a trophy taken from a fallen enemy, a gaming set (one of your choice), a set of common clothes, and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "Military Rank",
+    "description": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment for temporary use. You can also usually gain access to friendly military encampments where your rank is recognized."
+  },
+  "suggestedCharacteristics": "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and mentally vulnerable.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I'm always polite and respectful."
+    },
+    {
+      "roll": 2,
+      "description": "I'm haunted by memories of war. I can't get the images of violence out of my mind."
+    },
+    {
+      "roll": 3,
+      "description": "I've lost too many friends, and I'm slow to make new ones."
+    },
+    {
+      "roll": 4,
+      "description": "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation."
+    },
+    {
+      "roll": 5,
+      "description": "I can stare down a hell hound without flinching."
+    },
+    {
+      "roll": 6,
+      "description": "I enjoy being strong and like breaking things."
+    },
+    {
+      "roll": 7,
+      "description": "I have a crude sense of humor."
+    },
+    {
+      "roll": 8,
+      "description": "I face problems head-on. A simple, direct solution is the best path to success."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Greater Good",
+      "description": "Our lot is to lay down our lives in defense of others. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Responsibility",
+      "description": "I do what I must and obey just authority. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Independence",
+      "description": "When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Might",
+      "description": "In life as in war, the stronger force wins. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Live and Let Live",
+      "description": "Ideals aren't worth killing over or going to war for. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Nation",
+      "description": "My city, nation, or people are all that matter. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I would still lay down my life for the people I served with."
+    },
+    {
+      "roll": 2,
+      "description": "Someone saved my life on the battlefield. To this day, I will never leave a friend behind."
+    },
+    {
+      "roll": 3,
+      "description": "My honor is my life."
+    },
+    {
+      "roll": 4,
+      "description": "I'll never forget the crushing defeat my company suffered or the enemies who dealt it."
+    },
+    {
+      "roll": 5,
+      "description": "Those who fight beside me are those worth dying for."
+    },
+    {
+      "roll": 6,
+      "description": "I fight for those who cannot fight for themselves."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "The monstrous enemy we faced in battle still leaves me quivering with fear."
+    },
+    {
+      "roll": 2,
+      "description": "I have little respect for anyone who is not a proven warrior."
+    },
+    {
+      "roll": 3,
+      "description": "I made a terrible mistake in battle cost many lives� and I would do anything to keep that mistake secret."
+    },
+    {
+      "roll": 4,
+      "description": "My hatred of my enemies is blind and unreasoning."
+    },
+    {
+      "roll": 5,
+      "description": "I obey the law, even if the law causes misery."
+    },
+    {
+      "roll": 6,
+      "description": "I'd rather eat my armor than admit when I'm wrong."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Brawny"
+    },
+    {
+      "roll": 2,
+      "name": "Threatening"
+    },
+    {
+      "roll": 3,
+      "name": "Charmer"
+    },
+    {
+      "roll": 4,
+      "name": "Ace Pilot"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Weapon Expert"
+    },
+    {
+      "roll": 8,
+      "name": "Healer"
+    }
+  ],
+  "variant": {
+    "name": "Specialty",
+    "description": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Officer|\n|2|Scout|\n|3|Infantry|\n|4|Medic|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Quartermaster|\n|6|Pilot|\n|7|Artisan|\n|8|Support Staff|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Officer"
+      },
+      {
+        "roll": 2,
+        "name": "Scout"
+      },
+      {
+        "roll": 3,
+        "name": "Infantry"
+      },
+      {
+        "roll": 4,
+        "name": "Medic"
+      },
+      {
+        "roll": 5,
+        "name": "Quartermaster"
+      },
+      {
+        "roll": 6,
+        "name": "Pilot"
+      },
+      {
+        "roll": 7,
+        "name": "Artisan"
+      },
+      {
+        "roll": 8,
+        "name": "Support Staff"
+      }
+    ]
+  },
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

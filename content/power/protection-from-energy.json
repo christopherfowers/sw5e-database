@@ -1,0 +1,17 @@
+{
+  "key": "protection-from-energy",
+  "name": "Protection from Energy",
+  "powerType": "tech",
+  "level": 3,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or sonic.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

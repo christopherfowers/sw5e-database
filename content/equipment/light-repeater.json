@@ -1,0 +1,23 @@
+{
+  "key": "light-repeater",
+  "name": "Light repeater",
+  "category": "weapon",
+  "costInCredits": 625,
+  "weight": 6.0,
+  "properties": [
+    "auto",
+    "power cell (range 50/200)",
+    "rapid 5",
+    "reload 20",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

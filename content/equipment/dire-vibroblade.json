@@ -1,0 +1,21 @@
+{
+  "key": "dire-vibroblade",
+  "name": "Dire vibroblade",
+  "category": "weapon",
+  "costInCredits": 550,
+  "weight": 7.0,
+  "properties": [
+    "dexterity 13",
+    "dire 1",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

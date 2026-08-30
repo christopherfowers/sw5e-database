@@ -1,0 +1,11 @@
+{
+  "key": "tripod",
+  "name": "Tripod",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 450,
+  "weight": 16.0,
+  "description": "A tripod is a device mounted to a two-handed blaster that lacks the fixed property to offer increased stability. Over the course of 1 minute, you can deploy or collapse the tripod. While deployed, you ignore the Strength requirement on the attached blaster with the strength property, and your speed is reduced to 0. Additionally, while deployed, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

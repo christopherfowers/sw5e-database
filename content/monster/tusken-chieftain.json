@@ -1,0 +1,116 @@
+{
+  "key": "tusken-chieftain",
+  "name": "Tusken Chieftain",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "chaotic dark",
+  "armor": {
+    "class": 16,
+    "type": "durasteel armor"
+  },
+  "hitPoints": {
+    "average": 93,
+    "roll": "11d8+44"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 13,
+      "modifier": 1
+    }
+  },
+  "savingThrows": [
+    "Str +6",
+    "Con +6",
+    "Wis +3"
+  ],
+  "skills": [
+    "Intimidation +3",
+    "Perception +3",
+    "Survival +3"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Tusken"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Aggressive",
+      "behaviorType": "trait",
+      "description": "As a bonus action, the cheiftain can move up to its speed toward a hostile creature that it can see.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The chieftain makes two gaffi stick attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Gaffi Stick",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit 9 (1d10+4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 9,
+      "damageRoll": "1d10+4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Cycler Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack +3 to hit, reach 150/600 ft., one target. Hit 6 (1d10+1) kinetic damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 3,
+      "range": "reach 150/600 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d10+1",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Battle Cry",
+      "behaviorType": "action",
+      "description": "Each creature of the chieftain's choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls until the start of the chieftain's next turn. The chieftain can then make one attack as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/Day"
+    }
+  ],
+  "sectionText": "Tusken Raiders, or \"Sand People,\" are a species native to Tatooine. Extremely xenophobic & territorial of their native resources, Tuskens often attack the outskirts of smaller settlements. They believe all water is sacred and promised to them, resulting in them raiding moisture farms set up by colonists. Clan groups consist of 20-30 individuals, and are led by clan leaders, tribal chiefs, and warlords. At the age of 15, a Tusken becomes an adult, and had to slay a krayt dragon and cut out the precious pearl found in its stomach. Tuskens inhabit encampments scattered across an area of the rocky Jundland Wastes known as The Needles, which are guarded by vicious massiffs. They wield gaderffii sticks in combat, and use Tusken Cyclers to fire on vehicles they spot. Every Tusken warrior creates their own unique gaderffii stick. Males wear rough wrappings and garments that provide protection and allowed ease of movement. Females can be distinguished by their elaborate jeweled masks with eyeslits and torso-covering sand-shrouds. Tusken children wear unisex cowls and simple cloaks. All Sand People wear mouth grilles and eye coverings to retain moisture and keep sand out. They are forbidden to remove their clothing in front of others, except at childbirth, on their wedding night, and at coming-of-age ceremonies. The Sand People and banthas share a close, almost mystical bond. During warrior initiation rites, a young Tusken is given a bantha matching their own gender[ and learns to care for it, with the pair becoming extremely close as the youth earns a place in its clan. When Sand People marry, their banthas also mate, and, should its rider die, their bantha usually perishes shortly after. If a bantha dies before its rider, its remains are placed in a large graveyard, which is treated with great respect by Tuskens and other banthas.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

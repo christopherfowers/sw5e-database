@@ -1,0 +1,14 @@
+{
+  "key": "iws",
+  "name": "IWS",
+  "category": "weapon",
+  "costInCredits": 3625,
+  "weight": 23.0,
+  "properties": [
+    "modal (blaster rifle, grenade launcher, and sniper rifle)"
+  ],
+  "weaponClassification": "exoticBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

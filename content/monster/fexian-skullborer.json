@@ -1,0 +1,119 @@
+{
+  "key": "fexian-skullborer",
+  "name": "Fexian Skullborer",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14
+  },
+  "hitPoints": {
+    "average": 20,
+    "roll": "8d6 - 8"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 4,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 18,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 6,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Dex +7"
+  ],
+  "skills": [
+    "Stealth +7",
+    "Perception +4"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 14"
+  ],
+  "damageImmunities": {
+    "types": [
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ]
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Diving Ambush",
+      "behaviorType": "trait",
+      "description": "If the skullborer drops on to target from above and hits it with a bite attack on the same turn, the target takes an extra 3 (1d6) kinetic damage per 10 feet fallen, up to 14 (4d6). If the skullborer misses, it takes half normal falling damage for distance fallen.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Poisonous Skin",
+      "behaviorType": "trait",
+      "description": "Any creature that grapples the skullborer or otherwise comes into direct contact with the skullborer's skin must succeed on a DC 14 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Superior Camouflage",
+      "behaviorType": "trait",
+      "description": "The skullborer can turn invisible as an action or bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) kinetic damage. If the target is Medium or smaller, it is grappled (escape DC 14) and must succeed on a DC 14 Constitution saving throw or be stunned until this grapple ends.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 6,
+      "damageRoll": "1d4 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Extract Brain",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the skullborer. Hit: The target takes 36 (8d8) kinetic damage. If this damage reduces the target to 0 hit points, the skullborer kills the target by extracting and devouring its brain.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one incapacitated humanoid grappled by the skullborer"
+    }
+  ],
+  "sectionText": "Apex predators, Fexian skullborers inhabit the trees of the mostly unexplored purple moon Fex in the Sha Qarot system of the Deep Core, and are semi-sentient or sentient. ***Feeding.*** The species feeds by drilling holes into the skulls of their prey via their long snouts and feeding off the victims' brains. The skullborers drop down from trees and latch onto their prey to initiate feeding. ***Appearance.*** The skullborers are small and light in weight. The creatures have six spindly limbs, each ending in clawed fingers, that radiate from a central body having a neck holding a large skull, ringed with eight eyes evenly spaced across it. The skull has a large snout with an outer layer of skin and an inner, translucent feeding tube. Between the two layers of the snout is a ring of bone covered by a layer of crystalline teeth with a hardness similar to diamond. The teeth ring is connected to a muscular system at the junction of the snout and skull that allows the teeth to rotate, allowing the skullborers to cut through a variety of tough substances to feed, including heavy armor and polycarbonate. The skullborers have rigid and sharp spines on their back in four rows of four that contain toxins to poison those who touch the spines. Despite having light-weight, thin bones, the skullborers' skeleton is very strong.\n\n***Camouflage.*** They species also possesses an active, full-body camouflage that hides them from the naked eye. However, if a skullborer falls unconscious or dies their camouflage dissipates, revealing skin that radiates color at the touch.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

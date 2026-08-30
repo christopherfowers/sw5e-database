@@ -1,0 +1,168 @@
+{
+  "key": "jensaarai",
+  "name": "Jensaarai",
+  "lore": "You are a Jensaarai, a Force user who has come to understand the failings of both Jedi inactivity and Sith malevolence. While they wield lightsabers, a true mark of skill among the Jensaarai is the crafting of their armor. Each suit is perfectly unique to the wearer, and is frequently (but not always) adorned and shaped to represent an animal that the Jensaarai finds kinship with, up to and potentially including additional mounted weapons or sensors to further emulate that creature.\n\nWhile the Jensaarai train in, and will use dark side powers when necessary, they seek to avoid true corruption. They are not evil, nor are they wholly good either. They are anti-heroes, and well-practiced in this craft. In addition, the Jensaarai train in more than the lightsaber, employing whatever tools are at hand to best fit the job.",
+  "skillProficiencies": "Choose two from Insight, Intimidation, Lore, and Perception",
+  "toolProficiencies": "Armormech's implements",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes including a robe, a sturdy knife, and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Depths of Duality",
+    "description": "Due to the corruption of the Jedi training done to the pre-Jensaarai, you have a unique insight into both the Light and Dark side of the Force, as well as its history, applications, and techniques in a scholarly manner.\n\nYou are well versed in the above concepts, and can recall key information related to them. However, if the research was hidden from the public and you have not had experience working with it, you can only partially understand it. You also recognize well-known Jedi Masters and Sith Lords by their works and marks."
+  },
+  "suggestedCharacteristics": "Jensaarai are shaped by the unique capacity of their upbringing. Their study of the duality of the Force manifests in their mannerisms and ideals. Their bond might be their family or their armor. Their flaws might be some a hatred of the Jedi or Sith or a desire to become one or the other.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I ignore the rhetoric a person spouts when meeting them, preferring to judge them by action."
+    },
+    {
+      "roll": 2,
+      "description": "I'm the first to swing a punch, but the last to draw a weapon."
+    },
+    {
+      "roll": 3,
+      "description": "Danger is my middle name."
+    },
+    {
+      "roll": 4,
+      "description": "Goodwill is in short supply in the galaxy, and I always try to foster a little more wherever I go."
+    },
+    {
+      "roll": 5,
+      "description": "Both the Republic and the Empire have tried to crush us under their bootheels. I refuse to yield."
+    },
+    {
+      "roll": 6,
+      "description": "Defiant to the last isn't good enough. Upon death I will become a force spirit and continue to defy my killer."
+    },
+    {
+      "roll": 7,
+      "description": "Well-behaved people rarely make history."
+    },
+    {
+      "roll": 8,
+      "description": "What gave you the idea that I was going to give you a fair fight?"
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Respect",
+      "description": "Respect will be shown to everyone, disrespect will be shown to those who earn it. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Freedom",
+      "description": "People should be free to make their own way without interference. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Growth",
+      "description": "Self-improvement is an unending chore, but one that must be done. (Any)"
+    },
+    {
+      "roll": 4,
+      "name": "Escalation",
+      "description": "I will immediately end a hostile situation with all means at my disposal. (Neutral)"
+    },
+    {
+      "roll": 5,
+      "name": "Power",
+      "description": "Given our luck with both Jedi and Sith, I need all I can get. (Dark)"
+    },
+    {
+      "roll": 6,
+      "name": "Redemption",
+      "description": "There's a spark of good in everyone. (Light)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "The Jensaarai took me in when nobody else would. I back the order 100%."
+    },
+    {
+      "roll": 2,
+      "description": "I was once a Jedi, but grew disillusioned by their inactivity."
+    },
+    {
+      "roll": 3,
+      "description": "I fight for those who cannot fight for themselves."
+    },
+    {
+      "roll": 4,
+      "description": "I lost my mentor in battle. I will honor their sacrifice by destroying their killer."
+    },
+    {
+      "roll": 5,
+      "description": "I was able to slough off Dark Side corruption, but I couldn't avoid making amends."
+    },
+    {
+      "roll": 6,
+      "description": "The powerful use their strength to raise people up, not keep them down."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I might be a little too enamored with force choking my enemies."
+    },
+    {
+      "roll": 2,
+      "description": "I am my own worst critic, in everything I do."
+    },
+    {
+      "roll": 3,
+      "description": "My armor is precision crafted and has served me faithfully. I never give up a chance to prove how well."
+    },
+    {
+      "roll": 4,
+      "description": "I have a collection of lightsabers from fallen foes, and I love adding to it."
+    },
+    {
+      "roll": 5,
+      "description": "The Jedi and Sith worship the Force as a religion. I do everything I can to remind them they're just worshipping a hammer."
+    },
+    {
+      "roll": 6,
+      "description": "The minute you tell me that someone should not be crossed, I'm already crossing them."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 2,
+      "name": "Threatening"
+    },
+    {
+      "roll": 3,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 4,
+      "name": "Perceptive"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Alert"
+    },
+    {
+      "roll": 8,
+      "name": "Observant"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

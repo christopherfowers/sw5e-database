@@ -1,0 +1,22 @@
+{
+  "key": "pikesaber",
+  "name": "Pikesaber",
+  "category": "weapon",
+  "costInCredits": 1675,
+  "weight": 5.25,
+  "properties": [
+    "dexterity 11",
+    "luminous",
+    "reach",
+    "two-handed"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

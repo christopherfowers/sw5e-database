@@ -1,0 +1,23 @@
+{
+  "key": "beam-rifle",
+  "name": "Beam rifle",
+  "category": "weapon",
+  "costInCredits": 1850,
+  "weight": 16.0,
+  "properties": [
+    "penetrating 2",
+    "power cell (range 150/600)",
+    "reload 2",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

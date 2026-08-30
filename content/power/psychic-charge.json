@@ -1,0 +1,17 @@
+{
+  "key": "psychic-charge",
+  "name": "Psychic Charge",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Varies",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "As part of the action used to cast this power, you must make a melee weapon attack against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and its mouth is covered by a violet veil until the start of your next turn. If the target willingly speaks before then, it immediately takes 1d8 psychic damage, and the power ends.\n\nThis power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 psychic damage to the target, and the damage the target takes for speaking increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

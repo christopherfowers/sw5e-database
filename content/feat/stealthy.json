@@ -1,0 +1,10 @@
+{
+  "key": "stealthy",
+  "name": "Stealthy",
+  "abilityScoreIncreases": [
+    "dexterity"
+  ],
+  "description": "You know how best to hide, gaining the following benefits:\n- Increase your Dexterity score by 1, to a maximum of 20.\n\n- You gain proficiency in the Stealth skill. If you are already proficient in it, you instead gain expertise in it.\n- If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

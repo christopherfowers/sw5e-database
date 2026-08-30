@@ -1,0 +1,197 @@
+{
+  "key": "politician",
+  "name": "Politician",
+  "lore": "You might just be a Junior Representative or newly elected Senator. Regardless you are now a member of the political turmoil of the Galaxy. Depending on who you befriended, your benefactors or your sponsorships. You are now placed within a position of great power that can ultimately make decisions that could alter the course of the known Galaxy. You represent not just yourself but an entire planet that revolves around the type of difficult decisions that you will make throughout your career. Others look to you to serve as the primary legislative body of the Galactic Republic. They believe your voice is responsible for creating laws, mediating disputes, making treaties, and regulating commerce. Divided into numerous committees and subcommittees, you must choose a path. Will you strive to accomplish your goals and bring peace back to the Republic or will you like many others, fall into corruption.",
+  "skillProficiencies": "Choose two from Deception, Intimidation, Performance, and Persuasion",
+  "languageProficiencies": "Two of your choice.",
+  "startingEquipment": "A set of fine clothes, a signet ring, a political manifesto you helped write, and a purse containing 250 cr.",
+  "feature": {
+    "name": "Political Presence",
+    "description": "When you walk into a room, people immediately respect your opinion and listen to what you have to say. You are commonly taken for face value as a person of great standing. People will likely treat you like a noble or assume you of that lineage. You can attain audiences with nobles or officials easily, as they may often see you as one of their circle. Bureaucratic red tape holds little challenge to you because you always seem to know the right person to talk to."
+  },
+  "suggestedCharacteristics": "Politicians are rumored to be wicked and blackhearted. Do you want to prove the rumors right or wrong?",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I am someone that needs no introduction, I am renowned in my own way."
+    },
+    {
+      "roll": 2,
+      "description": "I am the only one capable of making a better galaxy, I trust my gut instinct."
+    },
+    {
+      "roll": 3,
+      "description": "I'm going to take over the senate! The supreme chancellor is far to weak and foolish."
+    },
+    {
+      "roll": 4,
+      "description": "I will not tolerate violence. We are not savages, we are intellectuals."
+    },
+    {
+      "roll": 5,
+      "description": "I'm looking out only for myself here in this corrupt democracy."
+    },
+    {
+      "roll": 6,
+      "description": "I'm very patient and can conceal my inner discomforts easily."
+    },
+    {
+      "roll": 7,
+      "description": "I'm an aristocrat. I hold myself up to high standards of behavior and others just as much."
+    },
+    {
+      "roll": 8,
+      "description": "I am quiet and reserved. I will not take the spotlight from the real heroes."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Dictator",
+      "description": "We must ensure that our authority extends to the farthest points of the galaxy. (Dark)"
+    },
+    {
+      "roll": 2,
+      "name": "Equality",
+      "description": "We have elected officials for a reason, the system works we just have to give it time. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Humanity",
+      "description": "I will serve my term with purpose, I will ensure the safety and prosperity of all of our citizens. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Rational Self Interest",
+      "description": "I only need to survive this industry. (Neutral)"
+    },
+    {
+      "roll": 5,
+      "name": "Legacy",
+      "description": "I'm only looking out for the needs of my home world and my species. (Any)"
+    },
+    {
+      "roll": 6,
+      "name": "Galactic Rule",
+      "description": "I love democracy... I love the republic. (Chaotic)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "Children are our future. We cannot leave the galaxy like this, we cannot leave them with our mistakes."
+    },
+    {
+      "roll": 2,
+      "description": "Family, friends? Everyone is a stepping stone."
+    },
+    {
+      "roll": 3,
+      "description": "I have seen too much and have done to little, it is time for a change."
+    },
+    {
+      "roll": 4,
+      "description": "Even if I become a corrupted, I am doing it for the right reasons."
+    },
+    {
+      "roll": 5,
+      "description": "I have only ever loved two things: Money and Myself."
+    },
+    {
+      "roll": 6,
+      "description": "I had a mentor, who was more of a family to me than my actual family."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I'm a pathological liar, even I don't know the truth of my words anymore."
+    },
+    {
+      "roll": 2,
+      "description": "I'm indecisive, I need time to think this over."
+    },
+    {
+      "roll": 3,
+      "description": "My methods are unconventional despite my best intentions."
+    },
+    {
+      "roll": 4,
+      "description": "I've rigged an election before, in fact I've rigged almost all of elections."
+    },
+    {
+      "roll": 5,
+      "description": "There is no civility, only politics."
+    },
+    {
+      "roll": 6,
+      "description": "I'll help, in exchange for your vote."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Threatening"
+    },
+    {
+      "roll": 3,
+      "name": "Performer"
+    },
+    {
+      "roll": 4,
+      "name": "Charmer"
+    },
+    {
+      "roll": 5,
+      "name": "Linguist"
+    },
+    {
+      "roll": 6,
+      "name": "Actor"
+    },
+    {
+      "roll": 7,
+      "name": "Observant"
+    },
+    {
+      "roll": 8,
+      "name": "Inspiring Leader"
+    }
+  ],
+  "variant": {
+    "name": "Ideology",
+    "description": "What is the world you envision to create through policy?\n\n|d6|Specialization|\n|:---:|:----------:|\n|1|Democracy|\n|2|Dictatorship|\n|3|Egalitarianism|\n\n|d6|Specialization|\n|:---:|:----------:|\n|4|Anarchy|\n|5|Monarchy|\n|6|Theocracy|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Democracy"
+      },
+      {
+        "roll": 2,
+        "name": "Dictatorship"
+      },
+      {
+        "roll": 3,
+        "name": "Egalitarianism"
+      },
+      {
+        "roll": 4,
+        "name": "Anarchy"
+      },
+      {
+        "roll": 5,
+        "name": "Monarchy"
+      },
+      {
+        "roll": 6,
+        "name": "Theocracy"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,93 @@
+{
+  "key": "chadra-fan",
+  "name": "Chadra-Fan",
+  "size": "small",
+  "homeworld": "Chad",
+  "nativeLanguage": "Chadra-Fan",
+  "lore": "### Biology and Appearance\nChadra-Fan are covered from head to foot in fur. Their species evolved from small, arboreal rodents. The two different sexes of Chadra-Fan are indistinguishable to other species, though the Chadra-Fan could readily tell the difference using their powerful sense of smell. Chadra-Fan also have involuntary pheromones that conveyed information about their family line and created an aura of attractiveness. Other voluntary pheromones often conveyed a Chadra-Fan's state of emotion-anger, fear, or joy. Chadra-Fan even create more complex messages using their pheromones, though the pheromones when mixed sometimes caused confusion. They are unique in the fact that they had clear blood.\n\n### Society and Culture\nThe society of Chadra-Fan is divided into a clan structure in which every member is responsible for parenting the clan's children; a fact of life is that every household is open at any time. Leadership within the clan is a temporary role that is passed from one individual to another as the situation calls for a particular expertise. Children are the centerpiece of a Chadra-Fan community, and only leave when wed. However the new Chadra-Fan couple remain with the smaller clan so it was possible that a Chadra-Fan never leaves his or her home.\n\nChadra-Fan left by themselves suffer depression, so they regularly seek the company of others; thus, Chadra-Fan are not very picky when it came to friends and prefer complete strangers to loneliness\n\n### Names\nChadra-Fan names do not vary significantly based on sex. Surnames are clan based.\n\n**First Names.** Dubi, Kattar, Naska, T'yabah, O'yasha\n\n**Surnames.** Abalomm, Fandy, Nemm, Nuz, Yedit",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Chadra-Fan reach adulthood by 15 and live an average of 40 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Chadra-Fan's open, clan-based culture cause them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Chadra-Fan stand 3-4 feet tall and weigh about 45 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Climb",
+      "description": "You have a climbing speed of 25 feet."
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "description": "You have advantage on Wisdom (Perception) checks that involve hearing or smell."
+    },
+    {
+      "name": "Second Heart",
+      "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+    },
+    {
+      "name": "Tinker",
+      "description": "You have proficiency with tinker's implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, emit an onerous smell for 1 minute. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
+    },
+    {
+      "name": "Trance",
+      "description": "You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Chadra-Fan. The Chadra-Fan language is characterized as being nasally and squeaky."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "2'8\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "35 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Large ears, flat noses with four nostrils",
+    "skinColorOptions": "Black, brown, or grey",
+    "hairColorOptions": "Black, brown, or grey",
+    "eyeColorOptions": "Dark"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_chadrafan.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

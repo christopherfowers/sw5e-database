@@ -1,0 +1,105 @@
+{
+  "key": "probe-killer-swarm",
+  "name": "Probe Killer Swarm",
+  "size": "medium",
+  "types": [
+    "swarm of tiny droids"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 38,
+    "roll": "7d8+7"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 8,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 18,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "darkvision 30ft",
+    "passive Perception 11"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic",
+      "kinetic",
+      "energy"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The swarm makes 4 leg slash attacks.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "swarm has more than half HP"
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The swarm makes 2 leg slash attacks.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "swarm has less than or equal to half HP"
+    },
+    {
+      "name": "Leg Slash",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 6 (1d4+4) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The SD-K4 assassin droid, also known as the assassin probe, is a model of assassin droid manufactured by the Techno Union. Used by the Confederacy of Independent Systems during the Clone Wars, it was also referred to as the Separatist assassin probe and Separatist assassin droid. The SD-K4 assassin droid is designed to assassinate targets with high efficiency. Spider-like droids programmed for quiet killing, SD-K4s move quietly on eight razored legs. They are equipped with multiple red photoreceptors for scanning their surroundings. If cornered or destroyed, an SD-K4 can release dozens of smaller probe killers from pores on its head to finish any job the assassin probe started. Probe killers, similar in appearance to their SD-K4 host but on a much smaller scale, lay dormant until the activated.",
+  "sectionText": "Assassin droids are a type of droid built specifically for the purpose of assassination. These droids generally perform with unflinching loyalty to their masters, but rogue assassin droids are not unknown. Since their missions generally require a far higher degree of independent skill, savvy, and judgment than normally possessed by simple war droids, their programming subroutines, circuitry, and memory cores are of correspondingly higher sophistication. Equipped with an array of weapons, assassin droids are also used as elite infantry when the need for skillful and quickly adaptable soldiers with unquestionable loyalty arises. An inordinate number of assassin droids have achieved sentient independence, including IG-88 and C-3PX, presumably due to the higher level of autonomy incorporated into their processor design. These droids typically fund their independent existences through the use of their innate abilities, often plying their trade as bounty hunters.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

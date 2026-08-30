@@ -1,0 +1,120 @@
+{
+  "key": "brain-worm",
+  "name": "Brain Worm",
+  "size": "tiny",
+  "types": [
+    "beast"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 21,
+    "roll": "6d4 + 6"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 6,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 12,
+      "modifier": 1
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "skills": [
+    "Perception +2",
+    "Stealth +4"
+  ],
+  "senses": [
+    "Blindsight 60 ft. (blind beyond this radius",
+    "passive Perception 12"
+  ],
+  "languages": [
+    "Geonosian (underst",
+    "s but can't speak)"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "cold"
+    ]
+  },
+  "damageResistances": {
+    "other": [
+      "energy and kinetic from unenhanced weapons"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "blinded"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Detect Sentience",
+      "behaviorType": "trait",
+      "description": "The brain worm can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank force power.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The brain worm makes one enter orifice attack and uses consume mind.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Enter Orifice",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d4 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Consume Mind",
+      "behaviorType": "action",
+      "description": "The brain worm targets one creature it can see within 10 feet of it that has a brain. The target must succeed on a DC 12 Intelligence saving throw against this magic or take 11 (2d10) psychic damage. Also on a failure, roll 3d6: If the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is stunned until it regains at least one point of Intelligence.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Body Thief",
+      "behaviorType": "action",
+      "description": "If the host body takes 20 points of cold damage in a single round, the brain worm must make a DC 15 Constitution saving throw using its own Constitution score, not the host's. On a failure, the brain worm leaves the body, slithering out to a space within 5 feetof the host. After exiting the host, it is paralyzed until the start of its next turn. If the host body dies, the brain worm must leave it. The brain worm is also forced out if the target regains its devoured brain by means of a master heal force power. By spending 5 feet of its movement, the brain worm can voluntarily leave the body, slithering out to the nearest unoccupied space within 5 feet of it. The brain worm initiates an Intelligence contest with an incapacitated humanoid within 5 feet of it. If it wins the contest, the brain worm burrows into the target's brain and takes control of the target's body. While inside a creature, the brain worm has total cover against attacks and other effects originating outside its host. The brain worm retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Geonosian, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including force powers, tech powers, and languages.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Brain worms are worm-like parasites from Geonosis that have the capability of controlling minds. They hatch from yellow eggs, and are known to have been used by the Geonosian Queen Karina the Great during the Clone Wars on her Geonosian minions. The worms would sometimes enter the host via the nose, and were able to control dead Geonosians. Brain worms react negatively to cold temperatures.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

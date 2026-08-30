@@ -1,0 +1,17 @@
+{
+  "key": "energizing-aura",
+  "name": "Energizing Aura",
+  "powerType": "tech",
+  "level": 8,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "Energizing light radiates out from you in a 30-foot radius. Creatures of your choice in that radius when you cast this power have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the power ends.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

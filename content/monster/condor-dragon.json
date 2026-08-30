@@ -1,0 +1,92 @@
+{
+  "key": "condor-dragon",
+  "name": "Condor Dragon",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 67,
+    "roll": "9d10 + 18"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., fly 80 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 4,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +4"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 14"
+  ],
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Unhindered Movement",
+      "behaviorType": "trait",
+      "description": "The dragon's movement speed is not reduced while moving with a grappled creature.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The dragon can make three attacks: two with its claws and one with its bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Condor dragons were flying, carnivorous reptavians native to the craggy cliffs, deserts, and deep woods of Endor's forest moon. They walked on their hind legs and their forearms were used to hold prey. They had bony ridges along their spine, and a wing span of approximately 3 meters.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

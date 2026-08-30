@@ -1,0 +1,10 @@
+{
+  "key": "survivalist",
+  "name": "Survivalist",
+  "abilityScoreIncreases": [
+    "wisdom"
+  ],
+  "description": "You master wilderness lore, gaining the following benefits:\n- Increase your Wisdom score by 1, to a maximum of 20.\n- You gain proficiency in the Survival skill. If you are already proficient in it, you instead gain expertise in it.\n- You learn the *alarm* tech power. You can cast it once, using supplies scavenged around you, without the use of a wristpad and without spending tech points, and you regain the ability to do so when you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

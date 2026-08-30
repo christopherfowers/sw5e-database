@@ -1,0 +1,11 @@
+{
+  "key": "computer-spike",
+  "name": "Computer spike",
+  "category": "utility",
+  "costInCredits": 145,
+  "weight": 0.5,
+  "description": "When you make an Intelligence (slicer's kit) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

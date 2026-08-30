@@ -1,0 +1,14 @@
+{
+  "key": "supreme-accuracy",
+  "name": "Supreme Accuracy",
+  "prerequisite": "4th level; Dexterity, Intelligence, Wisdom, or Charisma 13",
+  "abilityScoreIncreases": [
+    "dexterity",
+    "intelligence",
+    "wisdom",
+    "charisma"
+  ],
+  "description": "You have uncanny aim with attacks that rely on precision. You gain the following benefits:\n- Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n- Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma you can reroll one of the dice once.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

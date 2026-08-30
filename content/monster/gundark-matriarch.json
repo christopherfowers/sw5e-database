@@ -1,0 +1,120 @@
+{
+  "key": "gundark-matriarch",
+  "name": "Gundark, Matriarch",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 90,
+    "roll": "12d10 + 24"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 6,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 15,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex +4",
+    "Con +4"
+  ],
+  "skills": [
+    "Perception +4"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 14"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Aura of Blood Thirst",
+      "behaviorType": "trait",
+      "description": "If the matriarch isn't incapacitated, any other gundark can make a melee attack as a bonus action while within 10 feet of the matriarch.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Rampage",
+      "behaviorType": "trait",
+      "description": "When the matriarch reduces a creature to 0 hit points with a melee attack on its turn, the matriarch can take a bonus action to move up to half its speed and make a claw attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "behaviorType": "trait",
+      "description": "The matriarch has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The matriarch can make four attacks: two with its claws and two with its gigantic claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "2d6 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Gigantic Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 17,
+      "damageRoll": "3d8 + 4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Gundarks are a fearsome anthropoid from Vanqor known as one of the most vicious, strong, and aggressive species in the galaxy.\n\n***Biology.*** These non-sentient creatures stand between 1 and 2.5 meters tall, with four powerful arms and large ears as wide as their head. Both their hands and feet end with opposable digits. Gundarks are covered in short brown or gray hair, but are birthed live with black coats of fur, and are able to fight almost as soon as they leave the womb. A gundark's hair lightens as it grows older and its large, bat-like ears began to enlarge until, at puberty, they reach the width of its head, hence the expression \"strong enough to pull the ears off a gundark.\" These creatures are born with only two of its four adult arms, with the second pair emerging during adolescence.\n\n***Behavior.*** Though not quite as intelligent as sentient creatures, gundarks are advanced enough to use simple tools such as rocks and clubs. (In spite of this, the expression \"gundark brain\" is used as an intelligence insult.) They live in organized family units inside hollowed-out trees or caves. Several gundark families often live together as a tribe, working for their common survival. Gundark society is matriarchal, with the oldest and most cunning female ruling the tribe. Males build the tribal homes and defended them ferociously from all intruders, attacking anything that enters the vicinity of the nest. Female gundarks are usually hunter-gatherers, acquiring the food needed by the tribe and training the young gundarks who aren't old enough to go out on their own.\n\n***Gladiators.*** In gladiatorial arenas, a gundark is one of the most dangerous and feared opponents. Their short temper and thirst for blood means they will attack without provocation, even against opponents such as rancors or trompa.\n\n***Variants.*** There are several subspecies of gundark, including the Burskan gundark of Burska and an unidentified green subspecies with four equal sized arms, a tail ending in a pincher-like pair of claws, two toed feet, and a more reptilian appearance. Another sub-species was the Brachian Beastlord which is found on the moon Lamus. It is particularly vicious compared to main-line gundarks, and has a poisonous bite. Some other species of carnivores are called gundarks, not because of physical resemblance but because of similarly vicious temperaments. These species include the long-necked gundark of Kharzet III and the aquatic gundark of Yavin 4.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

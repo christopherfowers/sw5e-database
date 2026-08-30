@@ -1,0 +1,21 @@
+{
+  "key": "vibroaxe",
+  "name": "Vibroaxe",
+  "category": "weapon",
+  "costInCredits": 950,
+  "weight": 9.25,
+  "properties": [
+    "dexterity 11",
+    "heavy",
+    "two-handed"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

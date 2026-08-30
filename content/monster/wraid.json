@@ -1,0 +1,91 @@
+{
+  "key": "wraid",
+  "name": "Wraid",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 16,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 68,
+    "roll": "8d10+24"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 4,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "skills": [
+    "Athletics +5"
+  ],
+  "senses": [
+    "passive Perception 10"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 0,
+  "behaviors": [
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the Wraid moves at least 20 feet straight toward a target and then hits it with a ram Attack on the same turn, the target takes an extra 4 (2d8) kinetic damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Wraid makes two attacks, once with its ram and one with its claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Ram",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 11 (3d6 + 3) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 7 (2d4+3) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Wraids are large reptilian creatures found on many desert planets around the galaxy, including Tatooine, Korriban, and Tython. ***Biology & Appearance.*** Wraids are pinkish-red in color and have very powerful front legs, enabling them to move quickly when agitated by means of long, bounding strides. They have large claws at the end of their feet and sharp teeth, making them dangerous to the unwary. They also have two small back legs.\n\n***Behavior.*** Wraids are often seen in clusters from two to six members. Generally, they will not harm passersby unless provoked, at which point their danger becomes immediately apparent.\n\n***Hunting.*** Because of their ferocious appearance and short temper, they are a popular quarry of less-experienced big game sport hunters from around the galaxy. When the settlement of Anchorhead was founded, hunting wraids developed into a marketable trade with the opening of hunting lodges and salespeople dealing in wraid skull plates purchased from hunters. Their skull plates are rumored to have medicinal uses, but the market for them is very specific.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

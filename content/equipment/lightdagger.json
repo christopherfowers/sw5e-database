@@ -1,0 +1,23 @@
+{
+  "key": "lightdagger",
+  "name": "Lightdagger",
+  "category": "weapon",
+  "costInCredits": 425,
+  "weight": 1.0,
+  "properties": [
+    "finesse",
+    "hidden",
+    "light",
+    "luminous",
+    "thrown (range 20/60)"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

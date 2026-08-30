@@ -1,0 +1,22 @@
+{
+  "key": "sith-saber",
+  "name": "Sith saber",
+  "category": "weapon",
+  "costInCredits": 925,
+  "weight": 2.75,
+  "properties": [
+    "dexterity 11",
+    "hidden",
+    "keen 1",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

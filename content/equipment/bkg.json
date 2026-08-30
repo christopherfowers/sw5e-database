@@ -1,0 +1,26 @@
+{
+  "key": "bkg",
+  "name": "BKG",
+  "category": "weapon",
+  "costInCredits": 2750,
+  "weight": 19.0,
+  "properties": [
+    "auto",
+    "burst 2",
+    "disintegrate 13",
+    "power cell (range 120/480)",
+    "reload 2",
+    "strength 19",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

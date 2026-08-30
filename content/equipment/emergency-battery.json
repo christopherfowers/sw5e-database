@@ -1,0 +1,11 @@
+{
+  "key": "emergency-battery",
+  "name": "Emergency battery",
+  "category": "medical",
+  "costInCredits": 70,
+  "weight": 0.0,
+  "description": "All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the battery to stabilize a droid that has 0 hit points, without needing to make an Intelligence (Technology) check.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

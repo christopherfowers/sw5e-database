@@ -1,0 +1,115 @@
+{
+  "key": "pistoeka-sabotage-droid",
+  "name": "Pistoeka sabotage droid",
+  "size": "tiny",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 1,
+    "roll": "1d4-1"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 2,
+      "modifier": -4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 2,
+      "modifier": -4
+    }
+  },
+  "senses": [
+    "passive Perception 10"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Magnetic Lock",
+      "behaviorType": "trait",
+      "description": "The droid can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Interfaced Damage Protocol",
+      "behaviorType": "trait",
+      "description": "While you are interfaced with this droid via the tracker droid interface tech power, when you roll a 1 or 2 on a damage die for a tech power while your droid is within 5 feet of you, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The droid has advantage on attack rolls against a creature if at least one of the buzz droid's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Miniature Plasma Cutter",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 ion damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target"
+    }
+  ],
+  "flavorText": "Pistoeka sabotage droids, better known simply as buzz droids, were a type of insect-like automatons that were deployed in swarms during battlefleet actions by the Confederacy of Independent Systems. They could wreak havoc upon squadrons of starfighters that happened to fly through a formation of such deployed droids. Approximately one-quarter of a meter in diameter and well armed for their role, they were typically delivered by discord missiles from droid tri-fighters and Vulture droid starfighters.",
+  "sectionText": "Tracker Droids are a general term used to describe simple droids that are capable of being permanently linked to via the tech power *tracker droid interface*. Tracker droids are not all dedicated tracking or probe droids as the name might suggest, but these are the most common types of droids to become linked with in most cultures throughout the galaxy, explaining this commonly used shorthand.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

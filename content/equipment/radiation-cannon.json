@@ -1,0 +1,26 @@
+{
+  "key": "radiation-cannon",
+  "name": "Radiation cannon",
+  "category": "weapon",
+  "costInCredits": 3900,
+  "weight": 13.5,
+  "properties": [
+    "power cell (range 75/300)",
+    "auto",
+    "burst 2",
+    "disrupt ive",
+    "piercing 1",
+    "reload 4",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "necrotic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

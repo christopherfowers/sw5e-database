@@ -1,0 +1,89 @@
+{
+  "key": "lasat",
+  "name": "Lasat",
+  "size": "medium",
+  "homeworld": "Lira San",
+  "nativeLanguage": "Lasat",
+  "lore": "### Biology and Appearance\nA humanoid sentient species, Lasats are notable for their impressive height, strength, and agility, with their muscular digitigrade legs enabling them to run faster, jump higher and farther, and move more quietly than humans. Their large finger pads and prehensile toes assist them in climbing. In addition, their large eyes and ears afford them superior sight and hearing over humans. They had the strength to open a powered-down blast door. A height of two meters tall was considered below-average for a Lasat.\n\n### Society and Culture\nLasat society is held together by a long-standing oral tradition, featuring clever and stealthy heroes. Within the species, those with fighting skills are highly respected, often being members of the Lasan High Honor Guard, a group of highly trained, highly intelligent warriors sworn to protect their homeworld of Lira San. Bo-rifles are a long-standing tradition in Lasat culture, used exclusively by the Honor Guard of Lasan. The warrior way of the Lasat is the Boosahn Keeraw. When a Lasat is bested by a superior opponent in combat, they would give them their weapon.\n\nFacial hair is an important status symbol in Lasat culture. Those with green eyes and prominent purple stripes are considered to be attractive by others of their species. Juvenile Lasat are noted to climb tree branches.\n\n### Names\nLasat names tend to be melodic, with the occasionally harsh tone sprinkled in. Surnames are born by communities within Lasat culture rather than individual families.\n\n**Male Names.** Brob, Drim, Krus, Parred, Volares\n\n**Female Names.** Denazo, Gume, Hado, Zanisa\n\n**Surnames.** Dragarr, Ellias, Krod, Roleb, Vuzan",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Lasats reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Lasat' honorable tendences cause them to tend toward lawful light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Lasats tower over other species, averaging 7 feet tall and weighing over 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Bo-rifle Training",
+      "description": "You have proficiency with blaster rifles, bo-rifles, and vibrostaffs."
+    },
+    {
+      "name": "Climbing",
+      "description": "You have a climbing speed of 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "description": "You have advantage on Wisdom (Perception) checks that rely on hearing or sight."
+    },
+    {
+      "name": "Powerful Build",
+      "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Lasat, a language whose *r*'s are difficult to replicate by most other species."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'0\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "160 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Impressive height, strength, and agility",
+    "skinColorOptions": "Grey or purple",
+    "hairColorOptions": "Purple or grey (with age)",
+    "eyeColorOptions": "Green"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_lasat.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

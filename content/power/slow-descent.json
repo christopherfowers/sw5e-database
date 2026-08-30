@@ -1,0 +1,17 @@
+{
+  "key": "slow-descent",
+  "name": "Slow Descent",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "reaction",
+    "text": "1 reaction, which you take when you or a creature within 60 feet of you falls"
+  },
+  "range": "60 feet",
+  "duration": "1 minute",
+  "concentration": false,
+  "description": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the power ends. If the creature lands before the power ends, it takes no falling damage and can land on its feet, and the power ends for that creature.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

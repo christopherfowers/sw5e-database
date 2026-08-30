@@ -1,0 +1,8 @@
+{
+  "key": "war-caster",
+  "name": "War Caster",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "description": "You've practiced casting powers in the midst of combat, learning techniques that grant you the following benefits:\n- You have advantage on Constitution saving throws that you make to maintain your concentration on a power when you take damage.\n- Once per round, when a hostile creature provokes an opportunity attack from you, you can use your reaction to cast a power at the creature, rather than making an opportunity attack. The power must have a casting time of 1 action and must target only that creature.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

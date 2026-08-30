@@ -1,0 +1,94 @@
+{
+  "key": "flesh-raider",
+  "name": "Flesh Raider",
+  "size": "medium",
+  "homeworld": "Tython",
+  "nativeLanguage": "Rakata",
+  "lore": "### Biology and Appearance\nFlesh raiders are a more primitive, and more physically imposing subspecies of rakata that mutated prior to the end of the Infinite Empire. A life above ground and in caves has led the flesh raiders to lose their more amphibian traits, and are now more humanoid in their biological needs, though they seem to only be able to digest meats and flesh.\n\nFlesh raiders keep many of their ancestral rakatan features, though they have experienced a form of gigantism that has lead to their interesting appearance, that of a flat topped, spade shaped head, with blade-like eye stalks coming off the side ends of the spade. Their body structure also more closely matches that of a trandoshan or dashade, being bulky and imposing in stature, towering over most other sentient creatures.\n\nUnlike contemporary rakata, flesh raiders did not lose their ability to tap into the Force.\n\n### Society and Culture\nFlesh raiders are known to form small clan structures, with a war boss in charge of the clan. Those flesh raiders who are born Force-sensitive can be found imitating a temple structure, with a powerful Force-sensitive, usually from another species, leading them.\n\nFlesh raiders still speak the rakatan language, though it has developed into a cruder variant.\n\n### Names\nFlesh raider names tend to be short and concise, embodying strength and virility. Flesh raider names make no distinction between male and female names. Surnames are clan-based, though they are rarely used.\n\n**First Names.** Cha'nagh, Fashk, Gorshh, Keshk, Mar'govrok\n\n**Surnames.** Ban, Fel, Kuir, Penk, Teeshk",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Wisdom or Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Flesh raiders reach adulthoood by 20 and rarely live longer than 90 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Flesh raiders' propensity towards war and aggression cause them to tend toward chaotic dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Flesh raiders typically stand between 6 and 7 feet tall and weigh around 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Aggressive",
+      "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+    },
+    {
+      "name": "Cannibalize",
+      "description": "If you spend at least 1 minute devouring the corpse of a beast or humanoid, you gain temporary hit points equal to your Constitution modifier (minimum of one). Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Force Contention",
+      "description": "Due to their unique physiology, flesh raider hardiness allows them to overcome use of the Force. You have advantage on Strength and Constitution saving throws against force powers."
+    },
+    {
+      "name": "Menacing",
+      "description": "You gain proficiency in the Intimidation skill."
+    },
+    {
+      "name": "Hunters",
+      "description": "Whenever you make a Wisdom (Survival) check to hunt for food, you are considered to have expertise in the Survival skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Rakata. Rakata is characterized by its deep tones and simplistic nature, using mainly consonants and long vowels. It's script seems to be a very ancient form of Galactic Basic."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom",
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "145 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Horizontal eye stalks, horizontal spade-shaped head, tridactyl hands",
+    "skinColorOptions": "Brown, pink, red, or tan",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, dark blue, dark green"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_fleshRaider.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

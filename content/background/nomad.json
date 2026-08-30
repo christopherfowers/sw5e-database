@@ -1,0 +1,168 @@
+{
+  "key": "nomad",
+  "name": "Nomad",
+  "lore": "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild.",
+  "skillProficiencies": "Choose two from Animal Handling, Athletics, Medicine, and Survival",
+  "toolProficiencies": "One type of musical instrument",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A walking stick, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "Wanderer",
+    "description": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+  },
+  "suggestedCharacteristics": "Often considered rude and uncouth among civilized folk, nomads have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world are the most important bonds to nomads.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I'm driven by a wanderlust that led me away from home."
+    },
+    {
+      "roll": 2,
+      "description": "I watch over my friends as if they were a litter of newborn pups."
+    },
+    {
+      "roll": 3,
+      "description": "I once ran twenty-five miles without stopping to warn my clan of an approaching horde. I'd do it again if I had to."
+    },
+    {
+      "roll": 4,
+      "description": "I have a lesson for every situation, drawn from observing nature."
+    },
+    {
+      "roll": 5,
+      "description": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry rancor."
+    },
+    {
+      "roll": 6,
+      "description": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+    },
+    {
+      "roll": 7,
+      "description": "I feel far more comfortable around animals than people."
+    },
+    {
+      "roll": 8,
+      "description": "I was, in fact, raised by wampas."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Change",
+      "description": "Life is like the seasons, in constant change, and we must change with it. (Chaotic)"
+    },
+    {
+      "roll": 2,
+      "name": "Greater Good",
+      "description": "It is each person's responsibility to make the most happiness for the whole tribe. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Honor",
+      "description": "If I dishonor myself, I dishonor my whole clan. (Lawful)"
+    },
+    {
+      "roll": 4,
+      "name": "Might",
+      "description": "The strongest are meant to rule. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Nature",
+      "description": "The natural world is more important than all the constructs of civilization. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Glory",
+      "description": "I must earn glory in battle, for myself and my clan. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "My family, clan, or tribe is the most important thing in my life, even when they are far from me."
+    },
+    {
+      "roll": 2,
+      "description": "An injury to the unspoiled wilderness of my home is an injury to me."
+    },
+    {
+      "roll": 3,
+      "description": "I will bring terrible wrath down on the Darkdoers who destroyed my homeland."
+    },
+    {
+      "roll": 4,
+      "description": "I am the last of my tribe, and it is up to me to ensure their names enter legend."
+    },
+    {
+      "roll": 5,
+      "description": "I suffer awful visions of a coming disaster and will do anything to prevent it."
+    },
+    {
+      "roll": 6,
+      "description": "It is my duty to provide children to sustain my tribe."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I am too enamored of ale, wine, and other intoxicants."
+    },
+    {
+      "roll": 2,
+      "description": "There's no room for caution in a life lived to the fullest."
+    },
+    {
+      "roll": 3,
+      "description": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me."
+    },
+    {
+      "roll": 4,
+      "description": "I am slow to trust members of other species, tribes, and societies."
+    },
+    {
+      "roll": 5,
+      "description": "Violence is my answer to almost any challenge."
+    },
+    {
+      "roll": 6,
+      "description": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Animal Handler"
+    },
+    {
+      "roll": 2,
+      "name": "Brawny"
+    },
+    {
+      "roll": 3,
+      "name": "Medic"
+    },
+    {
+      "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Entertainer"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Dungeon Delver"
+    },
+    {
+      "roll": 8,
+      "name": "Observant"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

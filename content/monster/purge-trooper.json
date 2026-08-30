@@ -80,7 +80,7 @@
     {
       "name": "Surprise Attack",
       "behaviorType": "trait",
-      "description": "If the trooper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.",
+      "description": "If the trooper surprises a creature and hits it with an attack during the first round of combat , the target takes an extra 7 (2d6) damage from the attack.",
       "attackType": "none",
       "attackBonus": 0
     },
@@ -106,7 +106,7 @@
     {
       "name": "Electrostaff",
       "behaviorType": "action",
-      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.",
+      "description": "Melee Weapon Attack. +6 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.",
       "attackType": "meleeWeapon",
       "attackBonus": 6,
       "range": "reach 5 ft.",

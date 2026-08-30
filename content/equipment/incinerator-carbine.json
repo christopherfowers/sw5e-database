@@ -1,0 +1,24 @@
+{
+  "key": "incinerator-carbine",
+  "name": "Incinerator carbine",
+  "category": "weapon",
+  "costInCredits": 1650,
+  "weight": 7.5,
+  "properties": [
+    "dire 1",
+    "disintegrate 13",
+    "power cell (range 60/240)",
+    "reload 12",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "fire"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

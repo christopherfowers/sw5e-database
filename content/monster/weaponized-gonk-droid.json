@@ -1,0 +1,114 @@
+{
+  "key": "weaponized-gonk-droid",
+  "name": "Weaponized Gonk Droid",
+  "size": "small",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "reinforced steel plating"
+  },
+  "hitPoints": {
+    "average": 5,
+    "roll": "1d6 + 2"
+  },
+  "speed": {
+    "walk": 15,
+    "text": "15 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 10,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 9,
+      "modifier": -1
+    },
+    "wisdom": {
+      "score": 7,
+      "modifier": -2
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "senses": [
+    "passive Perception 8"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic",
+    "Gonkian"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion",
+      "lightning"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ],
+    "other": [
+      "disease"
+    ]
+  },
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Explosive Destruction",
+      "behaviorType": "trait",
+      "description": "When the Gonk droid is reduced to zero hit points, it explodes. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Kick",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit 2 (1d4 + 0)",
+      "attackType": "meleeWeapon",
+      "attackBonus": 2,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 2,
+      "damageRoll": "1d4 + 0"
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d8 + 2",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "While Gonk Droids are generally harmless, Groodo the Hutt, in his bid to destroy the Fondor Shipyards and Spaceport, employed, as part of his Droid Control Army, GNK Power Droids that were modified with rapid-repeating blasters in their upper casings. Likewise, the Alliance to Restore the Republic modified GNK units so they would march slowly across the battlefield, until they collided with an enemy building, and explode.",
+  "sectionText": "Power droids are boxy droids with two or four legs that serve as mobile batteries, capable of powering a variety of machinery and vehicles. They are, effectively, power generators with legs and simple artificial intelligence so that they can understand rudimentary commands. They are most commonly found on under-developed worlds that do not have an expansive power grid, or in mobile (often military) operations. They often make a low honking noise that sounds like the word \"gonk,\" resulting in the nickname gonk droid or simply gonk. This form of droidspeak was referred to as \"Gonkian.\"***Models.*** Notable power droid models included the EG-4 and EG-6 power droids produced by Veril Line Systems; the S9-series heavy power droid, a larger and more powerful version of the EG-6; the PLNK \"plunk\" power droid; and the popular GNK power droid manufactured by Industrial Automaton.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

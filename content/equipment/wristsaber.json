@@ -1,0 +1,22 @@
+{
+  "key": "wristsaber",
+  "name": "Wristsaber",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 1.0,
+  "properties": [
+    "finesse",
+    "fixed",
+    "light",
+    "luminous"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

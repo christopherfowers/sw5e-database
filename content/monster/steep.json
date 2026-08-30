@@ -1,0 +1,100 @@
+{
+  "key": "steep",
+  "name": "Steep",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 55,
+    "roll": "10d8 + 10"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., swim 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 15,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 13,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 3,
+      "modifier": -4
+    }
+  },
+  "skills": [
+    "Stealth +4",
+    "Percpection +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "damageResistances": {
+    "types": [
+      "energy",
+      "ion"
+    ],
+    "other": [
+      "and kinetic from unenhanced weapons"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Amphibious",
+      "behaviorType": "trait",
+      "description": "The steep can breathe air and water.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Reckless",
+      "behaviorType": "trait",
+      "description": "At the start of its turn, the steep can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (1d8 + 2) kinetic damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the steep can't bite another target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "1d8 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "The steep are a species of non-sentient amphibians native to the planet Metellos. They dwell in the sewage-filled seas of the planet, bobbing on the surface of the waters. At night, the carnivorous steeps wander the alleyways of Metellos' settlements, searching for children to eat.\n\n***Biology & Appearance.*** Steeps stand on four spindly legs, each of which ends with a webbed foot, and are capable of walking on land. The carnivorous amphibians are protected by a tough, rubbery hide of ten-centimeter-thick, brownish-white skin. Although their heads are large, their brains are small. A steep's mouth stretches from one side of the head to the other, with two eyes located on purple stalks protruding from the tops of their heads. Similarly purple-colored growths extend down the backs of the species.\n\n***Behavior.*** Designated as non-sentient, steeps are known for their lack of intelligence and, when fighting an adversary, will continue attacking relentlessly until they themselves have been killed. Steeps are named after their habit of \"steeping\" themselves in the sewage-filled waters of their homeworld Metellos' seas. The amphibians are frequently seen floating on the surface of the water. Steeps are known to roam down Metellean alleyways at night seeking children for prey.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

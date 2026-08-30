@@ -1,0 +1,108 @@
+{
+  "key": "wyyyschokk",
+  "name": "Wyyyschokk",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 78,
+    "roll": "12d8 + 24"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft., climb 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 17,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 5,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Stealth +9"
+  ],
+  "senses": [
+    "blindsight 10 ft.",
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The wyyyschokk has advantage on an attack roll against a creature if at least one of the wyyyschokk's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Spider Climb",
+      "behaviorType": "trait",
+      "description": "The wyyyschokk can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Web Walker",
+      "behaviorType": "trait",
+      "description": "The wyyyschokk ignores movement restrictions caused by webbing.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) kinetic damage, and the target must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 12,
+      "damageRoll": "2d8 + 3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Web",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +6 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to kinetic, poison, and psychic damage).",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "usageLimit": "Recharge 5-6",
+      "range": "range 30/60 ft.",
+      "targets": "one creature"
+    }
+  ],
+  "sectionText": "Also known as webweavers, or Kashyyykian giant weavers, Wyyyschokk are arachnids that live in the lower levels of Kashyyyk's \"multilayered deathtrap\" ecosystem. Wyyyschokk hold the distinction of being the most dangerous predator on Kashyyyk, signifying them as one of the most dangerous in the galaxy.\n\n***Behavior.*** They are intelligent enough to coordinate ambushes on unsuspecting creatures, and have the tenacity to track their prey for over a kilometer. When attacking, they immobilize their victims with thick strands of web and copious amounts of poisonous fluid from their upraised mandibles.\n\n***Range.*** While most wyyyschokk live deep in the lower levels of the wroshyr forests, some populations can also be found in the Etyyy region where no kilometer-high forests grow, while others live in the ShadowWeave Caverns in the Kkowir Forest.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

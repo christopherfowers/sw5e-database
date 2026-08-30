@@ -1,0 +1,205 @@
+{
+  "key": "criminal",
+  "name": "Criminal",
+  "lore": "You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You're far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.",
+  "skillProficiencies": "Choose two from Deception, Intimidation, Sleight of Hand, and Stealth",
+  "toolProficiencies": "One type of gaming set, your choice of demolitions kit, security kit, or slicer's kit",
+  "startingEquipment": "A set of common clothes with a hood, a gaming set (one of your choice), and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Criminal Contact",
+    "description": "You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+  },
+  "suggestedCharacteristics": "Criminals might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but criminals rarely show any respect for law or authority.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I always have a plan for what to do when things go wrong."
+    },
+    {
+      "roll": 2,
+      "description": "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me."
+    },
+    {
+      "roll": 3,
+      "description": "The first thing I do in a new place is note the locations of everything valuable — or where such things could be hidden."
+    },
+    {
+      "roll": 4,
+      "description": "I would rather make a new friend than a new enemy."
+    },
+    {
+      "roll": 5,
+      "description": "I am incredibly slow to trust. Those who seem the fairest often have the most to hide."
+    },
+    {
+      "roll": 6,
+      "description": "I don't pay attention to the risks in a situation. Never tell me the odds."
+    },
+    {
+      "roll": 7,
+      "description": "The best way to get me to do something is to tell me I can't do it."
+    },
+    {
+      "roll": 8,
+      "description": "I blow up at the slightest insult."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Honor",
+      "description": "I don't steal from others in the trade. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Freedom",
+      "description": "Chains are meant to be broken, as are those who would forge them. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Charity",
+      "description": "I steal from the wealthy so that I can help people in need. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Greed",
+      "description": "I will do whatever it takes to become wealthy. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Redemption",
+      "description": "There's a spark of good in everyone. (Light)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I'm trying to pay off an old debt I owe to a generous benefactor."
+    },
+    {
+      "roll": 2,
+      "description": "My ill-gotten gains go to support my family."
+    },
+    {
+      "roll": 3,
+      "description": "Something important was taken from me, and I aim to steal it back."
+    },
+    {
+      "roll": 4,
+      "description": "I will become the greatest thief that ever lived."
+    },
+    {
+      "roll": 5,
+      "description": "I'm guilty of a terrible crime. I hope I can redeem myself for it."
+    },
+    {
+      "roll": 6,
+      "description": "Someone I loved died because of a mistake I made. That will never happen again."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "When I see something valuable, I can't think about anything but how to steal it."
+    },
+    {
+      "roll": 2,
+      "description": "When faced with a choice between money and my friends, I usually choose the money."
+    },
+    {
+      "roll": 3,
+      "description": "If there's a plan, I'll forget it. If I don't forget it, I'll ignore it."
+    },
+    {
+      "roll": 4,
+      "description": "I have a \"tell\" that reveals when I'm lying."
+    },
+    {
+      "roll": 5,
+      "description": "I turn tail and run when things look bad."
+    },
+    {
+      "roll": 6,
+      "description": "An innocent person is in prison for a crime that I committed. I'm okay with that."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Threatening"
+    },
+    {
+      "roll": 3,
+      "name": "Quick-Fingered"
+    },
+    {
+      "roll": 4,
+      "name": "Stealthy"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Feigned Confidence"
+    },
+    {
+      "roll": 8,
+      "name": "Observant"
+    }
+  ],
+  "variant": {
+    "name": "Criminal Specialty",
+    "description": "Individual criminals often have particular specialties, whether a part of an organization or a solo endeavor. Choose the role you played in your criminal life, or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Blackmailer|\n|2|Burglar|\n|3|Enforcer|\n|4|Fence|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Highway robber|\n|6|Hired killer|\n|7|Pickpocket|\n|8|Thug|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Blackmailer"
+      },
+      {
+        "roll": 2,
+        "name": "Burglar"
+      },
+      {
+        "roll": 3,
+        "name": "Enforcer"
+      },
+      {
+        "roll": 4,
+        "name": "Fence"
+      },
+      {
+        "roll": 5,
+        "name": "Highway robber"
+      },
+      {
+        "roll": 6,
+        "name": "Hired killer"
+      },
+      {
+        "roll": 7,
+        "name": "Pickpocket"
+      },
+      {
+        "roll": 8,
+        "name": "Thug"
+      }
+    ]
+  },
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

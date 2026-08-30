@@ -1,0 +1,12 @@
+{
+  "key": "force-frustrater",
+  "name": "Force Frustrater",
+  "abilityScoreIncreases": [
+    "strength",
+    "wisdom",
+    "charisma"
+  ],
+  "description": "You've practiced techniques to resist being manipulated by the Force. You gain the following benefits:\n- Increase your Strength, Wisdom, or Charisma score by 1, to a maximum of 20.\n- When a creature attempts to move you against your will using a force power, the maximum distance it can move you is halved.\n- You have advantage on saving throws made to avoid force damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

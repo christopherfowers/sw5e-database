@@ -1,0 +1,18 @@
+{
+  "key": "stasis-field",
+  "name": "Stasis Field",
+  "powerType": "force",
+  "level": 8,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet (30-foot cube)",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Stasis",
+  "description": "Choose a point that you can see within range. Each creature within range of that point must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of a target's turns, it can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs.\n\n***Force Potency.*** When you cast this power using a force slot of 9th level, the size of the cube increases to 40 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

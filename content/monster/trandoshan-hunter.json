@@ -1,0 +1,124 @@
+{
+  "key": "trandoshan-hunter",
+  "name": "Trandoshan Hunter",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any dark",
+  "armor": {
+    "class": 15,
+    "type": "combat suit"
+  },
+  "hitPoints": {
+    "average": 77,
+    "roll": "14d8 + 14"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 18,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Strength +5",
+    "Wisdom +4"
+  ],
+  "skills": [
+    "Athletics +5",
+    "Perception +4",
+    "Survival +4"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 14"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Dosh"
+  ],
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Hunter's Eye",
+      "behaviorType": "trait",
+      "description": "As a bonus, the tradoshan can add 1d10 to its next attack or damage roll with a blaster weapon.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Infrared Vision",
+      "behaviorType": "trait",
+      "description": "The trandoshan has advantage on Wisdom (Perception) checks that rely on sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Regeneration",
+      "behaviorType": "trait",
+      "description": "The trandoshan regains 10 hit points at the start of its turn if it has at least 1 hit point.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The trandoshan makes two ranged weapon attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "energy"
+    },
+    {
+      "name": "Trandoshan Shortsword",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d6 + 4",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Trandoshans, also called T'doshok, were large, bipedal reptilian sentient humanoids from the planet Trandosha, and were renowned as great hunters who relished the thrill of the hunt. Trandoshans are known to embark on a hunting related rite of passage. ***Notable Trandoshans.*** A Trandoshan known as Garnac ran a hunting guild based out of a floating fortress that hovered above an island-designated Island Four-on the moon Wasskah. Garnac's scouts traveled to different worlds to collect other sentient beings to dump on Island Four, where the prisoners would be hunted for sport. Bossk, a famous Trandoshan bounty hunter, worked alongside fellow hunters Aurra Sing and Castas to mentor the orphaned Boba Fett. Bossk owned and operated a modified YV-666 light freighter named the Hound's Tooth. Bossk was renowned and feared for his effectiveness at killing Wookiees. He was ruthless and efficient, but upheld the Bounty Hunter Code and was known to keep his promises to the letter of the law.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

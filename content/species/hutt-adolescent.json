@@ -1,0 +1,95 @@
+{
+  "key": "hutt-adolescent",
+  "name": "Hutt, Adolescent",
+  "size": "medium",
+  "homeworld": "Nal Hutta",
+  "nativeLanguage": "Huttese",
+  "lore": "### Biology and Appearance\nHutts are a massive slug-like species who have large mouths and stubby arms. They have three lungs and thick leathery skin, which is wrinkled and slimy. Hutts often have watery eyes and lack facial expressions. Their tails are supported by a skeletal spine. Despite their legendary size, hutts start out as tiny huttlets less than half a foot in height, and continually grow over the long lives.\n\n### Society and Culture\nMost hutts are crime lords who live opulent lives overseeing criminal underworld activities like spice smuggling, slavery, gambling and bounty hunting. This is not true for all, however, as some eschew the life of a decadent, obese version of their species and prefer a more mobile existence. Hutt society is divided into families known as kajidics, a social structure that is both familial and a crime gang.\n\nHutts are encouraged to make a name for themselves around the age of 150 while simultaneously not threatening the welfare of the clan. At around 200, they will likely stop being saved by the clan and encouraged even further to fend for themselves while benefiting the kajidic; they may even be granted a star system or two. Nomadic or kajidic-less hutts are often hunted or killed by other hutts in fear of the nomad coming to claim a territory.\n\n### Names\nHutt names with a suffix title as \"the Hutt\" are usually reserved for noteworthy huts, with the name of a hutt's kajidic coming before the title. Because hutts are hermaphroditic, choosing a gender at will, their names are considered androgynous.\n\n**First Names.** Arok, Gorga, Jabba, Mama, Ziro,\n\n**Kajidic Names.** Besadii, Desilijic, Fenn'ak, Gnuda",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and two other ability scores of your choice increase by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Hutts are considered a child until around the age of 200 in which they are a full fledged adult. Hutts can live upwards of 900 years with even more ancient ones exceeding that."
+    },
+    {
+      "name": "Alignment",
+      "description": "Hutts are selfish, greedy, and highly organized, causing them to tend toward chaotic dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Hutts have a unique special characteristic; from birth to death, they never stop growing. As an adolescent hutt, you typically stand between 6 and 7 feet tall and weigh at least 400 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 20 feet."
+    },
+    {
+      "name": "Closed Mind",
+      "description": "Hutt brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers."
+    },
+    {
+      "name": "Natural Resistance",
+      "description": "You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9)."
+    },
+    {
+      "name": "Powerful Build",
+      "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples."
+    },
+    {
+      "name": "Prehensile Tail",
+      "description": "You have supreme control over your tail and can use it to manipulate objects as well as your hands."
+    },
+    {
+      "name": "Shrewd Demeanor",
+      "description": "You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice."
+    },
+    {
+      "name": "Slow and Lethargic",
+      "description": "Hutts are slow and generally incapable of moving quickly. You have disadvantage on Dexterity saving throws, and when determining your bonus to AC from your Dexterity, you can't add more than +3."
+    },
+    {
+      "name": "Wealthy",
+      "description": "During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Huttese. Hutts rarely speak Galactic Basic, even though they are perfectly able; if the person with whom they are speaking doesn't understand Huttese, they are more likely to use an interpretor than deign to speak the language of lesser species."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "anyAbilityCount": 2
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "400 lb.",
+    "weightModifier": "x(2d8) lb."
+  },
+  "appearance": {
+    "distinctions": "Three lungs, slug-like appearance",
+    "skinColorOptions": "Black, blue, brown, gold, green, purple, tan, white, or yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Blue, gray, green, orange, turquoise, violet, or yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_hutt.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

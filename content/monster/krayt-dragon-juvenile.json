@@ -1,0 +1,95 @@
+{
+  "key": "krayt-dragon-juvenile",
+  "name": "Krayt Dragon, Juvenile",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 18,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 168,
+    "roll": "16d10+80"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft., burrow 80 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 23,
+      "modifier": 6
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 21,
+      "modifier": 5
+    },
+    "intelligence": {
+      "score": 5,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Dex +4",
+    "Con +9"
+  ],
+  "senses": [
+    "darkvision 120ft",
+    "passive perception 18"
+  ],
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The dragon makes three attacks: one with its bite and two with its claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) kinetic damage plus 4 (2d4) toxin damage. The target must then succeed on a Constitution saving throw (DC 15) or become poisoned.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) kineric damage plus 4 (2d4) toxin damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Poisonous Saliva",
+      "behaviorType": "action",
+      "description": "The dragon spits its poisonous saliva in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) tocin damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    }
+  ],
+  "flavorText": "The greater krayt was a rarer, larger species of krayt dragon, known for its tremendous size and continual growth over time. Creatures of near legendary status, greater krayt dragons had ten legs, measured at least 100 meters from snout to tail tip and had the ability to move through or on Tatooine's desert sand. Greater krayt dragons attacked with their massive jaws or whip-like spike-tail, using their claws only to move through the sand.",
+  "sectionText": "Krayt dragons were large, carnivorous reptiles that hailed from Tatooine, a desert planet in the galaxy's Outer Rim Territories. They came in two subspecies and, despite their fierceness, were hunted for the precious pearls found in their bodies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "key": "armstech-s-implements",
+  "name": "Armstech's implements",
+  "category": "tool",
+  "costInCredits": 250,
+  "weight": 9.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

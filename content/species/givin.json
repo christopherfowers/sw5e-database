@@ -1,0 +1,85 @@
+{
+  "key": "givin",
+  "name": "Givin",
+  "size": "medium",
+  "homeworld": "Yag'Dhul",
+  "nativeLanguage": "Givin",
+  "lore": "### Biology and Appearance\nThe Givin are a species of white-skinned, hairless humanoids who are quite frequently likened to animated skeletons. Their facial features include many sharp downward angles, large triangular eye sockets, and sloped-up brows that meet together in the middle, lending them an appearance of permanent anguish. Because of the harsh environment of their homeworld, the Givins' organs are sealed against atmospheric exposure; thanks to this complex system, they can survive for about a day in a vacuum.\n\n### Society and Culture\nIn order to survive their homeworld's lunar tides, the Givin became extremely adept at calculating the trajectory of their celestial bodies. Over the ages, Givin have become so skilled at celestial navigation that they are able to calculate hyperspace jumps in their heads. As such, mathematics have become a cornerstone of Givin society. Two Givin will often greet each other by exchanging complex equations for the other to solve.\n\nDue to their profound mathematical ability, Givin are skilled starship builders and astrogators. They create some of the most impressive, complex, and sleek ships in the galaxy. However, they frequently build their ships without the presence of a navcomputer or pressurization system, and so their buyers have to add these system in the starship aftermarket.\n\n### Names\nGivin names are often derived by parents from favored mathematical equations. Male and female names do not significantly differ. Surnames are familial.\n\n**First Names.** Daggibus, Lersia, Na-Soth, Nisil, Sladru\n\n**Surnames.** Alarin, Nalas, Narth, Larr, Scoritoles",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Givin reach adulthood in their early teens and live about 80 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Givins believe power and respect are earned rather than expected, causing them to tend towards balanced alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Givin typically stand around 6 feet tall and weigh 150 lb. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Hardened Exterior",
+      "description": "You have a tough, bony exterior. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier."
+    },
+    {
+      "name": "Mathematical Savants",
+      "description": "Whenever you make an Intelligence (Technology) check involving mathematics, you are considered to have expertise in the Technology skill."
+    },
+    {
+      "name": "Stargazer",
+      "description": "You have proficiency in Piloting and Technology."
+    },
+    {
+      "name": "Vacuum Sealed",
+      "description": "You can survive for one day within the vacuum of space. You still require oxygen to breathe. You have resistance to cold damage."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Givin. Givin is characterized by its use of mathematical jargon and symbols, making it nigh incomprehensible to the less mathematically inclined."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "105 lb.",
+    "weightModifier": "x2d4 lb."
+  },
+  "appearance": {
+    "distinctions": "Skeletal appearance, able to survive in a vacuum for short periods",
+    "skinColorOptions": "White",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_givin.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

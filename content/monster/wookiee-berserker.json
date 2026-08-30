@@ -1,0 +1,98 @@
+{
+  "key": "wookiee-berserker",
+  "name": "Wookiee Berserker",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "hide"
+  },
+  "hitPoints": {
+    "average": 30,
+    "roll": "4d8 + 12"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 7,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "skills": [
+    "Athletics +5",
+    "Intimidation +5"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Shyriiwook"
+  ],
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Aggressive",
+      "behaviorType": "trait",
+      "description": "As a bonus action, the wookiee can move up to its speed toward a hostile creature that it can see.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Reckless",
+      "behaviorType": "trait",
+      "description": "At the start of its turn, the wookiee can can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blood Rage",
+      "behaviorType": "trait",
+      "description": "When a creature within 5 feet of the wookiee hits it with an attack, the wookiee may use its reaction to immediately make a melee weapon attack with advantage against that creature.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vibroaxe",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, one target. Hit: 9 (1d12 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "one target. *Hit:* 9 (1d12 + 3) kinetic damage.",
+      "averageDamage": 9,
+      "damageRoll": "1d12 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Wookiees are a tall species of furry humanoids from the planet Kashyyyk, who grow to a height of nearly three meters. They are covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably comes in shades of brown, black, gray, and white. The species has two sexes, female and male. The latter grow long beards in adult life. Wookiee eye color ranges from blue to brown. Wookiees are big eaters, with the average adult requiring 3,500-6,000 calories a day of food. Wookiees have extendable claws which they use for climbing; using them for anything else violates the Wookiee honor code. Despite their fearsome appearance and volatile temperament, Wookiees are regarded as intelligent, sophisticated, loyal and trusting. When angered, Wookiees are known to descend into a berserker rage. Wookiees have a long lifespan, appearing not to age over a span of fifty years. ***History.*** The softening and repeal of anti-slavery laws under the Empire ultimately led to classifying the Wookiees as non-sentient. The Empire enslaved the Wookiees not because they were a meaningful threat to the Empire but because their massive, robust physiology allowed them to work long and hard in extreme conditions. As a result, many Wookiees were forced into slavery building much of the Imperial war machine, sent to be worked to death in the dangerous spice mines of the planet Kessel, or on construction sites such as the Death Star. Numerous Wookiees were bred for use in medical experimentation, and some were used as playthings, hunted for sport, or forced into gladiatorial combat. Some of these wookiees turned towards darker pursuits after their rough treatment, such as the infamous bounty hunter Black Krrsantan.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

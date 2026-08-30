@@ -1,0 +1,11 @@
+{
+  "key": "bolt",
+  "name": "Bolt",
+  "category": "ammunition",
+  "costInCredits": 10,
+  "weight": 0.0,
+  "description": "Rather than traditional power cells, the bolt-thrower fires specialized projectiles in the form of bolts.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

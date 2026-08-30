@@ -1,0 +1,16 @@
+{
+  "key": "vibrobaton",
+  "name": "Vibrobaton",
+  "category": "weapon",
+  "costInCredits": 250,
+  "weight": 4.0,
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

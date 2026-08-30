@@ -1,0 +1,67 @@
+{
+  "key": "anooba",
+  "name": "Anooba",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 36,
+    "roll": "5d10+9"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "passive perception 13"
+  ],
+  "challengeRating": "1",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: (2d6 + 3) kinetic damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Anoobas were aggressive pack predators native to Tatooine. Opportunistic hunters as well as scavengers, these wolflike canines would attack virtually anything smaller than themselves (such as scurriers) and would band together in packs to bring down rontos, eopies, and similar creatures. Strong, horny beaks on their jaws assisted in the breaking of thick skeletons, while long, tufted tails helped to counterbalance the body and dissipate heat. Anoobas could vary in weight from 20 to 45 kilograms—males being larger than females—and often banded into packs of ten to twelve. These units were dominated by an alpha male and alpha female, and it was not uncommon to see entire packs waiting alongside podrace courses for an easy meal. Like the winged urusai, accounts tell of anoobas being so engorged on meals that they are unable to move. This may be due in part to the fact that anooba mothers fed their young, born three to four at a time, through regurgitation.\n\n***Domestication.*** Anoobas were also known to be, like the massiff, domesticated by Tatooine's Tusken Raiders as pets and guard animals.\n\n***Off-World.*** Packs of escaped, adaptable anoobas imported from Tatooine roamed Coruscant alleys looking for prey. As a result, nocturnal foot traffic in certain areas was highly risky. Anoobas on Coruscant were known to howl at the planet's moons. Anoobas were sometimes caught in packs and used as gladiatorial fighting animals, for which they were given a shock collar to control their behavior.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

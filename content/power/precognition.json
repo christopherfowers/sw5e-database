@@ -1,0 +1,18 @@
+{
+  "key": "precognition",
+  "name": "Precognition",
+  "powerType": "force",
+  "level": 9,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "minute",
+    "text": "1 minute"
+  },
+  "range": "Self",
+  "duration": "8 hours",
+  "concentration": false,
+  "prerequisite": "Danger Sense",
+  "description": "Your mastery of the Force gives you a limited ability to see into the immediate future. For the duration, you can't be surprised and you have advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against you for the duration.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,23 @@
+{
+  "key": "heavy-blaster-rifle",
+  "name": "Heavy blaster rifle",
+  "category": "weapon",
+  "costInCredits": 1025,
+  "weight": 10.0,
+  "properties": [
+    "power cell (range 100/400)",
+    "rapid 2",
+    "reload 8",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

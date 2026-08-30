@@ -1,0 +1,23 @@
+{
+  "key": "shotgun",
+  "name": "Shotgun",
+  "category": "weapon",
+  "costInCredits": 725,
+  "weight": 6.5,
+  "properties": [
+    "burst 2",
+    "reload 4",
+    "slug cartridge (range 30/120)",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

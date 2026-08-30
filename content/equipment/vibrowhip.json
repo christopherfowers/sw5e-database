@@ -1,0 +1,20 @@
+{
+  "key": "vibrowhip",
+  "name": "Vibrowhip",
+  "category": "weapon",
+  "costInCredits": 275,
+  "weight": 3.5,
+  "properties": [
+    "finesse",
+    "reach"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

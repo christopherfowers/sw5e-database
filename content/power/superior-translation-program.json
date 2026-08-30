@@ -1,0 +1,17 @@
+{
+  "key": "superior-translation-program",
+  "name": "Superior Translation Program",
+  "powerType": "tech",
+  "level": 6,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "7 days",
+  "concentration": false,
+  "description": "You grant up to four willing creatures the ability to understand any registered language they read or hear. Additionally, they gain the ability to speak that language, if they are physically capable of speaking it normally.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 7th level or higher, you can affect one additional creature for each slot level above 6th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,19 @@
+{
+  "key": "vibrorapier",
+  "name": "Vibrorapier",
+  "category": "weapon",
+  "costInCredits": 150,
+  "weight": 3.5,
+  "properties": [
+    "finesse"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

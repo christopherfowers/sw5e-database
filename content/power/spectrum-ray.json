@@ -1,0 +1,17 @@
+{
+  "key": "spectrum-ray",
+  "name": "Spectrum Ray",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You shoot a beam of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or sonic for the type of beam you create, and then make a ranged tech attack against the target. If the attack hits, the creature takes 1d8 damage of the type you chose.\n\nThis power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8) and 17th level (4d8).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

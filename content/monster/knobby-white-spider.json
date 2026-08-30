@@ -1,0 +1,126 @@
+{
+  "key": "knobby-white-spider",
+  "name": "Knobby White Spider",
+  "size": "large",
+  "types": [
+    "plant"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 112,
+    "roll": "15d10 + 30"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Stealth +2"
+  ],
+  "senses": [
+    "blindsight 60 ft. (blind beyond this radius)",
+    "passive Perception 10"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "fire"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "blinded",
+      "deafened"
+    ],
+    "other": [
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "behaviors": [
+    {
+      "name": "Distress Spores",
+      "behaviorType": "trait",
+      "description": "When the spider takes damage, all other spiders within 240 feet of it can sense its pain.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "False Appearance",
+      "behaviorType": "trait",
+      "description": "While the spider remains motionless, it is indistinguishable from a normal gnarltree.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The spider makes two slam attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Slam",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "2d8 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Pacifying Spores",
+      "behaviorType": "action",
+      "description": "The spider ejects spores in 15-foot cone. All creatures in the area must succeed on a DC 14 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Stinger",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) kinetic damage, and the target must make a DC 15 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The Knobby white spider was a large landspeeder-sized arachnid-like organism native to the swamp world of Dagobah. In addition to the very large ones, there are also some smaller, knee-heigh spiderlings.\n\n***Appearance.*** It had a large, lumpy body with a bloated, bulbous head, eight gnarled legs and one large stinger used to capture and sedate its prey.\n\n***Biology.*** One of the most bizarre organisms on Dagobah, the knobby white spider was in fact a mobile root that was part of the gnarltree's life cycle. Composed primarily of calcified wood, it would break free of its parent tree to roam the swamps and devour animals. After gathering enough nutrients, the spider would find a clear spot to anchor its legs, and if it survived that period, it would eventually transform into roots that allow the spider to grow into a towering tree. During this period it was vulnerable to bogwings and jubba birds.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

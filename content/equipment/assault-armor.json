@@ -1,0 +1,17 @@
+{
+  "key": "assault-armor",
+  "name": "Assault armor",
+  "category": "armor",
+  "costInCredits": 2000,
+  "weight": 60.0,
+  "description": "Assault armor improved on battle armor, with the benefit of micro-hydraulics that boost the efficacy of the operator. It offers better protection, but increased weight.",
+  "properties": [
+    "bulky",
+    "strength 15"
+  ],
+  "armorClassification": "heavy",
+  "armorClass": "17",
+  "stealthDisadvantage": true,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

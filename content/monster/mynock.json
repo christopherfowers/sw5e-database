@@ -1,0 +1,94 @@
+{
+  "key": "mynock",
+  "name": "Mynock",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 7,
+    "roll": "2d6"
+  },
+  "speed": {
+    "walk": 5,
+    "text": "5 ft., fly 40ft"
+  },
+  "abilities": {
+    "strength": {
+      "score": 4,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 8,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 9"
+  ],
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Atmosphere Agnostic",
+      "behaviorType": "trait",
+      "description": "The mynock can survive in any type of atmosphere or vacuum.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Battery Drainer",
+      "behaviorType": "trait",
+      "description": "If the mynock attaches itself to a piece of equipment that needs energy to function, that piece will stop working until the Mynock is removed.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Energy Drain",
+      "behaviorType": "action",
+      "description": "The mynock can detach itself by spending 5 feet of its Movement. It does so after it drains 10 Hit Points of energy from the target or the target dies. A creature, including the target, can use its action to detach the Mynock. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) kinetic damage, and the mynock attaches to the target. If attached to a droid or construct, at the start of each of the mynock's turns, the target loses 5 (1d4 + 3) hit points due to energy being drained.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 5,
+      "damageRoll": "1d4 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Mynocks are a species of silicon-based bat-like parasites that chew on the power cables and energy conductors of starships, and can drain a ship's entire power supply. They reproduce by splitting in two and growing new creatures from each half. Mynocks are capable of surviving in the atmospheres of planets and the vacuum of space, though only a few varieties lived on planets. They are also known to inhabit asteroid fields and the gullets of exogorths, where they share in its meals.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

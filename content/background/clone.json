@@ -1,0 +1,254 @@
+{
+  "key": "clone",
+  "name": "Clone",
+  "lore": "You are a miracle of science. A creature born not from love or passion, but from logic and machinery. Created in a laboratory, you are a perfect genetic replica of your DNA-Donor, whomever that is.",
+  "skillProficiencies": "Choose two from Athletics, Lore, Sleight of Hand and Survival",
+  "toolProficiencies": "Your choice of geneticist's implements, security kit, or slicer's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of clothes appropriate to your duties, a trinket related to your DNA-donor, and 150 credits",
+  "feature": {
+    "name": "A Life Not Lived",
+    "description": "Being a clone, you were born from the existence of another. Flashes of deeds you never did, of people you have never met and of information you have never learned sporadically appear. You may be confused with your DNA-Donor by others, being befriended by, or made enemies of, people you have never before met. The exact nature of these revelations depends on the nature of your DNA-Donor; they might lead to a site that only one other has ever seen, some long-forgotten fact, relic or weapon from the past that could reshape the present, or even information that would be damaging to the people who created you."
+  },
+  "suggestedCharacteristics": "A clone's demeanor often, though not always, matches that of their DNA-Donor. Is it nature, or is it nurture?",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I speak rarely but mean every word I say."
+    },
+    {
+      "roll": 2,
+      "description": "I laugh loudly and see the humor in stressful situations."
+    },
+    {
+      "roll": 3,
+      "description": "I prefer to solve problems without violence, but I finish fights decisively."
+    },
+    {
+      "roll": 4,
+      "description": "I enjoy being out in nature; poor weather never sours my mood."
+    },
+    {
+      "roll": 5,
+      "description": "I am dependable."
+    },
+    {
+      "roll": 6,
+      "description": "I am always working on some project or other."
+    },
+    {
+      "roll": 7,
+      "description": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+    },
+    {
+      "roll": 8,
+      "description": "I bluntly say what others are hinting at or hiding."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Charity",
+      "description": "I always try to help those in need, no matter what the personal cost. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Logic",
+      "description": "Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)|"
+    },
+    {
+      "roll": 3,
+      "name": "Live and Let Live",
+      "description": "Meddling in the affairs of others only causes trouble. (Balanced)"
+    },
+    {
+      "roll": 4,
+      "name": "Freedom",
+      "description": "Chains are meant to be broken, as are those who would forge them. (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Pride",
+      "description": "I will do whatever it takes to be recognized as the best. (Dark)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I'm determined to make something of myself. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I am fiercely loyal to those with whom I work."
+    },
+    {
+      "roll": 2,
+      "description": "In my birth laboratory, I discovered something that could endanger the world."
+    },
+    {
+      "roll": 3,
+      "description": "I spend money freely and live life to the fullest, knowing that tomorrow I might die."
+    },
+    {
+      "roll": 4,
+      "description": "I live for the thrill of the hunt."
+    },
+    {
+      "roll": 5,
+      "description": "I owe my instructor a great debt for forging me into the person I am today."
+    },
+    {
+      "roll": 6,
+      "description": "One day I will return to my home planet and prove that I am their greatest creation."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I secretly believe that everyone is beneath me."
+    },
+    {
+      "roll": 2,
+      "description": "I write exceptionally bad poetry and recite it at inopportune times."
+    },
+    {
+      "roll": 3,
+      "description": "I struggle with individuality, those who see me as unique I would die for."
+    },
+    {
+      "roll": 4,
+      "description": "Every social situation I'm in seems to lead to my asking rude personal questions."
+    },
+    {
+      "roll": 5,
+      "description": "I have trouble trusting in my allies."
+    },
+    {
+      "roll": 6,
+      "description": "I invest so much time into planning that I can't bring myself to deviate from the plan, even when it is needed."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Athlete"
+    },
+    {
+      "roll": 2,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 3,
+      "name": "Quick-Fingered"
+    },
+    {
+      "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Force-Sensitive"
+    }
+  ],
+  "variant": {
+    "name": "DNA-Donor",
+    "description": "The background of your DNA-Donor often shapes a clone's path in life.\n\n|d20|Donor's Background|\n|:---:|:-----------:|\n|1|Agent|\n|2|Bounty Hunter|\n|3|Criminal|\n|4|Entertainer|\n|5|Force Adept|\n|6|Gambler|\n|7|Investigator|\n|8|Jedi|\n|9|Mandalorian|\n|10|Mercenary|\n\n|d20|Donor's Background |\n|:---:|:-----------:|\n|11|Noble|\n|12|Nomad|\n|13|Outlaw|\n|14|Pirate|\n|15|Scientist|\n|16|Scoundrel|\n|17|Sith|\n|18|Smuggler|\n|19|Soldier|\n|20|Spacer|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Agent"
+      },
+      {
+        "roll": 2,
+        "name": "Bounty Hunter"
+      },
+      {
+        "roll": 3,
+        "name": "Criminal"
+      },
+      {
+        "roll": 4,
+        "name": "Entertainer"
+      },
+      {
+        "roll": 5,
+        "name": "Force Adept"
+      },
+      {
+        "roll": 6,
+        "name": "Gambler"
+      },
+      {
+        "roll": 7,
+        "name": "Investigator"
+      },
+      {
+        "roll": 8,
+        "name": "Jedi"
+      },
+      {
+        "roll": 9,
+        "name": "Mandalorian"
+      },
+      {
+        "roll": 10,
+        "name": "Mercenary"
+      },
+      {
+        "roll": 11,
+        "name": "Noble"
+      },
+      {
+        "roll": 12,
+        "name": "Nomad"
+      },
+      {
+        "roll": 13,
+        "name": "Outlaw"
+      },
+      {
+        "roll": 14,
+        "name": "Pirate"
+      },
+      {
+        "roll": 15,
+        "name": "Scientist"
+      },
+      {
+        "roll": 16,
+        "name": "Scoundrel"
+      },
+      {
+        "roll": 17,
+        "name": "Sith"
+      },
+      {
+        "roll": 18,
+        "name": "Smuggler"
+      },
+      {
+        "roll": 19,
+        "name": "Soldier"
+      },
+      {
+        "roll": 20,
+        "name": "Spacer"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

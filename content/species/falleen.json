@@ -1,0 +1,85 @@
+{
+  "key": "falleen",
+  "name": "Falleen",
+  "size": "medium",
+  "homeworld": "Falleen",
+  "nativeLanguage": "Falleen",
+  "lore": "### Biology and Appearance\nThe Falleen are distinguished by their mottled green or red skin, ridged skulls, and their long, black hair which they typically wear in ponytails. The sleek symmetry of their features, calculating and cold demeanors, their exotic looks, and their ability to alter their skin pigmentation make the Falleen often considered to be among the most aesthetically pleasing beings in the galaxy. In addition to their strikingly beautiful appearance, the Falleen exude pheromones which makes them all but irresistible to both sexes.\n\nThe Falleen are semi-aquatic, being able to hold their breath underwater for an extended period of time. Fallen are one of few species that are resistant to manipulation by the Force.\n\n### Society and Culture\nFalleen society is of a feudal nature, with noble houses ruling over the lower classes. The upper echelons of Falleen aristocracy are rife with politics and intrigue, though they rarely spill blood over disputes or reduce themselves to open warfare.\n\nAs a cold-blooded species, the Falleen respect discipline and control, particularly self-control. They tend to shun public displays of emotion, and are very patient. As a result of this attitude, they tend to look down on the more openly passionate, whom they see as lacking self-control. Indeed, the Falleen as a species have a towering sense of superiority, reflecting on their view of Falleen as the civilized and cultural center of the galaxy, rather than Coruscant.\n\n### Names\nFalleen favor names with Z and X sounds. They are usually accompanied by a surname, which is familial.\n\n**Male Names.** Xomit, Xizor, Xist, Zenex, Zurros\n\n**Female Names.** Xora, Trezza, Mylla, Zule, Annaz\n\n**Surnames.** Grunseit, Croom, Moz, Xiss, Mythric",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Falleen reach adulthood in their late teens and live up to 250 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Falleen societal structure causes them to tend to be lawful balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Falleen typically stand between 5 and 6 feet tall and weigh around 165 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Closed Mind",
+      "description": "Falleen brains have an unusual composition which make them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers."
+    },
+    {
+      "name": "Enthralling Pheromones",
+      "description": "You can use your pheromones to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs."
+    },
+    {
+      "name": "Hold Breath",
+      "description": "You can hold your breath for up to 1 hour at a time."
+    },
+    {
+      "name": "Mask of the Wild",
+      "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Falleen. Falleen is characterized by its common use of the Z and X sounds, of which the Falleen are fond."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'7\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "110 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Ridged skulls, dorsal spine",
+    "skinColorOptions": "Green, red",
+    "hairColorOptions": "Black",
+    "eyeColorOptions": "Black, brown"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_falleen.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

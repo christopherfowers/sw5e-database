@@ -1,0 +1,23 @@
+{
+  "key": "railgun",
+  "name": "Railgun",
+  "category": "weapon",
+  "costInCredits": 1900,
+  "weight": 16.0,
+  "properties": [
+    "piercing 1",
+    "reload 2",
+    "slug cartridge (range 150/600)",
+    "strength 17",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

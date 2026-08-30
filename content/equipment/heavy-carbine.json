@@ -1,0 +1,23 @@
+{
+  "key": "heavy-carbine",
+  "name": "Heavy carbine",
+  "category": "weapon",
+  "costInCredits": 775,
+  "weight": 7.5,
+  "properties": [
+    "power cell (range 60/240)",
+    "rapid 4",
+    "reload 16",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,97 @@
+{
+  "key": "ugnaught",
+  "name": "Ugnaught",
+  "size": "small",
+  "homeworld": "Gentes",
+  "nativeLanguage": "Ugnaught",
+  "lore": "### Biology and Appearance\nUgnaughts are diminutive, porcine humanoids who have pink skin, upturned noses, white hair, and thick layers of jowls. Some have tusks that they use in blood duels. They are strong and resilient, and their life-spans reached up to 200 standard years. They notably eat genteslugs.\n\n### Society and Culture\nUgnaughts are ruled by councils comprised of elected officers. Ugnaughts live their lives in accordance to their \"blood profession\", with Ugnaught parents teaching their children their trade. Infant Ugnaughts are known as Ugletts. If the number of new Ugnaughts in a given profession exceeds the need, a blood duel is called. When the Ugnaughts reached their twentieth year of age, these fights are held to the death, with the victor winning the right to inherit their blood profession. Despite this outdated and violent custom, the Ugnaughts are generally a peaceful people with a rich culture.\n\nWhen greeting an Ugnaught, it is advised to bow silently, then wait for a guttural purring as a positive response. Usage of the common galactic greeting \"yaa-yaah\" is considered a personal insult to Ugnaughts. If this occurrs, it was advisable to duck and cover, as various mechanical implements will be thrown one's way.\n\nUgnaughts are often enslaved as they are fairly meek.\n\n### Names\nUgnaught names are generally concise. Female names sound more cheerful. Surnames are determined by blood profession.\n\n**Male Names.** Banax, Dral, Durn, Togre, Yirkux\n\n**Female Names.** Admeva, Olnito, Ruskor, Vurlilli\n\n**Surnames.** Col, Gnatro, Mikk, Roc, Sag",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Ugnaughts reach adulthood at 20 and can live to reach 200."
+    },
+    {
+      "name": "Alignment",
+      "description": "Ugnaughts tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Ugnaughts typically stand around 4 feet and weigh about 50 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25."
+    },
+    {
+      "name": "Bite",
+      "description": "Your tusks are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage."
+    },
+    {
+      "name": "Crafters",
+      "description": "You have proficiency in one tool of your choice."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Industrial Hazards",
+      "description": "You have resistance to acid damage."
+    },
+    {
+      "name": "Tech Dabbler",
+      "description": "You know the *mending* at-will tech power. When you reach 3rd level, you learn and can cast the *analyze* tech power once per day. When you reach 5th level, you learn and can cast the *overheat* tech power once per day. Your techcasting ability is Intelligence. You do not require use of a wristpad for these powers."
+    },
+    {
+      "name": "Tinker",
+      "description": "You have proficiency with tinker's implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, cause harmless tremors for 1 minute. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Ugnaught. The Ugnaught language is composed of grunts, squeals, and chatters, and is difficult for other species to learn."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "3'1\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "40 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Diminutive stature, porcine features, technological affinity",
+    "skinColorOptions": "Varying shades of pink",
+    "hairColorOptions": "White",
+    "eyeColorOptions": "Black and red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ugnaught.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

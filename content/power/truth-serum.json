@@ -1,0 +1,17 @@
+{
+  "key": "truth-serum",
+  "name": "Truth Serum",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "10 minutes",
+  "concentration": false,
+  "description": "You administer a poison to a creature you touched that prevents it from telling lies. The creature touched must make a Constitution saving throw. On a success, nothing happens. On a failure, the creature can't speak a deliberate lie until the power ends.\n\nAn affected creature is aware of the power and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

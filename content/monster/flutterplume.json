@@ -1,0 +1,83 @@
+{
+  "key": "flutterplume",
+  "name": "Flutterplume",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 10
+  },
+  "hitPoints": {
+    "average": 5,
+    "roll": "1d8 + 1"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., fly 50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 7,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "challengeRating": "0",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Keen Sight and Smell",
+      "behaviorType": "trait",
+      "description": "The flutterplume has advantage on Wisdom (Perception) checks that rely on sight or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The flutterplume has advantage on an attack roll against a creature if at least one of the flutterplume's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Beak",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: (1d4) kinetic damage",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Flutterplumes were feathered carrion-eaters native to the planet of Ord Mantell, but also had a sizable population on Alderaan. The enormous scavenger bird was noted for its impressive hook-like beak and four sets of curled talons that it used to tear apart and consume rotting carcasses. Its beautiful feathers were also valued as good luck charms. An abundant supply of fresh battlefield kills attracted flocks of these carrion eaters and there were stories of wounded men unable to defend them-selves being eaten by the hungry winged predators. Flutterplumes hunted in flocks of three or four, gliding on the thermal currents that blew across the planet",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

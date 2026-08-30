@@ -1,0 +1,11 @@
+{
+  "key": "slug-cartridge",
+  "name": "Slug cartridge",
+  "category": "ammunition",
+  "costInCredits": 2,
+  "weight": 0.0,
+  "description": "Weapons with this property fire slug cartridges, which must be loaded in order to fire the weapon.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

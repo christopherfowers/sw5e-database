@@ -1,0 +1,24 @@
+{
+  "key": "carbine-rifle",
+  "name": "Carbine rifle",
+  "category": "weapon",
+  "costInCredits": 925,
+  "weight": 8.5,
+  "properties": [
+    "auto",
+    "power cell (range 90/360)",
+    "rapid 3",
+    "reload 12",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

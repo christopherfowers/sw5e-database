@@ -1,0 +1,206 @@
+{
+  "key": "racer",
+  "name": "Racer",
+  "lore": "You have a need for speed. You live off of the adrenaline rush of piloting your craft or steering your beast through the dangers of a race. You love the thrill of a photo-finish and relish the sweet taste of victory.",
+  "skillProficiencies": "Choose two from Animal Handling, Nature, Piloting, and Technology",
+  "toolProficiencies": "One type of gaming set or mechanic's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, a trophy or ribbon from your first-ever win, a gaming set (one of your choice), and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Terrain Mastery",
+    "description": "You have a preternatural instinct for understanding the terrain, interpreting maps, and planning routes. You and your party can move at three-fourths your speed over difficult terrain during long-distance travel. Because of these skills, if you know your destination and the intervening terrain--either by reputation, by sight, or by maps you have seen--you are able to identify an effective short-cut, trimming your travel time by up to half. Your GM may rule that your short-cut entails significant danger or may be temporarily impassable."
+  },
+  "suggestedCharacteristics": "Racers are usually competitive and often fearless. They can lead a whirlwind of a life, and sometimes the adrenaline of the race is no longer enough for them.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "Win or lose. There is no try."
+    },
+    {
+      "roll": 2,
+      "description": "Giving up is never an option for me."
+    },
+    {
+      "roll": 3,
+      "description": "I spit and laugh in the face of danger."
+    },
+    {
+      "roll": 4,
+      "description": "Why do something if there is not the possibility of death?"
+    },
+    {
+      "roll": 5,
+      "description": "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me."
+    },
+    {
+      "roll": 6,
+      "description": "I don't pay attention to the risks in a situation. Never tell me the odds."
+    },
+    {
+      "roll": 7,
+      "description": "The best way to get me to do something is to tell me I can't do it."
+    },
+    {
+      "roll": 8,
+      "description": "I blow up at the slightest insult."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Victory",
+      "description": "It's not a victory if you don't follow the rules. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Win",
+      "description": "A win is a win, no matter how it's done. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Charity",
+      "description": "I share my winnings with the less fortunate. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Pride",
+      "description": "I will do whatever it takes to be recognized as the best. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Excitement",
+      "description": "Life is a race worth entering, because you never know how the ships will fly. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Victory",
+      "description": "Nothing worth doing is ever a sure thing. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "There is nothing more important to me than my vehicle."
+    },
+    {
+      "roll": 2,
+      "description": "I will win the Coruscant Invitational one day."
+    },
+    {
+      "roll": 3,
+      "description": "I'm trying to pay off the debt on my vehicle."
+    },
+    {
+      "roll": 4,
+      "description": "I owe a lot of money to the wrong kind of people."
+    },
+    {
+      "roll": 5,
+      "description": "I do what feels good. Let's see the authorities catch me."
+    },
+    {
+      "roll": 6,
+      "description": "Someone I loved died because they were too slow. That will never happen to me."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I think most people in life are content with a participation trophy. They disgust me."
+    },
+    {
+      "roll": 2,
+      "description": "I classify everyone I meet as a winner or a loser. There's only ever one winner."
+    },
+    {
+      "roll": 3,
+      "description": "There is not a drug I won't try."
+    },
+    {
+      "roll": 4,
+      "description": "Once I start drinking, it's hard for me to stop."
+    },
+    {
+      "roll": 5,
+      "description": "Once someone questions my courage, I never back down no matter how dangerous the situation."
+    },
+    {
+      "roll": 6,
+      "description": "Waiting around makes me antsy. I'd rather do something stupid than do nothing at all."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Animal Handler"
+    },
+    {
+      "roll": 2,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 3,
+      "name": "Ace Pilot"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Observant"
+    }
+  ],
+  "variant": {
+    "name": "Racing Specialty",
+    "description": "There are many places to race and many things to race with. Maybe you dabble in all things fast. Even still, all professional racers have a type of racing they prefer above all else; a race in which they are masters. Choose your vehicular or beastly specialty, or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Air Speeders|\n|2|Boonta Speeders|\n|3|Pod Racers|\n|4|Speeder Bikes|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Starships|\n|6|Swoop Bikes|\n|7|Fathiers|\n|8|Varactyls|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Air Speeders"
+      },
+      {
+        "roll": 2,
+        "name": "Boonta Speeders"
+      },
+      {
+        "roll": 3,
+        "name": "Pod Racers"
+      },
+      {
+        "roll": 4,
+        "name": "Speeder Bikes"
+      },
+      {
+        "roll": 5,
+        "name": "Starships"
+      },
+      {
+        "roll": 6,
+        "name": "Swoop Bikes"
+      },
+      {
+        "roll": 7,
+        "name": "Fathiers"
+      },
+      {
+        "roll": 8,
+        "name": "Varactyls"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

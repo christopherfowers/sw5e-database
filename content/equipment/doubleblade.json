@@ -1,0 +1,21 @@
+{
+  "key": "doubleblade",
+  "name": "Doubleblade",
+  "category": "weapon",
+  "costInCredits": 400,
+  "weight": 3.5,
+  "properties": [
+    "double (1d6 kinetic)",
+    "finesse",
+    "light"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

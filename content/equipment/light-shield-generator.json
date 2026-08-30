@@ -1,0 +1,12 @@
+{
+  "key": "light-shield-generator",
+  "name": "Light shield generator",
+  "category": "armor",
+  "costInCredits": 125,
+  "weight": 0.0,
+  "armorClassification": "shield",
+  "armorClass": "+1",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

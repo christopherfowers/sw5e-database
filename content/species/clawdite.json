@@ -1,0 +1,79 @@
+{
+  "key": "clawdite",
+  "name": "Clawdite",
+  "size": "medium",
+  "homeworld": "Zolan",
+  "nativeLanguage": "Clawdite",
+  "lore": "### Biology and Appearance\nIn their natural form, clawdites resemble reptilian humanoids, having evolved from reptomammals. They have sunken cheeks with a narrow nose, a small mouth, large eyes with slit-like pupils, and a thin line that runs down their foreheads, creasing their nose. Clawdites possess an extremely rare ability to change their appearance. They can change the color and texture of their skin and eyes, and even grow hair, to mimic other species, though they cannot add significant physical mass to their bodies.\n\n### Society and Culture\nBy nature, clawdites are quiet and solitary beings, often shunning the company of others unless it benefits them. Due to their nature as shapeshifters, they are often mistrusted by strangers. Consequently, they view the galaxy pragmatically, and are often harsh realists.\n\nNot all clawdites use their shapeshifting abilities due to the pain the transformation causes. These clawdites are often inclined to remain on their homeworld of Zolan, avoiding the company of other species.\n\nOn Zolan, clawdites are feared and shunned by the zolanders, who are a deeply religious people, believing that clawdites are impure and sinful. Zolanders force clawdites to live in slums scattered across the planet.\n\nThose clawdites who leave their homeworld tend to gravitate toward professions that celebrate their shapeshifting, such as smuggling, bounty hunting, or espionage.\n\n### Names\nClawdite names often have a rolling or hissing quality to them. Surnames are familial, though clawdites rarely use them.\n\n**Male Names.** Nuri, Pol, Renneyn, Rosat, Turman\n\n**Female Names.** Bargu, Cato, Murna, Sora, Zam\n\n**Surnames.** Durra, Noviee, Parasitti, Virten, Wesell",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and one other ability score of your choice increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Clawdites reach adulthood in their early teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Clawdites' pragmatism cause them to tend towards neutral balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Clawdites typically stand 5 to 7 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Changeling Instincts",
+      "description": "You gain proficiency with two of the following skills of your choice: Deception, Intimidation, Insight, and Persuasion"
+    },
+    {
+      "name": "Shapechanger",
+      "description": "As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another species, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die."
+    },
+    {
+      "name": "Unsettling Visage",
+      "description": "When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you. Once you use this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, Clawdite, and one more language of your choice. Clawdite is characterized by its rolling sounds paired with hissing sibilants."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "anyAbilityCount": 1
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'11\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "95 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Shapechanging capabilities",
+    "skinColorOptions": "Green to yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Yellow, gold, or blue"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_clawdite.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

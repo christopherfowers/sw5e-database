@@ -1,0 +1,153 @@
+{
+  "key": "trandoshan-huntmaster",
+  "name": "Trandoshan Huntmaster",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any dark",
+  "armor": {
+    "class": 16,
+    "type": "heavy combat suit, shield"
+  },
+  "hitPoints": {
+    "average": 127,
+    "roll": "17d8 + 51"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 16,
+      "modifier": 3
+    },
+    "charisma": {
+      "score": 15,
+      "modifier": 2
+    }
+  },
+  "savingThrows": [
+    "Strength +7",
+    "Wisdom +6"
+  ],
+  "skills": [
+    "Athletics +7",
+    "Intimidation +5",
+    "Perception +6",
+    "Persuasion +5",
+    "Stealth +6",
+    "Survival +6"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 16"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Dosh"
+  ],
+  "challengeRating": "7",
+  "experiencePoints": 2900,
+  "behaviors": [
+    {
+      "name": "Infrared Vision",
+      "behaviorType": "trait",
+      "description": "The trandoshan has advantage on Wisdom (Perception) checks that rely on sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Regeneration",
+      "behaviorType": "trait",
+      "description": "The trandoshan regains 10 hit points at the start of its turn if it has at least 1 hit point.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Martial Advantage",
+      "behaviorType": "trait",
+      "description": "Once per turn, the trandoshan can deal an extra 14 (4d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the trandoshan that isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The trandoshan makes three melee weapon attacks. Alternatively, it can make two ranged attacks with its javelin.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Trandoshan Sword",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) kinetic damage, or 9 (1d10 + 4) kinetic damage if used with two hands.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Javelin",
+      "behaviorType": "action",
+      "description": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft. or range 30/120 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d6 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Shield Bash",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) kinetic damage. If the target is Large or smaller, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 6,
+      "damageRoll": "1d4 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Leadership",
+      "behaviorType": "action",
+      "description": "For 1 minute, the trandoshan can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the trandoshan. A creature can benefit from only one Leadership die at a time. This effect ends if the warlord is incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharges after a Short or Long Rest"
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "The trandoshan adds 3 to its AC against one melee attack that would hit it. To do so, the trandoshan must see the attacker and be wielding a melee weapon.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Trandoshans, also called T'doshok, were large, bipedal reptilian sentient humanoids from the planet Trandosha, and were renowned as great hunters who relished the thrill of the hunt. Trandoshans are known to embark on a hunting related rite of passage. ***Notable Trandoshans.*** A Trandoshan known as Garnac ran a hunting guild based out of a floating fortress that hovered above an island-designated Island Four-on the moon Wasskah. Garnac's scouts traveled to different worlds to collect other sentient beings to dump on Island Four, where the prisoners would be hunted for sport. Bossk, a famous Trandoshan bounty hunter, worked alongside fellow hunters Aurra Sing and Castas to mentor the orphaned Boba Fett. Bossk owned and operated a modified YV-666 light freighter named the Hound's Tooth. Bossk was renowned and feared for his effectiveness at killing Wookiees. He was ruthless and efficient, but upheld the Bounty Hunter Code and was known to keep his promises to the letter of the law.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

@@ -1,0 +1,105 @@
+{
+  "key": "monkey-lizard-swarm",
+  "name": "Monkey-Lizard Swarm",
+  "size": "medium",
+  "types": [
+    "swarm of tiny beasts"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 24,
+    "roll": "7d8-7"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 6,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +5"
+  ],
+  "senses": [
+    "passive Perception 15"
+  ],
+  "damageResistances": {
+    "types": [
+      "energy",
+      "kinetic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ]
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The swarm has advantage on attack rolls against a creature while at more than half of its hit points.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Swarm",
+      "behaviorType": "trait",
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny porg. The swarm can't regain hit points or gain temporary hit points.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) kinetic damage, or 3 (1d6) kinetic damage if the swarm has half of its hit points or fewer.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target in the swarm's space",
+      "averageDamage": 7,
+      "damageRoll": "2d6",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Kowakian monkey-lizards are a bipedal reptilian species native to a jungle-like Outer Rim planet called Kowak. Although have had no established culture, Kowakian monkey-lizards were quite intelligent, and despite their silly, cruel nature, they are considered sentient by many sentientologists in the galaxy, although there was much debate over that designation. They are often kept as pets due to their mischievous nature.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

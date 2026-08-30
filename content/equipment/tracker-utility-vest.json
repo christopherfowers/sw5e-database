@@ -1,0 +1,11 @@
+{
+  "key": "tracker-utility-vest",
+  "name": "Tracker utility vest",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 150,
+  "weight": 3.0,
+  "description": "A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1.00 lb each) without increasing their total encumbrance.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

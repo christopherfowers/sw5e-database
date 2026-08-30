@@ -1,0 +1,81 @@
+{
+  "key": "verpine",
+  "name": "Verpine",
+  "size": "medium",
+  "homeworld": "Roche asteroid field",
+  "nativeLanguage": "Verpine",
+  "lore": "### Biology and Appearance\nVerpine are thin bipedal insectoids whose heads are dominated by large compound eyes. They also have two antennae, one located behind each eye. Their hardened carapace, composed of a green chitinous substance called carahide, is as flexible as the skin of other creatures, yet tough enough to deflect a blade or even absorb a glancing blaster bolt. The Verpine circulatory system does not contain a heart.\n\nVerpine eyes are keen enough to pick out microscopic details. Their antennae contain tympanic nerves which pick up sound. Their antennae are also sensitive to radio waves, giving Verpine the natural ability to sense and transmit radio waves to communicate with another Verpine in their language over long distances.\n\n### Society and Culture\nThe Verpine people hail from the Roche asteroid field, which is the fractured remnants of their home planet. The Roche live in artificial, self-sustaining environments inside these fragments.\n\nVerpine culture is oriented around crafting; they are noteworthy manufacturers of weapons, shield generators, armor, as well as personal use items such as breathing apparatuses. They are also gifted pilots.\n\n### Names\nVerpine had variable naming customs. Not all Verpines adopt surnames. Male and female Verpine names do not differentiate.\n\n**First Names.** Fxz'et, Kuli, Moegid, Ss's, Zix\n\n**Surnames.** And'et, Ned'Ix, Ned'lx, Niskooen, Zes'sx",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Verpine reach adulthood in their 40's and live an average of 200 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Verpine's altruistic and generous nature cause them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Verpine stand between 6 and 7 feet tall and rarely weigh more than 120 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Crafters",
+      "description": "You have proficiency in one tool of your choice."
+    },
+    {
+      "name": "Hardened Carapace",
+      "description": "While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier."
+    },
+    {
+      "name": "Tympanic Antennae",
+      "description": "You have tremorsense out to 30 feet. You can detect and pinpoint the origin of vibrations within that radius, provided that monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures"
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Verpine. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. You can communicate with other Verpine at distances of up to a mile using your antennae."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'9\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "80 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Hive-based insectoids, radio wave senses, technological aptitude, hardened carapace, short snouts, and small, toothless mouths",
+    "skinColorOptions": "Green",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_verpine.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

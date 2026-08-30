@@ -1,0 +1,17 @@
+{
+  "key": "poison-dart",
+  "name": "Poison Dart",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Make a ranged tech attack against a creature within range. On hit, the target takes 2d8 poison damage and must make a Constitution save. On a failed save, it is also poisoned until the end of your next turn.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

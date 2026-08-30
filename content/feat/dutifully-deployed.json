@@ -1,0 +1,10 @@
+{
+  "key": "dutifully-deployed",
+  "name": "Dutifully Deployed",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You've developed an aptitude for a particular deployment on a starship. You gain the following benefits:\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- You gain 1 rank in a deployment of your choice. This rank does not count towards or affect your prestige.\n- The maximum number of ranks you can gain in deployments increases by 1. You can still only gain 5 ranks in a deployment.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

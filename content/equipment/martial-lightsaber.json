@@ -1,0 +1,21 @@
+{
+  "key": "martial-lightsaber",
+  "name": "Martial lightsaber",
+  "category": "weapon",
+  "costInCredits": 550,
+  "weight": 2.25,
+  "properties": [
+    "hidden",
+    "luminous",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

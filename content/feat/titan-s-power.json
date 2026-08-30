@@ -1,0 +1,8 @@
+{
+  "key": "titan-s-power",
+  "name": "Titan's Power",
+  "prerequisite": "12th level, Strength 20",
+  "description": "You have the strength that legends tell of, granting the following benefits:\n- You gain proficiency in Strength saving throws. If you are already proficient in them, you instead gain expertise in them.\n- You ignore the two-handed property of weapons with which you are proficient.\n- When you miss with a melee weapon attack, the creature takes damage equal to your Strength modifier. This damage is of the same type as the weapon's damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

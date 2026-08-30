@@ -1,0 +1,96 @@
+{
+  "key": "nerf",
+  "name": "Nerf",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 30,
+    "roll": "4d10 + 8"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the nerf moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) kinetic damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Gore",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Spit",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +2 to hit, range 15/30 ft., one target. Hit: 2 (1d4) acid damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 2,
+      "range": "range 15/30 ft.",
+      "targets": "one target",
+      "averageDamage": 2,
+      "damageRoll": "1d4",
+      "damageType": "acid"
+    }
+  ],
+  "flavorText": "Nerfs were a species of furry, non-sentient animals raised for their milk, meat, and hide. They could be found on a variety of planets across the galaxy, from Alderaan to Lothal. Despite their usefulness, nerfs were often regarded as disgusting because of their strong body odor.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

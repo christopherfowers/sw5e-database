@@ -1,0 +1,23 @@
+{
+  "key": "disruptor-sniper",
+  "name": "Disruptor sniper",
+  "category": "weapon",
+  "costInCredits": 3300,
+  "weight": 15.0,
+  "properties": [
+    "disintegrate 13",
+    "power cell (range 120/480)",
+    "reload 2",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "acid"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,112 @@
+{
+  "key": "maalraas",
+  "name": "Maalraas",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 33,
+    "roll": "6d8 + 6"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Dex +4"
+  ],
+  "skills": [
+    "Stealth +6"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Force Sensitive",
+      "behaviorType": "trait",
+      "description": "At-will: force camouflage The maalraas's forcecasting ability is Wisdom (power save DC 11, +3 to hit with force attacks). The maalraas innately knows the following force powers:",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "behaviorType": "trait",
+      "description": "The maalraas has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Mutliattack",
+      "behaviorType": "action",
+      "description": "The maalraas can make a bite attack and a claw attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "2d8 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d4 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Maalraas or Nighthuntersre a non-sentient species of predatory quadrupeds. Nighthunters hunted in packs, using long claws and powerful fanged jaws to disable their victims. ***Characteristics.*** Using the Force to cloak themselves, making themselves nearly indistinguishable from the darkest shadows, only extremely well-trained Jedi or Sith cah recognize their silhouettes. Their Hides and bones are heavily resistant to lightsabers as well as intense heat. Maalraas have huge fangs that protrude from their round heads and are possibly the ancestors of nighthunters. ***Behavior.*** Maalraas hunted in packs primarily preyed upon cannoks, although if there were too many of them the cannoks could drive the predator away or even kill it. Maalraas were in turn preyed upon by the zakkeg.\n\n***Domestication.*** Easy to train from infancy or from older ages, Nighthunters are utilised as Loyal guard beasts and are exported from their unrecorded home world by crime syndicates as well as other wealthy individuals willing to trade on the black market. ***Spread.*** While plentiful at the time of the old republic era, by the time of the Clone Wars, they were thought to be extinct, but at least one still survived on Parein II 4. A population exists on the forest moon of Dxun in the Onderon system and possibly Onderon itself.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "key": "stinger",
+  "name": "Stinger",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "You fire a stinging dart at a creature within range. Make a ranged tech attack against the target. On a hit, the target takes 1d8 poison damage, and if the target is a humanoid or beast, it can't regain hit points until the start of your next turn.\n\nThis power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

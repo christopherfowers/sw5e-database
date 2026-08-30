@@ -1,0 +1,17 @@
+{
+  "key": "flash",
+  "name": "Flash",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "90 feet",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "You create a massive flash of light and explosion of sound at a point within range. Roll 6d10; the total is how many hit points of creatures this power can affect. Creatures within 20 feet of the point are affected in ascending order of their current hit points (ignoring unconscious creatures).\n\nStarting with the creature that has the lowest current hit points, each creature affected by this power is blinded until the end of your next turn. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "exalted-awareness",
+  "name": "Exalted Awareness",
+  "prerequisite": "12th level, Wisdom 20",
+  "description": "You have the wisdom associated with the most renowned masters of the Force, granting the following benefits:\n- You gain proficiency in Wisdom saving throws. If you are already proficient in them, you instead gain expertise in them.\n- Creatures within 60 feet of you have disadvantage on Dexterity (Stealth) checks made to hide from you.\n- As an action, you can sense the presence of illusions and other effects designed to deceive the senses within 30 feet of you, provided that you aren't blinded or deafened. You sense that an effect is trying to trick you, but you gain no insight into what is hidden or its true nature. Once you've used this feature, you must complete a short or long rest before you can use it again.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

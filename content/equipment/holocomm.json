@@ -1,0 +1,11 @@
+{
+  "key": "holocomm",
+  "name": "Holocomm",
+  "category": "communications",
+  "costInCredits": 300,
+  "weight": 2.0,
+  "description": "A holocomm is a communications unit that utilizes the HoloNet. It enables users to send and receive messages through holographic-based transmission networks.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

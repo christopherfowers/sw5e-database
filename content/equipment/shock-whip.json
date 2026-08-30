@@ -1,0 +1,20 @@
+{
+  "key": "shock-whip",
+  "name": "Shock whip",
+  "category": "weapon",
+  "costInCredits": 475,
+  "weight": 3.5,
+  "properties": [
+    "reach",
+    "shocking 13"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

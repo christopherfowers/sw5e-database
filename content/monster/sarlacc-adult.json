@@ -1,0 +1,196 @@
+{
+  "key": "sarlacc-adult",
+  "name": "Sarlacc, Adult",
+  "size": "gargantuan",
+  "types": [
+    "plant"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 18,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 464,
+    "roll": "32d20 + 256"
+  },
+  "speed": {
+    "walk": 0,
+    "text": "0 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 27,
+      "modifier": 8
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 27,
+      "modifier": 8
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Str +14",
+    "Dex +6",
+    "Con +14",
+    "Wis +6"
+  ],
+  "skills": [
+    "Stealth +6",
+    "perception +6"
+  ],
+  "senses": [
+    "tremorsense 300 ft.",
+    "passive Perception 16"
+  ],
+  "damageResistances": {
+    "types": [
+      "ion"
+    ],
+    "other": [
+      "sonic; energy",
+      "and kinetic from unenhanced weapons"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone"
+    ],
+    "other": [
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "21",
+  "experiencePoints": 22000,
+  "behaviors": [
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the Sarlacc fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/day"
+    },
+    {
+      "name": "Gargantuan Strength",
+      "behaviorType": "trait",
+      "description": "The sarlacc's weapon attacks are considered enhanced.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Burried",
+      "behaviorType": "trait",
+      "description": "The sarlacc is resistant to damage from sources beyond 60 feet and immune to damage from sources beyond 120 feet.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Grasping Tentacles",
+      "behaviorType": "trait",
+      "description": "The sarlacc can have up to eight tentacles at a time. Each tentacle can be attacked (AC 18; 40 hit points; immunity to psychic damage). A tentacle can also be broken if a creature takes an action and succeeds on a DC 22 Strength check against it. Destroying a tentacle in either way deals no damage to the sarlacc, which can extrude a replacement tentacle on its next turn, but it causes the sarlacc to spend a legendary action for no effect. If the sarlacc has no legendary actions remaining this turn to spend, the sarlacc regains one fewer spent legendary actions at the start of its next turn than it would otherwise regain. The sarlacc can be forced to spend no more than two legendary actions in this way.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The sarlacc makes three tentacle attacks, each of which it can replace with one use of Bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tentacle",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +14 to hit, reach 60 ft., one target. Hit: 26 (4d8 + 8) kinetic damage. The target is grappled (escape DC 16). Until this grapple ends, the target is restrained. The sarlacc has eight tentacles, each of which can grapple one target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 14,
+      "range": "reach 60 ft.",
+      "targets": "one target",
+      "averageDamage": 26,
+      "damageRoll": "4d8 + 8",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit 30 (4d10 + 8) Kinetic damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the sarlacc can't bite another target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 14,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 30,
+      "damageRoll": "4d10 + 8",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Swallow",
+      "behaviorType": "action",
+      "description": "If the sarlacc takes 40 damage or more on a single turn from a creature inside it, the sarlacc must succeed on a DC 23 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the sarlacc. If the sarlacc dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone. The sarlacc makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the sarlacc, and it takes 35 (10d6) psychic damage at the start of each of the sarlacc's turns. A creature reduced to zero hit points this way stops taking the psychic damage and becomes stable.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pheromones",
+      "behaviorType": "action",
+      "description": "The sarlacc releases pheromones in a 300 foot radius. Each creature in that area must make a DC 22 Constitution saving throw. On a failed save the creature is charmed by the sarlacc for 1 minute. While charmed this way, the target tries to get as close to the sarlacc as possible, using its actions to Dash until it is within 5 feet of the sarlacc. A charmed target can repeat the saving throw at the end of each of its turns and whenever it takes damage, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature has advantage on saving throws against the sarlacc's Pheromones for 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    },
+    {
+      "name": "Earth-Shaking Movement",
+      "behaviorType": "legendary",
+      "description": "The sarlacc sends a shockwave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 round. Each creature on the ground in the area must succeed on a DC 22 Constitution saving throw. A creature takes 41 (6d10 + 8) sonic damage and is knocked prone on a failed save, or half as much damage and is not knocked prone on a successful one. A creature that fails the save by 5 or more is pulled 15 feet downwards and towards the sarlacc.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Reel",
+      "behaviorType": "legendary",
+      "description": "The sarlacc pulls each creature grappled by it up to 30 feet straight towards it.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tentacle",
+      "behaviorType": "legendary",
+      "description": "The sarlacc makes one tentacle attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Chomp",
+      "behaviorType": "legendary",
+      "description": "The sarlacc makes one bite attack or uses its swallow.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    }
+  ],
+  "sectionText": "The sarlacc is a large, immobile, omnivorous invertebrate with long tentacles that rim its mouth. There is some debate among xenobiologists as to whether the creature is a plant or animal, though most find the creature far too dangerous to merit an extended study of the question.\n\n***Biology.*** They reproduce by spores, known as \"sarlacci,\" that travel through space until they find another suitable planet to inhabit. After implanting itself into the ground, the sarlacci grow downward like a plant, forming a pit. The mouth and tentacles are the most visible parts of the sarlacc. The rest of the sarlacc's massive anatomical features are buried up to one hundred meters deep in the ground. This guarantees protection of the sarlacc's vital organs and makes it invulnerable to most forms of serious damage. The sarlacc's mouth is the only part of the body visible, usually. Most of its body is covered in rigid plates. It has eight appendages beneath the ground used for stability or for reburial if the sarlacc becomes partially exposed. The body of the sarlacc ends in three roots used for moisture absorption. These appendiges and roots are also used to sense the vibrations from nearby creatures. The sarlacc lacks eyes and ears, instead relying on the sensors in its roots to \"see\" its prey. ***Feeding.*** The teeth of the sarlacc surround its beak-like tongue and plant-like tentacles in tiers. Its teeth are also slightly slanted inward ensuring its prey remains trapped. Despite their size, the sarlacc does not need to eat much or often. While its lightning-fast tentacles are used to snatch up its prey, they are not its primary means of capturing a meal. The sarlacc discharges odors and scents that lure herbivores and scavengers close enough for it to use its tentacles. ***Digestion.*** After being swallowed by the tongue, the victim makes its way into the sarlacc's stomach to be digested, being kept alive and slowly digested for a millennium. A strong network of vessels inside the stomach punctures the victim's skin and muscles before injecting neurotoxins into them, preventing the victims from escaping and ensuring that they remain immersed in the acidic fluids in the stomach, and attached to the walls of the stomach. The vessels also provide victims with nutrients to keep them alive while they are digested in agony. A number of smaller, secondary stomachs are used to store victims for later consumption at times when the sarlacc needs larger amounts of nutrients, such as when it needs to grow, breed, or strengthen its tentacles and beak for catching stronger, larger prey. The secondary stomachs also function as a space to store victims when the main stomach runs out of room. The acidic fluids in the stomachs are composed of weak chemicals that take much longer to digest prey than acids in the stomach of other creatures. The pain endured by its victims in this process was reputed to be unimaginable. It is theorized that sarlaccs may be telepathic and may gain consciousness from the creatures they eat by assimilating their thoughts and memories during digestion.\n\n***Notable Examples.*** One of the known specimens of the species resides in the Great Pit of Carkoon, beneath the sands of the Dune Sea on the remote planet of Tatooine. Most sarlacci preferred damp environments, but they could live nearly anywhere including the desert sands of Tatooine. The largest known sarlacc in galactic history resides on the planet Felucia within the Ancient Abyss. It possessed massive tendrils and teeth that spread out over an area of the Abyss that was kilometers across.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

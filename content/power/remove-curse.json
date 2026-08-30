@@ -1,0 +1,17 @@
+{
+  "key": "remove-curse",
+  "name": "Remove Curse",
+  "powerType": "force",
+  "level": 3,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "At your touch, all curses affecting one creature or object end. If the object is a cursed enhanced item, its curse remains, but the power breaks its owner's attunement to the object so it can be removed or discarded.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

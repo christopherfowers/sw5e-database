@@ -1,0 +1,22 @@
+{
+  "key": "scattergun",
+  "name": "Scattergun",
+  "category": "weapon",
+  "costInCredits": 625,
+  "weight": 2.0,
+  "properties": [
+    "burst 2",
+    "reload 8",
+    "slug cartridge (range 30/120)",
+    "strength 11"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

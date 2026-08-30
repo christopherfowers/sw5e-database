@@ -1,0 +1,206 @@
+{
+  "key": "office-worker",
+  "name": "Office Worker",
+  "lore": "You are an experienced office worker, having been employed by one or more local, planetary, or galactic governments, or one or more private enterprises or syndicates. You have spent plenty of time around the water cooler and still have contacts in the governmental and corporate worlds. Love them or hate them, you know your way around rules and regulations and you function well in structured environments.",
+  "skillProficiencies": "Choose two from Insight, Investigation, Lore, and Perception",
+  "toolProficiencies": "One type of gaming set",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, an expired data cylinder, a gaming set (one of your choice), and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Clerical Augur",
+    "description": "You have an intuitive understanding of how offices work and can readily fit in to an office environment as if you were meant to be there, as long as no one looks too carefully. Additionally, you know where the true power lies in the office: you know who is likely to know the local gossip and you know who to sweet talk into getting things done for you."
+  },
+  "suggestedCharacteristics": "Office workers run the gamut from loyal and effective team member to lazy and incompetent employee.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I can find common ground between the fiercest enemies, empathizing with them and always working towards peace."
+    },
+    {
+      "roll": 2,
+      "description": "I am always calm, no matter what the situation. I never raise my voice or let me emotions control me."
+    },
+    {
+      "roll": 3,
+      "description": "I have little practical experience dealing with people in the world and prefer to work alone."
+    },
+    {
+      "roll": 4,
+      "description": "I would rather make a new friend than a new enemy."
+    },
+    {
+      "roll": 5,
+      "description": "I am always figuring out how to implement better procedures to prevent mistakes."
+    },
+    {
+      "roll": 6,
+      "description": "There is no \"I\" in \"team.\""
+    },
+    {
+      "roll": 7,
+      "description": "I work to live."
+    },
+    {
+      "roll": 8,
+      "description": "I live to work."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Prestige",
+      "description": "I hope to one day rise to the top of my field and command the respect of those who work for me. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Superiority",
+      "description": "Rules are meant to control the sheep. I'm no sheep. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Community",
+      "description": "It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Greed",
+      "description": "I will do whatever it takes to climb to the top. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Faith",
+      "description": "I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I will someday get revenge on the corrupt boss who fired me."
+    },
+    {
+      "roll": 2,
+      "description": "Everything I do is for the common people."
+    },
+    {
+      "roll": 3,
+      "description": "I will do anything to protect my employer."
+    },
+    {
+      "roll": 4,
+      "description": "No one must ever learn that I once stole from my employer."
+    },
+    {
+      "roll": 5,
+      "description": "I'm guilty of a terrible crime. I hope I can redeem myself for it."
+    },
+    {
+      "roll": 6,
+      "description": "I am committed to my group's goals over my own."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I put too much trust in those who wield power within my employer's hierarchy."
+    },
+    {
+      "roll": 2,
+      "description": "I am inflexible in my thinking."
+    },
+    {
+      "roll": 3,
+      "description": "I like to talk at length about my office job."
+    },
+    {
+      "roll": 4,
+      "description": "I do anything I can to avoid real work."
+    },
+    {
+      "roll": 5,
+      "description": "I am not an independent thinker. I need detailed instructions and close supervision."
+    },
+    {
+      "roll": 6,
+      "description": "I gossip about others to hide my inadequacies."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 4,
+      "name": "Perceptive"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Feigned Confidence"
+    },
+    {
+      "roll": 8,
+      "name": "Snappy Interjection"
+    }
+  ],
+  "variant": {
+    "name": "Office Specialty",
+    "description": "There are many kinds of office workers, and within a government or private enterprise, individual members have particular specialties. Choose your role or the department you worked for in your office life or roll on the table below.\n\n|d8|Role|\n|:---:|:----------:|\n|1|Accounting|\n|2|Droid Management|\n|3|Executive Assistant|\n|4|Facilities|\n\n|d8|Role|\n|:---:|:----------:|\n|5|Information Technology|\n|6|Procurement|\n|7|Public Relations|\n|8|Sentient Resources|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Accounting"
+      },
+      {
+        "roll": 2,
+        "name": "Droid Management"
+      },
+      {
+        "roll": 3,
+        "name": "Executive Assistant"
+      },
+      {
+        "roll": 4,
+        "name": "Facilities"
+      },
+      {
+        "roll": 5,
+        "name": "Information Technology"
+      },
+      {
+        "roll": 6,
+        "name": "Procurement"
+      },
+      {
+        "roll": 7,
+        "name": "Public Relations"
+      },
+      {
+        "roll": 8,
+        "name": "Sentient Resources"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

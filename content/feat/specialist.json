@@ -1,0 +1,10 @@
+{
+  "key": "specialist",
+  "name": "Specialist",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You have focused training with a specific tool. Select one type of specialist's kit. You gain the following benefits:\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- You gain proficiency with the chosen kit. If you are already proficient with it, you instead gain expertise with it.\n- You can attempt ability checks with the chosen kit without the kit present, but you have disadvantage on the check when you do so.\n- Whenever you make an ability check with the chosen kit and you don't have disadvantage on the check, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least 1 minute on the check.\n\nYou can take this feat multiple times. Each time you do so, you must choose a different specialist's kit.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

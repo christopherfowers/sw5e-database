@@ -1,0 +1,23 @@
+{
+  "key": "lightfist",
+  "name": "Lightfist",
+  "category": "weapon",
+  "costInCredits": 650,
+  "weight": 1.5,
+  "properties": [
+    "disguised",
+    "disruptive",
+    "fixed",
+    "light",
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

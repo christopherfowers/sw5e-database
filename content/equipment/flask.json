@@ -1,0 +1,11 @@
+{
+  "key": "flask",
+  "name": "Flask",
+  "category": "storage",
+  "costInCredits": 10,
+  "weight": 1.0,
+  "description": "A flask stores 1 pint of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

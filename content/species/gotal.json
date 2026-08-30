@@ -1,0 +1,79 @@
+{
+  "key": "gotal",
+  "name": "Gotal",
+  "size": "medium",
+  "homeworld": "Antar 4",
+  "nativeLanguage": "Antarian",
+  "lore": "### Biology and Appearance\nGotals possess cranial horns as receptors to sense electromagnetism and other energy emissions. These nerve-ending filled cones can sense the natural electromagnetic fields produced by Antar 4's magnetite-rich crust, allowing the species to operate even in total darkness. Their senses also pick up the electromagnetic auras from other life forms. When close to their hunting targets, they can ascertain information on its mood, awareness, and state of mind. Electronic devices can also be sensed by Gotals; in fact, most droids give off enough electromagnetic emissions to at least annoy a Gotal, and at worst to seriously disorient the horned beings, making them notoriously distrustful of droids. Gotals rely heavily on their cones, with their eyesight and hearing being quite weak, and their sense of smell almost completely absent.\n\n### Society and Culture\nSince their natural empathy makes them instantly sensitive to the feelings of others, Gotals have little use for government or laws on their homeworld, resulting in problems when dealing with other societies. No central authority figure can speak for Antar 4 as a whole in a crisis, and no organized Gotal military or police force can act on their behalf. Other species respect the Gotals for their discretion and restraint, but some individuals fear interacting with the horned beings for fear of having their emotional state revealed to others.\n\n### Names\nGotal names are quite guttural, though there are also many harsher tones within their names. Gotal names do not vary significantly based on gender, and surnames are familial.\n\n**First Names.** Thon, Fern, Fuu'rash, Jir, Vluphol\n\n**Surnames.** Gratlul, Klux, Vathon, Zilat, Krigh, Rahxem",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and one other ability score of your choice increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Gotals reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Gotals' polite and respectful nature causes them to tend toward lawful alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Gotals typically stand 6 to 7 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Energy Sensors",
+      "description": "Gotals perceive the environment around them through use of electromagnetic sensors held in their cranial horns. You have blindsight out to 30 feet. If another trait would grant you blindsight, the range is increased by half as many feet."
+    },
+    {
+      "name": "Hunter",
+      "description": "You are proficient in Survival."
+    },
+    {
+      "name": "Natural Empathy",
+      "description": "Gotal's electromagnetic sensors allow them to sense the emotions in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Antarian. The Antarian language is characterized by growls and clicking noises at various volumes."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "anyAbilityCount": 1
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "120 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Full body fur, flat noses, head cones",
+    "skinColorOptions": "Grey, brown, or black",
+    "hairColorOptions": "White, grey, or brown",
+    "eyeColorOptions": "Red, orange, yellow, grey, green, or black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gotal.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

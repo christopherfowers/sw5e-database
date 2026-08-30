@@ -1,0 +1,17 @@
+{
+  "key": "force-repulse",
+  "name": "Force Repulse",
+  "powerType": "force",
+  "level": 3,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (20-foot radius)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You release an omnidirectional telekinetic burst. Each creature within 20 feet must make a Dexterity saving throw. On a failed save, a creature takes 8d6 force damage and is pushed back 5 feet. On a successful save, a creature takes half damage and isn't pushed.\n\nAll small objects that are not worn or carried are also pushed 5 feet back.\n\n***Force Potency.*** When you cast this power using a force slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

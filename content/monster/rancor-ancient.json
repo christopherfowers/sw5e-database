@@ -1,0 +1,174 @@
+{
+  "key": "rancor-ancient",
+  "name": "Rancor, Ancient",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 17,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 432,
+    "roll": "32d12+224"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 25,
+      "modifier": 7
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 25,
+      "modifier": 7
+    },
+    "intelligence": {
+      "score": 7,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Str +13",
+    "Dex +6",
+    "Con +13",
+    "Wis +6"
+  ],
+  "skills": [
+    "Athletics +13"
+  ],
+  "senses": [
+    "darkvision 120 ft.",
+    "passive Perception 16"
+  ],
+  "damageResistances": {
+    "types": [
+      "energy",
+      "ion"
+    ],
+    "other": [
+      "and kinetic fron unenhanced weapons"
+    ]
+  },
+  "challengeRating": "19",
+  "experiencePoints": 22000,
+  "behaviors": [
+    {
+      "name": "Siege Monster",
+      "behaviorType": "trait",
+      "description": "The Rancor deals double damage to objects and structures.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the Rancor fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/day"
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Rancor can use its Frightful Roar. It then makes three attacks: two with its claws, and one with its bite. It can use its swallow instead of its bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit 20 (3d8 + 7) Kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 13,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 20,
+      "damageRoll": "3d8 + 7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "a creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the rancor can't bite another target. Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit 27 (3d12 + 7) Kinetic damage. If the target is",
+      "attackType": "meleeWeapon",
+      "attackBonus": 13,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 27,
+      "damageRoll": "3d12 + 7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Throw Boulder",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +13 to hit, reach 60/240 ft., one target. Hit 33 (4d12 + 7) Kinetic damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 13,
+      "range": "reach 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 33,
+      "damageRoll": "4d12 + 7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Frightful Roar",
+      "behaviorType": "action",
+      "description": "Each creature of the rancor's choice within 90 feet of it must succeed a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the Rancor is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the rancor's Frightful Roar for the next 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Swallow",
+      "behaviorType": "action",
+      "description": "hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the Rancor, and it takes 35 (10d6) acid damage at the start of each of the Rancor's turns. If the Rancor takes 35 damage or more on a single turn from a creature inside it, the Rancor must suceed on a DC 23 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the Rancor. If the Rancor dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone. The Rancor makes one bite attack against a Medium or smaller creature it is grappling. If the attack",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Attack",
+      "behaviorType": "legendary",
+      "description": "The Rancor makes one claw attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Throw",
+      "behaviorType": "legendary",
+      "description": "The Rancor uses its throw boulder",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    },
+    {
+      "name": "Chomp",
+      "behaviorType": "legendary",
+      "description": "The Rancor makes one bite attack or uses its swallow.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    }
+  ],
+  "sectionText": "Rancors are large carnivorous reptomammals native to the planet of Dathomir. They are commonly kept as pets by affluent, less-than-reputable types.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

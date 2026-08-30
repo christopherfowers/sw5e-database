@@ -1,0 +1,21 @@
+{
+  "key": "switch-pistol",
+  "name": "Switch pistol",
+  "category": "weapon",
+  "costInCredits": 675,
+  "weight": 4.5,
+  "properties": [
+    "power cell (range 40/160)",
+    "reload 20",
+    "switch (1d4 fire)"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

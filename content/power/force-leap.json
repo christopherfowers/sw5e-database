@@ -1,0 +1,17 @@
+{
+  "key": "force-leap",
+  "name": "Force Leap",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Self",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "Until the end of your next turn, you can use your forcecasting ability score instead of your Strength score when you jump, and always count as having made a running start before jumping.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

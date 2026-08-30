@@ -1,0 +1,104 @@
+{
+  "key": "katarn",
+  "name": "Katarn",
+  "size": "large",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13
+  },
+  "hitPoints": {
+    "average": 37,
+    "roll": "5d10 + 10"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft., climb 50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Dex +5"
+  ],
+  "skills": [
+    "Perception +3",
+    "Stealth +7"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Diving Ambush",
+      "behaviorType": "trait",
+      "description": "If the katarn drops on a target from above and then hits it with a bite attack on the same turn, the target takes an extra 3 (1d6) kinetic damage per 10 feet fallen, up to 21 (6d6). If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the katarn misses, it takes half normal falling damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Sight and Smell",
+      "behaviorType": "trait",
+      "description": "The katarn has advantage on Wisdom (Perception) checks that rely on sight and smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 11 (2d8 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "2d8 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 6 (1d8 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d8 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "A katarn iss a predatory quadruped reptomammal native to the planet Kashyyyk.\n\n***Biology & Appearance.*** Katarns have slender bodies with rodent-like tails, and narrow faces leading back to a cartilaginous ridge protecting their neck and shoulders. Their paws have opposable digits, and their lower limbs are covered with sharp spurs, both of which allow them to climb and hang from the branches of the giant wroshyr trees and feed on tree-burrowers.\n\n***Wookiee Culture.*** Katarns are creatures of great importance in the Wookiees' culture. The Wookiees, who call the katarn the \"Old Prince\", hunt them in their hrrtayyk ceremony. Wookiees say the katarns were born by a wound to Kashyyyk that fell from the sky ages ago and made a home for the katarn. The katarns then hunted the Wookiees, thus unlocking the Wookiees' \"inner fire\". To thank the katarn, the Wookiees hunt them. They believe that someday it will be the katarn's turn to hunt the Wookiees again. Some katarns are domesticated as the war-mounts of Wookiee dragon troopers. ***Behavior.*** Katarns are ferocious and merciless predators thatd track their prey for long periods before choosing an opportune moment to strike. They have been described as \"silent, shadowy, and deadly.\"",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}
