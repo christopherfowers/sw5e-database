@@ -276,6 +276,10 @@ public sealed class SeedContentTests
             .Select(entry => Text(entry.Document, "className")!)
             .ToHashSet(StringComparer.Ordinal);
 
+        var creditCategoryKeys = Items("credit-category")
+            .Select(entry => Text(entry.Document, "key")!)
+            .ToHashSet(StringComparer.Ordinal);
+
         var failures = new List<string>();
 
         void Require(bool resolved, string path, string field, string value, string target)
@@ -336,6 +340,17 @@ public sealed class SeedContentTests
                         Require(maneuverNames.Contains(improved), path,
                             "improves", improved, "maneuver");
                     }
+
+                    break;
+
+                case "credit":
+                    // A credit whose category has been deleted or renamed would
+                    // vanish from the page silently: it is grouped by category
+                    // at render time, so an unmatched key means somebody's
+                    // acknowledgement is quietly dropped rather than misfiled.
+                    var categoryKey = Text(document, "categoryKey")!;
+                    Require(creditCategoryKeys.Contains(categoryKey), path,
+                        "categoryKey", categoryKey, "credit category");
 
                     break;
 
