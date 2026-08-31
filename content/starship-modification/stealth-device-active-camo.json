@@ -1,0 +1,9 @@
+{
+  "key": "stealth-device-active-camo",
+  "name": "Stealth Device, Active Camo",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 3,
+  "description": "***Modification Grade** 3*\n***Prerequisite:** Stealth Device*\nThis system improves the stealth mode function on your ship. While your stealth device is active, your ship no longer has disadvantage on Intelligence (Probe) and Wisdom (Scan) checks that rely on scanners, and no longer has to roll on the [Hyperspace Mishaps](#Hyperspace%20Mishaps) table before entering hyperspace while stealth mode is active.\nAdditionally, your ship is expertly equipped for Dexterity (Hide) checks. If it is already expertly equipped, it instead gains a bonus equal to half the ship’s tier (rounded up)."
+}

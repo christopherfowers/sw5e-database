@@ -1,0 +1,21 @@
+{
+  "key": "plating-reinforced-mk-iii",
+  "name": "Plating, Reinforced Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Reinforced Armor",
+      "equipmentName": "Reinforced armor"
+    },
+    {
+      "kind": "modification",
+      "text": "Plating, Reinforced MK II",
+      "modificationName": "Plating, Reinforced Mk II"
+    }
+  ],
+  "description": "You substantially upgrade your ship's armor plating, causing critical hits made on attack rolls against you to be treated as normal hits."
+}

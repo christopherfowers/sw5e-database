@@ -1,0 +1,15 @@
+{
+  "key": "resourceful-display",
+  "name": "Resourceful Display",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 1 rank in coordinator",
+      "deploymentName": "Coordinator",
+      "rank": 1
+    }
+  ],
+  "description": "Once per round, when you, or an ally with your Inspiring Display die, roll an Inspiring Display, they can roll the die twice and take either result."
+}

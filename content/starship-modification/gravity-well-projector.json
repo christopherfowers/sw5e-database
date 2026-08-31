@@ -1,0 +1,20 @@
+{
+  "key": "gravity-well-projector",
+  "name": "Gravity Well Projector",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field.\nA crewmember can activate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. For up to a minute, while active, this ship and ships of the same size or smaller that enter or start their turn within the gravity well projector's firing arc can't activate their hyperdrives.\nThe effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

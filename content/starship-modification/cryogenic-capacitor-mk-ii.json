@@ -1,0 +1,16 @@
+{
+  "key": "cryogenic-capacitor-mk-ii",
+  "name": "Cryogenic Capacitor, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Cryogenic Capacitor, Mk I",
+      "modificationName": "Cryogenic Capacitor, Mk I"
+    }
+  ],
+  "description": "You improve your ship's reserve power cells.  Your ship is expertly equipped for Strength (Boost) checks."
+}

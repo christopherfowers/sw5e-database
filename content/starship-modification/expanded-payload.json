@@ -1,0 +1,19 @@
+{
+  "key": "expanded-payload",
+  "name": "Expanded Payload",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "weaponMounting",
+      "text": "Tertiary or Quaternary Weapon",
+      "mountings": [
+        "tertiary",
+        "quaternary"
+      ]
+    }
+  ],
+  "description": "The reload value of the chosen weapon increases by half."
+}

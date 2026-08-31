@@ -1,0 +1,9 @@
+{
+  "key": "flight-computer",
+  "name": "Flight Computer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "description": "Once per round, this system allows a crewmember at the helm to take the Fly or Evade action as a bonus action, or a crewmember to take the Regenerate Shield action as a bonus action, on their turn, rather than as an action."
+}

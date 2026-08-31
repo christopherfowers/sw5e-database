@@ -1,0 +1,14 @@
+{
+  "key": "multitasker-improved",
+  "name": "Multitasker, Improved",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "venture",
+      "text": "Multitasker",
+      "ventureName": "Multitasker"
+    }
+  ],
+  "description": "When operating a ship, you gain a second bonus action you can take with the ship."
+}

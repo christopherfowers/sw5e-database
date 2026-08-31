@@ -1,0 +1,9 @@
+{
+  "key": "absorptive-shielding",
+  "name": "Absorptive Shielding",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You add an absorbtive capacitor to your shield generator, granting your shields resistance to kinetic damage."
+}

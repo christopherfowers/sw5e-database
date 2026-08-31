@@ -1,0 +1,9 @@
+{
+  "key": "sensor-dampener",
+  "name": "Sensor Dampener",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 2,
+  "description": "This modification adds a remote sensor dampener to your ship. As an action, a crewmember can attempt to dampen the sensors of a ship they can see within 1,000 feet. The target makes a Wisdom saving throw (DC = 8 + your Charisma (Interfere) bonus. On a failed save, the ship is blinded for 1 minute. As an action on each of the ship's turns, a crewmember on the affected ship can repeat this save, ending the effect on a success.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.\nAdditionally, your ship is proficiently equipped for Dexterity (Hide) checks. If your ship is already proficiently equipped, it is instead considered expertly equipped."
+}

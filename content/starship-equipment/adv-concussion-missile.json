@@ -1,0 +1,34 @@
+{
+  "key": "adv-concussion-missile",
+  "name": "Adv. concussion missile",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 1250,
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 4,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "weightInPounds": 125,
+  "weightInPoundsForLargerShips": 250,
+  "range": {
+    "normal": 800,
+    "long": 3200
+  },
+  "properties": [
+    "auto",
+    "burst 1",
+    "explosive",
+    "rapid 1"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

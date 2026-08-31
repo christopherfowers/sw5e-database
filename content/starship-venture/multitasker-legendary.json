@@ -1,0 +1,19 @@
+{
+  "key": "multitasker-legendary",
+  "name": "Multitasker, Legendary",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "venture",
+      "text": "Multitasker, Improved",
+      "ventureName": "Multitasker, Improved"
+    },
+    {
+      "kind": "deploymentRank",
+      "text": "Rank 5",
+      "rank": 5
+    }
+  ],
+  "description": "When operating a ship, you gain a second action you can take with the ship."
+}

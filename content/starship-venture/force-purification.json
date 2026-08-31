@@ -1,0 +1,15 @@
+{
+  "key": "force-purification",
+  "name": "Force Purification",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 14 levels in guardian",
+      "className": "guardian",
+      "level": 14
+    }
+  ],
+  "description": "Ships become valid targets for you Cleansing Touch ability."
+}

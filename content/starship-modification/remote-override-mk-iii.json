@@ -1,0 +1,16 @@
+{
+  "key": "remote-override-mk-iii",
+  "name": "Remote Override, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Remote Override, Mk II",
+      "modificationName": "Remote Override, Mk II"
+    }
+  ],
+  "description": "Additionally, your starship’s maximum crew requirement becomes 2, and can support 2 remote controllers."
+}

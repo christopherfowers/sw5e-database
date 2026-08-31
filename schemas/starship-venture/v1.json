@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/starship-venture/v1.json",
+  "title": "Starship venture",
+  "description": "A talent a crewmember picks up by serving aboard a ship. A venture is to a deployment what a feat is to a class: one is granted at every rank in every deployment, and the list is shared, so what a character can take is decided almost entirely by prerequisites. Those prerequisites are what make the type interesting to model — they reach across into deployments, into character classes, and into other ventures, which is how the venture list forms chains such as Spacecasting through to Spacecasting, Legendary.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "description"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this venture. Derived from the name once and never reused, so a saved character keeps resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as printed. Members of a chain are named \"<Venture>, <Improved|Greater|Master|Legendary>\", and the comma is part of the name rather than a separator."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this venture was published in, matching a document of the source content type."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
+    },
+    "prerequisites": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Everything that must already be true before this venture can be taken, one entry per clause as printed. Absent on the ventures anyone may take at any rank. The printed body repeats each of these as an italic run-in line; that duplicate is stripped from the description, because a page that showed both would print every prerequisite twice.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "text"],
+        "properties": {
+          "kind": {
+            "enum": ["deploymentRank", "classLevel", "venture", "casting", "other"],
+            "description": "What sort of requirement the clause is, which decides which of the fields below is present. \"other\" covers the handful of clauses that name a venture the book never printed — Dual Roles and Multi-Roles are both referenced and neither exists — and those are left unresolved rather than guessed at."
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The clause exactly as printed, always present, so a page can show the wording the book used rather than a reconstruction of it."
+          },
+          "deploymentName": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the deployment the rank must be held in, matching a starship-deployment document. Present when kind is deploymentRank and the clause names a station; absent when it says only \"Rank 3\", which means that rank in whichever deployment the character is taking the venture for."
+          },
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "The rank required. Present whenever kind is deploymentRank."
+          },
+          "className": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Lower-case name of the character class the levels must be in. Present when kind is classLevel. A plain string rather than a reference because classes are not yet a content type; the set of classes the corpus names is currently knowable only from fields like this one."
+          },
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 20,
+            "description": "Levels required in that class. Present whenever kind is classLevel."
+          },
+          "ventureName": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the venture that must already be held, matching another document of this type. Present when kind is venture."
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text in second person, because a venture is something the crewmember does rather than something the ship has."
+    }
+  }
+}

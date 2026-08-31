@@ -1,0 +1,26 @@
+{
+  "key": "quad-pulse-turbolaser-battery",
+  "name": "Quad pulse turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4400,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "overheat 16",
+    "rapid 4"
+  ],
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 400,
+    "long": 1600
+  }
+}

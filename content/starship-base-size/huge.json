@@ -1,0 +1,264 @@
+{
+  "key": "huge",
+  "name": "Huge",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "lore": "The battleship's shields flicker as it absorbs the blows of the  attacking fighters. It continues inexorably past them as it's point-defense system peppers it's vicinity with blaster fire to ward them off.  As it a approaches the fragile medical frigate the fighters scramble to protect, its gunners lock on to the target before unleashing a fierce volley of turbolaser fire and snapping it in half.\n\nAs the carrier leaves hyperspace, snubfighters deploy from its hangars in formations and move to intercept the space station's patrol fighters. Before the enemy craft have the opportunity to respond, the fighters fall upon them, quickly decimating their ranks. But before the snubfighters had even left the carrier, a second wave of small bombers had been prepping for takeoff.  As they spew forth from the hangars, they quickly lock on to the space station and launch proton bombs, pulverizing the station in minutes.\n\nWith the command given, the operator activates the interdictor's gravity well projectors. the lights inside dim almost imperceptibly as huge amounts of power is drawn from the reactor core and supplemental capacitors to the projectors.  Accompanied by a low-pitched hum, the gravity well projectors power up. Minutes pass for the ship uneventfully, until finally a frigate lurches unceremoniously out of hyperspace into realspace in front of them. The ship then activates its tractor beam, trapping its quarry.\n\nHuge starships, regardless of their specific purpose, are the backbone of any military. They provide a mobile base of operations and function as a staging ground for the faction that controls them.",
+  "abilityScoreAdjustments": [
+    {
+      "ability": "dexterity",
+      "modifier": -4
+    },
+    {
+      "ability": "constitution",
+      "modifier": 4
+    }
+  ],
+  "hull": {
+    "diceAtTier0": {
+      "number": 9,
+      "faces": 12
+    },
+    "firstDiePoints": "12 + your ship's Constitution modifier",
+    "subsequentDiePoints": "1d12 (or 7) + your ship's Constitution modifier per Hull Die after 1st"
+  },
+  "shields": {
+    "diceAtTier0": {
+      "number": 9,
+      "faces": 12
+    },
+    "firstDiePoints": "12 + your ship's Strength modifier",
+    "subsequentDiePoints": "1d12 (or 7) + your ship's Strength modifier per Shield Die after 1st"
+  },
+  "modifications": {
+    "maximumSuiteSystems": "6 + 3x your ship's Constitution modifier",
+    "baseModificationSlots": 60,
+    "stockModifications": "Your choice of five suite modifications and three non-suite modifications."
+  },
+  "savingThrows": "Wisdom and your choice of Strength or Constitution",
+  "tierProgression": {
+    "dieName": "Damage Control Die",
+    "tiers": [
+      {
+        "tier": 0,
+        "features": [
+          "Role"
+        ],
+        "hullAndShieldDice": "9d12",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 1,
+        "features": [
+          "Damage Control",
+          "Ability Score Increase"
+        ],
+        "die": "d4",
+        "hullAndShieldDice": "11d12",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 2,
+        "features": [
+          "Role Specialization",
+          "Staging Ground",
+          "Ability Score Increase"
+        ],
+        "die": "d6",
+        "hullAndShieldDice": "13d12",
+        "armorClassBonus": 1
+      },
+      {
+        "tier": 3,
+        "features": [
+          "Versatile Cruiser",
+          "Capital Railgun",
+          "Ability Score Increase"
+        ],
+        "die": "d8",
+        "hullAndShieldDice": "15d12",
+        "armorClassBonus": 2
+      },
+      {
+        "tier": 4,
+        "features": [
+          "Role Mastery",
+          "Broadside",
+          "Ability Score Increase"
+        ],
+        "die": "d10",
+        "hullAndShieldDice": "17d12",
+        "armorClassBonus": 3
+      },
+      {
+        "tier": 5,
+        "features": [
+          "Paragon Cruiser",
+          "Capital Ship",
+          "Ability Score Increase"
+        ],
+        "die": "d12",
+        "hullAndShieldDice": "19d12",
+        "armorClassBonus": 4
+      }
+    ]
+  },
+  "roles": [
+    {
+      "name": "Battleship",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Directional",
+      "reactor": "Power Core",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 200,
+      "turning": 400
+    },
+    {
+      "name": "Carrier",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "charisma",
+          "modifier": 1
+        },
+        {
+          "ability": "intelligence",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Directional",
+      "reactor": "Ionization",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 300,
+      "turning": 500
+    },
+    {
+      "name": "Colonizer",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        },
+        {
+          "ability": "intelligence",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Quick-Charge",
+      "reactor": "Ionization",
+      "powerCoupling": "Distributed",
+      "speed": 400,
+      "turning": 600
+    },
+    {
+      "name": "Command Ship",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "charisma",
+          "modifier": 1
+        },
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Fortress",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Distributed",
+      "speed": 300,
+      "turning": 500
+    },
+    {
+      "name": "Interdictor",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Quick-Charge",
+      "reactor": "Power Core",
+      "powerCoupling": "Distributed",
+      "speed": 200,
+      "turning": 400
+    },
+    {
+      "name": "Juggernaut",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Fortress",
+      "reactor": "Power Core",
+      "powerCoupling": "Direct",
+      "speed": 400,
+      "turning": 600
+    }
+  ],
+  "features": [
+    {
+      "name": "Starship Improvements",
+      "description": "Beginning when your ship reaches 1st tier, it gains the following benefits:\n\n#### Ability Score Improvement\nAt first tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Constitution above 20, or your Constitution above 24, with this feature.\n\n#### Additional Hull and Shield Dice\nYour ship gains 2 additional Hull Dice and 2 additional Shield Dice. It gains 2 additional Hull Dice and 2 additional Shield Dice at 2nd tier (4, each), 3rd tier (6, each), 4th tier (8, each), and 5th tier (10, each).\n\n#### Armor Class Improvement\nBeginning at second Tier, your ship's armor class improves, giving your ship a +1 to its AC.  It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
+    },
+    {
+      "name": "Damage Control",
+      "description": "Also at 1st tier, your starship gains the ability to automatically mitigate damage from ships.\n\nOnce per turn, as a reaction to being dealt damage by a ship weapon, a crewmember can use their reaction and roll a Damage Control die, which is a d4, and subtract it from the damage roll.\n\nYour ship's Damage Control die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.\n\nThis feature can be used a number of times equal to 4 x your ship's tier. All expended uses are regained when the ship undergoes refitting."
+    },
+    {
+      "name": "Role Specialization",
+      "description": "At 2nd tier, you adopt a particular style of design for your ship. Choose any one from the following.\n\n#### Battleship\nYour ship gains two Fixed Hardpoint modifications at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.\n\n#### Carrier\nYour ship gains two Docking Bay suites at no cost. Additionally, the capacity of your docking bays are doubled.\n\n#### Colonizer\nYour ship gains two Barracks suites at no cost. Additionally, saving throws against poison and disease on your ship are made with advantage.\n\n#### Command Ship\nYour ship gains the Comms Package, Premium and Command Center suite modifications at no cost. Additionally, you have advantage on Charisma (Impress) checks.\n\n#### Interdictor\nYour ship gains the Tractor Beam and Gravity Well Projector modifications at no cost. Additionally, ships of Huge size or smaller have disadvantage on saving throws against your tractor beams.\n\n#### Juggernaut\nYour hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 hull points."
+    },
+    {
+      "name": "Staging Ground",
+      "description": "Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crewmembers or troopers deploy, they have advantage on their first ability check, attack roll, or saving throw they make before the end of their next long rest. Once a crewmember or troop has benefited from this feature, they can not benefit from it again until they complete a long rest."
+    },
+    {
+      "name": "Versatile Cruiser",
+      "description": "Starting at 3rd tier, when a crewmember makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.\n\nThis feature can be used a number of times equal to 2 x your ship's tier. All expended uses are regained when the ship undergoes recharging."
+    },
+    {
+      "name": "Capital Railgun",
+      "description": "Also at 3rd tier, your ship is equipped with a forward-mounted special version of a Heavy Slug Railgun at its helm.  Your ship is considered to meet this weapon's constitution requirement regardless of your ship's constitution ability score.  The damage dealt by this Heavy Slug Railgun is 7d12.\n\nThis weapon does not utilize or count as a weapon hardpoint."
+    },
+    {
+      "name": "Role Mastery",
+      "description": "At 4th tier, you master a particular style of design for your ship. Choose any one from the following.\n\n#### Battleship\nWhen a crewmember rolls a 1 or 2 on the on a damage die for a primary or secondary weapon, they can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.\n\n#### Carrier\nWhen ships are deployed from your carrier, they have advantage on the first ability check, attack roll, or saving throw they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting.\n\n#### Colonizer\nYour ship's fuel capacity, as shown in the **Starship Size Fuel Capacity** table, doubles. Additionally, while traveling in realspace, your ship consumes half the amount of fuel.\n\n#### Command Ship\nYour ship gains the Comms Package, Premium, and Comms Package, Prototype modifications at no cost. Additionally, you have advantage on Charisma (Menace) checks.\n\n#### Interdictor\nShips of all sizes have disadvantage on the saving throws against your tractor beams. Additionally, you can force ships of Large size and smaller to reroll one of the dice once.\n\n#### Juggernaut\nWhen you deal damage on a ram, the damage you inflict on other ships increases by +2 per hull die of your ship."
+    },
+    {
+      "name": "Broadside",
+      "description": "Also at 4th tier, once on each of their turns, when a crewmember makes a ship attack, they can make another attack with the same weapon against a different ship that is within 100 feet of the original target and within range of their weapon."
+    },
+    {
+      "name": "Paragon Cruiser",
+      "description": "As of 5th tier, your starship is the best in its class. One of your ship's ability scores increases by 4, and its maximum for this score increase by 4.  Another two ability scores increase by 2, and its maximum for these scores increase by 2."
+    },
+    {
+      "name": "Capital Ship",
+      "description": "Also at 5th tier, a crewmember can, as a bonus action, delegate a plan of action to the crew. The ship can immediately move up to its flying speed, and up to five crewmembers on that ship can use their reaction to immediately take an action.\n\nOnce this feature has been used, it can't be used again until the ship recharges."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "key": "plasma-torpedo",
+  "name": "Plasma torpedo",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 700,
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 12,
+    "type": "ion"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 4,
+    "dieFaces": 12,
+    "type": "ion"
+  },
+  "weightInPounds": 70,
+  "weightInPoundsForLargerShips": 140,
+  "range": {
+    "normal": 1200,
+    "long": 4800
+  },
+  "properties": [
+    "vicious 1"
+  ],
+  "firedBy": [
+    "Torpedo launcher",
+    "Assault torpedo launcher"
+  ]
+}

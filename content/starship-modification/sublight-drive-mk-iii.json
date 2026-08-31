@@ -1,0 +1,9 @@
+{
+  "key": "sublight-drive-mk-iii",
+  "name": "Sublight Drive, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "***Prerequisite:** Strength 13, Sublight Drive, Mk II*\nYour ship’s flying speed increases by 50 feet."
+}

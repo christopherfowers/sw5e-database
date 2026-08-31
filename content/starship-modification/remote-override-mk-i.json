@@ -1,0 +1,16 @@
+{
+  "key": "remote-override-mk-i",
+  "name": "Remote Override, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Remote Override, Makeshift",
+      "modificationName": "Remote Override, Makeshift"
+    }
+  ],
+  "description": "The ship no longer suffers from disadvantage on attack rolls and ability checks while being remote controlled."
+}

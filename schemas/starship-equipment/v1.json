@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/starship-equipment/v1.json",
+  "title": "Starship equipment",
+  "description": "A part a ship is fitted with: a weapon, its ammunition, armour, shields, a reactor, a power coupling or a hyperdrive. Every starship carries one of each system without spending a modification slot, which is what separates this type from starship-modification — equipment is what the hull comes with and can be swapped, a modification is what is bolted on afterwards and costs slots. The fields a shipyard list needs (category, cost) are always present; each category then carries its own block, because nothing a hyperdrive records is meaningful for a shield.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "category", "costInCredits"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this part. Derived from the name once and never reused, so a saved loadout keeps resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, in sentence case as printed on the shipyard tables."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this part was published in, matching a document of the source content type."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
+    },
+    "category": {
+      "enum": [
+        "weapon",
+        "ammunition",
+        "armor",
+        "shield",
+        "reactor",
+        "powerCoupling",
+        "hyperdrive"
+      ],
+      "description": "What kind of part this is. It decides which of the optional blocks below apply and which table the part is printed in: only a weapon carries the weapon block, only ammunition carries firedBy, and the four system categories each carry exactly one block of their own."
+    },
+    "costInCredits": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "List price in credits for a Small ship. Prices for every other hull are this figure scaled by the Starship Size Equipment Cost table, so the raw number is stored rather than a per-size table. Zero on the slower hyperdrives, which are the ones a hull is assumed to already have."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown explaining what the part does beyond its table row. Present on the systems, whose behaviour cannot be read off a row, and absent on most weapons, whose row says everything."
+    },
+    "weapon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mounting", "weaponSize"],
+      "description": "Where the weapon is fitted and what scale of hull it belongs to. Present on weapons only.",
+      "properties": {
+        "mounting": {
+          "enum": ["primary", "secondary", "tertiary", "quaternary"],
+          "description": "Which of the four weapon mountings the part occupies. The mounting decides who fires it and how: primary weapons are aimed by the helm, secondary by a gunner, tertiary launchers throw the ammunition of this same content type, and quaternary weapons drop mines and bombs behind the ship."
+        },
+        "weaponSize": {
+          "enum": ["small", "huge"],
+          "description": "Which of the two weapon tables the part is printed in: small covers Tiny to Large hulls, huge covers Huge and Gargantuan. The same weapon usually appears in both at a different damage die, as two separate parts, which is why this is a property of the part rather than of the ship."
+        }
+      }
+    },
+    "properties": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Weapon properties as printed on the table row, one clause per entry, each carrying its own numeric argument: \"burst 6\", \"overheat 2\", \"constitution 15\". The leading word of every clause names a property defined in the Weapon Properties section of the starship rules. The range clause is not among them, because range is a field of its own.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "damage": {
+      "$ref": "#/$defs/damage",
+      "description": "Damage on a hit, before ability modifiers and properties. Absent on the tertiary and quaternary launchers, which deal no damage themselves — the ammunition they fire does."
+    },
+    "damageForLargerShips": {
+      "$ref": "#/$defs/damage",
+      "description": "The bracketed damage printed beside the first, which applies when the ammunition is fired from a Huge or larger hull. Ammunition only: a weapon states its two scales as two separate parts instead."
+    },
+    "range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["normal", "long"],
+      "description": "The two range bands in feet. Attacks beyond normal range and within long range are made at disadvantage, and nothing can be attacked beyond long range.",
+      "properties": {
+        "normal": { "type": "integer", "minimum": 1, "description": "Normal range in feet." },
+        "long": { "type": "integer", "minimum": 1, "description": "Long range in feet." }
+      }
+    },
+    "weightInPounds": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Weight of one piece of ammunition, which counts against the ship's cargo capacity. Ammunition only; the systems are part of the hull and are never weighed."
+    },
+    "weightInPoundsForLargerShips": {
+      "type": "number",
+      "minimum": 0,
+      "description": "The bracketed weight printed beside the first, for ammunition fired from a Huge or larger hull."
+    },
+    "firedBy": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Names of the launchers this ammunition fits, each matching a starship-equipment document of category weapon. Ammunition is grouped under its launcher in the printed table and is useless without one, so the link is recorded rather than left for a reader to infer from the name.",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "armor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["armorClass", "damageReduction", "stealthDisadvantage"],
+      "description": "What the armour does. Present on armour only.",
+      "properties": {
+        "armorClass": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The ship's armor class formula while wearing this armour, as printed, including the cap it puts on Dexterity: \"10 + Dex modifier (max 2)\". Stored as text because the cap is part of the value, matching how personal armour is recorded."
+        },
+        "damageReduction": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Damage subtracted from every hit taken from an attack roll. Zero on lightweight armour, which trades reduction for keeping the whole Dexterity modifier."
+        },
+        "stealthDisadvantage": {
+          "type": "boolean",
+          "description": "Whether the armour imposes disadvantage on the ship's attempts to go unnoticed. Always present, including when false, so a sheet can read it without a null check."
+        }
+      }
+    },
+    "shield": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["capacityMultiplier", "regenerationRateCoefficient"],
+      "description": "How the shields trade capacity against recovery. Present on shields only, and the two values always move in opposite directions: fortress shields hold half again as much and recharge two-thirds as fast, quick-charge shields do the reverse.",
+      "properties": {
+        "capacityMultiplier": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Multiplier applied to the ship's base shield points, as printed: \"x 3/2\". Text rather than a number because the book states it as a fraction and rounding it to a decimal would change the arithmetic."
+        },
+        "regenerationRateCoefficient": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Multiplier applied to the maximum value of the ship's shield die to give the points recovered each round, as printed."
+        }
+      }
+    },
+    "reactor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["powerDiceRecovered"],
+      "description": "What the reactor produces and what it costs to run. Present on reactors only.",
+      "properties": {
+        "powerDiceRecovered": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Power dice recovered at the start of each of the ship's turns, as printed. Text rather than a number because two of the three reactors state it as a roll: a power core recovers 1d2 and an ionization reactor 1d2-1."
+        },
+        "fuelCostModifier": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Multiplier applied to the ship's fuel costs, as printed. Absent on the fuel cell reactor, which is the baseline the other two are stated relative to."
+        }
+      }
+    },
+    "powerCoupling": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Where the coupling lets power dice be stored. Present on power couplings only, and every coupling sets at least one of the two: a direct coupling stores centrally, a distributed one stores per system, and a hub and spoke coupling does both at a lower capacity.",
+      "properties": {
+        "centralStorageCapacity": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Power dice held in the ship's central capacitor, available to any system."
+        },
+        "systemStorageCapacity": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Power dice held at each individual system, available only to that system."
+        }
+      }
+    },
+    "hyperdriveClass": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The drive's class, which multiplies the time a jump takes: a class 0.5 drive is the fastest in the book and a class 15 the slowest. Text rather than a number because the printed classes mix decimals and whole numbers and the leading zero of \"0.5\" is part of how the class is named."
+    }
+  },
+  "$defs": {
+    "damage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["numberOfDice", "dieFaces"],
+      "properties": {
+        "numberOfDice": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many dice are rolled."
+        },
+        "dieFaces": {
+          "type": "integer",
+          "enum": [4, 6, 8, 10, 12],
+          "description": "Faces on each die: the 6 of 3d6."
+        },
+        "type": {
+          "enum": ["energy", "fire", "ion", "kinetic"],
+          "description": "Damage type, which decides how a target's armour and shields apply. Ion damage is the one that strips shields and disables systems rather than breaching hull. Absent on the few pieces of ammunition whose whole effect is a special rule rather than damage."
+        }
+      }
+    }
+  }
+}

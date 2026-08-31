@@ -1,0 +1,31 @@
+{
+  "key": "ion-pulse-missile",
+  "name": "Ion pulse missile",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 700,
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 10,
+    "type": "ion"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 4,
+    "dieFaces": 10,
+    "type": "ion"
+  },
+  "weightInPounds": 70,
+  "weightInPoundsForLargerShips": 140,
+  "range": {
+    "normal": 1000,
+    "long": 4000
+  },
+  "properties": [
+    "ionizing"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

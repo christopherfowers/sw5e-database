@@ -1,0 +1,27 @@
+{
+  "key": "ordnance-point-defense",
+  "name": "Ordnance point-defense",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 6000,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "explosive",
+    "saturate",
+    "zone"
+  ],
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "range": {
+    "normal": 300,
+    "long": 1200
+  }
+}

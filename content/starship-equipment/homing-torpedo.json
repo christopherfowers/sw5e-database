@@ -1,0 +1,32 @@
+{
+  "key": "homing-torpedo",
+  "name": "Homing torpedo",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 250,
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 2,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "weightInPounds": 25,
+  "weightInPoundsForLargerShips": 50,
+  "range": {
+    "normal": 1200,
+    "long": 4800
+  },
+  "properties": [
+    "explosive",
+    "homing"
+  ],
+  "firedBy": [
+    "Torpedo launcher",
+    "Assault torpedo launcher"
+  ]
+}

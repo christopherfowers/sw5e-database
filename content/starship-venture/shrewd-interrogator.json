@@ -1,0 +1,7 @@
+{
+  "key": "shrewd-interrogator",
+  "name": "Shrewd Interrogator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you make a Wisdom (Insight) or Charisma (Deception) check while aboard your ship, you may use your Intelligence modifier instead of your Wisdom or Charisma modifier."
+}

@@ -1,0 +1,15 @@
+{
+  "key": "force-empowered-accuracy",
+  "name": "Force-Empowered Accuracy",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in consular",
+      "className": "consular",
+      "level": 2
+    }
+  ],
+  "description": "Once per turn, when you miss with a ship attack, or when a target succeeds on the saving throw against a ship weapon, you can spend 1 force point to reroll the die. You must use the new roll."
+}

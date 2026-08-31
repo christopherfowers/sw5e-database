@@ -1,0 +1,12 @@
+{
+  "key": "distributed-power-coupling",
+  "name": "Distributed power coupling",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "powerCoupling",
+  "costInCredits": 5100,
+  "description": "Distributed power coupling sacrifices flexibility by allocating power separately to each system.",
+  "powerCoupling": {
+    "systemStorageCapacity": 2
+  }
+}

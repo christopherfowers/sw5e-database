@@ -1,0 +1,20 @@
+{
+  "key": "droid-brain-makeshift",
+  "name": "Droid Brain, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or smaller",
+      "shipSizes": [
+        "tiny",
+        "small",
+        "medium"
+      ]
+    }
+  ],
+  "description": "You install a droid brain that can singularly control your starship. Your starship's maximum and minimum crew requirement become 0, and your starship cannot benefit from features that would increase or decrease it's crew capacity. The droid brain controls all aspects of the ship, instead. The droid brain has a proficiency bonus of +2, and proficiency in Piloting. In combat, the droid brain rolls its own initiative, to which it gains no bonus.  The droid brain can cause the ship to move and can take bonus actions and reactions, but cannot take any actions."
+}

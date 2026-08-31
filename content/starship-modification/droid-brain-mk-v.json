@@ -1,0 +1,16 @@
+{
+  "key": "droid-brain-mk-v",
+  "name": "Droid Brain, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Droid Brain, Mk IV",
+      "modificationName": "Droid Brain, Mk IV"
+    }
+  ],
+  "description": "Your ship's droid brain has reached its maximum potential. Your droid brain's proficiency bonus increases to 6. Additionally, it gains a rank in a Deployment of your choice."
+}

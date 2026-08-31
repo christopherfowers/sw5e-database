@@ -1,0 +1,9 @@
+{
+  "key": "meditation-chamber",
+  "name": "Meditation Chamber",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite comes with a number of separate unique chambers equal to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. When a forcecaster completes a long rest involving this suite, they gain temporary force points equal to their force power maximum power level + their Wisdom or Charisma modifier (their choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next long rest.\nAdditionally each chamber is equipped with integrated artificer’s implements. While making a check with these tools in a meditation chamber, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier."
+}

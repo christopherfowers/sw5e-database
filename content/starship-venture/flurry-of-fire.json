@@ -1,0 +1,15 @@
+{
+  "key": "flurry-of-fire",
+  "name": "Flurry of Fire",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in monk",
+      "className": "monk",
+      "level": 2
+    }
+  ],
+  "description": "Immediately after you take the Fire action you can spend 1 focus point to make an additional attack as a bonus action. This additional attack must be made with a primary weapon."
+}

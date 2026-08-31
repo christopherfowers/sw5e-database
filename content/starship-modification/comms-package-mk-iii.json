@@ -1,0 +1,9 @@
+{
+  "key": "comms-package-mk-iii",
+  "name": "Comms Package, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 3,
+  "description": "***Modification Grade** 3*\n***Prerequisite:** Comms Package, Mk II*\nThis modification massively improves the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships anywhere in the known galaxy as long as they are similarly equipped.\nAdditionally, your ship has advantage on Intelligence (Data) checks. If they already have advantage on the roll, they can instead reroll one of the dice once."
+}

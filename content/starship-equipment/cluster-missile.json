@@ -1,0 +1,34 @@
+{
+  "key": "cluster-missile",
+  "name": "Cluster missile",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 100,
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 6,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "weightInPounds": 10,
+  "weightInPoundsForLargerShips": 20,
+  "range": {
+    "normal": 600,
+    "long": 2400
+  },
+  "properties": [
+    "auto",
+    "burst 6",
+    "explosive",
+    "rapid 6"
+  ],
+  "firedBy": [
+    "Cluster pod launcher",
+    "Assault cluster pod launcher"
+  ]
+}

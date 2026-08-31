@@ -1,0 +1,18 @@
+{
+  "key": "crew-expansion",
+  "name": "Crew Expansion",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Small",
+      "shipSizes": [
+        "small"
+      ]
+    }
+  ],
+  "description": "You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by an amount equal to the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table."
+}

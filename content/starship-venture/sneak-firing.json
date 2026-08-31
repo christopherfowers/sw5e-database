@@ -1,0 +1,15 @@
+{
+  "key": "sneak-firing",
+  "name": "Sneak Firing",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 1 level in operative",
+      "className": "operative",
+      "level": 1
+    }
+  ],
+  "description": "Once per turn, you can deal an extra 1d6 damage to one ship you hit with a ship attack if you have advantage on the attack roll.  You can select this venture multiple times.\n\\columnbreak"
+}

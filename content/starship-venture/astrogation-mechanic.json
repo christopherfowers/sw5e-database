@@ -1,0 +1,7 @@
+{
+  "key": "astrogation-mechanic",
+  "name": "Astrogation Mechanic",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you make an Intelligence (Astrogation) check, your ship is considered proficiently equipped if you have proficiency in Technology or expertly equipped if you have expertise in Technology.\nAdditionally, when you make a Constitution (Patch) check when taking the Patch action, your ship is considered proficiently equipped if you have proficiency in Mechanic's Kit or expertly equipped if you have expertise in Mechanic's Kit."
+}

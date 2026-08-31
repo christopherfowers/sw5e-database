@@ -1,0 +1,26 @@
+{
+  "key": "plasburst-turbolaser-battery",
+  "name": "Plasburst turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4000,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "burst 12",
+    "overheat 12"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 600,
+    "long": 2400
+  }
+}

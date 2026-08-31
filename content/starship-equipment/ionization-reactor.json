@@ -1,0 +1,13 @@
+{
+  "key": "ionization-reactor",
+  "name": "Ionization reactor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "reactor",
+  "costInCredits": 5100,
+  "description": "Ionization reactors are highly fuel-efficient reactors that trade power output for fuel economy.",
+  "reactor": {
+    "powerDiceRecovered": "1d2-1",
+    "fuelCostModifier": "x 2/3"
+  }
+}

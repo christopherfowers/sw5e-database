@@ -1,0 +1,16 @@
+{
+  "key": "boarding-harpoon",
+  "name": "Boarding Harpoon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Hardened Prow",
+      "modificationName": "Hardened Prow"
+    }
+  ],
+  "description": "Your ship has been further modified with a massive grappling harpoon, through which creatures can pass. Your ship is expertly equipped for Strength (Ram) checks.\nAdditionally, when a crewmember takes the Ram action, on a success, the ships become harpooned. While harpooned, your ship and the target ship are slowed as show in the Harpooned and Harpooning Ships [Slowed Level](#Slowed%20Level) tables, below. A crewmember can release the harpooned ship at any time (no action required). The harpooned ship is automatically released if your ship becomes disabled, or if it is forcefully moved more than 100 feet away from your ship.\n| Target Ship Size | Tiny |Small |Med. |Large |Huge |Garg. |\n|:----:|:----:|:----:|:----:|:----:|:----:|:----:|\n| **Tiny**  | 3 |4 |4 |4|4 |4 |\n| **Small**  | 2|3 |4 |4 |4 |4 |\n| **Medium**  | 1 |2 |3 |4 |4 |4 |\n| **Large**  | — |1 |2 |3 |4 |4 |\n| **Huge** | — |— |1 |2 |3 |4 |\n| **Gargantuan** | — | — | — | 1 | 2 | 3 |\n| Target Ship Size | Tiny |Small |Med. |Large |Huge |Garg. |\n|:----:|:----:|:----:|:----:|:----:|:----:|:----:|\n| **Tiny**  | 2 |1 |— |— |— |— |\n| **Small**  | 3|2 |1 |— |— |— |\n| **Medium**  | 4 |3 |2 |1 |— |— |\n| **Large**  | 4 |4 |3 |2 |1 |— |\n| **Huge** | 4 |4 |4 |3 |2 |1 |\n| **Gargantuan** | 4 |4 |4 |4 |3 |2 |\n***Removing the Harpoon.*** A crewmember at the helm of the harpooned ship can use its action to make a contested Strength (Boost) check, ending the effect on a success.\n***Moving a Harpooned Ship.*** When your ship moves, it can drag the harpooned ship with it.\n***Boarding a Harpooned Ship.*** While the ship is harpooned, up to six creatures of Medium size or smaller can move through the gap onto the harpooned ship each round.\n***Recovering the Harpoon.*** Recovering and reinstalling the harpoon takes 1 minute."
+}

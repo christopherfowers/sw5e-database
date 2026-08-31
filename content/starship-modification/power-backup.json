@@ -1,0 +1,9 @@
+{
+  "key": "power-backup",
+  "name": "Power Backup",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with a back up battery, which can give it renewed energy. When your ship is reduced to 0 hull points but not destroyed outright, a crewmember can use their reaction to have it drop to 1 hull point instead. Alternatively, if the ship is making Destruction saving throws, a crewmember can use their action to have the ship automatically succeed on a Destruction saving throw.\nOnce either feature has been used, the power backup can't be used again until the ship recharges."
+}

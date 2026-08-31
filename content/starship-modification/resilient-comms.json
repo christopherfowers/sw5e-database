@@ -1,0 +1,9 @@
+{
+  "key": "resilient-comms",
+  "name": "Resilient Comms",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You overhaul your ship's communications systems to make them more adaptive. Your ship is proficiently equipped for Charisma saving throws."
+}

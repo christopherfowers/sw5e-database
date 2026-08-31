@@ -1,0 +1,16 @@
+{
+  "key": "tibanna-gas-projector-mk-v",
+  "name": "Tibanna Gas Projector, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Tibanna Gas Projector, Mk IV",
+      "modificationName": "Tibanna Gas Projector, Mk IV"
+    }
+  ],
+  "description": "As an action, a crewmember can launch tibanna gas canisters, creating a firestorm in a location they choose within 1500 feet. The area of the storm consists of up to ten 100-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each ship in the area must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's constitution modifier). It takes 7d10 fire damage on a failed save, or half as much damage on a successful one. A ship in the area of more than one cube is affected only once.\nThe fire ignites any flammable objects in the area.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

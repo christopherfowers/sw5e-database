@@ -1,0 +1,28 @@
+{
+  "key": "burst-laser-cannon",
+  "name": "Burst laser cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4500,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "auto",
+    "burst 1",
+    "overheat 2",
+    "saturate"
+  ],
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 200,
+    "long": 800
+  }
+}

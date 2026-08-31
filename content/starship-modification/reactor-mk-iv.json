@@ -1,0 +1,16 @@
+{
+  "key": "reactor-mk-iv",
+  "name": "Reactor, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Reactor, Mk III",
+      "modificationName": "Reactor, Mk III"
+    }
+  ],
+  "description": "You massively improve your ship's reactor. Your ship's Strength score increases by 1. As normal, you can't increase your ship's Strength score above the maximum for your size with this system."
+}

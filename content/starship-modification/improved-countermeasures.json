@@ -1,0 +1,16 @@
+{
+  "key": "improved-countermeasures",
+  "name": "Improved Countermeasures",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Countermeasures",
+      "modificationName": "Countermeasures"
+    }
+  ],
+  "description": "This modification enhances your ship's countermeasures, allowing it to quickly clear lingering effects. As an action, a crewmember can activate this feature, ending the blinded, ionized, shocked, stalled, stunned, and tractored conditions.\nThis feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes refitting.\nAdditionally, your ship can now add half its Wisdom modifier (rounded down) to its Dexterity saving throws."
+}

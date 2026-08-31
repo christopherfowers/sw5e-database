@@ -1,0 +1,15 @@
+{
+  "key": "technological-knowledge",
+  "name": "Technological Knowledge",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 3 levels in engineer",
+      "className": "engineer",
+      "level": 3
+    }
+  ],
+  "description": "Ships become a valid target of your potent aptitude ability."
+}

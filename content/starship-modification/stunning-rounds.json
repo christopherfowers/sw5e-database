@@ -1,0 +1,18 @@
+{
+  "key": "stunning-rounds",
+  "name": "Stunning Rounds",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "weaponDamageType",
+      "text": "Weapon that deals ion damage",
+      "damageTypes": [
+        "ion"
+      ]
+    }
+  ],
+  "description": "When you score a critical hit with the chosen weapon, or when the target ship rolls a 1 on the saving throw to avoid the weapon's effects, you can force the target to make a Constitution saving throw (DC = 8 + your proficiency bonus + the ship's Strength modifier). On a failed save, the ship is stunned until the start of your next turn.\nIf the damaged ship is larger than your ship, it has advantage on the saving throw. If the damaged ship is smaller than your ship, it instead has disadvantage."
+}

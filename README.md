@@ -52,6 +52,32 @@ self-contained, and complete. `CombatOptionContentTests` asserts the size and
 shape of each type, so a partial import fails rather than quietly publishing a
 sample.
 
+## Starship content
+
+The six `starship-*` directories are not a sample. They carry the whole of
+*Starships of the Galaxy*: all six base sizes, six deployments, 104 pieces of
+equipment, 257 modifications, 67 ventures and the 13 rule chapters, 453
+documents in total. `tests/Sw5e.Database.Tests/StarshipContentTests.cs` holds
+them to the archive one-for-one and checks that every value the archive carries
+survives into them unchanged.
+
+Three of those values had to be recovered from prose rather than copied, because
+the 2022 scrape zeroed the columns that held them:
+
+- every numeric field on all six `StarshipBaseSize` records is `0` and every
+  list is `null`, so hull dice, the modification budget, the six roles and the
+  tier table are read out of the size's own `fullText`;
+- all nineteen pieces of ammunition carry a name and a price and nothing else,
+  so their damage, weight, range and properties come from the Tertiary
+  Ammunition table in rule chapter 5, joined on name and cross-checked on price;
+- armour and shields lost their table columns entirely — a shield's archived
+  `regenerationRateCoefficient` in fact holds the *capacity* column — so both
+  come from the Armor and Shields table in the same chapter.
+
+The test names each of these losses and asserts the archive field is still
+empty, so a re-scrape that recovers one fails loudly instead of leaving the
+recovery in place unnoticed.
+
 ## Adding a content type
 
 Create `schemas/<content-type>/v1.json` as a JSON Schema 2020-12 document, then

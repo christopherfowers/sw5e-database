@@ -1,0 +1,9 @@
+{
+  "key": "tuned-engines",
+  "name": "Tuned Engines",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You tune your engine output to allow a crewmember to take the Boost Engines action as a bonus action on their turn."
+}

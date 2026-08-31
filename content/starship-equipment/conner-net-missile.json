@@ -1,0 +1,21 @@
+{
+  "key": "conner-net-missile",
+  "name": "Conner net (missile)",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 850,
+  "weightInPounds": 85,
+  "weightInPoundsForLargerShips": 170,
+  "range": {
+    "normal": 600,
+    "long": 2400
+  },
+  "properties": [
+    "special"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

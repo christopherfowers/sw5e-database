@@ -1,0 +1,25 @@
+{
+  "key": "light-ion-cannon",
+  "name": "Light ion cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 6100,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "overheat 16"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "ion"
+  },
+  "range": {
+    "normal": 800,
+    "long": 3200
+  }
+}

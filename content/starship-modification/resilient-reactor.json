@@ -1,0 +1,9 @@
+{
+  "key": "resilient-reactor",
+  "name": "Resilient Reactor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You overhaul your ship's reactor to make it more adaptive. Your ship is proficiently equipped for Strength saving throws."
+}

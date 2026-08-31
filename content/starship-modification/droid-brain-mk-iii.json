@@ -1,0 +1,16 @@
+{
+  "key": "droid-brain-mk-iii",
+  "name": "Droid Brain, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Droid Brain, Mk II",
+      "modificationName": "Droid Brain, Mk II"
+    }
+  ],
+  "description": "You greatly improve your ship's droid brain. Your droid brain's proficiency bonus increases to 4. Additionally, it gains a rank in a Deployment of your choice."
+}

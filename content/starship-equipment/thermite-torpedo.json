@@ -1,0 +1,32 @@
+{
+  "key": "thermite-torpedo",
+  "name": "Thermite torpedo",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 700,
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 10,
+    "type": "fire"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 4,
+    "dieFaces": 10,
+    "type": "fire"
+  },
+  "weightInPounds": 70,
+  "weightInPoundsForLargerShips": 140,
+  "range": {
+    "normal": 1200,
+    "long": 4800
+  },
+  "properties": [
+    "melt",
+    "keen 1"
+  ],
+  "firedBy": [
+    "Torpedo launcher",
+    "Assault torpedo launcher"
+  ]
+}

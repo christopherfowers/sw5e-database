@@ -1,0 +1,16 @@
+{
+  "key": "repulsor-ray",
+  "name": "Repulsor Ray",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Pressor Lensing",
+      "modificationName": "Pressor Lensing"
+    }
+  ],
+  "description": "As an action, a crewmember can unleash a beam of focused energy from a tractor beam of the ship in a 50-foot-wide, 600-foot-long line. Each ship in the line must make a Constitution saving throw (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship takes 8d6 kinetic damage and is shocked until the beginning of their next turn. On a successful save, it takes half as much damage and isn’t shocked.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

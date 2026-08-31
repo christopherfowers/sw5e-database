@@ -1,0 +1,16 @@
+{
+  "key": "turret-mounting",
+  "name": "Turret Mounting",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Hardpoint",
+      "modificationName": "Hardpoint"
+    }
+  ],
+  "description": "The Turret Hardpoint is a modification to a Hardpoint that grants an improved firing arc. The weapon attached to the chosen Hardpoint now has an unlimited firing arc in addition to its limited arc, as described in chapter 9."
+}

@@ -1,0 +1,16 @@
+{
+  "key": "remote-override-mk-iv",
+  "name": "Remote Override, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Remote Override, Mk III",
+      "modificationName": "Remote Override, Mk III"
+    }
+  ],
+  "description": "Your starship’s maximum crew requirement becomes 3, and can support 3 remote controllers.\nAdditionally, your ship can be remotely controlled from anywhere in the sector by a properly equipped controller."
+}

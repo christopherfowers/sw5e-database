@@ -1,0 +1,9 @@
+{
+  "key": "shield-bleedthrough",
+  "name": "Shield Bleedthrough",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "description": "Your ship's reactor is overhauled to give temporary boosts to your ship's weapon batteries. When your ship hits another ship with a primary or secondary weapon attack while it still has shield points, a crewmember can use their reaction to cause some of the damage to bleed through. The damage the ship's shields take is reduced by an amount equal to your ship's Strength modifier. The ship's hull then takes this much damage. This damage is of the same type as the weapon's damage."
+}

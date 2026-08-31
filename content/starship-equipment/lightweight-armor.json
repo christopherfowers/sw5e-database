@@ -1,0 +1,13 @@
+{
+  "key": "lightweight-armor",
+  "name": "Lightweight armor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "armor",
+  "costInCredits": 3100,
+  "armor": {
+    "armorClass": "10 + Dex modifier",
+    "damageReduction": 0,
+    "stealthDisadvantage": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "key": "thrusters-mk-ii",
+  "name": "Thrusters, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Thrusters, Mk I",
+      "modificationName": "Thrusters, Mk I"
+    }
+  ],
+  "description": "You further improve your ship's Thrusters. Your ship's Dexterity score increases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+}

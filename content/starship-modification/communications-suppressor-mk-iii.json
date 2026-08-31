@@ -1,0 +1,9 @@
+{
+  "key": "communications-suppressor-mk-iii",
+  "name": "Communications Suppressor, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 3,
+  "description": "***Modification Grade** 3*\n***Prerequisite:** Communications Suppressor, Mk II*\nThis modification massively improves the suppressor on your ship. Your ship can now attempt to suppress the communications of a single target on a planet, a space station, or a starship within 1 mile of your ship or the communications of a space station or starship within 10 miles.\nAdditionally, your ship has advantage on Charisma (Interfere) checks. If they already have advantage on the roll, they can instead reroll one of the dice once."
+}

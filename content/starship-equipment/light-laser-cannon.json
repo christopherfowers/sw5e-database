@@ -1,0 +1,25 @@
+{
+  "key": "light-laser-cannon",
+  "name": "Light laser cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4100,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "overheat 16"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 800,
+    "long": 3200
+  }
+}

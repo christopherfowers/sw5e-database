@@ -1,0 +1,17 @@
+{
+  "key": "broadside-mounting",
+  "name": "Broadside Mounting",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Two Hardpoints",
+      "modificationName": "Hardpoint",
+      "count": 2
+    }
+  ],
+  "description": "The Broadside Mounting is a modification to two Hardpoints that grants an additional limited firing arc to each hardpoint, as described in chapter 9.  The hardpoints must share at least 1 limited firing arc, and the two firing arcs of a hardpoint need not be adjacent."
+}

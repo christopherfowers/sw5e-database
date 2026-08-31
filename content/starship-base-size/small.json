@@ -1,0 +1,234 @@
+{
+  "key": "small",
+  "name": "Small",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "lore": "As the fighters cover his approach, Zik Beskin activates his\ntargeting computer and ignores the explosions surrounding him, instead Focusing on the Destroyer's shield generator.  It had to come down soon, or this fight was lost. Arsix, behind him, beeps and whirs, preparing the ion pulse missiles for the attack run, pre-warming their engines and arming the warheads.  Together a long time now, Beskin and Arsix had spilled their share of blood and oil, respectively, for the Rebellion--usually just while improving their ancient Y-wing. But today, the blood and oil spilt wouldn't be their own.  As Zik let fly a pair of missiles, he knew they would find their target. Today wasn't over just yet.\n\nThis was her fourth sortie of the day, and Sheena was tired.  The terrorists just kept coming.  Every time she was about to shut her eyes a new wave of the Rebels came.  And every time they did, she rushed to her TIE Interceptor and joined the alert fighters to take the fighters down before they could blow a hole in the planet's defenses.  Every time they retreated before suffering heavy losses.  But every time they came back.  This last time she had decided to just nap in the cramp-\n\n ed cockpit, so when the claxon rang out, she and her ship were basically ready to fly.  This time she was go-ing to end them quickly.  As she repeatedly squeezed her trigger, she executed Koiogran turns and snap rolls galore, her laser blasts striking true, and the debris of A-wings, X-wings, and B-Wings--along with some frozen traitor remains--floated in space the next few days.  At night, she leaned back against her beau, sipping some wine and watch-ing the beautiful streaks of light cross the sky as, piece by piece, the wreckage burned up in the atmosphere during reentry.\n\nR5-S1 locked down the loose stabilizer with his gripper arm as he angled the X-Wing's deflector shields.  This ship took a firm gripper to get under control, but R5-S1 was up to the task.  As his pilot, Veets, fired his last blast from the overheating cannons on the deployed s-foils, R5-S1 did the work of cooling off the guns, spooling up the hyperdrive, and running the calculations for lightspeed.  It was time to go.\n\nSmall ships have a tiny crew, often only a pilot and perhaps an astromech, but often strike above their weight class, a threat to small and large ships alike.",
+  "abilityScoreAdjustments": [
+    {
+      "ability": "dexterity",
+      "modifier": 2
+    },
+    {
+      "ability": "constitution",
+      "modifier": -2
+    }
+  ],
+  "hull": {
+    "diceAtTier0": {
+      "number": 3,
+      "faces": 6
+    },
+    "firstDiePoints": "6 + your ship's Constitution modifier",
+    "subsequentDiePoints": "1d6 (or 4) + your ship's Constitution modifier per Hull Die after 1st"
+  },
+  "shields": {
+    "diceAtTier0": {
+      "number": 3,
+      "faces": 6
+    },
+    "firstDiePoints": "6 + your ship's Strength modifier",
+    "subsequentDiePoints": "1d6 (or 4) + your ship's Strength modifier per Shield Die after 1st"
+  },
+  "modifications": {
+    "maximumSuiteSystems": "-1 + your ship's Constitution modifier",
+    "baseModificationSlots": 20,
+    "stockModifications": "Your choice of two non-suite modifications."
+  },
+  "savingThrows": "Strength, Dexterity",
+  "tierProgression": {
+    "dieName": "Pinpoint Strike Die",
+    "tiers": [
+      {
+        "tier": 0,
+        "features": [
+          "Role"
+        ],
+        "hullAndShieldDice": "3d6",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 1,
+        "features": [
+          "Pinpoint Strike",
+          "Ability Score Increase"
+        ],
+        "die": "d4",
+        "hullAndShieldDice": "4d6",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 2,
+        "features": [
+          "Role Specialization",
+          "Retro Thrusters",
+          "Ability Score Increase"
+        ],
+        "die": "d6",
+        "hullAndShieldDice": "5d6",
+        "armorClassBonus": 1
+      },
+      {
+        "tier": 3,
+        "features": [
+          "Versatile Snubfighter",
+          "Auto-Thrusters",
+          "Ability Score Increase"
+        ],
+        "die": "d8",
+        "hullAndShieldDice": "6d6",
+        "armorClassBonus": 2
+      },
+      {
+        "tier": 4,
+        "features": [
+          "Role Mastery",
+          "Standing By",
+          "Ability Score Increase"
+        ],
+        "die": "d10",
+        "hullAndShieldDice": "7d6",
+        "armorClassBonus": 3
+      },
+      {
+        "tier": 5,
+        "features": [
+          "Paragon Snubfighter",
+          "A Leaf on the Wind",
+          "Ability Score Increase"
+        ],
+        "die": "d12",
+        "hullAndShieldDice": "8d6",
+        "armorClassBonus": 4
+      }
+    ]
+  },
+  "roles": [
+    {
+      "name": "Attack Fighter",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "reactor": "Power Core",
+      "powerCoupling": "Direct",
+      "speed": 350,
+      "turning": 100
+    },
+    {
+      "name": "Bomber",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 450,
+      "turning": 200
+    },
+    {
+      "name": "Scout",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "intelligence",
+          "modifier": 1
+        }
+      ],
+      "armor": "Lightweight",
+      "reactor": "Ionization",
+      "powerCoupling": "Distributed",
+      "speed": 450,
+      "turning": 200
+    },
+    {
+      "name": "Scrambler",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "charisma",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "reactor": "Power Core",
+      "powerCoupling": "Direct",
+      "speed": 400,
+      "turning": 150
+    },
+    {
+      "name": "Shuttle",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Direct",
+      "speed": 350,
+      "turning": 100
+    },
+    {
+      "name": "Superiority Fighter",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        }
+      ],
+      "armor": "Lightweight",
+      "reactor": "Ionization",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 400,
+      "turning": 150
+    }
+  ],
+  "features": [
+    {
+      "name": "Starship Improvements",
+      "description": "Beginning when your ship reaches 1st tier, it gains the following benefits:\n\n#### Ability Score Improvement\nAt first tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Dexterity above 20, or your Dexterity above 22, with this feature.\n\n#### Additional Hull and Shield Dice\nYour ship gains 1 additional Hull Die and one additional Shield Die. It gains 1 additional Hull Die and one additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).\n\n#### ARMOR CLASS IMPROVEMENT\nBeginning at second Tier, your ship's armor class improves, giving your ship a +1 to its AC. It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
+    },
+    {
+      "name": "Pinpoint Strike",
+      "description": "Also at 1st tier, your starship gains the ability to slip underneath the shields of an enemy ship.\n\nWhen your ship occupies the same square occupied by a target ship and the crewmember at the helm makes an attack roll, as a reaction, they can, before rolling the attack, roll a Pinpoint Strike die, which is a d4, and add it to the attack roll.  If the attack requires a saving throw instead, you may subtract the Pinpoint Strike die from the target's save result.  On a hit or a failed save, the attack deals normal damage that bypasses any shields and directly hits the hull of the target ship. This feature can only be used once per round.\n\nYour ship's Pinpoint Strike die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.\n\nThis feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
+    },
+    {
+      "name": "Role Specialization",
+      "description": "At 2nd tier, you adopt a particular style of design for your ship. Choose any one from the following.\n\n#### Attack Fighter\nYour ship gains a +1 bonus to the attack rolls and save DCs of its ship weapons.\n\n#### Bomber\nYour ship gains a +1 bonus to damage rolls with ship weapons.\n\n#### Scout\nYour ship gains a +1 bonus to Wisdom (Scan) and Intelligence (Probe) checks.\n\n#### Scrambler\nYour ship's crew can use interfere as a bonus action.\n\n#### SHUTTLE\nYour ship gains or replaces one suite system of your choice at no cost, but it does count against your maximum suites. Your Starship Size Suite Capacity for this suite is 2.  Your maximum suites is a minimum of 1.\n\n#### Superiority Fighter\nYour ship's flying speed increases by 50 feet."
+    },
+    {
+      "name": "Retro Thrusters",
+      "description": "Also at 2nd tier, when an attacker that a crewmember can see deals damage to your ship with a weapon, they can use their reaction to immediately move the ship up to 50 feet in a direction of their choice, halving the damage your ship takes. The orientation of the ship does not change.\n\nOnce this feature has been used, it can't be used again until the ship recharges."
+    },
+    {
+      "name": "Versatile Snubfighter",
+      "description": "Starting at 3rd tier, when a crewmember makes, with the ship, an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.\n\nThis feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship is refitted."
+    },
+    {
+      "name": "Auto-Thrusters",
+      "description": "Also at 3rd tier, your ship can add half of its Strength\nmodifier (rounded down, minimum of one) to its Dexterity Saving Throws."
+    },
+    {
+      "name": "Role Mastery",
+      "description": "At 4th tier, you master a particular style of design for your ship. Choose any one from the following.\n\n#### Attack Fighter\nYour ship's shield regeneration rate is doubled.\n\n#### Bomber\nStarships one or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.\n\n#### Scout\nYour ship gains a +2 bonus to Intelligence (Astrogation) checks and enemy ships have disadvantage on Wisdom (scan) checks to detect your ship entering and exiting hyperspace.\n\n#### Scrambler\nYour ship gains a +2 bonus to Charisma (Interfere) checks.\n\n#### SHUTTLE\nYour ship gains or replaces one suite system of your choice at no cost, but it does count against your maximum suites. Your Starship Size Suite Capacity for this suite is 2.  Your maximum suites is a minimum of 2.\n\n#### Superiority Fighter\nYour ship's turning speed decreases by 50 feet. If this would decrease your ship's turning speed to 0, instead your ship's flying speed increases by 50 feet."
+    },
+    {
+      "name": "Standing By",
+      "description": "Also at 4th tier, your ship can be pushed beyond its normal limits for a moment. On their turn, a crewmember can take one additional action on top of their regular action and a possible bonus action.\n\nOnce this feature has been used, it can't be used again until the ship recharges."
+    },
+    {
+      "name": "Paragon Snubfighter",
+      "description": "As of 5th tier, your starship is the best in its class. Choose any one from the following:\n\n#### Attack Fighter\nYour ship's Strength score increases by 2.  It's maximum for this score increases by 2.\n\n#### Bomber\nYour ship's Wisdom score increases by 2.  It's maximum for this score increases by 2.\n\n#### Scout\nYour ship's Intelligence score increases by 2.  It's maximum for this score increases by 2.\n\n#### Scrambler\nYour ship's Charisma score increases by 2.  It's maximum for this score increases by 2.\n\n#### Shuttle\nYour ship's Constitution score increases by 2.  It's maximum for this score increases by 2..\n\n#### Superiority Fighter\nYour ship's Dexterity score increases by 2.  It's maximum for this score increases by 2."
+    },
+    {
+      "name": "A Leaf on the Wind",
+      "description": "Also at 5th tier, when a crewmember, makes, with the ship, an ability check, attack roll, or saving throw, the crewmember can use their reaction to treat the amount rolled on the d20 as a 20.\n\nOnce this feature has been used, it can't be used again until the ship recharges."
+    }
+  ]
+}

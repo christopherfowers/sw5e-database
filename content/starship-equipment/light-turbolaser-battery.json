@@ -1,0 +1,25 @@
+{
+  "key": "light-turbolaser-battery",
+  "name": "Light turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4100,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "overheat 16"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 800,
+    "long": 3200
+  }
+}

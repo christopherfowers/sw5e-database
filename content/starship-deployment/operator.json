@@ -1,0 +1,90 @@
+{
+  "key": "operator",
+  "name": "Operator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "role": "Uses ship systems to locate, monitor, interfere with, and disable the enemy",
+  "rankProgression": [
+    {
+      "rank": 1,
+      "features": [
+        "Venture",
+        "Operational Control"
+      ]
+    },
+    {
+      "rank": 2,
+      "features": [
+        "System Disruption",
+        "Improved Interference"
+      ]
+    },
+    {
+      "rank": 3,
+      "features": [
+        "Disrupted Defenses",
+        "Threat Assessment"
+      ]
+    },
+    {
+      "rank": 4,
+      "features": [
+        "Masterful Interference",
+        "Haywire"
+      ]
+    },
+    {
+      "rank": 5,
+      "features": [
+        "Paragon Operator",
+        "Overload Systems"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "Venture",
+      "description": "Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures)."
+    },
+    {
+      "name": "Operational Control",
+      "description": "Also at 1st rank, you learn disruptions that are fueled by special dice called power dice.\n\n#### Disruptions\nYou learn two disruptions of your choice, which are detailed under \"Disruptions\" below. You can use only one disruption per turn, and you can only use each disruption once per round.\n\nYou learn an additional disruption at 2nd, 3rd, 4th, and 5th rank in this deployment. Each time you learn a new disruption, you can also replace one disruption you know with a different one.\n\n#### Power Dice\nA power die is expended when you use it. Your ship must have a power die at the required system in order to use the disruption.\n\nYour ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier.\n\n#### Saving Throws\nSome of your Disruptions require your target to make a saving throw to resist the disruption's effects. The saving throw DC is calculated as follows:\n\n___\n\n**Disruption save DC** = 8 + your proficiency bonus + your ship's Charisma modifier\n\n___"
+    },
+    {
+      "name": "Disruptions",
+      "description": "The collaborations are presented in alphabetical order.\n\n#### Enhance Scopes\n_**Power Die Location:** Sensors_\nAs a bonus action, can expend one power die to increase the ranges of your ship's next primary or secondary weapon attack by 500 feet. If it hits, you add the power die to the attack’s damage roll.\n\n#### Disarming Shot\n_**Power Die Location:** Sensors_\nAs an action, you can expend one power die to attempt to disarm the target. You add the power die to your ship's next attack roll.  On a hit, in addition to the normal damage taken, the target must make a Constitution saving throw. On a failed save, you disable a weapon of the target ship of your choice until the ship recharges.\n\n#### Hacked Communications\n_**Power Die Location:** Comms_\nAs an action, you may expend a power die, and choose any number of ships that you can see within 600 feet of you. Each ship must succeed on a Wisdom saving throw or take ionic damage equal to the number rolled on the die + your ship's Charisma modifier (minimum of one). Additionally, on a failed save, the ship's communication devices are disabled until rebooted.\n\n#### Reactor Vulnerability\n_**Power Die Location:** Comms_\nWhen a friendly ship, including your own, hits a ship with a weapon attack, you can expend a superiority die as a reaction to temporarily destabilize the ship's reactor. Add the number rolled to the damage of the weapon attack and the ship must succeed on a Constitution saving throw or be shocked until the end of its next turn.\n\n#### Remote Sensors\n_**Power Die Location:** Sensors_\nWhenever you make a Wisdom (Scan) or an Intelligence (Probe) check, you can employ the aid of remote sensors by expending a power die, adding the number rolled to the check. You can use this maneuver before or after making the ability check, but before the results of the ability check are determined.\n\n#### Sensor Blast\n_**Power Die Location:** Comms_\nWhen a friendly ship, including your own, hits a target with a weapon attack, you can expend one power die as a reaction to attempt to saturate the target's sensors. You add the power die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than your ship until the end of your next turn.\n\n#### Systems Block\n_**Power Die Location:** Comms_\nWhen a friendly ship, including yuor own, makes an attack roll, you can use your reaction and expend a power die and add it to the attack roll. On a hit, the target’s next attack has disadvantage and it cannot regain shield points until the start of your next turn.\n\n#### Targeted Strike\n_**Power Die Location:** Sensors_\nWhen a friendly ship, including your own, makes an attack against a target, you can use your reaction to expend a power die. You add the power die to the attack roll, and the damage roll if it hits. You can use this maneuver before or after the attack roll, but before the GM determines whether or not the attack hits."
+    },
+    {
+      "name": "System Disturbance",
+      "description": "At 2nd rank, as a bonus action, you can choose a ship that you can see within 1,000 feet and target its systems for disturbance. For the next minute, or until you disturb another target, you have advantage on any Wisdom (Scan) or Intelligence (Probe) check you make to find it.\n\nAdditionally, when the ship makes an ability check, attack roll, or saving throw, you can use your reaction to disturb the ship's functions. Roll a System Disturbance die, which is a d6, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.\n\nYour System Disturbance die changes when you reach certain ranks in this deployment. The die becomes a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank."
+    },
+    {
+      "name": "Improved Interference",
+      "description": "Also at 2nd rank, when you take the Interfere action, you have advantage on the Charisma (Interfere) check. If you already have advantage, you can instead reroll one of the dice once."
+    },
+    {
+      "name": "Disturbed Defenses",
+      "description": "At 3rd rank, the first time the target of your System Disturbance takes damage each round, it takes additional damage equal to your System Disturbance die. The damage is of the same type dealt by the original attack."
+    },
+    {
+      "name": "Threat Assessment",
+      "description": "Also at 3rd rank, as a bonus action, you can learn certain information about the capabilities of the target of your System Disturbance. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to two of the following characteristics of your choice:\n- An ability score\n- Armor Class\n- Current total hull and shield points\n- Total ship tiers (if any)\n- Total deployment ranks (if any)"
+    },
+    {
+      "name": "Masterful Interference",
+      "description": "At 4th rank, when you take the Interfere action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on all ability checks or attack rolls it makes before the start of your next turn, instead of one."
+    },
+    {
+      "name": "Haywire",
+      "description": "Also at 4th rank, when you target a ship with your System Disturbance feature, it must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, while it is the target of your System Disturbance feature, the first time it makes an attack roll or a saving throw each round, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw."
+    },
+    {
+      "name": "Paragon Operator",
+      "description": "As of 5th rank, you are a paragon of your deployment. When you would expend a Power die or a System Disturbance die, you can use a d4 instead of expending a die. You can only use this feature once per round.\n\nAdditionally, you regain all expended uses of your System Disturbance feature when you finish a short or long rest.\n\nLastly, when you would make an Interfere, Scan, or Probe check, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Overload Systems",
+      "description": "Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disturbance. The ship must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, the target's flying speed reduced by half, it's turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it's shields no longer regenerate, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.\n\nThe ship's pilot makes another Constitution saving throw at the end of its turns. On a successful save, the effect ends.\n\nOnce you've use this feature, you must finish a short or long rest before you can use it again."
+    }
+  ]
+}

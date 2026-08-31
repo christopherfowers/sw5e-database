@@ -1,0 +1,9 @@
+{
+  "key": "medbay",
+  "name": "Medbay",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite offers a single room featuring medical equipment and storage for medical supplies.\nWhen this suite is installed it comes stocked with the following items.\n- **Small:** One biobed.\n- **Medium:** Two biobeds.\n- **Large:** 10 biobeds and four bacta tanks.\n- **Huge:** 100 biobeds and 40 bacta tanks.\n- **Gargantuan:** 100 biobeds and 400 bacta tanks.\nFor every two hours spent in a biobed or one hour spent in a bacta tank, a creature’s exhaustion level is reduced by 1, and it can roll a Hit Die to recover hit points without expending the die. After two hours, a creature in a bacta tank is also cured of any poison, disease, or harmful condition (such as blinded, corroded, deafened, paralyzed, poisoned, or weakened).\nThis suite also offers a number of medical stations equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. Medical stations are equipped with an integrated biochemist’s kit and a bioanalysis kit.\nWhile making a check with any of these tools at a medical station, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.\nAdditionally, while crafting at a medical station using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your proficiency bonus to checks you make with them, the market value increases by 10 x your character level."
+}

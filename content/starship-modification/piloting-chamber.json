@@ -1,0 +1,22 @@
+{
+  "key": "piloting-chamber",
+  "name": "Piloting Chamber",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Tiny",
+      "shipSizes": [
+        "tiny"
+      ]
+    },
+    {
+      "kind": "other",
+      "text": "12 Constitution, no Droid Brain modification"
+    }
+  ],
+  "description": "A chamber big enough for a single crewmember is integrated into the ship."
+}

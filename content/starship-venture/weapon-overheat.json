@@ -1,0 +1,13 @@
+{
+  "key": "weapon-overheat",
+  "name": "Weapon Overheat",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "casting",
+      "text": "The ability to cast 2nd level tech powers"
+    }
+  ],
+  "description": "As a bonus action, you may spend three tech points to empower a ship weapon on your ship. For up to an hour, as long as you maintain concentration, you can cool the weapon once per turn without using an action, and as a bonus action on each of your turns you can make one attack with the weapon.\n\\pagebreakNum"
+}

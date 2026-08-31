@@ -1,0 +1,9 @@
+{
+  "key": "hardened-prow",
+  "name": "Hardened Prow",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship has been modified to to be more effective at ramming. When a crewmember takes the Ram action, and the target fails the contested check, the damage dealt is increased by an amount equal to two of your ship's Hull Dice.\nAdditionally, your ship is proficiently equipped for Strength (Ram) checks."
+}

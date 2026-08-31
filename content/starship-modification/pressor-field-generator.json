@@ -1,0 +1,25 @@
+{
+  "key": "pressor-field-generator",
+  "name": "Pressor Field Generator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    },
+    {
+      "kind": "modification",
+      "text": "Tractor Beam",
+      "modificationName": "Tractor Beam"
+    }
+  ],
+  "description": "As an action, a crewmember can unleash a burst of energy from a selected tractor beam of the ship. Each ship in the tractor beam arc and within 150 feet must make a Strength saving throw (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship takes 3d6 kinetic damage and, if it is one size category larger than your ship or smaller, is also pushed back 50 feet. On a successful save, a ship takes half as much damage and isn’t pushed. All objects your ship's size category or smaller within the area of effect are also pushed 50 feet.\nThis feature shares uses with the ship's Tractor Beam, and grants an additional such use."
+}

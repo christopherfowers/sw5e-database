@@ -1,0 +1,15 @@
+{
+  "key": "reckless-ramming",
+  "name": "Reckless Ramming",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in berserker",
+      "className": "berserker",
+      "level": 2
+    }
+  ],
+  "description": "When you take the Ram action, you can throw aside all concern for defense to attack with fierce desperation. The target has disadvantage on the Dexterity (Maneuvering) check, and you deal additional damage equal to your rage damage bonus. The first attack roll made against your ship before the start of your next turn has advantage."
+}

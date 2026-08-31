@@ -1,0 +1,22 @@
+{
+  "key": "discord-missile",
+  "name": "Discord missile",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 850,
+  "description": "On a failed saving throw, the missile deploys pistoeka sabotage or \"buzz\" droids on the target. At the end of each of the target ship's turns, the target ship gains one level of system damage if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution saving throw (DC 15), ending the effect on a success.",
+  "weightInPounds": 85,
+  "weightInPoundsForLargerShips": 170,
+  "range": {
+    "normal": 600,
+    "long": 2400
+  },
+  "properties": [
+    "special"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

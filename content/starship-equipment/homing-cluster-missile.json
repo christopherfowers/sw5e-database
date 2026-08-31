@@ -1,0 +1,35 @@
+{
+  "key": "homing-cluster-missile",
+  "name": "Homing cluster missile",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 150,
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "damageForLargerShips": {
+    "numberOfDice": 6,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "weightInPounds": 15,
+  "weightInPoundsForLargerShips": 30,
+  "range": {
+    "normal": 600,
+    "long": 2400
+  },
+  "properties": [
+    "auto",
+    "burst 6",
+    "explosive",
+    "homing",
+    "rapid 6"
+  ],
+  "firedBy": [
+    "Cluster pod launcher",
+    "Assault cluster pod launcher"
+  ]
+}

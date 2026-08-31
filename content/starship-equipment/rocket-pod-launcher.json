@@ -1,0 +1,16 @@
+{
+  "key": "rocket-pod-launcher",
+  "name": "Rocket pod launcher",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 6000,
+  "weapon": {
+    "mounting": "tertiary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "ammunition",
+    "reload 12"
+  ]
+}

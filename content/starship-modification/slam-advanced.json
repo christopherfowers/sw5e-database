@@ -1,0 +1,16 @@
+{
+  "key": "slam-advanced",
+  "name": "SLAM, Advanced",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "SLAM",
+      "modificationName": "SLAM"
+    }
+  ],
+  "description": "Your ship's SubLight Acceleration Motor (SLAM) has been enhanced, granting more utility.  When a crewmember takes the Fly action, the increase now equals twice your speed, after applying any modifiers. With a speed of 300 feet, for example, your ship can move up to 900 feet on its turn if you Fly. Any increase or decrease to your speed changes this additional Movement by the same amount. If your ship's speed of 300 feet is reduced to 150 feet, for instance, your ship can move up to 450 feet this turn if you Fly.\nThis action still affects your entire ship: any skill check or attack roll made by your ship or anyone on it has disadvantage.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

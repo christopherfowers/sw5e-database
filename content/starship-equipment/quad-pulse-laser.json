@@ -1,0 +1,26 @@
+{
+  "key": "quad-pulse-laser",
+  "name": "Quad pulse laser",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4400,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "overheat 16",
+    "rapid 4"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 400,
+    "long": 1600
+  }
+}

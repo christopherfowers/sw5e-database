@@ -1,0 +1,13 @@
+{
+  "key": "fortress-shield",
+  "name": "Fortress shield",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "shield",
+  "costInCredits": 4650,
+  "description": "Fortress shields offer a higher maximum shield points, but regenerate slower than normal shields.",
+  "shield": {
+    "capacityMultiplier": "x 3/2",
+    "regenerationRateCoefficient": "x 2/3"
+  }
+}

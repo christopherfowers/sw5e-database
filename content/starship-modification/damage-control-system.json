@@ -1,0 +1,9 @@
+{
+  "key": "damage-control-system",
+  "name": "Damage Control System",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "You install a damage control system on your ship.  A crewmember can take the Patch action as a bonus action.  This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting.\nAdditionally, your ship is proficiently equipped for Constitution (Patch) checks."
+}

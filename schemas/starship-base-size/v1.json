@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/starship-base-size/v1.json",
+  "title": "Starship base size",
+  "description": "One of the six size categories a starship is built on. A base size is to a ship what a class is to a character: it fixes the hull and shield dice, the ability score adjustments, the modification budget and the saving throws, then offers a choice of role and a tier-by-tier progression of features. Everything a ship gains from being that size lives here; anything bought and bolted on afterwards is a starship-equipment or starship-modification document instead.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "hull",
+    "shields",
+    "modifications",
+    "tierProgression",
+    "roles"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this size. It is the lower-cased size name, so a saved ship keeps resolving whatever the display name is changed to."
+    },
+    "name": {
+      "enum": ["Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan"],
+      "description": "Display name, which is also the size category as the rules name it. Closed, because the six sizes are the whole of the starship chassis rules and a seventh would be a new game, not new content."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this size was published in, matching a document of the source content type. Every starship document names sotg, because Starships of the Galaxy is the only book that carries starship play."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
+    },
+    "lore": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The vignettes and the paragraph of colour printed before the size's rules. Read by a player choosing a hull, never applied mechanically, so every number stays in the structured fields below."
+    },
+    "abilityScoreAdjustments": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Adjustments applied to the ship's ability scores for being this size, before any role is chosen. Omitted entirely for Medium, which is the baseline the other five are stated relative to and therefore adjusts nothing.",
+      "items": { "$ref": "#/$defs/abilityScoreAdjustment" }
+    },
+    "hull": {
+      "$ref": "#/$defs/hitDicePool",
+      "description": "Hull dice and hull points at tier 0. Hull points are what a ship loses when its shields are down, and the pool grows by the Additional Hull and Shield Dice feature at every tier."
+    },
+    "shields": {
+      "$ref": "#/$defs/hitDicePool",
+      "description": "Shield dice and shield points at tier 0, for a ship that has shields fitted. Stated separately from hull because the two pools use different abilities: hull points add Constitution, shield points add Strength."
+    },
+    "modifications": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["baseModificationSlots"],
+      "description": "The modification budget this size is built with. It is what decides how much of the starship-modification catalogue a ship of this size can ever install.",
+      "properties": {
+        "maximumSuiteSystems": {
+          "type": "string",
+          "minLength": 1,
+          "description": "How many suite modifications the ship can hold, as the printed formula rather than a number, because it depends on the ship's Constitution modifier. Absent on Tiny ships, which are unmanned and hold no suites at all."
+        },
+        "baseModificationSlots": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Modification slots the ship has at tier 0, before any are spent. Larger hulls carry more, from 10 on a Tiny ship to 70 on a Gargantuan one."
+        },
+        "stockModifications": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The modifications a newly built ship of this size comes with, as printed. Left as prose because the larger sizes state it as a count of free choices rather than as named modifications."
+        }
+      }
+    },
+    "savingThrows": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The saving throws the ship is proficiently equipped for, as printed. Prose rather than an enumeration because four of the six sizes offer a choice — \"Wisdom and your choice of Strength or Constitution\" — and one leaves it entirely open."
+    },
+    "tierProgression": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dieName", "tiers"],
+      "description": "The table printed at the head of the size: what the ship gains at each of its six tiers. This is the ship's equivalent of a class table and is what a sheet consults when a ship advances.",
+      "properties": {
+        "dieName": {
+          "type": "string",
+          "minLength": 1,
+          "description": "What the size calls its signature die, which is a different die per size: a Tiny ship rolls a Swarm Tactics die and a Gargantuan one a Superior Firepower die. Carried as the column heading because the table cannot be printed without it."
+        },
+        "tiers": {
+          "type": "array",
+          "minItems": 1,
+          "description": "One row per tier, from 0 upward, in ascending order.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["tier", "features", "hullAndShieldDice", "armorClassBonus"],
+            "properties": {
+              "tier": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 5,
+                "description": "The tier this row describes. Tier 0 is a ship straight out of the yard."
+              },
+              "features": {
+                "type": "array",
+                "minItems": 1,
+                "description": "Names of the features gained at this tier, matching entries in the features array below. A name that appears in this column and nowhere else is a gap in the transcription rather than a feature with no text.",
+                "items": { "type": "string", "minLength": 1 }
+              },
+              "die": {
+                "type": "string",
+                "pattern": "^d(4|6|8|10|12|20)$",
+                "description": "Size of the signature die at this tier. Absent at tier 0, where the feature that rolls it has not been gained yet."
+              },
+              "hullAndShieldDice": {
+                "type": "string",
+                "pattern": "^[0-9]+d(4|6|8|10|12|20)$",
+                "description": "Hull dice, and separately shield dice, the ship has at this tier. One expression covers both because the two pools always advance together."
+              },
+              "armorClassBonus": {
+                "type": "integer",
+                "minimum": 0,
+                "description": "Bonus to armor class from tier alone, cumulative rather than incremental: the value printed in the table, which is what is added to the ship's AC at that tier. Zero for tiers 0 and 1, where the table prints a dash."
+              }
+            }
+          }
+        }
+      }
+    },
+    "roles": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The roles offered at tier 0, of which a ship picks exactly one. A role is the design brief the hull was laid down to: it fixes the starting armor, shields, reactor and power coupling, adjusts two more ability scores, and sets the speed. The same role names recur at 2nd and 4th tier as Role Specialization and Role Mastery, which are features rather than a second choice.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "abilityScoreAdjustments", "armor", "reactor", "powerCoupling"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Role name as printed, such as Blockade Ship or Picket Ship."
+          },
+          "abilityScoreAdjustments": {
+            "type": "array",
+            "minItems": 1,
+            "description": "Adjustments the role applies on top of the size's own, always +1 to one or two abilities.",
+            "items": { "$ref": "#/$defs/abilityScoreAdjustment" }
+          },
+          "armor": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Armour the ship is built with, naming a starship-equipment document of category armor by its leading word: Lightweight, Deflection or Reinforced."
+          },
+          "shields": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Shields the ship is built with, naming a starship-equipment document of category shield the same way. Absent on Tiny, Small and Medium roles, which are launched without shields."
+          },
+          "reactor": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Reactor the ship is built with, naming a starship-equipment document of category reactor: Fuel Cell, Ionization or Power Core."
+          },
+          "powerCoupling": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Power coupling the ship is built with, naming a starship-equipment document of category powerCoupling: Direct, Distributed or Hub & Spoke."
+          },
+          "speed": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Flying speed in feet per round."
+          },
+          "turning": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Turning speed in feet per round, which is what the ship can spend on changing heading rather than on covering ground."
+          }
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The rules text behind every entry in the tier table, in printed order, starting with Starship Improvements. A name can legitimately appear twice: Tiny ships take Role Specialization at both 2nd and 4th tier, and the two blocks say different things.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Feature heading, as it appears in the tier table."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Markdown rules text, addressed to the player who owns the ship. Sub-headings inside it are the per-role variants of the feature."
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "abilityScoreAdjustment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ability", "modifier"],
+      "properties": {
+        "ability": {
+          "enum": [
+            "strength",
+            "dexterity",
+            "constitution",
+            "intelligence",
+            "wisdom",
+            "charisma"
+          ],
+          "description": "Which of the ship's six ability scores is adjusted. A ship uses the same six as a creature: Strength drives its shields, Dexterity its armor class, Constitution its hull."
+        },
+        "modifier": {
+          "type": "integer",
+          "description": "Points added, which is negative as often as it is positive — a Gargantuan hull trades six points of Dexterity for six of Constitution."
+        }
+      }
+    },
+    "hitDicePool": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["diceAtTier0", "firstDiePoints", "subsequentDiePoints"],
+      "properties": {
+        "diceAtTier0": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["number", "faces"],
+          "description": "The pool a ship of this size is launched with, split into its two numbers so a sheet can add tier dice to it without parsing an expression.",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "How many dice: the 11 of 11d20."
+            },
+            "faces": {
+              "type": "integer",
+              "enum": [4, 6, 8, 10, 12, 20],
+              "description": "Faces on each die, which is fixed per size and never changes with tier."
+            }
+          }
+        },
+        "firstDiePoints": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Points from the first die, as printed. Text rather than a number because the ability modifier is part of the value and the modifier is not known until a ship exists."
+        },
+        "subsequentDiePoints": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Points from every die after the first, as printed, giving both the roll and the average a player may take instead."
+        }
+      }
+    }
+  }
+}

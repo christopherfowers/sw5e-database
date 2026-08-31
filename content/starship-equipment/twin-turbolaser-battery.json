@@ -1,0 +1,27 @@
+{
+  "key": "twin-turbolaser-battery",
+  "name": "Twin turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4400,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "constitution 11",
+    "rapid 3",
+    "overheat 12"
+  ],
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 600,
+    "long": 2400
+  }
+}

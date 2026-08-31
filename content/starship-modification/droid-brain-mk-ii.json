@@ -1,0 +1,16 @@
+{
+  "key": "droid-brain-mk-ii",
+  "name": "Droid Brain, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Droid Brain, Mk I",
+      "modificationName": "Droid Brain, Mk I"
+    }
+  ],
+  "description": "You further improve your ship's droid brain. Your droid brain's proficiency bonus increases to 3. Additionally, your ship's droid brain has advantage on initiative rolls."
+}

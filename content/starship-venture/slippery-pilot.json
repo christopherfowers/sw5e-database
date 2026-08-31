@@ -1,0 +1,15 @@
+{
+  "key": "slippery-pilot",
+  "name": "Slippery Pilot",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in operative",
+      "className": "operative",
+      "level": 2
+    }
+  ],
+  "description": "Your quick thinking and agility allow you to act and move your ship quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Conceal, Evade, or Fly action."
+}

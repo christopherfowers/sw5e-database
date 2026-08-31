@@ -1,0 +1,9 @@
+{
+  "key": "warhead-launcher",
+  "name": "Warhead Launcher",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 5,
+  "description": "As an action, a crewmember may generate a nuclear explosion in a 400-foot-radius sphere centered on a point within 1500 feet.  Every ship in that sphere must make a Dexterity saving throw (DC = 8 + ship tier + the ship’s Constitution modifier). On a failed save, a target takes 40d6 fire damage and is shocked until the end of it's next turn from an electromagnetic pulse.  On a success, a ship takes half damage and is not shocked.\nThe explosion spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.\nThis feature can be used once before a ship is refitted.\nThe [Starship Size Modification Cost](#Starship%20Size%20Modification%20Cost) for this modification is Large, regardless of the size of ship it is installed on."
+}

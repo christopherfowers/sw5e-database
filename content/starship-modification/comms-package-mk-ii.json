@@ -1,0 +1,9 @@
+{
+  "key": "comms-package-mk-ii",
+  "name": "Comms Package, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 2,
+  "description": "***Modification Grade** 2*\n***Prerequisite:** Comms Package, Mk I*\nThis modification improves the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships in the same region as you as long as they are similarly equipped.\nAdditionally, when your ship sends out communications, those communications can be encrypted, only understandable by recipients with the cipher. A crewmember can encrypt communications by making an Intelligence (Data) check, setting the decrypt DC. Your ship can also decode encrypted communications within your communications range by spending 1 minute to detect and decode communications. If any communications are intercepted, a crewmember can decrypt the message by using the correct cipher if they know it or by making an Intelligence (Data) check against the decrypt DC of the intercepted message. On a success, they decrypt the message. On a failure, they do not decrypt the encrypted message, and can’t attempt to do so on the same target again for one day.\nFinally, your ship is expertly equipped for Intelligence (Data) checks. If your ship is already proficiently equipped, it is instead has advantage on Intelligence (Data) checks."
+}

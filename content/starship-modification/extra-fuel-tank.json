@@ -1,0 +1,9 @@
+{
+  "key": "extra-fuel-tank",
+  "name": "Extra Fuel Tank",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "This tank adds fuel capacity to your ship equal to half of your ship's normal fuel capacity."
+}

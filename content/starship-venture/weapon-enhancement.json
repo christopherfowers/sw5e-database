@@ -1,0 +1,13 @@
+{
+  "key": "weapon-enhancement",
+  "name": "Weapon Enhancement",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "casting",
+      "text": "The ability to cast 3rd level tech powers"
+    }
+  ],
+  "description": "As an action, you may touch an unenhanced ship weapon on your ship and spend four tech points, making it an enhanced weapon, for up to an hour, as long as you maintain concentration. Additionally, choose one of these damage types: acid, cold, energy, fire, ion, kinetic, or lightning.  The unenhanced ship weapon you touch has a +1 to attack rolls and deals an extra 1d4 damage of the chosen type for the duration."
+}

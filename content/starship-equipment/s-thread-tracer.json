@@ -1,0 +1,22 @@
+{
+  "key": "s-thread-tracer",
+  "name": "S-thread tracer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "ammunition",
+  "costInCredits": 1500,
+  "description": "On a failed saving throw, the missile latches an S-thread tracer onto the target. When making an Intelligence (Probe) check to detect the S-threaded ship's hyperspace travel, its angle of departure can be detected on a roll of 15 instead of 25.",
+  "weightInPounds": 50,
+  "weightInPoundsForLargerShips": 100,
+  "range": {
+    "normal": 1200,
+    "long": 4800
+  },
+  "properties": [
+    "special"
+  ],
+  "firedBy": [
+    "Missile launcher",
+    "Assault missile launcher"
+  ]
+}

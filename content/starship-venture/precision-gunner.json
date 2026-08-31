@@ -1,0 +1,7 @@
+{
+  "key": "precision-gunner",
+  "name": "Precision Gunner",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you make an attack roll with a primary ship\nweapon while on a Large or smaller ship, you can\nuse your Dexterity modifier, instead of the ship's\nWisdom modifier, for the attack rolls."
+}
