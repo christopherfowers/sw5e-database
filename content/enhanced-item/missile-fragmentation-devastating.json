@@ -1,0 +1,11 @@
+{
+  "key": "missile-fragmentation-devastating",
+  "name": "Missile, Fragmentation (Devastating)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack rolls made with this enhanced wrist launcher ammunition, which deals 3d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 24 Dexterity saving throw, taking 6d10 kinetic damage on a failed save or half as much on a successful one."
+}

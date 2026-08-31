@@ -1,0 +1,11 @@
+{
+  "key": "repelling-motherboard-excellent",
+  "name": "Repelling Motherboard (Excellent)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the repelling property, but the DC to interrupt or dispel your powers is equal to 10 + the power's level, or 8 + twice your proficiency bonus + your casting modifier for that power, whichever is greater. Additionally, creatures always have disadvantage on ability checks to dispel or interrupt your powers."
+}

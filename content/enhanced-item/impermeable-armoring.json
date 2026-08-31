@@ -1,0 +1,12 @@
+{
+  "key": "impermeable-armoring",
+  "name": "Impermeable Armoring",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the impermeable property."
+}

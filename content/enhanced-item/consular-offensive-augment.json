@@ -1,0 +1,12 @@
+{
+  "key": "consular-offensive-augment",
+  "name": "Consular Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in consular",
+  "description": "You learn an additional Force-Empowered Casting option."
+}

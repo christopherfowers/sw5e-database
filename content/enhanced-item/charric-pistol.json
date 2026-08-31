@@ -1,0 +1,11 @@
+{
+  "key": "charric-pistol",
+  "name": "Charric Pistol",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "blaster pistol",
+  "description": "You have a +1 bonus to attack and damage rolls with this weapon. Additionally, it has the disarming property, and when a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk's Deflect Missiles or the *saber reflect* force power, they have disadvantage on the reduction roll. Lastly, on a hit, if the target is wearing heavy armor, it deals an additional 1d6 lightning damage.\n\n_The proprietary Charric pistol was the standard issue weapon of all of the soldiers in the Chiss Expansionary Defense Force._"
+}

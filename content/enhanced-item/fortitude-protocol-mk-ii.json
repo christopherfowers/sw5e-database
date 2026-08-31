@@ -1,0 +1,11 @@
+{
+  "key": "fortitude-protocol-mk-ii",
+  "name": "Fortitude Protocol Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "protocol",
+  "description": "_**Requires attunement**_\nWhen you are subjected to an effect that allows you to make a Constitution saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail."
+}

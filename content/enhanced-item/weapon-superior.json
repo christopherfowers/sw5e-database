@@ -1,0 +1,11 @@
+{
+  "key": "weapon-superior",
+  "name": "Weapon (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +3 bonus to attack and damage rolls made with this enhanced weapon."
+}

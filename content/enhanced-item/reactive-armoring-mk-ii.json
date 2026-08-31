@@ -1,0 +1,12 @@
+{
+  "key": "reactive-armoring-mk-ii",
+  "name": "Reactive Armoring Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the reactive 2 property. If it already has the reactive property, its reactive number increases by 2, to a maximum of 3."
+}

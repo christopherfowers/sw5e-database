@@ -1,0 +1,11 @@
+{
+  "key": "maser-core",
+  "name": "Maser Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "When a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk's Deflect Missiles or the *saber reflect* force power, they have disadvantage on the reduction roll."
+}

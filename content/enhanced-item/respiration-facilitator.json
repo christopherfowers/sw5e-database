@@ -1,0 +1,11 @@
+{
+  "key": "respiration-facilitator",
+  "name": "Respiration Facilitator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "neck",
+  "description": "You have advantage on Constitution saving throws against force powers.\n\n_This choker allowed the notorious bounty hunter Cad Bane to bypass normal respiratory function. While worn, it gives your a voice a deeper, digital sound._"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "interfaced-assistance-protocol",
+  "name": "Interfaced Assistance Protocol",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "description": "While you are interfaced via the *tracker droid interface* tech power, whenever your handler has advantage on an ability check or attack roll granted by you taking the Help action, they can reroll one of the dice once."
+}

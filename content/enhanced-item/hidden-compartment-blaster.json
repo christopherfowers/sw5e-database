@@ -1,0 +1,11 @@
+{
+  "key": "hidden-compartment-blaster",
+  "name": "Hidden Compartment Blaster",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "description": "This implant includes a small hidden blaster that is completely shielded and hidden from unenhanced investigation. You cannot use this hidden blaster until it is revealed. As a bonus action, you can reveal this weapon and make a single ranged weapon attack with it. You have proficiency with this weapon for this attack. It deals 1d4 energy damage on a hit, has a range of 20/60, and the light and reload 4 properties.\n\n**Side Effect:** Reloading this weapon takes longer than usual. You can reload and re-conceal this weapon over one hour, which can be done during a short rest. This hidden compartment can only fit the specific blaster with which it is paired.\n\n_This augmentation hides a weapon in its wearer's forearm that is almost completely undetectable by modern sensors._"
+}

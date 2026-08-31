@@ -1,0 +1,11 @@
+{
+  "key": "tsiraki-aged",
+  "name": "Tsiraki (Aged)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "substance",
+  "description": "Tsiraki is a blue-colored alcoholic beverage crafted from fermented salakberries and pickling spices. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that allows them to roll an additional d8 when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 20 Constitution saving throw or experience a low that lasts 4 hours, during which they must roll a d8 and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 20 Wisdom saving throw to resist addiction."
+}

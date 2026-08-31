@@ -1,0 +1,11 @@
+{
+  "key": "intelligence-augment-improved",
+  "name": "Intelligence Augment (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Intelligence score increases by 1, and your maximum for this score increases by 1. One ability score other than Intelligence (chosen by the GM) decreases by 1."
+}

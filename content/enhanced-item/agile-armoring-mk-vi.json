@@ -1,0 +1,12 @@
+{
+  "key": "agile-armoring-mk-vi",
+  "name": "Agile Armoring Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the agile 21 property. If it already has the agile property, its agile number increases to 21."
+}

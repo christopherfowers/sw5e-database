@@ -1,0 +1,11 @@
+{
+  "key": "insulated-pattern-champion",
+  "name": "Insulated Pattern (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the insulated 10 armor property. If it already has the insulated armor property, its insulated number increases to 10."
+}

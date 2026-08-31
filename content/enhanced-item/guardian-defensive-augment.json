@@ -1,0 +1,12 @@
+{
+  "key": "guardian-defensive-augment",
+  "name": "Guardian Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in guardian",
+  "description": "You learn an additional Guardian Aura option, and the radius of your Guardian Auras increases by 5 feet."
+}

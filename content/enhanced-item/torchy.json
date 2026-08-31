@@ -1,0 +1,11 @@
+{
+  "key": "torchy",
+  "name": "Torchy",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "blaster pistol",
+  "description": "You gain a +1 bonus to attack and damage rolls with this enhanced weapon, and when you hit a creature with a ranged weapon attack using this weapon, the creature takes an extra 1d4 energy damage for each size category larger than you it is (up to 3d4 extra damage).\n\n_Torchy is a BlasTech ALT-25 blaster pistol owned by the mercenary Corso Riggs during the Galactic Cold War._"
+}

@@ -41,6 +41,16 @@ public sealed class SeedContentTests
     /// </summary>
     private static readonly Dictionary<string, int> ExpectedDocumentCounts = new()
     {
+        // Imported wholesale from the legacy archive rather than authored, so
+        // these are the archive's own totals less the records it holds as
+        // empty shells: the Player's Handbook preface, and three starship
+        // tables whose captions survived the scrape and whose numbers did not.
+        // Each is named in ArchiveConformanceTests.KnownCorruptItems.
+        ["enhanced-item"] = 1918,
+        ["weapon-property"] = 46,
+        ["armor-property"] = 30,
+        ["rule"] = 75,
+        ["reference-table"] = 30,
         ["species"] = 141,
         ["background"] = 61,
         ["feat"] = 118,
@@ -78,7 +88,22 @@ public sealed class SeedContentTests
         ["content/species/kalleran.json"] = 3,
         ["content/species/kiffar.json"] = 1,
         ["content/species/massassi.json"] = 2,
-        ["content/species/theelin.json"] = 2
+        ["content/species/theelin.json"] = 2,
+
+        // The rules corpus. Twenty-three characters across five chapters, in
+        // the same two shapes as the entries above: a lost character before a
+        // space, ambiguous between an em dash and an ellipsis and reading
+        // naturally as either, and the accented letters in the Expanded
+        // Content species chapter's name tables. Every other replacement
+        // character in these four archive files — 393 of the 416 — is
+        // repaired on import, most of them by the rule that recognises a
+        // character standing alone in a markdown table cell as the em dash
+        // those tables use for "none".
+        ["content/rule/ec-archetypes.json"] = 1,
+        ["content/rule/ec-backgrounds.json"] = 9,
+        ["content/rule/ec-species.json"] = 8,
+        ["content/rule/phb-equipment.json"] = 1,
+        ["content/rule/wh-step-by-step-factions.json"] = 4
     };
 
     /// <summary>

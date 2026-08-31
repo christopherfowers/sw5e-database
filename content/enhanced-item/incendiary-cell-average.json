@@ -1,0 +1,11 @@
+{
+  "key": "incendiary-cell-average",
+  "name": "Incendiary Cell (Average)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +1 bonus to attack and damage rolls made with this enhanced incendiary cell. This bonus is in addition to any bonuses granted by the weapon. Once the incendiary cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 16 Dexterity saving throw. On a failed save, the creature takes 1d8 fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+}

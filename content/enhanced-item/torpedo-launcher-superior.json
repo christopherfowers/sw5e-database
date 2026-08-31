@@ -1,0 +1,11 @@
+{
+  "key": "torpedo-launcher-superior",
+  "name": "Torpedo Launcher (Superior)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "weapon",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "torpedo launcher",
+  "description": "You have a +3 bonus to attack rolls made with this enhanced weapon. Additionally, the damage of torpedoes fired by this weapon increases by three steps (from d4 to d10, d6 to d12, or d8 to d20). If this would increase the damage die above a d20, instead add an additional five dice to the torpedo's damage for each step above a d20."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "remote-detonator-champion",
+  "name": "Remote Detonator (Champion)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "description": "A small handhold device with a single button, used to activate explosives. Over the course of 1 minute, you can pair the detonator with up to 12 mines within 10 feet. As an action, you can remotely detonate all of the paired mines. You must be within 1,000 feet of the mines to detonate them."
+}

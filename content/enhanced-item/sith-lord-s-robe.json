@@ -1,0 +1,11 @@
+{
+  "key": "sith-lord-s-robe",
+  "name": "Sith Lord's Robe",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nYou gain a +3 bonus to damage rolls with weapons and force powers while you wear this robe.\n\n_Designed for those who relish personal combat, and know that power comes to those who take it, these robes masterfully augment offensive capabilities with no hindrance to movement._"
+}

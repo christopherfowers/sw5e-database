@@ -1,0 +1,12 @@
+{
+  "key": "sentinel-defensive-augment",
+  "name": "Sentinel Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in sentinel",
+  "description": "You gain an additional manifestation use of your Sentinel Ideals."
+}

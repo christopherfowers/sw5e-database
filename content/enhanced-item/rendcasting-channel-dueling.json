@@ -1,0 +1,11 @@
+{
+  "key": "rendcasting-channel-dueling",
+  "name": "Rendcasting Channel (Dueling)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "While using this item as your focus, you gain a +2 bonus to the force save DC of powers that require a Dexterity or Intelligence saving throw."
+}

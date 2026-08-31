@@ -1,0 +1,11 @@
+{
+  "key": "shield-superior",
+  "name": "Shield (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +3 bonus to AC while wielding this shield."
+}

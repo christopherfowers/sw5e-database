@@ -1,0 +1,11 @@
+{
+  "key": "bansche-advanced-2zbc",
+  "name": "Bansche Advanced 2ZBc",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you spend tech points and deal damage with a tech power cast through this wristpad, you deal additional damage equal to the number of tech points spent."
+}

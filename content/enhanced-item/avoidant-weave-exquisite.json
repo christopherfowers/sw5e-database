@@ -1,0 +1,11 @@
+{
+  "key": "avoidant-weave-exquisite",
+  "name": "Avoidant Weave (Exquisite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the avoidant 3 armor property. If it already has the avoidant armor property, its avoidant number increases to 3."
+}

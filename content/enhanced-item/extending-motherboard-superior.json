@@ -1,0 +1,11 @@
+{
+  "key": "extending-motherboard-superior",
+  "name": "Extending Motherboard (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the extending 20 property. If it already has the extending property, its extending number increases by 20, to a maximum of 30."
+}

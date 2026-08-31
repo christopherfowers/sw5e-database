@@ -1,0 +1,11 @@
+{
+  "key": "xerrol-nightstinger-rifle",
+  "name": "Xerrol Nightstinger Rifle",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "nightstinger rifle",
+  "description": "You have a +1 bonus to damage rolls with this enhanced weapon. Additionally, when you make the Dexterity (Stealth) check to remain hidden as a part of the weapon's silent property, you have advantage on the check.\n\n_This nightstinger rifle has the unique property of shooting invisible rounds._"
+}

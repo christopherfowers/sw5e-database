@@ -1,0 +1,11 @@
+{
+  "key": "clandestine-stitching-superior",
+  "name": "Clandestine Stitching (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This article of clothing come with four hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 24 Investigation check."
+}

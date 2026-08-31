@@ -1,0 +1,11 @@
+{
+  "key": "contoured-grip-improved",
+  "name": "Contoured Grip (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "You gain a +2 bonus to attack rolls made with this weapon."
+}

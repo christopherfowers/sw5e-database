@@ -1,0 +1,11 @@
+{
+  "key": "quantum-splitter-mk-ii",
+  "name": "Quantum Splitter Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "When you deal damage with this weapon, you can roll a d6 and add the result to the total."
+}

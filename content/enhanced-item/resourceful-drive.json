@@ -1,0 +1,12 @@
+{
+  "key": "resourceful-drive",
+  "name": "Resourceful Drive",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Class III droid",
+  "description": "Your speed increases by 5 feet, and you gain proficiency in one blaster or vibroweapon of your choice."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "cortosis-weave",
+  "name": "Cortosis Weave",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield gains the absorptive 1 property. If it already has the absorptive property, its absorptive property increases by 1, to a maximum of 3. Additionally, when taking energy damage from a lightweapon, this armor or shield's absorptive number is doubled, to a maximum of 6."
+}

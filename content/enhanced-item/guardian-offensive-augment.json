@@ -1,0 +1,12 @@
+{
+  "key": "guardian-offensive-augment",
+  "name": "Guardian Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in guardian",
+  "description": "The damage die for your Focused Strike die and Improved Force-Empowered Strikes features increases by one step (from d8 to d10, or d10 to d12)."
+}

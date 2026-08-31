@@ -1,0 +1,12 @@
+{
+  "key": "artificially-intelligent",
+  "name": "Artificially Intelligent",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "You install an artificial intelligence into this armor. While wearing this armor, when you make an ability check, this armor's artificial intelligence can take the Help action.\n\nYou can use this feature twice. You regain all expended uses when you complete a short or long rest."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "constitution-augment-champion",
+  "name": "Constitution Augment (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Constitution score increases by 2, and your maximum for this score increases by 2."
+}

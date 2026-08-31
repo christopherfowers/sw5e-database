@@ -1,0 +1,12 @@
+{
+  "key": "vambraces-of-the-outrider",
+  "name": "Vambraces of the Outrider",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "forearms",
+  "prerequisite": "At least 3 levels in scout",
+  "description": "This item can hold a number of charges equal to half your scout level (rounded up). When you complete a long rest, this item regains all missing charges. When you cast a tech power of 1st level or higher, you can expend one or more charges to reduce the tech power's cost by 1 per charge spent, to a minimum of 1.\n\nWhen you reach 5th level in scout, you can maintain two targets of your Ranger's Quarry feature, instead of one. Additionally, the reload value of the wrist launcher increases by 1, to 2.\n\nWhen you reach 11th level in scout, when you are forced to make a concentration check by the target of your Ranger's Quarry, you have advantage on the check and add your Intelligence modifier to the roll. Additionally, the reload value of the wrist launcher increases by 1, to 3.\n\nWhen you reach 17th level in scout, when you miss with a tech or weapon attack, the target takes damage equal to the attack's governing ability modifier. If the target of the attack is the target of your Ranger's Quarry feature, you can choose to deal your Ranger's Quarry damage as well. Additionally, the reload value of the wrist launcher increases by 1, to 4.\n\n_This pair of matching vambraces are inlaid with the etched visage of an eagle. One contains an integrated wristpad, while the other contains an integrated wrist launcher._"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "versatile-frame-champion",
+  "name": "Versatile Frame (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "prerequisite": "Lacks double or two-handed property",
+  "description": "This weapon gains the versatile (2d6) property. If it already has the versatile property, the versatile damage increases by three steps (from 2d4 to 2d6, d10 to 3d4, from d12 to 3d4, or from 2d6 to 3d4)."
+}

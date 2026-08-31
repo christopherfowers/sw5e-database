@@ -1,0 +1,12 @@
+{
+  "key": "charisma-enhancement-basic",
+  "name": "Charisma Enhancement (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Charisma 11",
+  "description": "Your Charisma score increases by 1, to a maximum of 20.\n\n**Side Effect:** One ability score other than Charisma (chosen by the GM) decreases by 1."
+}

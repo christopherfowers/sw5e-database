@@ -1,0 +1,11 @@
+{
+  "key": "inlay-rangefinder-apprentice",
+  "name": "Inlay Rangefinder (Apprentice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +1 bonus to ranged force attacks."
+}

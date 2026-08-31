@@ -1,0 +1,11 @@
+{
+  "key": "bonded-weave-choice",
+  "name": "Bonded Weave (Choice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain a +3 bonus to AC against melee attacks while wearing this clothing."
+}

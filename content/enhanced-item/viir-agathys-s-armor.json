@@ -1,0 +1,11 @@
+{
+  "key": "viir-agathys-s-armor",
+  "name": "Viir Agathys's Armor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "This armor has 3 charges. As an action, you can spend 1 or more charges to cast the *voltaic shielding* tech power, 1 charge per level. All expended charges are regained after you complete a long rest.\n\n_This proprietary armor made by the renowned engineer Viir Agathys includes integrated access to his signature tech power._"
+}

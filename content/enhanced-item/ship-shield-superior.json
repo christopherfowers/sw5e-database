@@ -1,0 +1,11 @@
+{
+  "key": "ship-shield-superior",
+  "name": "Ship Shield (Superior)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "shipShield",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "Your ship has a +3 bonus to Strength, Dexterity, and Constitution saving throws while this shield is installed."
+}

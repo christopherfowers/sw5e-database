@@ -1,0 +1,11 @@
+{
+  "key": "amplifying-processor-fighting",
+  "name": "Amplifying Processor (Fighting)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the amplifying 1 property. If it already has the amplifying property, its amplifying number increases by 1, to a maximum of 3."
+}

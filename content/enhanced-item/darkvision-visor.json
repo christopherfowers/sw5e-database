@@ -1,0 +1,12 @@
+{
+  "key": "darkvision-visor",
+  "name": "Darkvision Visor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "While wearing this armor, you have darkvision to a range of 60 feet. If you already have darkvision, this modification increases its range by 30 feet."
+}

@@ -1,0 +1,8 @@
+{
+  "key": "saving-throw-checks",
+  "name": "Saving Throw Checks",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "ruleType": "variant",
+  "body": "Also published in the Unearthed Arcana: Variant Rules was a rule for your players to roll when they use powers or abilities that call for a save DC. Instead of the GM making saving throws against the players' static save DCs, the players roll a saving throw check against the GM's defense save DC.\n\n### Calculating Saving Throw Check\nIf players have their save throw DCs calculated, simply subtract 8 from that value. If your consular's force save DC is 15, your saving throw check modifier is +7.\n\n### Calculating Defense Save DC\nMonster cards also include potential saving throws, which can easily be converted to a defense save DC. Take the appropriate ability score modifier and add 14 to it. If the monster is proficient in the saving throw (indicated in the *saving throw* line on the monster card, if it exists), instead use that value. For instance, if a B1 battle droid is forced to make a Dexterity saving throw, its defense save DC would be 16 (14+2).\n\n### Making the Roll\nInstead of the GM rolling saving throws for the monsters, players make saving throw checks by rolling a d20 and adding their saving throw check modifier. If the roll meets or exceeds the defense save DC, the creature fails the saving throw. If a character fails the the saving throw check, the creature successfully saves.\n\nIf the defender would normally have advantage on the saving roll, you instead apply disadvantage to the saving throw check, and vice versa if the defender would have disadvantage."
+}

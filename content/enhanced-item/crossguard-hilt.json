@@ -1,0 +1,11 @@
+{
+  "key": "crossguard-hilt",
+  "name": "Crossguard Hilt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the defensive 1 property. If it already has the defensive property, its defensive number increases by 1, to a maximum of 3."
+}

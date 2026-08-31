@@ -1,0 +1,11 @@
+{
+  "key": "silver-tongued-pattern-exquisite",
+  "name": "Silver-Tongued Pattern (Exquisite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain grand mastery in Deception."
+}

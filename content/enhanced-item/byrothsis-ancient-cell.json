@@ -1,0 +1,11 @@
+{
+  "key": "byrothsis-ancient-cell",
+  "name": "Byrothsis Ancient Cell",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When this weapon is levitated by the Force to deal damage through a class feature or force power you use, it deals additional damage equal to two of its weapon damage dice."
+}

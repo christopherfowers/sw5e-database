@@ -1,0 +1,11 @@
+{
+  "key": "electrifying-collimator-deadly",
+  "name": "Electrifying Collimator (Deadly)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +3 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, for the duration, the weapon gains the shocking 16 property. If it already has the shocking property, its shocking number increases by 4, to a maximum of 18. Lastly, if the weapon is not enhanced, it becomes enhanced for the duration."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "gns-strength-enhancer",
+  "name": "GNS Strength Enhancer",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile wearing this belt, your Strength score becomes 25. If your Strength is already equal to or greater than 25, it has no effect on you.\n\n_This large belt greatly increases a users physical power with an array of repulsorfield microgenerators and a pair of reactive-lift actuators that increase raw force and lift-capacity without any loss of speed or fine motor skills._"
+}

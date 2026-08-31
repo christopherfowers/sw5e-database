@@ -1,0 +1,12 @@
+{
+  "key": "operative-offensive-augment",
+  "name": "Operative Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in operative",
+  "description": "Your Sneak Attack damage die increases by one step (from d6 to a d8, d8 to d10, or d10 to d12)."
+}

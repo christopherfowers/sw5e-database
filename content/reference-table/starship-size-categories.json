@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-categories",
+  "name": "Starship Size Categories",
+  "contentSet": "core",
+  "body": "|Size|Space|\n|:--|:--|\n|Tiny|Up to 25 ft.|\n|Small|25 to 50 ft.|\n|Medium|50 to 250 ft.|\n|Large|250 to 2,500 ft.|\n|Huge|2,500 to 10,000 ft.|\n|Gargantuan|10,000 ft. or larger|",
+  "subject": "Starships"
+}

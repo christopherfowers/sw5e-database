@@ -1,0 +1,11 @@
+{
+  "key": "mag-lock-boots",
+  "name": "Mag-lock Boots",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "feet",
+  "description": "While you wear these boots, you can activate or deactivate heir mag-locks as a bonus action. While the mag locks are engaged, you move at half speed, can walk on any solid metallic surface, ignore difficult terrain caused by metallic debris, and ignore the effects of gravity (or the lack thereof), allowing you to walk up vertical surfaces or even upside-down.\n\nThe battery in these boots lasts for a total of 1 hour and recharges at the end of a long rest."
+}

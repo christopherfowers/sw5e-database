@@ -1,0 +1,11 @@
+{
+  "key": "bolas-improved",
+  "name": "Bolas (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "bolas",
+  "description": "A Large or smaller creature hit by a bolas is restrained until it is freed. A bolas has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 15 Dexterity check, freeing itself or another creature within its reach on a success. The bolas has an AC of 12, 15 hit points, immunity to all damage not dealt by melee weapons, and resistance to damage dealt by unenhanced melee weapons. Destroying the bolas frees the creature without harming it and immediately ends the bolas's effects. While a creature is restrained by a bolas, you can make no further attacks with it.\n\nDue to their unwieldy nature, bolas make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage."
+}

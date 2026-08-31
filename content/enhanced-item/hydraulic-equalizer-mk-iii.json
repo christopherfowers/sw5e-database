@@ -1,0 +1,11 @@
+{
+  "key": "hydraulic-equalizer-mk-iii",
+  "name": "Hydraulic Equalizer Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield's strength number is reduced by three steps (from 21 to 15, 19 to 13, or 17 to 11). If the strength number is 15 or lower, this modification removes the strength property from it entirely."
+}

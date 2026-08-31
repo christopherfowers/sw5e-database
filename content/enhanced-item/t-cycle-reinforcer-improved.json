@@ -1,0 +1,11 @@
+{
+  "key": "t-cycle-reinforcer-improved",
+  "name": "T-Cycle Reinforcer (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power that pushes or pulls a creature, you can increase the distance pushed or pulled by 10 feet."
+}

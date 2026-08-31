@@ -1,0 +1,11 @@
+{
+  "key": "intelligence-stim-basic",
+  "name": "Intelligence Stim (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "stimpac",
+  "description": "As an action, you can administer this stimpac to a creature within 5 feet. When you administer this stimpac, the target's Intelligence score increases by 2, to a maximum of 20. This effect lasts for 1 hour. A creature can benefit from only one stimpac at a time."
+}

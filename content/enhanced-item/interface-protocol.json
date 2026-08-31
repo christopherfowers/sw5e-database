@@ -1,0 +1,11 @@
+{
+  "key": "interface-protocol",
+  "name": "Interface Protocol",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "description": "You become a valid target for the *tracker droid interface* tech power."
+}

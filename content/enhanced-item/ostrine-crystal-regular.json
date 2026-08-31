@@ -1,0 +1,11 @@
+{
+  "key": "ostrine-crystal-regular",
+  "name": "Ostrine Crystal (Regular)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When you deal damage with this weapon, you deal an additional 1d4 force, lightning, necrotic, poison, psychic, or sonic damage (chosen by the GM when generating this item)."
+}

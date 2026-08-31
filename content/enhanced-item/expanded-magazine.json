@@ -1,0 +1,11 @@
+{
+  "key": "expanded-magazine",
+  "name": "Expanded Magazine",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "Once on each of your turns, you can reload this weapon once without using an action. You can't use this feature again until you reload the weapon with an action."
+}

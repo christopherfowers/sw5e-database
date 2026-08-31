@@ -1,0 +1,12 @@
+{
+  "key": "finesse-oscillator",
+  "name": "Finesse Oscillator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "prerequisite": "Lacks dexterity, two-handed, or versatile property",
+  "description": "This weapon gains the finesse property."
+}

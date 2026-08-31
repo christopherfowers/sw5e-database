@@ -1,0 +1,8 @@
+{
+  "key": "careful-checks",
+  "name": "Careful Checks",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "ruleType": "variant",
+  "body": "When you spend at least 10 minutes performing an activity that requires an ability check, that check has consequences for failure, and you don't have disadvantage on the check, you can choose to make that check carefully, colloquially called \"taking 10\". If you do so, you treat the check as if you had rolled a 10 on the d20. For instance, if you are crafting an item, during resolution you make an Intelligence check with the appropriate tools to determine your d100 Roll Modifier. Instead of rolling the d20, you can make a careful check and take 10, treating the check as if you'd rolled a 10, adding your Intelligence modifier and proficiency bonus, if you are proficient with the tools.\n\nIf you would have advantage on the check, you can instead take 15."
+}

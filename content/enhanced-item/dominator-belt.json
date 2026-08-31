@@ -1,0 +1,11 @@
+{
+  "key": "dominator-belt",
+  "name": "Dominator Belt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile wearing this belt, your Strength score becomes 29. If your Strength is already equal to or greater than 29, it has no effect on you.\n\n_While only barely adhering to the most technical definition of a belt, this harness-like rig of pneumaticized limb actuators supplies enormous strength to every limb of its wearer's body, monstrously increasing their physical power._"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "fading-motherboard-fighting",
+  "name": "Fading Motherboard (Fighting)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the fading 1 property. If it already has the fading property, its fading number increases by 1, to a maximum of 3."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "keen-oscillator-deadly",
+  "name": "Keen Oscillator (Deadly)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the keen 2 property. If it already has the keen property, its keen number increases by 2, to a maximum of 3."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "aratech-echo-belt",
+  "name": "Aratech Echo Belt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile you wear this belt with its field on, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the belt funnels light around you. Activating or deactivating the belt takes an action.\n\n_The success of this high-end stealth field generator emboldened Aratech to branch out into other hardware._"
+}

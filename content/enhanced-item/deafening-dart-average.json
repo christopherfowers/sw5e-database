@@ -1,0 +1,11 @@
+{
+  "key": "deafening-dart-average",
+  "name": "Deafening Dart (Average)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +1 bonus to attack and damage rolls made with this wrist launcher dart, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the dart has been fired, it no longer gives a bonus. Also on a hit, the creature must make a DC 16 Constitution saving throw, taking 1d4 sonic damage on a failed save.\n\nAdditionally, on a failed save, a creature is deafened for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
+}

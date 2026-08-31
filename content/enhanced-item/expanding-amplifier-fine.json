@@ -1,0 +1,11 @@
+{
+  "key": "expanding-amplifier-fine",
+  "name": "Expanding Amplifier (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the expanding 10 property. If it already has the expanding property, its expanding number increases by 10, to a maximum of 30."
+}

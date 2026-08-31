@@ -1,0 +1,11 @@
+{
+  "key": "constitution-stim-fine",
+  "name": "Constitution Stim (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "stimpac",
+  "description": "As an action, you can administer this stimpac to a creature within 5 feet. When you administer this stimpac, the target's Constitution score increases by 2, and its maximum for this score increases by 2. This effect lasts for 1 hour. A creature can benefit from only one stimpac at a time."
+}

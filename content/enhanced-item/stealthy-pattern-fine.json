@@ -1,0 +1,11 @@
+{
+  "key": "stealthy-pattern-fine",
+  "name": "Stealthy Pattern (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Stealth increases by two steps (to proficient, from trained to expertise, from proficient to mastery, from expertise to high mastery, or from mastery to grand mastery)."
+}

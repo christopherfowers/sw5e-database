@@ -1,0 +1,11 @@
+{
+  "key": "forged-ferricite-mastery-channel",
+  "name": "Forged Ferricite Mastery Channel",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power of 1st-level or higher that deals damage, you can increase the damage by one and a half times (rounded down) the number of force points spent."
+}

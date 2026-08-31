@@ -1,0 +1,12 @@
+{
+  "key": "versatile-frame-superior",
+  "name": "Versatile Frame (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "prerequisite": "Lacks double or two-handed property",
+  "description": "This weapon gains the versatile (1d12) property. If it already has the versatile property, the versatile damage increases by two steps (from 2d4 to d12, d10 to 2d6, from d12 to 3d4, or from 2d6 to 3d4)."
+}

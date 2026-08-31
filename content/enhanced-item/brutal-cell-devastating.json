@@ -1,0 +1,11 @@
+{
+  "key": "brutal-cell-devastating",
+  "name": "Brutal Cell (Devastating)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the brutal 3 property. If it already has the brutal property, its brutal number increases to 3."
+}

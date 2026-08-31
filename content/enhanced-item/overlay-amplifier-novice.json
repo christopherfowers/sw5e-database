@@ -1,0 +1,11 @@
+{
+  "key": "overlay-amplifier-novice",
+  "name": "Overlay Amplifier (Novice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +1 bonus to melee force attacks and a -1 penalty to ranged force attacks."
+}

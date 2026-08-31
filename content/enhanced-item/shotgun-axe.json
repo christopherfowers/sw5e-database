@@ -1,0 +1,11 @@
+{
+  "key": "shotgun-axe",
+  "name": "Shotgun Axe",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "shotgun",
+  "description": "You have a +1 to damage rolls made with this shotgun. Additionally, this shotgun has an axe attachment, allowing you to make a melee weapon attack with it. The axe is a melee weapon that you are proficient with, and deals 1d8 kinetic damage.\n\nAdditionally, when you use this shotgun as an improvised weapon, you are considered proficient in it, and it deals 1d8 kinetic damage on a hit.\n\n_\"Oh you want clever? Come a little closer, I'll get real clever.\"_"
+}

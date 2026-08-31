@@ -1,0 +1,11 @@
+{
+  "key": "adapted-armor",
+  "name": "Adapted Armor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nYou have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.\n\n| d10 | Damage Type |\n|:---:|:------------|\n|  1  | Acid        |\n|  2  | Cold        |\n|  3  | Fire        |\n|  4  | Force       |\n|  5  | Ion         |\n\n| d10 | Damage Type |\n|:---:|:------------|\n|  6  | Lightning   |\n|  7  | Necrotic    |\n|  8  | Poison      |\n|  9  | Psychic     |\n|  10 | Sonic       |\n\n_Those foolhardy enough to not treat a hostile planet as worthy a foe as the ones carrying blasters don't often live long enough to boast about it._"
+}

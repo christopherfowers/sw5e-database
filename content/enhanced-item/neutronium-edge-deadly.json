@@ -1,0 +1,11 @@
+{
+  "key": "neutronium-edge-deadly",
+  "name": "Neutronium Edge (Deadly)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "You gain a +3 bonus to damage rolls made with this weapon."
+}

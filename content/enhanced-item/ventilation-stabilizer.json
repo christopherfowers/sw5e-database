@@ -1,0 +1,11 @@
+{
+  "key": "ventilation-stabilizer",
+  "name": "Ventilation Stabilizer",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When you take the Attack action and hit a creature with this weapon, you can repeat the attack against another creature within 5 feet, no action required. Once you've used this feature, you must complete a short or long rest before you can use it again."
+}

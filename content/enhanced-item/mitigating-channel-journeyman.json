@@ -1,0 +1,11 @@
+{
+  "key": "mitigating-channel-journeyman",
+  "name": "Mitigating Channel (Journeyman)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the mitigating 3 property. If it already has the mitigating property, its mitigating number increases by 3, to a maximum of 6."
+}

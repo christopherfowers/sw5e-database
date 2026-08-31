@@ -1,0 +1,12 @@
+{
+  "key": "burst-core-champion",
+  "name": "Burst Core (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "Blaster that uses cells or cartridges",
+  "description": "This weapon gains the burst property, with a burst number equal to one-fourth its reload number (rounded up), to a minimum of 2. If it already has the burst property, the burst number is reduced to one-eighth its reload number (rounded up), to a minimum of 2."
+}

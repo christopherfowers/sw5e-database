@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-maximum-suites",
+  "name": "Starship Size Maximum Suites",
+  "contentSet": "core",
+  "body": "| Starship Size | Maximum Suites |\n|:----:|:----:|\n| Tiny  | — |\n| Small  | -1 + con. mod. |\n| Medium  | 3 + con. mod. |\n| Large  | 3 + 2x con. mod. |\n| Huge | 6 + 3x con. mod. |\n| Gargantuan | 10 + 4x con. mod. |",
+  "subject": "Starships"
+}

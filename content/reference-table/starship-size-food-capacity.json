@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-food-capacity",
+  "name": "Starship Size Food Capacity",
+  "contentSet": "core",
+  "body": "|Starship Size|Food Capacity|\n|:--|--:|\n|Tiny| -|\n|Small| 10 portions|\n|Medium| 120 portions|\n|Large| 240,000 portions|\n|Huge| 9,600,000 portions|\n|Gargantuan| 576,000,000 portions|",
+  "subject": "Starships"
+}

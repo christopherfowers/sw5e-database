@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-chassis-legendary",
+  "name": "Handwraps Chassis (Legendary)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "hands",
+  "description": "_**Requires attunement**_\nThese modifiable handwraps chassis comes with vacant modification slots for vibroweapon modifications, as well as two augment slots. They can house modifications of legendary rarity or lower."
+}

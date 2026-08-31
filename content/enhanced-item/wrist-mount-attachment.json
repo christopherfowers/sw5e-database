@@ -1,0 +1,11 @@
+{
+  "key": "wrist-mount-attachment",
+  "name": "Wrist Mount Attachment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon gains the fixed property."
+}

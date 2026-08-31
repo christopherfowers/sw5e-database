@@ -1,0 +1,11 @@
+{
+  "key": "bolstering-channel-apprentice",
+  "name": "Bolstering Channel (Apprentice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the bolstering 4 property. If it already has the bolstering property, its bolstering number increases by 4, to a maximum of 12."
+}

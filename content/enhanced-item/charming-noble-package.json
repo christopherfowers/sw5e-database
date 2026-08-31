@@ -1,0 +1,12 @@
+{
+  "key": "charming-noble-package",
+  "name": "Charming Noble Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Charisma 15",
+  "description": "Your Charisma score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Charisma saving throws.\n\n**Side Effect:** One ability score (other than Charisma) that is chosen by the DM when this augmentation is installed decreases by 1.\n\n_This implant drastically increases your force of personality._"
+}

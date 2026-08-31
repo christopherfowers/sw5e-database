@@ -1,0 +1,11 @@
+{
+  "key": "lightweight-weave",
+  "name": "Lightweight Weave",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the lightweight armor property."
+}

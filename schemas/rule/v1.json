@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/rule/v1.json",
+  "title": "Rule",
+  "description": "A passage of rules prose: either a numbered chapter of one of the source books, or one of the optional variant rules the Expanded Content supplement offers a table. This is the one content type in the corpus that is not a catalogue row. It has no stat block, no cost and no numbers to sort on, and the reader's task is to find a passage and read it rather than to compare entries — which is why the field that matters most is the body, and why the fields that would drive a filter bar barely exist.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "ruleType", "body"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this passage. Chapter keys are prefixed with the book's key, because seven chapter names are reused across books — the Player's Handbook, Wretched Hives and Expanded Content each print a chapter called \"Equipment\" — and an unqualified slug would collide. Variant rules have names unique across the corpus and take an unprefixed slug."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The chapter or variant rule's title, as printed."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the book this passage is printed in, matching a document of the source content type. The archive records no source on any rule record; the value here comes from which archived file the record was in, which is unambiguous because each file is one book. Variant rules are attributed to ec, the supplement whose Variant Rules chapter prints them."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this passage belongs to the core rules or to the community expanded-content supplement."
+    },
+    "ruleType": {
+      "enum": ["chapter", "variant"],
+      "description": "Which kind of passage this is, and with it how it should be read. A chapter is part of a book and is read in sequence, so it carries a chapterNumber and belongs in a table of contents. A variant is an optional module a group switches on or off; the forty of them are a menu to browse rather than a sequence to read, and none has a position in a book."
+    },
+    "chapterNumber": {
+      "type": "integer",
+      "description": "Position of the chapter within its book, as the archive records it. Not a positive index: the Player's Handbook numbers its preface -2 and its \"What's Different\" section -1, and both books put their changelog at 99 so it sorts last. Two Wretched Hives chapters share the number 1, so this orders a table of contents but does not identify a chapter. Absent on variant rules, which have no position."
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The passage itself, as markdown: headings, paragraphs, lists and pipe tables. This is the largest field in the corpus — the Expanded Content archetypes chapter is close to half a megabyte — because a chapter is reproduced whole rather than split into per-heading documents. Splitting it would need a heading hierarchy the scrape did not reliably preserve, and would break the reader's ability to search one page for a rule they only half remember."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "key": "balanced-shielding",
+  "name": "Balanced Shielding",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "_**Prerequiste:** Shield_\nThis shield loses the imbalanced property."
+}

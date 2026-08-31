@@ -1,0 +1,11 @@
+{
+  "key": "vibroweapon-chassis-standard",
+  "name": "Vibroweapon Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "any vibroweapon",
+  "description": "_**Requires attunement**_\nThis modifiable vibroweapon chassis comes with vacant modification slots for vibroweapon modifications. It can house modifications of standard rarity."
+}

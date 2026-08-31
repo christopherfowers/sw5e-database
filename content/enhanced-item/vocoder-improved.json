@@ -1,0 +1,11 @@
+{
+  "key": "vocoder-improved",
+  "name": "Vocoder (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "A vocoder is an adjustment to a droid's speech center. The vocoder includes 20 languages, and grants the droid the ability to speak, read, and write each language. The languages can be changed out while interfaced with a protocol droid or appropriate computer."
+}

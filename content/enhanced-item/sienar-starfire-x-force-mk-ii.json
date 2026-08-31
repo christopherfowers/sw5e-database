@@ -1,0 +1,11 @@
+{
+  "key": "sienar-starfire-x-force-mk-ii",
+  "name": "Sienar Starfire X-Force Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you spend tech points to cast a tech power that restores hit points to a creature, the creature gains a number of temporary hit points equal to twice the number of tech points spent."
+}

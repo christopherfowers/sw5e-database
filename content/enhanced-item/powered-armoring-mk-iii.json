@@ -1,0 +1,12 @@
+{
+  "key": "powered-armoring-mk-iii",
+  "name": "Powered Armoring Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the powered 15 property. If it already has the powered property, its powered number increases by three steps (from 11 to 17, 13 to 19, or 15 to 21)."
+}

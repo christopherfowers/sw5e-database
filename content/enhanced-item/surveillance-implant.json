@@ -1,0 +1,11 @@
+{
+  "key": "surveillance-implant",
+  "name": "Surveillance Implant",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces your face.\n\nThis implant includes a headcomm with a scrambler that automatically encodes messages sent to a specified recipient commlink or receiver.\n\n**Side Effect:** You can not use portable personal devices used for communication or jamming, such as a commlink or holotrace device, due to interference with this implant.\n\n_This augmentation appears as a crescent around one eye paired with two small dots above the eyebrow._"
+}

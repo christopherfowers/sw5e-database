@@ -1,0 +1,11 @@
+{
+  "key": "missile-ion-average",
+  "name": "Missile, Ion (Average)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +1 bonus to attack rolls made with this enhanced wrist launcher ammunition, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 16 Dexterity saving throw, taking 2d6 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+}

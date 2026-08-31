@@ -1,0 +1,11 @@
+{
+  "key": "stabilizer-supremacy-cell",
+  "name": "Stabilizer Supremacy Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon's dexterity number is reduced by five steps (from 21 to 11). If the dexterity number is 19 or lower, this modification removes the dexterity property from it entirely."
+}

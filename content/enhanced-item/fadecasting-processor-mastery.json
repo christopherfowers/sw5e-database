@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-processor-mastery",
+  "name": "Fadecasting Processor (Mastery)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "While using this item as your focus, you gain a +3 bonus to the tech save DC of powers that require a Strength or Constitution saving throw."
+}

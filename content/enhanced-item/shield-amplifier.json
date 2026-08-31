@@ -1,0 +1,12 @@
+{
+  "key": "shield-amplifier",
+  "name": "Shield Amplifier",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Shield generator",
+  "description": "You modify this shield generator to project outward. As a bonus action you can amplify this shield until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to this shield's bonus.\n\nYou can use this feature twice. You regain all expended uses when you complete a short or long rest."
+}

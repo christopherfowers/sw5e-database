@@ -1,0 +1,11 @@
+{
+  "key": "insulated-reinforcement-superior",
+  "name": "Insulated Reinforcement (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield gains the insulated 8 property. If it already has the insulated property, its insulated number increases by 4, to a maximum of 10."
+}

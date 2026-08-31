@@ -1,0 +1,12 @@
+{
+  "key": "horizontal-exojets",
+  "name": "Horizontal Exojets",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "Whenever you take the Dodge or Dash actions, your walking speed increases by 10 feet until the end of your turn."
+}

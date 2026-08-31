@@ -1,0 +1,11 @@
+{
+  "key": "enlarging-processor-excellent",
+  "name": "Enlarging Processor (Excellent)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the enlarging 20 property. If it already has the enlarging property, its enlarging number increases by 20, to a maximum of 30."
+}

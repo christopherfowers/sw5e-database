@@ -1,0 +1,11 @@
+{
+  "key": "absorbing-amplifier-mk-ii",
+  "name": "Absorbing Amplifier Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the absorbing 4 property. If it already has the absorbing property, its absorbing number increases by 4, to a maximum of 12."
+}

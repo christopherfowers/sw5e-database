@@ -1,0 +1,12 @@
+{
+  "key": "scout-defensive-augment",
+  "name": "Scout Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in scout",
+  "description": "You learn an additional Scout Routine option, and the radius of your Scout Routines increases by 5 feet."
+}

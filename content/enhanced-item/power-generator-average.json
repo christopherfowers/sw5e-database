@@ -1,0 +1,11 @@
+{
+  "key": "power-generator-average",
+  "name": "Power Generator (Average)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +1 bonus to attack and damage rolls made with this enhanced power generator. This bonus is in addition to any bonuses granted by the weapon. Once the power generator is depleted, it no longer gives a bonus."
+}

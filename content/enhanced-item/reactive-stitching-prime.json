@@ -1,0 +1,11 @@
+{
+  "key": "reactive-stitching-prime",
+  "name": "Reactive Stitching (Prime)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the reactive 3 armor property. If it already has the reactive armor property, its reactive number increases to 3."
+}

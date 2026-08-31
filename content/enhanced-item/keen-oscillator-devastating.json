@@ -1,0 +1,11 @@
+{
+  "key": "keen-oscillator-devastating",
+  "name": "Keen Oscillator (Devastating)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the keen 3 property. If it already has the keen property, its keen number increases to 3."
+}

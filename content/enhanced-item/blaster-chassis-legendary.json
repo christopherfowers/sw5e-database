@@ -1,0 +1,11 @@
+{
+  "key": "blaster-chassis-legendary",
+  "name": "Blaster Chassis (Legendary)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "any blaster",
+  "description": "_**Requires attunement**_\nThis modifiable blaster chassis comes with vacant modification slots for blaster modifications, as well as two augment slots. It can house modifications of legendary rarity or lower."
+}

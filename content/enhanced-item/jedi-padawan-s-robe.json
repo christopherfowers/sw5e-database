@@ -1,0 +1,11 @@
+{
+  "key": "jedi-padawan-s-robe",
+  "name": "Jedi Padawan's Robe",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nYou gain a +1 bonus to AC while you wear this robe.\n\n_Members of the Jedi Order typically wear plain or unassuming garments, offering only a minor boost to defenses._"
+}

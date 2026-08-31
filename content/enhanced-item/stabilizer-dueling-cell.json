@@ -1,0 +1,11 @@
+{
+  "key": "stabilizer-dueling-cell",
+  "name": "Stabilizer Dueling Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon's dexterity number is reduced by three steps (from 21 to 15, 19 to 13, or 17 to 11). If the dexterity number is 15 or lower, this modification removes the dexterity property from it entirely."
+}

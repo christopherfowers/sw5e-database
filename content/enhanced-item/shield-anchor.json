@@ -1,0 +1,12 @@
+{
+  "key": "shield-anchor",
+  "name": "Shield Anchor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Physical shield",
+  "description": "This shield gains the anchor property."
+}

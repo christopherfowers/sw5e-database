@@ -1,0 +1,12 @@
+{
+  "key": "semiauto-core",
+  "name": "Semiauto Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "Auto property",
+  "description": "This weapon loses the auto property."
+}

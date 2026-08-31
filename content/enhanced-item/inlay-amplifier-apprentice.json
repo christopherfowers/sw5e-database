@@ -1,0 +1,11 @@
+{
+  "key": "inlay-amplifier-apprentice",
+  "name": "Inlay Amplifier (Apprentice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +1 bonus to melee force attacks."
+}

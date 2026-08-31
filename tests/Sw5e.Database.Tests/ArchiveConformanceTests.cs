@@ -59,7 +59,25 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
         ("class", "Class", 10),
         ("class-improvement/class", "ClassImprovement", 10),
         ("class-improvement/multiclass", "MulticlassImprovement", 10),
-        ("class-improvement/splashclass", "SplashclassImprovement", 10)
+        ("class-improvement/splashclass", "SplashclassImprovement", 10),
+
+        // The enhanced items and the two glossaries that define what an
+        // equipment row means when it prints "burst 2" or "strength 13".
+        ("enhanced-item", "EnhancedItem", 1918),
+        ("weapon-property", "WeaponProperty", 46),
+        ("armor-property", "ArmorProperty", 30),
+
+        // The rules prose. Four more mapping keys that are not content types,
+        // for the same reason the class improvements need them: every rules
+        // record in the archive has a contentSource of "None", so the file is
+        // the only thing that says which book printed the chapter — or that it
+        // is not a chapter at all but one of the optional variant rules.
+        ("rule/phb", "playerHandbookRule", 16),
+        ("rule/wh", "wretchedHivesRule", 10),
+        ("rule/ec", "ExpandedContent", 10),
+        ("rule/variant", "VariantRule", 40),
+
+        ("reference-table", "ReferenceTable", 33)
     ];
 
     public static TheoryData<string> MappingKeys
@@ -84,7 +102,13 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
     /// asserted to still fail: if one is repaired upstream, this list goes
     /// stale loudly instead of silently.
     /// </summary>
-    private static readonly Dictionary<(string ContentType, string Name), string> KnownCorruptItems = new()
+    /// <remarks>
+    /// Keyed by mapping key rather than content type, because four mapping keys
+    /// feed the <c>rule</c> type and only one of them holds the empty record.
+    /// Keying by type would have the other three expect a corrupt item they do
+    /// not have.
+    /// </remarks>
+    private static readonly Dictionary<(string MappingKey, string Name), string> KnownCorruptItems = new()
     {
         [("monster", "B'omarr Brain Walker")] =
             "challengeRating holds the literal string \"CR\" — the scrape captured the column " +
@@ -93,7 +117,24 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
         [("species", "Trandoshan")] =
             "Its only image URL ends in \"species_trandoshan (2).png\": the space and parentheses " +
             "were never percent-encoded, so the value is not a valid URI. Re-encode it, or rename " +
-            "the blob, during the repair stage."
+            "the blob, during the repair stage.",
+
+        [("rule/phb", "Preface")] =
+            "The Player's Handbook preface is a title with an empty body: the scrape captured the " +
+            "chapter heading and none of the text under it. There is nothing to publish, so the " +
+            "importer does not write a document for it.",
+
+        [("reference-table", "Starship Size Cargo Capacity")] =
+            "The caption survived the scrape and the table under it did not, so the record holds " +
+            "an empty body. The numbers are unrecoverable from the archive.",
+
+        [("reference-table", "Starship Size Equipment Cost")] =
+            "The caption survived the scrape and the table under it did not, so the record holds " +
+            "an empty body. The numbers are unrecoverable from the archive.",
+
+        [("reference-table", "Starship Size Equipment Workforce")] =
+            "The caption survived the scrape and the table under it did not, so the record holds " +
+            "an empty body. The numbers are unrecoverable from the archive."
     };
 
     [Theory]
@@ -120,7 +161,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 
         foreach (var item in items)
         {
-            var name = LegacyArchive.Text(item, "name") ?? "(unnamed)";
+            var name = DisplayName(item);
             JsonObject mapped;
 
             try
@@ -141,7 +182,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
                 continue;
             }
 
-            if (KnownCorruptItems.ContainsKey((contentType, name)))
+            if (KnownCorruptItems.ContainsKey((mappingKey, name)))
             {
                 continue;
             }
@@ -151,7 +192,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 
         unexpectedFailures.Count.ShouldBe(0, Describe(contentType, unexpectedFailures));
 
-        var knownCorrupt = KnownCorruptItems.Count(entry => entry.Key.ContentType == contentType);
+        var knownCorrupt = KnownCorruptItems.Count(entry => entry.Key.MappingKey == mappingKey);
 
         validated.ShouldBe(expectedCount - knownCorrupt);
         output.WriteLine($"{validated} of {expectedCount} {contentType} items validated against schemas/{contentType}/v1.json.");
@@ -170,16 +211,17 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
 
         var validator = new SchemaValidator(new SchemaRepository(LegacyArchive.SchemaRoot));
 
-        foreach (var ((contentType, name), reason) in KnownCorruptItems)
+        foreach (var ((mappingKey, name), reason) in KnownCorruptItems)
         {
-            var legacyFile = Corpus.Single(entry => entry.MappingKey == contentType).LegacyFile;
+            var legacyFile = Corpus.Single(entry => entry.MappingKey == mappingKey).LegacyFile;
+            var contentType = LegacyContentMapper.SchemaType(mappingKey);
 
             var item = LegacyArchive.Read(archive, legacyFile)
-                .SingleOrDefault(candidate => LegacyArchive.Text(candidate, "name") == name);
+                .SingleOrDefault(candidate => DisplayName(candidate) == name);
 
-            item.ShouldNotBeNull($"'{name}' is no longer in the {contentType} archive; drop it from KnownCorruptItems.");
+            item.ShouldNotBeNull($"'{name}' is no longer in the {mappingKey} archive; drop it from KnownCorruptItems.");
 
-            var result = validator.Validate(contentType, 1, LegacyContentMapper.Map(contentType, item));
+            var result = validator.Validate(contentType, 1, LegacyContentMapper.Map(mappingKey, item));
 
             result.IsValid.ShouldBeFalse(
                 $"'{name}' now validates, so it has been repaired upstream. " +
@@ -197,6 +239,14 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
             discovered.ShouldContain(LegacyContentMapper.SchemaType(mappingKey));
         }
     }
+
+    /// <summary>
+    /// The display name of a record, whichever field the archive keeps it in.
+    /// Rule records call it <c>chapterName</c>; everything else calls it
+    /// <c>name</c>.
+    /// </summary>
+    private static string DisplayName(JsonObject item) =>
+        LegacyArchive.Text(item, "name") ?? LegacyArchive.Text(item, "chapterName") ?? "(unnamed)";
 
     private static string Describe(string contentType, IReadOnlyList<string> failures)
     {

@@ -1,0 +1,11 @@
+{
+  "key": "throwing-weapon-guard-champion",
+  "name": "Throwing Weapon Guard (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains thrown (60/180) property. If it already has the thrown property, the range increases by 30/90."
+}

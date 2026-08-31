@@ -1,0 +1,11 @@
+{
+  "key": "hydraulic-equalizer-mk-vi",
+  "name": "Hydraulic Equalizer Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield loses the strength property."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-champion",
+  "name": "Handwraps (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "hands",
+  "description": "While wearing these handwraps, you have a +3 bonus to attack rolls and deal an additional 1d10 damage with your unarmed strikes."
+}

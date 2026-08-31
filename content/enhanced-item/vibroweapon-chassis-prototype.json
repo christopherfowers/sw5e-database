@@ -1,0 +1,11 @@
+{
+  "key": "vibroweapon-chassis-prototype",
+  "name": "Vibroweapon Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any vibroweapon",
+  "description": "_**Requires attunement**_\nThis modifiable vibroweapon chassis comes with vacant modification slots for vibroweapon modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

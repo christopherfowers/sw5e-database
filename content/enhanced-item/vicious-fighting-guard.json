@@ -1,0 +1,11 @@
+{
+  "key": "vicious-fighting-guard",
+  "name": "Vicious Fighting Guard",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the vicious 1 property. If it already has the vicious property, its vicious number increases by 1, to a maximum of 3."
+}

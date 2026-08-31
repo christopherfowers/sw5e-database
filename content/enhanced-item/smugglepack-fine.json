@@ -1,0 +1,11 @@
+{
+  "key": "smugglepack-fine",
+  "name": "Smugglepack (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "back",
+  "description": "This backpack comes with a main compartment that stores 14 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 6 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 18 Investigation check."
+}

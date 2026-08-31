@@ -1,0 +1,11 @@
+{
+  "key": "oscillating-rangefinder-mk-i",
+  "name": "Oscillating Rangefinder Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +1 bonus to ranged tech attacks and a -1 penalty to melee tech attacks."
+}

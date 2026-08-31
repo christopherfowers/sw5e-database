@@ -1,0 +1,11 @@
+{
+  "key": "venomous-oscillator",
+  "name": "Venomous Oscillator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "As a bonus action, you can coat this weapon in a thin layer of poison for 1 minute. The next time you hit with the weapon, the creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 1d10 poison damage and becomes poisoned for 1 minute.\n\nOnce you've used this feature, you must complete a long rest before you can use it again."
+}

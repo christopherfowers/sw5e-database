@@ -1,0 +1,11 @@
+{
+  "key": "corruption-crystal-ancient",
+  "name": "Corruption Crystal (Ancient)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the corruption 18 property. If it already has the corruption property, its corruption number increases to 18."
+}

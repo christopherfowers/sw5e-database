@@ -1,0 +1,11 @@
+{
+  "key": "muon-gold-uncut",
+  "name": "Muon Gold (Uncut)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "substance",
+  "description": "Muon gold is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that increases their current and maximum tech points by 2d6. At the end of the high, the creature must succeed on a DC 18 Wisdom saving throw or experience a low that lasts 1 hour, their current and maximum tech points are reduced by 2d6. At the end of the low, the creature must make a DC 18 Constitution saving throw to resist addiction."
+}

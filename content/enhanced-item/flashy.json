@@ -1,0 +1,11 @@
+{
+  "key": "flashy",
+  "name": "Flashy",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "heavy pistol",
+  "description": "The first time you hit a creature with a ranged weapon attack from this weapon each round, the creature takes an additional 1d4 damage from the attack.\n\n_Flashy is an SSK heavy pistol owned by the mercenary Corso Riggs during the Galactic Cold War._"
+}

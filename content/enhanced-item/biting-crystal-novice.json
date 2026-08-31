@@ -1,0 +1,11 @@
+{
+  "key": "biting-crystal-novice",
+  "name": "Biting Crystal (Novice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the biting 13 property. If it already has the biting property, its biting number increases by 1, to a maximum of 18."
+}

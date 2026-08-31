@@ -1,0 +1,11 @@
+{
+  "key": "insulated-pattern-superior",
+  "name": "Insulated Pattern (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the insulated 8 armor property. If it already has the insulated armor property, its insulated number increases by 4, to a maximum of 3."
+}

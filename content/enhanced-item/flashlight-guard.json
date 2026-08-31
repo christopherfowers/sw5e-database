@@ -1,0 +1,11 @@
+{
+  "key": "flashlight-guard",
+  "name": "Flashlight Guard",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "You affix a targeted light to this weapon. As a bonus action, you can toggle the light on or off. While on, this weapon sheds bright light in a 60-foot cone."
+}

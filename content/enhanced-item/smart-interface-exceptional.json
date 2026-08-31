@@ -1,0 +1,11 @@
+{
+  "key": "smart-interface-exceptional",
+  "name": "Smart Interface (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon gains the smart (19, +5) property. If it already has the smart property, its smart numbers increase by +5 and +4, respectively, to a maximum of 20 and +6."
+}

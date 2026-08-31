@@ -1,0 +1,11 @@
+{
+  "key": "flightsuit",
+  "name": "Flightsuit",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "body",
+  "description": "While you are wearing no armor, this clothing has the impermeable 2 (space suit, diving suit) property."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "weapon-improved",
+  "name": "Weapon (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +2 bonus to attack and damage rolls made with this enhanced weapon."
+}

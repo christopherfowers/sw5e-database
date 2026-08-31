@@ -1,0 +1,11 @@
+{
+  "key": "disintegration-core",
+  "name": "Disintegration Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon gains the disintegrate 13 property. If it already has the disintegrate property, its disintegrate number increases by 1, to a maximum of 18."
+}

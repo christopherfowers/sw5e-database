@@ -1,0 +1,11 @@
+{
+  "key": "rocket-boots-champion",
+  "name": "Rocket Boots (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "feet",
+  "description": "Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 50 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell."
+}

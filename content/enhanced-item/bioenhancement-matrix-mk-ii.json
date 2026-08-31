@@ -1,0 +1,11 @@
+{
+  "key": "bioenhancement-matrix-mk-ii",
+  "name": "Bioenhancement Matrix Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "Your hit point maximum increases by an amount equal to twice your level, and it increases by 2 every time you gain a level."
+}

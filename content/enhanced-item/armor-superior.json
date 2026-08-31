@@ -1,0 +1,11 @@
+{
+  "key": "armor-superior",
+  "name": "Armor (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +3 bonus to AC while wearing this armor."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "obscured-stitching",
+  "name": "Obscured Stitching",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the obscured armor property."
+}
