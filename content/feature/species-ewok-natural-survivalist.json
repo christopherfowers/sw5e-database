@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-natural-survivalist",
+  "name": "Natural Survivalist",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "You have proficiency in Nature and Survival.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-harch-spider-climb",
+  "name": "Spider Climb",
+  "grantedBy": "species",
+  "grantedByName": "Harch",
+  "description": "You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing, and while climbing you always have two hands free.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

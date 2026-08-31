@@ -1,0 +1,9 @@
+{
+  "key": "species-kalleran-flexible",
+  "name": "Flexible",
+  "grantedBy": "species",
+  "grantedByName": "Kalleran",
+  "description": "You have advantage on Dexterity (Acrobatics) checks that involve flexibility.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

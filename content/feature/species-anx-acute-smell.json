@@ -1,0 +1,9 @@
+{
+  "key": "species-anx-acute-smell",
+  "name": "Acute Smell",
+  "grantedBy": "species",
+  "grantedByName": "Anx",
+  "description": "Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise in the Perception skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

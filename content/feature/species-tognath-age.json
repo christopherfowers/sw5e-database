@@ -1,0 +1,9 @@
+{
+  "key": "species-tognath-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Tognath",
+  "description": "Tognath reach adulthood by 10 and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

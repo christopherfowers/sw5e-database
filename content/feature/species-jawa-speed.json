@@ -1,0 +1,9 @@
+{
+  "key": "species-jawa-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Jawa",
+  "description": "Your base walking speed is 25 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

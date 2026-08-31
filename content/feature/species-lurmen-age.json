@@ -1,0 +1,9 @@
+{
+  "key": "species-lurmen-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Lurmen",
+  "description": "Lurmen reach adulthood in their late teens and live less than 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

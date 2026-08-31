@@ -1,0 +1,9 @@
+{
+  "key": "species-quarren-amphibious",
+  "name": "Amphibious",
+  "grantedBy": "species",
+  "grantedByName": "Quarren",
+  "description": "You can breathe air and water.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

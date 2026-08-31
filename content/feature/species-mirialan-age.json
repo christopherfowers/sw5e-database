@@ -1,0 +1,9 @@
+{
+  "key": "species-mirialan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Mirialan",
+  "description": "Mirialan reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-esh-kha-inquisitive",
+  "name": "Inquisitive",
+  "grantedBy": "species",
+  "grantedByName": "Esh-Kha",
+  "description": "You have proficiency in the Investigation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

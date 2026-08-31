@@ -1,0 +1,9 @@
+{
+  "key": "species-felucian-stealthy",
+  "name": "Stealthy",
+  "grantedBy": "species",
+  "grantedByName": "Felucian",
+  "description": "You are proficient in the Stealth skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

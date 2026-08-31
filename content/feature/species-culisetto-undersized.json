@@ -1,0 +1,9 @@
+{
+  "key": "species-culisetto-undersized",
+  "name": "Undersized",
+  "grantedBy": "species",
+  "grantedByName": "Culisetto",
+  "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

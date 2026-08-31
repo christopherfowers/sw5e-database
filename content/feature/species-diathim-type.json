@@ -1,0 +1,9 @@
+{
+  "key": "species-diathim-type",
+  "name": "Type",
+  "grantedBy": "species",
+  "grantedByName": "Diathim",
+  "description": "Your creature type is both aberration and humanoid.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

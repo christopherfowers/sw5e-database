@@ -1,0 +1,9 @@
+{
+  "key": "species-quarren-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Quarren",
+  "description": "You can speak, read, and write Galactic Basic and Quarrenese. The Quarrenese language is characterized by its garbled nature that evokes an image of speaking underwater.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

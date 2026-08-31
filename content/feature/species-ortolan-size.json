@@ -1,0 +1,9 @@
+{
+  "key": "species-ortolan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Ortolan",
+  "description": "Ortolans stand around 3 to 4 feet tall and weigh about 55 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

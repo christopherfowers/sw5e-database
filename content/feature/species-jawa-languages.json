@@ -1,0 +1,9 @@
+{
+  "key": "species-jawa-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Jawa",
+  "description": "You can speak, read, and write Jawaese (and the Jawa Trade Language). You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Jawaese blends quickly spoken, semi-meaningless syllables with scents to be understood. To more easily bargain and trade with other species, they rely on a simplified variant called the Jawa Trade language which removes the use of scent.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

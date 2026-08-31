@@ -1,0 +1,9 @@
+{
+  "key": "species-mirialan-unarmed-combatant",
+  "name": "Unarmed Combatant",
+  "grantedBy": "species",
+  "grantedByName": "Mirialan",
+  "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

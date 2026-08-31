@@ -1,0 +1,9 @@
+{
+  "key": "species-ithorian-sonic-resistance",
+  "name": "Sonic Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Ithorian",
+  "description": "Ithorians have resistance to sonic damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

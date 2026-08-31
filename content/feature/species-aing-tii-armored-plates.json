@@ -1,0 +1,9 @@
+{
+  "key": "species-aing-tii-armored-plates",
+  "name": "Armored Plates",
+  "grantedBy": "species",
+  "grantedByName": "Aing-Tii",
+  "description": "You have thick armored plates. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

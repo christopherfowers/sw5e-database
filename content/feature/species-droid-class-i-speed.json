@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-i-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class I",
+  "description": "Your base walking speed is 25 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

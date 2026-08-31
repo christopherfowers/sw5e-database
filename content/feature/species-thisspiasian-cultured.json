@@ -1,0 +1,9 @@
+{
+  "key": "species-thisspiasian-cultured",
+  "name": "Cultured",
+  "grantedBy": "species",
+  "grantedByName": "Thisspiasian",
+  "description": "You have proficiency in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

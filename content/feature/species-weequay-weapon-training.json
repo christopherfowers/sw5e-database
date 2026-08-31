@@ -1,0 +1,9 @@
+{
+  "key": "species-weequay-weapon-training",
+  "name": "Weapon Training",
+  "grantedBy": "species",
+  "grantedByName": "Weequay",
+  "description": "You have proficiency in two vibroweapons or blasters of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

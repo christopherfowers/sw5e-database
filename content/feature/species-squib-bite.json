@@ -1,0 +1,9 @@
+{
+  "key": "species-squib-bite",
+  "name": "Bite",
+  "grantedBy": "species",
+  "grantedByName": "Squib",
+  "description": "Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

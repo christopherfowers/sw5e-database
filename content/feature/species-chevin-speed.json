@@ -1,0 +1,9 @@
+{
+  "key": "species-chevin-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Chevin",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

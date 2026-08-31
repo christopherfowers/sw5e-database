@@ -1,0 +1,9 @@
+{
+  "key": "species-weequay-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Weequay",
+  "description": "Your Constitution score increases by 2, and your Wisdom or Charisma score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

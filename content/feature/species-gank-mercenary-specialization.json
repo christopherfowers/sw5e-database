@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-mercenary-specialization",
+  "name": "Mercenary Specialization",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "You have proficiency in one of the following skills: Intimidation, Persuasion, Stealth, or Perception.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

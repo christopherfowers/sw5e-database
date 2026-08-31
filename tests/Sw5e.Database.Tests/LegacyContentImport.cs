@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Nodes;
@@ -68,18 +69,19 @@ public static class LegacyContentImport
         ["class", "class-improvement", "archetype", "feature"];
 
     /// <summary>
-    /// Which feature grants this import is responsible for.
+    /// Which feature grants this import is responsible for: all of them.
     /// </summary>
     /// <remarks>
-    /// The archive's feature file also holds 1,593 species features. They are
-    /// the same shape and the same content type, but every one of them names a
-    /// species in <c>grantedByName</c>, and the seed set's cross-reference
-    /// guard requires that name to resolve to a species document. They
-    /// therefore belong with the species import, not this one: bringing them in
-    /// here would either break that guard or force it to be weakened, and a
-    /// guard that tolerates dangling references is not a guard.
+    /// A third of this corpus — 1,593 of 2,682 features — is granted by a
+    /// species rather than by a class or an archetype. They were held back
+    /// while <c>content/species</c> was a fourteen-item sample, because every
+    /// one of them names its species in <c>grantedByName</c> and the seed set's
+    /// cross-reference guard requires that name to resolve; importing them then
+    /// would have meant either a red build or a weakened guard, and a guard
+    /// that tolerates dangling references is not a guard. All 141 species are
+    /// now published, so they resolve and they are imported.
     /// </remarks>
-    private static readonly string[] FeatureGrantKinds = ["Class", "Archetype"];
+    private static readonly string[] FeatureGrantKinds = ["Class", "Archetype", "Species"];
 
     /// <summary>
     /// Every document this import produces, ordered by content type and then by
@@ -143,8 +145,8 @@ public static class LegacyContentImport
     /// of those pairs are identical and the choice does not matter; the other
     /// eight differ, and in all eight the later timestamp is the text the
     /// parent archetype's own page prints, so the newest row wins and the older
-    /// revision is dropped. That takes 2,723 rows to 2,682, of which 1,089
-    /// belong to a class or an archetype.
+    /// revision is dropped. That takes 2,723 rows to 2,682: 218 granted by a
+    /// class, 871 by an archetype and 1,593 by a species.
     /// </remarks>
     private static IEnumerable<JsonObject> Features(string archivePath) =>
         LegacyArchive.Read(archivePath, "Feature")
@@ -157,6 +159,27 @@ public static class LegacyContentImport
             .Select(group => group
                 .OrderByDescending(record => LegacyArchive.Text(record, "timestamp"), StringComparer.Ordinal)
                 .First());
+
+    /// <summary>
+    /// The published species documents, read from <c>content/species</c>.
+    /// </summary>
+    private static IEnumerable<JsonObject> PublishedSpecies()
+    {
+        var directory = Path.Combine(LegacyArchive.RepositoryRoot, "content", "species");
+
+        if (!Directory.Exists(directory))
+        {
+            yield break;
+        }
+
+        foreach (var file in Directory.EnumerateFiles(directory, "*.json").Order(StringComparer.Ordinal))
+        {
+            if (JsonNode.Parse(File.ReadAllText(file, Encoding.UTF8)) is JsonObject document)
+            {
+                yield return document;
+            }
+        }
+    }
 
     /// <summary>
     /// Gives every feature the provenance of whatever grants it.
@@ -190,6 +213,17 @@ public static class LegacyContentImport
                 document => (document.ContentType, LegacyArchive.Text(document.Document, "name")!),
                 document => (Source: LegacyArchive.Text(document.Document, "sourceKey")!,
                              Set: LegacyArchive.Text(document.Document, "contentSet")!));
+
+        // Species are somebody else's import. Their provenance is read from
+        // the published documents rather than re-derived from the archive,
+        // because those documents are the authority on what this repository
+        // says a species is — and because a species that is not there has to
+        // fail here rather than produce a feature nothing can attribute.
+        foreach (var species in PublishedSpecies())
+        {
+            provenance[("species", LegacyArchive.Text(species, "name")!)] =
+                (LegacyArchive.Text(species, "sourceKey")!, LegacyArchive.Text(species, "contentSet")!);
+        }
 
         foreach (var feature in features)
         {

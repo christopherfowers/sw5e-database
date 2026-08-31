@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-athletic",
+  "name": "Athletic",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "You have proficiency in the Athletics skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-selonian-climb",
+  "name": "Climb",
+  "grantedBy": "species",
+  "grantedByName": "Selonian",
+  "description": "You have a climbing speed of 35 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

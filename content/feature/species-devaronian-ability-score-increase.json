@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "Your Constitution score increases by 2, and your Charisma score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

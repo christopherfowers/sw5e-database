@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "You can speak, read, and write Galactic Basic and Mando'a. Mando'a is primarily a spoken language and is very expressive with simple grammar.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-vacuum-sealed",
+  "name": "Vacuum Sealed",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "You can survive for one day within the vacuum of space. You still require oxygen to breathe. You have resistance to cold damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

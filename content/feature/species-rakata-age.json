@@ -1,0 +1,9 @@
+{
+  "key": "species-rakata-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Rakata",
+  "description": "Rakata reach adulthoood by 20 and rarely live longer than 90 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

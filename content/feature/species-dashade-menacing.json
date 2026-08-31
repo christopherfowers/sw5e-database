@@ -1,0 +1,9 @@
+{
+  "key": "species-dashade-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Dashade",
+  "description": "You gain proficiency in the Intimidation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

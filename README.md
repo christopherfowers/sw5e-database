@@ -84,14 +84,14 @@ recovery in place unnoticed.
 
 Classes, their archetypes, the features either of them grants, and the three
 optional improvement rules each class carries are imported from the legacy
-archive rather than hand-written, because there are 1,266 of them.
+archive rather than hand-written, because there are 2,859 of them.
 
 | Directory | Documents | What it holds |
 |---|---|---|
 | `content/class` | 10 | The class, and its twenty-row level table as data |
 | `content/class-improvement` | 30 | Class, multiclass and splashclass improvements, three per class |
 | `content/archetype` | 137 | Specialisations, each belonging to one class |
-| `content/feature` | 1,089 | One document per granted ability, keyed by level |
+| `content/feature` | 2,682 | One document per granted ability, keyed by the level it arrives at |
 
 They are a graph, not four lists. An archetype names its class in `className`;
 a feature names what grants it in `grantedBy` and `grantedByName`, and the level
@@ -101,11 +101,11 @@ columns as labelled cells — so a character sheet can ask what a 7th-level scou
 has without reading a word of prose, and a print layout can lay the columns out
 in the order the book does.
 
-`content/feature` is shared: the archive's feature dump also holds 1,593 species
-features, which name a species rather than a class and belong with the species
-import. Nothing here imports them, and the guard in
-`tests/Sw5e.Database.Tests/ImportedContentTests.cs` leaves them alone rather
-than reporting them as stale.
+A third of the features are granted by a species rather than by a class or an
+archetype, and they carry no level because a species trait is held from
+character creation. They wait on `content/species` rather than on anything
+here: every one of them names its species, the cross-reference guard requires
+that name to resolve, and it does now that all 141 species are published.
 
 ### Regenerating it
 
@@ -119,12 +119,13 @@ SW5E_WRITE_CONTENT=1 dotnet test --filter ImportedContentTests
 ```
 
 `ImportedContentTests` then asserts that every committed file in those four
-directories is exactly what the import produces. That is what makes 1,266
+directories is exactly what the import produces. That is what makes 2,859
 generated files reviewable: a diff on `content/` is a diff on the archive plus a
 named judgement, never an unexplained edit, and a hand-correction fails the
 suite until it is written down as an adjudication with a reason. Like every
 other archive-backed test here, it reports and returns on a machine with no
 archive checked out rather than passing silently.
+
 ## Adding a content type
 
 Create `schemas/<content-type>/v1.json` as a JSON Schema 2020-12 document, then

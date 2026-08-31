@@ -1,0 +1,9 @@
+{
+  "key": "species-kage-weapon-training",
+  "name": "Weapon Training",
+  "grantedBy": "species",
+  "grantedByName": "Kage",
+  "description": "Kage are adept warriors. You are proficient with the electroprod and electrostaff.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

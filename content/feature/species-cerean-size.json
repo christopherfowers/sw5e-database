@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "Cereans typically stand between 6 and 7 feet tall and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

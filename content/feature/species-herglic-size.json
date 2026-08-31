@@ -1,0 +1,9 @@
+{
+  "key": "species-herglic-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Herglic",
+  "description": "Herglic stand between 6 and 8 feet tall and weigh up to 600 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

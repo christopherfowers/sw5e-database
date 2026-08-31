@@ -1,0 +1,9 @@
+{
+  "key": "species-lasat-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Lasat",
+  "description": "Lasats reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

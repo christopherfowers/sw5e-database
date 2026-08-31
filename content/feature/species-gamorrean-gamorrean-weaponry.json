@@ -1,0 +1,9 @@
+{
+  "key": "species-gamorrean-gamorrean-weaponry",
+  "name": "Gamorrean Weaponry",
+  "grantedBy": "species",
+  "grantedByName": "Gamorrean",
+  "description": "You have proficiency with the vibroaxe, vibromace, and vibrosword.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

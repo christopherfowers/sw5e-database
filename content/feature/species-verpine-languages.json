@@ -1,0 +1,9 @@
+{
+  "key": "species-verpine-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Verpine",
+  "description": "You can speak, read, and write Verpine. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. You can communicate with other Verpine at distances of up to a mile using your antennae.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

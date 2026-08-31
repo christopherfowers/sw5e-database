@@ -1,0 +1,9 @@
+{
+  "key": "species-kubaz-slicer",
+  "name": "Slicer",
+  "grantedBy": "species",
+  "grantedByName": "Kubaz",
+  "description": "You have proficiency with the Technology skill and the slicer's kit.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

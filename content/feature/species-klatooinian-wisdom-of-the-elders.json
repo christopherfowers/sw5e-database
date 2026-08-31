@@ -1,0 +1,9 @@
+{
+  "key": "species-klatooinian-wisdom-of-the-elders",
+  "name": "Wisdom of the Elders",
+  "grantedBy": "species",
+  "grantedByName": "Klatooinian",
+  "description": "You are proficient in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

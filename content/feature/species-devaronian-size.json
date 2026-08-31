@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "Devaronians typically stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

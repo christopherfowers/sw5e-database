@@ -1,0 +1,9 @@
+{
+  "key": "species-zygerrian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Zygerrian",
+  "description": "You can speak, read, and write Galactic Basic and Zygerrian. Zygerrian is characterized by its subtle growls and purrs.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

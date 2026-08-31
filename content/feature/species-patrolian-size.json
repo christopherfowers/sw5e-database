@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "Patrolians typically stand just over 3 feet tall and generally weigh about 40 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

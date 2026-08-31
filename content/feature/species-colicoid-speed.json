@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "Your base walking speed is 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

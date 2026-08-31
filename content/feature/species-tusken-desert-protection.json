@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-desert-protection",
+  "name": "Desert Protection",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "You have advantage on saving throws against being blinded.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

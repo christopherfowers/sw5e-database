@@ -1,0 +1,9 @@
+{
+  "key": "species-ugor-natural-resilience",
+  "name": "Natural Resilience",
+  "grantedBy": "species",
+  "grantedByName": "Ugor",
+  "description": "You have resistance to poison damage, and you have advantage on saving throws against poison.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

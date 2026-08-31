@@ -1,0 +1,9 @@
+{
+  "key": "species-umbaran-umbaran-specilization",
+  "name": "Umbaran Specilization",
+  "grantedBy": "species",
+  "grantedByName": "Umbaran",
+  "description": "You have proficiency in one of the following skills: Insight, Technology, Deception, or Perception.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

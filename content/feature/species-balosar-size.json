@@ -1,0 +1,9 @@
+{
+  "key": "species-balosar-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Balosar",
+  "description": "Balosar stand at an average height of about 5 feet, and weigh about 115 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

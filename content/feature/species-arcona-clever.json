@@ -1,0 +1,9 @@
+{
+  "key": "species-arcona-clever",
+  "name": "Clever",
+  "grantedBy": "species",
+  "grantedByName": "Arcona",
+  "description": "You have proficiency in one Intelligence skill of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

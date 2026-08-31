@@ -1,0 +1,9 @@
+{
+  "key": "species-half-human-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Half-human",
+  "description": "Half-humans gain the ability score increases of their non-human half, but they can choose any ability score for one of the options, instead of the given option. Half-humans can not increase the same ability score twice during character creation using this feature.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

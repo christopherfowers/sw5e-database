@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-ii-skill-protocol",
+  "name": "Skill Protocol",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class II",
+  "description": "You have proficiency in two skills of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-rattataki-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Rattataki",
+  "description": "Rattataki are self-serving and violent which causes them to tend toward the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

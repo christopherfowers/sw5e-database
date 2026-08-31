@@ -1,0 +1,9 @@
+{
+  "key": "species-ithorian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ithorian",
+  "description": "Ithorians reach adulthood in their late teens and live an average of 85 years.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

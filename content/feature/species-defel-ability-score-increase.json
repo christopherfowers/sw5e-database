@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "Your Wisdom score increases by 2, and your Dexterity score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

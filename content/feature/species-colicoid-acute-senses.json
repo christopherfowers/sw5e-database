@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-acute-senses",
+  "name": "Acute Senses",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "You have proficiency in the Perception skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

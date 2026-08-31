@@ -1,0 +1,9 @@
+{
+  "key": "species-lannik-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Lannik",
+  "description": "Despite the turbulence on their homeworld, Lanniks tend toward the light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

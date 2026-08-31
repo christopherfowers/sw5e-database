@@ -1,0 +1,9 @@
+{
+  "key": "species-culisetto-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Culisetto",
+  "description": "You can speak, read, and write Galactic Basic and Culisetto. Culisetto is composed of high pitched whines made from the snout.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

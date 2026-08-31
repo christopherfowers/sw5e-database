@@ -1,0 +1,9 @@
+{
+  "key": "species-draethos-way-of-the-warrior",
+  "name": "Way of the Warrior",
+  "grantedBy": "species",
+  "grantedByName": "Draethos",
+  "description": "You have proficiency with light and medium armor as well as vibroblades and vibroswords.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

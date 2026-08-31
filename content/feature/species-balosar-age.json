@@ -1,0 +1,9 @@
+{
+  "key": "species-balosar-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Balosar",
+  "description": "Balosars reach adulthood in their late teens and live about 70 years naturally, though death stick addiction has lead to a general decline in their lifespan.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

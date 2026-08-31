@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-miners",
+  "name": "Miners",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "You have proficiency in scavenging kits.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

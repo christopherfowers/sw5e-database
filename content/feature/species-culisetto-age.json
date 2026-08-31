@@ -1,0 +1,9 @@
+{
+  "key": "species-culisetto-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Culisetto",
+  "description": "Culisetto reach adulthood at 8 years old, and live to be about 60.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-zilkin-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Zilkin",
+  "description": "Your Dexterity score increases by 2, and two other ability scores of your choice increase by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

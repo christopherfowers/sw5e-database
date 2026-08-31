@@ -1,0 +1,9 @@
+{
+  "key": "species-selonian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Selonian",
+  "description": "Selonians reach adulthood in their mid teens and live for about 75 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

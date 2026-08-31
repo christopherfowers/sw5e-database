@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "Geonosians reach adulthood at 10 and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

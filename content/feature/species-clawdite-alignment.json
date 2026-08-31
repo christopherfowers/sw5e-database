@@ -1,0 +1,9 @@
+{
+  "key": "species-clawdite-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Clawdite",
+  "description": "Clawdites' pragmatism cause them to tend towards neutral balanced, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

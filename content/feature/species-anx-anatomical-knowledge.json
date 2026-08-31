@@ -1,0 +1,9 @@
+{
+  "key": "species-anx-anatomical-knowledge",
+  "name": "Anatomical Knowledge",
+  "grantedBy": "species",
+  "grantedByName": "Anx",
+  "description": "You have proficiency in the Medicine skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

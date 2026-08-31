@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "Duros tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

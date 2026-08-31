@@ -1,0 +1,9 @@
+{
+  "key": "species-ortolan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ortolan",
+  "description": "Ortolans are considered adults at the age of seven and typically live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

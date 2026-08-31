@@ -1,0 +1,9 @@
+{
+  "key": "species-kel-dor-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kel Dor",
+  "description": "Kel dor typically stand around 6 feet tall and weigh about 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-nothoiin-expert-navigators",
+  "name": "Expert Navigators",
+  "grantedBy": "species",
+  "grantedByName": "Nothoiin",
+  "description": "You are considered to have expertise in Wisdom (Survival) checks made to navigate.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

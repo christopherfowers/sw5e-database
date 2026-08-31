@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "You can speak, read, and write Galactic Basic and Geonosian. The Geonosian language consists of click consonants through use of a Geonosians' dual mandibles. This makes it difficult for other species to learn to speak it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-yevetha-mechanical-memory",
+  "name": "Mechanical Memory",
+  "grantedBy": "species",
+  "grantedByName": "Yevetha",
+  "description": "Whenever you make an Intelligence (Technology) check related to memorizing or duplicating mechanical readouts, you are considered to have expertise in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

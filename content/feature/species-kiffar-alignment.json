@@ -1,0 +1,9 @@
+{
+  "key": "species-kiffar-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Kiffar",
+  "description": "Kiffar are independent and free spirited, causing them to tend towards chaotic alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

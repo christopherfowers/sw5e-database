@@ -1,0 +1,9 @@
+{
+  "key": "species-weequay-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Weequay",
+  "description": "Weequay ruthlessness and greed cause them to tend toward chaotic dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

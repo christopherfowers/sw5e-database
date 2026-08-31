@@ -1,0 +1,9 @@
+{
+  "key": "species-quermian-natural-empathy",
+  "name": "Natural Empathy",
+  "grantedBy": "species",
+  "grantedByName": "Quermian",
+  "description": "Quermians' talent at reading the body language of others allow them to sense the emotions in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

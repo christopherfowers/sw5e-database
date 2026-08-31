@@ -1,0 +1,9 @@
+{
+  "key": "species-pau-an-authoritative",
+  "name": "Authoritative",
+  "grantedBy": "species",
+  "grantedByName": "Pau'an",
+  "description": "You have proficiency in Persuasion or Intimidation (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

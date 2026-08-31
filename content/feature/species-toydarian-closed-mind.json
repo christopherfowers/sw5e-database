@@ -1,0 +1,9 @@
+{
+  "key": "species-toydarian-closed-mind",
+  "name": "Closed Mind",
+  "grantedBy": "species",
+  "grantedByName": "Toydarian",
+  "description": "Toydarian brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

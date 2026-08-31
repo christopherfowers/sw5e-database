@@ -1,0 +1,9 @@
+{
+  "key": "species-mikkian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Mikkian",
+  "description": "Mikkian typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

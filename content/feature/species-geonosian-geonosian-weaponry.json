@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-geonosian-weaponry",
+  "name": "Geonosian Weaponry",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "You have proficiency in blasters that deal sonic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

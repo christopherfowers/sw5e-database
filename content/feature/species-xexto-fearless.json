@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-fearless",
+  "name": "Fearless",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "You have advantage on saving throws against being frightened.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

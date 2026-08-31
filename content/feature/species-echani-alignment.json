@@ -1,0 +1,9 @@
+{
+  "key": "species-echani-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Echani",
+  "description": "Echani culture's emphasis on honor and combat cause them to tend towards lawful alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-theelin-skill-versatility",
+  "name": "Skill Versatility",
+  "grantedBy": "species",
+  "grantedByName": "Theelin",
+  "description": "You gain proficiency in one skill of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

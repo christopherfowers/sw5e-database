@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "You can speak, read, and write Galactic Basic and Rishii. Rishii's clicks, trills, and whistles are difficult for outsiders to learn without the aid of a protocol droid, and so Rishii often feel comfortable speaking to eachother in the language in front of others.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

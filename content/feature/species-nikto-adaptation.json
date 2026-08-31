@@ -1,0 +1,9 @@
+{
+  "key": "species-nikto-adaptation",
+  "name": "Adaptation",
+  "grantedBy": "species",
+  "grantedByName": "Nikto",
+  "description": "The frequent radiation bursts from the nearby dying star caused the nikto to mutate and adapt into different subspecies over time, specialized for different environments. Choose one of the following adaptations:",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

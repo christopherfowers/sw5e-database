@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-unarmed-combatant",
+  "name": "Unarmed Combatant",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-verpine-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Verpine",
+  "description": "Verpine stand between 6 and 7 feet tall and rarely weigh more than 120 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "Defel reach adulthood in their early teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

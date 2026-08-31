@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "Gungans reach adulthood in their early teens and live about 70 years.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

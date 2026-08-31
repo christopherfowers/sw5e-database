@@ -1,0 +1,9 @@
+{
+  "key": "species-draethos-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Draethos",
+  "description": "You can speak, read, and write Galactic Basic and Draethos. Draethos is characterized by its flurry of cacophonous sighs and clicks.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

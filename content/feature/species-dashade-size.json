@@ -1,0 +1,9 @@
+{
+  "key": "species-dashade-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Dashade",
+  "description": "Dashade typically stand 5 and a half to 6 and a half feet tall and generally weigh around 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

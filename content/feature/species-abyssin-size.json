@@ -1,0 +1,9 @@
+{
+  "key": "species-abyssin-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Abyssin",
+  "description": "Abyssin stand around 6 feet tall and weigh between 200 and 400 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

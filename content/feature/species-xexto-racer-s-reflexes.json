@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-racer-s-reflexes",
+  "name": "Racer's Reflexes",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "Whenever you make a Dexterity ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You cannot do so again until you complete a short or long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

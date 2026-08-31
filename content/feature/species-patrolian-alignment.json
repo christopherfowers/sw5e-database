@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "Patrolians' greedy, scheming nature causes them to tend toward the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-squib-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Squib",
+  "description": "Squibs typically stand 3 to 3 and a half feet tall and weigh around 50 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

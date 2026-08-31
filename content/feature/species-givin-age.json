@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "Givin reach adulthood in their early teens and live about 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

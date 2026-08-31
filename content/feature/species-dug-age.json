@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "Dugs reach adulthood in their early teens and live an average of 75 years. Their violent nature often leads to violent ends.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

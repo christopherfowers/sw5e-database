@@ -1,0 +1,9 @@
+{
+  "key": "species-barabel-prehensile-tail",
+  "name": "Prehensile Tail",
+  "grantedBy": "species",
+  "grantedByName": "Barabel",
+  "description": "You have supreme control over your tail and can use it to manipulate objects as well as your hands.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

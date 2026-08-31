@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-amphibious",
+  "name": "Amphibious",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "You can breathe air and water.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

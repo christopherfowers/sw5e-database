@@ -1,0 +1,9 @@
+{
+  "key": "species-echani-unarmed-combatant",
+  "name": "Unarmed Combatant",
+  "grantedBy": "species",
+  "grantedByName": "Echani",
+  "description": "Your unarmed strikes deal 1d6 kinetic damage and have the finesse property.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

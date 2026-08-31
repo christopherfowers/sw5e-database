@@ -1,0 +1,9 @@
+{
+  "key": "species-zabrak-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Zabrak",
+  "description": "Zabraks tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

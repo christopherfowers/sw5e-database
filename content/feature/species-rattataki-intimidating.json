@@ -1,0 +1,9 @@
+{
+  "key": "species-rattataki-intimidating",
+  "name": "Intimidating",
+  "grantedBy": "species",
+  "grantedByName": "Rattataki",
+  "description": "You have proficiency in Intimidation.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

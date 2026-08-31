@@ -1,0 +1,9 @@
+{
+  "key": "species-sith-pureblood-keen-senses",
+  "name": "Keen Senses",
+  "grantedBy": "species",
+  "grantedByName": "Sith Pureblood",
+  "description": "You have proficiency in the Perception skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-lannik-keen-hearing",
+  "name": "Keen Hearing",
+  "grantedBy": "species",
+  "grantedByName": "Lannik",
+  "description": "You have advantage on Wisdom (Perception) checks that rely on hearing.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

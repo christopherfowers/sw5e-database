@@ -1,0 +1,9 @@
+{
+  "key": "species-nikto-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Nikto",
+  "description": "Nikto typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

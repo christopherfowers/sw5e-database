@@ -1,0 +1,9 @@
+{
+  "key": "species-gran-slow-metabolism",
+  "name": "Slow Metabolism",
+  "grantedBy": "species",
+  "grantedByName": "Gran",
+  "description": "You are able to go a number of days without food equal to 3 + twice your Constitution modifier before suffering exhaustion.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

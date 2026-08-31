@@ -1,0 +1,9 @@
+{
+  "key": "species-harch-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Harch",
+  "description": "Your Strength, Constitution, and Intelligence scores increase by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

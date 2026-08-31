@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "Your Dexterity score increases by 2, and your Strength score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

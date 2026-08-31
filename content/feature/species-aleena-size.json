@@ -1,0 +1,9 @@
+{
+  "key": "species-aleena-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Aleena",
+  "description": "Aleena typically stand 2 and a half to 3 feet tall and generally weigh about 35 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

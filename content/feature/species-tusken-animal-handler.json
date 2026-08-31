@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-animal-handler",
+  "name": "Animal Handler",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "You have proficiency in the Animal Handling skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

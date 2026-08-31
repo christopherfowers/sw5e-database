@@ -1,0 +1,9 @@
+{
+  "key": "species-falleen-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Falleen",
+  "description": "Falleen reach adulthood in their late teens and live up to 250 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

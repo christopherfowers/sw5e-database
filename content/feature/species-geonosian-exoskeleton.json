@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-exoskeleton",
+  "name": "Exoskeleton",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

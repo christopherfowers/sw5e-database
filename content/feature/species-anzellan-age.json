@@ -1,0 +1,9 @@
+{
+  "key": "species-anzellan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Anzellan",
+  "description": "Anzellans are considered adults at ten years old. They are a short-lived species, however, that rarely lives longer than 60 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

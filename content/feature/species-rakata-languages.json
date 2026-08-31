@@ -1,0 +1,9 @@
+{
+  "key": "species-rakata-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Rakata",
+  "description": "You can speak, read, and write Galactic Basic and Rakata. Rakata is characterized by its deep tones and simplistic nature, using mainly consonants and long vowels. It's script seems to be a very ancient form of Galactic Basic.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

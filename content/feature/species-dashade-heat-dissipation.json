@@ -1,0 +1,9 @@
+{
+  "key": "species-dashade-heat-dissipation",
+  "name": "Heat Dissipation",
+  "grantedBy": "species",
+  "grantedByName": "Dashade",
+  "description": "Whenever you make a Dexterity (Stealth) check to avoid detection by electronic sensors and cameras, you are considered to have expertise in the Stealth skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

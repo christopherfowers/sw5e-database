@@ -43,16 +43,17 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
     /// These are the corpus's real counts, asserted so that an import which
     /// quietly drops half the archive fails instead of passing against a
     /// smaller set. Ten classes and one improvement of each of three kinds for
-    /// each of them; a hundred and thirty-seven archetypes; and 1,089 features,
-    /// which is the archive's 218 class features plus its 912 archetype
-    /// features less the 41 duplicate rows the scrape left behind.
+    /// each of them; a hundred and thirty-seven archetypes; and 2,682 features,
+    /// which is the archive's 2,723 rows less the 41 duplicates the scrape left
+    /// behind — 218 granted by a class, 871 by an archetype, 1,593 by a
+    /// species.
     /// </remarks>
     private static readonly (string ContentType, int Count)[] Expected =
     [
         ("class", 10),
         ("class-improvement", 30),
         ("archetype", 137),
-        ("feature", 1089)
+        ("feature", 2682)
     ];
 
     private static string ContentDirectory(string contentType) =>
@@ -211,6 +212,8 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
 
         var features = ByKey(documents, "feature").Values.ToList();
 
+        var speciesNames = PublishedNames("species");
+
         foreach (var feature in features)
         {
             var grantedByName = LegacyArchive.Text(feature, "grantedByName")!;
@@ -219,10 +222,30 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
             {
                 case "class":
                     classNames.ShouldContain(grantedByName);
+
+                    // Level is what makes a feature reachable from a level
+                    // table. A class or archetype feature without one could not
+                    // be granted at all.
+                    LegacyArchive.Int(feature, "level").ShouldNotBeNull(
+                        $"'{LegacyArchive.Text(feature, "key")}' has no level.");
                     break;
 
                 case "archetype":
                     archetypeNames.ShouldContain(grantedByName);
+                    LegacyArchive.Int(feature, "level").ShouldNotBeNull(
+                        $"'{LegacyArchive.Text(feature, "key")}' has no level.");
+                    break;
+
+                case "species":
+                    // Species are somebody else's import; these features are
+                    // ours, and they are only publishable because all 141 of
+                    // them are now in the content set. A species feature is
+                    // held from character creation, so it carries no level.
+                    speciesNames.ShouldContain(grantedByName,
+                        $"'{LegacyArchive.Text(feature, "key")}' names a species that is not published.");
+                    LegacyArchive.Int(feature, "level").ShouldBeNull(
+                        $"'{LegacyArchive.Text(feature, "key")}' is granted at a level, which no " +
+                        "species feature is.");
                     break;
 
                 default:
@@ -230,15 +253,11 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
                         $"'{LegacyArchive.Text(feature, "key")}' is granted by something this " +
                         "import does not own.");
             }
-
-            // Level is what makes a feature reachable from a level table. A
-            // class or archetype feature without one could not be granted.
-            LegacyArchive.Int(feature, "level").ShouldNotBeNull(
-                $"'{LegacyArchive.Text(feature, "key")}' has no level.");
         }
 
         features.Count(feature => LegacyArchive.Text(feature, "grantedBy") == "class").ShouldBe(218);
         features.Count(feature => LegacyArchive.Text(feature, "grantedBy") == "archetype").ShouldBe(871);
+        features.Count(feature => LegacyArchive.Text(feature, "grantedBy") == "species").ShouldBe(1593);
 
         // A feature is printed inside whatever grants it, so its provenance is
         // that entry's. The archive supplies none of its own, and the site
@@ -246,6 +265,7 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
         // feature that lost this would simply not appear.
         var provenance = ByKey(documents, "class").Values
             .Concat(archetypes.Values)
+            .Concat(Published("species"))
             .ToDictionary(
                 document => LegacyArchive.Text(document, "name")!,
                 document => (LegacyArchive.Text(document, "sourceKey"),
@@ -361,9 +381,9 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
             {
                 var path = $"content/{contentType}/{Path.GetFileName(file)}";
 
-                if (!expected.ContainsKey(path) && !BelongsToAnotherImport(contentType, file))
+                if (!expected.ContainsKey(path))
                 {
-                    failures.Add($"{path}: not produced by the import, and not another import's.");
+                    failures.Add($"{path}: not produced by the import.");
                 }
             }
         }
@@ -375,14 +395,26 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
     }
 
     /// <summary>
-    /// The feature directory is shared. Species features are the same content
-    /// type but belong to the species import, so a species feature sitting here
-    /// is somebody else's file and not a stale one of ours.
+    /// The published documents of a content type this import does not own,
+    /// read off disk. Only species, and only so that a feature granted by one
+    /// can be checked against the species that is actually published rather
+    /// than against a second reading of the archive.
     /// </summary>
-    private static bool BelongsToAnotherImport(string contentType, string file) =>
-        contentType == "feature" &&
-        JsonNode.Parse(File.ReadAllText(file, Encoding.UTF8)) is JsonObject document &&
-        LegacyArchive.Text(document, "grantedBy") is not ("class" or "archetype");
+    private static IReadOnlyList<JsonObject> Published(string contentType)
+    {
+        var directory = ContentDirectory(contentType);
+
+        return Directory.Exists(directory)
+            ? [.. Directory.EnumerateFiles(directory, "*.json")
+                .Order(StringComparer.Ordinal)
+                .Select(file => JsonNode.Parse(File.ReadAllText(file, Encoding.UTF8)) as JsonObject)
+                .Where(document => document is not null)
+                .Select(document => document!)]
+            : [];
+    }
+
+    private static HashSet<string> PublishedNames(string contentType) =>
+        [.. Published(contentType).Select(document => LegacyArchive.Text(document, "name")!)];
 
     private static void Write(IReadOnlyList<ImportedDocument> documents)
     {
@@ -398,7 +430,7 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
 
             foreach (var file in Directory.EnumerateFiles(directory, "*.json"))
             {
-                if (!keep.Contains(Path.GetFileName(file)) && !BelongsToAnotherImport(contentType, file))
+                if (!keep.Contains(Path.GetFileName(file)))
                 {
                     File.Delete(file);
                 }

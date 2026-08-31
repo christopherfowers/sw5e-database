@@ -1,0 +1,9 @@
+{
+  "key": "species-half-human-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Half-human",
+  "description": "You can speak, read, and write Galactic Basic, regardless of whether or not the non-human half can speak it, and the language(s) associated with your non-human half.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

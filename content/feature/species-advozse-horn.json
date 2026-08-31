@@ -1,0 +1,9 @@
+{
+  "key": "species-advozse-horn",
+  "name": "Horn",
+  "grantedBy": "species",
+  "grantedByName": "Advozse",
+  "description": "Your sharp horn is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

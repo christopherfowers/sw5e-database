@@ -1,0 +1,9 @@
+{
+  "key": "species-massassi-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Massassi",
+  "description": "Your Constitution increases by 2, and your Strength increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

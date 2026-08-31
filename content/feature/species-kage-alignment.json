@@ -1,0 +1,9 @@
+{
+  "key": "species-kage-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Kage",
+  "description": "Kages' rigid sense of honor causes them to tend toward lawful light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

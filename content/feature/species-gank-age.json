@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "Ganks reach adulthood in their late teens and live for slightly more than a century thanks to their cybernetics.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

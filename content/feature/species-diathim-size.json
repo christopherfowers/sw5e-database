@@ -1,0 +1,9 @@
+{
+  "key": "species-diathim-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Diathim",
+  "description": "Diathim typically stand 6 to 9 feet tall and generally weigh about 100 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

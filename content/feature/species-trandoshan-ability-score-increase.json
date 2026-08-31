@@ -1,0 +1,9 @@
+{
+  "key": "species-trandoshan-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Trandoshan",
+  "description": "Your Strength score increases by 2, and your Wisdom score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

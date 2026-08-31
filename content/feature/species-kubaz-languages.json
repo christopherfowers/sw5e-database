@@ -1,0 +1,9 @@
+{
+  "key": "species-kubaz-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Kubaz",
+  "description": "You can speak, read, and write Galactic Basic and Kubazian. Kubazian is comprised of a unique series of whirring, nasally syllables, causing Kubaz to have a high-pitched accent when speaking other languages.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-mustafarian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Mustafarian",
+  "description": "Mustafarians stand between 5 and 7 feet tall and weigh around 165 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

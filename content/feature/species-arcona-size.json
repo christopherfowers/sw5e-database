@@ -1,0 +1,9 @@
+{
+  "key": "species-arcona-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Arcona",
+  "description": "Arcona typically stand 5 and a half to 6 and a half feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

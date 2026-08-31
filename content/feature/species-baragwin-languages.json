@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "You can speak, read, and write Galactic Basic and Baragwinian. Baragwinian is a deep language with low rumbling vocalizations. The baragwin themselves, however, are not especially fond of this language. Most of them learn the languages used on whatever planet they were born, so Baragwinian is not very common. Baragwinian is still considered useful as a trade language, however.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

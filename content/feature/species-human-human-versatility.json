@@ -1,0 +1,9 @@
+{
+  "key": "species-human-human-versatility",
+  "name": "Human Versatility",
+  "grantedBy": "species",
+  "grantedByName": "Human",
+  "description": "You gain proficiency in one skill, one tool, and one weapon of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-tech-savant",
+  "name": "Tech Savant",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "You have proficiency in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

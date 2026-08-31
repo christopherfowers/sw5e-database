@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "Xexto typically stand 3 to 5 feet tall and generally weigh about 50 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

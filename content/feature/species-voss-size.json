@@ -1,0 +1,9 @@
+{
+  "key": "species-voss-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Voss",
+  "description": "Voss typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

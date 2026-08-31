@@ -1,0 +1,9 @@
+{
+  "key": "species-iktotchi-horns",
+  "name": "Horns",
+  "grantedBy": "species",
+  "grantedByName": "Iktotchi",
+  "description": "Your horns are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

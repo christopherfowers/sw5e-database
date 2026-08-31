@@ -1,0 +1,9 @@
+{
+  "key": "species-ardennian-prehensile-feet",
+  "name": "Prehensile Feet",
+  "grantedBy": "species",
+  "grantedByName": "Ardennian",
+  "description": "You have supreme control over your feet and can use them to manipulate objects as well as your hands.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

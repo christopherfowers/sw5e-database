@@ -1,0 +1,9 @@
+{
+  "key": "species-arkanian-honed-mind",
+  "name": "Honed Mind",
+  "grantedBy": "species",
+  "grantedByName": "Arkanian",
+  "description": "You have advantage on Intelligence, Wisdom, and Charisma saving throws against force and tech powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

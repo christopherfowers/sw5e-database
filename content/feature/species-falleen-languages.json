@@ -1,0 +1,9 @@
+{
+  "key": "species-falleen-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Falleen",
+  "description": "You can speak, read, and write Galactic Basic and Falleen. Falleen is characterized by its common use of the Z and X sounds, of which the Falleen are fond.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

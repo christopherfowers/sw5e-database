@@ -1,0 +1,9 @@
+{
+  "key": "species-pantoran-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Pantoran",
+  "description": "Pantorans' interest in politics causes them to tend towards lawful alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

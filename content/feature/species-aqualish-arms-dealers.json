@@ -1,0 +1,9 @@
+{
+  "key": "species-aqualish-arms-dealers",
+  "name": "Arms Dealers",
+  "grantedBy": "species",
+  "grantedByName": "Aqualish",
+  "description": "Whenever you make a Charisma (Persuasion) check related to buying or selling weapons, you are considered to have expertise in the Persuasion skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

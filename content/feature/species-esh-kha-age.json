@@ -1,0 +1,9 @@
+{
+  "key": "species-esh-kha-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Esh-Kha",
+  "description": "Esh-kha reach adulthood in their early teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

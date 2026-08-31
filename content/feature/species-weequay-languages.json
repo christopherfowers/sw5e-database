@@ -1,0 +1,9 @@
+{
+  "key": "species-weequay-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Weequay",
+  "description": "You can speak, read, and write Galactic Basic and Sriluurian. You can communicate with other Weequay within 30 feet without speaking through use of pheromones. Force attuned individuals can detect the communication but can’t understand it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "Baragwin reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

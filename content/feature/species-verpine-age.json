@@ -1,0 +1,9 @@
+{
+  "key": "species-verpine-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Verpine",
+  "description": "Verpine reach adulthood in their 40's and live an average of 200 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

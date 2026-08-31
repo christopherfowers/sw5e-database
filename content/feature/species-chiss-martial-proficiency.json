@@ -1,0 +1,9 @@
+{
+  "key": "species-chiss-martial-proficiency",
+  "name": "Martial Proficiency",
+  "grantedBy": "species",
+  "grantedByName": "Chiss",
+  "description": "You have proficiency with light and medium armor as well as the heavy pistol and sniper rifle.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

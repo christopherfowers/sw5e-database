@@ -1,0 +1,9 @@
+{
+  "key": "species-balosar-spicer",
+  "name": "Spicer",
+  "grantedBy": "species",
+  "grantedByName": "Balosar",
+  "description": "You are proficient in spicer's kit.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

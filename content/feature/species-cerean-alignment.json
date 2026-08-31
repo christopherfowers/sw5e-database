@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "Cereans' altruistic nature causes them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

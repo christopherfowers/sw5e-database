@@ -1,0 +1,9 @@
+{
+  "key": "species-zilkin-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Zilkin",
+  "description": "Your base walking speed is 20 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

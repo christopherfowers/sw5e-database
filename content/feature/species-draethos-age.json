@@ -1,0 +1,9 @@
+{
+  "key": "species-draethos-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Draethos",
+  "description": "Draethos reach adulthood around their late teens and live up to 800 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

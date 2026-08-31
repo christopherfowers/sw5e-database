@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-i-droid-systems",
+  "name": "Droid Systems",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class I",
+  "description": "You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

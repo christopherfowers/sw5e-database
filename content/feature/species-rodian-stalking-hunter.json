@@ -1,0 +1,9 @@
+{
+  "key": "species-rodian-stalking-hunter",
+  "name": "Stalking Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Rodian",
+  "description": "You have proficiency in the Survival and Stealth skills.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

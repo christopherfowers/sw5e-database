@@ -1,0 +1,9 @@
+{
+  "key": "species-sullustan-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Sullustan",
+  "description": "You can speak, read, and write Galactic Basic, Sullestese, and one more language of your choice. Sullestese is characterized as a robust language in business, and as such is commonly learned by professional merchants.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

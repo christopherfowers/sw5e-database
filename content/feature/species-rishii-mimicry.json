@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-mimicry",
+  "name": "Mimicry",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

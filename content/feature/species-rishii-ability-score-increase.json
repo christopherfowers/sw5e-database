@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "Your Dexterity score increases by 2, and your Constitution score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

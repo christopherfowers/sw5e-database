@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "Rishii range from 4 to 6 feet tall and generally weigh less than 130 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

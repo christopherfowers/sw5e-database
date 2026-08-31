@@ -1,0 +1,9 @@
+{
+  "key": "species-aing-tii-force-sensitive",
+  "name": "Force-Sensitive",
+  "grantedBy": "species",
+  "grantedByName": "Aing-Tii",
+  "description": "You know the *force push/pull* at-will force power. Wisdom or Charisma (your choice) is your forcecasting ability for this power.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

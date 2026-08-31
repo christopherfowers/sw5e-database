@@ -1,0 +1,9 @@
+{
+  "key": "species-barabel-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Barabel",
+  "description": "Barabel aggression causes them to tend toward the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

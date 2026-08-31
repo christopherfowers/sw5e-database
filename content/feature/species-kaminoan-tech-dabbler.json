@@ -1,0 +1,9 @@
+{
+  "key": "species-kaminoan-tech-dabbler",
+  "name": "Tech Dabbler",
+  "grantedBy": "species",
+  "grantedByName": "Kaminoan",
+  "description": "You know the *temporary boost* at-will tech power. Your techcasting ability is Intelligence. You do not require use of a wristpad for this power.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

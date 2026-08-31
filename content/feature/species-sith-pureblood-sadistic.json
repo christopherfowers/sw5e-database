@@ -1,0 +1,9 @@
+{
+  "key": "species-sith-pureblood-sadistic",
+  "name": "Sadistic",
+  "grantedBy": "species",
+  "grantedByName": "Sith Pureblood",
+  "description": "You have proficiency with saberwhips, vibrowhips, and nets.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

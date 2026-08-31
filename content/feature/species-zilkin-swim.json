@@ -1,0 +1,9 @@
+{
+  "key": "species-zilkin-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Zilkin",
+  "description": "You have a swimming speed of 20 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

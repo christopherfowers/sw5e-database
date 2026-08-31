@@ -1,0 +1,9 @@
+{
+  "key": "species-weequay-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Weequay",
+  "description": "Weequay reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

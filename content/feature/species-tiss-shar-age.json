@@ -1,0 +1,9 @@
+{
+  "key": "species-tiss-shar-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Tiss'shar",
+  "description": "Tiss'shar reach adulthood in their early teens and live about 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

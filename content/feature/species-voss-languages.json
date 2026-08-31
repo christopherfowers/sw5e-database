@@ -1,0 +1,9 @@
+{
+  "key": "species-voss-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Voss",
+  "description": "You can speak, read, and write Galactic Basic and Voss. The Voss language is characterized by it's mystic-sounding word pairings.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

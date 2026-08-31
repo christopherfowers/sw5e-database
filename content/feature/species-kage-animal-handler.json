@@ -1,0 +1,9 @@
+{
+  "key": "species-kage-animal-handler",
+  "name": "Animal Handler",
+  "grantedBy": "species",
+  "grantedByName": "Kage",
+  "description": "You are proficient in Animal Handling.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

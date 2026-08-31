@@ -1,0 +1,9 @@
+{
+  "key": "species-rodian-hunter",
+  "name": "Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Rodian",
+  "description": "You are proficient in Survival and Stealth.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

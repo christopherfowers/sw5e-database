@@ -1,0 +1,9 @@
+{
+  "key": "species-esh-kha-skill-versatility",
+  "name": "Skill Versatility",
+  "grantedBy": "species",
+  "grantedByName": "Esh-Kha",
+  "description": "You gain proficiency in one skill of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

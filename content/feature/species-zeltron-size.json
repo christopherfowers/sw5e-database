@@ -1,0 +1,9 @@
+{
+  "key": "species-zeltron-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Zeltron",
+  "description": "Zeltron tend to be slender and statuesque, typically standing between 5 and 6 feet tall and rarely weighing more than 150 lb. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-codru-ji-natural-grappler",
+  "name": "Natural Grappler",
+  "grantedBy": "species",
+  "grantedByName": "Codru-Ji",
+  "description": "Whenever you make a Strength (Athletics) check to grapple you are considered to have expertise in the Athletics skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

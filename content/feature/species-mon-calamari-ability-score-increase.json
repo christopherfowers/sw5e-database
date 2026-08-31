@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

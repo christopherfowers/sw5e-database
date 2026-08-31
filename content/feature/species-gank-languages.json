@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "You can speak, read, and write Galactic Basic and Gank. You can communicate with other ganks within 30 feet without speaking through use of cybernetic implants. Tech casters can detect the communication but can't understand it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-klatooinian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Klatooinian",
+  "description": "Klatooinians reach adulthood in their late teens and can live as long as 90 standard years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

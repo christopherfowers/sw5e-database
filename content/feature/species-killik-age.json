@@ -1,0 +1,9 @@
+{
+  "key": "species-killik-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Killik",
+  "description": "Killiks reach adulthood in their 40s and live an average of 200 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

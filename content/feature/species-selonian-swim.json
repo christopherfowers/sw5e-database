@@ -1,0 +1,9 @@
+{
+  "key": "species-selonian-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Selonian",
+  "description": "You have a swimming speed of 35 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

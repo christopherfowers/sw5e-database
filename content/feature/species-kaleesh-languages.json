@@ -1,0 +1,9 @@
+{
+  "key": "species-kaleesh-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Kaleesh",
+  "description": "You can speak, read, and write Galactic Basic and Kaleesh.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

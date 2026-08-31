@@ -1,0 +1,9 @@
+{
+  "key": "species-bothan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Bothan",
+  "description": "Bothans stand 4-5 feet tall and weigh under 100 pounds. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-aqualish-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Aqualish",
+  "description": "You have a swimming speed of 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

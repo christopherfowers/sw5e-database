@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-keen-smell",
+  "name": "Keen Smell",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "You have advantage on Wisdom (Perception) checks that rely on smell.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

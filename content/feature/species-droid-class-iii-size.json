@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "Class III droids stand around the height of humans and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

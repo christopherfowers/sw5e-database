@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "Your Intelligence score increases by 2, and your Wisdom score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-natural-instinct",
+  "name": "Natural Instinct",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "You have proficiency with Nature or Perception (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

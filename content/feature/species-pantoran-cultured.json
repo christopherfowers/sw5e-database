@@ -1,0 +1,9 @@
+{
+  "key": "species-pantoran-cultured",
+  "name": "Cultured",
+  "grantedBy": "species",
+  "grantedByName": "Pantoran",
+  "description": "You have proficiency in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

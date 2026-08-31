@@ -1,0 +1,9 @@
+{
+  "key": "species-squib-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Squib",
+  "description": "Squibs reach adulthood at nine years of age and live an average of sixty-five years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

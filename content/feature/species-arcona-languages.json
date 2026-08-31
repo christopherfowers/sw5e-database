@@ -1,0 +1,9 @@
+{
+  "key": "species-arcona-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Arcona",
+  "description": "You can speak, read, and write Galactic Basic and Arconese. Arconese is spoken through complex, guttural squeaks from the back of the throat. However, arcona born and raised in colonies outside of Cona often did not learn Arconese, but the local language instead.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

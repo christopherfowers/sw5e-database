@@ -1,0 +1,9 @@
+{
+  "key": "species-houk-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Houk",
+  "description": "Houk reach adulthood in their late teens and live for about 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

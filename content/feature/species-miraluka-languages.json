@@ -1,0 +1,9 @@
+{
+  "key": "species-miraluka-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Miraluka",
+  "description": "You can speak, read, and write Galactic Basic and Miralukese.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

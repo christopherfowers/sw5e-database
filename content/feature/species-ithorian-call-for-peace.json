@@ -1,0 +1,9 @@
+{
+  "key": "species-ithorian-call-for-peace",
+  "name": "Call for Peace",
+  "grantedBy": "species",
+  "grantedByName": "Ithorian",
+  "description": "As an action on your turn, you can emphatically demand that your foes embrace peace, thereby distracting them. Until the end of your next turn, enemies within 10 feet of you that can see you gain disadvantage on attack rolls against your allies. Once you use this trait, you can't use it again until you finish a short or long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

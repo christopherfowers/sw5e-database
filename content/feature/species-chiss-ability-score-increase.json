@@ -1,0 +1,9 @@
+{
+  "key": "species-chiss-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Chiss",
+  "description": "Your Intelligence score increases by 2, and your Charisma score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

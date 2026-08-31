@@ -1,0 +1,9 @@
+{
+  "key": "species-togorian-claws",
+  "name": "Claws",
+  "grantedBy": "species",
+  "grantedByName": "Togorian",
+  "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

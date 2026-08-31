@@ -1,0 +1,9 @@
+{
+  "key": "species-bith-musician",
+  "name": "Musician",
+  "grantedBy": "species",
+  "grantedByName": "Bith",
+  "description": "You are proficient in one musical instrument of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

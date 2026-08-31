@@ -1,0 +1,9 @@
+{
+  "key": "species-theelin-performer",
+  "name": "Performer",
+  "grantedBy": "species",
+  "grantedByName": "Theelin",
+  "description": "You have proficiency in the Performance skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-theelin-mutation",
+  "name": "Mutation",
+  "grantedBy": "species",
+  "grantedByName": "Theelin",
+  "description": "Theelin gain unique mutations, a result of cross-breeding with other humanoids. Choose one of the following mutations.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}
