@@ -1,0 +1,9 @@
+{
+  "key": "species-human-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Human",
+  "description": "One ability score of your choice increases by 2, and two other ability scores of your choice increase by 1. Alternatively, four ability scores of your choice each increase by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

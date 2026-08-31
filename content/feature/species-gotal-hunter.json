@@ -1,0 +1,9 @@
+{
+  "key": "species-gotal-hunter",
+  "name": "Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Gotal",
+  "description": "You are proficient in Survival.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

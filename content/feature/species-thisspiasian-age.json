@@ -1,0 +1,9 @@
+{
+  "key": "species-thisspiasian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Thisspiasian",
+  "description": "Thisspiasians reach adulthood in their 20s and often live more than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

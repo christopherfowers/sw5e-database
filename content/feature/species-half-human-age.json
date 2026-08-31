@@ -1,0 +1,9 @@
+{
+  "key": "species-half-human-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Half-human",
+  "description": "Half-humans live around the average of the two species' lifespans.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

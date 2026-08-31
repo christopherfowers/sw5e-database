@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-arms-dealers",
+  "name": "Arms Dealers",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "Whenever you make a Charisma (Persuasion) check related to buying or selling weapons, you are considered to have expertise in the Persuasion skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

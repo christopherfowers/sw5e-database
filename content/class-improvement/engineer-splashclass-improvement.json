@@ -1,0 +1,10 @@
+{
+  "key": "engineer-splashclass-improvement",
+  "name": "Engineer Splashclass Improvement",
+  "className": "Engineer",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in engineer",
+  "description": "Your technological experience lends you an uncommon insight that you can use to bolster your allies. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Potent Aptitude die, a d4.\n\nOnce within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.\n\nA creature can have only one Potent Aptitude die at a time.\n\nYou can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

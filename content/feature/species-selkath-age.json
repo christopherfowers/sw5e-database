@@ -1,0 +1,9 @@
+{
+  "key": "species-selkath-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Selkath",
+  "description": "Selkath reach adulthood in their late teens and live up to 100 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-lasat-climbing",
+  "name": "Climbing",
+  "grantedBy": "species",
+  "grantedByName": "Lasat",
+  "description": "You have a climbing speed of 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

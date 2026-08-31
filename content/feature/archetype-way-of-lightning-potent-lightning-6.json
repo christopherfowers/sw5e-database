@@ -4,5 +4,7 @@
   "grantedBy": "archetype",
   "grantedByName": "Way of Lightning",
   "level": 6,
-  "description": "_**Way of Lightning:** 6th level_\nYou add your governing ability modifier (minimum of +1) to any damage you deal with force powers that deal lightning damage that don't already include that modifier."
+  "description": "_**Way of Lightning:** 6th level_\nYou add your governing ability modifier (minimum of +1) to any damage you deal with force powers that deal lightning damage that don't already include that modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

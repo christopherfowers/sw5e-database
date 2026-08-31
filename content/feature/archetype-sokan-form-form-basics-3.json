@@ -1,0 +1,10 @@
+{
+  "key": "archetype-sokan-form-form-basics-3",
+  "name": "Form Basics",
+  "grantedBy": "archetype",
+  "grantedByName": "Sokan Form",
+  "level": 3,
+  "description": "_**Sokan Form:** 3rd level_\nYou gain the Sokan lightsaber form, detailed in Chapter 6 of the Player's Handbook. If you already know this form, you can instead choose another lightsaber form.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

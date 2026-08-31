@@ -1,0 +1,9 @@
+{
+  "key": "species-tognath-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Tognath",
+  "description": "Tognath are famously dedicated and hard workers, causing them to tend towards balanced alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

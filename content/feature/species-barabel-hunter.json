@@ -1,0 +1,9 @@
+{
+  "key": "species-barabel-hunter",
+  "name": "Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Barabel",
+  "description": "You are proficient in Survival.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "class-monk-unarmored-movement-9",
+  "name": "Unarmored Movement",
+  "grantedBy": "class",
+  "grantedByName": "Monk",
+  "level": 9,
+  "description": "_**Monk:** 3rd and 9th level_\nYour speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Unarmored Movement column of the monk table.\nAt 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

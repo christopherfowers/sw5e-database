@@ -1,0 +1,9 @@
+{
+  "key": "species-hutt-adolescent-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Hutt, Adolescent",
+  "description": "You can speak, read, and write Galactic Basic and Huttese. Hutts rarely speak Galactic Basic, even though they are perfectly able; if the person with whom they are speaking doesn't understand Huttese, they are more likely to use an interpretor than deign to speak the language of lesser species.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

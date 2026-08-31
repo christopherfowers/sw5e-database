@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-insightful",
+  "name": "Insightful",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "Nautolan head tentacles are adept at determining moods. You have advantage on Wisdom (Insight) checks to determine emotions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

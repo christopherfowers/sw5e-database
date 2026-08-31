@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-armor-integration",
+  "name": "Armor Integration",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

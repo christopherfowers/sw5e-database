@@ -1,0 +1,9 @@
+{
+  "key": "species-klatooinian-weapon-training",
+  "name": "Weapon Training",
+  "grantedBy": "species",
+  "grantedByName": "Klatooinian",
+  "description": "Klatooinians are trained to fight from a young age. You have proficiency in two martial vibroweapons of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

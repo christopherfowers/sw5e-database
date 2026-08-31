@@ -1,0 +1,9 @@
+{
+  "key": "species-umbaran-sunlight-sensitivity",
+  "name": "Sunlight Sensitivity",
+  "grantedBy": "species",
+  "grantedByName": "Umbaran",
+  "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

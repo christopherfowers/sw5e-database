@@ -1,0 +1,9 @@
+{
+  "key": "species-ugnaught-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ugnaught",
+  "description": "Ugnaughts reach adulthood at 20 and can live to reach 200.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

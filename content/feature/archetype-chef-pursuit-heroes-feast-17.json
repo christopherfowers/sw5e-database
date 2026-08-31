@@ -1,0 +1,10 @@
+{
+  "key": "archetype-chef-pursuit-heroes-feast-17",
+  "name": "Heroes' Feast",
+  "grantedBy": "archetype",
+  "grantedByName": "Chef Pursuit",
+  "level": 17,
+  "description": "_**Chef Pursuit:** 17th level_\nYou have developed a signature feast that is the purest distillation of your knowledge and talent as a chef.\nOver the course of a long rest, you can expend rare culinary supplies worth 1,000 cr to create your feast, which can feed a number of creatures equal to twice your Critical Analysis ability modifer. Any creature partaking in the feast gains the following benefits:\n- It is cured of all poisons and disease, and becomes immune to poison and disease.\n- It makes Wisdom saving throws to avoid being frightened with advantage.\n- Its hit point maximum and current hit points increase by 2d10.\nThese benefits last until the end of the creature's next long rest or 24 hours have passed. This feature has no effect on droids or constructs.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

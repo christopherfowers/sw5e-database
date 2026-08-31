@@ -1,0 +1,9 @@
+{
+  "key": "species-chiss-politically-minded",
+  "name": "Politically Minded",
+  "grantedBy": "species",
+  "grantedByName": "Chiss",
+  "description": "You have proficiency in the Insight skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

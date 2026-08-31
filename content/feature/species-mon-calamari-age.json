@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "Mon calamari reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

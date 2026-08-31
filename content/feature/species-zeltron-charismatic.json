@@ -1,0 +1,9 @@
+{
+  "key": "species-zeltron-charismatic",
+  "name": "Charismatic",
+  "grantedBy": "species",
+  "grantedByName": "Zeltron",
+  "description": "You have proficiency with Deception or Persuasion (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

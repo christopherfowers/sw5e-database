@@ -1,0 +1,10 @@
+{
+  "key": "fighter-splashclass-improvement",
+  "name": "Fighter Splashclass Improvement",
+  "className": "Fighter",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in fighter",
+  "description": "You learn maneuvers that are fueled by special dice called superiority dice.\n\n***Maneuvers.*** You learn one maneuver of your choice from those available to the fighter class. You learn an additional maneuver at 11th level. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.\n\n***Superiority Dice.*** You have a number of superiority dice equal to your proficiency bonus, which are d4s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a long rest.\n\n***Saving Throws.*** Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:\n\n___\n\n**Maneuver save DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)\n\n___",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

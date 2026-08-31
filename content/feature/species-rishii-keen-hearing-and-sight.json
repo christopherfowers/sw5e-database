@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-keen-hearing-and-sight",
+  "name": "Keen Hearing and Sight",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "You have advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

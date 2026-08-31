@@ -1,0 +1,9 @@
+{
+  "key": "species-tiss-shar-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Tiss'shar",
+  "description": "Tiss'shar's moral flexibility causes them to tend towards balanced alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

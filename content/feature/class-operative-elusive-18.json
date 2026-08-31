@@ -1,0 +1,10 @@
+{
+  "key": "class-operative-elusive-18",
+  "name": "Elusive",
+  "grantedBy": "class",
+  "grantedByName": "Operative",
+  "level": 18,
+  "description": "_**Operative:** 18th level_\nYou are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

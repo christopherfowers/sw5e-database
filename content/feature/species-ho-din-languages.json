@@ -1,0 +1,9 @@
+{
+  "key": "species-ho-din-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ho'din",
+  "description": "You can speak, read, and write Galactic Basic, and Ho'Din. Ho'Din consists of croaks and hisses. Its written form includes characters derived from the shapes of Moltok flora. The Ho'Din lexicon includes a great amount of plant-based idioms and metaphors.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

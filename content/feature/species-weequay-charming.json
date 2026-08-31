@@ -1,0 +1,9 @@
+{
+  "key": "species-weequay-charming",
+  "name": "Charming",
+  "grantedBy": "species",
+  "grantedByName": "Weequay",
+  "description": "You have proficiency in Deception or Persuasion.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

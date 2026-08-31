@@ -1,0 +1,9 @@
+{
+  "key": "species-aleena-cosmopolitan",
+  "name": "Cosmopolitan",
+  "grantedBy": "species",
+  "grantedByName": "Aleena",
+  "description": "You have proficiency in Lore.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

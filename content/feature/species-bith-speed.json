@@ -1,0 +1,9 @@
+{
+  "key": "species-bith-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Bith",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-umbaran-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Umbaran",
+  "description": "You can speak, read, and write Galactic Basic and Umbaran. Umbaran is characterized by its blending of technical jargon with informal language. It is rarely spoken off Umbara.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

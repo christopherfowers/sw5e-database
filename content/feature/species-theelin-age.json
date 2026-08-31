@@ -1,0 +1,9 @@
+{
+  "key": "species-theelin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Theelin",
+  "description": "Theelin reach adulthood in their late teens and live for about 70 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

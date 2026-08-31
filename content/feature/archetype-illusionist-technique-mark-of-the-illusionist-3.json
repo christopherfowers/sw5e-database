@@ -1,0 +1,10 @@
+{
+  "key": "archetype-illusionist-technique-mark-of-the-illusionist-3",
+  "name": "Mark of the Illusionist",
+  "grantedBy": "archetype",
+  "grantedByName": "Illusionist Technique",
+  "level": 3,
+  "description": "_**Illusionist Technique:** 3rd level_\nThe target of your Ranger's Quarry feature has disadvantage on all checks made to discern the nature of your illusions. Additionally, when the target of your Ranger's Quarry is reduced to 0 hit points, you can use your reaction to immediately cause an active illusion, or your Holographic Decoy, to take the form of the creature as long as the creature's dimensions fall within the power's capacity restrictions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "class-operative-bad-feeling-3",
+  "name": "Bad Feeling",
+  "grantedBy": "class",
+  "grantedByName": "Operative",
+  "level": 3,
+  "description": "_**Operative:** 3rd level_\nYou have a wary eye, bordering on paranoia. When you roll for initiative, you can move up to your speed. This movement happens before the initiative order is determined.\nOnce you've used this feature, you can't use it again until you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

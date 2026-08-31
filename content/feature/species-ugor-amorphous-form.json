@@ -1,0 +1,9 @@
+{
+  "key": "species-ugor-amorphous-form",
+  "name": "Amorphous Form",
+  "grantedBy": "species",
+  "grantedByName": "Ugor",
+  "description": "You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

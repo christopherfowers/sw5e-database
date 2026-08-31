@@ -1,0 +1,9 @@
+{
+  "key": "species-caamasi-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Caamasi",
+  "description": "Caamasi typically stand 5 to 6 feet tall and generally weigh about 170 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

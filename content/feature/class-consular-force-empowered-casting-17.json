@@ -1,0 +1,10 @@
+{
+  "key": "class-consular-force-empowered-casting-17",
+  "name": "Force-Empowered Casting",
+  "grantedBy": "class",
+  "grantedByName": "Consular",
+  "level": 17,
+  "description": "_**Consular:** 2nd, 9th, and 17th level_\nYou gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two of the following Force-Empowered Casting options of your choice, located at the end of the class description. You gain another one at 9th and 17th level.\nYou can use only one Force-Empowered Casting option on a power when you cast it, unless otherwise noted.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

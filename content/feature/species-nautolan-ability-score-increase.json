@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "Your Dexterity score increases by 2, and your Wisdom score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-rodian-adept-climbers",
+  "name": "Adept Climbers",
+  "grantedBy": "species",
+  "grantedByName": "Rodian",
+  "description": "You have a climbing speed of 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

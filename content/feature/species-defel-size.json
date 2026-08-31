@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "Defel typically stand 4 to 5 feet tall and generally weigh around 100 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

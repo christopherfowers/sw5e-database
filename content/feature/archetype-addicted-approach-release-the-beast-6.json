@@ -1,0 +1,10 @@
+{
+  "key": "archetype-addicted-approach-release-the-beast-6",
+  "name": "Release the Beast",
+  "grantedBy": "archetype",
+  "grantedByName": "Addicted Approach",
+  "level": 6,
+  "description": "_**Addicted Approach:** 6th level_\nWhile you are raging or experiencing the high of a substance, when you hit a creature with a melee weapon attack, you can expend a Hit Die to deal additional damage to the target. Roll the Hit Die, adding the result of the die to the damage roll. If you are both raging and experiencing the high of a substance, you also add your Constitution modifier to the damage roll.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

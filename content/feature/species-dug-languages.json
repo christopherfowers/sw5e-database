@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "You can speak, read, and write Galactic Basic and Dug.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

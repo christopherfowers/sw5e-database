@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-v-droid-resistances",
+  "name": "Droid Resistances",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class V",
+  "description": "You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

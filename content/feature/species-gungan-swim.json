@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "You have a swimming speed of 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

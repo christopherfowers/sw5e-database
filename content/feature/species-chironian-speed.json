@@ -1,0 +1,9 @@
+{
+  "key": "species-chironian-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Chironian",
+  "description": "Your base walking speed is 40 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-ortolan-keen-hearing-and-smell",
+  "name": "Keen Hearing and Smell",
+  "grantedBy": "species",
+  "grantedByName": "Ortolan",
+  "description": "You have advantage on Wisdom (Perception) checks that involve hearing or smell.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

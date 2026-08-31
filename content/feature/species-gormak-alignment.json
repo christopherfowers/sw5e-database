@@ -1,0 +1,9 @@
+{
+  "key": "species-gormak-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Gormak",
+  "description": "Gormaks' warlike nature causes them to tend toward the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

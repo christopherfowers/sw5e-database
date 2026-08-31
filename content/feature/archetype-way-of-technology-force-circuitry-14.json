@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-technology-force-circuitry-14",
+  "name": "Force Circuitry",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Technology",
+  "level": 14,
+  "description": "_**Way of Technology:** 14th level_\nWhen you use your action to cast a force power, and you use your Fundamentals of Mechu-deru feature as a part of that casting, you can use your bonus action to cast one of the tech powers you know, as long as that power has a casting time of 1 action or bonus action.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

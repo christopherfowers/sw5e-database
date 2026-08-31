@@ -1,0 +1,9 @@
+{
+  "key": "species-houk-powerful-build",
+  "name": "Powerful Build",
+  "grantedBy": "species",
+  "grantedByName": "Houk",
+  "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

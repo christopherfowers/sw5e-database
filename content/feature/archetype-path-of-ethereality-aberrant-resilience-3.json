@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-ethereality-aberrant-resilience-3",
+  "name": "Aberrant Resilience",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Ethereality",
+  "level": 3,
+  "description": "_**Path of Ethereality:** 3rd level_\nYou learn the *resistance* force power, which does not count against your total powers known. Additionally, this power no longer requires concentration for you when you target yourself with it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

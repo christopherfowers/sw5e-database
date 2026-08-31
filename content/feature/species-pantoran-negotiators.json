@@ -1,0 +1,9 @@
+{
+  "key": "species-pantoran-negotiators",
+  "name": "Negotiators",
+  "grantedBy": "species",
+  "grantedByName": "Pantoran",
+  "description": "You have advantage on Charisma (Persuasion) checks meant to negotiate terms or agreements between parties.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

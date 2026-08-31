@@ -1,0 +1,10 @@
+{
+  "key": "archetype-archaeologist-pursuit-studious-excavator-3",
+  "name": "Studious Excavator",
+  "grantedBy": "archetype",
+  "grantedByName": "Archaeologist Pursuit",
+  "level": 3,
+  "description": "_**Archaeologist Pursuit:** 3rd level_\nYou gain proficiency with archaeologist kits and in the Lore skill. Additionally, you can't have disadvantage on checks you make with them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

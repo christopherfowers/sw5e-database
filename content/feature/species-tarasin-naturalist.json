@@ -1,0 +1,9 @@
+{
+  "key": "species-tarasin-naturalist",
+  "name": "Naturalist",
+  "grantedBy": "species",
+  "grantedByName": "Tarasin",
+  "description": "You have proficiency in the Nature skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

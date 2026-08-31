@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-cat-s-talent",
+  "name": "Cat's Talent",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "You have proficiency in the Perception and Stealth skills.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

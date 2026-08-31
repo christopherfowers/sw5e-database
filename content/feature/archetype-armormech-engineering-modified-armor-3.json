@@ -1,0 +1,10 @@
+{
+  "key": "archetype-armormech-engineering-modified-armor-3",
+  "name": "Modified Armor",
+  "grantedBy": "archetype",
+  "grantedByName": "Armormech Engineering",
+  "level": 3,
+  "description": "_**Armormech Engineering:** 3rd level_\nYou learn to modify one unenhanced suit of armor or shield utilizing your armormech knowledge. Over the course of a long rest, you can modify one suit of armor or a shield. You must have the armor or shield and armormech's implements in order to perform this modification.\nYour modified armor or shield is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified armor has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).\nSome modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.\nAt 9th level, you can maintain both a modified suit of armor and shield. Each modified item has modification slots as shown in the Modification Slots column of the engineer table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

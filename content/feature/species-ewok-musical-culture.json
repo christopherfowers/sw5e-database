@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-musical-culture",
+  "name": "Musical Culture",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "Ewoks incorporate music in their celebrations and rituals. You have proficiency in an instrument of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

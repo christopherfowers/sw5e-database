@@ -1,0 +1,9 @@
+{
+  "key": "species-jawa-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Jawa",
+  "description": "Jawas stand around 3 to 4 feet tall and weigh about 40 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

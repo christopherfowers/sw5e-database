@@ -1,0 +1,10 @@
+{
+  "key": "archetype-biochem-engineering-masterful-mixtures-18",
+  "name": "Masterful Mixtures",
+  "grantedBy": "archetype",
+  "grantedByName": "Biochem Engineering",
+  "level": 18,
+  "description": "_**Biochem Engineering:** 18th level_\nWhen you deal acid or poison damage using a tech power or class feature, you ignore resistance and treat immunity as resistance.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

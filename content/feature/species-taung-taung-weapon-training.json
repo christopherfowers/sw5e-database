@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-taung-weapon-training",
+  "name": "Taung Weapon Training",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "You gain proficiency in one vibroweapon and one blaster of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-massassi-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Massassi",
+  "description": "Massassi live relatively short lives. They reach adulthood after 14 years, and reach old age around 40 years of life.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

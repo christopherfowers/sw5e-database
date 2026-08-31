@@ -1,0 +1,9 @@
+{
+  "key": "species-talz-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Talz",
+  "description": "Talz reach adulthood at 10 and rarely live longer than 50 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

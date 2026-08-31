@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-v-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class V",
+  "description": "You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-unstable-engineering-unstable-volley-9",
+  "name": "Unstable Volley",
+  "grantedBy": "archetype",
+  "grantedByName": "Unstable Engineering",
+  "level": 9,
+  "description": "_**Unstable Engineering:** 3rd, 9th, and 17th level_\nWhile wielding your tinkercannon, as a bonus action you can expend one use of your Potent Aptitude to launch a volley of unstable energy at a surface located within 30 feet of you that you can see. This energy adheres to the surface for 1 minute, after which it erupts. As a part of this bonus action, or as a bonus action on a following turn, you can cause the energy to erupt early. Each creature within 5 feet of it must make a Dexterity saving throw against your tech save DC. A creature takes 1d6 lightning damage on a failed save, or half as much on a successfu one.\nThe range at which you can launch your volley increases to 60 feet at 9th level, and 120 feet at 17th level.\nThis damage increases when you reach certain levels in this class, increasing to 2d6 at 5th level, 3d6 at 11th level, and 4d6 at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

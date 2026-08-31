@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-galactic-traveler",
+  "name": "Galactic Traveler",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "You have proficiency in the Piloting and Lore skills.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

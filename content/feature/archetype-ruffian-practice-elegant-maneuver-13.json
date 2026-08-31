@@ -1,0 +1,10 @@
+{
+  "key": "archetype-ruffian-practice-elegant-maneuver-13",
+  "name": "Elegant Maneuver",
+  "grantedBy": "archetype",
+  "grantedByName": "Ruffian Practice",
+  "level": 13,
+  "description": "_**Ruffian Practice:** 13th level_\nYou can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

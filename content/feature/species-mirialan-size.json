@@ -1,0 +1,9 @@
+{
+  "key": "species-mirialan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Mirialan",
+  "description": "Mirialan typically stand 5 to 6 feet tall and weight 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

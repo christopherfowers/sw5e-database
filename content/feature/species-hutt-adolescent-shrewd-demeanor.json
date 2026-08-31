@@ -1,0 +1,9 @@
+{
+  "key": "species-hutt-adolescent-shrewd-demeanor",
+  "name": "Shrewd Demeanor",
+  "grantedBy": "species",
+  "grantedByName": "Hutt, Adolescent",
+  "description": "You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

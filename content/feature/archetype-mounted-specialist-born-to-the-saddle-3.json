@@ -1,0 +1,10 @@
+{
+  "key": "archetype-mounted-specialist-born-to-the-saddle-3",
+  "name": "Born to the Saddle",
+  "grantedBy": "archetype",
+  "grantedByName": "Mounted Specialist",
+  "level": 3,
+  "description": "_**Mounted Specialist:** 3rd level_\nYour mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated.\nFinally, mounting or dismounting a creature or vehicle costs you only 5 feet of movement, rather than half your speed.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

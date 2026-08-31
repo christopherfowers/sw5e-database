@@ -1,0 +1,10 @@
+{
+  "key": "archetype-cyclone-approach-dual-wielder-3",
+  "name": "Dual Wielder",
+  "grantedBy": "archetype",
+  "grantedByName": "Cyclone Approach",
+  "level": 3,
+  "description": "_**Cyclone Approach:** 3rd level_\nWhen you engage in Two-Weapon Fighting, you can add your Strength or Dexterity modifier (your choice) to the damage of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

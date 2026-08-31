@@ -1,0 +1,9 @@
+{
+  "key": "species-ugor-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ugor",
+  "description": "You can speak, read and write in Galactic Basic and Ugor. Additionally, Your vocal range allows you to speak languages other species might have difficulty with.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

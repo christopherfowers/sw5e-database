@@ -1,0 +1,9 @@
+{
+  "key": "species-advozse-lava-dweller",
+  "name": "Lava Dweller",
+  "grantedBy": "species",
+  "grantedByName": "Advozse",
+  "description": "Your body is well accustomed to extreme heat, giving you resistance to fire damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

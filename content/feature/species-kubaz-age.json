@@ -1,0 +1,9 @@
+{
+  "key": "species-kubaz-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Kubaz",
+  "description": "Kubaz reach adulthood in their early teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

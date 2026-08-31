@@ -1,0 +1,10 @@
+{
+  "key": "archetype-acquisitions-practice-aerial-agility-13",
+  "name": "Aerial Agility",
+  "grantedBy": "archetype",
+  "grantedByName": "Acquisitions Practice",
+  "level": 13,
+  "description": "_**Acquisitions Practice:** 13th level_\nYour agility in the air grants you the following benefits:\n- When you move, you can instead take 3 short movements by flying.\n- Whenever you end your flying movement and you are within 5 feet of a climbable surface, you can grab onto that surface as though you were climbing upon it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

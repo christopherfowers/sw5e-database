@@ -1,0 +1,9 @@
+{
+  "key": "species-bith-programmer",
+  "name": "Programmer",
+  "grantedBy": "species",
+  "grantedByName": "Bith",
+  "description": "Whenever you make an Intelligence (Technology) check related to computers, you are considered to have expertise in the Technology skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

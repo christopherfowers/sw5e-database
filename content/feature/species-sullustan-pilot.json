@@ -1,0 +1,9 @@
+{
+  "key": "species-sullustan-pilot",
+  "name": "Pilot",
+  "grantedBy": "species",
+  "grantedByName": "Sullustan",
+  "description": "You have proficiency in Piloting.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

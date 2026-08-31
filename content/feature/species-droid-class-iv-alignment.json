@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iv-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class IV",
+  "description": "Droids tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

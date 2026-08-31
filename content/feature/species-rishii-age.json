@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "Rishii reach adulthood at 10 and generally live no longer than 60 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

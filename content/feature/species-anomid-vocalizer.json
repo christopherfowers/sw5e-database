@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-vocalizer",
+  "name": "Vocalizer",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "Anomid have no vocal cords, and rely on a vocalizer to communicate with other species. If your vocalizer is removed or destroyed, you cannot speak.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

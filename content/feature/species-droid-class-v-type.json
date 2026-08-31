@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-v-type",
+  "name": "Type",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class V",
+  "description": "Your creature type is droid.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-echani-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Echani",
+  "description": "Echani stand between 5 and a half and 6 feet tall and weigh around 150 lbs, with little variation between them. Your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

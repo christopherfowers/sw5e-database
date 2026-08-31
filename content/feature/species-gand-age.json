@@ -1,0 +1,9 @@
+{
+  "key": "species-gand-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Gand",
+  "description": "Gand reach adulthood when they earn their name, which is usually in their teens, and live to be about 70 on average.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

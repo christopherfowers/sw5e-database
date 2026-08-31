@@ -1,0 +1,9 @@
+{
+  "key": "species-neimoidian-wealthy",
+  "name": "Wealthy",
+  "grantedBy": "species",
+  "grantedByName": "Neimoidian",
+  "description": "During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

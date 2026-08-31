@@ -1,0 +1,10 @@
+{
+  "key": "class-operative-slippery-mind-15",
+  "name": "Slippery Mind",
+  "grantedBy": "class",
+  "grantedByName": "Operative",
+  "level": 15,
+  "description": "_**Operative:** 15th level_\nYou have acquired greater mental strength. You gain proficiency in Wisdom saving throws.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

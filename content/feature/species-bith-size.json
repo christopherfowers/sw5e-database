@@ -1,0 +1,9 @@
+{
+  "key": "species-bith-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Bith",
+  "description": "Bith typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

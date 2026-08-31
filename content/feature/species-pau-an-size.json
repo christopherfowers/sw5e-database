@@ -1,0 +1,9 @@
+{
+  "key": "species-pau-an-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Pau'an",
+  "description": "Pau'ans typically stand between 6 and 7 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-the-forceblade-disruptive-throw-13",
+  "name": "Disruptive Throw",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of the Forceblade",
+  "level": 13,
+  "description": "_**Path of the Forceblade:** 13th level_\nWhen you are the target of a ranged attack, and the source is within range of your *saber throw* force power, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage using your Kinetic Combat die instead of the weapon's damage die and you impose disadvantage on the triggering attack roll.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

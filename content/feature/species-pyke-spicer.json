@@ -1,0 +1,9 @@
+{
+  "key": "species-pyke-spicer",
+  "name": "Spicer",
+  "grantedBy": "species",
+  "grantedByName": "Pyke",
+  "description": "You are proficient in spicer's kit.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

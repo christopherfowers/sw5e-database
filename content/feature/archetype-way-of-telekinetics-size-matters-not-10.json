@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-telekinetics-size-matters-not-10",
+  "name": "Size Matters Not",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Telekinetics",
+  "level": 10,
+  "description": "_**Way of Telekinetics:** 10th level_\nYou can manipulate creatures of Huge size or smaller with your force powers and Way of Telekinetics features.\nAdditionally, when you use your action to cast a force power, you can use a bonus action to fly up to 10 feet without provoking opportunity attacks.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

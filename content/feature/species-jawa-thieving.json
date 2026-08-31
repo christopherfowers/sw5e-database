@@ -1,0 +1,9 @@
+{
+  "key": "species-jawa-thieving",
+  "name": "Thieving",
+  "grantedBy": "species",
+  "grantedByName": "Jawa",
+  "description": "You have proficiency in the Sleight of Hand skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

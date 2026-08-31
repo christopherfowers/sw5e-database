@@ -1,0 +1,9 @@
+{
+  "key": "species-selkath-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Selkath",
+  "description": "You can speak, read, and write Galactic Basic and Selkatha. Selkatha has a very moist and gurgling tone to it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

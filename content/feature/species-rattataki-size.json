@@ -1,0 +1,9 @@
+{
+  "key": "species-rattataki-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Rattataki",
+  "description": "Rattataki typically stand about 5 and a half feet tall and weigh 140 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

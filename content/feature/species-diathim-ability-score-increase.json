@@ -1,0 +1,9 @@
+{
+  "key": "species-diathim-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Diathim",
+  "description": "Your Charisma score increases by 2, and your Wisdom score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

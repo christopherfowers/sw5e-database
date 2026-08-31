@@ -1,0 +1,10 @@
+{
+  "key": "class-engineer-tool-expertise-2",
+  "name": "Tool Expertise",
+  "grantedBy": "class",
+  "grantedByName": "Engineer",
+  "level": 2,
+  "description": "_**Engineer:** 2nd level_\nYou gain expertise in any tool proficiencies you gain from this class.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

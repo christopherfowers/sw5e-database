@@ -1,0 +1,10 @@
+{
+  "key": "archetype-enhancement-specialist-redirected-shot-10",
+  "name": "Redirected Shot",
+  "grantedBy": "archetype",
+  "grantedByName": "Enhancement Specialist",
+  "level": 10,
+  "description": "_**Enhancement Specialist:** 10th level_\nYou learn how to direct an errant shot toward a new target. When you make an attack roll with an enhanced shot and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

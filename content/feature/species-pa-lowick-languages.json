@@ -1,0 +1,9 @@
+{
+  "key": "species-pa-lowick-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Pa'lowick",
+  "description": "You can speak, read, and write Galactic Basic and Lowickese. Lowickese requires the user to purse their lips and blow air, and is considered amusing by other species.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-trandoshan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Trandoshan",
+  "description": "Trandoshans reach adulthood in their early teens and rarely live to be older than 70.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-ii-integrated-engineering",
+  "name": "Integrated Engineering",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class II",
+  "description": "You have proficiency in one specialist's kit of your choice. The chosen kit is integrated into your chassis, and can not be removed while you are conscious.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

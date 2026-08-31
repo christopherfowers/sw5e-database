@@ -1,0 +1,9 @@
+{
+  "key": "species-nothoiin-born-pilots",
+  "name": "Born Pilots",
+  "grantedBy": "species",
+  "grantedByName": "Nothoiin",
+  "description": "Nothoiins demonstrate seemingly innate piloting abilities from a very young age.  You have proficiency in the Piloting skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

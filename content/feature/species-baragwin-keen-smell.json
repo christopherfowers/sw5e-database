@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-keen-smell",
+  "name": "Keen Smell",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "You have advantage on Wisdom (Perception) checks that involve smell.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

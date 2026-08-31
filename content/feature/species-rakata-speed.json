@@ -1,0 +1,9 @@
+{
+  "key": "species-rakata-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Rakata",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

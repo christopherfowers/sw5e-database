@@ -1,0 +1,9 @@
+{
+  "key": "species-muun-long-limbed",
+  "name": "Long-Limbed",
+  "grantedBy": "species",
+  "grantedByName": "Muun",
+  "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

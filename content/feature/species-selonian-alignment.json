@@ -1,0 +1,9 @@
+{
+  "key": "species-selonian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Selonian",
+  "description": "Selonians are serious and den-focused, causing them to tend towards lawful balanced, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

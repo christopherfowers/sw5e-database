@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "Devaronians' greediness causes them to tend toward chaotic balanced, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

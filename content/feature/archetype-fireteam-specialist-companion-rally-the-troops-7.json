@@ -1,0 +1,10 @@
+{
+  "key": "archetype-fireteam-specialist-companion-rally-the-troops-7",
+  "name": "Rally the Troops",
+  "grantedBy": "archetype",
+  "grantedByName": "Fireteam Specialist (Companion)",
+  "level": 7,
+  "description": "_**Fireteam Specialist:** 7th level_\nWhen you use your Second Wind feature while your companion is within 10 feet of you, your companion regains hit points and gains temporary hit points equal to your fighter level.\nThis radius increases to 30 feet at 11th level, and 60 feet at 17th level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

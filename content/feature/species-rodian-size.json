@@ -1,0 +1,9 @@
+{
+  "key": "species-rodian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Rodian",
+  "description": "Rodians typically stand 5 to 6 feet tall and weigh 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

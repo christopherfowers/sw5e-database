@@ -1,0 +1,9 @@
+{
+  "key": "species-ardennian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ardennian",
+  "description": "Ardennians reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

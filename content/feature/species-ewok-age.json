@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "Ewoks reach adulthood in their early teens and live about 50 years.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

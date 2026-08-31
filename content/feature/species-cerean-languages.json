@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "You can speak, read, and write Galactic Basic and Cerean. Cerean is characterized by its gravelly sounds.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

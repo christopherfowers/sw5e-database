@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "Givins believe power and respect are earned rather than expected, causing them to tend towards balanced alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

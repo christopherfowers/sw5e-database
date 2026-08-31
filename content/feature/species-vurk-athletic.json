@@ -1,0 +1,9 @@
+{
+  "key": "species-vurk-athletic",
+  "name": "Athletic",
+  "grantedBy": "species",
+  "grantedByName": "Vurk",
+  "description": "You have proficiency in the Athletics skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

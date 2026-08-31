@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "You can speak, read, and write Galactic Basic and Patrolian. Patrolian is a high-energy language, consisting mostly of gurgles and skittish vocalizations. Patrolian, even when spoken on land, sounds like it's being spoken underwater.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

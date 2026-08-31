@@ -1,0 +1,10 @@
+{
+  "key": "archetype-teleportation-technique-residual-warp-7",
+  "name": "Residual Warp",
+  "grantedBy": "archetype",
+  "grantedByName": "Teleportation Technique",
+  "level": 7,
+  "description": "_**Teleportation Technique:** 7th level_\nWhen you use your Personal Teleporter feature, you can place your portal in a place you've visited in the last 10 minutes, provided you can remember it, as opposed to a place you can see. That place must still be within range of your teleporter.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

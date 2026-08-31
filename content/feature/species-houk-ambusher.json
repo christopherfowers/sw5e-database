@@ -1,0 +1,9 @@
+{
+  "key": "species-houk-ambusher",
+  "name": "Ambusher",
+  "grantedBy": "species",
+  "grantedByName": "Houk",
+  "description": "You have proficiency in the Stealth skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

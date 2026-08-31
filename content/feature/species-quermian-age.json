@@ -1,0 +1,9 @@
+{
+  "key": "species-quermian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Quermian",
+  "description": "Quermians reach adulthood in their early teens and live a little under a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

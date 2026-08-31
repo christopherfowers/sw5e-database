@@ -1,0 +1,9 @@
+{
+  "key": "species-ssi-ruu-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ssi-Ruu",
+  "description": "You can speak, read, and write Galactic Basic and Ssi-ruuvi. Ssi-ruuvi is a language of musical whistles, honks and clicks, and is nigh impossible for humans and similar species to speak.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

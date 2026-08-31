@@ -1,0 +1,9 @@
+{
+  "key": "species-kiffar-nimble-reflexes",
+  "name": "Nimble Reflexes",
+  "grantedBy": "species",
+  "grantedByName": "Kiffar",
+  "description": "Kiffar are naturally adapted to avoiding the Force. You have advantage on Dexterity and Intelligence saving throws against force powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

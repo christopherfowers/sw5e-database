@@ -1,0 +1,9 @@
+{
+  "key": "species-selkath-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Selkath",
+  "description": "Selkath have been renowned for countless millenia of the careful preservation of neutrality. As such individuals tend towards the neutral balanced alignment, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

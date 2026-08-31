@@ -1,0 +1,10 @@
+{
+  "key": "class-monk-unarmored-defense-1",
+  "name": "Unarmored Defense",
+  "grantedBy": "class",
+  "grantedByName": "Monk",
+  "level": 1,
+  "description": "_**Monk:** 1st level_\nWhile you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom or Charisma modifier (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

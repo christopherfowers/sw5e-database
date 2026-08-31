@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-closed-mind",
+  "name": "Closed Mind",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "Cereans have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against force powers.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

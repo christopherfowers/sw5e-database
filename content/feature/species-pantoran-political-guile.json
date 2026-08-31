@@ -1,0 +1,9 @@
+{
+  "key": "species-pantoran-political-guile",
+  "name": "Political Guile",
+  "grantedBy": "species",
+  "grantedByName": "Pantoran",
+  "description": "You are proficient in Persuasion or Deception (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kel-dor-darkvision",
+  "name": "Darkvision",
+  "grantedBy": "species",
+  "grantedByName": "Kel Dor",
+  "description": "Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

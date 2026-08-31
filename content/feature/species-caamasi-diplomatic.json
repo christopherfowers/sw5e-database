@@ -1,0 +1,9 @@
+{
+  "key": "species-caamasi-diplomatic",
+  "name": "Diplomatic",
+  "grantedBy": "species",
+  "grantedByName": "Caamasi",
+  "description": "You have proficiency in the Persuasion skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

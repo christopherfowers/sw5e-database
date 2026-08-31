@@ -1,0 +1,10 @@
+{
+  "key": "class-monk-purity-of-body-13",
+  "name": "Purity of Body",
+  "grantedBy": "class",
+  "grantedByName": "Monk",
+  "level": 13,
+  "description": "_**Monk:** 13th level_\nYou are immune to disease and poison and resistant to poison damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

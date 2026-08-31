@@ -1,0 +1,247 @@
+{
+  "key": "fireteam-specialist",
+  "name": "Fireteam Specialist",
+  "className": "Fighter",
+  "casterType": "none",
+  "casterRatio": 0,
+  "classCasterType": "none",
+  "description": "When charging onto the frontlines of the galaxy's harshest conflicts, it pays to have people you can trust at your side. Those fighters who choose to become Fireteam Specialists command the respect and loyalty of those beside them by guiding their squad through thick and thin.\n\n### Improved Combat Superiority\n_**Fireteam Specialist:** 3rd level_\nYour tactical skill in combat improves, granting bonuses to your Combat Superiority.\n\n#### Improved Maneuvers\nYou know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Fireteam Superiority table.\n\n#### Improved Superiority Dice\nYou have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Fireteam Superiority table.\n\n### Lead By Example\n_**Fireteam Specialist:** 3rd level_\nOnce per turn, when an ally that can see or hear you attacks a creature that you can see, you can expend a superiority die and enhance that ally's attack, using one of the maneuvers that you know.\n\n### Rally the Troops\n_**Fireteam Specialist:** 7th level_\nWhen you use your Second Wind feature, you can choose up to three allies within 60 feet of you that can see or hear you. Each ally gains temporary hit points equal to your fighter level.\n\nYou can choose an additional ally at 9th, 13th, and 17th level.\n\n### On Your Six\n_**Fireteam Specialist:** 10th level_\nYou can use your bonus action to begin a coordinated maneuver with an ally who is within 5 feet of you. For the next minute, while you and the chosen ally are within 5 feet of each other and neither of you are wielding a shield, you each gain a bonus to AC equal to half your proficiency bonus.\n\nWhen the chosen ally moves on their turn, you can use your reaction to move with them. You must end this movement within 5 feet of the ally, and this movement can't exceed your speed.\n\nThis effect ends early if either you or your ally are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.\n\n##### Fireteam Superiority\n\n### Tactical Advice\n_**Fireteam Specialist:** 15th level_\nOver the course of one minute, you can share knowledge with up to five allies. For the next hour, the chosen creatures gain all of your weapon and armor proficiencies, and a single use of your Indomitable feature.\n\nYou can choose an additional ally at 17th level.\n\nOnce you've used this feature, you can't use it again until you complete a long rest.\n\n### No Soldier Left Behind\n_**Fireteam Specialist:** 18th level_\nWhile under the effects of On Your Six, if either you or your ally are reduced to 0 hit points, you can end On Your Six to have them drop to 1 hit point instead. When you do so, the effects of On Your Six persist until the start of your next turn.",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "7"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "9"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "10"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "11"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "12"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "14"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "15"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "16"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "17"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "19"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "20"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "21"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "22"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "23"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "24"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "12"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-rakata-technician",
+  "name": "Technician",
+  "grantedBy": "species",
+  "grantedByName": "Rakata",
+  "description": "You are proficient in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

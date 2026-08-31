@@ -1,0 +1,10 @@
+{
+  "key": "class-consular-consular-tradition-3",
+  "name": "Consular Tradition",
+  "grantedBy": "class",
+  "grantedByName": "Consular",
+  "level": 3,
+  "description": "_**Consular:** 3rd, 6th, 10th, 14th, and 18th level_\nYou choose a consular tradition, which is detailed at the end of the class description.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-lethality-practice-bushmaster-13",
+  "name": "Bushmaster",
+  "grantedBy": "archetype",
+  "grantedByName": "Lethality Practice",
+  "level": 13,
+  "description": "_**Lethality Practice:** 13th level_\nYou excel at leading ambushes and acting first in a fight.\nYou have advantage on initiative checks. Additionally, the first creature you hit during the first round of a combat becomes easier for you and others to strike; attack rolls against that target have advantage until the start of your next turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-ssi-ruu-hunter",
+  "name": "Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Ssi-Ruu",
+  "description": "You are proficient in Survival.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

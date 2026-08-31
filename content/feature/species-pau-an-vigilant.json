@@ -1,0 +1,9 @@
+{
+  "key": "species-pau-an-vigilant",
+  "name": "Vigilant",
+  "grantedBy": "species",
+  "grantedByName": "Pau'an",
+  "description": "You can choose to have advantage on your next Initiative check. Once you use this trait, you can't use it again until you finish a short or long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

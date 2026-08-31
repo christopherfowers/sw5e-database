@@ -1,0 +1,10 @@
+{
+  "key": "archetype-acquisitions-practice-fast-and-agile-3",
+  "name": "Fast and Agile",
+  "grantedBy": "archetype",
+  "grantedByName": "Acquisitions Practice",
+  "level": 3,
+  "description": "_**Acquisitions Practice:** 3rd level_\nYou can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your demolitions kit or security kit to disarm a trap or open a lock, or take the Use an Object action.\nAdditionally, climbing no longer costs you extra movement, and you gain the ability to move in flying leaps with incredible speed, precision, and power. When you move, instead of using your walking speed, you may take two short movements by flying. Each movement is at half your speed, and you must end each one on a solid object, a surface, or on the ground. If you do not, you fall and your movement ends. If you Dash, your bonus movement is applied to your normal speed, not this movement.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

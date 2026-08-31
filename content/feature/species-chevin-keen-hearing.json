@@ -1,0 +1,9 @@
+{
+  "key": "species-chevin-keen-hearing",
+  "name": "Keen Hearing",
+  "grantedBy": "species",
+  "grantedByName": "Chevin",
+  "description": "You have advantage on Wisdom (Perception) checks that rely on hearing.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

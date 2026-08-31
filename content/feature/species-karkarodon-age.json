@@ -1,0 +1,9 @@
+{
+  "key": "species-karkarodon-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Karkarodon",
+  "description": "Kakarodon reach adulthood in their early teens and live to be about 70.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

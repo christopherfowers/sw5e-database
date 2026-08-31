@@ -1,0 +1,9 @@
+{
+  "key": "species-ssi-ruu-type",
+  "name": "Type",
+  "grantedBy": "species",
+  "grantedByName": "Ssi-Ruu",
+  "description": "Your creature type is both beast and humanoid.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-makashi-form-the-way-of-the-ysalamiri-3",
+  "name": "The Way of the Ysalamiri",
+  "grantedBy": "archetype",
+  "grantedByName": "Makashi Form",
+  "level": 3,
+  "description": "_**Makashi Form:** 3rd level_\nAs a bonus action, you can enter an offensive stance for one minute. While in this stance, you add your Wisdom or Charisma modifier (your choice) to the first melee weapon attack and damage rolls you make each turn.\nThis effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

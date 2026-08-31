@@ -1,0 +1,10 @@
+{
+  "key": "archetype-kyuzo-order-scattering-stance-6",
+  "name": "Scattering Stance",
+  "grantedBy": "archetype",
+  "grantedByName": "Kyuzo Order",
+  "level": 6,
+  "description": "_**Kyuzo Order:** 6th level_\nWhen you take the Dodge action, until the start of your next turn you gain a number of special reactions equal to your proficiency bonus that you can only use for your Intercept feature. You can only take one reaction per turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

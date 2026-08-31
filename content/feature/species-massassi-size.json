@@ -1,0 +1,9 @@
+{
+  "key": "species-massassi-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Massassi",
+  "description": "Massassi are between 7 and 8 feet tall and weigh between 200 and 300 pounds. Your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

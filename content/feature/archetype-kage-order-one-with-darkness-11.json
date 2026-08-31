@@ -1,0 +1,10 @@
+{
+  "key": "archetype-kage-order-one-with-darkness-11",
+  "name": "One With Darkness",
+  "grantedBy": "archetype",
+  "grantedByName": "Kage Order",
+  "level": 11,
+  "description": "_**Kage Order:** 11th level_\nYou have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a power, otherwise take a hostile action, or are in an area of bright light.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

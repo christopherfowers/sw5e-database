@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "You have a swimming speed of 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

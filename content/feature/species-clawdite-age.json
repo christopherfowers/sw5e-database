@@ -1,0 +1,9 @@
+{
+  "key": "species-clawdite-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Clawdite",
+  "description": "Clawdites reach adulthood in their early teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

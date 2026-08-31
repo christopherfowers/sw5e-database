@@ -1,0 +1,9 @@
+{
+  "key": "species-tarasin-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Tarasin",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

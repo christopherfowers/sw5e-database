@@ -1,0 +1,9 @@
+{
+  "key": "species-jawa-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Jawa",
+  "description": "Jawas are considered adults when they make their first sale and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-dashade-claws",
+  "name": "Claws",
+  "grantedBy": "species",
+  "grantedByName": "Dashade",
+  "description": "Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

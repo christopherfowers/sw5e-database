@@ -1,0 +1,9 @@
+{
+  "key": "species-bothan-nimble-escape",
+  "name": "Nimble Escape",
+  "grantedBy": "species",
+  "grantedByName": "Bothan",
+  "description": "You can take the Disengage or Hide action as a bonus action on each of your turns.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

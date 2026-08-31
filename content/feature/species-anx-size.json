@@ -1,0 +1,9 @@
+{
+  "key": "species-anx-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Anx",
+  "description": "Anx stand at around 8 feet tall and weigh about 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-aleena-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Aleena",
+  "description": "Aleena reach adulthood in their late teens and live to be about 80.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

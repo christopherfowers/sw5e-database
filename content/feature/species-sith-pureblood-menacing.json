@@ -1,0 +1,9 @@
+{
+  "key": "species-sith-pureblood-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Sith Pureblood",
+  "description": "You have proficiency in the Intimidation skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

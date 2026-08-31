@@ -1,0 +1,10 @@
+{
+  "key": "archetype-scrapper-practice-sleight-of-foot-9",
+  "name": "Sleight of Foot",
+  "grantedBy": "archetype",
+  "grantedByName": "Scrapper Practice",
+  "level": 9,
+  "description": "_**Scrapper Practice:** 9th level_\nWhen a creature moves to within 5 feet of you, you can use your reaction to move up to half your speed away from the creature without provoking opportunity attacks. You must end this movement further from the creature than you started.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

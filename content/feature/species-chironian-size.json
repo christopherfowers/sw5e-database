@@ -1,0 +1,9 @@
+{
+  "key": "species-chironian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Chironian",
+  "description": "Chironians typically stand 6 to 8 feet tall and generally weigh about 600 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

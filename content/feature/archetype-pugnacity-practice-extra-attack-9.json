@@ -1,0 +1,10 @@
+{
+  "key": "archetype-pugnacity-practice-extra-attack-9",
+  "name": "Extra Attack",
+  "grantedBy": "archetype",
+  "grantedByName": "Pugnacity Practice",
+  "level": 9,
+  "description": "_**Pugnacity Practice:** 9th level_\nWhen you take the Attack action on your turn, you can choose to attack twice, instead of once. Additionally, you can deal Sneak Attack damage any number of times on your turn. Each time you deal Sneak Attack damage, you can choose how many Sneak Attack dice you apply. You can't apply more than your total Sneak Attack dice each turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

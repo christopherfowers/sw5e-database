@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-v-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class V",
+  "description": "Class V droids typically stand between 5 and 7 feet and weigh around 260 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

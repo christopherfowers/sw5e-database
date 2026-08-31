@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "Duros stand around 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-the-corsair-corsair-weapons-3",
+  "name": "Corsair Weapons",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of the Corsair",
+  "level": 3,
+  "description": "_**Path of the Corsair:** 3rd level_\nYou can use the force to quickly learn the use of unfamiliar weapons. When you hold a weapon that you are not proficient in, you can spend 1 force point (no action required) to gain proficiency with that weapon until the end of your next long rest.\nAdditionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

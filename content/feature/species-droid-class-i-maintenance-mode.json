@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-i-maintenance-mode",
+  "name": "Maintenance Mode",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class I",
+  "description": "Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

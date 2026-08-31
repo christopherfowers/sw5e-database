@@ -1,0 +1,9 @@
+{
+  "key": "species-massassi-type",
+  "name": "Type",
+  "grantedBy": "species",
+  "grantedByName": "Massassi",
+  "description": "Your creature type is both aberration and humanoid.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

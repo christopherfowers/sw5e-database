@@ -1,0 +1,9 @@
+{
+  "key": "species-karkarodon-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Karkarodon",
+  "description": "Karkarodons' warmongering nature causes them to tend toward the dark side, though there are exceptions",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

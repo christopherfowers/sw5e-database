@@ -1,0 +1,9 @@
+{
+  "key": "species-ryn-con-artist",
+  "name": "Con Artist",
+  "grantedBy": "species",
+  "grantedByName": "Ryn",
+  "description": "You have proficiency in one gaming set of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

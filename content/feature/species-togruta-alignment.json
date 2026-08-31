@@ -1,0 +1,9 @@
+{
+  "key": "species-togruta-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Togruta",
+  "description": "Togruta culture focuses on unity which causes them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

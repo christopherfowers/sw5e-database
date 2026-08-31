@@ -1,0 +1,9 @@
+{
+  "key": "species-rishii-flight",
+  "name": "Flight",
+  "grantedBy": "species",
+  "grantedByName": "Rishii",
+  "description": "You have a flying speed equal to your walking speed. While wearing medium or heavy armor, your flying speed is reduced by half.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

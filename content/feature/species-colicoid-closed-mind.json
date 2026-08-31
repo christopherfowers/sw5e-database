@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-closed-mind",
+  "name": "Closed Mind",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "Colicoid brains have an unusual composition which gives them a natural defense against the Force. You have advantage on Wisdom and Charisma saving throws against force powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

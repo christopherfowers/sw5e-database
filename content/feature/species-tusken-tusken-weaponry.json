@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-tusken-weaponry",
+  "name": "Tusken Weaponry",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "You have proficiency with the cycler rifle and vibroaxe.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

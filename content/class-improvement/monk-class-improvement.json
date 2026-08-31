@@ -1,0 +1,10 @@
+{
+  "key": "monk-class-improvement",
+  "name": "Monk Class Improvement",
+  "className": "Monk",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in monk",
+  "description": "As an action, you can spend 2 focus points and a roll a Martial Arts die. You regain a number of hit points equal to the amount rolled + your Wisdom or Charisma modifier (your choice, a minimum of one).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

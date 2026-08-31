@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/class-improvement/v1.json",
+  "title": "Class improvement",
+  "description": "An optional rule from the expanded content that changes what a class is worth to a character who is not simply advancing in it. There are three, and every class has one of each: a class improvement rewards staying, a multiclass improvement says what the class contributes to a character who has levels elsewhere, and a splashclass improvement is the single benefit a character can take from a class they have no levels in at all.\n\nThe three are one content type rather than three because they are the same document in every respect a reader or a store cares about — a class, a prerequisite and a paragraph of rules — and because they are used together: the question at the table is \"what does berserker give me if I multiclass\", which wants all three side by side, not three near-empty catalogues of ten items each. The kind is a field, so it filters.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "className",
+    "improvementType",
+    "description"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this improvement, built from the class and the kind: berserker-multiclass-improvement. The class name alone is not unique here, because each class has three of these."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, built the same way the key is: \"Berserker Multiclass Improvement\". The archive stores only the class name, which is ambiguous on its own once all three kinds sit in one list."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this improvement was published in, matching a document of the source content type. All thirty are ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this improvement belongs to the core rules or to the community expanded-content supplement. All thirty are expanded content: none of this is in the Player's Handbook."
+    },
+    "className": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Name of the class this improvement belongs to, matching a class entry."
+    },
+    "improvementType": {
+      "enum": ["class", "multiclass", "splashclass"],
+      "description": "Which of the three kinds this is. `class` is taken by a character advancing in the class; `multiclass` describes what the class contributes to a character with levels in another; `splashclass` is available to a character with no levels in the class at all."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to take this, in the books' own words: \"At least 3 levels in berserker\", \"No levels in consular, the ability to cast force powers\". Left as prose because the clauses are not a closed set — a level count, an absence of levels, and a capability all appear, sometimes together."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text in second person, describing what the improvement grants."
+    }
+  }
+}

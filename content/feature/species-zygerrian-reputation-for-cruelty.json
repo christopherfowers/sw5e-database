@@ -1,0 +1,9 @@
+{
+  "key": "species-zygerrian-reputation-for-cruelty",
+  "name": "Reputation for Cruelty",
+  "grantedBy": "species",
+  "grantedByName": "Zygerrian",
+  "description": "You are proficient in Intimidation, as well as the saberwhip and vibrowhip.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

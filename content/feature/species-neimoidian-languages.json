@@ -1,0 +1,9 @@
+{
+  "key": "species-neimoidian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Neimoidian",
+  "description": "You can speak, read, and write Galactic Basic and Pak Pak. Pak Pak is often considered an elegant-sounding language by those who hear it. It consists of husky sighs and guttural ululations.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

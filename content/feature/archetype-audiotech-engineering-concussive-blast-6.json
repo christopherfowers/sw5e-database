@@ -1,0 +1,10 @@
+{
+  "key": "archetype-audiotech-engineering-concussive-blast-6",
+  "name": "Concussive Blast",
+  "grantedBy": "archetype",
+  "grantedByName": "Audiotech Engineering",
+  "level": 6,
+  "description": "_**Audiotech Engineering:** 6th level_\nYou add your Intelligence modifier (a minimum of +1) to any damage you deal with tech powers and class features that deal sonic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

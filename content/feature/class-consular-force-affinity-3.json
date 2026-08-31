@@ -1,0 +1,10 @@
+{
+  "key": "class-consular-force-affinity-3",
+  "name": "Force Affinity",
+  "grantedBy": "class",
+  "grantedByName": "Consular",
+  "level": 3,
+  "description": "_**Consular:** 3rd level_\nYou've developed an affinity for one of the three aspects of the Force: the Ashla, the Bendu, or the Bogan. Choose one from the following:\n#### Ashla\nWhen you successfully cast a light side power, either your or the target's (your choice) hit point maximum and current hit points increase by an amount equal to the power's level. This effect lasts for 1 minute. You can only have one instance of this effect active at a time.\n#### Bendu\nYou can add both your Wisdom and Charisma modifier to your maximum number of force points, instead of just one.\n#### Bogan\nYour dark side power damage rolls gain a minimum roll threshold, discussed in chapter 7.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

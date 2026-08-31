@@ -1,0 +1,10 @@
+{
+  "key": "class-fighter-fighter-strategies-3",
+  "name": "Fighter Strategies",
+  "grantedBy": "class",
+  "grantedByName": "Fighter",
+  "level": 3,
+  "description": "_**Fighter:** 3rd level_\nYou've adopted a fighter strategy, as detailed at the end of the class description, and you adopt more at higher levels, as shown in the Strategies Known column of the fighter table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

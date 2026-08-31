@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "Colicoids typically stand 6 to 6 and a half feet tall and generally weigh about 170 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

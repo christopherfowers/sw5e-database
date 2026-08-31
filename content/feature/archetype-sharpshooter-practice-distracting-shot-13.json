@@ -1,0 +1,10 @@
+{
+  "key": "archetype-sharpshooter-practice-distracting-shot-13",
+  "name": "Distracting Shot",
+  "grantedBy": "archetype",
+  "grantedByName": "Sharpshooter Practice",
+  "level": 13,
+  "description": "_**Sharpshooter Practice:** 13th level_\nYou are able to defend your compatriots from afar. When a friendly creature you can see within your weapon's normal range is the target of a ranged attack, or forced to make a saving throw, and the source of the effect is within your weapon's normal range, you can use your reaction to make a ranged weapon attack against the source. On a hit, instead of dealing damage, the target of your attack has disadvantage on the attack roll against your ally, or your ally has advantage on the saving throw to resist the effect.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-tutelage-strength-flows-from-the-force-6",
+  "name": "Strength Flows from the Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Tutelage",
+  "level": 6,
+  "description": "_**Way of Tutelage:** 6th level_\nWhen you cast a power that affects only your companion, you can choose to treat the power as if cast at your Max Power Level.\nYou can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

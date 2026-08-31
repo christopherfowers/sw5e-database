@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "You gain proficiency in the Intimidation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

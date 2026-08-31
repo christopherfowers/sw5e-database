@@ -1,0 +1,10 @@
+{
+  "key": "archetype-beastmaster-approach-companion-bonus-proficiencies-3",
+  "name": "Bonus Proficiencies",
+  "grantedBy": "archetype",
+  "grantedByName": "Beastmaster Approach (Companion)",
+  "level": 3,
+  "description": "_**Beastmaster Approach:** 3rd level_\nYou gain proficiency in Animal Handling.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

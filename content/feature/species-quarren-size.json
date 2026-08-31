@@ -1,0 +1,9 @@
+{
+  "key": "species-quarren-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Quarren",
+  "description": "Quarren typically stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

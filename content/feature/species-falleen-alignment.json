@@ -1,0 +1,9 @@
+{
+  "key": "species-falleen-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Falleen",
+  "description": "Falleen societal structure causes them to tend to be lawful balanced, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-quermian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Quermian",
+  "description": "You can speak, read, and write Galactic Basic and Quermian. You can also communicate with other quermians more effectively through a thorough understanding of body language that xenobiologists widely attribute to latent telepathy.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

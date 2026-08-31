@@ -1,0 +1,9 @@
+{
+  "key": "species-echani-martial-upbringing",
+  "name": "Martial Upbringing",
+  "grantedBy": "species",
+  "grantedByName": "Echani",
+  "description": "You have proficiency in light armor, and gain proficiency with two martial vibroweapons of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

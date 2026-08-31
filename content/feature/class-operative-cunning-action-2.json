@@ -4,5 +4,7 @@
   "grantedBy": "class",
   "grantedByName": "Operative",
   "level": 2,
-  "description": "_**Operative:** 2nd level_\nYour quick thinking and agility allow you to move and act quickly. You can take the Dash, Disengage, or Hide actions as a bonus action."
+  "description": "_**Operative:** 2nd level_\nYour quick thinking and agility allow you to move and act quickly. You can take the Dash, Disengage, or Hide actions as a bonus action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
 }

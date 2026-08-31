@@ -1,0 +1,9 @@
+{
+  "key": "species-ho-din-biological-specialists",
+  "name": "Biological Specialists",
+  "grantedBy": "species",
+  "grantedByName": "Ho'din",
+  "description": "You have proficiency with Medicine or Survival (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

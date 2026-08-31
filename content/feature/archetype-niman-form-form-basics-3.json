@@ -1,0 +1,10 @@
+{
+  "key": "archetype-niman-form-form-basics-3",
+  "name": "Form Basics",
+  "grantedBy": "archetype",
+  "grantedByName": "Niman Form",
+  "level": 3,
+  "description": "_**Niman Form:** 3rd level_\nYou gain the Niman lightsaber form, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

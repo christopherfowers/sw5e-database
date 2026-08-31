@@ -1,0 +1,9 @@
+{
+  "key": "species-pyke-mercantile",
+  "name": "Mercantile",
+  "grantedBy": "species",
+  "grantedByName": "Pyke",
+  "description": "You have proficiency in one of the following skills of your choice: Deception, Persuasion, or Intimidation.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

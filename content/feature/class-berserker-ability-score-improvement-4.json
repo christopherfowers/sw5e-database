@@ -1,0 +1,10 @@
+{
+  "key": "class-berserker-ability-score-improvement-4",
+  "name": "Ability Score Improvement",
+  "grantedBy": "class",
+  "grantedByName": "Berserker",
+  "level": 4,
+  "description": "_**Berserker:** 4th, 8th, 12th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

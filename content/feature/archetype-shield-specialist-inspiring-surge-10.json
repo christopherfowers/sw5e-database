@@ -1,0 +1,10 @@
+{
+  "key": "archetype-shield-specialist-inspiring-surge-10",
+  "name": "Inspiring Surge",
+  "grantedBy": "archetype",
+  "grantedByName": "Shield Specialist",
+  "level": 10,
+  "description": "_**Shield Specialist:** 10th level_\nWhen you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-fireteam-specialist-on-your-six-10",
+  "name": "On Your Six",
+  "grantedBy": "archetype",
+  "grantedByName": "Fireteam Specialist",
+  "level": 10,
+  "description": "_**Fireteam Specialist:** 10th level_\nYou can use your bonus action to begin a coordinated maneuver with an ally who is within 5 feet of you. For the next minute, while you and the chosen ally are within 5 feet of each other and neither of you are wielding a shield, you each gain a bonus to AC equal to half your proficiency bonus.\nWhen the chosen ally moves on their turn, you can use your reaction to move with them. You must end this movement within 5 feet of the ally, and this movement can't exceed your speed.\nThis effect ends early if either you or your ally are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.\n##### Fireteam Superiority\n|Level|Maneuvers Known|Superiority Dice Quantity|\n|:---:|:---:|:---:|:---:|\n| 3rd| 4| 4|\n| 4th| 5| 4|\n| 5th| 6| 5|\n| 6th| 7| 5|\n| 7th| 9| 6|\n| 8th|10| 6|\n| 9th|11| 7|\n|10th|12| 7|\n|11th|14| 8|\n|12th|15| 8|\n|13th|16| 9|\n|14th|17| 9|\n|15th|19|10|\n|16th|20|10|\n|17th|21|11|\n|18th|22|11|\n|19th|23|12|\n|20th|24|12|",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

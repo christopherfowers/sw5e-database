@@ -1,0 +1,9 @@
+{
+  "key": "species-togruta-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Togruta",
+  "description": "Togruta typically stand between 5 and 6 feet tall and weigh 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

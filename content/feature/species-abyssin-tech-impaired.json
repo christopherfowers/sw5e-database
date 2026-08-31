@@ -1,0 +1,9 @@
+{
+  "key": "species-abyssin-tech-impaired",
+  "name": "Tech-Impaired",
+  "grantedBy": "species",
+  "grantedByName": "Abyssin",
+  "description": "While abyssin can figure out basic technology, they experience difficulty using more complex equipment like wristpads. You can not use tech powers or take levels in techcasting classes.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

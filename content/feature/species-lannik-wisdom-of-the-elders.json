@@ -1,0 +1,9 @@
+{
+  "key": "species-lannik-wisdom-of-the-elders",
+  "name": "Wisdom of the Elders",
+  "grantedBy": "species",
+  "grantedByName": "Lannik",
+  "description": "You are proficient in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-brawling-approach-mighty-leap-10",
+  "name": "Mighty Leap",
+  "grantedBy": "archetype",
+  "grantedByName": "Brawling Approach",
+  "level": 10,
+  "description": "_**Cyclone Approach:** 10th level_\nThe distance you can jump is doubled, and you do not provoke attacks of opportunity if you leave a hostile creature's reach while jumping.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

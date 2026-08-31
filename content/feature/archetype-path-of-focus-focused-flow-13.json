@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-focus-focused-flow-13",
+  "name": "Focused Flow",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Focus",
+  "level": 13,
+  "description": "_**Path of Focus:** 13th level_\nWhenever you use a Force-Empowered Self feature, you may instead expend no force points and roll a d4 in place of your Kinetic Combat die.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

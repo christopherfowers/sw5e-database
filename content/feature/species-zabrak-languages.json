@@ -1,0 +1,9 @@
+{
+  "key": "species-zabrak-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Zabrak",
+  "description": "You can speak, read, and write Galactic Basic and Zabraki.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

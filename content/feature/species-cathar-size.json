@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "Cathar range from 5 to 7 feet tall, and can weigh up to 300 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

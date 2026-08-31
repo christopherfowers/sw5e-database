@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "You can speak, read, and write Galactic Basic and Catharese.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

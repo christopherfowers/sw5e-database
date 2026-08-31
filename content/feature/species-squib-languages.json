@@ -1,0 +1,9 @@
+{
+  "key": "species-squib-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Squib",
+  "description": "You can speak, read, and write Galactic Basic and Squibbian. The Squibbian language originated as a secret form of communication for Squibs to convey information without being understood.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

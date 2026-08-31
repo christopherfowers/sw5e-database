@@ -1,0 +1,10 @@
+{
+  "key": "archetype-artillerist-technique-companion-crisis-management-7",
+  "name": "Crisis Management",
+  "grantedBy": "archetype",
+  "grantedByName": "Artillerist Technique (Companion)",
+  "level": 7,
+  "description": "_**Artillerist Technique:** 7th level_\nWhile you can see your turret, it can add half its proficiency bonus to any saving throws it makes that doesn't already include it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

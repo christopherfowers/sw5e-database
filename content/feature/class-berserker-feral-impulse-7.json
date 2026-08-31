@@ -1,0 +1,10 @@
+{
+  "key": "class-berserker-feral-impulse-7",
+  "name": "Feral Impulse",
+  "grantedBy": "class",
+  "grantedByName": "Berserker",
+  "level": 7,
+  "description": "_**Berserker:** 7th level_\nYour instincts are so honed that you have advantage on initiative checks.\nAdditionally, if you are surprised at the start of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-gormak-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Gormak",
+  "description": "You can speak, read, and write Galactic Basic and Gormak. Gormak is primitive and gruff, often lacking definitions for things found outside of their homeworld.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

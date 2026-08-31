@@ -1,0 +1,9 @@
+{
+  "key": "species-tarasin-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Tarasin",
+  "description": "You can speak, read, and write Galactic Basic and Tarasinese. You can communicate non-verbally with other tarasins through use of a complex system of skin color changes.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

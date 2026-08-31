@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-stinger",
+  "name": "Stinger",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "Your stinger is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kaminoan-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Kaminoan",
+  "description": "Kaminoans highly organized society lead individuals to tend toward a lawful alignment, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

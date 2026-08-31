@@ -1,0 +1,10 @@
+{
+  "key": "sentinel-class-improvement",
+  "name": "Sentinel Class Improvement",
+  "className": "Sentinel",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in sentinel",
+  "description": "Once per turn, when you roll a Kinetic Combat die, you can roll the die with advantage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

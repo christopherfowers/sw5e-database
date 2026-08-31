@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "Gungans tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

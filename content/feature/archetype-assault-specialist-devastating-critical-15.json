@@ -1,0 +1,10 @@
+{
+  "key": "archetype-assault-specialist-devastating-critical-15",
+  "name": "Devastating Critical",
+  "grantedBy": "archetype",
+  "grantedByName": "Assault Specialist",
+  "level": 15,
+  "description": "_**Assault Specialist:** 15th level_\nWhen you score a critical hit with a weapon attack, you gain a bonus to that weapon's damage roll equal to your fighter level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

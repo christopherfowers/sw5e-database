@@ -1,0 +1,9 @@
+{
+  "key": "species-iktotchi-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Iktotchi",
+  "description": "Iktotchi typically stand between 5 and 6 feet tall and weigh about 170 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

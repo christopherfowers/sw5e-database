@@ -1,0 +1,10 @@
+{
+  "key": "archetype-detective-pursuit-sharp-instincts-9",
+  "name": "Sharp Instincts",
+  "grantedBy": "archetype",
+  "grantedByName": "Detective Pursuit",
+  "level": 9,
+  "description": "_**Detective Pursuit:** 9th level_\nOnce on each of your turns, when you hit the target of your Critical Analysis with a melee weapon attack, you can make a Wisdom (Insight) check contested by the target's Charisma (Deception) check. If you win the contest, you deal an additional 1d8 damage to the target, which is the same type as the weapon's damage\nThis die increases to d10 at 13th level and d12 at 17th level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

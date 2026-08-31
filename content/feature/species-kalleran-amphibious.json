@@ -1,0 +1,9 @@
+{
+  "key": "species-kalleran-amphibious",
+  "name": "Amphibious",
+  "grantedBy": "species",
+  "grantedByName": "Kalleran",
+  "description": "You can breathe air and water.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

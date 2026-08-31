@@ -1,0 +1,10 @@
+{
+  "key": "archetype-gunslinger-practice-ricochet-shot-13",
+  "name": "Ricochet Shot",
+  "grantedBy": "archetype",
+  "grantedByName": "Gunslinger Practice",
+  "level": 13,
+  "description": "_**Gunslinger Practice:** 13th level_\nYou learn how to work all the angles. Once per turn, when you take the Attack action and miss with a ranged weapon attack, you can repeat the attack against a different target within 10 feet of the original target (no action required).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-aleena-nimbleness",
+  "name": "Nimbleness",
+  "grantedBy": "species",
+  "grantedByName": "Aleena",
+  "description": "You can move through the space of any creature that is of a size larger than yours.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

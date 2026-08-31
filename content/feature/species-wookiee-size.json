@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "Wookiees tend to tower over other species, reaching heights over 8 feet and weighing 300 pounds. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

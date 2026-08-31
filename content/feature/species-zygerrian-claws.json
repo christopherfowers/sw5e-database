@@ -1,0 +1,9 @@
+{
+  "key": "species-zygerrian-claws",
+  "name": "Claws",
+  "grantedBy": "species",
+  "grantedByName": "Zygerrian",
+  "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

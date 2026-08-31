@@ -1,0 +1,10 @@
+{
+  "key": "class-guardian-ability-score-improvement-19",
+  "name": "Ability Score Improvement",
+  "grantedBy": "class",
+  "grantedByName": "Guardian",
+  "level": 19,
+  "description": "_**Guardian:** 4th, 8th, 12th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

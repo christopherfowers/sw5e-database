@@ -1,0 +1,9 @@
+{
+  "key": "species-aing-tii-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Aing-Tii",
+  "description": "You can understand, read, and write Galactic Basic, and the non-verbal communication of the aing-tii. However, you cannot speak or make noise verbally.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

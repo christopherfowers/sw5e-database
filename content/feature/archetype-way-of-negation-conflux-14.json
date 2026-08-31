@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-negation-conflux-14",
+  "name": "Conflux",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Negation",
+  "level": 14,
+  "description": "_**Way of Negation:** 14th level_\nWhen you use your Force Deflection feature, you can cause a ripple in the Force to expand from you. Up to three creatures of your choice that you can see within 60 feet of you each take force damage equal to half your consular level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

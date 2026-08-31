@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

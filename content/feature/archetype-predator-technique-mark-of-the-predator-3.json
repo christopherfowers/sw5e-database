@@ -1,0 +1,10 @@
+{
+  "key": "archetype-predator-technique-mark-of-the-predator-3",
+  "name": "Mark of the Predator",
+  "grantedBy": "archetype",
+  "grantedByName": "Predator Technique",
+  "level": 3,
+  "description": "_**Predator Technique:** 3rd level_\nIf the target of your Ranger's Quarry feature can see you, a number of friendly creatures you choose up to your Intelligence modifier have advantage on Dexterity (Stealth) checks made to hide from it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

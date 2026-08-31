@@ -1,0 +1,10 @@
+{
+  "key": "archetype-jal-shey-order-preternatural-counter-6",
+  "name": "Preternatural Counter",
+  "grantedBy": "archetype",
+  "grantedByName": "Jal Shey Order",
+  "level": 6,
+  "description": "_**Jal Shey Order:** 6th level_\nYour quick mind and study of your foe allows you to use their failure to your advantage. When a creature within 5 feet of you misses you with a melee attack, you can use your reaction to make an unarmed strike against that creature.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "engineer-multiclass-improvement",
+  "name": "Engineer Multiclass Improvement",
+  "className": "Engineer",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in engineer",
+  "description": "You can add your other chosen class's levels to your engineer levels when determining the size of your Potent Aptitude die and the number of uses of your Potent Aptitude feature, and you gain 1 tech point for every two of your other chosen class's levels.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

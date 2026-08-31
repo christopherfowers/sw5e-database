@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "Devaronians reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

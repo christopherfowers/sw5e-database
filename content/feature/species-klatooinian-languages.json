@@ -1,0 +1,9 @@
+{
+  "key": "species-klatooinian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Klatooinian",
+  "description": "You can speak, read, and write Galactic Basic, Klatooinian, and Huttese. Klatooinian is a gutteral, barking language, with many loanwords adopted from Huttese over the centuries.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

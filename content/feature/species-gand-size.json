@@ -1,0 +1,9 @@
+{
+  "key": "species-gand-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Gand",
+  "description": "Gand stand 4 to 6 feet tall and weigh around 100 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

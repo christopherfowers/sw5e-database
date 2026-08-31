@@ -1,0 +1,10 @@
+{
+  "key": "archetype-jal-shey-order-mystical-erudition-3",
+  "name": "Mystical Erudition",
+  "grantedBy": "archetype",
+  "grantedByName": "Jal Shey Order",
+  "level": 3,
+  "description": "_**Jal Shey Order:** 3rd level_\nYou've undergone extensive training in lore from the Jal Shey's collected knowledge. You learn one language of your choice, and you gain proficiency in your choice of Lore, Medicine, Nature, or Technology. You learn an additional language and an additional skill proficiency from the above list at 11th level.\nAdditionally, you can strike multiple pressure points to extract crucial details about your foe. Whenever you hit a creature with an unarmed strike, you can learn learn certain information about its capabilities. The GM tells you if the creature has one of the following characteristics of your choice:\n- Condition immunities\n- Damage vulnerabilities\n- Damage resistances\n- Damage immunities",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

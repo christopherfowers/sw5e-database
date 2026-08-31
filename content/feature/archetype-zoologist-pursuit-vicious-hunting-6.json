@@ -1,0 +1,10 @@
+{
+  "key": "archetype-zoologist-pursuit-vicious-hunting-6",
+  "name": "Vicious Hunting",
+  "grantedBy": "archetype",
+  "grantedByName": "Zoologist Pursuit",
+  "level": 6,
+  "description": "_**Zoologist Pursuit:** 6th level_\nYour beast companion's strikes count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage. Additionally, when your beast makes an attack roll, ability check, or saving throw, you may expend a superiority die and apply the benefits of a maneuver you know from this class, as if you had taken the action yourself.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

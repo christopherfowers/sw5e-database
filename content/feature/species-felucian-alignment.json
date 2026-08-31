@@ -1,0 +1,9 @@
+{
+  "key": "species-felucian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Felucian",
+  "description": "Felucians' connection to the Living Force causes them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

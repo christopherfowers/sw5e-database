@@ -1,0 +1,9 @@
+{
+  "key": "species-ho-din-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ho'din",
+  "description": "Ho'din reach adulthood in their early 30s and live up to 120 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

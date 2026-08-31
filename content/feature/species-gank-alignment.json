@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "Ganks aggressive and hair trigger nature causes them to tend towards chaotic dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

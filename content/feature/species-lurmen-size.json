@@ -1,0 +1,9 @@
+{
+  "key": "species-lurmen-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Lurmen",
+  "description": "Lurmen typically stand around 3 feet tall and generally weigh about 45 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

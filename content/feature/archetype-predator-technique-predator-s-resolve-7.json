@@ -1,0 +1,10 @@
+{
+  "key": "archetype-predator-technique-predator-s-resolve-7",
+  "name": "Predator's Resolve",
+  "grantedBy": "archetype",
+  "grantedByName": "Predator Technique",
+  "level": 7,
+  "description": "_**Predator Technique:** 7th level_\nYou can use your action to gain the following benefits for 1 minute:\n- You have advantage on Constitution saving throws.\n- At the start of each of your turns, you gain temporary hit points equal to your Constitution modifier (minimum of one).\n- When you use your Hunting Party feature and the target of the attack is your Ranger's Quarry, your ally gains a bonus to damage on the attack equal to your Ranger's Quarry Damage Die.\nOnce you've used this feature, you can't use it again until you finish a short or long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

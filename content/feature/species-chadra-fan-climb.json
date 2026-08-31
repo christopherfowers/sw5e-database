@@ -1,0 +1,9 @@
+{
+  "key": "species-chadra-fan-climb",
+  "name": "Climb",
+  "grantedBy": "species",
+  "grantedByName": "Chadra-Fan",
+  "description": "You have a climbing speed of 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

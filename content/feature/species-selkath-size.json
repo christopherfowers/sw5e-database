@@ -1,0 +1,9 @@
+{
+  "key": "species-selkath-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Selkath",
+  "description": "Selkath typically stand between 4 and a half to 5 and a half feet tall and average 130 pounds. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

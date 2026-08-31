@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-mask-of-the-wild",
+  "name": "Mask of the Wild",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

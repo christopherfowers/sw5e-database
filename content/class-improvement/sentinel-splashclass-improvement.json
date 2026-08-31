@@ -1,0 +1,10 @@
+{
+  "key": "sentinel-splashclass-improvement",
+  "name": "Sentinel Splashclass Improvement",
+  "className": "Sentinel",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in sentinel, the ability to cast force powers",
+  "description": "When you hit a creature with a melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. You have three such effects: Deflection, Double Strike, and Slow Time. You can only use each effect once per turn, and you can only use one effect per hit.\n\n***Deflection.*** You can roll a d4 and add it to your AC against one attack before the start of your next turn.\n\n***Double Strike.*** You can roll a d4 and deal additional damage of the same type equal to the amount rolled.\n\n***Slow Time.*** You can roll a d4 to increase your speed by 5 x the amount rolled until the end of your turn.\n\nYou can only spend a number of force points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

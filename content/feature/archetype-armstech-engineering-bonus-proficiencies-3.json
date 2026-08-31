@@ -1,0 +1,10 @@
+{
+  "key": "archetype-armstech-engineering-bonus-proficiencies-3",
+  "name": "Bonus Proficiencies",
+  "grantedBy": "archetype",
+  "grantedByName": "Armstech Engineering",
+  "level": 3,
+  "description": "_**Armstech Engineering:** 3rd level_\nYou gain proficiency in armstech's implements, medium armor, martial blasters, and martial vibroweapons. Additionally, when you engage in crafting with armstech's implements, the rate at which you craft doubles.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

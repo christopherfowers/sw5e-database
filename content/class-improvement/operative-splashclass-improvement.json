@@ -1,0 +1,10 @@
+{
+  "key": "operative-splashclass-improvement",
+  "name": "Operative Splashclass Improvement",
+  "className": "Operative",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in operative",
+  "description": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with a weapon attack if you have advantage on the attack roll. This damage is the same as the weapon's damage, and the attack must use a finesse or a ranged weapon.\n\nYou don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.\n\nYou can deal this additional damage a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

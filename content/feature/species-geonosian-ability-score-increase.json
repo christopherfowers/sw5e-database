@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "You Dexterity score increases by 2, and your Constitution or Intelligence score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

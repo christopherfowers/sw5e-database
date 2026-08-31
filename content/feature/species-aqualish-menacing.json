@@ -1,0 +1,9 @@
+{
+  "key": "species-aqualish-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Aqualish",
+  "description": "You have proficiency in the Intimidation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

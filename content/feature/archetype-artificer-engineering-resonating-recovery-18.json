@@ -1,0 +1,10 @@
+{
+  "key": "archetype-artificer-engineering-resonating-recovery-18",
+  "name": "Resonating Recovery",
+  "grantedBy": "archetype",
+  "grantedByName": "Artificer Engineering",
+  "level": 18,
+  "description": "_**Artificer Engineering:** 18th level_\nOnce per turn, when you reduce a hostile creature to 0 hit points, you regain a use of your Potent Aptitude. Your number of Potent Aptitude uses can not exceed your Intelligence modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

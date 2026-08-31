@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-confluence-empowered-connection-6",
+  "name": "Empowered Connection",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Confluence",
+  "level": 6,
+  "description": "_**Way of Confluence:** 6th level_\nWhile you have temporary hit points, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any damage or healing you do with force powers that doesn't already include that modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

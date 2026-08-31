@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "You can speak, read, and write Shyriiwook. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-maverick-practice-practice-makes-perfect-17",
+  "name": "Practice Makes Perfect",
+  "grantedBy": "archetype",
+  "grantedByName": "Maverick Practice",
+  "level": 17,
+  "description": "_**Maverick Practice:** 13th and 17th level_\nWhen you make an ability check as part of or that is affected by a maneuver you use, you can choose to increase your level of proficiency in that check by one step (from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

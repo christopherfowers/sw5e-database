@@ -1,0 +1,9 @@
+{
+  "key": "species-felucian-force-sensitive",
+  "name": "Force-Sensitive",
+  "grantedBy": "species",
+  "grantedByName": "Felucian",
+  "description": "You know the *burst* at-will force power. When you reach 3rd level, you learn and can cast the *beast trick* force power once per day. When you reach 5th level, you learn and can cast the *plant surge* force power once per day. Wisdom is your forcecasting ability for these powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

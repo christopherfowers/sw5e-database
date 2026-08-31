@@ -1,0 +1,9 @@
+{
+  "key": "species-zeltron-natural-empathy",
+  "name": "Natural Empathy",
+  "grantedBy": "species",
+  "grantedByName": "Zeltron",
+  "description": "Zeltron's limited telepathy allow them to sense mood shifts in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

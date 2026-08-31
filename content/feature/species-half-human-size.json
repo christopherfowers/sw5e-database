@@ -1,0 +1,9 @@
+{
+  "key": "species-half-human-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Half-human",
+  "description": "Half-humans stand and weigh around the average of the two species' height and weight. Regardless of your position in that range, your size is the size of your non-human half.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

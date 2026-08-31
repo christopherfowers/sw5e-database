@@ -1,0 +1,9 @@
+{
+  "key": "species-vurk-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Vurk",
+  "description": "Vurk philosophies cause them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

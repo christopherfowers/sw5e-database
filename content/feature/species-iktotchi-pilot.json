@@ -1,0 +1,9 @@
+{
+  "key": "species-iktotchi-pilot",
+  "name": "Pilot",
+  "grantedBy": "species",
+  "grantedByName": "Iktotchi",
+  "description": "You have proficiency in the Piloting skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

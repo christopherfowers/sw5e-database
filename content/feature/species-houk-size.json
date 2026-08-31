@@ -1,0 +1,9 @@
+{
+  "key": "species-houk-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Houk",
+  "description": "Houk typically stand 6 to 8 feet tall and generally weigh about 300 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

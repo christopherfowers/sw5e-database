@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-tech-resistance",
+  "name": "Tech Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "Growing up around technology leaves an impact on duros. You have advantage on Dexterity and Intelligence saving throws against tech powers.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

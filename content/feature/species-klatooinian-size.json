@@ -1,0 +1,9 @@
+{
+  "key": "species-klatooinian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Klatooinian",
+  "description": "Klatooinians typically stand around 6 feet tall and generally weigh about 170 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-balosar-keen-hearing",
+  "name": "Keen Hearing",
+  "grantedBy": "species",
+  "grantedByName": "Balosar",
+  "description": "Your antennapalps give you advantage on Wisdom (Perception) checks based on hearing.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

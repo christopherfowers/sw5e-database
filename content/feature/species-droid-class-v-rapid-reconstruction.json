@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-v-rapid-reconstruction",
+  "name": "Rapid Reconstruction",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class V",
+  "description": "You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

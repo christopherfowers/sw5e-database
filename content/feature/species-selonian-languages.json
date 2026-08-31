@@ -1,0 +1,9 @@
+{
+  "key": "species-selonian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Selonian",
+  "description": "You can speak, read, and write Galactic Basic and Mandaba. Selonians use the name \"Home Talk\" to refer to their own language.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

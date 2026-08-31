@@ -1,0 +1,10 @@
+{
+  "key": "archetype-assault-specialist-brutish-durability-7",
+  "name": "Brutish Durability",
+  "grantedBy": "archetype",
+  "grantedByName": "Assault Specialist",
+  "level": 7,
+  "description": "_**Assault Specialist:** 7th level_\nOnce per round, roll 1d6 and add the die to your saving throw total. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20. You can choose to use this feature before or after you make a saving throw, but you must decide before the GM says whether the save succeeds or fails.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

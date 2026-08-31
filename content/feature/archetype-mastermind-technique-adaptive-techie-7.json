@@ -1,0 +1,10 @@
+{
+  "key": "archetype-mastermind-technique-adaptive-techie-7",
+  "name": "Adaptive Techie",
+  "grantedBy": "archetype",
+  "grantedByName": "Mastermind Technique",
+  "level": 7,
+  "description": "_**Mastermind Technique:** 7th level_\nWhen you complete a long rest, you can choose up to a number of tech powers you know equal to half your Intelligence modifier and replace them with another tech power, as long as that power is not of a higher level than your Max Power Level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

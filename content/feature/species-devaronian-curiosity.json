@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-curiosity",
+  "name": "Curiosity",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "You have proficiency with Survival or Investigation (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

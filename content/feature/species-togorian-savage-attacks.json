@@ -1,0 +1,9 @@
+{
+  "key": "species-togorian-savage-attacks",
+  "name": "Savage Attacks",
+  "grantedBy": "species",
+  "grantedByName": "Togorian",
+  "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

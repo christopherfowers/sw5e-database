@@ -1,0 +1,10 @@
+{
+  "key": "archetype-precision-approach-focused-rage-3",
+  "name": "Focused Rage",
+  "grantedBy": "archetype",
+  "grantedByName": "Precision Approach",
+  "level": 3,
+  "description": "_**Precision Approach:** 3rd level_\nYou hone your rage to a razor sharp focus. While raging, when you make a melee weapon attack using Dexterity, you add your rage damage to the damage roll. Additionally, you can use your Reckless Attack feature to give you advantage on melee weapon attacks using Dexterity during your turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

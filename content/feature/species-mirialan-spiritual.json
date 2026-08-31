@@ -1,0 +1,9 @@
+{
+  "key": "species-mirialan-spiritual",
+  "name": "Spiritual",
+  "grantedBy": "species",
+  "grantedByName": "Mirialan",
+  "description": "You have proficiency in Lore. Additionally, you are considered to have expertise in Intelligence (Lore) checks made to learn or recall something about a culture's religion.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-tognath-exoskeleton",
+  "name": "Exoskeleton",
+  "grantedBy": "species",
+  "grantedByName": "Tognath",
+  "description": "You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

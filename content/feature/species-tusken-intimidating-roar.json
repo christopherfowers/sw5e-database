@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-intimidating-roar",
+  "name": "Intimidating Roar",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "Once per day, you can cast the *fear* force power. Charisma is your forcecasting ability for this power.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

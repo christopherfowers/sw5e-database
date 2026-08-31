@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "Nautolans reach adulthood in their early teens and live about 70 years on average.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

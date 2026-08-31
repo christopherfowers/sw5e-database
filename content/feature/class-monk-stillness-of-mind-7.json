@@ -1,0 +1,10 @@
+{
+  "key": "class-monk-stillness-of-mind-7",
+  "name": "Stillness of Mind",
+  "grantedBy": "class",
+  "grantedByName": "Monk",
+  "level": 7,
+  "description": "_**Monk:** 7th level_\nYou can use your action or bonus action to end one effect on yourself that is causing you to be charmed or frightened.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

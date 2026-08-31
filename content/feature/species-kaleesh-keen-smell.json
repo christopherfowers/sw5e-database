@@ -1,0 +1,9 @@
+{
+  "key": "species-kaleesh-keen-smell",
+  "name": "Keen Smell",
+  "grantedBy": "species",
+  "grantedByName": "Kaleesh",
+  "description": "You have advantage on Wisdom (Perception) checks that rely on smell.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

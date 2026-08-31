@@ -1,0 +1,10 @@
+{
+  "key": "archetype-stalker-technique-accomplished-ambusher-3",
+  "name": "Accomplished Ambusher",
+  "grantedBy": "archetype",
+  "grantedByName": "Stalker Technique",
+  "level": 3,
+  "description": "_**Stalker Technique:** 3rd level_\nWhen you take the Attack action against a creature that is surprised, you can make one additional attack against that creature as a part of that action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

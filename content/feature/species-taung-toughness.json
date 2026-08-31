@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-toughness",
+  "name": "Toughness",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-killik-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Killik",
+  "description": "You can speak, read, and write Killik. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

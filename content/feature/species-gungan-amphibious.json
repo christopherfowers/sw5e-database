@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-amphibious",
+  "name": "Amphibious",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "You can breathe air and water.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

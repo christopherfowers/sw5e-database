@@ -1,0 +1,9 @@
+{
+  "key": "species-gamorrean-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Gamorrean",
+  "description": "Gamorreans reach adulthood in their early teens and live no more than 70 years.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

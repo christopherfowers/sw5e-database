@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iv-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class IV",
+  "description": "Class IV droids typically stand between 5 and 7 feet and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

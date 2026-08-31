@@ -1,0 +1,10 @@
+{
+  "key": "archetype-shii-cho-form-sarlaac-sweep-15",
+  "name": "Sarlaac Sweep",
+  "grantedBy": "archetype",
+  "grantedByName": "Shii-Cho Form",
+  "level": 15,
+  "description": "_**Shii-Cho Form:** 15th level_\nWhen a creature moves to within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. If the attack hits, you can attempt to damage another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength or Dexterity modifier (your choice). The damage is of the same type dealt by the original attack.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

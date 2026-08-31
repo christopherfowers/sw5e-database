@@ -1,0 +1,10 @@
+{
+  "key": "class-berserker-berserker-approach-3",
+  "name": "Berserker Approach",
+  "grantedBy": "class",
+  "grantedByName": "Berserker",
+  "level": 3,
+  "description": "_**Berserker:** 3rd, 6th, 10th, and 14th level_\nYou choose an approach that shapes the nature of your rage which is detailed at the end of the class description.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

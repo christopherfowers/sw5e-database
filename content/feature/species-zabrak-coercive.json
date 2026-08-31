@@ -1,0 +1,9 @@
+{
+  "key": "species-zabrak-coercive",
+  "name": "Coercive",
+  "grantedBy": "species",
+  "grantedByName": "Zabrak",
+  "description": "You have proficiency with Persuasion or Intimidation (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}
