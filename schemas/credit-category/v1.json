@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/credit-category/v1.json",
+  "title": "CreditCategory",
+  "description": "One kind of credit, and the heading it is shown under. Categories exist as their own content type because the kinds of credit are not interchangeable: a patron who funded the hosting, an artist whose picture is on a page, and a collaborator who wrote a whole book of rules have each earned a different acknowledgement, and collapsing them into one undifferentiated list of names takes that away from all three. Adding a category is therefore a deliberate editorial act with its own document, not a new string appearing in a field somewhere.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "title", "order"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this category. Every credit document names one of these in its categoryKey, so the value is part of the credit keys too and must not be reused for a different meaning after it has been published."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Heading shown above the category, as a reader sees it: \"The SW5e Jedi Council\", \"The Patrons\". Where the original site gave a category a name, that name is kept verbatim rather than tidied, because it is how the people in it were addressed."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Position of this category on the credits page, counting from one. Ordering is authored rather than alphabetical because the sequence carries meaning: the people who made the thing come before the people who supported it, and the rights holder comes last."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One or two sentences introducing the category, shown under the heading. Prefer the original site's own wording where it had some, so the credit reads as it was written rather than as a later editor would have put it."
+    },
+    "note": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A short aside shown with the category, for a fact about the list itself rather than about the people in it, such as that it is ordered alphabetically or that it is known to be incomplete."
+    }
+  }
+}
