@@ -1,0 +1,10 @@
+{
+  "key": "automatic-startup-sequence",
+  "name": "Automatic Startup Sequence",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "The ability to cast tech powers",
+  "description": "When a creature makes a saving throw against a tech power you cast, you may expend a superiority die, subtracting the number rolled from their total.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

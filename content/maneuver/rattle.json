@@ -1,0 +1,10 @@
+{
+  "key": "rattle",
+  "name": "Rattle",
+  "maneuverType": "physical",
+  "superiorityDice": 1,
+  "prerequisite": "Proficiency in Intimidation",
+  "description": "On your turn, when you hit with a weapon attack, you can use a bonus action and expend and roll one superiority die to menace your target, dealing extra psychic damage equal to the amount rolled and forcing it to succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

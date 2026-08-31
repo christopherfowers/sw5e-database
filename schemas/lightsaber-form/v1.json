@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/lightsaber-form/v1.json",
+  "title": "Lightsaber Form",
+  "description": "A combat stance adopted as a bonus action, one at a time, and held until another is adopted or the fight ends. Forms do not read like the other combat options: there are no benefit bullets and no cost, but there are two different moments at which a form can do something, and telling them apart is the whole of playing one well. Something happens as part of the bonus action that adopts the form, and something else is true for as long as the form is held. Those are separate entries here rather than one paragraph, because a player who has already adopted a form needs only the second kind and a player deciding which form to adopt needs only the first.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "effects"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this form. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, always \"<Form> Form\": Makashi Form, Shii-Cho Form, Jar'Kai Form. The names are in-universe proper nouns and are reproduced as printed, apostrophes and hyphens included."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this form was published in, matching a document of the source content type. Every lightsaber form in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this form belongs to the core rules or to the community expanded-content supplement."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What a character must already have to learn this form, as printed. Only Aqinos Form carries one, requiring the ability to cast tech powers. Omit when any character with access to forms may learn it."
+    },
+    "effects": {
+      "type": "array",
+      "minItems": 1,
+      "description": "What the form does, split by when it does it, in the printed order. A form has at least one effect and never more than two: an on-adopt effect, an active one, or both.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["timing", "description"],
+        "properties": {
+          "timing": {
+            "enum": ["onAdopt", "active"],
+            "description": "When the effect applies. onAdopt is reserved for text the books tie explicitly to the bonus action that adopts the form — it opens \"As a part of the bonus action to adopt this form\" — and it is a one-off: adopting the form again later is what triggers it again. active is everything else the form grants, which is what a character has while the form is held. The distinction is taken from that printed phrase rather than inferred from what the effect does, so it can be checked against the page."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Markdown rules text in second person for this half of the form. Reproduced as printed, including the \"As a part of the bonus action to adopt this form\" clause on an onAdopt effect: it reads as a sentence to a reader and it is the evidence for the timing to a reviewer."
+          }
+        }
+      }
+    }
+  }
+}

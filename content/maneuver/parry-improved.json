@@ -1,0 +1,11 @@
+{
+  "key": "parry-improved",
+  "name": "Parry (Improved)",
+  "maneuverType": "general",
+  "superiorityDice": 0,
+  "prerequisite": "Parry maneuver",
+  "improves": "Parry",
+  "description": "Parry becomes a general maneuver for you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,4 +1,5 @@
 using System.Text.Json.Nodes;
+using System.Text.RegularExpressions;
 using static Sw5e.Database.Tests.LegacyArchive;
 
 namespace Sw5e.Database.Tests;
@@ -31,6 +32,12 @@ public static class LegacyContentMapper
         "monster" => Finish(Monster(item)),
         "archetype" => Finish(Archetype(item)),
         "feature" => Finish(Feature(item)),
+        "maneuver" => Finish(Maneuver(item)),
+        "fighting-style" => Finish(Bulleted(item, "description")),
+        "fighting-mastery" => Finish(Bulleted(item, "text")),
+        "lightsaber-form" => Finish(LightsaberForm(item)),
+        "weapon-focus" => Finish(WeaponGrouped(item, " Focus")),
+        "weapon-supremacy" => Finish(WeaponGrouped(item, " Supremacy")),
         _ => throw new ArgumentOutOfRangeException(nameof(contentType), contentType, "No mapping defined.")
     };
 
@@ -473,5 +480,230 @@ public static class LegacyContentMapper
             ["level"] = level,
             ["description"] = Text(item, "text")
         };
+    }
+
+    // -------------------------------------------------------- combat options
+    //
+    // The six combat-option types share a problem the other eight do not have:
+    // the archive stores their mechanics as one prose blob, and the structure
+    // that matters is written *inside* that blob rather than beside it. A
+    // fighting style's benefits are a markdown bullet list; a lightsaber form's
+    // two halves are two paragraphs; a maneuver's cost is a clause. The
+    // schemas model those parts as fields, so this mapper has to find them.
+    //
+    // That is still mapping rather than repair, and the distinction is worth
+    // stating because it is the line the rest of this file holds. Each rule
+    // below keys off a marker the source itself prints — a "- " bullet, a
+    // blank line, the italic "**Prerequisite:**" run-in, the literal sentence
+    // "As a part of the bonus action to adopt this form" — and reproduces the
+    // text it finds byte for byte. Nothing here rewrites a value, supplies a
+    // missing one, or decides what a sentence means. Where the archive is
+    // simply wrong, it stays wrong here and is caught by a test, exactly as
+    // the monster with a challenge rating of "CR" is.
+
+    /// <summary>
+    /// The archive's CRLF line endings, normalised to LF.
+    /// </summary>
+    /// <remarks>
+    /// This is the one liberty taken with the bytes, and it is unavoidable: a
+    /// bullet, a paragraph break and a run-in heading are all defined in terms
+    /// of line boundaries, so the boundaries have to be spelled one way before
+    /// any of them can be found. It changes no character a reader sees.
+    /// </remarks>
+    private static string Lines(string value) =>
+        value.Replace("\r\n", "\n", StringComparison.Ordinal)
+             .Replace('\r', '\n');
+
+    /// <summary>
+    /// The italic prerequisite line the books print above an entry, as in
+    /// <c>_**Prerequisite:** The ability to cast force powers_</c>. Three of
+    /// the 219 combat options carry one. It is lifted into a field of its own
+    /// because a class builder has to be able to filter on it, and because
+    /// leaving it inside the description would print a prerequisite in the
+    /// middle of the rules text on any page that renders the two separately.
+    /// </summary>
+    private static readonly Regex PrerequisiteRunIn = new(
+        @"^_\*\*Prerequisite:\*\*\s*(?<value>.+?)_\s*\n",
+        RegexOptions.Singleline | RegexOptions.CultureInvariant);
+
+    /// <summary>
+    /// Splits the run-in prerequisite off the front of an entry, returning it
+    /// and whatever follows.
+    /// </summary>
+    private static (string? Prerequisite, string Body) TakePrerequisite(string text)
+    {
+        var match = PrerequisiteRunIn.Match(text);
+
+        return match.Success
+            ? (match.Groups["value"].Value.Trim(), text[match.Length..])
+            : (null, text);
+    }
+
+    /// <summary>
+    /// Every maneuver whose text has the player spend a die says so with one
+    /// of two phrasings: "expend a superiority die" or "expend and roll one
+    /// superiority die". 109 of the 119 match; the ten that do not are the
+    /// tiered upgrades, which cost nothing of their own, plus Effective
+    /// Flanking, whose printed text has the player roll a die without
+    /// expending it.
+    /// </summary>
+    private static readonly Regex ExpendsSuperiorityDie = new(
+        @"expend(?:ing)?(?:\s+and\s+roll(?:ing)?)?\s+(?:a|one)\s+superiority\s+(?:die|dice)",
+        RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+    /// <summary>
+    /// The parenthesised tier on an upgraded maneuver's name. "Administer Aid
+    /// (Improved)" is the same maneuver as "Administer Aid", one tier up, and
+    /// the base name is the only machine-readable statement of that anywhere
+    /// in the record: the upgrade's own prerequisite names the tier below it,
+    /// which for a third tier is not the base at all.
+    /// </summary>
+    private static readonly Regex ManeuverTier = new(
+        @"\s*\((?:Improved|Greater)\)$",
+        RegexOptions.CultureInvariant);
+
+    private static JsonObject Maneuver(JsonObject item)
+    {
+        var name = Text(item, "name")!;
+        var description = Text(item, "description");
+        var maneuverType = Text(item, "type");
+        var baseName = ManeuverTier.Replace(name, string.Empty);
+
+        var mapped = new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name,
+            ["maneuverType"] = maneuverType is null ? null : Lower(maneuverType),
+
+            // Always written, including the zero: a maneuver that costs
+            // nothing is a fact about it, not a missing value, and Prune would
+            // drop the field if it were null. JsonValue keeps 0 either way.
+            ["superiorityDice"] =
+                description is not null && ExpendsSuperiorityDie.IsMatch(description) ? 1 : 0,
+
+            ["prerequisite"] = Text(item, "prerequisite"),
+            ["improves"] = baseName == name ? null : baseName,
+            ["description"] = description
+        };
+
+        return With(mapped, Provenance(item));
+    }
+
+    /// <summary>
+    /// Fighting styles, fighting masteries, weapon focuses and weapon
+    /// supremacies are all printed the same way: a sentence or two of lead-in
+    /// ending in a colon, then a markdown bullet list of the benefits. All 80
+    /// of them follow it exactly, with no prose after the last bullet, which
+    /// is what makes splitting on the first bullet safe rather than lossy.
+    /// </summary>
+    private static JsonObject Bulleted(JsonObject item, string field, JsonObject? extra = null)
+    {
+        var name = Text(item, "name")!;
+        var (prerequisite, body) = TakePrerequisite(Lines(Text(item, field)!));
+
+        var lines = body.Split('\n');
+        var firstBullet = System.Array.FindIndex(lines, line => line.StartsWith("- ", StringComparison.Ordinal));
+
+        var lead = firstBullet < 0
+            ? body.Trim()
+            : string.Join("\n", lines[..firstBullet]).Trim();
+
+        var benefits = firstBullet < 0
+            ? []
+            : lines[firstBullet..]
+                .Where(line => line.StartsWith("- ", StringComparison.Ordinal))
+                .Select(line => line[2..].Trim())
+                .ToArray();
+
+        var mapped = new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name
+        };
+
+        if (extra is not null)
+        {
+            With(mapped, extra);
+        }
+
+        mapped["prerequisite"] = prerequisite;
+        mapped["description"] = lead;
+        mapped["benefits"] = new JsonArray(benefits
+            .Select(benefit => (JsonNode)JsonValue.Create(benefit))
+            .ToArray());
+
+        return With(mapped, Provenance(item));
+    }
+
+    /// <summary>
+    /// The eight weapon groups, spelled as they appear in an entry's name once
+    /// the "Focus" or "Supremacy" suffix is removed. Three of them carry the
+    /// word "Weapon" in the printed name and five do not, which is why the
+    /// group is read from a table rather than derived by lower-casing.
+    /// </summary>
+    private static readonly Dictionary<string, string> WeaponGroups = new(StringComparer.Ordinal)
+    {
+        ["Blade"] = "blade",
+        ["Carbine"] = "carbine",
+        ["Crushing Weapon"] = "crushing",
+        ["Heavy Weapon"] = "heavy",
+        ["Polearm"] = "polearm",
+        ["Rifle"] = "rifle",
+        ["Sidearm"] = "sidearm",
+        ["Trip Weapon"] = "trip"
+    };
+
+    private static JsonObject WeaponGrouped(JsonObject item, string suffix)
+    {
+        var name = Text(item, "name")!;
+        var group = name.EndsWith(suffix, StringComparison.Ordinal)
+            ? name[..^suffix.Length]
+            : name;
+
+        return Bulleted(item, "description", new JsonObject
+        {
+            // An unrecognised group is left as the raw name so the schema's
+            // enum rejects it loudly. Silently mapping it to null would drop
+            // the field and let a new weapon group validate as a focus that
+            // applies to nothing.
+            ["weaponGroup"] = WeaponGroups.TryGetValue(group, out var mapped) ? mapped : group
+        });
+    }
+
+    /// <summary>
+    /// The sentence a lightsaber form uses to tie an effect to the bonus
+    /// action that adopts it. Nine of the twenty open with it. It is matched
+    /// as a literal rather than paraphrased because it is the source's own
+    /// statement of the timing, and a reviewer has to be able to find it on
+    /// the page.
+    /// </summary>
+    private const string FormAdoptionClause =
+        "As a part of the bonus action to adopt this form";
+
+    private static JsonObject LightsaberForm(JsonObject item)
+    {
+        var name = Text(item, "name")!;
+        var (prerequisite, body) = TakePrerequisite(Lines(Text(item, "description")!));
+
+        var effects = body
+            .Split("\n\n", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+            .Select(paragraph => (JsonNode)new JsonObject
+            {
+                ["timing"] = paragraph.StartsWith(FormAdoptionClause, StringComparison.Ordinal)
+                    ? "onAdopt"
+                    : "active",
+                ["description"] = paragraph
+            })
+            .ToArray();
+
+        var mapped = new JsonObject
+        {
+            ["key"] = Slug(name),
+            ["name"] = name,
+            ["prerequisite"] = prerequisite,
+            ["effects"] = new JsonArray(effects)
+        };
+
+        return With(mapped, Provenance(item));
     }
 }

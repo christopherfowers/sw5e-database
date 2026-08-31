@@ -41,8 +41,16 @@ in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
 - no file contains U+FFFD, the replacement character left behind wherever the
   original scrape lost an apostrophe, a dash or an accented letter;
 - every cross-reference resolves inside the set: `sourceKey`, a background's
-  suggested feats, a feat prerequisite naming another feat, and the class,
-  archetype or species a feature is granted by.
+  suggested feats, a feat prerequisite naming another feat, a maneuver
+  prerequisite or upgrade naming another maneuver, and the class, archetype or
+  species a feature is granted by.
+
+The six combat-option types — maneuvers, fighting styles, fighting masteries,
+lightsaber forms, weapon focuses and weapon supremacies — are the exception to
+"curated seed set": all 219 of them are published, because they are small,
+self-contained, and complete. `CombatOptionContentTests` asserts the size and
+shape of each type, so a partial import fails rather than quietly publishing a
+sample.
 
 ## Adding a content type
 

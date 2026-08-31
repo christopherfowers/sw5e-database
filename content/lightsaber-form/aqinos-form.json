@@ -1,0 +1,13 @@
+{
+  "key": "aqinos-form",
+  "name": "Aqinos Form",
+  "prerequisite": "The ability to cast tech powers",
+  "effects": [
+    {
+      "timing": "onAdopt",
+      "description": "As a part of the bonus action to adopt this form, if you cast a tech power of 1st level or higher as your action, but no higher than half your Max Power Level, you can make one melee weapon attack."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

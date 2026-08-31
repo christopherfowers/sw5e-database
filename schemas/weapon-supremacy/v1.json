@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/weapon-supremacy/v1.json",
+  "title": "Weapon Supremacy",
+  "description": "The higher tier of weapon specialisation from Wretched Hives, taken later in a character's career and covering the same eight weapon groups as weapon focus. It is a type of its own rather than a tier inside weapon-focus for the same reason fighting masteries are separate from fighting styles: the two are granted by different features, appear in different lists, and a character can hold either without the other. The shape is identical, which is deliberate — a reader comparing Blade Focus with Blade Supremacy should be comparing like with like.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "weaponGroup",
+    "description",
+    "benefits"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this supremacy. Derived from the name once and never reused, so saved characters keep resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as printed: Blade Supremacy, Crushing Weapon Supremacy, Trip Weapon Supremacy. As with the focuses, whether the word \"Weapon\" appears varies by group, so the name is reproduced rather than generated."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this supremacy was published in, matching a document of the source content type. Every weapon supremacy in the archive is wh."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this supremacy belongs to the core rules or to the community expanded-content supplement."
+    },
+    "weaponGroup": {
+      "enum": [
+        "blade",
+        "carbine",
+        "crushing",
+        "heavy",
+        "polearm",
+        "rifle",
+        "sidearm",
+        "trip"
+      ],
+      "description": "The group of weapons the supremacy applies to, using the same eight values as weapon focus so the pair of a group's entries can be read side by side."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence that opens the entry, saying what the character has specialised in and under what condition the benefits apply, ending at the colon that introduces them."
+    },
+    "benefits": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The concrete rules the supremacy grants while wielding a weapon of its group, one entry per bullet as printed, in the printed order.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

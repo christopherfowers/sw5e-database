@@ -1,0 +1,9 @@
+{
+  "key": "inner-strength",
+  "name": "Inner Strength",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "description": "As an action, you can expend and roll one superiority die, gaining temporary hit points equal to the result of the roll + your maneuver ability modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

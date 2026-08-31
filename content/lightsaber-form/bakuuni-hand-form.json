@@ -1,0 +1,16 @@
+{
+  "key": "bakuuni-hand-form",
+  "name": "Bakuuni Hand Form",
+  "effects": [
+    {
+      "timing": "onAdopt",
+      "description": "As a part of the bonus action to adopt this form, if you took the Attack action and would be able to use your bonus action to make an unarmed strike, you can do so as a part of this bonus action."
+    },
+    {
+      "timing": "active",
+      "description": "Until the start of your next turn, when a creature enters your reach or moves while within your reach, you can use your reaction to attempt to shove the creature. On a success, you can choose shove the target an additional 5 feet."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

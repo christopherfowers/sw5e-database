@@ -1,0 +1,9 @@
+{
+  "key": "assess-the-situation",
+  "name": "Assess the Situation",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "description": "You can expend one superiority die to make a Wisdom (Perception) or Intelligence (Investigation) check as a bonus action, adding the superiority die to the check.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

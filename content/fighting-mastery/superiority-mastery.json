@@ -1,0 +1,13 @@
+{
+  "key": "superiority-mastery",
+  "name": "Superiority Mastery",
+  "description": "You've mastered utilizing maneuvers to enhance your skills on the battlefield, *expanded*. You gain the following benefits:",
+  "benefits": [
+    "You learn one maneuver, detailed in Chapter 13. If you already know at least one maneuver, you instead learn three maneuvers. Your maneuver ability is Strength, Dexterity, or Constitution for physical maneuvers (your choice), your Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers.",
+    "You gain one superiority die. If you already have at least one superiority die, you instead gain two additional superiority dice. Your superiority die is a d4, and it changes as you gain levels: to d6 at 5th level, to d8 at 9th level, to d10 at 13th level, and to d12 at 17th level. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
+    "When you use a maneuver on your turn that involves rolling a superiority die, you can use your bonus action to gain advantage on the superiority die roll.",
+    "Choose one maneuver you know. When you would use the chosen maneuver, you can use a d4 instead of expending a superiority die. You can do so a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

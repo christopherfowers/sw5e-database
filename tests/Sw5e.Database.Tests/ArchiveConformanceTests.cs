@@ -29,7 +29,21 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
         ("equipment", "Equipment", 507),
         ("monster", "Monster", 271),
         ("archetype", "Archetype", 137),
-        ("feature", "Feature", 2723)
+        ("feature", "Feature", 2723),
+
+        // The combat options. Six small files rather than one large one,
+        // because that is how the archive stores them and how the books print
+        // them: a character chooses a fighting style from one list and a
+        // fighting mastery from another, and nothing lets one stand in for the
+        // other. The counts are the point of writing them down — the whole set
+        // is 219 items, and a mapping that quietly produced 40 of them would
+        // otherwise look identical to one that worked.
+        ("maneuver", "Maneuvers", 119),
+        ("fighting-style", "FightingStyle", 32),
+        ("fighting-mastery", "FightingMastery", 32),
+        ("lightsaber-form", "LightsaberForm", 20),
+        ("weapon-focus", "WeaponFocus", 8),
+        ("weapon-supremacy", "WeaponSupremacy", 8)
     ];
 
     public static TheoryData<string> ContentTypes

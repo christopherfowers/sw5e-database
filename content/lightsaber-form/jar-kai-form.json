@@ -1,0 +1,16 @@
+{
+  "key": "jar-kai-form",
+  "name": "Jar'Kai Form",
+  "effects": [
+    {
+      "timing": "onAdopt",
+      "description": "As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting."
+    },
+    {
+      "timing": "active",
+      "description": "Each time you hit with an attack on this turn, you can move up to 5 feet without provoking opportunity attacks from the creature you hit."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

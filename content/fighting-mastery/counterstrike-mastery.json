@@ -1,0 +1,13 @@
+{
+  "key": "counterstrike-mastery",
+  "name": "Counterstrike Mastery",
+  "description": "You've mastered returning attacks at those who dare strike you, effortless turning aside their blades while striking them with your own. You gain the following benefits:",
+  "benefits": [
+    "Creatures have disadvantage on damage rolls from opportunity attacks they make that hit you, and you have advantage on damage roll for opportunity attacks you make that hit.",
+    "When you roll a die to reduce the damage you take from a weapon, you have advantage on the die roll.",
+    "Once per round, when a creature provokes an opportunity attack from you, you can choose to gain a special reaction which you can only use to make that opportunity attack. If you do so, you make the opportunity attack without the aid of your proficiency bonus.",
+    "When you would be the target of a weapon attack, you can immediately use your reaction to make an opportunity attack against the target without your proficiency bonus. On a hit, the target suffers the attack's normal effects, and you impose disadvantage on the triggering roll."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}
