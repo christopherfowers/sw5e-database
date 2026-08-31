@@ -1,0 +1,180 @@
+{
+  "key": "at-te",
+  "name": "AT-TE",
+  "size": "gargantuan",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 18,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 248,
+    "roll": "16d20 + 80"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 25,
+      "modifier": 7
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 21,
+      "modifier": 5
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Str +12",
+    "Con +10"
+  ],
+  "damageResistances": {
+    "types": [
+      "psychic"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "ion",
+      "necrotic",
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned",
+      "frightened",
+      "petrified",
+      "restrained",
+      "incapacitated",
+      "stunned",
+      "prone",
+      "blinded",
+      "charmed"
+    ],
+    "other": [
+      "disease"
+    ]
+  },
+  "challengeRating": "18",
+  "experiencePoints": 20000,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Electromagnetic Shielding",
+      "behaviorType": "trait",
+      "description": "The AT-TE is Immune to Ion damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Heavy Durasteel Armor",
+      "behaviorType": "trait",
+      "description": "The outer layer of the AT-TE is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 15 points, the AT-TE takes no damage from that attack. If the AT-TE takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Piloted",
+      "behaviorType": "trait",
+      "description": "The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Towering",
+      "behaviorType": "trait",
+      "description": "Creatures of Medium size or smaller can stand in the AT-TE's space.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Troop Transport",
+      "behaviorType": "trait",
+      "description": "The AT-TE can transport a maximum of 20 stormtroopers and five speeder bikes, which it can deploy using its Deploy Troops legendary action, or which can be fought by creatures inside of the AT-TE.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vulnerable Interior",
+      "behaviorType": "trait",
+      "description": "The AT-TE's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The AT-TE makes four attacks: one with its laser cannon volley and three with its medium repeaters.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Laser Cannon Volley",
+      "behaviorType": "action",
+      "description": "The AT-TE chooses a point within 240 ft and lets loose a blast from its heavy laser cannon that explodes in a 15ft cube around that point. Each creature within the cube must succeed on a DC 16 Dexterity saving throw, taking 33 (6d10) energy damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Medium Repeaters",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +8 to hit, range 120/240 ft., one target. Hit: 19 (3d10+3) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 8,
+      "range": "range 120/240 ft.",
+      "targets": "one target",
+      "averageDamage": 19,
+      "damageRoll": "3d10+3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Repeating Blasters",
+      "behaviorType": "legendary",
+      "description": "The AT-TE makes a single attack with its medium repeaters.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Deploy Troops",
+      "behaviorType": "legendary",
+      "description": "The AT-TE mobilizes some of the soldiers traveling within it. It deploys 1d4+2 Troopers. These troops appear in any unoccupied spaces within 10 feet of the AT-TE.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    }
+  ],
+  "flavorText": "The All Terrain Tactical Enforcer (AT-TE), is an all terrain assault walker developed for the Grand Army of the Republic during the Clone Wars. The walker is used for transporting platoons of troopers and attacking enemy installations. The AT-TE's cramped rear compartment contains computer hologram communication devices and space for troopers to stand during transportation. On the back end of the machine is a large door for quick deployment of troopers. Some versions of the walker were able to scale vertical cliffs. The typical arsenal includes a top-mounted mass-driver cannon, along with six other laser cannons placed strategically around the outside of the vehicle.",
+  "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

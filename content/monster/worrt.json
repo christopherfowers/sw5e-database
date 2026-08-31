@@ -1,0 +1,101 @@
+{
+  "key": "worrt",
+  "name": "Worrt",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 22,
+    "roll": "4d8 + 4"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 13,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 3,
+      "modifier": -4
+    }
+  },
+  "skills": [
+    "Perception +3",
+    "Stealth +3"
+  ],
+  "senses": [
+    "darkvision 30 ft.",
+    "passive Perception 13"
+  ],
+  "damageImmunities": {
+    "types": [
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Stone Camouflage",
+      "behaviorType": "trait",
+      "description": "The worrt has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) kinetic damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the worrt can't bite another target. The target must make a DC 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a success.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tongue",
+      "behaviorType": "action",
+      "description": "The worrt targets one Small or smaller creature that it can see within 15 feet of it. The target must make a DC 12 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the worrt, and the worrt can make a bite attack against it as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Worrts are a non-sentient species that hail from the desert of the planet Tatooine, although they can also be found on Nal Hutta and Phaeda. ***Biology & Appearance.*** Worrts are squat and spiky creatures whose appearance bears similarities to that of chubas. They have brown, warty skin and measure 1.5 meters in height. They are quadrupeds with dexterous forelimbs. A worrt's head features a pair of sensitive cranial palps; two bulbous eyes, yellow in hue; two nostrils; and a large mouth containing a long tongue and strong teeth laced with a venom potent enough to kill a bantha. Worrts lay large amounts of soft eggs, which are harvested for food and used as ingredients in drinks such as Jabba Juice.\n\n***Behavior.*** Worrts feed mostly on insects and rodents. When hungry, a worrt settles into the sand, becoming indistinguishable from a rocky outcropping, and waits for prey to pass. When its victim comes close enough, the worrt throws its tongue out of its mouth and wraps it around the prey. The worrt's tongue then snaps back, throwing the food down its throat.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

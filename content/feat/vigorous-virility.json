@@ -1,0 +1,12 @@
+{
+  "key": "vigorous-virility",
+  "name": "Vigorous Virility",
+  "abilityScoreIncreases": [
+    "constitution",
+    "intelligence",
+    "charisma"
+  ],
+  "description": "Thanks to the strength of your vitality, you gain the following benefits:\n- Increase your Constitution, Intelligence, or Charisma score by 1, to a maximum of 20.\n- As an action, you can expend a Hit Die to end the weakened condition on yourself.\n- Once per long rest, when you complete a short rest, you can expend a Hit Die to remove 1 level of exhaustion.\n- You have advantage on saving throws made to avoid necrotic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

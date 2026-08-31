@@ -1,0 +1,11 @@
+{
+  "key": "personal-translator",
+  "name": "Personal translator",
+  "category": "communications",
+  "costInCredits": 150,
+  "weight": 0.5,
+  "description": "A personal translator is a hand held device that can translate verbal communications between up to five languages. The languages can be changed out while interfaced with a protocol droid or appropriate computer.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

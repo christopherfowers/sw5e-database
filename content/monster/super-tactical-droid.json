@@ -1,0 +1,186 @@
+{
+  "key": "super-tactical-droid",
+  "name": "Super Tactical Droid",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 17,
+    "type": "powered battle armor"
+  },
+  "hitPoints": {
+    "average": 105,
+    "roll": "14d8+42"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 21,
+      "modifier": 5
+    },
+    "wisdom": {
+      "score": 16,
+      "modifier": 3
+    },
+    "charisma": {
+      "score": 15,
+      "modifier": 2
+    }
+  },
+  "skills": [
+    "Athletics +7",
+    "Lore +10",
+    "Perception +13",
+    "Stealth +8"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 23"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Binary"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "psychic",
+      "necrotic"
+    ],
+    "other": [
+      "unenhanced kinetic"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "poison"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "blinded",
+      "charmed",
+      "deafened",
+      "frightened",
+      "poisoned"
+    ],
+    "other": [
+      "disease",
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "15",
+  "experiencePoints": 13000,
+  "behaviors": [
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the tactical droid fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Master of the Droid",
+      "behaviorType": "trait",
+      "description": "While within 30 feet of the tactical droid, any droid ally of the tactical droid makes saving throws with advantage, and that ally regains 1d6 hit points whenever it starts its turn there.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The tactical droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tactical Technology",
+      "behaviorType": "trait",
+      "description": "When the tactical droid casts a tech power that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the power and to succeed on the required saving throw.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Techcasting",
+      "behaviorType": "trait",
+      "description": "At-will: assess the situation, encrypted message, electroshock, poison spray, cryogenic burst, combustive shot 1st-level: homing rockets, expeditious retreat, repair droid 2nd-level: mirror image, charge power cell 3rd-level: explosion, tactical advantage 4th-level: sensor probe, synchronicity 5th-level: mass repair droid, toxic cloud 6th-level: security protocols 7th-level: tactical superiority The tactical droid is a 13th-level techcaster. Its techcasting ability is Intelligence (power save DC18, +10 to hit with tech attacks) and it has 57 tech points. The tactical droid knows the following tech powers:",
+      "descriptionWithLinks": "Techcasting. The tactical droid is a 13th-level techcaster. Its techcasting ability is Intelligence (power save DC18, +10 to hit with tech attacks) and it has 57 tech points. The tactical droid knows the following tech powers: [](#)\n At-will: [assess the situation](#assess%20the%20situation), [encrypted message](#encrypted%20message), [electroshock](#electroshock), [poison spray](#poison%20spray), [cryogenic burst](#cryogenic%20burst), [combustive shot](#combustive%20shot)\n 1st-level: [homing rockets](#homing%20rockets), [expeditious retreat](#expeditious%20retreat), [repair droid](#repair%20droid)\n 2nd-level: [mirror image](#mirror%20image), [charge power cell](#charge%20power%20cell)\n 3rd-level: [explosion](#explosion), [tactical advantage](#tactical%20advantage)\n 4th-level: [sensor probe](#sensor%20probe), [synchronicity](#synchronicity)\n 5th-level: [mass repair droid](#mass%20repair%20droid), [toxic cloud](#toxic%20cloud)\n 6th-level: [security protocols](#security%20protocols)\n 7th-level: [tactical superiority](#tactical%20superiority)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The tactical droid makes three biopistol attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Biopistol",
+      "behaviorType": "action",
+      "description": "Melee Weapon Ateack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) kinetic damage plus 14 (4d6) poison damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d8 + 3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Biopistol",
+      "behaviorType": "legendary",
+      "description": "The tactical droid makes a biopistol attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "At-Will",
+      "behaviorType": "legendary",
+      "description": "The tactical droid casts an at-will tech power.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Move",
+      "behaviorType": "legendary",
+      "description": "The tactical droid moves up to its speed without provoking opportunity attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Construct Droid",
+      "behaviorType": "legendary",
+      "description": "Up to five junk droids appear in unoccupied spaces within 30 feet of the tactical droid and remain until destroyed. Droids summoned in this way roll initiative and act in the next available turn. The tactical droid can have up to five droids summoned by this ability at a time.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 3 Actions"
+    }
+  ],
+  "flavorText": "Super tactical droids are advanced tactical droids that had command capabilities during the Clone Wars, acting as generals of the Separatist Droid Army. They would often resort to threats and torture as interrogation routes. These droids were created to analyze a battle, calculate a possible battle-winning solution, and a time frame to carry out their plan. Being programmed with Separatist beliefs, they ruled through fear and through the lack of courage and hope in their victims and specifically \"freedom from the tyranny of the republic.\" Although Super Tactical Droids were not directly involved in combat, they were able to effectively use self-defense and an E-5 blaster rifle. Being programmed for success, they are willing to kill for the advancement of the Confederacy of Independent Systems. Building off their predecessors, the T-series tactical droid, they had a much more robotic inflection to their voices, as well a larger, more imposing and more damage-resistant body. These droids were also able to better process and adapt to sudden changes and unexpected complications and have more variables in their calculations. Although better than those before them, flaws in their programming were still prevalent. These included the difficulty to see approaches and plans that differ from their own, and the overconfidence in the Confederacy of Independent Systems and its army.",
+  "sectionText": "Tactical droids are a type of battle droid designed to plan battle strategies. Baktoid Combat Automata manufactured several models of tactical droid, including the T-series tactical droid and a more advanced super tactical droid. Later, L-1 tactical droids would be used during the Galactic Civil War.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

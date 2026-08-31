@@ -1,0 +1,21 @@
+{
+  "key": "techstaff",
+  "name": "Techstaff",
+  "category": "weapon",
+  "costInCredits": 650,
+  "weight": 5.25,
+  "properties": [
+    "dexterity 11",
+    "double (2d4 kinetic)",
+    "light"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

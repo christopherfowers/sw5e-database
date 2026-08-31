@@ -1,0 +1,11 @@
+{
+  "key": "investigative-attunement",
+  "name": "Investigative Attunement",
+  "prerequisite": "4th level",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You've spent a significant amount of time appraising and testing enhanced items. You gain the following benefits:\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- Your maximum attunement increases by 1.\n- You have advantage on ability checks made to identify items.\n- Once per long rest, you can choose one object that you must touch for 10 minutes. If it is an enhanced or modified item, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any powers are affecting the item and what they are. If the item was created by a power, you learn which power created it.",
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

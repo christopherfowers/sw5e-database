@@ -1,0 +1,17 @@
+{
+  "key": "security-protocols",
+  "name": "Security Protocols",
+  "powerType": "tech",
+  "level": 6,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "minute",
+    "text": "10 minutes"
+  },
+  "range": "Touch",
+  "duration": "24 hours",
+  "concentration": false,
+  "description": "You create a ward that protects up to 2,500 square feet of floor space (an area 50 feet square, or one hundred 5-foot squares or twenty-five 10-foot squares). The secured area can be up to 20 feet tall, and shaped as you desire. You can ward several stories of a stronghold by dividing the area among them, as long as you can walk into each contiguous area while you are casting the power.\n\nWhen you cast this power, you can specify individuals that are unaffected by any or all of the effects that you choose. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.\n\nWhen commanded (no action required), *security protocols* creates the following effects within the secured area.\n\n***Corridors.*** Fog fills all the secured corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.\n\n***Doors.*** All doors in the secured area are locked, as if sealed by the *lock* power. In addition, you can cover up to ten doors with an image (equivalent to the illusory object function of the *minor hologram* power) to make them appear as plain sections of wall.\n\n***Stairs.*** Electromesh fills all stairs in the secured area from top to bottom, as the *electromesh* power. This mesh regrows in 10 minutes if it is burned or torn away while *security protocols* lasts.\n\n***Other power effect.*** You can place your choice of one of the following enhanced effects within the secured area of the stronghold.\n- Place *mobile lights* in four corridors. You can designate a simple program that the lights repeat as long as *security protocols* lasts.\n- Place *implant message* in two locations.\n- Place *debilitating gas* in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while *security protocols* lasts.\n\nThe whole secured area radiates power. A *diminish tech* cast on a specific effect, if successful, removes only that effect.\n\nYou can create a permanently guarded and secured structure by casting this power there every day for one year.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "sense-force",
+  "name": "Sense Force",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 10 minutes",
+  "concentration": true,
+  "description": "For the duration, you sense the use of the Force, or its presence in an inanimate object within 30 feet of you. If you sense the Force in this way, you can use your action to determine the direction from which it originates and, if it's in line of sight, you see a faint aura around the person or object from which the Force emanates.\n\n***Force Potency.*** When you cast this power using a 3rd-level force slot, the range increases to 60 feet. When you use a 5th-level force slot, the range increases to 500 feet. When you use a 7th-level force slot, the range increases to 1 mile. When you use a 9th-level force slot, the range increases to 10 miles.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "electromesh",
+  "name": "Electromesh",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "You expel a mass of thick, adhesive mesh at a point of your choice within range. The mesh fill a 20-foot cube from that point for the duration. The mesh is difficult terrain and lightly obscures their area.\n\nIf the mesh isn't anchored between two solid masses (such as walls) or layered across a floor, wall, or ceiling, the electromesh collapses on itself, and the power ends at the start of your next turn. Mesh layered over a flat surface has a depth of 5 feet.\n\nEach creature that starts its turn in the mesh or that enters it during its turn must make a Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the mesh or until it breaks free.\n\nA creature restrained by the mesh can use its action to make a Strength check against your tech save DC. If it succeeds, it is no longer restrained.\n\nThe mesh is flammable. Any 5-foot cube of electromesh exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

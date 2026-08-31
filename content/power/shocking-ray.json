@@ -1,0 +1,17 @@
+{
+  "key": "shocking-ray",
+  "name": "Shocking Ray",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You create three ionic rays and hurl them at targets within range. You can hurl them at one target or several. Make a ranged tech attack for each ray. On a hit, the target takes 2d4 ion damage.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

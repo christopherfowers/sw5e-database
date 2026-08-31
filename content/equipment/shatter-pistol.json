@@ -1,0 +1,23 @@
+{
+  "key": "shatter-pistol",
+  "name": "Shatter pistol",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 2.0,
+  "properties": [
+    "slug cartridge (range 60/240)",
+    "light",
+    "reload 12",
+    "silent",
+    "strength 11"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

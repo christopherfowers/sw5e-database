@@ -136,11 +136,31 @@
     },
     {
       "roll": 2,
-      "name": "Crafter"
+      "name": "Medic"
     },
     {
       "roll": 3,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
       "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Tech Dabbler"
+    },
+    {
+      "roll": 8,
+      "name": "Keen Mind"
     }
   ],
   "variant": {

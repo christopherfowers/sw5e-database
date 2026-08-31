@@ -83,7 +83,26 @@
         "martialLightweapon",
         "exoticLightweapon"
       ],
-      "description": "Proficiency group the weapon belongs to, pairing its family (blaster, vibroweapon, lightweapon) with its training tier. A character is proficient with a weapon only if proficient with its whole classification. Present on weapons only."
+      "description": "Proficiency group the weapon belongs to, pairing its family (blaster, vibroweapon, lightweapon) with its training tier. A character is proficient with a weapon only if proficient with its whole classification. Present on weapons only. A weapon that belongs to more than one group records the rest in additionalWeaponClassifications."
+    },
+    "additionalWeaponClassifications": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Further proficiency groups the weapon belongs to, beyond the one in weaponClassification. Two weapons need this: a bo-rifle is both an exotic blaster and an exotic vibroweapon, and a saberstaff is both an exotic lightweapon and an exotic vibroweapon. Proficiency with any one of a weapon's groups is enough to use it, so a character sheet has to read every entry rather than the first. Present only on the weapons that sit in more than one group.",
+      "items": {
+        "enum": [
+          "simpleBlaster",
+          "martialBlaster",
+          "exoticBlaster",
+          "simpleVibroweapon",
+          "martialVibroweapon",
+          "exoticVibroweapon",
+          "simpleLightweapon",
+          "martialLightweapon",
+          "exoticLightweapon"
+        ]
+      }
     },
     "damage": {
       "type": "object",

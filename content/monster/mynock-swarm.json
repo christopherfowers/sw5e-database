@@ -1,0 +1,114 @@
+{
+  "key": "mynock-swarm",
+  "name": "Mynock Swarm",
+  "size": "large",
+  "types": [
+    "swarm of small beasts"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 39,
+    "roll": "7d10"
+  },
+  "speed": {
+    "walk": 5,
+    "text": "5 ft., fly 40ft"
+  },
+  "abilities": {
+    "strength": {
+      "score": 6,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 8,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +1"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 9"
+  ],
+  "damageResistances": {
+    "types": [
+      "energy",
+      "kinetic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Atmosphere Agnostic",
+      "behaviorType": "trait",
+      "description": "The mynock swarm can survive in any type of atmosphere or vacuum.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The mynock swarm has advantage on an attack roll against a creature if at least one ally of the mynock swarm is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Swarm",
+      "behaviorType": "trait",
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small mynock. The swarm can't regain hit points or gain temporary hit points.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Energy Drain",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 17 (4d6 + 3) kinetic damage, the swarm loses 3 (1d6) hit points, and a mynock attaches to the target, and is considered a separate creature with its own statistics for the remainder of combat.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one creature",
+      "averageDamage": 17,
+      "damageRoll": "4d6 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Mynocks are a species of silicon-based bat-like parasites that chew on the power cables and energy conductors of starships, and can drain a ship's entire power supply. They reproduce by splitting in two and growing new creatures from each half. Mynocks are capable of surviving in the atmospheres of planets and the vacuum of space, though only a few varieties lived on planets. They are also known to inhabit asteroid fields and the gullets of exogorths, where they share in its meals.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

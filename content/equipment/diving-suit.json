@@ -1,0 +1,10 @@
+{
+  "key": "diving-suit",
+  "name": "Diving suit",
+  "category": "lifeSupport",
+  "costInCredits": 2000,
+  "weight": 22.5,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

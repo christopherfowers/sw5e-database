@@ -1,0 +1,16 @@
+{
+  "key": "fleximetal-fiber-armor",
+  "name": "Fleximetal fiber armor",
+  "category": "armor",
+  "costInCredits": 1450,
+  "weight": 13.0,
+  "properties": [
+    "avoidant 1",
+    "strength 11"
+  ],
+  "armorClassification": "light",
+  "armorClass": "12 + Dex modifier",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

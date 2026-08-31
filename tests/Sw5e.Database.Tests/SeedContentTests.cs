@@ -7,10 +7,10 @@ using Xunit;
 namespace Sw5e.Database.Tests;
 
 /// <summary>
-/// Guards the curated seed content under <c>content/</c>. The seed set is what
-/// the API, the site and every demo are built against, so it has to be valid,
-/// free of the archive's corruption, and internally consistent. None of these
-/// assertions needs a database.
+/// Guards the content set under <c>content/</c>. It is what the API, the site
+/// and every demo are built against, so it has to be valid, free of the
+/// archive's corruption, and internally consistent. None of these assertions
+/// needs a database.
 /// </summary>
 public sealed class SeedContentTests
 {
@@ -18,6 +18,68 @@ public sealed class SeedContentTests
 
     private static readonly string ContentRoot =
         Path.Combine(LegacyArchive.RepositoryRoot, "content");
+
+    /// <summary>
+    /// How many documents each content type publishes. These are exact because
+    /// the failure this guards against is the content set silently collapsing
+    /// back to a handful of samples per type, which renders as a site that
+    /// looks broken rather than as an error. "More than zero" would not catch
+    /// it.
+    /// <para>
+    /// Where a count is below the number of records in the legacy archive, the
+    /// archive holds more than one row for a single item and the difference is
+    /// explained here:
+    /// </para>
+    /// <list type="bullet">
+    /// <item>feat: 119 archived rows, 118 documents. "Fighting Styles and
+    /// Masteries" is printed in Wretched Hives and reprinted unchanged in the
+    /// Expanded Content supplement; only the provenance differs.</item>
+    /// <item>equipment: 507 archived rows, 505 documents. A bo-rifle and a
+    /// saberstaff each belong to two weapon proficiency groups and are printed
+    /// once per group. Each is published once, carrying both groups.</item>
+    /// </list>
+    /// </summary>
+    private static readonly Dictionary<string, int> ExpectedDocumentCounts = new()
+    {
+        ["species"] = 141,
+        ["background"] = 61,
+        ["feat"] = 118,
+        ["power"] = 465,
+        ["equipment"] = 505,
+        ["monster"] = 271
+    };
+
+    /// <summary>
+    /// Every character the archive lost that cannot be recovered, by file.
+    /// <para>
+    /// These are the two shapes <c>repair-text.mjs</c> in the site repository
+    /// documents as deliberately unrepaired: an accented letter inside a
+    /// species name table, where the letter is gone and inventing one would
+    /// fabricate game content; and a lost character before a space, which is
+    /// ambiguous between an em dash and an ellipsis with nothing in the
+    /// context to choose between them.
+    /// </para>
+    /// <para>
+    /// The counts are exact in both directions. New damage fails, and so does
+    /// a repair, which is what forces this list to be revisited rather than
+    /// left to rot.
+    /// </para>
+    /// </summary>
+    private static readonly Dictionary<string, int> UnrepairableCharacters = new(StringComparer.Ordinal)
+    {
+        ["content/background/city-watch.json"] = 1,
+        ["content/background/courtier.json"] = 2,
+        ["content/background/faction-artisan.json"] = 2,
+        ["content/background/faction-merchant.json"] = 2,
+        ["content/background/scoundrel.json"] = 1,
+        ["content/background/soldier.json"] = 1,
+        ["content/background/un-retired-adventurer.json"] = 1,
+        ["content/background/urchin.json"] = 1,
+        ["content/species/kalleran.json"] = 3,
+        ["content/species/kiffar.json"] = 1,
+        ["content/species/massassi.json"] = 2,
+        ["content/species/theelin.json"] = 2
+    };
 
     /// <summary>
     /// Every seed file, as (content type, path, parsed document). The content
@@ -88,30 +150,92 @@ public sealed class SeedContentTests
     }
 
     [Fact]
-    public void NoSeedFileContainsAReplacementCharacter()
+    public void EveryContentTypePublishesItsWholeCorpus()
     {
+        var actual = Directory
+            .EnumerateDirectories(ContentRoot)
+            .ToDictionary(
+                directory => Path.GetFileName(directory)!,
+                directory => Directory.EnumerateFiles(directory, "*.json").Count());
+
+        var failures = new List<string>();
+
+        foreach (var (contentType, expected) in ExpectedDocumentCounts.OrderBy(entry => entry.Key, StringComparer.Ordinal))
+        {
+            if (!actual.TryGetValue(contentType, out var count))
+            {
+                failures.Add($"content/{contentType}/ is missing entirely; expected {expected} documents.");
+                continue;
+            }
+
+            if (count != expected)
+            {
+                failures.Add(
+                    $"content/{contentType}/ holds {count} document(s), expected {expected}. " +
+                    "If the corpus really has changed, update ExpectedDocumentCounts and say why " +
+                    "in the same commit.");
+            }
+        }
+
+        failures.ShouldBeEmpty(Report("Content type counts have drifted:", failures));
+    }
+
+    /// <summary>
+    /// The archive lost apostrophes, dashes and accented letters to a bad
+    /// decode. Almost all of it is repairable from context and is repaired
+    /// before the content is written; what is left is enumerated exactly, so
+    /// neither new damage nor a silent repair can pass unnoticed.
+    /// </summary>
+    [Fact]
+    public void OnlyTheUnrepairableCharactersRemain()
+    {
+        var found = new Dictionary<string, int>(StringComparer.Ordinal);
         var failures = new List<string>();
 
         foreach (var file in Directory.EnumerateFiles(ContentRoot, "*.json", SearchOption.AllDirectories))
         {
             var text = File.ReadAllText(file, Encoding.UTF8);
-            var index = text.IndexOf(ReplacementCharacter);
+            var count = text.Count(character => character == ReplacementCharacter);
 
-            if (index < 0)
+            if (count == 0)
             {
                 continue;
             }
 
-            var start = Math.Max(0, index - 40);
-            var length = Math.Min(text.Length - start, 80);
+            var path = Relative(file);
+            found[path] = count;
 
-            failures.Add(
-                $"{Relative(file)}: U+FFFD at offset {index}, near \"{text.Substring(start, length)}\". " +
-                "The archive lost apostrophes, dashes and accented letters to a bad decode; " +
-                "repair the character rather than copying it into the seed set.");
+            if (!UnrepairableCharacters.TryGetValue(path, out var expected))
+            {
+                var index = text.IndexOf(ReplacementCharacter);
+                var start = Math.Max(0, index - 40);
+                var length = Math.Min(text.Length - start, 80);
+
+                failures.Add(
+                    $"{path}: {count} replacement character(s), none expected. First is at offset " +
+                    $"{index}, near \"{text.Substring(start, length)}\". Repair it rather than " +
+                    "copying the damage into the content set; if it truly cannot be recovered, " +
+                    "add it to UnrepairableCharacters with the reason.");
+            }
+            else if (count != expected)
+            {
+                failures.Add(
+                    $"{path}: {count} replacement character(s), expected {expected}.");
+            }
         }
 
-        failures.ShouldBeEmpty(Report("Seed content contains replacement characters:", failures));
+        foreach (var (path, expected) in UnrepairableCharacters.OrderBy(entry => entry.Key, StringComparer.Ordinal))
+        {
+            if (!found.ContainsKey(path))
+            {
+                failures.Add(
+                    $"{path}: expected {expected} unrepairable character(s) and found none. " +
+                    "If the text has been repaired or the file removed, drop the entry from " +
+                    "UnrepairableCharacters.");
+            }
+        }
+
+        failures.ShouldBeEmpty(Report("Replacement characters do not match the recorded inventory:", failures));
     }
 
     [Fact]

@@ -1,0 +1,21 @@
+{
+  "key": "vibrokatana",
+  "name": "Vibrokatana",
+  "category": "weapon",
+  "costInCredits": 450,
+  "weight": 5.75,
+  "properties": [
+    "dexterity 11",
+    "piercing 1",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,23 @@
+{
+  "key": "lightring",
+  "name": "Lightring",
+  "category": "weapon",
+  "costInCredits": 575,
+  "weight": 2.0,
+  "properties": [
+    "finesse",
+    "hidden",
+    "luminous",
+    "returning",
+    "thrown (range 25/75)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

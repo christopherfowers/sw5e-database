@@ -1,0 +1,16 @@
+{
+  "key": "composite-armor",
+  "name": "Composite armor",
+  "category": "armor",
+  "costInCredits": 2500,
+  "weight": 45.0,
+  "description": "Composite armor is a type of armored suit that offers a good balance of mobility and protection against most types of weapons. The micro-hydraulics of this type of powered armor provide the operator with protection, but are more bulky than mesh or weave armors. This type of armor is rarely seen outside of professional mercenaries' and soldiers' use.",
+  "properties": [
+    "bulky"
+  ],
+  "armorClassification": "medium",
+  "armorClass": "15 + Dex modifier (max 2)",
+  "stealthDisadvantage": true,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

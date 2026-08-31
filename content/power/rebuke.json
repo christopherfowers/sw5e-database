@@ -1,0 +1,17 @@
+{
+  "key": "rebuke",
+  "name": "Rebuke",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You strike a creature with the righteous fury of the Force. Make a melee force attack against the target, if the attack hits, the target takes force damage depending on its alignment: a dark-aligned creature takes 1d12 force damage, a balanced or unaligned creature takes 1d10 force damage, and a light-aligned creature takes 1d8 force damage.\n\nThe power's damage increases by one die when you reach 5th, 11th, and 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

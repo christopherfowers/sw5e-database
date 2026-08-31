@@ -1,0 +1,23 @@
+{
+  "key": "lightnodachi",
+  "name": "Lightnodachi",
+  "category": "weapon",
+  "costInCredits": 3050,
+  "weight": 4.5,
+  "properties": [
+    "dexterity 17",
+    "luminous",
+    "piercing 1",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

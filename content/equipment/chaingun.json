@@ -1,0 +1,25 @@
+{
+  "key": "chaingun",
+  "name": "Chaingun",
+  "category": "weapon",
+  "costInCredits": 1325,
+  "weight": 10.5,
+  "properties": [
+    "auto",
+    "rapid 2",
+    "reload 8",
+    "slug cartridge (range 80/320)",
+    "strength 13",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

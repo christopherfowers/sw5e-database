@@ -1,0 +1,168 @@
+{
+  "key": "amnesiac",
+  "name": "Amnesiac",
+  "lore": "One day you awoke, perhaps in a forest or on a sandy beach, with no recollection of what happened to you. How did you get here? Who were you? These questions elude and boggle your mind. Some people wish for a fresh start, but you never even got a choice.",
+  "skillProficiencies": "Choose two from Deception, Insight, Investigation, and Survival",
+  "toolProficiencies": "Choose one from disguise kit, forgery kit, or tinker's implements",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, a relic of your past which you do not remember, and a belt pouch containing 200 cr",
+  "feature": {
+    "name": "A Life Once Lived",
+    "description": "You once had a home, a family, relationships, possessions, but now you are left with nothing but the ability to start anew. You are unfamiliar with the world around you as well as the people in it. You may often need to ask for clarification on things other adventurers may know intrinsically. Some events, locations, names, phrases, or objects may also trigger you to recall small details which could relate to the life you once had, at the discretion of the GM."
+  },
+  "suggestedCharacteristics": "The important things to consider when choosing this background are how your character has dealt with starting life anew and what have they done to set down that path.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I don't know who you are but I'll try to help you."
+    },
+    {
+      "roll": 2,
+      "description": "I will let nothing stop my quest for answers."
+    },
+    {
+      "roll": 3,
+      "description": "Even if I never find out who I was before, I will know who I am now."
+    },
+    {
+      "roll": 4,
+      "description": "I am sometimes clumsy when speaking. I must've not been very eloquent."
+    },
+    {
+      "roll": 5,
+      "description": "I shy away from forging new relationships. I don't want to leave anyone behind again."
+    },
+    {
+      "roll": 6,
+      "description": "Having no memories of the past has left me feeling free and happy."
+    },
+    {
+      "roll": 7,
+      "description": "I am eager to learn and devour any knowledge I can."
+    },
+    {
+      "roll": 8,
+      "description": "I am insightful and can often see things from other peoples point of view."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Conscience",
+      "description": "I've forgotten before, I can forget again. I don't let my conscience get in the way of my actions. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Freedom",
+      "description": "With no past to tie me down I do was I will. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Respect",
+      "description": "People deserve to be treated with respect. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Past",
+      "description": "I will destroy whatever I have to in order to reclaim what I once had. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Live and Let Live",
+      "description": "Ideals aren't worth killing over or going to war for. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Memory",
+      "description": "Finding out my history drives every action I do. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I will never rest until I find out what happened to me."
+    },
+    {
+      "roll": 2,
+      "description": "I have a family out there who's looking for me. I can't let them down."
+    },
+    {
+      "roll": 3,
+      "description": "I was given a chance to start fresh, and I'm not taking it for granted."
+    },
+    {
+      "roll": 4,
+      "description": "My entire life was lost in the blink of an eye. What's the point of all this?"
+    },
+    {
+      "roll": 5,
+      "description": "I've already lost everything. Now I do as I please."
+    },
+    {
+      "roll": 6,
+      "description": "I will become something great so that even if I forget, others won't."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I've lost all hope since I woke up."
+    },
+    {
+      "roll": 2,
+      "description": "I'm obsessed with the life I left behind."
+    },
+    {
+      "roll": 3,
+      "description": "Sometimes I crack under the stress of starting new."
+    },
+    {
+      "roll": 4,
+      "description": "I get tunnel vision when investigating my past life."
+    },
+    {
+      "roll": 5,
+      "description": "I no longer care about anything. It could all be gone in an instant."
+    },
+    {
+      "roll": 6,
+      "description": "I am constantly angry about forgetting everything."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Empathic"
+    },
+    {
+      "roll": 3,
+      "name": "Investigator"
+    },
+    {
+      "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Practiced"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,21 @@
+{
+  "key": "ion-rifle",
+  "name": "Ion rifle",
+  "category": "weapon",
+  "costInCredits": 1150,
+  "weight": 8.0,
+  "properties": [
+    "power cell (range 80/320)",
+    "reload 8",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "ion"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

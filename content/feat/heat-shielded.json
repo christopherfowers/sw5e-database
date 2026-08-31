@@ -1,0 +1,11 @@
+{
+  "key": "heat-shielded",
+  "name": "Heat Shielded",
+  "abilityScoreIncreases": [
+    "dexterity",
+    "intelligence"
+  ],
+  "description": "You can tolerate extremely hot temperatures. You gain the following benefits:\n- Increase your Dexterity, Consitution, or Intelligence score by 1, to a maximum of 20.\n- You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat, and you can use your bonus action to end the ignited condition on yourself, instead of your action.\n- You have advantage on saving throws made to avoid fire damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

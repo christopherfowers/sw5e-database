@@ -1,0 +1,23 @@
+{
+  "key": "heavy-shotgun",
+  "name": "Heavy shotgun",
+  "category": "weapon",
+  "costInCredits": 1125,
+  "weight": 9.5,
+  "properties": [
+    "burst 2",
+    "reload 8",
+    "slug cartridge (range 60/240)",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

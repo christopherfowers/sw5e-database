@@ -1,0 +1,23 @@
+{
+  "key": "incinerator-pistol",
+  "name": "Incinerator pistol",
+  "category": "weapon",
+  "costInCredits": 1250,
+  "weight": 3.5,
+  "properties": [
+    "dire 1",
+    "disintegrate 13",
+    "power cell (range 40/160)",
+    "reload 16",
+    "strength 11"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "fire"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

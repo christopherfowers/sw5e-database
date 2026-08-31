@@ -1,0 +1,17 @@
+{
+  "key": "tranquilizer",
+  "name": "Tranquilizer",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "90 feet",
+  "duration": "1 minute",
+  "concentration": false,
+  "description": "You emit a tranquilizing dart that knocks a creature unconscious. Roll 5d8; if the creature's remaining hit points are less than the total, the creature falls unconscious until the power ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. This power has no effect on droids or constructs.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you can target an additional creature for each slot level above 1st. For each target, roll 5d8 separately.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

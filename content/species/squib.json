@@ -1,0 +1,97 @@
+{
+  "key": "squib",
+  "name": "Squib",
+  "size": "small",
+  "homeworld": "Skor II",
+  "nativeLanguage": "Squibbian",
+  "lore": "### Biology and Appearance\nSquibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an olfactory organ, able to pick up scents at a distance and ascertain intrinsic details—such as penetrating through a disguise or identifying a forgery—when rubbed against. The species has both male and female sexes, although non-Squibs often have difficulty determining the sex of a Squib based on appearance alone. Their mouths are full of forbidding, sharp, white teeth, and their flexible cheeks were capable of storing items.\n\n### Society and Culture\nSquibs are friendly and cheerful to such an extent that, over time, they are considered quite annoying. Squibs are inherently curious, handling items with little regard to care. They are unabashed pack rats, and they wear clothing for the excess storage rather than necessity. The Squibs' overconfidence is a defining trait. The typical Squib response to a threat is not to fight or flee, but to bluff and bluster, especially when not face-to-face. In person, their sharp teeth are their favored means of intimidation. Squibs believe that bargaining is the highest form of communication, and they believe haggling is more important than the goods themselves. A deal is a binding oath to Squibs, and they are incredibly loyal to their business partners.\n\n### Names\nSquibs combine their first and last names, which are familial, into one long, hyphenated name. They often go by nicknames derived from their full names. Male and female names do not significantly deviate.\n\n**Full Names.** Galaneever-marmalios, Meelawin-demort, Sleerinwilpher-remalior\n\n**Nicknames.** Galan, Meela, Wilpher",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Squibs reach adulthood at nine years of age and live an average of sixty-five years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Squibs' cheerful nature causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Squibs typically stand 3 to 3 and a half feet tall and weigh around 50 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Bite",
+      "description": "Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Business Savvy",
+      "description": "A common trait of all Squibs is their desire and love of haggling. Squibs believe a deal is done when both sides believe they got the better of the other. Whenever you make a Charisma (Persuasion) check involving haggling you are considered to have expertise in the Persuasion skill."
+    },
+    {
+      "name": "Flexible Cheeks",
+      "description": "Squibs have flexible cheeks in which they can store small goods. You can store up to two items that weigh a combined total of no more than 2 lb. in your cheeks, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal them."
+    },
+    {
+      "name": "Hide",
+      "description": "Your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Keen Smell",
+      "description": "You have advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Sensitive Fur",
+      "description": "Squibs' fur is exceptionally sensitive to physical details. You have advantage on Intelligence (Investigation) checks that rely on touch."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Squibbian. The Squibbian language originated as a secret form of communication for Squibs to convey information without being understood."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "2'11\"",
+    "heightModifier": "+2d4\"",
+    "weightAverage": "45 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Curious, overconfident, hagglers",
+    "skinColorOptions": "Pink",
+    "hairColorOptions": "White, gray, black, brown, blue, violet, or red",
+    "eyeColorOptions": "Blue, yellow, red, or brown"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_squib.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

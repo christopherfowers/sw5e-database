@@ -1,0 +1,86 @@
+{
+  "key": "mott",
+  "name": "Mott",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 10
+  },
+  "hitPoints": {
+    "average": 10,
+    "roll": "3d6"
+  },
+  "speed": {
+    "walk": 25,
+    "text": "25 ft., burrow 10 ft., swim 25 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 9,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "passive Perception 9"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the mott moves at least 15 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 3 (1d6) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Hearing",
+      "behaviorType": "trait",
+      "description": "The mott has advantage on Wisdom (Perception) checks that rely on hearing.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Ram",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 4,
+      "damageRoll": "1d6 + 1",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Motts were a species of non-sentient, horn-nosed herbivores found on the planet of Naboo. They fed off swamp vegetation. Motts were a species of stubby-legged quadrupeds that measured 1.10 meters at the shoulder. They had skin, sharp claws, small horns on their snouts. They had a high reproduction rate, with 15 young per litter. They were herbivores that fed on swamp vegetation. Despite being herbivores, some motts could display aggressive behavior. They used their horns for defense, mating disputes, and for rooting in the mud for foodMotts evolved on the planet of Naboo, in the Mid Rim region of the galaxy. Their flesh was consumed by sentients.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

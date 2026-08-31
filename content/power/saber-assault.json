@@ -1,0 +1,18 @@
+{
+  "key": "saber-assault",
+  "name": "Saber Assault",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "none",
+    "text": "Special"
+  },
+  "range": "Self",
+  "duration": "1 round",
+  "concentration": false,
+  "prerequisite": "Saber Ward",
+  "description": "The first time you take the Attack action during your turn, you can simultaneously cast this power to blend your melee weapon attacks with the use of the Force. For each successful hit you make with a melee weapon before the power ends, the target must make a Dexterity saving throw or have a new effect apply until the end of its next turn. Once you've made three weapon attacks, the power ends.\n\n- **1st Hit:** If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.\n- **2nd Hit:** If the target fails its saving throw, it takes 1d6 kinetic damage and cannot take reactions until after the end of its next turn.\n- **3rd Hit:** If the target fails its saving throw, it takes 2d6 kinetic damage and cannot take bonus actions during its next turn.\n\n***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by 1d6 for every two slot levels above 1st.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

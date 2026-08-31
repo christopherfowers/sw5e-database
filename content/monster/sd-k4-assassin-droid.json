@@ -1,0 +1,154 @@
+{
+  "key": "sd-k4-assassin-droid",
+  "name": "SD-K4 Assassin Droid",
+  "size": "large",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 45,
+    "roll": "6d10+20"
+  },
+  "speed": {
+    "walk": 5,
+    "text": "5 ft., fly 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 15,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 17,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 15,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Investigation +4",
+    "Perception +4",
+    "Stealth +5"
+  ],
+  "senses": [
+    "Darkvision 120 Ft.",
+    "passive Perception 14"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Assassinate",
+      "behaviorType": "trait",
+      "description": "During its first turn, the assassin droid has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin droid scores against a surprised creature is a critical hit.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Hearing and Sight",
+      "behaviorType": "trait",
+      "description": "The probe droid has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sneak Attack",
+      "behaviorType": "trait",
+      "description": "The assassin droid deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the roll.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/Turn"
+    },
+    {
+      "name": "Swarm Transport",
+      "behaviorType": "trait",
+      "description": "The assassin droid can transport a maximum of 1 Probe Killer Swarm, which it can deploy using its Deploy Probe Killers action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The sssassin droid makes two leg slash attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Leg Slash",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d8+3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Deploy Probe Killers",
+      "behaviorType": "action",
+      "description": "This droid swarm appears in any space within 5 feetof the assassin droid.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Second Chance",
+      "behaviorType": "reaction",
+      "description": "When the droid reaches zero hit points, it may immediately take the deploy probe killers action.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The SD-K4 assassin droid, also known as the assassin probe, is a model of assassin droid manufactured by the Techno Union. Used by the Confederacy of Independent Systems during the Clone Wars, it was also referred to as the Separatist assassin probe and Separatist assassin droid. The SD-K4 assassin droid is designed to assassinate targets with high efficiency. Spider-like droids programmed for quiet killing, SD-K4s move quietly on eight razored legs. They are equipped with multiple red photoreceptors for scanning their surroundings. If cornered or destroyed, an SD-K4 can release dozens of smaller probe killers from pores on its head to finish any job the assassin probe started. Probe killers, similar in appearance to their SD-K4 host but on a much smaller scale, lay dormant until the activated.",
+  "sectionText": "Assassin droids are a type of droid built specifically for the purpose of assassination. These droids generally perform with unflinching loyalty to their masters, but rogue assassin droids are not unknown. Since their missions generally require a far higher degree of independent skill, savvy, and judgment than normally possessed by simple war droids, their programming subroutines, circuitry, and memory cores are of correspondingly higher sophistication. Equipped with an array of weapons, assassin droids are also used as elite infantry when the need for skillful and quickly adaptable soldiers with unquestionable loyalty arises. An inordinate number of assassin droids have achieved sentient independence, including IG-88 and C-3PX, presumably due to the higher level of autonomy incorporated into their processor design. These droids typically fund their independent existences through the use of their innate abilities, often plying their trade as bounty hunters.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

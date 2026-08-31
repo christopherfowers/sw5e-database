@@ -1,0 +1,91 @@
+{
+  "key": "sibian-hound",
+  "name": "Sibian Hound",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 11,
+    "roll": "2d8+2"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +3",
+    "Stealth +4"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Keen Hearing and Smell",
+      "behaviorType": "trait",
+      "description": "The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The hound has advantage on attack rolls against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) kinetic damage. If the target is Large or smaller, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d4+2",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Sibian hounds are a type of hound native to the planet Corellia. A fleet-footed, loud-barking, vicious species, they are often used for attack and hunting, but do not make good pets.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

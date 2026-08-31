@@ -1,0 +1,238 @@
+{
+  "key": "addict",
+  "name": "Addict",
+  "lore": "You hammer down your fifth bottle of the night, do your last bit of snuff, and bid farewell to the seedy cantina barman. You stagger onto the streets and find a nearby alley in which you empty the night's contents. To many, the next morning's hangovers would be hell. To you, they're a ritual.",
+  "skillProficiencies": "Choose two from Deception, Performance, Persuasion, and Sleight of Hand",
+  "toolProficiencies": "Your choice of any gaming set, brewer's kit, or spicer's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A chance cube set, a sabaac deck, 2 days field rations, a flask or belt pouch containing your addiction, a set of common clothes, a bedroll, and a belt pouch containing 25 cr",
+  "feature": {
+    "name": "Addicted",
+    "description": "You've been abusing substances for a long time. You always know who to talk to and where to find substances, and you can often identify them in their raw form."
+  },
+  "suggestedCharacteristics": "Addicts can be rude and uncouth, wearing their addiction visibly, or they might hide that addiction and appear to function normally. Importantly, and varying with every addict, why are you addicted? To forget the past? To drown your sorrows? Or are you simply chasing the dragon?",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I am guaranteed to fight someone if I'm drunk/high enough."
+    },
+    {
+      "roll": 2,
+      "description": "Life is pain. All I want is to drink/smoke myself into nothingness."
+    },
+    {
+      "roll": 3,
+      "description": "I have a simple rule; life's a party, so grab the deathsticks!"
+    },
+    {
+      "roll": 4,
+      "description": "The only thing keeping me from burning down this village is the fact that you make some damn good spice."
+    },
+    {
+      "roll": 5,
+      "description": "I'm quite reserved until the moment I fulfill my addictive needs."
+    },
+    {
+      "roll": 6,
+      "description": "This stuff is a bit weak, do you have anything higher than 60% in the back?"
+    },
+    {
+      "roll": 7,
+      "description": "I take pride in my addiction and am often snobbish when talking about it."
+    },
+    {
+      "roll": 8,
+      "description": "I blow up at the slightest insult."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Hope",
+      "description": "I hope to one day be free of my addiction. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Carelessness",
+      "description": "I don't care what I have to do, just let me feed my addiction. (Dark)"
+    },
+    {
+      "roll": 3,
+      "name": "Isolation",
+      "description": "Just let me deal with my demons in peace. (Neutral)"
+    },
+    {
+      "roll": 4,
+      "name": "Caution",
+      "description": "I will never let my addiction harm others. (Lawful)"
+    },
+    {
+      "roll": 5,
+      "name": "Independence",
+      "description": "Addiction frees me. (Chaotic)"
+    },
+    {
+      "roll": 6,
+      "name": "Comradery",
+      "description": "Hey, some of my favorite people are addicts! (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I use my addiction as a tool to wash away my past sins."
+    },
+    {
+      "roll": 2,
+      "description": "My family never wanted to be forgotten. I take drugs in the hopes they will be."
+    },
+    {
+      "roll": 3,
+      "description": "I hope to start a drug business myself and give people the same happiness I've found."
+    },
+    {
+      "roll": 4,
+      "description": "Everything I do is in the hopes of getting my hands on my drug."
+    },
+    {
+      "roll": 5,
+      "description": "I traded my former self to my addiction. Now I need to find a way to get him back."
+    },
+    {
+      "roll": 6,
+      "description": "To be addicted is to be truly alive."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "This could be rough, let's take something before we go."
+    },
+    {
+      "roll": 2,
+      "description": "Hopefully this will be the one to end it."
+    },
+    {
+      "roll": 3,
+      "description": "The mission can wait, we should find some dealers first."
+    },
+    {
+      "roll": 4,
+      "description": "What? I don't have a problem. You're the one with the problem!"
+    },
+    {
+      "roll": 5,
+      "description": "It looks like my drug, so it should be safe to take right?"
+    },
+    {
+      "roll": 6,
+      "description": "I'm never myself when I'm on it."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Performer"
+    },
+    {
+      "roll": 3,
+      "name": "Charmer"
+    },
+    {
+      "roll": 4,
+      "name": "Quick-Fingered"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Durable"
+    }
+  ],
+  "variant": {
+    "name": "Pick Your Poison",
+    "description": "While most addicts are willing to try everything once, they typically have a drug of choice. You can determine what the source of your addiction or determine it randomly below.\n\n|d16|Substance of Choice|\n|:---:|:----------:|\n|1|Deuterium-pyro|\n|2|Mummergy|\n|3|Novanian grog|\n|4|Raava|\n|5|Spicebrew|\n|6|Tihaar|\n|7|Tsiraki|\n|8|Vayerbok|\n\n|d16|Substance of Choice|\n|:---:|:----------:|\n|9|Andris|\n|10|Cilona|\n|11|Giggledust|\n|12|Glitterstim|\n|13|Karrak|\n|14|Muon gold|\n|15|Yaladai|\n|16|Yarrock|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Deuterium-pyro"
+      },
+      {
+        "roll": 2,
+        "name": "Mummergy"
+      },
+      {
+        "roll": 3,
+        "name": "Novanian grog"
+      },
+      {
+        "roll": 4,
+        "name": "Raava"
+      },
+      {
+        "roll": 5,
+        "name": "Spicebrew"
+      },
+      {
+        "roll": 6,
+        "name": "Tihaar"
+      },
+      {
+        "roll": 7,
+        "name": "Tsiraki"
+      },
+      {
+        "roll": 8,
+        "name": "Vayerbok"
+      },
+      {
+        "roll": 9,
+        "name": "Andris"
+      },
+      {
+        "roll": 10,
+        "name": "Cilona"
+      },
+      {
+        "roll": 11,
+        "name": "Giggledust"
+      },
+      {
+        "roll": 12,
+        "name": "Glitterstim"
+      },
+      {
+        "roll": 13,
+        "name": "Karrak"
+      },
+      {
+        "roll": 14,
+        "name": "Muon gold"
+      },
+      {
+        "roll": 15,
+        "name": "Yaladai"
+      },
+      {
+        "roll": 16,
+        "name": "Yarrock"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "poisoner-s-kit",
+  "name": "Poisoner's kit",
+  "category": "kit",
+  "costInCredits": 500,
+  "weight": 2.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

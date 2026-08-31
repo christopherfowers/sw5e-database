@@ -1,0 +1,17 @@
+{
+  "key": "pheromone-burst",
+  "name": "Pheromone Burst",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (5-foot sphere)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You expel a burst of mood-altering pheromones around you. Each creature within range other than you must succeed on a Charisma saving throw or take 1d4 poison damage and become frightened of you until the start of its next turn. A creature that is immune to the poisoned condition is not frightened.\n\nThis power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

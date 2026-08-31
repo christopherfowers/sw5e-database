@@ -1,0 +1,172 @@
+{
+  "key": "faction-adventurer",
+  "name": "Faction Adventurer",
+  "lore": "Adventuring is nothing new to you. Due to the circumstances of how you were raised, you have been involved with wandering heroes for most of your life. Maybe you were part of an adventuring band previously, but split with them after a disagreement or tragedy. Or, perhaps you worked around heroes in a lesser role for most of your young life, and you are now ready to graduate to the front lines.",
+  "skillProficiencies": "Choose two from Athletics, Investigation, Nature, and Survival",
+  "toolProficiencies": "Your choice demolitions kit, security kit, or slicer's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "50 feet of rope, a small knife, a trophy, a set of traveler's clothes, and a belt pouch containing 100 cr.",
+  "feature": {
+    "name": "Faction Membership",
+    "description": "You are an established and respected member of an adventurer's faction, allowing you to rely on certain benefits that membership provides. If you are in a town with a headquarters for your adventurer's faction and you are in good standing with the faction, you will be allowed to look at the job postings and find adventuring work to earn money.\n\nfactions often wield tremendous political power. If you are accused of a crime, your faction will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the faction, if you are a member in good standing. You must pay dues of 50 cr per month to the faction. Your dues must be current to remain in the faction's good graces."
+  },
+  "suggestedCharacteristics": "Adventurers are well adjusted to life on the road. They are often comfortable doing dangerous things like dungeoneering and fighting and can stay level-headed in the face of danger, but they may not be so well adapted to other parts of life.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I can't bring myself to ignore a cry for help."
+    },
+    {
+      "roll": 2,
+      "description": "I hold onto every mildly interesting item I find, in case it comes in handy someday."
+    },
+    {
+      "roll": 3,
+      "description": "After all the weirdness I've seen on my travels, nothing can surprise me."
+    },
+    {
+      "roll": 4,
+      "description": "I spit and laugh in the face of danger."
+    },
+    {
+      "roll": 5,
+      "description": "Giving up is never an option for me."
+    },
+    {
+      "roll": 6,
+      "description": "I feel more at home in monster-infested dungeons than in civilized society."
+    },
+    {
+      "roll": 7,
+      "description": "I fill silence with wacky stories about my past misadventures, which may or may not be exaggerated."
+    },
+    {
+      "roll": 8,
+      "description": "My sense of humor is as dark and grim as the dungeons I explore."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Adventure",
+      "description": "All I want is to travel the world and see amazing things. (Any)"
+    },
+    {
+      "roll": 2,
+      "name": "Heroism",
+      "description": "I am dedicated to helping people in need. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Order",
+      "description": "I use my power to save the world from the forces of destruction and chaos. (Lawful)"
+    },
+    {
+      "roll": 4,
+      "name": "Excitement",
+      "description": "An ordinary life is boring, I'd rather travel around and find trouble. (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Power",
+      "description": "The more powerful enemies I defeat, the stronger I become. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I want to go down in history as a brave, powerful hero. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I carry with me a strange artifact that I found in a dungeon, but I don't know what it's for."
+    },
+    {
+      "roll": 2,
+      "description": "My adventuring party means the world to me."
+    },
+    {
+      "roll": 3,
+      "description": "I have sworn to hunt down the monster or villain who killed my former adventuring party."
+    },
+    {
+      "roll": 4,
+      "description": "I adventure in order to bring honor (or money) to my family."
+    },
+    {
+      "roll": 5,
+      "description": "There is a faraway place I've always wanted to visit, and I won't stop until I make it there."
+    },
+    {
+      "roll": 6,
+      "description": "All I want is to make the ones who trained me in the way of adventuring proud."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I default to solving problems with violence even when it's unwise or immoral."
+    },
+    {
+      "roll": 2,
+      "description": "I expect to be lavished with praise whenever I do my job, and I get mad when no one acknowledges me."
+    },
+    {
+      "roll": 3,
+      "description": "All members of \"Dark\" species must be Dark, so I will never trust them."
+    },
+    {
+      "roll": 4,
+      "description": "Waiting around makes me antsy. I'd rather do something stupid than do nothing at all."
+    },
+    {
+      "roll": 5,
+      "description": "My habit of looting dungeons makes me swipe things I shouldn't."
+    },
+    {
+      "roll": 6,
+      "description": "A monstrous enemy I faced in the past still leaves me quivering with fear."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Brawny"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Alert"
+    },
+    {
+      "roll": 8,
+      "name": "Athlete"
+    }
+  ],
+  "variant": {
+    "name": "Adventuring Origin",
+    "description": "You have either been adventuring or assisting other in adventuring since a very young age. Perhaps your parents were famous adventurers, or a group of adventurers found and raised you as their own. Perhaps you were trained to be a professional monster hunter, or maybe another faction member saved your life so you swore loyalty to them. Work with your GM to determine the nature of your adventuring."
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,101 @@
+{
+  "key": "defel",
+  "name": "Defel",
+  "size": "small",
+  "homeworld": "Af'El",
+  "nativeLanguage": "Defel",
+  "lore": "### Biology and Appearance\nWhile defel appear to be visually similar to the shistavanen, they are very different on a biological level. Defel have the ability to bend waves of light in such a manner that it renders them practically invisible to the human eye. Despite this ability, they could be still be spotted by force-users and keen-eyed individuals.\n\nDefel have extremely high perceptive ability because of their large ears, sensitive noses, and keen eyes. Because of the heightened levels of visual stimuli their eyes experience, defel are nearly blinded by sunlight but can see rather well in the dark.\n\n### Society and Culture\nDefel live in tight-knit, interdependent communites underground. The harsh environment on Af'El turned the defel into rugged survivors, able to hold their own in the Galaxy.\n\nDefel have a strong sense of honor and will not associate with individuals that do not keep their word.\n\nBecause defel have yet to achieve interplanetary travel, they are a rare sight in the galaxy.\n\n### Defel Names\nDefel names tend to sound dark and mysterious, and are mostly composed of multiple syllables. Defel surnames are familial, using stern and simple sounds.\n\n**Male Names.** Alustair, Claustro, Tenebris, Varsiin\n\n**Female Names.** Lhantra, Soliel, Stroika, Zavtra\n\n**Surnames.** Gauss, Neura, Tume, Vecherom",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Defel reach adulthood in their early teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Defel tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Defel typically stand 4 to 5 feet tall and generally weigh around 100 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Hidden Step",
+      "description": "As a bonus action, you can turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you've used this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Miners",
+      "description": "You have proficiency in scavenging kits."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+    },
+    {
+      "name": "Sneaky",
+      "description": "You are proficient in the Stealth skill."
+    },
+    {
+      "name": "Surprise Attack",
+      "description": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Defel. Most defel refuse to speak Galactic Basic while on their home planet of Af'El unless they have a specific need for it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "3'10\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "65 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Ability to absorb light, light blindness, claws",
+    "skinColorOptions": "Black, brown, or grey",
+    "hairColorOptions": "Blue to yellow in ultraviolet light, black to dark brown in visible light",
+    "eyeColorOptions": "Black, orange, or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_defel.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

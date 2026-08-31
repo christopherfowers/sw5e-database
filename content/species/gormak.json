@@ -1,0 +1,85 @@
+{
+  "key": "gormak",
+  "name": "Gormak",
+  "size": "medium",
+  "homeworld": "Voss",
+  "nativeLanguage": "Gormak",
+  "lore": "### Biology and Appearance\nThe gormak are green humanoids with flat, noseless faces adorned with frills, collecting in whorls on the sides of their heads. They have clawed, three-fingered, frilled hands, and tend to possess a muscular build. Females are slightly shorter than males and lacked a whorl located above their nose.\n\n### Society and Culture\nAn aggressive species, the gormak hold an innate love of warfare and competition, and are extremely hostile towards the other natives of their planet, the voss. The gormak hold a belief that in order for them to prosper, the voss, whom they view as a plague on the planet, must be destroyed. To achieve that goal, warriors have repeatedly assaulted the voss capital city over the course of centuries; however, despite their far greater numbers, their nature has kept them from uniting against their enemy. While their society and speech are considered primitive by galactic standards, their innate talent with technology rivals the top minds of the galaxy. From bits of scavenged electronics and equipment, the gormak construct advanced tools, heavy machinery, specialized weapons and even cybernetic implants. However, despite their incredible affinity for technology, the gormak remain a pre-spaceflight culture confined to their homeworld, which causes them to be viewed as a backward species despite being perfectly capable of repairing, modifying and improving tech created by more advanced cultures.\n\n### Names\nGormak are commonly named after heroes of their history by local shamans. Surnames are tribe-based, but optional.\n\n**Male Names.** Damal, Henet, Wockuss, Yryu, Zenit\n\n**Female Names.** Finay, Heidith, Jhekon, Rakva, Sanas\n\n**Surnames.** -Du, -Fo, -Qa, -Ry, -Ve",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Gormaks reach adulthood in their late teens and live for more than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Gormaks' warlike nature causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Gormaks typically stand 5 and a half to 6 and a half feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Adaptive Resilience",
+      "description": "Their innate understanding of technology allow gormak to readily adapt to its effects. You have advantage on Strength and Constitution saving throws against tech powers."
+    },
+    {
+      "name": "Aggressive",
+      "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Technological Affinity",
+      "description": "You have proficiency in the Technology skill, one vibroweapon and one blaster of your choice, and your choice of armstech's implements, biotech's implements, constructor's implements, mechanic's kits, or tinker's implements. Additionally, you have advantage on Intelligence (Technology) checks made to understand, utilize, or modify technology that you are unaware of or have never seen before."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Gormak. Gormak is primitive and gruff, often lacking definitions for things found outside of their homeworld."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'2\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Frills on the face and body",
+    "skinColorOptions": "Green",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Orange or blue"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gormak.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "pouch",
+  "name": "Pouch",
+  "category": "storage",
+  "costInCredits": 5,
+  "weight": 1.0,
+  "description": "A pouch stores 6.00 lb., not exceeding 1/5 cubic foot.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "battle-scarred",
+  "name": "Battle Scarred",
+  "abilityScoreIncreases": [
+    "constitution"
+  ],
+  "description": "You've spent a lifetime fighting, with the scars to prove it. You gain the following benefits:\n- Increase your Constitution score by 1, to a maximum of 20.\n- When you roll a 19 or a 20 on the d20 for a death saving throw, you regain 1 hit point.\n- When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you've used this ability, you must complete a long rest before you can use it again.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

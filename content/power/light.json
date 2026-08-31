@@ -1,0 +1,17 @@
+{
+  "key": "light",
+  "name": "Light",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "You touch one object that is no larger than 10 feet in any dimension. Until the power ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The power ends if you cast it again or dismiss it as an action.\n\nIf you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the power.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

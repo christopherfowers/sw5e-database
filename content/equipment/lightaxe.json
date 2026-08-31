@@ -1,0 +1,22 @@
+{
+  "key": "lightaxe",
+  "name": "Lightaxe",
+  "category": "weapon",
+  "costInCredits": 1550,
+  "weight": 3.75,
+  "properties": [
+    "dexterity 11",
+    "heavy",
+    "luminous",
+    "two-handed"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

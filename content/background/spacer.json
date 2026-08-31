@@ -1,0 +1,206 @@
+{
+  "key": "spacer",
+  "name": "Spacer",
+  "lore": "Aboard a star ship in the cold vacuum of space is where you feel most at home. You've spent the majority of your life travelling the stars. Life aboard ships has given you a good understanding of their inner workings. You might be especially skilled as a ship mechanic, a pilot, or support staff.",
+  "skillProficiencies": "Choose two from Insight, Investigation, Piloting, and Technology",
+  "toolProficiencies": "Your choice of chef's kit, mechanic's kit, or one type of gaming set",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of tools or a gaming set (one of your choice), a set of common clothes, a small souvenir from your travels, and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "Well-Traveled",
+    "description": "As a spacer, you've been from one end of the galaxy to the other. You've traveled along many of the trade routes, and know the safest routes. You have expert knowledge of the various hyperlanes. In addition to this, you know a large number of the models and designs of common space ships that are found in the galaxy."
+  },
+  "suggestedCharacteristics": "Spacers come from all walks of life, and the responsibilities of life aboard a ship make them generally reliable as well. Spending so much time on their ship shapes their outlook and forms their most important attachments.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "My crewmates know they can rely on me, no matter what."
+    },
+    {
+      "roll": 2,
+      "description": "I work hard so that I can play hard when the work is done."
+    },
+    {
+      "roll": 3,
+      "description": "I enjoy traveling into new systems and making new friends over a drink."
+    },
+    {
+      "roll": 4,
+      "description": "I stretch the truth for the sake of a good story."
+    },
+    {
+      "roll": 5,
+      "description": "To me, a bar brawl is a nice way to get to know a new city."
+    },
+    {
+      "roll": 6,
+      "description": "I never pass up a friendly wager."
+    },
+    {
+      "roll": 7,
+      "description": "The best way to get me to do something is to tell me I can't do it."
+    },
+    {
+      "roll": 8,
+      "description": "I like a job well done, especially if I can convince someone else to do it."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Respect",
+      "description": "The thing that keeps a ship together is mutual respect between captain and crew. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Fairness",
+      "description": "We all do the work, so we all share in the rewards. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Freedom",
+      "description": "Space is freedom — the freedom to go anywhere and do anything. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Mastery",
+      "description": "I'm a predator, and the other ships we come across are my prey. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I'm committed to my crewmates, not to ideals. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "Someday, I'll own my own ship and chart my own destiny. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I'm loyal to my captain first, everything else second."
+    },
+    {
+      "roll": 2,
+      "description": "The ship is most important—crewmates and captains come and go."
+    },
+    {
+      "roll": 3,
+      "description": "I'll always remember my first ship."
+    },
+    {
+      "roll": 4,
+      "description": "I will become the greatest captain that ever lived."
+    },
+    {
+      "roll": 5,
+      "description": "I was cheated out of my fair share of the profits, and I want to get my due."
+    },
+    {
+      "roll": 6,
+      "description": "Ruthless space pirates murdered my captain and crewmates, stole all we owned, and left me to die. Vengeance will be mine."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I follow orders, even if I think they're wrong."
+    },
+    {
+      "roll": 2,
+      "description": "I'll say anything to avoid having to do extra work."
+    },
+    {
+      "roll": 3,
+      "description": "Once someone questions my courage, I never back down no matter how dangerous the situation."
+    },
+    {
+      "roll": 4,
+      "description": "Once I start drinking, it's hard for me to stop."
+    },
+    {
+      "roll": 5,
+      "description": "I can't help but pocket loose coins and other trinkets I come across."
+    },
+    {
+      "roll": 6,
+      "description": "My pride will probably lead to my destruction."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Ace Pilot"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Competitor"
+    },
+    {
+      "roll": 7,
+      "name": "Galvanizing Presence"
+    },
+    {
+      "roll": 8,
+      "name": "Inspiring Leader"
+    }
+  ],
+  "variant": {
+    "name": "Specialty",
+    "description": "During your time as a spacer, you had a specific role to play aboard the ship. Roll a d8 or choose from the options in the table below to determine your role:\n\n<div style='column-count:2'>\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Pilot|\n|2|Mechanic|\n|3|Support Staff|\n|4|Guard|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Ship Medic|\n|6|Captain|\n|7|Communications Officer|\n|8|Ship Cook|\n\n</div>",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Pilot"
+      },
+      {
+        "roll": 2,
+        "name": "Mechanic"
+      },
+      {
+        "roll": 3,
+        "name": "Support Staff"
+      },
+      {
+        "roll": 4,
+        "name": "Guard"
+      },
+      {
+        "roll": 5,
+        "name": "Ship Medic"
+      },
+      {
+        "roll": 6,
+        "name": "Captain"
+      },
+      {
+        "roll": 7,
+        "name": "Communications Officer"
+      },
+      {
+        "roll": 8,
+        "name": "Ship Cook"
+      }
+    ]
+  },
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

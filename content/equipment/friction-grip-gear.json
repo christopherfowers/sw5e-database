@@ -1,0 +1,11 @@
+{
+  "key": "friction-grip-gear",
+  "name": "Friction-grip gear",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 2000,
+  "weight": 12.0,
+  "description": "A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking speed.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

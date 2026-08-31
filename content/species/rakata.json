@@ -1,0 +1,101 @@
+{
+  "key": "rakata",
+  "name": "Rakata",
+  "size": "medium",
+  "homeworld": "Lehon",
+  "nativeLanguage": "Rakata",
+  "lore": "### Biology and Appearance\nIn appearance, rakata are smooth skinned amphibian-like humanoids that had tall craniums along with eyes that protruded from each side of their heads on short stalks. These bipedal beings have three digit hands that are tipped with claws for digging through packed dirt. As a species, they are uniformly lean and tall; while most rakata have a similar height and weight, females tend to be more slender than males, though just as tall. Rakata are primarily carnivorous, likely stemming from the fact that they are cannibalistic, often making a meal of other species.\n\nLong term abuse of the Force in their society, exacerbated by a plague, culled the rakata's ability to sense the Force.\n\n### Society and Culture\nRakatan technology and structures hold the unique property of blending with the Force, creating powerful and long-lasting monuments that are almost impossibly to replicate. Rakatan society is devoted to conquering and enslaving those they deem weak. At the height of its power, the Rakatan Infinite Empire had conquered and enslaved dozens of worlds. They would strip entire planets of their resources and then terraform them to fit their own needs.\n\nAfter a plague ravaged their civilization and caused the fall of the Infinite Empire, rakata broke off into smaller tribes rather than a unified organization. Despite their newfound tribal nature, rakata retained their ability to quickly adapt to and appropriate technology.\n\n### Names\nRakatan names do not distinguish by gender, and they do not use surnames.\n\n**Names.** Ceh'let, Orsaa, Skal'nas, Soa, Tul'kar",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Rakata reach adulthoood by 20 and rarely live longer than 90 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Rakata's propensity towards war and aggression cause them to tend toward lawful dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Rakata typically stand between 6 and 7 feet tall and weigh around 180 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Adaptive Resilience",
+      "description": "Prolongued use of technology allows rakata to readily adapt to its effects. You have advantage on Strength and Constitution saving throws against tech powers."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Cannibalize",
+      "description": "If you spend at least 1 minute devouring the corpse of a beast or humanoid, you gain temporary hit points equal to your Constitution modifier. Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Force-Insensitive",
+      "description": "While rakata can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Technician",
+      "description": "You are proficient in the Technology skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Rakata. Rakata is characterized by its deep tones and simplistic nature, using mainly consonants and long vowels. It's script seems to be a very ancient form of Galactic Basic."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "125 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Horizontal eye stalks, vertical blade shaped head, tridactyl hands",
+    "skinColorOptions": "Blue, green, grey, or red",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Blue, brown, gold, or yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rakata.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "saber-ward",
+  "name": "Saber Ward",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "You take a defensive stance. Until the end of your next turn, you have resistance against kinetic, energy, and ion damage dealt by weapons.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

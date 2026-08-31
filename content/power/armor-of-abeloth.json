@@ -1,0 +1,17 @@
+{
+  "key": "armor-of-abeloth",
+  "name": "Armor of Abeloth",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "A protective force surrounds you, manifesting as shimmering light that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 psychic damage.\n\n***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, both the temporary hit points and the psychic damage increase by 5 for each slot.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

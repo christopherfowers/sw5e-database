@@ -1,0 +1,11 @@
+{
+  "key": "wristpad",
+  "name": "Wristpad",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 600,
+  "weight": 2.0,
+  "description": "A wristpad is a harness with an integrated datapad and holoprojector interface that fits on the forearm and includes self-charging battery packs.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,206 @@
+{
+  "key": "folk-hero",
+  "name": "Folk Hero",
+  "lore": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.",
+  "skillProficiencies": "Choose two from Animal Handling, Athletics, Nature, and Performance",
+  "toolProficiencies": "One type of artisan's implements, biochemist's kit, or chef's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of tools (one of your choice), a set of common clothes, and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "Rustic Hospitality",
+    "description": "Since you are of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+  },
+  "suggestedCharacteristics": "A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I judge people by their actions, not their words."
+    },
+    {
+      "roll": 2,
+      "description": "If someone is in trouble, I'm always ready to lend help."
+    },
+    {
+      "roll": 3,
+      "description": "When I set my mind to something, I follow through no matter what gets in my way."
+    },
+    {
+      "roll": 4,
+      "description": "I have a strong sense of fair play and always try to find the most equitable solution to arguments."
+    },
+    {
+      "roll": 5,
+      "description": "I'm confident in my own abilities and do what I can to instill confidence in others."
+    },
+    {
+      "roll": 6,
+      "description": "Thinking is for other people. I prefer action."
+    },
+    {
+      "roll": 7,
+      "description": "I misuse long words in an attempt to sound smarter."
+    },
+    {
+      "roll": 8,
+      "description": "I get bored easily. When am I going to get on with my destiny?"
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Respect",
+      "description": "People deserve to be treated with dignity and respect. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Fairness",
+      "description": "No one should get preferential treatment before the law, and no one is above the law. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Freedom",
+      "description": "Tyrants must not be allowed to oppress the people. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Might",
+      "description": "If I become strong, I can take what I want—what I deserve. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Sincerity",
+      "description": "There's no good in pretending to be something I'm not. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Destiny",
+      "description": "Nothing and no one can steer me away from my higher calling. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I have a family, but I have no idea where they are. One day, I hope to see them again."
+    },
+    {
+      "roll": 2,
+      "description": "I worked the land, I love the land, and I will protect the land."
+    },
+    {
+      "roll": 3,
+      "description": "A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter."
+    },
+    {
+      "roll": 4,
+      "description": "My tools are symbols of my past life, and I carry them so that I will never forget my roots."
+    },
+    {
+      "roll": 5,
+      "description": "I protect those who cannot protect themselves."
+    },
+    {
+      "roll": 6,
+      "description": "I wish my childhood sweetheart had come with me to pursue my destiny."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "The tyrant who rules my land will stop at nothing to see me killed."
+    },
+    {
+      "roll": 2,
+      "description": "I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure."
+    },
+    {
+      "roll": 3,
+      "description": "The people who knew me when I was young know my shameful secret, so I can never go home again."
+    },
+    {
+      "roll": 4,
+      "description": "I have a weakness for the vices of the city, especially hard drink."
+    },
+    {
+      "roll": 5,
+      "description": "Secretly, I believe that things would be better if I were a tyrant lording over the land."
+    },
+    {
+      "roll": 6,
+      "description": "I have trouble trusting in my allies."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Animal Handler"
+    },
+    {
+      "roll": 2,
+      "name": "Brawny"
+    },
+    {
+      "roll": 3,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 4,
+      "name": "Performer"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Healer"
+    }
+  ],
+  "variant": {
+    "name": "Defining Event",
+    "description": "You previously pursued a simple profession among the peasantry, perhaps as a farmer or miner, servant or shepherd. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people.\n\n|d8|Defining Event|\n|:---:|:----------|\n|1|I stood up to a tyrant's agents.|\n|2|I saved people during a natural disaster.|\n|3|I stood alone against a terrible monster.|\n|4|I stole from a corrupt merchant to help the poor.|\n|5|I led a militia to fight off an invading army.|\n|6|I broke into a tyrant's castle and stole weapons to arm the people.|\n|7|I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.|\n|8|A lord rescinded an unpopular decree after I led a symbolic act of protect against it.|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "I stood up to a tyrant's agents."
+      },
+      {
+        "roll": 2,
+        "name": "I saved people during a natural disaster."
+      },
+      {
+        "roll": 3,
+        "name": "I stood alone against a terrible monster."
+      },
+      {
+        "roll": 4,
+        "name": "I stole from a corrupt merchant to help the poor."
+      },
+      {
+        "roll": 5,
+        "name": "I led a militia to fight off an invading army."
+      },
+      {
+        "roll": 6,
+        "name": "I broke into a tyrant's castle and stole weapons to arm the people."
+      },
+      {
+        "roll": 7,
+        "name": "I trained the peasantry to use farm implements as weapons against a tyrant's soldiers."
+      },
+      {
+        "roll": 8,
+        "name": "A lord rescinded an unpopular decree after I led a symbolic act of protect against it."
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

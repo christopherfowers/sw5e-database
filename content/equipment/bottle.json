@@ -1,0 +1,11 @@
+{
+  "key": "bottle",
+  "name": "Bottle",
+  "category": "storage",
+  "costInCredits": 20,
+  "weight": 1.0,
+  "description": "A bottle stores 1 and 1/2 pints of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

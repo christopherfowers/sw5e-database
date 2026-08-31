@@ -1,0 +1,158 @@
+{
+  "key": "mucous-salamander",
+  "name": "Mucous Salamander",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "15 natural armor in solid form"
+  },
+  "hitPoints": {
+    "average": 44,
+    "roll": "8d8 + 8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft. (solid form), swim 50 ft. (liquid form)"
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 17,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Athletics +5",
+    "Stealth +5"
+  ],
+  "senses": [
+    "passive Perception 11"
+  ],
+  "damageVulnerabilities": {
+    "other": [
+      "lightning in liquid form"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "energy",
+      "ion"
+    ],
+    "other": [
+      "and kinetic from unenhanced weapons in solid form"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "prone",
+      "grappled"
+    ],
+    "other": [
+      "restrained in liquid form"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Shifting Molecules",
+      "behaviorType": "trait",
+      "description": "When the salamander enters or exits water, it changes the form of its molecular structure to mimic its surroundings. Other than its AC, its statistics are the same in each form. Any object it is wearing or carrying isn't transformed.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Amphibious",
+      "behaviorType": "trait",
+      "description": "The salamander can breathe air and water.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Diffuse Body",
+      "behaviorType": "trait",
+      "description": "The salamander can move through other creatures and objects no more than 10 feet in diameter as if they were difficult terrain. It takes 5 (1d10) kinetic damage if it ends its turn inside an object.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Liquid Form Only"
+    },
+    {
+      "name": "Spider Climb",
+      "behaviorType": "trait",
+      "description": "The salamander can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Solid Form Only"
+    },
+    {
+      "name": "Spiked Hide",
+      "behaviorType": "trait",
+      "description": "Any creature that grapples the salamander takes 3 (1d6) kinetic damage at the end of its turn.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Solid Form Only"
+    },
+    {
+      "name": "Watery Stealth",
+      "behaviorType": "trait",
+      "description": "While underwater, the salamander has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Liquid Form Only"
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d8 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "usageLimit": "Solid Form Only",
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d10 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Mucous salamanders, or pinkish salamanders, are amphibians native to the bogs of Yavin 4. They possess the distinct ability to diffuse their molecular structures underwater, which allow them to swim faster and pass through hunters' nets. When a mucous salamander enters dry areas, it cN change its molecular structure into hardened scales for protection from predators, particularly the angler.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "key": "grenade-launcher",
+  "name": "Grenade launcher",
+  "category": "weapon",
+  "costInCredits": 1800,
+  "weight": 11.5,
+  "description": "Rather than traditional power cells, the grenade launcher fires grenades. When firing a grenade at long range, or if you don't meet the grenade launcher's strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the grenade launcher, you must roll the damage dice twice and take the lesser total.",
+  "properties": [
+    "reload 1",
+    "special (range 90/360)",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

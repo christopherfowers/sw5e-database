@@ -1,0 +1,17 @@
+{
+  "key": "torpedo-launcher",
+  "name": "Torpedo launcher",
+  "category": "weapon",
+  "costInCredits": 15000,
+  "weight": 30.0,
+  "description": "Rather than traditional power cells, the torpedo launcher fires specialized projectiles in the form of torpedoes. Torpedo launchers have advantage on attack rolls against Gargantuan creatures and disadvantage on attack rolls against Large and smaller creatures. Unlike other weapons, the torpedo launcher can only be loaded using an action, and you don’t add your Dexterity modifier to damage rolls you make with it.\n\nThe torpedo launcher requires the use of a tripod, which is included in the price. Over the course of 1 minute, you can deploy or collapse the torpedo launcher on the tripod. While deployed, your speed is reduced to 0.",
+  "properties": [
+    "special (range 1200/3600)",
+    "reload 1",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

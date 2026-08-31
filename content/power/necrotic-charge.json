@@ -1,0 +1,17 @@
+{
+  "key": "necrotic-charge",
+  "name": "Necrotic Charge",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Varies",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "As part of the action used to cast this power, you must make a melee weapon attack against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you can choose to deal up to 1d8 of necrotic damage, which you suffer as well. This damage can't be reduced or negated in any way.\n\nThis power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 necrotic damage to the target, and you can increase the secondary damage to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

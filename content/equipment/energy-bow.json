@@ -1,0 +1,22 @@
+{
+  "key": "energy-bow",
+  "name": "Energy bow",
+  "category": "weapon",
+  "costInCredits": 475,
+  "weight": 4.5,
+  "properties": [
+    "power cell (range 80/320)",
+    "mighty",
+    "reload 4",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

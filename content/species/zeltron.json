@@ -1,0 +1,85 @@
+{
+  "key": "zeltron",
+  "name": "Zeltron",
+  "size": "medium",
+  "homeworld": "Zeltros",
+  "nativeLanguage": "Galactic Basic",
+  "lore": "### Biology and Appearance\nZeltrons are one of the few near-human species that differentiated from the baseline stock enough to be considered a new species of the Human genus, rather than simply a subspecies. They possess two biological traits of note. The first is that they all produce potent pheromones, similar to the Falleen species, which enhanced their attractiveness and likeability. The second is a limited telepathic ability, used to project emotions onto others, as well as allowing them to read and even feel the emotions of others; some Zeltrons have been hired by the Exchange for this ability. Because of their telepathic ability, positive emotions such as happiness, love and pleasure are very important to them, while negative ones such as anger, fear, or depression are shunned.\n\n### Society and Culture\nZeltron culture is highly influenced by sexuality and the pursuit of pleasure in general. Most of their art and literature is devoted to the subject, producing some of the raciest pieces in the galaxy. Zeltrons are known to dress in wildly colorful or revealing attire. It's common to see Zeltrons wearing shockingly bright shades of neon colors in wildly designed bikinis, or nearly skin tight clothing of other sorts with bizarre color designs, patterns, and symbols.\n\n### Names\nZeltron names often have an air of mystique to them, to evoke sensuality. For a Zeltron, a beautiful face is nothing without an equally beautiful name. It's not uncommon for a Zeltron to forsake their familial surname in favor of a more attractive-sounding one.\n\n**Male Names.** Marruc, Bahb, Rahulh, Demagol\n\n**Female Names.** Lyshaa, Dani, Vianna, Chantique\n\n**Surnames.** D'Pow, Blue, Duare, Sapphire",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Zeltron reach adulthood in their late teens and live about 80 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Zeltron are a deeply sensual, hedonistic species, causing them to tend toward chaotic balanced or dark side alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Zeltron tend to be slender and statuesque, typically standing between 5 and 6 feet tall and rarely weighing more than 150 lb. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Charismatic",
+      "description": "You have proficiency with Deception or Persuasion (your choice)."
+    },
+    {
+      "name": "Enthralling Pheromones",
+      "description": "You can use your pheromones to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs."
+    },
+    {
+      "name": "Natural Empathy",
+      "description": "Zeltron's limited telepathy allow them to sense mood shifts in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you."
+    },
+    {
+      "name": "Two Livered",
+      "description": "Zeltron have two livers, which makes them adept at filtering toxins. You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9)."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and one language of your choice."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "90 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Capable of producing powerful pheromones",
+    "skinColorOptions": "Light pink to deep crimson",
+    "hairColorOptions": "Blue, brown, pink, or red",
+    "eyeColorOptions": "Hazel, silver, amber"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_zeltron.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

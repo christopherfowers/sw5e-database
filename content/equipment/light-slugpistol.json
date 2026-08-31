@@ -1,0 +1,21 @@
+{
+  "key": "light-slugpistol",
+  "name": "Light slugpistol",
+  "category": "weapon",
+  "costInCredits": 250,
+  "weight": 1.0,
+  "properties": [
+    "light",
+    "reload 8",
+    "slug cartridge (range 35/140)"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

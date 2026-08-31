@@ -1,0 +1,22 @@
+{
+  "key": "shotosaber",
+  "name": "Shotosaber",
+  "category": "weapon",
+  "costInCredits": 450,
+  "weight": 1.0,
+  "properties": [
+    "finesse",
+    "hidden",
+    "light",
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

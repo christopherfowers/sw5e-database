@@ -1,0 +1,10 @@
+{
+  "key": "hazard-suit",
+  "name": "Hazard suit",
+  "category": "lifeSupport",
+  "costInCredits": 1875,
+  "weight": 24.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

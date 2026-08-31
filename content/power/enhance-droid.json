@@ -1,0 +1,17 @@
+{
+  "key": "enhance-droid",
+  "name": "Enhance Droid",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "You touch a droid or construct and upgrade one of its aspects. Choose one of the following effects; the target gains that effect until the power ends.\n- ***Servomotor.*** The target has advantage on Strength checks, and its carrying capacity doubles.\n- ***Motivator.*** The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.\n- ***Power Core.*** The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the power ends.\n- ***Databanks.*** The target has advantage on Intelligence checks.\n- ***Sensors.*** The target has advantage on Wisdom checks.\n- ***Relations Protocols.*** The target has advantage on Charisma checks.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, you can target one additional droid or construct for each slot level above 2nd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "muscled-menace",
+  "name": "Muscled Menace",
+  "prerequisite": "Strength 13, size Medium",
+  "abilityScoreIncreases": [
+    "strength"
+  ],
+  "description": "Despite being of otherwise average size, your might extends beyond that of your peers. You gain the following benefits:\n- Increase your Strength score by 1, to a maximum of 20.\n- Your speed increases by 5 feet.\n- You can't add more than +3 when determining your bonus to AC from your Dexterity.\n- You can't add more than +3 when determing your bonus to Dexterity saving throws from Dexterity.\n- You gain the Oversized special trait: ***Oversized.*** Light- and vibro-weapons that lack the dexterity or light property are considered to have the heavy property for you. The strength number for blasters is reduced by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely.",
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

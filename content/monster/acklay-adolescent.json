@@ -1,0 +1,81 @@
+{
+  "key": "acklay-adolescent",
+  "name": "Acklay, Adolescent",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 95,
+    "roll": "10d12 + 30"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 22,
+      "modifier": 6
+    },
+    "dexterity": {
+      "score": 9,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "passive perception 10"
+  ],
+  "challengeRating": "5",
+  "experiencePoints": 1800,
+  "behaviors": [
+    {
+      "name": "Trampling Charge",
+      "behaviorType": "trait",
+      "description": "If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 6) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The acklay is a non-sentient mix of crustacean and reptile with amphibious traits that allow it to inhabit the water and land of its homeworld of Vendaxa. The gigantic creature is protected by a hard, shell-like carapace of bony nodules. They walk on six hardened, skin-covered claws, and have grappling hands. Its mouth is filled with razor-sharp teeth, and uses an organ beneath its chin to sense the electricical field given off by its prey, which it then spears with its pointed legs. The species has stretchy stomachs and three eyes.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

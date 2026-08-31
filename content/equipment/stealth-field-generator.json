@@ -1,0 +1,11 @@
+{
+  "key": "stealth-field-generator",
+  "name": "Stealth field generator",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 8000,
+  "weight": 3.0,
+  "description": "Stealth field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the power cell. This effect ends early if you make an attack or cast a force or tech power.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

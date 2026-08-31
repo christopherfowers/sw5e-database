@@ -12,7 +12,7 @@
   },
   "hitPoints": {
     "average": 15,
-    "roll": "2d8 + 6"
+    "roll": "2d8+6"
   },
   "speed": {
     "walk": 30,
@@ -66,25 +66,25 @@
     {
       "name": "Gaffi Stick",
       "behaviorType": "action",
-      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) kinetic damage.",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 7 (1d10+2) kinetic damage.",
       "attackType": "meleeWeapon",
       "attackBonus": 4,
       "range": "reach 5 ft.",
       "targets": "one target",
       "averageDamage": 7,
-      "damageRoll": "1d10 + 2",
+      "damageRoll": "1d10+2",
       "damageType": "kinetic"
     },
     {
       "name": "Cycler Rifle",
       "behaviorType": "action",
-      "description": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 6 (1d10 + 1) kinetic damage.",
+      "description": "Ranged Weapon Attack +3 to hit, reach 150/600 ft., one target. Hit 6 (1d10+1) kinetic damage.",
       "attackType": "rangedWeapon",
       "attackBonus": 3,
-      "range": "range 150/600 ft.",
+      "range": "reach 150/600 ft.",
       "targets": "one target",
       "averageDamage": 6,
-      "damageRoll": "1d10 + 1",
+      "damageRoll": "1d10+1",
       "damageType": "kinetic"
     }
   ],

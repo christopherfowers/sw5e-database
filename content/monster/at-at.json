@@ -1,0 +1,198 @@
+{
+  "key": "at-at",
+  "name": "AT-AT",
+  "size": "gargantuan",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 20,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 330,
+    "roll": "20d20 + 120"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 27,
+      "modifier": 8
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 23,
+      "modifier": 6
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Str +14",
+    "Con +12"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "psychic"
+    ]
+  },
+  "damageImmunities": {
+    "types": [
+      "poison",
+      "necrotic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned",
+      "frightened",
+      "petrified",
+      "restrained",
+      "incapacitated",
+      "stunned",
+      "prone",
+      "blinded",
+      "charmed"
+    ],
+    "other": [
+      "disease"
+    ]
+  },
+  "challengeRating": "19",
+  "experiencePoints": 22000,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Heavy Durasteel Armor",
+      "behaviorType": "trait",
+      "description": "The outer layer of the AT-AT is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 30 points, the AT-AT takes no damage from that attack. If the AT-AT takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Piloted",
+      "behaviorType": "trait",
+      "description": "The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Towering",
+      "behaviorType": "trait",
+      "description": "Creatures of Large size or smaller can stand in the AT-AT's space.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Troop Transport",
+      "behaviorType": "trait",
+      "description": "The AT-AT can transport a maximum of 40 stormtroopers and five speeder bikes, which it can deploy using its Deploy Troops legendary action, or which can be fought by creatures inside of the AT-AT.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vulnerable Interior",
+      "behaviorType": "trait",
+      "description": "The AT-AT's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The AT-AT can use its Frightful Presence. It then makes three attacks: one with its laser cannon volley and two with its medium repeaters.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Laser Cannon Volley",
+      "behaviorType": "action",
+      "description": "The AT-AT chooses a point within 320 ft and lets loose a blast from each of its heavy laser cannons that explodes in a 15ft cube around that point. Each creature within the cube must succeed on a DC 16 Dexterity saving throw, taking 54 (12d8) energy damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Medium Repeaters",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +8 to hit, range 240/360 ft., one target. Hit: 22 (4d10) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 8,
+      "range": "range 240/360 ft.",
+      "targets": "one target",
+      "averageDamage": 22,
+      "damageRoll": "4d10",
+      "damageType": "energy"
+    },
+    {
+      "name": "Stomp",
+      "behaviorType": "action",
+      "description": "All creatures standing within the AT-AT's space or within 5ft of it must make a DC 20 Dexterity saving throw, taking 78 (12d12) kinetic damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Frightful Presence",
+      "behaviorType": "action",
+      "description": "Each creature of the AT-AT's choice within 240 feet of the AT-AT and aware of it must succeed on a DC 16 Wisdom saving throw or become Frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-AT's Frightful Presence for 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Stomp",
+      "behaviorType": "legendary",
+      "description": "The AT-AT makes a stomp attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Repeating Blasters",
+      "behaviorType": "legendary",
+      "description": "The AT-AT makes a single attack with its medium repeaters.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Deploy Troops",
+      "behaviorType": "legendary",
+      "description": "The AT-AT mobilizes some of the soldiers traveling within it. It deploys 1d4+2 Troopers and 1 74-Z speeder bike. These troops appear in any unoccupied spaces within 10 feet of the AT-AT.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    }
+  ],
+  "flavorText": "The All Terrain Armored Transport is an imposing, heavily armored, quadrupedal combat walker that stands 22.5 meters tall and can move at 60 kph. In addition to it's armaments, it also served as transport for combat personnel. The vehicle's cockpit and sensor array are located in the \"head\" of the walker, which also carries spotlights and the main armaments: dual Piperii-Cerlurn R-90C medium blasters located on the sides or \"temples,\" and a pair of heavier Taim & Bak MS-1 heavy blaster cannons fitted on the \"chin.\" The main body houses a troop compartment capable of ferrying numerous soldiers, along with a vehicle bay at the walker's rear that holds five 74-Z speeder bikes. The main, troop hatch is located in the middle of the walker's side, two smaller escape hatches are located both to the main hatch's immediate left and right, and the auxiliary hatch is located in the walker's underside.",
+  "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

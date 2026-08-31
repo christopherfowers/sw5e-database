@@ -1,0 +1,21 @@
+{
+  "key": "electrostaff",
+  "name": "Electrostaff",
+  "category": "weapon",
+  "costInCredits": 600,
+  "weight": 5.0,
+  "properties": [
+    "double (1d6 kinetic)",
+    "finesse",
+    "shocking 13"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

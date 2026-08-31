@@ -1,0 +1,94 @@
+{
+  "key": "knobby-white-spiderling",
+  "name": "Knobby White Spiderling",
+  "size": "tiny",
+  "types": [
+    "plant"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11
+  },
+  "hitPoints": {
+    "average": 10,
+    "roll": "4d4"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 11,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Stealth +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 10"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "fire"
+    ]
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Distress Spores",
+      "behaviorType": "trait",
+      "description": "When the spider takes damage, all other spiders within 240 feet of it can sense its pain.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Slam",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 2,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 2,
+      "damageRoll": "1d4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Stinger",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d6) kinetic damage, and the target must make a DC 14 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The Knobby white spider was a large landspeeder-sized arachnid-like organism native to the swamp world of Dagobah. In addition to the very large ones, there are also some smaller, knee-heigh spiderlings.\n\n***Appearance.*** It had a large, lumpy body with a bloated, bulbous head, eight gnarled legs and one large stinger used to capture and sedate its prey.\n\n***Biology.*** One of the most bizarre organisms on Dagobah, the knobby white spider was in fact a mobile root that was part of the gnarltree's life cycle. Composed primarily of calcified wood, it would break free of its parent tree to roam the swamps and devour animals. After gathering enough nutrients, the spider would find a clear spot to anchor its legs, and if it survived that period, it would eventually transform into roots that allow the spider to grow into a towering tree. During this period it was vulnerable to bogwings and jubba birds.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

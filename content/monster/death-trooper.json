@@ -1,0 +1,151 @@
+{
+  "key": "death-trooper",
+  "name": "Death Trooper",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 16,
+    "type": "battle armor"
+  },
+  "hitPoints": {
+    "average": 97,
+    "roll": "15d8 + 30"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 19,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 11,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "skills": [
+    "Perception +7",
+    "Stealth +10",
+    "Survival +4"
+  ],
+  "senses": [
+    "truesight 15 ft.",
+    "blindsight 30 ft.",
+    "darkvision 60 ft.",
+    "passive Perception 17"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one other of your choice"
+  ],
+  "challengeRating": "6",
+  "experiencePoints": 2300,
+  "behaviors": [
+    {
+      "name": "Skirmish",
+      "behaviorType": "trait",
+      "description": "The trooper can use Disengage as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Precise Shot",
+      "behaviorType": "trait",
+      "description": "As a bonus action before making a ranged weapon attack, the trooper can take aim at a vital point of a target causing an extra 7 (2d6) energy damage on a hit.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Enhanced Sensors",
+      "behaviorType": "trait",
+      "description": "The trooper has advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Enhanced Weapons",
+      "behaviorType": "trait",
+      "description": "The troopers weapon attacks are enhanced.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Stealthy",
+      "behaviorType": "trait",
+      "description": "The trooper can take the Hide action as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Surprise Attack",
+      "behaviorType": "trait",
+      "description": "If the trooper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The trooper makes two melee attacks or four ranged attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Techblade",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 +4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d6 +4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 7,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "energy"
+    },
+    {
+      "name": "Volley",
+      "behaviorType": "action",
+      "description": "The trooper shoots a rain of deadly blaster bolts in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d8 + 4) energy damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    }
+  ],
+  "sectionText": "Death troopers were an elite variant of stormtroopers designed for stealth, espionage and lethality. Operating under Imperial Intelligence, they served as protective details and bodyguards for significant Imperial officers as well as special-assignment commandos. Death troopers were trained in unarmed combat, heavy weapons, demolitions, and marksmanship. They were experts at covering their tracks, leaving little to no evidence of their missions. Stormtrooper candidates who excelled at their training were reassigned to the advanced death trooper camp on Scarif. They were required to exceed traditional stormtrooper standards, including height and weight, and had to meet certain ideological standards. The candidates were also subjected to a battery of physical tests and classified surgical enhancements as well as more rigorous training than standard stormtroopers. They wore black suits of armor that was much more advanced than standard stormtrooper armor. Their helmet had vocal scramblers, micro-motion sensors, targeting systems, and heads-up displays with data on enemy and friendly positions on the battlefield to give them total situational awareness. Their armor was also covered by a spray polymer called reflec, which warped electromagnetic signals commonly found in sensor arrays, making them well suited for stealth operations. Death troopers were equipped with a variety of weapons depending on their specialities including the SE-14r light repeating blasters, E-11Ds, DLT-19D heavy blaster rifles, C-25 fragmentation grenades and Sonic Imploders.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

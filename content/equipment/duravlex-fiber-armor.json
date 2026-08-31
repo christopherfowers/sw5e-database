@@ -1,0 +1,15 @@
+{
+  "key": "duravlex-fiber-armor",
+  "name": "Duravlex fiber armor",
+  "category": "armor",
+  "costInCredits": 1450,
+  "weight": 13.0,
+  "properties": [
+    "silent"
+  ],
+  "armorClassification": "light",
+  "armorClass": "11 + Dex modifier",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

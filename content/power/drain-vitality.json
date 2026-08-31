@@ -1,0 +1,18 @@
+{
+  "key": "drain-vitality",
+  "name": "Drain Vitality",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Sap Vitality",
+  "description": "You draw the willpower from a creature you can see within range. Make a ranged force attack against the target. On a hit, the target takes 2d6 necrotic damage and it deals only half damage with weapon attacks that use Strength until the power ends.\n\nAt the end of each of the target's turns, it can make a Constitution saving throw against the power. On a success, the power ends.\n\n***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

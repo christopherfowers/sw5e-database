@@ -1,0 +1,17 @@
+{
+  "key": "seethe",
+  "name": "Seethe",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You seethe with anger, letting the dark side of the Force flow through and empower you. As part of the action to cast this power, you spend one of your Hit Dice to recover hit points.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

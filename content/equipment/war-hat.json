@@ -1,0 +1,22 @@
+{
+  "key": "war-hat",
+  "name": "War hat",
+  "category": "weapon",
+  "costInCredits": 350,
+  "weight": 3.25,
+  "properties": [
+    "defensive 1",
+    "disguised",
+    "returning",
+    "thrown (range 30/90)"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

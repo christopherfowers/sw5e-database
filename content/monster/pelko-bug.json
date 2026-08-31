@@ -1,0 +1,79 @@
+{
+  "key": "pelko-bug",
+  "name": "Pelko Bug",
+  "size": "tiny",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 18,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 1,
+    "roll": "1d4-1"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., climb 20 ft., burrow 20 ft., fly 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 2,
+      "modifier": -4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 2,
+      "modifier": -4
+    }
+  },
+  "skills": [
+    "Stealth +4"
+  ],
+  "senses": [
+    "darkvision 30 ft.",
+    "passive Perception 10"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "fire",
+      "cold",
+      "lightning",
+      "energy"
+    ]
+  },
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "behaviors": [
+    {
+      "name": "Barbs",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 0 ft., one creature. Hit: 1 (2d4-1) kinetic damage, and the target must succeed on a DC 12 Constitution saving throw or take 2 poison damage and become paralyzed.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Pelko bugs are small creatures that are covered in millions of microscopic barbs that deliver a paralytic, blistering toxin which can penetrate armor. They live only beneath sands of the Valley of the Dark Lords on Korriban, and are attracted to Force-sensitives. They stalk and swarm their prey in the darkness. The bug's attunement to the Force allows them to determine if a creature is suitable prey. The barbs are used in training sabers at the Sith Academy because of the toxin's effects, which mimick the effects of losing a limb to a lightsaber.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

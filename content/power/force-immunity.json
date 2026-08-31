@@ -1,0 +1,17 @@
+{
+  "key": "force-immunity",
+  "name": "Force Immunity",
+  "powerType": "force",
+  "level": 4,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "An immobile, faintly shimmering barrier springs into existence around you and remains for the duration. The barrier moves with you. Any force power of 3rd level or lower cast from outside the barrier can't affect you, even if the power is cast using a higher level force slot. Such a power can target you, but the power has no effect on you. Similarly, the area within the barrier is excluded from the areas affected by such powers.\n\n***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the barrier blocks powers of one level higher for each slot level above 4th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

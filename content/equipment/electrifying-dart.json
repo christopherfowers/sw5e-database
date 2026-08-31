@@ -1,0 +1,11 @@
+{
+  "key": "electrifying-dart",
+  "name": "Electrifying dart",
+  "category": "ammunition",
+  "costInCredits": 85,
+  "weight": 0.0,
+  "description": "This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Dexterity saving throw, taking 1d4 lightning damage on a failed save.\n\nAdditionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

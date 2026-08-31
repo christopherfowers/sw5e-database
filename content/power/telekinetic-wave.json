@@ -1,0 +1,18 @@
+{
+  "key": "telekinetic-wave",
+  "name": "Telekinetic Wave",
+  "powerType": "force",
+  "level": 8,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "150 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "prerequisite": "Telekinetic Burst",
+  "description": "You manipulate the Force in a 60-foot radius centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 12d6 force damage, is knocked prone, and moved 5 feet in a direction of your choice. On a successful save, it takes half as much damage and isn't knocked prone or moved.\n\n***Force Potency.*** When you cast this power using a force slot of 9th level, the damage increases by 2d6.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

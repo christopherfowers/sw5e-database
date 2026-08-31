@@ -1,0 +1,11 @@
+{
+  "key": "homing-beacon",
+  "name": "Homing beacon",
+  "category": "utility",
+  "costInCredits": 450,
+  "weight": 1.0,
+  "description": "A homing beacon is a device used to track starships or any other entity being transported. Homing beacons transmit using non-mass HoloNet transceivers able to be tracked through hyperspace. Homing beacons are small enough that they can easily be hidden inside a ship, or tucked into some crevice on its exterior.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

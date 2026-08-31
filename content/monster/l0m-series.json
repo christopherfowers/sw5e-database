@@ -1,0 +1,113 @@
+{
+  "key": "l0m-series",
+  "name": "L0M Series",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 27,
+    "roll": "5d8 + 5"
+  },
+  "speed": {
+    "walk": 25,
+    "text": "25 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 10,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "skills": [
+    "Lore +4",
+    "Survival +4"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "languages": [
+    "All registered languages"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ],
+    "other": [
+      "diseased"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the droid fails a saving throw, he can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/Day"
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The droid makes two blaster rifle attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 5 (1d8+1) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d8+1",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "The LOM-series protocol droid was manufactured by Industrial Automaton and were designed with insectile features to emulate the species they were created to serve: the sentient Gand. The LOM-series had a flaw that allowed the personality software of a droid to be corrupted. Many LOM-series droids became enforcers in the galaxy's Outer Rim Territories. The most notable, 4-LOM, became a bounty hunter, sometimes seen with the Gand, Zuckuss. Aside from the insectile face, the LOM protocol droid was very similar to the 3PO-series—indeed, Industrial Automaton made crafty deals with companies such as SyntheTech, to use many components initially used by Cybot Galactica. Thus, the LOM-series possessed an AA-1 VerboBrain and a TranLang III communications module programmed with millions of languages; it even had a similar body frame and plating design. Such blatant use of its trademark hardware caused Cybot Galactica to file a number of lawsuits against its rival company. Though their LOM units sold well in limited release, Industrial Automaton's future plans to monopolize the protocol droid market were dashed.",
+  "sectionText": "Protocol droids are programmed mostly for etiquette, and are often used as translators between sentients or between sentients and computers. They are generally designed to look like the sentients they serve; for example, 3PO-series protocol droids are humanoid. They possess knowledge about various cultures and customs, both to advise those for whom they were working, and to ensure their own behavior is diplomatic and culturally sensitive.\n\n***History.*** Protocol droids constructed around 4000 BBY (around the time of the Great Sith War and the Jedi Civil War) were frequently engineered with certain behavioral shifts set to occur whenever another design-generation was reached. A number of these droids underwent radical changes with each new generation—for example, when a C7-model droid supplanted the C6 variety. Each numeric \"jump\" in sequence could have had wide-ranging changes in functionality and temperament during that historical period.\n\n***Programming Units.*** Cybot Galactica, the most famous and successful manufacturer of protocol droids, outfit them with SyntheTech AA-1 VerboBrains to give their droids personalities with emotions and the ability to learn and grow very similar to organic beings. The 3PO unit possesses a TranLang III communications module that can reproduce over six million languages, as well as reproduce any sound it picks up. Linguistic modules are also used to improve their speech functions. Some models, such as the pricey E-3POs, also include the TechSpan I module, making it possible to interface with Imperial networks and undocumented technologies of Imperial subcontractors.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

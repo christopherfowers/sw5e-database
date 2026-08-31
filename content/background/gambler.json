@@ -1,0 +1,167 @@
+{
+  "key": "gambler",
+  "name": "Gambler",
+  "lore": "You are a skilled gambler who spends most of your time in casinos, bar rooms, and gambling dens. Are your activities legal, or do you break the law? Have you ever cheated in a game, or do you play by the rules? No matter what, your life has been one of excitement, chance, and danger.",
+  "skillProficiencies": "Choose two from Deception, Insight, Intimidation, and Sleight of Hand",
+  "toolProficiencies": "Two types of gaming sets",
+  "startingEquipment": "A set of common clothes, a set of dice, a deck of playing cards, a lucky charm, and a belt pouch containing 100 cr.",
+  "feature": {
+    "name": "Let's Make It Interesting",
+    "description": "You can convince nearly anyone to put up something they aren't normally willing to part with (property or information) in a game of chance. Your GM might rule that they will only agree to a game of their choosing, and they may only agree if they feel the odds are in their favor."
+  },
+  "suggestedCharacteristics": "Gambling is your passion, for better or for worse. Most gamblers see their vices as virtues, and overlook things in their pursuit of the rush.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I like to impress everyone I meet with a simple trick or a quick joke."
+    },
+    {
+      "roll": 2,
+      "description": "I constantly make side bets on everything that happens around me."
+    },
+    {
+      "roll": 3,
+      "description": "No matter how high the stakes, I always appear calm."
+    },
+    {
+      "roll": 4,
+      "description": "I try to be unpredictable, so no one will know when I'm bluffing."
+    },
+    {
+      "roll": 5,
+      "description": "I never back down from a challenge."
+    },
+    {
+      "roll": 6,
+      "description": "I can't get satisfaction out of something if the stakes are too low."
+    },
+    {
+      "roll": 7,
+      "description": "I tend to make friends out of enemies, and enemies out of friends."
+    },
+    {
+      "roll": 8,
+      "description": "I prefer one game above all others."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Risk",
+      "description": "Nothing worth doing is ever a sure thing. (Chaotic)"
+    },
+    {
+      "roll": 2,
+      "name": "Victory",
+      "description": "Never make a bet unless you're sure you can win. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Greed",
+      "description": "Anything that isn't mine soon will be. (Dark)"
+    },
+    {
+      "roll": 4,
+      "name": "Charity",
+      "description": "I share my winnings with the less fortunate. (Light)"
+    },
+    {
+      "roll": 5,
+      "name": "Surprise",
+      "description": "Life is a game worth playing, because you never know how the dice will land. (Any)"
+    },
+    {
+      "roll": 6,
+      "name": "Laziness",
+      "description": "Working is for chumps. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I owe a lot of money to the wrong kind of people."
+    },
+    {
+      "roll": 2,
+      "description": "I still keep the first coin I ever won. It's my good luck charm."
+    },
+    {
+      "roll": 3,
+      "description": "Most of my winnings go to my home."
+    },
+    {
+      "roll": 4,
+      "description": "Someday I will own my own casino."
+    },
+    {
+      "roll": 5,
+      "description": "I lost a large sum of money to a con artist; I seek to get it back."
+    },
+    {
+      "roll": 6,
+      "description": "I hide my gambling behind a normal life. My friends have no idea who I really am."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I can't step away from the table when I'm losing."
+    },
+    {
+      "roll": 2,
+      "description": "I spend money faster than I can make it."
+    },
+    {
+      "roll": 3,
+      "description": "Everyone has a price. Mine happens to be pretty low."
+    },
+    {
+      "roll": 4,
+      "description": "I assume everyone is hiding something from me."
+    },
+    {
+      "roll": 5,
+      "description": "I tend to value money more than people."
+    },
+    {
+      "roll": 6,
+      "description": "I like to think I could drink anyone under the table, but I'm really a lightweight."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Empathic"
+    },
+    {
+      "roll": 3,
+      "name": "Threatening"
+    },
+    {
+      "roll": 4,
+      "name": "Quick-Fingered"
+    },
+    {
+      "roll": 5,
+      "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Keen Mind"
+    },
+    {
+      "roll": 7,
+      "name": "Observant"
+    },
+    {
+      "roll": 8,
+      "name": "Practiced"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

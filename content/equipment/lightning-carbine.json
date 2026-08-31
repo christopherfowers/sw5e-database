@@ -1,0 +1,23 @@
+{
+  "key": "lightning-carbine",
+  "name": "Lightning carbine",
+  "category": "weapon",
+  "costInCredits": 1150,
+  "weight": 7.0,
+  "properties": [
+    "power cell (range 60/240)",
+    "penetrating 6",
+    "reload 12",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "lightning"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "supreme-durability",
+  "name": "Supreme Durability",
+  "prerequisite": "4th level; Strength, Constitution, Wisdom, or Charisma 13",
+  "abilityScoreIncreases": [
+    "strength",
+    "constitution",
+    "wisdom",
+    "charisma"
+  ],
+  "description": "You have uncanny resilience of both body and mind. You gain the following benefits:\n- Increase your Strength, Constitution, Wisdom, or Charisma score by 1, to a maximum of 20.\n- Whenever you have advantage on a saving throw using Strength, Constitution, Wisdom, or Charisma you can reroll one of the dice once.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

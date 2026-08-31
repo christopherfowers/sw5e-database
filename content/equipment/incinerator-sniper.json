@@ -1,0 +1,24 @@
+{
+  "key": "incinerator-sniper",
+  "name": "Incinerator sniper",
+  "category": "weapon",
+  "costInCredits": 3300,
+  "weight": 14.5,
+  "properties": [
+    "dire 1",
+    "disintegrate 13",
+    "power cell (range 120/480)",
+    "reload 2",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "fire"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

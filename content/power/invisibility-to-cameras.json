@@ -1,0 +1,17 @@
+{
+  "key": "invisibility-to-cameras",
+  "name": "Invisibility to Cameras",
+  "powerType": "tech",
+  "level": 3,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "10 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "Up to four creatures of your choice become undetectable to electronic sensors and cameras. Anything the target is wearing or carrying is also undetectable, so long as it's on the target's person. The target is still visible to regular vision.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,167 @@
+{
+  "key": "lawyer",
+  "name": "Lawyer",
+  "lore": "Your duty is to uphold the law. Before becoming an adventurer you resided over a court or tribunal, managing proceedings and sentencing criminals to punishments fit for their crimes. Your job required a deep understanding of the law which you used to resolve conflicts both clear-cut and morally grey.\n\nThe legal system on the planet where you worked has a large effect on how you view the law. Was it a court system with a jury making the final verdict, or did you have absolute authority over determining guilt and sentencing? Was it a fair legal system with plenty of integrity, or was it rife with abuse and corruption? Did you work on criminal cases, civil law, or something even more specific? Perhaps instead of working for a government you were a judge in an internal tribunal for a temple or military organization.\n\nConsider what compelled you to leave your old occupation behind and begin adventuring. Perhaps you seek to bring someone beyond the scope of law to justice, or maybe you have lost faith in the legal system altogether and have turned to a vigilante approach.",
+  "skillProficiencies": "Choose two from Insight, Investigation, Performance, and Persuasion",
+  "languageProficiencies": "Two of your choice",
+  "startingEquipment": "Documentation of your station, a book of law, a formal uniform you wear to court, a set of common clothes, and a belt pouch containing 100 cr.",
+  "feature": {
+    "name": "Legal Authority",
+    "description": "You are familiar with the letter of the law and workings of courts, at least on the planet that you were a judge in. If you are in a foreign place where you are not familiar with their exact laws, you often will be able to track down the resources you need to learn them.\n\nIf you or your party gets into legal trouble, your experience may help you get out of it. If you can prove your credentials, you might be able to represent your party in a court of law without admonishment. You may know of legal loopholes that will help your case. If you are in the region where you originally worked, you might have past connections with many legal professionals there."
+  },
+  "suggestedCharacteristics": "A lawyer's career is centered on issues of right, wrong, and punishment, so they will approach adventuring through a similar lens. They are used to being respected and in control, leading many of them to struggle with wild, Any situations.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I quote the law like a religious fanatic quotes scripture."
+    },
+    {
+      "roll": 2,
+      "description": "I bang my weapon like a gavel whenever I want a rowdy group's attention."
+    },
+    {
+      "roll": 3,
+      "description": "I remain impartial when making decisions, even when I should have biases and loyalties."
+    },
+    {
+      "roll": 4,
+      "description": "Evidence is necessary to back up any claim."
+    },
+    {
+      "roll": 5,
+      "description": "I insist on settling all party disagreements through fake court proceedings."
+    },
+    {
+      "roll": 6,
+      "description": "I have to hear all sides of a story, but I secretly hate listening to people whine about how unfairly they're treated."
+    },
+    {
+      "roll": 7,
+      "description": "I am happy to make sacrifices for the sake of fairness."
+    },
+    {
+      "roll": 8,
+      "description": "I will not attack a person unless someone can prove they are doing something wrong."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Law",
+      "description": "I will follow the letter of the law always, no matter what I believe. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Justice",
+      "description": "My duty is to fight for the disenfranchised underdog. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Reform",
+      "description": "Laws can be corrupt, and I strive to free people from the bad ones. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Punishment",
+      "description": "I will punish all those who have committed great Darks. (Lawful)"
+    },
+    {
+      "roll": 5,
+      "name": "Control",
+      "description": "I enforce the law only where it benefits myself. (Dark)"
+    },
+    {
+      "roll": 6,
+      "name": "Stability",
+      "description": "The purpose of the law is to keep civilization from collapsing. That spirit of that goal is more important than the letter of the law. (Neutral)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "A dangerous criminal is on the loose, and I plan to hunt them down."
+    },
+    {
+      "roll": 2,
+      "description": "All those who strive to uphold the law are my allies."
+    },
+    {
+      "roll": 3,
+      "description": "I have sentenced an innocent man to a horrible punishment, and the guilt still haunts me."
+    },
+    {
+      "roll": 4,
+      "description": "There is an ethical cause that I would give my life for."
+    },
+    {
+      "roll": 5,
+      "description": "I dream of memorizing the laws of every civilization."
+    },
+    {
+      "roll": 6,
+      "description": "I am enamored with the legal system of my own culture, and want to spread its tenets everywhere."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "Mercy is a foreign concept to me."
+    },
+    {
+      "roll": 2,
+      "description": "I am unwilling to admit when I am wrong."
+    },
+    {
+      "roll": 3,
+      "description": "I become unreasonably enraged at even the slightest injustice."
+    },
+    {
+      "roll": 4,
+      "description": "I expect others to adhere to the law, but I act like i am above it."
+    },
+    {
+      "roll": 5,
+      "description": "If there isn't a law in the books to handle a moral dilemma, I can't make a decision."
+    },
+    {
+      "roll": 6,
+      "description": "The punishments I deal are cruel and unusual."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Performer"
+    },
+    {
+      "roll": 4,
+      "name": "Charmer"
+    },
+    {
+      "roll": 5,
+      "name": "Linguist"
+    },
+    {
+      "roll": 6,
+      "name": "Actor"
+    },
+    {
+      "roll": 7,
+      "name": "Observant"
+    },
+    {
+      "roll": 8,
+      "name": "Keen Mind"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

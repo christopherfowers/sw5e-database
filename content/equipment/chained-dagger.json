@@ -1,0 +1,21 @@
+{
+  "key": "chained-dagger",
+  "name": "Chained dagger",
+  "category": "weapon",
+  "costInCredits": 350,
+  "weight": 3.75,
+  "properties": [
+    "disarming",
+    "finesse",
+    "reach"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

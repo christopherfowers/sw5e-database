@@ -1,0 +1,10 @@
+{
+  "key": "biochemist-s-kit",
+  "name": "Biochemist's kit",
+  "category": "kit",
+  "costInCredits": 500,
+  "weight": 8.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

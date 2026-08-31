@@ -1,0 +1,127 @@
+{
+  "key": "imperial-guard-champion",
+  "name": "Imperial Guard Champion",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 18,
+    "type": "heavy durasteel armor"
+  },
+  "hitPoints": {
+    "average": 180,
+    "roll": "24d8 + 72"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 11,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 16,
+      "modifier": 3
+    },
+    "charisma": {
+      "score": 19,
+      "modifier": 4
+    }
+  },
+  "savingThrows": [
+    "Con +5",
+    "Int +4",
+    "Wis +7"
+  ],
+  "skills": [
+    "Intimidation +8",
+    "Perception +7"
+  ],
+  "senses": [
+    "passive Perception 117"
+  ],
+  "languages": [
+    "Galactic Basic"
+  ],
+  "conditionImmunities": {
+    "conditions": [
+      "frightened"
+    ]
+  },
+  "challengeRating": "11",
+  "experiencePoints": 7200,
+  "behaviors": [
+    {
+      "name": "Forcecasting",
+      "behaviorType": "trait",
+      "description": "At will: enfeeble 2/day each: battle meditation, fear, battle precognition The Royal Guard Champion's innate forcecasting ability is Wisdom (force save DC 16, +8 to hit with force powers). It can innately cast the following Force Powers:",
+      "descriptionWithLinks": "Forcecasting. The Royal Guard Champion's innate forcecasting ability is Wisdom (force save DC 16, +8 to hit with force powers). It can innately cast the following Force Powers: [](#)\n At will: [enfeeble](#enfeeble)\n 2/day each: [battle meditation](#battle%20meditation), [fear](#fear), [battle precognition](#battle%20precognition)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Choreography of Belligerence",
+      "behaviorType": "trait",
+      "description": "The Royal Guard Champion has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Rally the Troops",
+      "behaviorType": "trait",
+      "description": "As a bonus action, the Imperial Royal Guard Champion can magically end the charmed and frightened conditions on itself and each creature of its choice that it can see within 30 feet of it.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 40/160, one target. Hit: 4 (1d6 + 1) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 40/160",
+      "targets": "one target",
+      "averageDamage": 4,
+      "damageRoll": "1d6 + 1",
+      "damageType": "energy"
+    },
+    {
+      "name": "Doublesword",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) kinetic energy.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "2d8 + 4"
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "The Royal Guard Champion adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard Champion must see the attacker and be wielding a melee weapon.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "Imperial Guard Champions, also known as Sovereign Protectors, are the most elite cadre of guardsmen in Imperial service. Only the best of the elite Emperor's Royal Guard are specially chosen to become Sovereign Protectors. They endure years of selection procedures and training aimed at achieving perfection in soldiering. Extreme standards are set for combat fitness, stamina, strength, dexterity, mental acuity, reaction time, loyalty and intelligence. Their combat training includes the use of heavy blaster pistols and the deadly double vibroblade. They also have access to Emperor's Royal Guard TIE/IN starfighters, and are often sent on extremely vital missions.",
+  "sectionText": "The Galactic Empire, also known as the Old Empire, the First Galactic Empire, Palpatine's New Order, the Imperium or simply the Empire, is the galactic government established by Supreme Chancellor Palpatine to replace the Galactic Republic in 19 BBY and bring Sith rule to the galaxy. The government personnel of this new Empire are protected by some of its most highly trained warriors.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

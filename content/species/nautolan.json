@@ -1,0 +1,93 @@
+{
+  "key": "nautolan",
+  "name": "Nautolan",
+  "size": "medium",
+  "homeworld": "Glee Anselm",
+  "nativeLanguage": "Nautila",
+  "lore": "### Biology and Appearance\nNautolans possess physiology common to amphibious species, including low light vision and excellent swimming skills. Their bony endoskeleton and dense cartilage make them tough and resistant to glancing blows. An egg-laying species, Nautolans emerge from their egg as a tadpole that develops arms, legs, and head-tails during their second year of life. Roughly the same size as a Human infant during this time, their limbs are weak and unable to support their weight, forcing youthful Nautolans to remain in aquatic environments for much of their childhood.\n\n### Society and Culture\nThe society developed by the Nautolans on Glee Anselm is centralized around local families and governments. The centralized government of Glee Anselm is comprised of representatives from the Council of Elders that govern each settlement. Elders are elected on merit, and can be made up of youthful politicians as well as the most aged members of the society. A culture that promotes life-long mates, Nautolan families are characterized by their loyalty between spouses and the equality of the sexes in the household. Arranged marriages are not uncommon.\n\nNo cultural affinity for the Force ever developed on Glee Anselm, though members of the Nautolan species recognize its importance and respected those among them that were Forceful.\n\n### Names\nNautolan names are generally short and melodic. Female names usually end in a vowel. Surnames are familial.\n\n**Male Names.** Brod, Knirkoc, Peng, Tikuwik, Zesufreat\n\n**Female Names.** Doli, Hahi, Thamlymyo, Usha, Zezu\n\n**Surnames.** Iarre, Rirrall, Sompanong, Uzumdall",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Nautolans reach adulthood in their early teens and live about 70 years on average."
+    },
+    {
+      "name": "Alignment",
+      "description": "Nautolans' benevolence cause them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Nautolans typically stand 5 to 6 feet tall and rarely weigh more than 160 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Acute Smell",
+      "description": "Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise in the Perception skill."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+    },
+    {
+      "name": "Natural Empathy",
+      "description": "Nautolan head tentacles are adept at determining moods. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; that nautolans find this annoying."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'1\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "120 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Extrasensory head tentacles capable of detecting chemicals",
+    "skinColorOptions": "Blue, brown, green, purple, or grey",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, brown, or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_nautolan.png"
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

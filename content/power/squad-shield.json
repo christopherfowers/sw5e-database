@@ -1,0 +1,17 @@
+{
+  "key": "squad-shield",
+  "name": "Squad Shield",
+  "powerType": "tech",
+  "level": 7,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "reaction",
+    "text": "1 reaction, which you take in response to an incoming threat"
+  },
+  "range": "Self (10-foot radius)",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "In the face of danger, you create a barrier that protects you and those around you. A faintly glowing sphere of protection with a radius of 10 feet appears. The sphere lasts for the duration.\n\nAny tech power (or force power that deals energy or lightning damage) of 7th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the power is cast using a higher level tech slot. Such a power can target creatures and objects within the barrier, but the power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such powers.\n\nFurthermore, hazards of the following types cannot physically pass through the barrier or affect anything within it.\n\n- Physical or energy projectiles.\n- A specific effect, such as a thermal detonator's explosion.\n- An environmental danger, such as falling rocks or a lava flow.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

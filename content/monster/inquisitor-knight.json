@@ -1,0 +1,118 @@
+{
+  "key": "inquisitor-knight",
+  "name": "Inquisitor, Knight",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 15,
+    "type": "heavy combat suit"
+  },
+  "hitPoints": {
+    "average": 36,
+    "roll": "8d8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 11,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 13,
+      "modifier": 1
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Dex +5",
+    "Cha +5"
+  ],
+  "skills": [
+    "Acrobatics +5",
+    "Intimidation +5"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one more of your choice"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Forcecasting",
+      "behaviorType": "trait",
+      "description": "At-Will: denounce, force disarm, saber throw, slow 1st level: dark side tendrils, fear, force jump, hex, sense force 2nd level: force sight, stun The inquisitor is a 5th-level forcecaster. It's forcecasting ability is Charisma (force save DC 13, +5 to hit with force attacks). The inquisitor has 18 force points and knows the following force powers:",
+      "descriptionWithLinks": "Forcecasting. The inquisitor is a 5th-level forcecaster. It's forcecasting ability is Charisma (force save DC 13, +5 to hit with force attacks). The inquisitor has 18 force points and knows the following force powers: [](#)\n At-Will: [denounce](#denounce), [force disarm](#force%20disarm), [saber throw](#saber%20throw), [slow](#slow)\n 1st level: [dark side tendrils](#dark%20side%20tendrils), [fear](#fear), [force jump](#force%20jump), [hex](#hex), [sense force](#sense%20force)\n 2nd level: [force sight](#force%20sight), [stun](#stun)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Force Resistance",
+      "behaviorType": "trait",
+      "description": "The inquisitor has advantage on saving throws against force powers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "War Casting",
+      "behaviorType": "trait",
+      "description": "When the inquisitor uses an action to cast a force power, they can use a bonus action to make a Double Saber attack.",
+      "descriptionWithLinks": "War Casting. When the inquisitor uses an action to cast a force power, they can use a bonus action to make a Double Saber attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Spinning Doublesaber",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) energy damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 12,
+      "damageRoll": "2d8 + 3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Doublesaber",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) energy damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d8 + 3",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "The Inquisitors were all former Jedi that had turned to the dark side in someway or another, with the Grand Inquisitor having served as a Jedi Temple Guard and the Tenth Brother being the former Jedi Master Prosset Dibs. The Emperor's apprentice Darth Vader soon discovered the program and was put in charge of them. Vader trained the Inquisitors in the ways of the dark side of the Force. As part of their training, a number of Inquisitors had parts of their body severed by Vader's lightsaber so that they would not forget the lesson of loss and to learn to abandon the tendency to fight defensively as former Jedi and adopt more offensive moves. Inquisitors also commanded Purge Troopers, which were elite death squads of clones. Due to the nature of their mission, Inquisitors had the power to commandeer any required Imperial Military forces, and all officers were to obey their orders. Any officer who came into contact with Force-sensitive beings was to immediately contact an Inquisitor to investigate the situation. Also, some Imperial officers disliked the interference of Inquisitors with some dismissing them as \"mystics.\" When the Inquisitors became part of the Inquisitorius, they left behind their former names and took up new names, with Brother or Sister denoting their sexes.",
+  "sectionText": "Also known as the Order of Inquisitors, The Inquisitorious was an organization of Force-sensitive agents who worked for the Galactic Empire. Members of the Inquisitorius were known as Imperial Inquisitors, Inquisitors, Red Blades, Mystics by Imperial officers, and sometimes even Jedi hunters. They were tasked with hunting down the remaining Jedi who had survived Order 66 at the end of the Clone Wars.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

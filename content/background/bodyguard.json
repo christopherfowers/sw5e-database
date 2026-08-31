@@ -1,0 +1,168 @@
+{
+  "key": "bodyguard",
+  "name": "Bodyguard",
+  "lore": "You are a licensed bodyguard, standing by your charge ready to protect them from any threat.",
+  "skillProficiencies": "Choose two from Athletics, Insight, Investigation, and Perception",
+  "toolProficiencies": "Your choice of demolitions kit, disguise kit, or security kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of clandestine clothes, the kit for your chosen tool proficiency, a traumakit, and a belt pouch containing 75 cr",
+  "feature": {
+    "name": "Authorized Violence",
+    "description": "As a licensed professional, most law enforcement tend to turn a blind eye when you are involved in altercations. You are rarely detained due to wearing armor and wielding weaponry; in fact, while accompanying your client, it is typically socially acceptable for you to go both armed and armored."
+  },
+  "suggestedCharacteristics": "There are many reasons as to why you may be guarding someone. It could be that you and your family are in the service of a powerful individual, or that you owe a friend a life debt after they rescued you from some perilous encounter. You may be friends with the ones you protect: You may not. But in any case, your loyalties are unwavering, and your courage speaks for itself.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I am overly cautious of all food and drink that either my client or I consume."
+    },
+    {
+      "roll": 2,
+      "description": "I find it hard to leave my client to themselves."
+    },
+    {
+      "roll": 3,
+      "description": "I try to take the safest routes through cities, roads, or passes: I am not a fan of dark alley shortcuts."
+    },
+    {
+      "roll": 4,
+      "description": "If my client's legs were weary in a dangerous area, I would carry them every step of the way."
+    },
+    {
+      "roll": 5,
+      "description": "Even though I am constantly by my client's side, I cannot help but feel alone sometimes."
+    },
+    {
+      "roll": 6,
+      "description": "I often try to make situations sound better than they are to make my client feel more comfortable."
+    },
+    {
+      "roll": 7,
+      "description": "I may be a stick in the mud while I am sober, but I am wilder than a rancor when I am intoxicated."
+    },
+    {
+      "roll": 8,
+      "description": "I form attachments to those I care about, and often find myself going above and beyond to make them happy."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Guardian",
+      "description": "I dedicate my life to defending those who cannot defend themselves (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Indifferent",
+      "description": "I do not have personal connections with my charge. They are merely part of the job. (Neutral)"
+    },
+    {
+      "roll": 3,
+      "name": "Determined",
+      "description": "I will protect those who I must... by any means necessary. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Underhanded",
+      "description": "I will learn my clients' weaknesses so that I may take advantage of them. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Resolute",
+      "description": "I follow the law laid down for me to protect those whom I am ordered to. (Lawful)"
+    },
+    {
+      "roll": 6,
+      "name": "Flexible",
+      "description": "I take into account my past experiences to help prepare for the future endeavors. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I have a home I love somewhere, though I rarely see it."
+    },
+    {
+      "roll": 2,
+      "description": "I am part of an order dedicated to protecting others."
+    },
+    {
+      "roll": 3,
+      "description": "The one who I look after saved me from something horrible once: I owe them everything."
+    },
+    {
+      "roll": 4,
+      "description": "I have other friends in this business who don't perform their duties exactly how I do."
+    },
+    {
+      "roll": 5,
+      "description": "While that time is behind me now, the faces from my past still linger."
+    },
+    {
+      "roll": 6,
+      "description": "My client isn't the only one who I should protect. There are many more out there without protection."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I have lost clients before. I now find myself detached to prevent future heartache."
+    },
+    {
+      "roll": 2,
+      "description": "I am often times forgetful, much to my client's dismay."
+    },
+    {
+      "roll": 3,
+      "description": "I am very stubborn. It is very nearly impossible to sway my opinions on how things should be handled."
+    },
+    {
+      "roll": 4,
+      "description": "Trust is a rare commodity in my line of work. As such, it is not something I often give to others."
+    },
+    {
+      "roll": 5,
+      "description": "My client and I don't get along in the slightest. It makes it quite difficult to want to look after them."
+    },
+    {
+      "roll": 6,
+      "description": "Although I am sworn to protect my client, I will abandon them in the face of certain death."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Brawny"
+    },
+    {
+      "roll": 2,
+      "name": "Empathic"
+    },
+    {
+      "roll": 3,
+      "name": "Investigator"
+    },
+    {
+      "roll": 4,
+      "name": "Perceptive"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Athlete"
+    },
+    {
+      "roll": 8,
+      "name": "Durable"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

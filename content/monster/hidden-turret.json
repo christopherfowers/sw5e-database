@@ -1,0 +1,116 @@
+{
+  "key": "hidden-turret",
+  "name": "Hidden Turret",
+  "size": "medium",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 11,
+    "roll": "2d8+2"
+  },
+  "speed": {
+    "walk": 0,
+    "text": "0 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 11,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 2,
+      "modifier": -4
+    },
+    "constitution": {
+      "score": 13,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +2"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 12"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "False Appearance",
+      "behaviorType": "trait",
+      "description": "While the turret is inactive, it is indistinguishable from an ordinary section of floor, wall, or ceiling.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Targeting Systems",
+      "behaviorType": "trait",
+      "description": "The turret uses its Intelligence modifier for attack, damage, and initiative rolls. Intelligence (Investigation) and Wisdom (Perception) checks made to identify an inactive turret are made with disadvantage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Cannon",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit 7 (1d10+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 80/320 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d10+2",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "An autoturret is a blaster turret emplacement used to defend an area. Known for their killing power and effectiveness, they are employed by many factions throughout galactic history. Autoturrets were used widely during the Jedi Civil War, with the Sith Empire deploying them to restrict access to the Undercity of Taris and to defend their military bases. Often, they were installed at the entrances to hidden bases, onboard capital ships, or near personal valuables. In the later stages of the Clone Wars, portable autoturrets were used by both the Grand Army of the Republiic and the Separatist Droid Army for covering fire or to reinforce the defense of field command posts. These autoturrets became the standard equipment of clone and droid snipers, who were entrusted with their deployment.",
+  "sectionText": "A turret is a mount for a weapon that enabled it to turn and pivot, allowing it to fire in many different directions. They are mounted on many vehicles, starfighters, and starships. Other turrets are mounted on the ground, and can be both manned and un-manned. Weapons mounted on turrets included laser cannons and other types of projectile cannons.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

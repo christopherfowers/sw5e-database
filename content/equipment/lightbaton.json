@@ -1,0 +1,21 @@
+{
+  "key": "lightbaton",
+  "name": "Lightbaton",
+  "category": "weapon",
+  "costInCredits": 400,
+  "weight": 1.25,
+  "properties": [
+    "hidden",
+    "light",
+    "luminous"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

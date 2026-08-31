@@ -1,0 +1,21 @@
+{
+  "key": "riot-shocker",
+  "name": "Riot shocker",
+  "category": "weapon",
+  "costInCredits": 425,
+  "weight": 1.0,
+  "properties": [
+    "defensive 1",
+    "light",
+    "shocking 13"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

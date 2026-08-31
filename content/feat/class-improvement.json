@@ -1,0 +1,11 @@
+{
+  "key": "class-improvement",
+  "name": "Class Improvement",
+  "prerequisite": "4th level",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You adopt a particular new application to your class, gaining the following benefits:\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- Choose one of the class improvement options, detailed later in this chapter.\n\nYou can take this feat multiple times.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

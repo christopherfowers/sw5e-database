@@ -1,0 +1,22 @@
+{
+  "key": "warsaber",
+  "name": "Warsaber",
+  "category": "weapon",
+  "costInCredits": 2175,
+  "weight": 4.25,
+  "properties": [
+    "dexterity 15",
+    "reckless 1",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

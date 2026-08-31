@@ -1,0 +1,97 @@
+{
+  "key": "dug",
+  "name": "Dug",
+  "size": "small",
+  "homeworld": "Malastare",
+  "nativeLanguage": "Dug",
+  "lore": "### Biology and Appearance\nDugs are slender, powerfully built beings with a somewhat humanoid build and a unique method of walking that hailed from the high gravity world Malastare. Their primary means of locomotion is their strong arms, and their lower limbs and feet were used for grappling and other fine motor manipulation. They hardly ever walk on their lower limbs. Although most Dugs may walk on all four limbs, others like to use their strong arms as legs and their feet as hands like they would normally do.\n\n### Society and Culture\nDue to their oppression under their Gran rulers who colonized Malastare, many Dugs often feel the need to throw around their strength in bids to establish dominance. As a result, they are known for their ill-tempered demeanor, and many are bullying thugs.\n\nOn their homeworld of Malastare, the vast majority of Dugs are little more than laborers toiling for the enrichment of the Gran. With the species excluded from much of the power and money on Malastare, many Dugs turn to swoop racing or bounty hunting as their only means to achieve fame and fortune. In all other areas, the Dugs are exploited.\n\n### Names\nDug names are often 3 syllables long, mostly through big sounds rather than harsh tones. There are harsher tones in their names as well though, often in the forms of x's and k's. Female Dugs have softer names, but no one would call them beautiful. Surnames are usually passed down through family or clan.\n\n**Male Names.** Bawugri, Gadwouhx, Rorgukwa,\n\n**Female Names.** Bosix, Grugne, Jiwous, Pragiba,\n\n**Surnames.** Brundaare, Gninsaidi, Kedwir, Randaine",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Dugs reach adulthood in their early teens and live an average of 75 years. Their violent nature often leads to violent ends."
+    },
+    {
+      "name": "Alignment",
+      "description": "Dugs' angry nature causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Dugs typically stand between 3 and 4 feet tall. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Courageous",
+      "description": "You have advantage on saving throws against being frightened."
+    },
+    {
+      "name": "Fisticuffs",
+      "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+    },
+    {
+      "name": "Fury of the Small",
+      "description": "When you damage a creature with an attack or a power and the creature's size is larger than yours, you can cause the attack or power to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Menacing",
+      "description": "You have proficiency in the Intimidation skill."
+    },
+    {
+      "name": "Strong and Small",
+      "description": "You have a climbing speed of 25 feet."
+    },
+    {
+      "name": "Powerful Build",
+      "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Dug."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "3'2\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "50 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Arms used as legs and legs used as arms",
+    "skinColorOptions": "Brown, purple, gray, or red",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Blue or yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_dug.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

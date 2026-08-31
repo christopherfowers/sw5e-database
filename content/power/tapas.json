@@ -1,0 +1,17 @@
+{
+  "key": "tapas",
+  "name": "Tapas",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "24 hours",
+  "concentration": false,
+  "description": "You use the Force to inure yourself to the elements. For the duration, you are considered adapted to hot and cold climates.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

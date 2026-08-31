@@ -139,11 +139,27 @@
     },
     {
       "roll": 3,
-      "name": "Ace Pilot"
+      "name": "Threatening"
     },
     {
       "roll": 4,
+      "name": "Ace Pilot"
+    },
+    {
+      "roll": 5,
       "name": "Competitor"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Feigned Confidence"
+    },
+    {
+      "roll": 8,
+      "name": "Force of Personality"
     }
   ],
   "sourceKey": "phb",

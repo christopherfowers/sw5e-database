@@ -1,0 +1,21 @@
+{
+  "key": "wristblade",
+  "name": "Wristblade",
+  "category": "weapon",
+  "costInCredits": 275,
+  "weight": 1.75,
+  "properties": [
+    "fixed",
+    "light",
+    "piercing 1"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

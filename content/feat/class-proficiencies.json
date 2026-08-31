@@ -1,0 +1,7 @@
+{
+  "key": "class-proficiencies",
+  "name": "Class Proficiencies",
+  "description": "Certain classes, such as fighters or guardians, gain proficiency in all weapons within a specific category. For instance, fighters gain proficiency in all blasters and vibroweapons, and guardians gain proficiency in all lightweapons and vibroweapons. Monk, operative, scholar, and sentinel, on the other hand, only gain proficiency in martial weapons that meet certain criteria. If that criteria is met due to the use of an item or feature that add—or remove—a referenced property, this does not grant that class proficiency in the weapon. For instance, operatives gain proficiency in simple blasters, simple vibroweapons, martial blasters that lack the auto, special, strength, and two-handed properties, martial vibroweapons with the finesse property. If they add the finesse property to a vibroweapon, or remove the strength property from a blaster weapon, this would not grant the operative proficiency in that weapon.",
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

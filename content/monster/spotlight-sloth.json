@@ -1,0 +1,100 @@
+{
+  "key": "spotlight-sloth",
+  "name": "Spotlight Sloth",
+  "size": "medium",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 26,
+    "roll": "4d8 + 8"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., climb 20 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 6,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 12"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Bioluminescent",
+      "behaviorType": "trait",
+      "description": "The sloth emits bright light in a 5-foot radius and dim light for an additional 10 ft..",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The sloth makes two fist attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Fist",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 10,
+      "damageRoll": "2d6 + 3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Fling Mud",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) kinetic damage. If the target is a Large or smaller creature, it is must also make a DC 13 Dexterity saving throw. On a failure, it is also blinded until the end of its next turn.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 25/50 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "The Spotlight sloth, or Dagobah swamp sloth, is a large furry mammal covered in a waterproof greenish-brown fur. They are so named because of the blue bioluminescent patches beneath the leathery skin on their hairless chests. These \"spotlight\" patches, when revealed, are used to induce plants and fungi to unfold and/or burst. The sloth then uses its small paws to quickly stuff food in to its toothless mouth. The sloths are preyed upon by Dagobah's knobby white spiders. One stab of the spider's venomous stinger can knock out an unlucky sloth.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

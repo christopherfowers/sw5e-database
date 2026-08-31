@@ -1,0 +1,21 @@
+{
+  "key": "vibrolance",
+  "name": "Vibrolance",
+  "category": "weapon",
+  "costInCredits": 1500,
+  "weight": 8.5,
+  "properties": [
+    "dexterity 13",
+    "reach",
+    "special"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

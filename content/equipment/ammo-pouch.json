@@ -1,0 +1,11 @@
+{
+  "key": "ammo-pouch",
+  "name": "Ammo Pouch",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 15,
+  "weight": 0.0,
+  "description": "An ammo pouch is a small pouch, usually worn around the waist or chest, which holds 20 slug cartridges. When you reload a weapon, you can draw as much ammunition needed from this pouch without using an object interaction to do so. Instead of slug cartridges, you can instead store a power cell which takes up the space of 10 cartridges.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

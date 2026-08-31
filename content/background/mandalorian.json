@@ -136,15 +136,31 @@
     },
     {
       "roll": 2,
-      "name": "Ace Pilot"
+      "name": "Threatening"
     },
     {
       "roll": 3,
-      "name": "Crafter"
+      "name": "Ace Pilot"
     },
     {
       "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
       "name": "Durable"
+    },
+    {
+      "roll": 7,
+      "name": "Weapon Expert"
+    },
+    {
+      "roll": 8,
+      "name": "Athlete"
     }
   ],
   "variant": {

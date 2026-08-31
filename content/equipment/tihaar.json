@@ -1,0 +1,11 @@
+{
+  "key": "tihaar",
+  "name": "Tihaar",
+  "category": "alcoholicBeverage",
+  "costInCredits": 85,
+  "weight": 0.0,
+  "description": "This colorless spirit, favored by Mandalorians, burns the mouth and throat when consumed. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d3 when making an ability check or saving throw using Constitution, and at the start of each of the creature's turns it gains 2d3 temporary hit points. At the end of the high, the creature must succeed on a DC 14 Constitution saving throw or experience a low that lasts 10 minutes, during which they must roll a d3 and subtract the result when making an ability check or saving throw using Constitution, and for the duration their current and maximum hit points are reduced by 2d3. If this would reduce your maximum hit points below 1, it instead becomes 1. At the end of the low, the creature must make a DC 14 Wisdom saving throw to resist addiction.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

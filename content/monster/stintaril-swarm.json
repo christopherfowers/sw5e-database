@@ -1,0 +1,104 @@
+{
+  "key": "stintaril-swarm",
+  "name": "Stintaril Swarm",
+  "size": "medium",
+  "types": [
+    "swarm of tiny beasts"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 10
+  },
+  "hitPoints": {
+    "average": 24,
+    "roll": "7d8 - 7"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 4,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 9,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 2,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "senses": [
+    "darkvision 30 ft.",
+    "passive Perception 10"
+  ],
+  "damageResistances": {
+    "types": [
+      "energy",
+      "kinetic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ]
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Swarm",
+      "behaviorType": "trait",
+      "description": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny stintarils. The swarm can't regain hit points or gain temporary hit points.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Keen Smell",
+      "behaviorType": "trait",
+      "description": "The swarm has advantage on Wisdom (Perception) checks that rely on sight and smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bites",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) kinetic damage, or 3 (1d6) kinetic damage if the swarm has half of its hit points or fewer.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 2,
+      "range": "reach 5 ft.",
+      "targets": "one target in the swarm's space",
+      "averageDamage": 7,
+      "damageRoll": "2d6",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Stintarils are a speedy, nomadic species of rodent native to Yavin 4, dwelling in the jungle canopy. They have sharp teeth and a knobby hairless tail used for balance. These rodents attack in swarms.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

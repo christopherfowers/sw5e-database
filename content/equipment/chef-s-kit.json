@@ -1,0 +1,10 @@
+{
+  "key": "chef-s-kit",
+  "name": "Chef's kit",
+  "category": "kit",
+  "costInCredits": 70,
+  "weight": 8.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,23 @@
+{
+  "key": "sabermace",
+  "name": "Sabermace",
+  "category": "weapon",
+  "costInCredits": 950,
+  "weight": 2.75,
+  "properties": [
+    "brutal 1",
+    "dexterity 13",
+    "hidden",
+    "luminous",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

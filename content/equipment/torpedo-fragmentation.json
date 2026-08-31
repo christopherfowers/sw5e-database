@@ -1,0 +1,10 @@
+{
+  "key": "torpedo-fragmentation",
+  "name": "Torpedo, fragmentation",
+  "category": "ammunition",
+  "costInCredits": 700,
+  "weight": 20.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

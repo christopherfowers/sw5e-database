@@ -1,0 +1,22 @@
+{
+  "key": "electrohammer",
+  "name": "Electrohammer",
+  "category": "weapon",
+  "costInCredits": 950,
+  "weight": 8.75,
+  "properties": [
+    "dexterity 11",
+    "heavy",
+    "shocking 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

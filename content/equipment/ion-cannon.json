@@ -1,0 +1,24 @@
+{
+  "key": "ion-cannon",
+  "name": "Ion cannon",
+  "category": "weapon",
+  "costInCredits": 3800,
+  "weight": 16.5,
+  "properties": [
+    "auto",
+    "burst 4",
+    "power cell (range 90/360)",
+    "reload 4",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "ion"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

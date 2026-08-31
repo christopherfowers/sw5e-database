@@ -148,6 +148,18 @@
     {
       "roll": 5,
       "name": "Linguist"
+    },
+    {
+      "roll": 6,
+      "name": "Alert"
+    },
+    {
+      "roll": 7,
+      "name": "Observant"
+    },
+    {
+      "roll": 8,
+      "name": "Practiced"
     }
   ],
   "sourceKey": "phb",

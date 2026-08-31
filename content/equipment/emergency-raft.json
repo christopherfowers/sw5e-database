@@ -1,0 +1,11 @@
+{
+  "key": "emergency-raft",
+  "name": "Emergency raft",
+  "category": "lifeSupport",
+  "costInCredits": 250,
+  "weight": 10.0,
+  "description": "This raft comes packed in a 2-foot-long tube. When activated, the raft quickly deploys, expanding to full size in six seconds. The raft is 6 feet long and 3 feet wide, and can hold up to four Medium creatures not exceeding 800 lb. It comes with two collapsible oars with which to row. The raft can be collapsed and restored over the course of 1 minute.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

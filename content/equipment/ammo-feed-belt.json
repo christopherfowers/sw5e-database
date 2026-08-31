@@ -1,0 +1,11 @@
+{
+  "key": "ammo-feed-belt",
+  "name": "Ammo-feed belt",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 450,
+  "weight": 1.0,
+  "description": "This belt has slots to hold 60 slug cartridges, and can be connected to directly fuel a single blaster weapon that uses slug cartridges. Once per turn, if the powered weapon would be reloaded, it can be done without using an action using any ammunition in the belt. Connecting or disconnecting a weapon takes an action. Replacing 10 slug cartridges takes an action.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

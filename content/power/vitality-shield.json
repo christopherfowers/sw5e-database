@@ -1,0 +1,18 @@
+{
+  "key": "vitality-shield",
+  "name": "Vitality Shield",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "prerequisite": "Force Body",
+  "description": "You siphon some of your own vitality to create a barrier in the Force around yourself. You take 2d8 true damage, and gain a number of temporary hit points equal to twice the amount of damage you took. If this damage would reduce your hit points to 0, the power fails. While you have these temporary hit points, you have advantage on Strength, Dexterity and Constitution saving throws. Any remaining temporary hit points are lost when this power ends.\n\n***Force Potency.*** When you cast this power using a force slot of 3rd level or higher, the true damage increases by 1d8 for each slot level above 2nd.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

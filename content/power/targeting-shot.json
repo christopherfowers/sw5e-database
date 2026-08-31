@@ -1,0 +1,17 @@
+{
+  "key": "targeting-shot",
+  "name": "Targeting Shot",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Varies",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "As part of the action used to cast this power, you must make a ranged weapon attack against one creature within your weapon's range, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and a small target only visible to you marks it. The next attack roll you make against the creature before the end of your next turn can't suffer from disadvantage.\n\nThis power deals additional damage when you reach higher levels. At 5th level, the ranged attack deals an extra 1d6 damage. This damage increases by 1d6 again at 11th level and 17th level. The damage is the same type as the weapon's damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

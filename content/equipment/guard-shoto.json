@@ -1,0 +1,22 @@
+{
+  "key": "guard-shoto",
+  "name": "Guard shoto",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 1.25,
+  "properties": [
+    "defensive 1",
+    "finesse",
+    "hidden",
+    "light luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

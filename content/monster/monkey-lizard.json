@@ -1,0 +1,79 @@
+{
+  "key": "monkey-lizard",
+  "name": "Monkey-Lizard",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 3,
+    "roll": "1d6"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 5,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "senses": [
+    "passive Perception 11"
+  ],
+  "challengeRating": "0",
+  "experiencePoints": 10,
+  "behaviors": [
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The monkey-lizard has advantage on attack rolls against a creature if at least one of the monkey-lizard's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 1,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 1,
+      "damageRoll": "1d4-1",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Kowakian monkey-lizards are a bipedal reptilian species native to a jungle-like Outer Rim planet called Kowak. Although have had no established culture, Kowakian monkey-lizards were quite intelligent, and despite their silly, cruel nature, they are considered sentient by many sentientologists in the galaxy, although there was much debate over that designation. They are often kept as pets due to their mischievous nature.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

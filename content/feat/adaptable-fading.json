@@ -1,0 +1,12 @@
+{
+  "key": "adaptable-fading",
+  "name": "Adaptable Fading",
+  "prerequisite": "4th level",
+  "abilityScoreIncreases": [
+    "strength",
+    "constitution"
+  ],
+  "description": "You can easily overthrow an enemy's fortitude. You gain the following benefits:\n- Increase your Strength or Constitution score by 1, to a maximum of 20.\n- When you make an attack roll using your Strength, you can choose to add half your Constitution modifier to the attack roll. Alternatively, when you would make an attack roll using Constitution, you can add half your Strength modifier to the attack roll. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.\n- When an effect you control would call for a Strength saving throw, you can instead have it call for a Constitution saving throw. Alternatively, when an effect you control would call for a Constitution saving throw, you can instead have it call for a Strength saving throw. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

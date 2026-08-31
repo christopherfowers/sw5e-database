@@ -1,0 +1,12 @@
+{
+  "key": "metabolic-tolerance",
+  "name": "Metabolic Tolerance",
+  "abilityScoreIncreases": [
+    "constitution",
+    "intelligence",
+    "charisma"
+  ],
+  "description": "You've developed resilience against many poisons, gaining the following benefits:\n- Increase your Constitution, Intelligence, or Charisma score by 1, to a maximum of 20.\n- As an action or bonus action, you can expend a Hit Die to end the poisoned condition on yourself.\n- You have advantage on saving throws made to avoid poison damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

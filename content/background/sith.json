@@ -1,0 +1,168 @@
+{
+  "key": "sith",
+  "name": "Sith",
+  "lore": "You are an acolyte of the Sith Order: an ancient order of Force-wielders devoted to the dark side of the Force. Emerging as a divergent faction to the Jedi Order, the Sith are mortal enemies of the Jedi and fight against them. Driven by emotions such as hate, anger, and greed, the Sith are deceptive and ultimately obsessed with amassing power no matter the cost. You follow the Sith Code:\n\n*\"Peace is a lie. There is only passion.\nThrough passion I gain strength.\nThrough strength I gain power.\nThrough power I gain victory.\nThrough victory my chains are broken.\nThe Force shall free me.\"*",
+  "skillProficiencies": "Choose two from Deception, Insight, Intimidation, and Lore",
+  "toolProficiencies": "Artificer's tools",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A copy of the Sith code, a set of common clothes including a robe, and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Feared",
+    "description": "As a Sith, you instill fear in those who are aware of your standing. When you are in a civilized environment, you can get away with minor criminal offenses, such as refusing to pay for food at a cantina or cutting through doors at a local shop, since most people will not report your activity to the authorities."
+  },
+  "suggestedCharacteristics": "Sith are shaped by their training. They study the Sith code and use it to oppress the weak and quell resistance. Their study of the Sith code affects their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I idolize a particular Sith, and constantly refer to that person's deeds and example."
+    },
+    {
+      "roll": 2,
+      "description": "I seek power above all else."
+    },
+    {
+      "roll": 3,
+      "description": "I prefer using a lightsaber to solve my problems."
+    },
+    {
+      "roll": 4,
+      "description": "I have a plan for any situation."
+    },
+    {
+      "roll": 5,
+      "description": "I believe everyone is beneath me."
+    },
+    {
+      "roll": 6,
+      "description": "I prefer to let someone else do my dirty work."
+    },
+    {
+      "roll": 7,
+      "description": "Hatred and anger drive every decision I make."
+    },
+    {
+      "roll": 8,
+      "description": "Lying and scheming are second nature to me."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Patience",
+      "description": "I will defeat my enemies in the end, I'm in no rush. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Disdain",
+      "description": "I never try to help those in need, regardless of how simple it would be. (Dark)"
+    },
+    {
+      "roll": 3,
+      "name": "Knowledge",
+      "description": "The path to power and self-improvement is through knowledge. (Neutral)"
+    },
+    {
+      "roll": 4,
+      "name": "Power",
+      "description": "I hope to one day rise to the rank of Dark Lord of the Sith. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Might",
+      "description": "If I become strong, I can take what I want—what I deserve. (Dark)"
+    },
+    {
+      "roll": 6,
+      "name": "Aspiration",
+      "description": "I'll succeed in my goals at any cost. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I would die to recover an ancient Sith relic that was lost long ago."
+    },
+    {
+      "roll": 2,
+      "description": "I care only about myself."
+    },
+    {
+      "roll": 3,
+      "description": "I owe my life to the Sith who took me in when my parents died."
+    },
+    {
+      "roll": 4,
+      "description": "My enemies will be defeated, even if it costs me my life."
+    },
+    {
+      "roll": 5,
+      "description": "Someone I love was killed. Some day soon, I'll have my revenge."
+    },
+    {
+      "roll": 6,
+      "description": "My loyalty to my master is unwavering."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I am too merciful, and empathize with those I shouldn't."
+    },
+    {
+      "roll": 2,
+      "description": "I put too much trust in those who rule over me."
+    },
+    {
+      "roll": 3,
+      "description": "I will never fully trust anyone other than myself."
+    },
+    {
+      "roll": 4,
+      "description": "I am inflexible in my thinking."
+    },
+    {
+      "roll": 5,
+      "description": "My pride will probably lead to my destruction."
+    },
+    {
+      "roll": 6,
+      "description": "Failure frightens me, and I get desperate if I think I might fail."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Empathic"
+    },
+    {
+      "roll": 3,
+      "name": "Threatening"
+    },
+    {
+      "roll": 4,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 5,
+      "name": "Linguist"
+    },
+    {
+      "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Formfighting Dabbler"
+    },
+    {
+      "roll": 8,
+      "name": "Force-Sensitive"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

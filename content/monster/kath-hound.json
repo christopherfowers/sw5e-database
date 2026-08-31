@@ -1,0 +1,89 @@
+{
+  "key": "kath-hound",
+  "name": "Kath Hound",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 10,
+    "roll": "3d6"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 30 ft.",
+    "passive Perception 13"
+  ],
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Keen Hearing and Smell",
+      "behaviorType": "trait",
+      "description": "The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Pack Tactics",
+      "behaviorType": "trait",
+      "description": "The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "2d4 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Kath hounds are about the size of a large dog, fur-covered, and each limb ends in four hoofed digits. They are generally not very hostile, unless provoked. At one point, the kath hounds started attacking the citizens of Dantooine and were blamed for numerous crimes, including the theft of a protocol droid. Kath hounds are also a popular pet for the crime lords of Nar Shaddaa, including Visquis and Vogga the Hutt. Domesticated kath hounds, called salkies, are also popular pets on Coruscant.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

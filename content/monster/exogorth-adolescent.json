@@ -1,0 +1,133 @@
+{
+  "key": "exogorth-adolescent",
+  "name": "Exogorth, Adolescent",
+  "size": "huge",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 17,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 168,
+    "roll": "16d12 + 64"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 23,
+      "modifier": 6
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": -5
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Con +8",
+    "Wis +4"
+  ],
+  "senses": [
+    "Blindsight 30 Ft.",
+    "Tremorsense 60 Ft.",
+    "passive Perception 10"
+  ],
+  "challengeRating": "11",
+  "experiencePoints": 7200,
+  "behaviors": [
+    {
+      "name": "Tunneler",
+      "behaviorType": "trait",
+      "description": "The exogorth can burrow through solid rock at half its burrow speed and leaves a 5-foot-diameter tunnel in its wake.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the exogorth fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/day"
+    },
+    {
+      "name": "Huge Strength",
+      "behaviorType": "trait",
+      "description": "The exogorth's melee weapon attacks are considered enhanced.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Siege Monster",
+      "behaviorType": "trait",
+      "description": "The exogorth deals double damage to objects and structures.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Space-borne",
+      "behaviorType": "trait",
+      "description": "The exogorth can survive in the vacuum of space.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The exogorth makes two attacks: one with its bite and one with its tail.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "If the exogorth takes 30 damage or more on a single turn from a creature inside it, the exogorth must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the exogorth. If the exogorth dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) kinetic damage. If the target is a Medium or smaller creature, it must succeed on a DC 16 Dexterity saving throw or be swallowed by the exogorth. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the exogorth, and it takes 14 (4d6) acid damage at the start of each of the exogorth's turns.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 15,
+      "damageRoll": "2d8 + 6",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tail",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) kinetic damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "2d6 + 6",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "The exogorth, colloquially known as the space slug, is a gigantic species of toothed gastropod. ***Biology.*** They are silicon-based lifeforms that survive in the vacuum of space by making their homes in the caverns and craters of asteroids. The average adult space slug grows to about 10 meters in length. Space slugs reproduce asexually by fission. Once an adult slug reaches a about 10 meters in length, a chemical trigger causes it to split apart into two identical but smaller slugs. Occasionally, this mechanism is overridden, and the slug grows to monstrous sizes that rival capital ships in sheer bulk, with some weighing over a million kilograms.\n\n***Travel.*** A space slug travels through the asteroid fields they inhabit by pushing off the surface of one asteroid and floating through space to land on another. They also use stellar winds to help propel themselves through space. Through highly evolved sense of spatial awareness, they are capable of calculating the trajectory and distance of perilous moving bodies around them. This sense of spatial acuity also aids them in hunting food. ***Feeding.*** They feed on the minerals of asteroids, various stellar energy fields, mynocks (another silicon-based lifeform), ships, and other unfortunate creatures that unknowingly pass into its mouth. They are able to anchor themselves into a cave in an asteroid with tendrils, which also draws nutrition directly from the asteroid itself. Although their primary diet, similar to Mynocks, is passive radiation, they tend to chomp on rocks and metal as well. On occasion, a naturally occurring chemical trigger causes the space slug to kill whatever is near them. Colossal slugs are known to take sizable bites out of capital ships that pass too close to the slug's current dwelling, and even swallow smaller vessels whole. At these sizes, the mynocks they eat will often become internal parasites, rather than nourishment, living inside the cave-like esophagus of the slugs that ate them. Some slugs have entire ecosystems of other life living within their digestive tracts.\n\n***Variations.*** Giant space slugs are larger than average ones. It remains unclear if they were a separate species from the common space slug, or just individuals larger than normally reported. Crimson slugs are native to the asteroids of Tapani sector and distinguished by a red stripe down either side of the body. Cularin space slugs are found in the Cularin system and are comparatively easy to train. Some theorize that they are descended from a domesticated form of space slug. Other theories hold that these exogorths are descended from natives to the world which formed the Cularin system asteroid belt (Oblis) before its destruction, and that these creatures survived and adapted to the void of space. They may have been related to—or the same creature as—the space worms which hollowed out the moon Eskaron.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

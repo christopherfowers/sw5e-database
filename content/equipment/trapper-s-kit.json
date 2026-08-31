@@ -1,0 +1,10 @@
+{
+  "key": "trapper-s-kit",
+  "name": "Trapper's kit",
+  "category": "kit",
+  "costInCredits": 300,
+  "weight": 0.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

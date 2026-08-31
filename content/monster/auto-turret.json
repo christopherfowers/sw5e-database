@@ -1,0 +1,116 @@
+{
+  "key": "auto-turret",
+  "name": "Auto-Turret",
+  "size": "medium",
+  "types": [
+    "construct"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 19,
+    "roll": "3d8+6"
+  },
+  "speed": {
+    "walk": 0,
+    "text": "0 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 2,
+      "modifier": -4
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +2"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 12"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Targeting Systems",
+      "behaviorType": "trait",
+      "description": "The turret uses its Intelligence modifier for attack, damage, and intitiative rolls.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The turret makes two repeating blaster attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Repeating Blaster",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit 5 (1d6+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 40/160 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6+2",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "An autoturret is a blaster turret emplacement used to defend an area. Known for their killing power and effectiveness, they are employed by many factions throughout galactic history. Autoturrets were used widely during the Jedi Civil War, with the Sith Empire deploying them to restrict access to the Undercity of Taris and to defend their military bases. Often, they were installed at the entrances to hidden bases, onboard capital ships, or near personal valuables. In the later stages of the Clone Wars, portable autoturrets were used by both the Grand Army of the Republiic and the Separatist Droid Army for covering fire or to reinforce the defense of field command posts. These autoturrets became the standard equipment of clone and droid snipers, who were entrusted with their deployment.",
+  "sectionText": "A turret is a mount for a weapon that enabled it to turn and pivot, allowing it to fire in many different directions. They are mounted on many vehicles, starfighters, and starships. Other turrets are mounted on the ground, and can be both manned and un-manned. Weapons mounted on turrets included laser cannons and other types of projectile cannons.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

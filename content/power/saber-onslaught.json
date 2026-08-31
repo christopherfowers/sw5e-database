@@ -1,0 +1,18 @@
+{
+  "key": "saber-onslaught",
+  "name": "Saber Onslaught",
+  "powerType": "force",
+  "level": 4,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 turn",
+  "concentration": false,
+  "prerequisite": "Saber Strike",
+  "description": "You assume a battle stance. Until the end of your turn, your movement does not provoke opportunity attacks. Additionally, whenever you move, you can make one melee weapon attack against each creature you move within 5 feet of for the first time this turn. On a hit, the attack deals an extra 1d6 damage of the weapon's type, and the target must make a Strength saving throw. On a failed save, you can choose to either knock the target prone, or push it 5 feet away from you.\n\n***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by 1d6 for each slot level above 4th.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

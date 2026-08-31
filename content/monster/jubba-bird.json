@@ -1,0 +1,92 @@
+{
+  "key": "jubba-bird",
+  "name": "Jubba Bird",
+  "size": "tiny",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 5,
+    "roll": "2d4"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., fly 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 5,
+      "modifier": -3
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 7,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Insight +6",
+    "Percpetion +4"
+  ],
+  "senses": [
+    "passive Perception 14"
+  ],
+  "languages": [
+    "underst",
+    "s Galactic Basic but can't speak",
+    "telepathy 60 ft."
+  ],
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Advanced Telepathy",
+      "behaviorType": "trait",
+      "description": "The jubba bird can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Force Sensitive",
+      "behaviorType": "trait",
+      "description": "At-will: sense emotions The jubba bird's forcecasting ability is Wisdom (power save DC 12, +4 to hit with force attacks). The jubba bird innately knows the following force powers:",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Talons",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d4 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "Jubba birds are found on the planet Dagobah. They have purple and brown colored skin, with a yellow beak, two wings, a lengthy tail and a pair of spindly legs. Known for their soothing songs, they live in the planet's swamplands, where they use mud scooped from Dragonsnake Bog to make heavy nests that weigh down the trees they are built in.",
+  "sectionText": "Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the Force-sensitive vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers. Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they project a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers. Miriskin was a commodity made from ysalamir skin.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

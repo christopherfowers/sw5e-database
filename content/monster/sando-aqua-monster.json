@@ -1,0 +1,215 @@
+{
+  "key": "sando-aqua-monster",
+  "name": "Sando Aqua Monster",
+  "size": "gargantuan",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 23,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 546,
+    "roll": "28d20 + 252"
+  },
+  "speed": {
+    "walk": 20,
+    "text": "20 ft., swim 50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 30,
+      "modifier": 10
+    },
+    "dexterity": {
+      "score": 21,
+      "modifier": 5
+    },
+    "constitution": {
+      "score": 28,
+      "modifier": 9
+    },
+    "intelligence": {
+      "score": 8,
+      "modifier": -1
+    },
+    "wisdom": {
+      "score": 18,
+      "modifier": 4
+    },
+    "charisma": {
+      "score": 18,
+      "modifier": 4
+    }
+  },
+  "savingThrows": [
+    "Str +18",
+    "Dex +10",
+    "Con +17",
+    "Int +7",
+    "Wis +12"
+  ],
+  "skills": [
+    "Stealth +10",
+    "Insight +12",
+    "Perception +12",
+    "Intimidation +12"
+  ],
+  "senses": [
+    "blindsight (while submerged) 120 ft.",
+    "darkvision 120 ft.",
+    "passive Perception 22"
+  ],
+  "damageImmunities": {
+    "types": [
+      "cold",
+      "ion"
+    ],
+    "other": [
+      "lightning; kinetic",
+      "and energy from unenhanced weapon attacks"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "frightened",
+      "paralyzed",
+      "restrained"
+    ]
+  },
+  "challengeRating": "25",
+  "experiencePoints": 75000,
+  "behaviors": [
+    {
+      "name": "Amphibious",
+      "behaviorType": "trait",
+      "description": "The monster can breathe air and water.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Freedom of Movement",
+      "behaviorType": "trait",
+      "description": "The monster ignores difficult terrain, and effects can't reduce its speed. It can spend 5 feet of movement to escape from being grappled.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the monster fails a saving throw, it can choose to succeed instead",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Gargantan Strength",
+      "behaviorType": "trait",
+      "description": "The monster's weapon attacks are considered enhanced.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Siege Monster",
+      "behaviorType": "trait",
+      "description": "The monster does double damage on objects and structures.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The monster uses its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. It can use its Swallow instead of its bite.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) kinetic damage. If the target is a creature it is grappled (escape DC 20). Until the grapple ends, the target is restrained, and the monster can't bite another target.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 17,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 21,
+      "damageRoll": "2d10 + 10",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Claw",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 17 (2d6 + 10) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 17,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 17,
+      "damageRoll": "2d6 + 10",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tail",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 19 (2d8 + 10) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 17,
+      "range": "reach 15 ft.",
+      "targets": "one target",
+      "averageDamage": 19,
+      "damageRoll": "2d8 + 10",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Frightful Presence",
+      "behaviorType": "action",
+      "description": "Each creature of the monster's choice within 120 feet of the monster and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effects ends for it, the creature is immune to the monster's Frightful Presence for 24 hours.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Water Torrent",
+      "behaviorType": "action",
+      "description": "the monster exhales a torrent of water in a 120 foot cone. Each creature in the area must make a DC 24 Dexterity saving throw, taking 42 (12d6) kinetic damage and 42 (12d6) cold damage on a failed save, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 5-6"
+    },
+    {
+      "name": "Swallow",
+      "behaviorType": "action",
+      "description": "If the monster takes 50 damage or more on a single turn from a creature inside it, the monster must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the monster. If the monster dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone. The monster makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the monster, and it takes 42 (12d6) acid damage at the start of each of the monster's turns.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Detect",
+      "behaviorType": "legendary",
+      "description": "The monster makes a Wisdom (Perception) check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tail Attack",
+      "behaviorType": "legendary",
+      "description": "The monster makes a tail attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Whirlpool",
+      "behaviorType": "legendary",
+      "description": "A creature must make a DC 21 Dexterity saving throw the first time on a turn that it enters the whirlpool or that the whirlpool enters its space, including when the whirlpool first appears. A creature takes 6d8 kinetic damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a DC 21 Strength saving throw or become restrained in the whirlpool until the power ends. When a creature starts its turn restrained by the whirlpool, the creature is pulled 5 feet deeper inside it, unless the creature is at the bottom. A restrained creature moves with the whirlpool and is submerged when the effect ends, unless the creature has some means to stay afloat. A restrained creature can use an action to make a DC 21 Strength or Dexterity check. If successful, the creature is no longer restrained by the whirlpool and is hurled 3d6x10 feet away from it in a random direction. The whirlpool ends at the beginning of the monster's turn unless the monster used the Whirlpool legendary action to maintain the whirlpool. The monster creates a whirlpool in the water at a point within 30 feet that it can see. The whirlwind is a 10-foot-radius, 30-foot-deep cylinder centered on that point. On subsequent turns, the monster can use the Whirlpool legendary action to maintain and move the whirlpool up to 30 feet in any direction along the surface of the water. The whirlpool sucks up any medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions"
+    }
+  ],
+  "sectionText": "Sando aqua monsters are enormous, muscular predators that could be found in the oceans and lakes of Naboo. ***Biology and Appearance.*** Despite measuring between 160 and 200 meters in length, the sando aqua monsters manage to hide in their native oceanic depths. Sandos have heavily muscled bodies that look almost feline, with strong limbs ending in finned claws that propell them through the depths. Their huge mouths allow them to swallow most other creatures of the Abyss in a single gulp. Using their razor-sharp teeth, they are also the only predators capable of biting through the hard shells of the opee sea killers. Being mammalian, females nursed their young for about a year. Females bore only one pup per birth. Their life-spans typically reach one hundred standard years.\n\n***Behavior.*** The sando aqua monsters were carnivores. In order to maintain their gigantic bodies, those voracious creatures needed to feed constantly, and they often devoured entire schools of fish. There have even been reports of sando monsters surfacing in swamp lakes and attacking falumpaset and fambaa herds, and unsubstantiated reports of them sunning themselves on sandbars.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

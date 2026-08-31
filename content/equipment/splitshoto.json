@@ -1,0 +1,22 @@
+{
+  "key": "splitshoto",
+  "name": "Splitshoto",
+  "category": "weapon",
+  "costInCredits": 1150,
+  "weight": 2.0,
+  "properties": [
+    "double (1d8 energy)",
+    "interlocking",
+    "light",
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

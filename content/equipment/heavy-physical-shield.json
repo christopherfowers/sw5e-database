@@ -1,0 +1,16 @@
+{
+  "key": "heavy-physical-shield",
+  "name": "Heavy physical shield",
+  "category": "armor",
+  "costInCredits": 500,
+  "weight": 36.0,
+  "properties": [
+    "obtrusive",
+    "strength 15"
+  ],
+  "armorClassification": "shield",
+  "armorClass": "+3",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

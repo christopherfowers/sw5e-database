@@ -1,0 +1,88 @@
+{
+  "key": "bogwing-greater",
+  "name": "Bogwing, Greater",
+  "size": "small",
+  "types": [
+    "beast"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13
+  },
+  "hitPoints": {
+    "average": 14,
+    "roll": "4d6"
+  },
+  "speed": {
+    "walk": 10,
+    "text": "10 ft., fly 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 6,
+      "modifier": -2
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 11,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 3,
+      "modifier": -4
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Beast of Burden",
+      "behaviorType": "trait",
+      "description": "The bogwing is considered to be a Large animal for the purposes of determining its carrying capacity.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The bogwing can make two claw attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Bogwings are a reptavian species found on the planets of Naboo and Dagobah. During the Cold War between the Galactic Republic and the reconstituted Sith Empire, bogwings were also seen in the swamps of the ruins of Taris. ***Biology.*** Bogwings are known to be able to carry nine times their own weight and are very territorial. There are two races of bogwings: the greater bogwing and the lesser bogwing. They both feed on small creatures dwelling in the canopy, but the greater bogwing feeds in the upper levels, while the lesser bogwing feeds in the lower levels where it avoids larger predators such as the jubba bird.\n\n***Naboo.*** During Gulliball games played by Gungans, bogwings were released into the sky to signal halftime.",
+  "sourceKey": "snv",
+  "contentSet": "core",
+  "languages": [
+    "None"
+  ]
+}

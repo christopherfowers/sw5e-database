@@ -1,0 +1,12 @@
+{
+  "key": "auditory-dampening",
+  "name": "Auditory Dampening",
+  "abilityScoreIncreases": [
+    "constitution",
+    "intelligence",
+    "wisdom"
+  ],
+  "description": "You've developed resilience against debilitating noises, gaining the following benefits:\n- Increase your Constitution, Intelligence, or Wisdom score by 1, to a maximum of 20.\n- While you are deafened, you can make ability checks that rely on hearing with disadvantage, instead of automatically failing them.\n- You have advantage on saving throws made to avoid sonic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}
