@@ -53,6 +53,9 @@
     "Darkvision 120 ft.",
     "passive Perception 13"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "ion"
@@ -108,8 +111,5 @@
   "flavorText": "Sith probe droids were designed as passive spy units, and were plated with energy-absorbing stealth armor that baffled most sensor scans. However, weaponry could be mounted on the Sith Probe Droids in many configurations: the most common being a miniaturized grenade launcher. Armaments adopted by the Sith included blaster cannons, stun blasters, and dart launchers loaded with poison needles.",
   "sectionText": "Probe droids (AKA probots or recon droids) are droids specifically designed to perform reconnaissance, reporting anything of significance as defined by specific preprogrammed protocols. Some models are equipped with a self-destruct mechanism in order to prevent those whom it had been sent to observe from studying them and determining their source, as well as a small blaster-type weapon for defense.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

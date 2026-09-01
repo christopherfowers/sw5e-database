@@ -34,15 +34,6 @@
       "minLength": 1,
       "description": "Display name of the stat block. Model designations belong here in full, as printed: 000 Series Protocol Droid, AT-ST."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this creature was published in, matching a document of the source content type. Every archived creature comes from snv."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this creature belongs to the core rules or to the community expanded-content supplement."
-    },
     "size": {
       "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
       "description": "Size category, which fixes the space the creature occupies, its hit die, and how grappling and swallowing resolve against it."
@@ -281,6 +272,15 @@
       "type": "string",
       "minLength": 1,
       "description": "Markdown covering the family of creatures this stat block belongs to, shared by every creature in that family. It is where the reusable ecology and tactics live, so it repeats verbatim across related stat blocks by design."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this creature was published in, matching a document of the source content type. Every archived creature comes from snv."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this creature belongs to the core rules or to the community expanded-content supplement."
     }
   },
   "$defs": {

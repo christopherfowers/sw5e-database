@@ -51,6 +51,9 @@
     "darkvision 60 ft.",
     "passive Perception 14"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "1",
   "experiencePoints": 200,
   "behaviors": [
@@ -95,8 +98,5 @@
   ],
   "sectionText": "The vornskr, native to the planet Myrkr, are a wild, vicious canine species that have the unusual ability to sense the Force. This ability evolved to help them hunt ysalamiri, but a side effect caused them to think that Force-sensitives were their favorite prey, including Jedi in their appetite. Vornskrs were also used as guards in the Dark Force Temple on Dromund Kaas. The Yuuzhan Vong used the species as a biological template for the voxyn.\n\n***Behavior.*** Vornskrs are primarily nocturnal hunters, and use their whip-like, mildly venomous tails to stun prey before finishing them off with their teeth. They are normally sedate during the day, but hunger or other factors may drive them to hunt during daylight hours.\n\n***Lightsaber Form.*** Before Jedi Master Mace Windu refined it into Vaapad, the Form VII style of lightsaber combat was referred to as the Way of the Vornskr.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

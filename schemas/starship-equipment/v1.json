@@ -79,16 +79,6 @@
       "$ref": "#/$defs/damage",
       "description": "The bracketed damage printed beside the first, which applies when the ammunition is fired from a Huge or larger hull. Ammunition only: a weapon states its two scales as two separate parts instead."
     },
-    "range": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["normal", "long"],
-      "description": "The two range bands in feet. Attacks beyond normal range and within long range are made at disadvantage, and nothing can be attacked beyond long range.",
-      "properties": {
-        "normal": { "type": "integer", "minimum": 1, "description": "Normal range in feet." },
-        "long": { "type": "integer", "minimum": 1, "description": "Long range in feet." }
-      }
-    },
     "weightInPounds": {
       "type": "number",
       "minimum": 0,
@@ -98,6 +88,16 @@
       "type": "number",
       "minimum": 0,
       "description": "The bracketed weight printed beside the first, for ammunition fired from a Huge or larger hull."
+    },
+    "range": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["normal", "long"],
+      "description": "The two range bands in feet. Attacks beyond normal range and within long range are made at disadvantage, and nothing can be attacked beyond long range.",
+      "properties": {
+        "normal": { "type": "integer", "minimum": 1, "description": "Normal range in feet." },
+        "long": { "type": "integer", "minimum": 1, "description": "Long range in feet." }
+      }
     },
     "firedBy": {
       "type": "array",

@@ -37,13 +37,51 @@ What that means in practice:
 - **`content/` is still the seed and the fallback**, and it is still what the
   container image publishes. A deployment that has not enabled the database
   store serves exactly this.
-- **`content/` will drift** from a deployment where authoring is enabled, until
-  the exporter that writes the database back here exists. Until then, treat
-  `content/` as current only for content that has not been edited through the
-  site.
+- **`content/` is refreshed from the database by the API's exporter.**
+  `dotnet Sw5e.Migrator.dll export --output <path-to-this-checkout>` rewrites
+  this tree from what is published in PostgreSQL — drafts excluded, reverts
+  reflected — and leaves a working tree for a human to review and commit. It
+  does not commit and does not push. So `content/` is current as of the last
+  export, and the pull request that carries one is where the community's edits
+  get reviewed on their way into the seed.
 
 Editing `content/` by hand is still correct for bulk import and for repairing
 the corpus. It is no longer the way a council member fixes a typo.
+
+## Canonical form
+
+Every document under `content/` is committed in one form, exactly: members in
+the order its schema declares them, two-space indentation, a bare newline, a
+trailing newline, UTF-8 without a byte-order mark, and no `\uXXXX` escape for
+any character that does not need one.
+
+This is not tidiness. PostgreSQL stores documents as `jsonb`, which keeps a
+document's values and discards its text — member order, indentation and
+whitespace are all gone by the time the exporter reads a row. So the exporter
+cannot reproduce a file by remembering how it was written; it derives the bytes
+from the document. If the file already here was written any other way, the first
+export rewrites it, and the reviewer of that pull request is shown a diff of
+reformatting with the actual edit buried inside it.
+
+One writer produces that form — `CanonicalContent`, in
+`src/Sw5e.Database.Schemas`, which the API references through the submodule for
+exactly the reason it references `SchemaValidator`: two implementations of one
+byte-exact format would drift, and the drift would show up as noise in every
+export.
+
+```bash
+dotnet run --project src/Sw5e.Database.Tools -- canonicalise           # rewrite
+dotnet run --project src/Sw5e.Database.Tools -- canonicalise --check   # report only
+```
+
+`CanonicalFormTests` asserts that every committed document already matches, so a
+hand edit that reorders members fails the build here rather than surfacing as a
+mystery diff months later.
+
+**Member order comes from the schema**, which makes reordering a schema's
+`properties` a change to the file format of every document of that type. That is
+a reasonable thing to do deliberately — and `CanonicalFormTests` is what stops it
+happening by accident.
 
 ## This repository is consumed as a submodule
 
@@ -55,10 +93,15 @@ write in the API is literally the one gating the corpus here.
 options in particular — `OutputFormat.List` and `RequireFormatValidation` — are
 part of that contract, not an implementation detail. So is
 `SchemaRepository`'s `{root}/{contentType}/v{version}.json` layout, which the
-API resolves schema versions from.
+API resolves schema versions from. `CanonicalContent` joined that contract with
+the exporter: it defines the bytes of every file under `content/`.
 
-`content/` is not part of the contract: the API excludes it from its build
-context and never reads it.
+`content/` is not part of the shipped contract — the API excludes it from its
+Docker build context and no running API process reads it — but the API's test
+suite does, over the pinned submodule commit: it imports this corpus into
+PostgreSQL, exports it again, and asserts the result is byte-identical to what
+is committed here. So a change here that breaks the round trip turns the API's
+build red at the next submodule bump.
 
 ## Requirements
 

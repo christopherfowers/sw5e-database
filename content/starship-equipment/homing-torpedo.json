@@ -5,6 +5,10 @@
   "contentSet": "core",
   "category": "ammunition",
   "costInCredits": 250,
+  "properties": [
+    "explosive",
+    "homing"
+  ],
   "damage": {
     "numberOfDice": 1,
     "dieFaces": 12,
@@ -21,10 +25,6 @@
     "normal": 1200,
     "long": 4800
   },
-  "properties": [
-    "explosive",
-    "homing"
-  ],
   "firedBy": [
     "Torpedo launcher",
     "Assault torpedo launcher"

@@ -48,6 +48,9 @@
     "darkvision 30ft",
     "passive Perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "fire",
@@ -83,8 +86,5 @@
   ],
   "sectionText": "Pelko bugs are small creatures that are covered in millions of microscopic barbs that deliver a paralytic, blistering toxin which can penetrate armor. They live only beneath sands of the Valley of the Dark Lords on Korriban, and are attracted to Force-sensitives. They stalk and swarm their prey in the darkness. The bug's attunement to the Force allows them to determine if a creature is suitable prey. The barbs are used in training sabers at the Sith Academy because of the toxin's effects, which mimick the effects of losing a limb to a lightsaber.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

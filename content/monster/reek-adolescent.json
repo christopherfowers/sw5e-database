@@ -47,6 +47,9 @@
   "senses": [
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 450,
   "behaviors": [
@@ -72,8 +75,5 @@
   ],
   "sectionText": "Reeks are large, muscular quadrupeds native to the planet Ylesia. Though naturally herbivores, a starved reek can become a ravenous meat-eater. They sport two large cheek horns that can be used for head-locking in combat with another Reek as a sign of dominance.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

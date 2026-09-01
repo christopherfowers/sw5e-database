@@ -52,6 +52,9 @@
     "darkvision 60 ft.",
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "4",
   "experiencePoints": 1100,
   "behaviors": [
@@ -101,8 +104,5 @@
   ],
   "sectionText": "Also known as webweavers, or Kashyyykian giant weavers, Wyyyschokk are arachnids that live in the lower levels of Kashyyyk's \"multilayered deathtrap\" ecosystem. Wyyyschokk hold the distinction of being the most dangerous predator on Kashyyyk, signifying them as one of the most dangerous in the galaxy.\n\n***Behavior.*** They are intelligent enough to coordinate ambushes on unsuspecting creatures, and have the tenacity to track their prey for over a kilometer. When attacking, they immobilize their victims with thick strands of web and copious amounts of poisonous fluid from their upraised mandibles.\n\n***Range.*** While most wyyyschokk live deep in the lower levels of the wroshyr forests, some populations can also be found in the Etyyy region where no kilometer-high forests grow, while others live in the ShadowWeave Caverns in the Kkowir Forest.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

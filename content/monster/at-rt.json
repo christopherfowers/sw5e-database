@@ -47,6 +47,9 @@
   "savingThrows": [
     "Dex +5"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "ion"
@@ -119,8 +122,5 @@
   "flavorText": "The All Terrain Recon Transport (AT-RT), is a one-man bipedal walker used for reconnaissance and patrolling made by Kuat Drive Yards as part of their All Terrain series. It is equipped with a single seat for a pilot, as well as a repeating blaster cannon and mortar launcher, and is 3.2 meters tall and 2.9 meters long,. Also known as the Republic scout walker, the AT-RT was used mainly during the Clone Wars by Advanced Recon Force troopers. It was the precursor to both the All Terrain Defense Pod and the All Terrain Scout Transport. During the Galactic Civil War, these walkers were adopted by both the Galactic Empire, who used Scout troopers to man the vehicles, and the Alliance to Restore the Republic, who upgraded them to compete with the advancements of the Empire. The AT-RT's were usually used for a variety of missions including ground support, police support, civil defense, and post-battle cleanup efforts. They occasionally took up position on the front lines of ground battles when difficult terrain prevented the use of larger vehicles.",
   "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

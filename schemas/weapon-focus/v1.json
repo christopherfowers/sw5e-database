@@ -25,15 +25,6 @@
       "minLength": 1,
       "description": "Display name as printed: Blade Focus, Crushing Weapon Focus, Trip Weapon Focus. The books are inconsistent about whether the word \"Weapon\" appears — it does for crushing, heavy and trip and not for the rest — so the name is reproduced rather than generated from the group."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this focus was published in, matching a document of the source content type. Every weapon focus in the archive is wh."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this focus belongs to the core rules or to the community expanded-content supplement. Wretched Hives is a core rulebook, so these are core despite not being in the Player's Handbook."
-    },
     "weaponGroup": {
       "enum": [
         "blade",
@@ -60,6 +51,15 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this focus was published in, matching a document of the source content type. Every weapon focus in the archive is wh."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this focus belongs to the core rules or to the community expanded-content supplement. Wretched Hives is a core rulebook, so these are core despite not being in the Player's Handbook."
     }
   }
 }

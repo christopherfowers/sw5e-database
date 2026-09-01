@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using Sw5e.Database.Schemas;
@@ -10,6 +11,12 @@ switch (command)
     case "validate":
         return Validate(args.Length > 1 ? args[1] : "schemas",
                         args.Length > 2 ? args[2] : "content");
+
+    case "canonicalise":
+    case "canonicalize":
+        return Canonicalise(args.Length > 1 ? args[1] : "schemas",
+                            args.Length > 2 ? args[2] : "content",
+                            args.Contains("--check", StringComparer.Ordinal));
 
     case "import-legacy":
         if (args.Length < 2)
@@ -28,6 +35,11 @@ switch (command)
 
             Usage:
               validate [schemaRoot] [contentRoot]      Validate all content against its schema
+              canonicalise [schemaRoot] [contentRoot] [--check]
+                  Rewrite every content document in canonical form: members in
+                  the order the schema declares them, two-space indentation, a
+                  bare newline, a trailing newline. --check reports what would
+                  change and exits non-zero instead of writing.
               import-legacy <archiveRoot> [contentRoot]
                   Rewrite the enhanced-item, weapon-property, armor-property, rule
                   and reference-table content from the 2022 legacy archive, repairing
@@ -94,6 +106,111 @@ static int ImportLegacy(string archiveRoot, string contentRoot)
     }
 
     return 0;
+}
+
+// Rewrites the corpus into the form the exporter on the API side produces, so
+// that a document arriving from the database and the same document arriving as
+// a pull request are the same bytes. Deterministic and re-runnable: a corpus
+// already in canonical form is left untouched, which is what makes --check a
+// usable gate.
+static int Canonicalise(string schemaRoot, string contentRoot, bool checkOnly)
+{
+    CanonicalContent canonical;
+
+    try
+    {
+        canonical = new CanonicalContent(new SchemaRepository(schemaRoot));
+    }
+    catch (DirectoryNotFoundException)
+    {
+        Console.Error.WriteLine(
+            $"ERROR No schema directory at '{schemaRoot}'. Pass the schema root as " +
+            "the first argument, e.g. 'canonicalise schemas content'.");
+        return 1;
+    }
+
+    if (!Directory.Exists(contentRoot))
+    {
+        Console.WriteLine($"No content directory at '{contentRoot}'; nothing to do.");
+        return 0;
+    }
+
+    var changed = new List<string>();
+    var failures = 0;
+    var examined = 0;
+
+    foreach (var directory in Directory.EnumerateDirectories(contentRoot).Order(StringComparer.Ordinal))
+    {
+        var contentType = Path.GetFileName(directory);
+
+        foreach (var file in Directory.EnumerateFiles(directory, "*.json").Order(StringComparer.Ordinal))
+        {
+            var relative = $"{contentType}/{Path.GetFileName(file)}";
+
+            // Line endings are normalised before the comparison because which
+            // of the two a working tree holds is git's decision, not this
+            // tool's. Everything else is compared exactly.
+            var committed = File.ReadAllText(file, Encoding.UTF8).Replace("\r\n", "\n");
+
+            string rendered;
+
+            try
+            {
+                using var document = JsonDocument.Parse(committed);
+
+                rendered = canonical.Render(contentType, document.RootElement);
+            }
+            catch (JsonException error)
+            {
+                Console.Error.WriteLine($"FAIL {relative}: not valid JSON - {error.Message}");
+                failures++;
+                continue;
+            }
+            catch (SchemaNotFoundException)
+            {
+                Console.Error.WriteLine(
+                    $"FAIL {relative}: no schema for content type '{contentType}'.");
+                failures++;
+                continue;
+            }
+            catch (ArgumentException error)
+            {
+                Console.Error.WriteLine($"FAIL {relative}: {error.Message}");
+                failures++;
+                continue;
+            }
+
+            examined++;
+
+            if (string.Equals(rendered, committed, StringComparison.Ordinal))
+            {
+                continue;
+            }
+
+            changed.Add(relative);
+
+            if (!checkOnly)
+            {
+                File.WriteAllText(file, rendered, CanonicalContent.FileEncoding);
+            }
+        }
+    }
+
+    Console.WriteLine(
+        $"Examined {examined} document(s); {changed.Count} " +
+        (checkOnly ? "not in canonical form" : "rewritten") + $"; {failures} failure(s).");
+
+    foreach (var relative in changed.Take(40))
+    {
+        Console.WriteLine($"  {relative}");
+    }
+
+    if (changed.Count > 40)
+    {
+        Console.WriteLine($"  ... and {changed.Count - 40} more.");
+    }
+
+    return failures > 0 || (checkOnly && changed.Count > 0) ? 1 : 0;
 }
 
 static int Validate(string schemaRoot, string contentRoot)

@@ -46,6 +46,9 @@
   "senses": [
     "passive Perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "1/4",
   "experiencePoints": 50,
   "behaviors": [
@@ -71,8 +74,5 @@
   ],
   "sectionText": "Varactyls are a species of majestic, giant reptavian herbivores native to the world of Utapau. They typically have blue and green feather manes and feather ridges along their back. They are incredibly loyal and obedient mounts, that had strong long strides to navigate the uneven and vertical surfaces of their homeworld.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

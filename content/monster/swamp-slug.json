@@ -55,6 +55,9 @@
     "darkvision 60 ft.",
     "passive Perception 16"
   ],
+  "languages": [
+    "None"
+  ],
   "damageResistances": {
     "types": [
       "energy",
@@ -133,8 +136,5 @@
   ],
   "sectionText": "An omnivorous species, swamp slugs have thousands of teeth and twenty-four pairs of legs. Their orange or golden eyes, the size of boulders, allow them to see clearly beneath the murky, cloudy waters, while the two rubbery antennae on the top of their heads, which grew to two meters, utilize sonar to pinpoint exact locations of objects, searching by motion. Swamp slugs are omnivores, eating anything organic that they can fit in their mouths of jagged teeth. The teeth, or radula, lining the slug's esophagus pulverize into organic slime any plant or animal matter that it ingests. An hermaphroditic species, the swamp slugs reproduce sexually. Each partner lays hundreds of eggs, most of which are eaten by other animals. They exude a thick, foul-smelling mucus which damages the breathing organs of other species. They are not desirable to eat by other predators and are given a wide berth in the swamps.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

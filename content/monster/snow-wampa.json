@@ -52,6 +52,9 @@
     "darkvision 60 ft.",
     "passive Perception 13"
   ],
+  "languages": [
+    "None"
+  ],
   "damageImmunities": {
     "types": [
       "cold"
@@ -115,8 +118,5 @@
   ],
   "sectionText": "Wampas are semi-sentient predators with humanoid proportions that stand up to 12 feet tall. While they all share characteristics in common, there are three variations of wampa that are distinct based on their native planet.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

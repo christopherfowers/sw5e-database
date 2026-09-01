@@ -50,6 +50,9 @@
     "darkvision 60 ft.",
     "passive Perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "fire"
@@ -87,8 +90,5 @@
   ],
   "sectionText": "The Knobby white spider was a large landspeeder-sized arachnid-like organism native to the swamp world of Dagobah. In addition to the very large ones, there are also some smaller, knee-heigh spiderlings.\n\n***Appearance.*** It had a large, lumpy body with a bloated, bulbous head, eight gnarled legs and one large stinger used to capture and sedate its prey.\n\n***Biology.*** One of the most bizarre organisms on Dagobah, the knobby white spider was in fact a mobile root that was part of the gnarltree's life cycle. Composed primarily of calcified wood, it would break free of its parent tree to roam the swamps and devour animals. After gathering enough nutrients, the spider would find a clear spot to anchor its legs, and if it survived that period, it would eventually transform into roots that allow the spider to grow into a towering tree. During this period it was vulnerable to bogwings and jubba birds.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

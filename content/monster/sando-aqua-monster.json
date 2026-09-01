@@ -62,6 +62,9 @@
     "darkvision 120 ft.",
     "passive Perception 22"
   ],
+  "languages": [
+    "None"
+  ],
   "damageImmunities": {
     "types": [
       "cold",
@@ -208,8 +211,5 @@
   ],
   "sectionText": "Sando aqua monsters are enormous, muscular predators that could be found in the oceans and lakes of Naboo. ***Biology and Appearance.*** Despite measuring between 160 and 200 meters in length, the sando aqua monsters manage to hide in their native oceanic depths. Sandos have heavily muscled bodies that look almost feline, with strong limbs ending in finned claws that propell them through the depths. Their huge mouths allow them to swallow most other creatures of the Abyss in a single gulp. Using their razor-sharp teeth, they are also the only predators capable of biting through the hard shells of the opee sea killers. Being mammalian, females nursed their young for about a year. Females bore only one pup per birth. Their life-spans typically reach one hundred standard years.\n\n***Behavior.*** The sando aqua monsters were carnivores. In order to maintain their gigantic bodies, those voracious creatures needed to feed constantly, and they often devoured entire schools of fish. There have even been reports of sando monsters surfacing in swamp lakes and attacking falumpaset and fambaa herds, and unsubstantiated reports of them sunning themselves on sandbars.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

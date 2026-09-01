@@ -25,15 +25,6 @@
       "minLength": 1,
       "description": "Display name as printed: Blade Supremacy, Crushing Weapon Supremacy, Trip Weapon Supremacy. As with the focuses, whether the word \"Weapon\" appears varies by group, so the name is reproduced rather than generated."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this supremacy was published in, matching a document of the source content type. Every weapon supremacy in the archive is wh."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this supremacy belongs to the core rules or to the community expanded-content supplement."
-    },
     "weaponGroup": {
       "enum": [
         "blade",
@@ -60,6 +51,15 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this supremacy was published in, matching a document of the source content type. Every weapon supremacy in the archive is wh."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this supremacy belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

@@ -48,6 +48,9 @@
     "darkvision 30 ft.",
     "passive perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "4",
   "experiencePoints": 10,
   "behaviors": [
@@ -85,8 +88,5 @@
   ],
   "sectionText": "Ronto are large, quadruped mammals that are commonly used as beasts of burden by the Jawas of Tatooine. They are known for their loyalty and strength, being able to carry hundreds of kilograms of weight. Like the native dewbacks of Tatooine, ronto are easy to train and become quite fond of their masters, whose faces they associat with food. They are large enough to frighten off Tusken Raiders, though they are easily spooked by machines, such as speeder bikes.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

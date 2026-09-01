@@ -51,6 +51,9 @@
     "darkvision 30 ft.",
     "passive Perception 13"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 450,
   "behaviors": [
@@ -102,8 +105,5 @@
   ],
   "sectionText": "Kath hounds are about the size of a large dog, fur-covered, and each limb ends in four hoofed digits. They are generally not very hostile, unless provoked. At one point, the kath hounds started attacking the citizens of Dantooine and were blamed for numerous crimes, including the theft of a protocol droid. Kath hounds are also a popular pet for the crime lords of Nar Shaddaa, including Visquis and Vogga the Hutt. Domesticated kath hounds, called salkies, are also popular pets on Coruscant.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

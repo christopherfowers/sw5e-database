@@ -17,15 +17,6 @@
       "minLength": 1,
       "description": "Display name, always \"<Discipline> Mastery\": Duelist Mastery, Great Weapon Mastery, Sharpshooter Mastery. The suffix is kept because it is the only thing distinguishing the entry from the fighting style of the same discipline."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this fighting mastery was published in, matching a document of the source content type. Every fighting mastery in the archive is phb."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this fighting mastery belongs to the core rules or to the community expanded-content supplement."
-    },
     "prerequisite": {
       "type": "string",
       "minLength": 1,
@@ -44,6 +35,15 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this fighting mastery was published in, matching a document of the source content type. Every fighting mastery in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this fighting mastery belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

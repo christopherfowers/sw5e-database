@@ -25,15 +25,6 @@
       "minLength": 1,
       "description": "Display name, built the same way the key is: \"Berserker Multiclass Improvement\". The archive stores only the class name, which is ambiguous on its own once all three kinds sit in one list."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this improvement was published in, matching a document of the source content type. All thirty are ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this improvement belongs to the core rules or to the community expanded-content supplement. All thirty are expanded content: none of this is in the Player's Handbook."
-    },
     "className": {
       "type": "string",
       "minLength": 1,
@@ -52,6 +43,15 @@
       "type": "string",
       "minLength": 1,
       "description": "Markdown rules text in second person, describing what the improvement grants."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this improvement was published in, matching a document of the source content type. All thirty are ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this improvement belongs to the core rules or to the community expanded-content supplement. All thirty are expanded content: none of this is in the Player's Handbook."
     }
   }
 }

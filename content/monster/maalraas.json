@@ -54,6 +54,9 @@
     "darkvision 60 ft.",
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 450,
   "behaviors": [
@@ -105,8 +108,5 @@
   ],
   "sectionText": "Maalraas or Nighthuntersre a non-sentient species of predatory quadrupeds. Nighthunters hunted in packs, using long claws and powerful fanged jaws to disable their victims. ***Characteristics.*** Using the Force to cloak themselves, making themselves nearly indistinguishable from the darkest shadows, only extremely well-trained Jedi or Sith cah recognize their silhouettes. Their Hides and bones are heavily resistant to lightsabers as well as intense heat. Maalraas have huge fangs that protrude from their round heads and are possibly the ancestors of nighthunters. ***Behavior.*** Maalraas hunted in packs primarily preyed upon cannoks, although if there were too many of them the cannoks could drive the predator away or even kill it. Maalraas were in turn preyed upon by the zakkeg.\n\n***Domestication.*** Easy to train from infancy or from older ages, Nighthunters are utilised as Loyal guard beasts and are exported from their unrecorded home world by crime syndicates as well as other wealthy individuals willing to trade on the black market. ***Spread.*** While plentiful at the time of the old republic era, by the time of the Clone Wars, they were thought to be extinct, but at least one still survived on Parein II 4. A population exists on the forest moon of Dxun in the Onderon system and possibly Onderon itself.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

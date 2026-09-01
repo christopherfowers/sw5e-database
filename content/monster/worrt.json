@@ -52,6 +52,9 @@
     "darkvision 30 ft.",
     "passive Perception 13"
   ],
+  "languages": [
+    "None"
+  ],
   "damageImmunities": {
     "types": [
       "poison"
@@ -94,8 +97,5 @@
   ],
   "sectionText": "Worrts are a non-sentient species that hail from the desert of the planet Tatooine, although they can also be found on Nal Hutta and Phaeda. ***Biology & Appearance.*** Worrts are squat and spiky creatures whose appearance bears similarities to that of chubas. They have brown, warty skin and measure 1.5 meters in height. They are quadrupeds with dexterous forelimbs. A worrt's head features a pair of sensitive cranial palps; two bulbous eyes, yellow in hue; two nostrils; and a large mouth containing a long tongue and strong teeth laced with a venom potent enough to kill a bantha. Worrts lay large amounts of soft eggs, which are harvested for food and used as ingredients in drinks such as Jabba Juice.\n\n***Behavior.*** Worrts feed mostly on insects and rodents. When hungry, a worrt settles into the sand, becoming indistinguishable from a rocky outcropping, and waits for prey to pass. When its victim comes close enough, the worrt throws its tongue out of its mouth and wraps it around the prey. The worrt's tongue then snaps back, throwing the food down its throat.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

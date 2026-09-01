@@ -32,15 +32,6 @@
       "minLength": 1,
       "description": "Display name, phrased as the role the character held: Bounty Hunter, Criminal, Jedi."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this background was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this background belongs to the core rules or to the community expanded-content supplement."
-    },
     "lore": {
       "type": "string",
       "minLength": 1,
@@ -130,6 +121,15 @@
           "description": "Roll table of specialisations. Entries carry a name only. Omit when the variant is described in prose without a table."
         }
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this background was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this background belongs to the core rules or to the community expanded-content supplement."
     }
   },
   "$defs": {

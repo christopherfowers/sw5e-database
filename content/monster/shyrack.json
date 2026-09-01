@@ -48,6 +48,9 @@
     "blindsight 60ft",
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "0",
   "experiencePoints": 10,
   "behaviors": [
@@ -70,8 +73,5 @@
   ],
   "sectionText": "Shyracks are cave-dwelling terrors that are fiercely territorial and attack any intruder with aggression and fervor. While typically cave bound, every sixty-three years the shyracks of Korriban spill from their cave habitats for an entire summer. These periods saw them fill the sky where they blotted out the sun and moon where they rained their bluish droppings onto everything below. Prior to the return of the Sith Empire, biologists from across the galaxy arrived on the planet in order to witness every sixty-third summer where they observed the purpling of the red Korriban terrain. While ungainly and slow-moving with no eyes, shyracks are potentially dangerous pests, especially when they converge as a swarm on an intruder. They are native to the Shyrack cave of Korriban and are natural rivals to the feared Tuk'ata.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

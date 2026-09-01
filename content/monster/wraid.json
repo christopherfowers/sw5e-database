@@ -50,6 +50,9 @@
   "senses": [
     "passive Perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 0,
   "behaviors": [
@@ -84,8 +87,5 @@
   ],
   "sectionText": "Wraids are large reptilian creatures found on many desert planets around the galaxy, including Tatooine, Korriban, and Tython. ***Biology & Appearance.*** Wraids are pinkish-red in color and have very powerful front legs, enabling them to move quickly when agitated by means of long, bounding strides. They have large claws at the end of their feet and sharp teeth, making them dangerous to the unwary. They also have two small back legs.\n\n***Behavior.*** Wraids are often seen in clusters from two to six members. Generally, they will not harm passersby unless provoked, at which point their danger becomes immediately apparent.\n\n***Hunting.*** Because of their ferocious appearance and short temper, they are a popular quarry of less-experienced big game sport hunters from around the galaxy. When the settlement of Anchorhead was founded, hunting wraids developed into a marketable trade with the opening of hunting lodges and salespeople dealing in wraid skull plates purchased from hunters. Their skull plates are rumored to have medicinal uses, but the market for them is very specific.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

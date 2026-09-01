@@ -6,15 +6,15 @@
   "category": "ammunition",
   "costInCredits": 850,
   "description": "A Flechette torpedo detonates at a point within range, creating a 200 (400) foot cube of difficult terrain.  Any ship entering or starting their turn in this area must succeed at a Dexterity saving throw (DC 15) or take 1d8 [2d8] kinetic damage.",
+  "properties": [
+    "special"
+  ],
   "weightInPounds": 85,
   "weightInPoundsForLargerShips": 170,
   "range": {
     "normal": 600,
     "long": 2400
   },
-  "properties": [
-    "special"
-  ],
   "firedBy": [
     "Torpedo launcher",
     "Assault torpedo launcher"
