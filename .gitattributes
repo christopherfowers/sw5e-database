@@ -1,0 +1,17 @@
+# Content and schema documents are compared byte for byte.
+#
+# The canonical form these files are committed in is defined down to the byte —
+# member order, indentation, escaping, and a bare newline — because the API
+# exports what the site's contributors publish back into this tree, and an
+# export whose only difference from the checked-in file is the line ending
+# produces a pull request touching all 7,877 documents.
+#
+# Left to `core.autocrlf`, a checkout on Windows would hand the exporter and its
+# round-trip tests CRLF files and the same command would produce a clean tree on
+# one machine and a dirty one on another. Pinning the working tree to LF makes
+# the format the same everywhere, which is the whole point of having one.
+*.json text eol=lf
+
+# Everything else follows git's own detection, with text normalised on the way
+# in so a contributor's editor cannot commit CRLF by accident.
+* text=auto
