@@ -29,15 +29,6 @@
       "minLength": 1,
       "description": "Display name. Stored in title case; render it lowercase and italic when it is referenced from inside another power's text, as the books do."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this power was published in, matching a document of the source content type. Values present in the archive are phb and ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this power belongs to the core rules or to the community expanded-content supplement."
-    },
     "powerType": {
       "enum": ["force", "tech"],
       "description": "Which casting system the power belongs to. This decides the point pool it spends, the casting ability, and whether forceAlignment applies."
@@ -92,6 +83,15 @@
       "type": "string",
       "minLength": 1,
       "description": "Markdown rules text in second person, describing what happens on a cast. Where the effect scales, the archived corpus writes the scaling into the closing paragraph of this text rather than into a separate field."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this power was published in, matching a document of the source content type. Values present in the archive are phb and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this power belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

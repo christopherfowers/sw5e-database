@@ -48,6 +48,9 @@
     "Str +12",
     "Con +10"
   ],
+  "languages": [
+    "None"
+  ],
   "damageResistances": {
     "types": [
       "psychic"
@@ -173,8 +176,5 @@
   "flavorText": "The All Terrain Tactical Enforcer (AT-TE), is an all terrain assault walker developed for the Grand Army of the Republic during the Clone Wars. The walker is used for transporting platoons of troopers and attacking enemy installations. The AT-TE's cramped rear compartment contains computer hologram communication devices and space for troopers to stand during transportation. On the back end of the machine is a large door for quick deployment of troopers. Some versions of the walker were able to scale vertical cliffs. The typical arsenal includes a top-mounted mass-driver cannon, along with six other laser cannons placed strategically around the outside of the vehicle.",
   "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

@@ -48,6 +48,9 @@
     "darkvision 120 ft.",
     "passive Perception 9"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 450,
   "behaviors": [
@@ -85,8 +88,5 @@
   ],
   "sectionText": "Rancors are large carnivorous reptomammals native to the planet of Dathomir. They are commonly kept as pets by affluent, less-than-reputable types.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

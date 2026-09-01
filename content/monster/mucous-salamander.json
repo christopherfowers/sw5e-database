@@ -51,6 +51,9 @@
   "senses": [
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "other": [
       "lightning in liquid form"
@@ -151,8 +154,5 @@
   ],
   "sectionText": "Mucous salamanders, or pinkish salamanders, are amphibians native to the bogs of Yavin 4. They possess the distinct ability to diffuse their molecular structures underwater, which allow them to swim faster and pass through hunters' nets. When a mucous salamander enters dry areas, it cN change its molecular structure into hardened scales for protection from predators, particularly the angler.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

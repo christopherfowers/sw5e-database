@@ -47,6 +47,9 @@
   "senses": [
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "0",
   "experiencePoints": 10,
   "behaviors": [
@@ -72,8 +75,5 @@
   ],
   "sectionText": "Kowakian monkey-lizards are a bipedal reptilian species native to a jungle-like Outer Rim planet called Kowak. Although have had no established culture, Kowakian monkey-lizards were quite intelligent, and despite their silly, cruel nature, they are considered sentient by many sentientologists in the galaxy, although there was much debate over that designation. They are often kept as pets due to their mischievous nature.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

@@ -48,6 +48,9 @@
     "Str +14",
     "Con +12"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "ion"
@@ -191,8 +194,5 @@
   "flavorText": "The All Terrain Armored Transport is an imposing, heavily armored, quadrupedal combat walker that stands 22.5 meters tall and can move at 60 kph. In addition to it's armaments, it also served as transport for combat personnel. The vehicle's cockpit and sensor array are located in the \"head\" of the walker, which also carries spotlights and the main armaments: dual Piperii-Cerlurn R-90C medium blasters located on the sides or \"temples,\" and a pair of heavier Taim & Bak MS-1 heavy blaster cannons fitted on the \"chin.\" The main body houses a troop compartment capable of ferrying numerous soldiers, along with a vehicle bay at the walker's rear that holds five 74-Z speeder bikes. The main, troop hatch is located in the middle of the walker's side, two smaller escape hatches are located both to the main hatch's immediate left and right, and the auxiliary hatch is located in the walker's underside.",
   "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

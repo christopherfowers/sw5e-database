@@ -51,6 +51,9 @@
   "senses": [
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "ion"
@@ -129,8 +132,5 @@
   "flavorText": "A DUM-series pit droid, manufactured by Serv-O-Droid, Inc., are used for labor, repair and light construction. In the center of their head is a large, round photoreceptor equipped with multi-spectrum scanners capable of detecting microscopic damage. Pit droids stand 1.19 meters tall but can compress themselves into a compact, box-shaped package. A tap on their photorecepter signals them to return to their upright position, and vice-versa. Their most remarkable feature is their immense strength, able to carry objects many times their own size or weight.",
   "sectionText": "Tracker Droids are a general term used to describe simple droids that are capable of being permanently linked to via the tech power *tracker droid interface*. Tracker droids are not all dedicated tracking or probe droids as the name might suggest, but these are the most common types of droids to become linked with in most cultures throughout the galaxy, explaining this commonly used shorthand.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

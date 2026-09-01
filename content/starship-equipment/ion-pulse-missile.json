@@ -5,6 +5,9 @@
   "contentSet": "core",
   "category": "ammunition",
   "costInCredits": 700,
+  "properties": [
+    "ionizing"
+  ],
   "damage": {
     "numberOfDice": 2,
     "dieFaces": 10,
@@ -21,9 +24,6 @@
     "normal": 1000,
     "long": 4000
   },
-  "properties": [
-    "ionizing"
-  ],
   "firedBy": [
     "Missile launcher",
     "Assault missile launcher"

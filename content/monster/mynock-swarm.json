@@ -51,6 +51,9 @@
     "darkvision 60 ft.",
     "passive Perception 9"
   ],
+  "languages": [
+    "None"
+  ],
   "damageResistances": {
     "types": [
       "energy",
@@ -107,8 +110,5 @@
   ],
   "sectionText": "Mynocks are a species of silicon-based bat-like parasites that chew on the power cables and energy conductors of starships, and can drain a ship's entire power supply. They reproduce by splitting in two and growing new creatures from each half. Mynocks are capable of surviving in the atmospheres of planets and the vacuum of space, though only a few varieties lived on planets. They are also known to inhabit asteroid fields and the gullets of exogorths, where they share in its meals.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

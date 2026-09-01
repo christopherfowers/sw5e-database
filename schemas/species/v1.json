@@ -17,15 +17,6 @@
       "minLength": 1,
       "description": "Display name as it appears in the species list, singular and in the form a player would say at the table (Bothan, not Bothans)."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this species was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this species belongs to the core rules or to the community expanded-content supplement. Tables that mix both should let players filter on it."
-    },
     "size": {
       "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
       "description": "Size category, which drives carrying capacity, the space the creature occupies, and which weapons it can wield. Omit only for a species that inherits its size from another species."
@@ -207,6 +198,15 @@
           }
         }
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this species was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this species belongs to the core rules or to the community expanded-content supplement. Tables that mix both should let players filter on it."
     }
   }
 }

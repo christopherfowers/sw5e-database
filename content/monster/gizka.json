@@ -47,6 +47,9 @@
     "blindsight 120 ft. (blind beyond this radius)",
     "passive Perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "0",
   "experiencePoints": 10,
   "behaviors": [
@@ -76,8 +79,5 @@
   ],
   "sectionText": "Gizka are small reptiles that can be found all across the galaxy.\n\n***History.*** Whatever their native world, their extraordinary reproduction rate led to a fair amount of gizka on many worlds, even including uncharted planets such as Lehon, finding their way from the wreckage of crashed starships. It has been alternatively postulated that they came from that planet originally, spreading along with the Infinite Empire. Their exponential population growth led to them being considered pests on almost as many worlds as they inhabited, as they commonly eat electrical wiring.\n\n***Culture.*** They are the source for the delicacy gizka steak. Some species of sentient carnivores, like Trandoshans, seemed to think that gizka were one of those kinds of animals that \"everything tastes like.\"",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

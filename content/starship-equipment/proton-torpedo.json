@@ -5,6 +5,10 @@
   "contentSet": "core",
   "category": "ammunition",
   "costInCredits": 650,
+  "properties": [
+    "explosive",
+    "keen 1"
+  ],
   "damage": {
     "numberOfDice": 2,
     "dieFaces": 10,
@@ -21,10 +25,6 @@
     "normal": 1200,
     "long": 4800
   },
-  "properties": [
-    "explosive",
-    "keen 1"
-  ],
   "firedBy": [
     "Torpedo launcher",
     "Assault torpedo launcher"

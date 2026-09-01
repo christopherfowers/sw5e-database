@@ -25,15 +25,6 @@
       "minLength": 1,
       "description": "Display name, usually a verb phrase for what the maneuver does: Disarming Blow, Goading Attack, Tactical Assessment. An upgrade of an existing maneuver keeps the base name and adds a parenthesised tier, as in \"Administer Aid (Improved)\"; that spelling is load-bearing, because it is how the printed lists show that the two are one maneuver at two tiers."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this maneuver was published in, matching a document of the source content type. Values present in the archive are phb and ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this maneuver belongs to the core rules or to the community expanded-content supplement."
-    },
     "maneuverType": {
       "enum": ["general", "physical", "mental"],
       "description": "Which of the three maneuver lists this one is drawn from. This is not flavour: a class feature grants access to a named list, so the type decides who may learn the maneuver at all. General maneuvers are open to everyone with superiority dice; physical and mental ones are gated on the feature that grants them, which is why Parry (Improved) exists purely to move Parry from one list to the other."
@@ -57,6 +48,15 @@
       "type": "string",
       "minLength": 1,
       "description": "Markdown rules text in second person, describing what happens when the maneuver is used. The archived corpus writes the action cost into the opening clause of this text — \"As an action, you can expend a superiority die\" — rather than into a field of its own, and that phrasing is kept verbatim rather than parsed, because the same maneuver can be usable at several action costs depending on which tiers of it a character has taken."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this maneuver was published in, matching a document of the source content type. Values present in the archive are phb and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this maneuver belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

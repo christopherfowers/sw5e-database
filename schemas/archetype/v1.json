@@ -17,15 +17,6 @@
       "minLength": 1,
       "description": "Display name. Archetype names in SW5e are noun phrases naming the discipline rather than the practitioner: Acquisitions Practice, Armormech Engineering."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this archetype was published in, matching a document of the source content type. Values present in the archive are phb and ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this archetype belongs to the core rules or to the community expanded-content supplement."
-    },
     "className": {
       "type": "string",
       "minLength": 1,
@@ -89,6 +80,15 @@
           }
         }
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this archetype was published in, matching a document of the source content type. Values present in the archive are phb and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this archetype belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

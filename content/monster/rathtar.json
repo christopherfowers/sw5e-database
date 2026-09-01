@@ -54,6 +54,9 @@
     "blindsight 60 ft.",
     "passive Perception 15"
   ],
+  "languages": [
+    "None"
+  ],
   "damageResistances": {
     "types": [
       "ion"
@@ -132,8 +135,5 @@
   ],
   "sectionText": "Rathtars were large, carnivorous cephalopods that were native to the planet Twon Ketee. Regarded as one of the most dangerous beasts in the galaxy, rathtars were known for hunting in packs, and their subspecies, the dwarf rathtar were involved in an incident known as the Trillia Massacre. ***Biology.*** Although the study of rathtars was rare due to the danger posed by the beasts, it was believed that they shared common ancestry with other tentacled species such as the sarlaccs, the blixii, and the vixus of Umbara. Rathtars reproduced by fission, leading to rapidly increasing numbers if the species' population was not controlled.\n\n***Hunting.*** Rathtars appeared physiologically primitive, endowed with only rudimentary senses and possessing small brains. Despite the appearance of a mindless eating machine, rathtars proved effective at working together, and displayed affinity for pack hunting. Individual rathtars appeared to become smarter when in proximity to others of its species, and rathtar packs utilized howls, at a frequency beyond humanoid hearing, to communicate among one another. They also vocalized deafening roars when attacking and devouring prey, and let out horrifying shrieks of fury when in pain. If in danger from a rathtar, one's best hope was to hide, as the creatures were largely blind.\n\n***Feeding.*** Lacking a true skeleton, a rathtar had an enormous, round, slug-like body covered in light-reactive sensing orbs. They possessed multiple long, tentacle-like appendages; their principle feeding tentacles whipped out to capture and devour prey, which typically consisted of anything they perceived as non-rathtar. The creatures were ravenous and persistent eaters, capable of consuming virtually anything that they could fit into their robust, radial mouths, which were funnel-shaped and lined with rows of razor sharp teeth. Their throat distended outward into a hollow tongue, useful for swallowing struggling prey. The bilious creatures typically tore their meals apart piece by piece.\n\n***Movement.*** Capable of locomotion, rathtars curled their ambulatory tentacles inward to form a ball and roll themselves forward in a whirl of whipping tentacles. They moved deceptively fast for their size, and had adhesive pads on their pointed tentacle tips—known as a club—which helped them attach to surfaces. ***Tentacles and Tougness.*** Their tentacles had enormous strength, and were of a muscular hydrostat form. Their fleshy bodies were covered in a hard, rubbery exterior, giving the rathtars a heavy resistance to blaster bolts, small-arms fire, and even biting attacks.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

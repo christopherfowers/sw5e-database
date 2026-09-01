@@ -51,6 +51,9 @@
     "darkvision 60 ft.",
     "passive Perception 13"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "ion"
@@ -97,8 +100,5 @@
   "flavorText": "Sentry guns come in a wide variety of different sizes, yields, and types. These weapons can typically be found near high-value areas such as detention cells, command centers, and laboratories. For best results, they are placed in areas such as corners, above security doors, or other positions that afford them a wide field of fire. Sentry guns are usually linked to the central security system, but can be operated manually by remote. Once activated, these turrets may use active sensors and preprogrammed criteria to identify threats and fire upon any hostiles they encounter. Sentry guns are also used on starships and may automatically engage nearby hostiles and are linked to the ship's central security system. Some sentry guns include targeting sensors that seek out energy signatures from enemy weapons, with built-in computers to determine which targets pose the most immediate threat.",
   "sectionText": "A turret is a mount for a weapon that enabled it to turn and pivot, allowing it to fire in many different directions. They are mounted on many vehicles, starfighters, and starships. Other turrets are mounted on the ground, and can be both manned and un-manned. Weapons mounted on turrets included laser cannons and other types of projectile cannons.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

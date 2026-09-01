@@ -53,6 +53,9 @@
   "senses": [
     "passive Perception 13"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 450,
   "behaviors": [
@@ -97,8 +100,5 @@
   ],
   "sectionText": "A katarn iss a predatory quadruped reptomammal native to the planet Kashyyyk.\n\n***Biology & Appearance.*** Katarns have slender bodies with rodent-like tails, and narrow faces leading back to a cartilaginous ridge protecting their neck and shoulders. Their paws have opposable digits, and their lower limbs are covered with sharp spurs, both of which allow them to climb and hang from the branches of the giant wroshyr trees and feed on tree-burrowers.\n\n***Wookiee Culture.*** Katarns are creatures of great importance in the Wookiees' culture. The Wookiees, who call the katarn the \"Old Prince\", hunt them in their hrrtayyk ceremony. Wookiees say the katarns were born by a wound to Kashyyyk that fell from the sky ages ago and made a home for the katarn. The katarns then hunted the Wookiees, thus unlocking the Wookiees' \"inner fire\". To thank the katarn, the Wookiees hunt them. They believe that someday it will be the katarn's turn to hunt the Wookiees again. Some katarns are domesticated as the war-mounts of Wookiee dragon troopers. ***Behavior.*** Katarns are ferocious and merciless predators thatd track their prey for long periods before choosing an opportune moment to strike. They have been described as \"silent, shadowy, and deadly.\"",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

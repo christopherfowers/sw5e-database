@@ -50,6 +50,9 @@
   "senses": [
     "passive Perception 8"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "2",
   "experiencePoints": 450,
   "behaviors": [
@@ -89,8 +92,5 @@
   ],
   "sectionText": "Blurrgs were a two-legged non-sentient species that were used as beasts of burden on a number of worlds located across the galaxy, including Endor, Ryloth, and Zygerria. Stoic and strong, they are used for everything from agricultural labor to war; the Twi'lek Resistance on Ryloth rode blurrgs in battle during the Battle of Ryloth, where they were used at the final offensive against Separatist forces in Lessu, charging at droid troops with the Grand Army of the Republic's Lightning Squadron. The blurrg's huge mouth could chew through almost anything edible, which made it perfect for clearing savanna grass, weeds, and saplings. Blurrgs were strong, fast, but stupid—so much so that they walked right into small trees, knocking them down. The egg-laying creatures usually produced 5 or 6 babies at a time. In their early years babies stayed very close to their mothers for protection from Boar-wolves. Blurrgs communicated through a series of roars. They are also vicious when driven to a fury, and are reputedly noisy when agitated.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

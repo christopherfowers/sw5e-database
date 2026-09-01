@@ -52,6 +52,9 @@
     "darkvision 60 ft.",
     "passive Perception 14"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "7",
   "experiencePoints": 2900,
   "behaviors": [
@@ -110,8 +113,5 @@
   ],
   "sectionText": "The scrange was a large tusk-tailed, reptilian apex predator of Dagobah, attacking its prey with a great ferocity. Scranges were beaked and had many bioluminescent patches on their body, arranged in a ridge along its spine. When prey got close, attracted by the lights, the scrange would lift out of the mud on its six crustacean-like hind legs to make a quick attack or it would use its four tail tusks to impale its prey.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

@@ -17,15 +17,6 @@
       "minLength": 1,
       "description": "Display name, always \"<Discipline> Style\": Duelist Style, Great Weapon Style, Sharpshooter Style. The suffix is kept rather than stripped because it is how the books name them, and because each discipline also has a fighting mastery of the same name with \"Mastery\" in place of \"Style\"; dropping the suffix would make the two indistinguishable."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this fighting style was published in, matching a document of the source content type. Every fighting style in the archive is phb."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this fighting style belongs to the core rules or to the community expanded-content supplement."
-    },
     "prerequisite": {
       "type": "string",
       "minLength": 1,
@@ -44,6 +35,15 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this fighting style was published in, matching a document of the source content type. Every fighting style in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this fighting style belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

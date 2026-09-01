@@ -57,6 +57,9 @@
     "Tremorsense 60 ft.",
     "passive Perception 14"
   ],
+  "languages": [
+    "None"
+  ],
   "damageResistances": {
     "other": [
       "acid (interior only)"
@@ -80,8 +83,5 @@
   ],
   "sectionText": "Ordinarily found only in the hilly regions of a little-known planet at the edge of the Kathol Sector, mole serpents dwell almost entirely underground, burrowing through the soil in search of surface prey. With its keen ability to sense vibrations underground, the mole serpent locates unwary targets and tunnels toward them undetected until it lurches up out of the ground to strike. Mole serpents range from 30-50 feet long, with chitinous plating and short, hornlike projections. By alternately contorting and relaxing its muscles, the mole serpent can create an undulating motion, driving the projections into the surrounding ground and pushing the beast forward. In its native soil, it can travel at speeds of 15 feet per round. One known serpent is known to have made its way to the deserts of Tatooine, and in Tatooine's soft sand, it can move as fast as 30 feet per round. The mole serpent cannot burrow through rock. The movement, of a mole serpent does not create a passable tunnel, but the ground is decidedly softer behind it. The creatures are the natural predators of the Tirginni beasts. The mole serpent attacks by surfacing, then biting and attempting to swallow smaller creatures.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

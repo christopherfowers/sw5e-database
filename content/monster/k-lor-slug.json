@@ -51,6 +51,9 @@
     "blindsight 30 ft.",
     "passive Perception 11"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "1/4",
   "experiencePoints": 0,
   "behaviors": [
@@ -71,8 +74,5 @@
   ],
   "sectionText": "K'lor'slugs are dangerous vermiforms native to the swamps of Noe'ha'on. They were also found on Korriban and Taris.\n\n***Biology & Appearance.*** K'lor'slugs are large worm-like creatures that possess a serpentine body propelled by many dangerously-edged legs. The mouth is a gaping circular maw filled with concentric rings of teeth.\n\n***Behavior.*** K'lor'slugs are carnivorous hunters on their homeworld, possessing keen olfactory and visual senses in addition to a deadly venom. For reproduction, the creatures lay more than 300 eggs in a single birthing period. When hatched, the young k'lor'slug is immediately ravenous for food. In addition to their aggressiveness, these creatures are considered pests aboard starships. They are known to invade the darkest spots on unsanitary space vehicles and breed. When dealing with more than 300 eggs hatching, an infestation aboard a space vehicle could become harder to control—and more potentially fatal—the longer it is tolerated.\n\n***Cultural Impact.*** Because of their notoriety as an aggressive and deadly species, they are used as a holomonster playing piece in the popular strategy game, dejarik.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

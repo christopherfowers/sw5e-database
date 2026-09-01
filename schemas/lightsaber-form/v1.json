@@ -17,15 +17,6 @@
       "minLength": 1,
       "description": "Display name, always \"<Form> Form\": Makashi Form, Shii-Cho Form, Jar'Kai Form. The names are in-universe proper nouns and are reproduced as printed, apostrophes and hyphens included."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this form was published in, matching a document of the source content type. Every lightsaber form in the archive is phb."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this form belongs to the core rules or to the community expanded-content supplement."
-    },
     "prerequisite": {
       "type": "string",
       "minLength": 1,
@@ -51,6 +42,15 @@
           }
         }
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this form was published in, matching a document of the source content type. Every lightsaber form in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this form belongs to the core rules or to the community expanded-content supplement."
     }
   }
 }

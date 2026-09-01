@@ -5,6 +5,12 @@
   "contentSet": "core",
   "category": "ammunition",
   "costInCredits": 100,
+  "properties": [
+    "auto",
+    "burst 6",
+    "explosive",
+    "rapid 6"
+  ],
   "damage": {
     "numberOfDice": 3,
     "dieFaces": 4,
@@ -21,12 +27,6 @@
     "normal": 600,
     "long": 2400
   },
-  "properties": [
-    "auto",
-    "burst 6",
-    "explosive",
-    "rapid 6"
-  ],
   "firedBy": [
     "Cluster pod launcher",
     "Assault cluster pod launcher"

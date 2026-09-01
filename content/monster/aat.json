@@ -50,6 +50,9 @@
   "senses": [
     "passive perception 12"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "ion"
@@ -175,8 +178,5 @@
   "flavorText": "The Armored Assault Tank, also known as the AAT battle tank or the AAT-1 Hover Tank, was a tank vehicle used by the Trade Federation[4] and later donated to the Confederacy of Independent Systems where it served as one of its backbone infantry defenses and backbone vehicles during the Clone Wars. Many of the AATs used by the Confederacy were painted in Confederate colors, such as blue, however there were still tanks used by the CIS in the previous tan used by the Trade Federation. The tanks were also donated to Death Watch during their alliance with the Confederacy.",
   "sectionText": "The armies of the galaxy use a variety of land vehicles used to transport troops and as weapons of war to bring overwhelming firepower against their enemies.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

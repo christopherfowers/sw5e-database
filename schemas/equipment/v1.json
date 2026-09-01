@@ -17,15 +17,6 @@
       "minLength": 1,
       "description": "Display name in sentence case, as printed on the equipment tables."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this item was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this item belongs to the core rules or to the community expanded-content supplement."
-    },
     "category": {
       "enum": [
         "ammunition",
@@ -85,25 +76,6 @@
       ],
       "description": "Proficiency group the weapon belongs to, pairing its family (blaster, vibroweapon, lightweapon) with its training tier. A character is proficient with a weapon only if proficient with its whole classification. Present on weapons only. A weapon that belongs to more than one group records the rest in additionalWeaponClassifications."
     },
-    "additionalWeaponClassifications": {
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "description": "Further proficiency groups the weapon belongs to, beyond the one in weaponClassification. Two weapons need this: a bo-rifle is both an exotic blaster and an exotic vibroweapon, and a saberstaff is both an exotic lightweapon and an exotic vibroweapon. Proficiency with any one of a weapon's groups is enough to use it, so a character sheet has to read every entry rather than the first. Present only on the weapons that sit in more than one group.",
-      "items": {
-        "enum": [
-          "simpleBlaster",
-          "martialBlaster",
-          "exoticBlaster",
-          "simpleVibroweapon",
-          "martialVibroweapon",
-          "exoticVibroweapon",
-          "simpleLightweapon",
-          "martialLightweapon",
-          "exoticLightweapon"
-        ]
-      }
-    },
     "damage": {
       "type": "object",
       "additionalProperties": false,
@@ -138,6 +110,34 @@
     "stealthDisadvantage": {
       "type": "boolean",
       "description": "Whether wearing or carrying the item imposes disadvantage on Dexterity (Stealth) checks. Always present, including when false, so a character sheet can total it without a null check."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this item was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this item belongs to the core rules or to the community expanded-content supplement."
+    },
+    "additionalWeaponClassifications": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Further proficiency groups the weapon belongs to, beyond the one in weaponClassification. Two weapons need this: a bo-rifle is both an exotic blaster and an exotic vibroweapon, and a saberstaff is both an exotic lightweapon and an exotic vibroweapon. Proficiency with any one of a weapon's groups is enough to use it, so a character sheet has to read every entry rather than the first. Present only on the weapons that sit in more than one group.",
+      "items": {
+        "enum": [
+          "simpleBlaster",
+          "martialBlaster",
+          "exoticBlaster",
+          "simpleVibroweapon",
+          "martialVibroweapon",
+          "exoticVibroweapon",
+          "simpleLightweapon",
+          "martialLightweapon",
+          "exoticLightweapon"
+        ]
+      }
     }
   }
 }

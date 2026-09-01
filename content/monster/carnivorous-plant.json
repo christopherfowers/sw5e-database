@@ -47,6 +47,9 @@
     "Blindsight 60 ft. (blind beyond this radius)",
     "passive Perception 10"
   ],
+  "languages": [
+    "None"
+  ],
   "damageVulnerabilities": {
     "types": [
       "fire"
@@ -97,8 +100,5 @@
   ],
   "sectionText": "While most plants are harmless, many plants are malicious and self-aware, becoming formidable foes.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

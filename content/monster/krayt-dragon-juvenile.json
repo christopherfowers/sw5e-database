@@ -52,6 +52,9 @@
     "darkvision 120ft",
     "passive perception 18"
   ],
+  "languages": [
+    "None"
+  ],
   "challengeRating": "9",
   "experiencePoints": 5000,
   "behaviors": [
@@ -88,8 +91,5 @@
   "flavorText": "The greater krayt was a rarer, larger species of krayt dragon, known for its tremendous size and continual growth over time. Creatures of near legendary status, greater krayt dragons had ten legs, measured at least 100 meters from snout to tail tip and had the ability to move through or on Tatooine's desert sand. Greater krayt dragons attacked with their massive jaws or whip-like spike-tail, using their claws only to move through the sand.",
   "sectionText": "Krayt dragons were large, carnivorous reptiles that hailed from Tatooine, a desert planet in the galaxy's Outer Rim Territories. They came in two subspecies and, despite their fierceness, were hunted for the precious pearls found in their bodies.",
   "sourceKey": "snv",
-  "contentSet": "core",
-  "languages": [
-    "None"
-  ]
+  "contentSet": "core"
 }

@@ -29,15 +29,6 @@
       "minLength": 1,
       "description": "Display name, singular and capitalised: Berserker, Consular, Scout. Features and archetypes refer to a class by this name rather than by key, because that is the string printed in their own rules text."
     },
-    "sourceKey": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
-      "description": "Key of the source this class was published in, matching a document of the source content type. Every class in the archive is phb."
-    },
-    "contentSet": {
-      "enum": ["core", "expanded-content"],
-      "description": "Whether this class belongs to the core rules or to the community expanded-content supplement."
-    },
     "summary": {
       "type": "string",
       "minLength": 1,
@@ -249,6 +240,15 @@
           }
         }
       }
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this class was published in, matching a document of the source content type. Every class in the archive is phb."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this class belongs to the core rules or to the community expanded-content supplement."
     }
   },
   "$defs": {
