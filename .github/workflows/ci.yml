@@ -31,6 +31,13 @@ jobs:
       - name: Validate content against schemas
         run: dotnet run --project src/Sw5e.Database.Tools --configuration Release --no-build -- validate schemas content
 
+      # The same property CanonicalFormTests asserts, run through the command a
+      # contributor is told to run when it fails. A document that is valid but
+      # not in canonical form is a document the API's exporter would rewrite,
+      # which turns the next export into a pull request full of reformatting.
+      - name: Content is in canonical form
+        run: dotnet run --project src/Sw5e.Database.Tools --configuration Release --no-build -- canonicalise schemas content --check
+
       - name: Audit dependencies
         env:
           # Pin the SDK's output language so the marker string below cannot be
