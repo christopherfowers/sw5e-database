@@ -16,6 +16,50 @@ the SW5e community platform.
 Content changes arrive as pull requests, so every edit to canonical game data is
 reviewed before it reaches the site.
 
+## Where content is authored
+
+**This repository is no longer the only way content is written, and it is
+becoming the export rather than the origin.**
+
+Content management now lives in the API: contributors draft changes, an
+administrator publishes them, and PostgreSQL holds the result with a full
+revision history. That was not a preference — publishing through this
+repository means a commit, a container image and a redeploy between an edit and
+anyone seeing it, the API container mounts its content volume read-only, and the
+file-backed store builds its index once at start-up and never reloads. A write
+had nowhere to go.
+
+What that means in practice:
+
+- **The schemas here are still authoritative.** They are what the API validates
+  every authored document against, and what CI validates the whole corpus
+  against. Adding or changing a content type is still a reviewed change here.
+- **`content/` is still the seed and the fallback**, and it is still what the
+  container image publishes. A deployment that has not enabled the database
+  store serves exactly this.
+- **`content/` will drift** from a deployment where authoring is enabled, until
+  the exporter that writes the database back here exists. Until then, treat
+  `content/` as current only for content that has not been edited through the
+  site.
+
+Editing `content/` by hand is still correct for bulk import and for repairing
+the corpus. It is no longer the way a council member fixes a typo.
+
+## This repository is consumed as a submodule
+
+`sw5e-api` pins a commit of this repository at `external/sw5e-database` and
+references `src/Sw5e.Database.Schemas` directly, so that the validator gating a
+write in the API is literally the one gating the corpus here.
+
+**Changing `SchemaValidator` changes what the API accepts.** Its evaluation
+options in particular — `OutputFormat.List` and `RequireFormatValidation` — are
+part of that contract, not an implementation detail. So is
+`SchemaRepository`'s `{root}/{contentType}/v{version}.json` layout, which the
+API resolves schema versions from.
+
+`content/` is not part of the contract: the API excludes it from its build
+context and never reads it.
+
 ## Requirements
 
 - .NET SDK 10.0.302 or later
