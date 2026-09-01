@@ -120,4 +120,48 @@ public sealed class SchemaValidatorTests
 
         Should.NotThrow(() => repository.Get("source", 1));
     }
+
+    /// <summary>
+    /// A document that breaks the schema in two places is reported as two
+    /// failures, not one and not none.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// This pins a contract rather than a behaviour anybody asked for directly.
+    /// <c>sw5e-api</c> consumes this validator as a submodule and returns its
+    /// error list to whoever is authoring the document, so an editor can put
+    /// each failure beside the field that caused it. That only works while
+    /// evaluation stays at <c>OutputFormat.List</c>: under
+    /// <c>OutputFormat.Flag</c> the same document is still correctly rejected,
+    /// every existing test here still passes, and the API silently starts
+    /// telling contributors "this is wrong" with nowhere to point.
+    /// </para>
+    /// <para>
+    /// Both violations are the ordinary kinds. <c>description</c> is required
+    /// and missing; <c>quantumEntanglement</c> is refused because every schema
+    /// in this repository sets <c>additionalProperties: false</c>.
+    /// </para>
+    /// </remarks>
+    [Fact]
+    public void Validate_ReportsEveryFailureAndNotJustTheFirst()
+    {
+        var document = JsonNode.Parse("""
+        {
+          "key": "malformed",
+          "name": "Malformed",
+          "contentSet": "core",
+          "quantumEntanglement": true
+        }
+        """)!;
+
+        var result = CreateValidator().Validate("armor-property", 1, document);
+
+        result.IsValid.ShouldBeFalse();
+
+        result.Errors.Count.ShouldBeGreaterThanOrEqualTo(
+            2,
+            "The API reports these to whoever is authoring the document, one per " +
+            "field. Collapsing them to a single failure leaves an editor with " +
+            "nothing to point at.");
+    }
 }
