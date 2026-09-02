@@ -60,7 +60,20 @@ publish() {
     mkdir "$staging" \
         || fail "cannot create a staging directory inside '$target_dir'"
 
-    cp -a "$source_dir/." "$staging/" \
+    # -dR rather than -a. BusyBox's -a is -dpR, and the p asks to preserve
+    # ownership, which this user cannot do: the publisher runs as uid 65532
+    # onto a volume it does not own, so every file and every directory emitted
+    # a "cp: can't preserve ownership ... Operation not permitted" line. The
+    # copy succeeded anyway and the script exited 0, so all those warnings ever
+    # achieved was to train a reader to skip the publisher's output — which is
+    # the output a real failure would appear in.
+    #
+    # Nothing is lost by dropping it. The integrity check below is a SHA-256 of
+    # every file's contents and says nothing about ownership, mode or
+    # timestamps; the destination is a staging directory this user has just
+    # created; and without -p BusyBox still takes the source mode through the
+    # umask, so the files land 644 exactly as they were.
+    cp -dR "$source_dir/." "$staging/" \
         || fail "copying '$source_dir' into staging failed"
 
     expected=$(manifest "$source_dir")
