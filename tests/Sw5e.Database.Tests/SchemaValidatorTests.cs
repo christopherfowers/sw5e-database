@@ -252,6 +252,46 @@ public sealed class SchemaViolationTests
     }
 
     [Fact]
+    public void AKeywordCanBeEmpty()
+    {
+        /*
+          Not a defect, and worth pinning so nobody invents a name for it.
+
+          `additionalProperties: false` is implemented as a false schema, and a
+          false schema fails with no keyword: the validator reports
+          `/quantumEntanglement:  — All values fail against the false schema`.
+          There is genuinely no keyword there, and putting one in would be
+          making something up.
+
+          It matters because it is exactly the line the front end's regular
+          expression could not parse — it required a keyword of at least one
+          letter — so a property that does not belong to a content type used to
+          land in the "we could not place this" list. With the parts sent
+          apart, it lands on the property.
+        */
+        var document = Species("""
+            {
+              "key": "probe",
+              "name": "Probe",
+              "contentSet": "core",
+              "quantumEntanglement": true
+            }
+            """);
+
+        var result = Validator().Validate("species", 1, document);
+
+        var unnamed = result.Violations.FirstOrDefault(
+            violation => violation.Keyword.Length == 0);
+
+        unnamed.ShouldNotBeNull(
+            $"expected a violation with no keyword among: {string.Join("; ", result.Errors)}");
+
+        // The part that has to survive: it still says which value failed.
+        unnamed.InstanceLocation.ShouldBe("/quantumEntanglement");
+        unnamed.Message.ShouldNotBeNullOrWhiteSpace();
+    }
+
+    [Fact]
     public void AValidDocumentHasNeither()
     {
         var result = Validator().Validate("species", 1, Species(File.ReadAllText(
