@@ -12,6 +12,20 @@
 # the format the same everywhere, which is the whole point of having one.
 *.json text eol=lf
 
+# The publisher runs as the image's entrypoint, so its line endings are not a
+# matter of taste. `* text=auto` below normalises on the way in, which keeps the
+# committed file LF and is why images built in CI have always worked — but it
+# leaves the working tree to the platform, and on Windows that means CRLF. A
+# `docker build` from such a checkout copies the file in verbatim and produces a
+# container that dies on start with
+#
+#   exec /usr/local/bin/sw5e-publish-content: no such file or directory
+#
+# which names the interpreter rather than the carriage return that broke it, and
+# reads exactly like a missing file. Pinning the working tree to LF makes a local
+# build behave the same as CI.
+*.sh text eol=lf
+
 # Everything else follows git's own detection, with text normalised on the way
 # in so a contributor's editor cannot commit CRLF by accident.
 * text=auto
