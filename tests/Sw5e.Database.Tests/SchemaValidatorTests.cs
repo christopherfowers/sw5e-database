@@ -165,3 +165,99 @@ public sealed class SchemaValidatorTests
             "nothing to point at.");
     }
 }
+
+/// <summary>
+/// The structured half of a refusal.
+/// </summary>
+/// <remarks>
+/// <para>
+/// A refusal has always carried three facts — where the failure was, which
+/// keyword rejected it, and what the validator wanted to say — and it used to
+/// throw two of them away by formatting all three into one line. The editor in
+/// the front end then pulled that line back apart with a regular expression so
+/// it could put each error beside the control that caused it.
+/// </para>
+/// <para>
+/// That parser is a guess at a format produced in this repository, promised by
+/// nothing and asserted by nothing. These tests are the promise.
+/// </para>
+/// </remarks>
+public sealed class SchemaViolationTests
+{
+    private static string SchemaRoot =>
+        Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "..", "schemas");
+
+    private static SchemaValidator Validator() => new(new SchemaRepository(SchemaRoot));
+
+    private static JsonNode Species(string json) => JsonNode.Parse(json)!;
+
+    [Fact]
+    public void AMissingPropertyNamesTheObjectItIsMissingFrom()
+    {
+        var result = Validator().Validate("species", 1, Species("""{"key":"x"}"""));
+
+        result.IsValid.ShouldBeFalse();
+
+        var required = result.Violations.FirstOrDefault(
+            violation => violation.Keyword == "required");
+
+        required.ShouldNotBeNull(
+            $"no 'required' violation among: {string.Join("; ", result.Errors)}");
+
+        // The root, spelled as the empty pointer. A missing property is a
+        // failure of the object that should have held it, so this is the
+        // object's location rather than the absent property's.
+        required.InstanceLocation.ShouldBe("");
+        required.Message.ShouldNotBeNullOrWhiteSpace();
+    }
+
+    [Fact]
+    public void AFailureInsideTheDocumentPointsAtTheValue()
+    {
+        // The case the whole thing is for: an error that belongs beside one
+        // control rather than at the top of the form.
+        var document = Species("""
+            {
+              "key": "Not A Key",
+              "name": "Test",
+              "size": "Medium",
+              "contentSet": "core"
+            }
+            """);
+
+        var result = Validator().Validate("species", 1, document);
+
+        result.IsValid.ShouldBeFalse();
+
+        var placed = result.Violations.Where(violation => violation.InstanceLocation != "").ToList();
+
+        placed.ShouldNotBeEmpty("a failure inside the document must name the value it was about");
+        placed.ShouldAllBe(violation => violation.InstanceLocation.StartsWith('/'));
+    }
+
+    [Fact]
+    public void EveryViolationHasACounterpartLine()
+    {
+        // The old field is what the command-line tool and several tests print,
+        // and it stays exactly what it was: one line per violation, in the
+        // same order, in the same format.
+        var result = Validator().Validate("species", 1, Species("""{"key":"x"}"""));
+
+        result.Errors.Count.ShouldBe(result.Violations.Count);
+
+        foreach (var (line, violation) in result.Errors.Zip(result.Violations))
+        {
+            line.ShouldBe($"{violation.InstanceLocation}: {violation.Keyword} — {violation.Message}");
+        }
+    }
+
+    [Fact]
+    public void AValidDocumentHasNeither()
+    {
+        var result = Validator().Validate("species", 1, Species(File.ReadAllText(
+            Path.Combine(SchemaRoot, "..", "content", "species", "abyssin.json"))));
+
+        result.IsValid.ShouldBeTrue(string.Join("; ", result.Errors));
+        result.Violations.ShouldBeEmpty();
+    }
+}
