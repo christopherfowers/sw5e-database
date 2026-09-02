@@ -60,27 +60,46 @@ public sealed class SchemaValidator(SchemaRepository repository)
             return SchemaValidationResult.Success;
         }
 
-        var errors = Flatten(evaluation).ToList();
+        var violations = Flatten(evaluation).ToList();
 
-        return SchemaValidationResult.Failure(
-            errors.Count > 0 ? errors : ["Document did not conform to schema."]);
+        // A rejection with nothing attached to it. It should not happen — the
+        // evaluation said the document is invalid, so something failed — but
+        // an empty list of reasons would reach a contributor as a refusal with
+        // no explanation, which is the worst thing this can hand them.
+        return violations.Count > 0
+            ? SchemaValidationResult.Failure(violations)
+            : SchemaValidationResult.Failure(["Document did not conform to schema."]);
     }
 
-    private static IEnumerable<string> Flatten(EvaluationResults results)
+    /// <summary>
+    /// Walks the evaluation tree and yields one violation per failed keyword.
+    /// </summary>
+    /// <remarks>
+    /// The parts are kept apart rather than formatted here. The instance
+    /// location is what lets an error be placed beside the control that caused
+    /// it, and it was being joined into a sentence that the front end then took
+    /// back apart with a regular expression — a guess at a format produced in
+    /// another repository, which nothing on the wire promised and no test
+    /// asserted.
+    /// </remarks>
+    private static IEnumerable<SchemaViolation> Flatten(EvaluationResults results)
     {
         if (!results.IsValid && results.Errors is { Count: > 0 })
         {
             foreach (var (keyword, message) in results.Errors)
             {
-                yield return $"{results.InstanceLocation}: {keyword} — {message}";
+                yield return new SchemaViolation(
+                    results.InstanceLocation.ToString(),
+                    keyword,
+                    message);
             }
         }
 
         foreach (var child in results.Details ?? [])
         {
-            foreach (var error in Flatten(child))
+            foreach (var violation in Flatten(child))
             {
-                yield return error;
+                yield return violation;
             }
         }
     }
