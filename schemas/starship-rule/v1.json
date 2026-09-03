@@ -31,6 +31,16 @@
       "minimum": 0,
       "description": "The chapter's own number, which is what fixes reading order and what the chapters use to cross-reference each other. Zero is the introduction. The book's changelog is numbered far above the others so that it sorts last, which is why this is not capped."
     },
+    "readingGroup": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading this passage is read under. Same field, same meaning and same reason as on a rule: thirteen links in a row is a list, and a handful of named groups is a path somebody can see the shape of. Absent means the passage is not on a path.",
+      "examples": ["Start here", "Building a starship", "Flying it", "Reference"]
+    },
+    "order": {
+      "type": "integer",
+      "description": "Where this passage sits in the site's reading order, lowest first. Editorial, and expected to change; chapterNumber records where it fell in the printed book and is not what the site navigates by."
+    },
     "body": {
       "type": "string",
       "minLength": 1,
