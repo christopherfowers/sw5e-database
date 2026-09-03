@@ -8,7 +8,8 @@
     "defensive 1",
     "finesse",
     "hidden",
-    "light luminous"
+    "light",
+    "luminous"
   ],
   "weaponClassification": "martialLightweapon",
   "damage": {
