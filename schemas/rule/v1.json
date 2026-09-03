@@ -34,6 +34,10 @@
       "type": "integer",
       "description": "Position of the chapter within its book, as the archive records it. Not a positive index: the Player's Handbook numbers its preface -2 and its \"What's Different\" section -1, and both books put their changelog at 99 so it sorts last. Two Wretched Hives chapters share the number 1, so this orders a table of contents but does not identify a chapter. Absent on variant rules, which have no position."
     },
+    "order": {
+      "type": "integer",
+      "description": "Where this passage sits in the site's reading order, lowest first. Distinct from chapterNumber, which records the position the book printed and is a fact about the archive: the Player's Handbook numbers \"What's Different\" -1 so it sorts ahead of the introduction, which is right for somebody who already plays 5e and wrong for somebody meeting the game for the first time. This is the order a reader is walked through, it is editorial rather than archival, and it is expected to be changed. Absent means fall back to chapterNumber, so a passage nobody has placed keeps the order the book gave it rather than disappearing to the end of the list."
+    },
     "body": {
       "type": "string",
       "minLength": 1,
