@@ -9,24 +9,25 @@ namespace Sw5e.Database.Tests;
 /// </summary>
 /// <remarks>
 /// <para>
-/// <c>chapterNumber</c> records what the book printed and is a fact about the
-/// archive. <c>order</c> records what the site teaches and is an editorial
-/// decision, which is why it is a separate field and why it is expected to
-/// change: the intent is that whoever owns the content sets it, without anybody
-/// touching the site.
+/// The site does not read <c>chapterNumber</c>, and is not meant to. That field
+/// records where a passage fell in a PDF, which is a fact about a book nobody
+/// browsing a website is holding — and it actively misleads: the handbook
+/// numbers "What's Different?" -1 so it sorts ahead of the introduction, which
+/// is right for a reader who already plays 5e and wrong for one meeting the
+/// game. It stays in the corpus because it is true about the archive, and the
+/// site ignores it.
 /// </para>
 /// <para>
-/// The two differ today in exactly one place, and that place is the reason the
-/// field exists. The handbook numbers "What's Different?" -1 so it sorts ahead
-/// of the introduction, which is the right order for somebody who already plays
-/// 5e and the wrong one for somebody meeting the game for the first time. The
-/// site this one replaces has always opened with the introduction, so that is
-/// what the authored order says.
+/// What the site reads is <c>order</c> and <c>readingGroup</c>: a position and
+/// a heading, both authored, neither derived from anything. Fifteen links in a
+/// row is a list; four groups of three or four is a path somebody can see the
+/// shape of. Whoever owns the corpus can rearrange both by editing content,
+/// without anybody touching the site.
 /// </para>
 /// <para>
-/// Asserted here rather than left to the site, because it is a fact about the
-/// content and the site is only the thing that renders it. A page can be tested
-/// to sort by a field; only this can say the field holds the right values.
+/// Asserted here rather than in the site, because it is a fact about the
+/// content. A page can be tested to sort by a field; only this can say the
+/// field holds the right values.
 /// </para>
 /// </remarks>
 public sealed class ReadingOrderTests
@@ -34,7 +35,7 @@ public sealed class ReadingOrderTests
     private static readonly string RuleRoot =
         Path.Combine(LegacyArchive.RepositoryRoot, "content", "rule");
 
-    private sealed record Chapter(string Key, int? Order, int? ChapterNumber);
+    private sealed record Chapter(string Key, int? Order, string? Group);
 
     private static IReadOnlyList<Chapter> HandbookChapters()
     {
@@ -53,8 +54,8 @@ public sealed class ReadingOrderTests
                 chapters.Add(new Chapter(
                     root.GetProperty("key").GetString()!,
                     root.TryGetProperty("order", out var order) ? order.GetInt32() : null,
-                    root.TryGetProperty("chapterNumber", out var number)
-                        ? number.GetInt32()
+                    root.TryGetProperty("readingGroup", out var group)
+                        ? group.GetString()
                         : null));
             }
         }
@@ -66,11 +67,11 @@ public sealed class ReadingOrderTests
     /// Every chapter of the handbook is placed.
     /// </summary>
     /// <remarks>
-    /// An absent order is not an error in the schema — a passage nobody has
-    /// placed falls back to the number its book printed, which is a better
-    /// answer than dropping it to the end of the list. But the handbook is the
-    /// path a new reader is walked down, and a chapter of it left unplaced is
-    /// an omission rather than a decision.
+    /// An absent order is not a schema error: a variant rule has no place in a
+    /// reading path and should not be forced to claim one. But the handbook is
+    /// the path a new reader is walked down, and a chapter of it left unplaced
+    /// simply would not appear — so an omission here is invisible rather than
+    /// noisy, which is exactly the kind that needs a test.
     /// </remarks>
     [Fact]
     public void EveryHandbookChapterIsPlaced()
@@ -107,31 +108,79 @@ public sealed class ReadingOrderTests
     }
 
     /// <summary>
-    /// The introduction comes first, and before "What's Different?".
+    /// The introduction opens the path.
     /// </summary>
     /// <remarks>
-    /// The one editorial decision in the whole ordering, pinned so that it
-    /// cannot be undone by somebody regenerating positions from
-    /// <c>chapterNumber</c> and producing a file that looks tidy. A reader who
-    /// has never played is met with an explanation of what the game is; a
-    /// reader who already plays 5e loses nothing, because the comparison is the
-    /// very next thing.
+    /// A reader who has never played is met with an explanation of what the
+    /// game is. A reader who already plays 5e loses nothing, because the
+    /// comparison is the very next thing.
     /// </remarks>
     [Fact]
-    public void TheIntroductionOpensTheBookRatherThanTheComparisonWithFifthEdition()
+    public void TheIntroductionOpensThePath()
     {
         var chapters = HandbookChapters().ToDictionary(chapter => chapter.Key);
 
-        var introduction = chapters["phb-introduction"];
-        var whatsDifferent = chapters["phb-whats-different"];
+        chapters["phb-introduction"].Order.ShouldBe(1);
+        chapters["phb-introduction"].Order!.Value
+            .ShouldBeLessThan(chapters["phb-whats-different"].Order!.Value);
+    }
 
-        introduction.Order.ShouldBe(1);
-        introduction.Order!.Value.ShouldBeLessThan(whatsDifferent.Order!.Value);
+    /// <summary>
+    /// Every placed chapter is read under a heading.
+    /// </summary>
+    /// <remarks>
+    /// Fifteen links in a row is a list. Four groups of three or four is a path
+    /// somebody can see the shape of before they start walking it, which is the
+    /// difference between a table of contents and a wall.
+    /// </remarks>
+    [Fact]
+    public void EveryPlacedChapterIsReadUnderAHeading()
+    {
+        var ungrouped = HandbookChapters()
+            .Where(chapter => chapter.Order is not null && string.IsNullOrWhiteSpace(chapter.Group))
+            .Select(chapter => chapter.Key)
+            .Order(StringComparer.Ordinal)
+            .ToArray();
 
-        // And the printed numbers still disagree, which is the whole point: if
-        // these ever matched, the authored order would be doing nothing and
-        // this file would be pinning a coincidence.
-        introduction.ChapterNumber!.Value
-            .ShouldBeGreaterThan(whatsDifferent.ChapterNumber!.Value);
+        ungrouped.ShouldBeEmpty("a placed chapter with no heading has nowhere to be rendered");
+    }
+
+    /// <summary>
+    /// Each heading owns an unbroken run of the path.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// Groups are drawn in the order of their earliest member, so the grouping
+    /// and the sequence are one decision rather than two that can disagree.
+    /// That only holds while a group's members are contiguous: interleave two
+    /// groups and the site must either reorder them — contradicting the
+    /// authored positions — or draw the same heading twice.
+    /// </para>
+    /// <para>
+    /// Nothing enforces this in the schema, because it is a property of the set
+    /// rather than of any one document, which is exactly the kind of thing that
+    /// is only ever caught here.
+    /// </para>
+    /// </remarks>
+    [Fact]
+    public void EachHeadingOwnsAnUnbrokenRunOfThePath()
+    {
+        var placed = HandbookChapters()
+            .Where(chapter => chapter.Order is not null)
+            .OrderBy(chapter => chapter.Order)
+            .Select(chapter => chapter.Group)
+            .ToArray();
+
+        // Collapsing runs must leave every heading mentioned exactly once.
+        var runs = new List<string?>();
+        foreach (var group in placed)
+        {
+            if (runs.Count == 0 || runs[^1] != group) runs.Add(group);
+        }
+
+        runs.Distinct().Count().ShouldBe(
+            runs.Count,
+            "a heading appears in more than one place in the path, so its " +
+            "members are interleaved with another group's");
     }
 }
