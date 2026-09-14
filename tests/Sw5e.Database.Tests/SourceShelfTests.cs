@@ -39,7 +39,8 @@ public sealed class SourceShelfTests
         string? ShelfName,
         string? Blurb,
         string? Accent,
-        int? Order);
+        int? Order,
+        bool IsCoreRulebook);
 
     /// <summary>
     /// The palette a book may be drawn in.
@@ -75,7 +76,8 @@ public sealed class SourceShelfTests
                 Text(root, "shelfName"),
                 Text(root, "blurb"),
                 Text(root, "accent"),
-                root.TryGetProperty("order", out var order) ? order.GetInt32() : null));
+                root.TryGetProperty("order", out var order) ? order.GetInt32() : null,
+                root.TryGetProperty("isCoreRulebook", out var core) && core.GetBoolean()));
         }
 
         return books;
@@ -166,6 +168,37 @@ public sealed class SourceShelfTests
     [Fact]
     public void TheHandbookComesFirst() =>
         Books().Single(book => book.Key == "phb").Order.ShouldBe(1);
+
+    /// <summary>
+    /// Exactly one book teaches the game.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// Which book a reader who knows nothing is sent to used to be a constant
+    /// in the site, with a comment explaining that nothing in the data marked
+    /// it. Something does now, and this is the invariant a boolean on each
+    /// document cannot express on its own.
+    /// </para>
+    /// <para>
+    /// Both failures are quiet. None set and the front page has no book to
+    /// open with, so the button that teaches the game does not render at all.
+    /// Two set and it picks whichever it meets first, which depends on the
+    /// order the corpus happens to be read in.
+    /// </para>
+    /// </remarks>
+    [Fact]
+    public void ExactlyOneBookTeachesTheGame()
+    {
+        var teaching = Books()
+            .Where(book => book.IsCoreRulebook)
+            .Select(book => book.Key)
+            .Order(StringComparer.Ordinal)
+            .ToArray();
+
+        teaching.ShouldBe(
+            ["phb"],
+            "the front page opens with the book that teaches the game, and picks it from here");
+    }
 
     /// <summary>
     /// A shelf name is only given where it differs from the title.
