@@ -5,6 +5,9 @@
   "publisher": "Star Wars 5e Community",
   "publishedAt": "2019-11-01",
   "isOfficial": false,
+  "blurb": "The galaxy's underworld: the gear and talents that come with a disreputable life.",
+  "accent": "amber",
+  "order": 3,
   "licenseNote": "Community supplement covering the galaxy's underworld: equipment, vice, and the settlements built around both.",
   "attribution": "The Star Wars 5e community, sw5e.com."
 }
