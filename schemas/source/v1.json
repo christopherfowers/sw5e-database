@@ -5,19 +5,78 @@
   "description": "A publication or supplement that content originates from.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "title", "abbreviation", "isOfficial"],
+  "required": [
+    "key",
+    "title",
+    "abbreviation",
+    "isOfficial"
+  ],
   "properties": {
     "key": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
       "description": "Stable slug identifying this source."
     },
-    "title": { "type": "string", "minLength": 1 },
-    "abbreviation": { "type": "string", "minLength": 1, "maxLength": 12 },
-    "publisher": { "type": "string" },
-    "publishedAt": { "type": "string", "format": "date" },
-    "isOfficial": { "type": "boolean" },
-    "licenseNote": { "type": "string" },
-    "attribution": { "type": "string" }
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "shelfName": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What this book is called on the site, when that differs from its full title. The Player's Handbook is titled 'Star Wars 5e Player's Handbook' and is called 'Player's Handbook' everywhere a reader meets it."
+    },
+    "abbreviation": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "isOfficial": {
+      "type": "boolean"
+    },
+    "isCoreRulebook": {
+      "type": "boolean",
+      "description": "True for the one book that teaches the game, as opposed to the ones that extend it. The site sends a reader who arrives knowing nothing to this book, and draws its chapters as the path they are walked down. Exactly one source should set it."
+    },
+    "blurb": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300,
+      "description": "One line a reader can use to decide whether they care about this book. Shown under its name on the sources page."
+    },
+    "accent": {
+      "type": "string",
+      "enum": [
+        "amber",
+        "clay",
+        "cyan",
+        "green",
+        "indigo",
+        "red",
+        "rose",
+        "steel",
+        "teal",
+        "violet"
+      ],
+      "description": "The hue this book is drawn in wherever it is named. A closed set rather than a colour, so a book cannot be given one that fails contrast against either theme."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Where this book sits when the books are listed together. Absent means unplaced, and an unplaced book is listed after the placed ones by name."
+    },
+    "licenseNote": {
+      "type": "string"
+    },
+    "attribution": {
+      "type": "string"
+    }
   }
 }

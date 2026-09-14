@@ -5,6 +5,9 @@
   "publisher": "Star Wars 5e Community",
   "publishedAt": "2019-03-01",
   "isOfficial": false,
+  "blurb": "The bestiary. Every creature, droid and adversary in this reference comes from here.",
+  "accent": "red",
+  "order": 4,
   "licenseNote": "Community bestiary of the creatures, droids, and adversaries a party meets across the galaxy.",
   "attribution": "The Star Wars 5e community, sw5e.com."
 }

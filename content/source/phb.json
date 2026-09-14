@@ -1,10 +1,15 @@
 {
   "key": "phb",
   "title": "Star Wars 5e Player's Handbook",
+  "shelfName": "Player's Handbook",
   "abbreviation": "PHB",
   "publisher": "Star Wars 5e Community",
   "publishedAt": "2018-05-04",
   "isOfficial": false,
+  "isCoreRulebook": true,
+  "blurb": "The core rulebook. Most of what a player picks at character creation starts here.",
+  "accent": "indigo",
+  "order": 1,
   "licenseNote": "Community content built on the D&D 5e SRD. Not affiliated with, endorsed by, or sponsored by Lucasfilm, Disney, or Wizards of the Coast.",
   "attribution": "The Star Wars 5e community, sw5e.com."
 }
