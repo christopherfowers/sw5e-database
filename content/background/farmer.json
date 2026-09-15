@@ -164,7 +164,7 @@
   ],
   "variant": {
     "name": "Farming Specialty",
-    "description": "There are as many kinds of farmers as there are things to harvest. Even farmers who provide for all their own needs have deep experience in one type of farming over others. Choose your harvest, or roll on the table below.\n\n|d8|Harvest|\n|:---:|:----------:|\n|1|Cereal Crops|\n|2|Drug Compounds|\n|3|Fibrous Plants|\n|4|Herbs & Spices|\n\n|d8|Harvest|\n|:---:|:----------:|\n|5|Insect Products|\n|6|Livestock|\n|7|Moisture|\n|8|Vegetables|",
+    "description": "There are as many kinds of farmers as there are things to harvest. Even farmers who provide for all their own needs have deep experience in one type of farming over others. Choose your harvest, or roll on the table below.\n\n|d8|Harvest|\n|:---:|:----------:|\n|1|Cereal Crops|\n|2|Drug Compounds|\n|3|Fibrous Plants|\n|4|Herbs & Spices|\n|5|Insect Products|\n|6|Livestock|\n|7|Moisture|\n|8|Vegetables|",
     "options": [
       {
         "roll": 1,

@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Criminal Motivation",
-    "description": "Not every crime lord is bent on corrupting society and making a profit. Some use their criminal connections to wage guerilla wars against tyrants and despots. Indeed, some historical heroes began as smugglers or pirates, rising through the ranks of their organization to provide a more noble direction for their group's activities. Although some did so to remove an obstacle to making more money, others recognized that ridding the galaxy of evil is a more important long-term goal. Choose the motivation behind your criminal enterprise, or roll on the table below.\n\n|d8|Motivation|\n|:---:|:----------:|\n|1|Desperation|\n|2|Freedom|\n|3|Infamy|\n|4|Love|\n\n|d8|Motivation|\n|:---:|:----------:|\n|5|Malice|\n|6|Profit|\n|7|Respect|\n|8|Revenge|",
+    "description": "Not every crime lord is bent on corrupting society and making a profit. Some use their criminal connections to wage guerilla wars against tyrants and despots. Indeed, some historical heroes began as smugglers or pirates, rising through the ranks of their organization to provide a more noble direction for their group's activities. Although some did so to remove an obstacle to making more money, others recognized that ridding the galaxy of evil is a more important long-term goal. Choose the motivation behind your criminal enterprise, or roll on the table below.\n\n|d8|Motivation|\n|:---:|:----------:|\n|1|Desperation|\n|2|Freedom|\n|3|Infamy|\n|4|Love|\n|5|Malice|\n|6|Profit|\n|7|Respect|\n|8|Revenge|",
     "options": [
       {
         "roll": 1,

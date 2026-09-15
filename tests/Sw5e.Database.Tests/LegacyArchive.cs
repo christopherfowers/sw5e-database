@@ -179,8 +179,32 @@ public static class LegacyArchive
         }
     }
 
+    /// <summary>
+    /// A string field from the archive, with any table it printed in two
+    /// columns rejoined.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// The rejoin belongs here rather than in a pass over <c>content/</c>,
+    /// because this is where the archive's text becomes the corpus. Ninety-four
+    /// tables were repaired by rewriting the committed documents first, and
+    /// <c>CommittedContentIsExactlyWhatTheImportProduces</c> refused it — the
+    /// next import would have put every one of them back, and nothing about
+    /// that diff would have looked wrong.
+    /// </para>
+    /// <para>
+    /// It runs over every string field, not only the markdown ones, which costs
+    /// nothing: <see cref="MarkdownTables.Rejoin"/> returns its input untouched
+    /// unless the text holds two adjacent tables with the same header whose
+    /// first columns continue one another, and a name or a slug never does.
+    /// Applying it everywhere is what makes it impossible for a new field to
+    /// quietly miss it.
+    /// </para>
+    /// </remarks>
     public static string? Text(JsonObject item, string field) =>
-        item[field] is JsonValue value && value.TryGetValue<string>(out var text) ? text : null;
+        item[field] is JsonValue value && value.TryGetValue<string>(out var text)
+            ? MarkdownTables.Rejoin(text)
+            : null;
 
     public static int? Int(JsonObject item, string field) =>
         item[field] is JsonValue value && value.TryGetValue<int>(out var number) ? number : null;

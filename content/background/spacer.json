@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Specialty",
-    "description": "During your time as a spacer, you had a specific role to play aboard the ship. Roll a d8 or choose from the options in the table below to determine your role:\n\n<div style='column-count:2'>\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Pilot|\n|2|Mechanic|\n|3|Support Staff|\n|4|Guard|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Ship Medic|\n|6|Captain|\n|7|Communications Officer|\n|8|Ship Cook|\n\n</div>",
+    "description": "During your time as a spacer, you had a specific role to play aboard the ship. Roll a d8 or choose from the options in the table below to determine your role:\n\n<div style='column-count:2'>\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Pilot|\n|2|Mechanic|\n|3|Support Staff|\n|4|Guard|\n|5|Ship Medic|\n|6|Captain|\n|7|Communications Officer|\n|8|Ship Cook|\n\n</div>",
     "options": [
       {
         "roll": 1,

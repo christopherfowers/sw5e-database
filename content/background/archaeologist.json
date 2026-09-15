@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Dust Digger",
-    "description": "Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough credits to buy proper adventuring gear, you have held onto an item that has great emotional value to you. You can determine your signature item or determine it randomly below.\n\n|d8|Signature Item|\n|:---:|:----------:|\n|1|10-foot pole|\n|2|Hat|\n|3|Hammer|\n|4|Lantern|\n\n|d8|Signature Item|\n|:---:|:----------:|\n|5|Medallion|\n|6|Prybar|\n|7|Shovel|\n|8|Whip|",
+    "description": "Prior to becoming an adventurer, you spent most of your young life crawling around in the dust, pilfering relics of questionable value from crypts and ruins. Though you managed to sell a few of your discoveries and earn enough credits to buy proper adventuring gear, you have held onto an item that has great emotional value to you. You can determine your signature item or determine it randomly below.\n\n|d8|Signature Item|\n|:---:|:----------:|\n|1|10-foot pole|\n|2|Hat|\n|3|Hammer|\n|4|Lantern|\n|5|Medallion|\n|6|Prybar|\n|7|Shovel|\n|8|Whip|",
     "options": [
       {
         "roll": 1,

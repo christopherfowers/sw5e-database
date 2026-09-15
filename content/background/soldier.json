@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Specialty",
-    "description": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Officer|\n|2|Scout|\n|3|Infantry|\n|4|Medic|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Quartermaster|\n|6|Pilot|\n|7|Artisan|\n|8|Support Staff|",
+    "description": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Officer|\n|2|Scout|\n|3|Infantry|\n|4|Medic|\n|5|Quartermaster|\n|6|Pilot|\n|7|Artisan|\n|8|Support Staff|",
     "options": [
       {
         "roll": 1,

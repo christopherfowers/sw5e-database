@@ -164,7 +164,7 @@
   ],
   "variant": {
     "name": "Entertainer Routines",
-    "description": "A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.\n\n|d10|Entertainer Routine|\n|:---:|:----------:|\n|1|Actor|\n|2|Dancer|\n|3|Fire-eater|\n|4|Jester|\n|5|Juggler|\n\n|d10|Entertainer Routine|\n|:---:|:----------:|\n|6|Instrumentalist|\n|7|Poet|\n|8|Singer|\n|9|Storyteller|\n|10|Tumbler|",
+    "description": "A good entertainer is versatile, spicing up every performance with a variety of different routines. Choose one to three routines or roll on the table below to define your expertise as an entertainer.\n\n|d10|Entertainer Routine|\n|:---:|:----------:|\n|1|Actor|\n|2|Dancer|\n|3|Fire-eater|\n|4|Jester|\n|5|Juggler|\n|6|Instrumentalist|\n|7|Poet|\n|8|Singer|\n|9|Storyteller|\n|10|Tumbler|",
     "options": [
       {
         "roll": 1,

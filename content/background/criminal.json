@@ -164,7 +164,7 @@
   ],
   "variant": {
     "name": "Criminal Specialty",
-    "description": "Individual criminals often have particular specialties, whether a part of an organization or a solo endeavor. Choose the role you played in your criminal life, or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Blackmailer|\n|2|Burglar|\n|3|Enforcer|\n|4|Fence|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Highway robber|\n|6|Hired killer|\n|7|Pickpocket|\n|8|Thug|",
+    "description": "Individual criminals often have particular specialties, whether a part of an organization or a solo endeavor. Choose the role you played in your criminal life, or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Blackmailer|\n|2|Burglar|\n|3|Enforcer|\n|4|Fence|\n|5|Highway robber|\n|6|Hired killer|\n|7|Pickpocket|\n|8|Thug|",
     "options": [
       {
         "roll": 1,
