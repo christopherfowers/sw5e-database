@@ -1,0 +1,17 @@
+{
+  "key": "character-sheet-fillable",
+  "name": "Character sheet, form fillable",
+  "blurb": "The same sheet as a PDF you can type into.",
+  "file": "character-sheet-fillable.pdf",
+  "pages": 4,
+  "fillable": true,
+  "sanitized": true,
+  "removed": [
+    "an action that printed the document when it was opened",
+    "an unused script index"
+  ],
+  "order": 2,
+  "accent": "teal",
+  "credit": "Galiphile and the Star Wars 5e team",
+  "sourceUrl": "https://drive.google.com/file/d/17mCKw43pbeATDFWraKAOmSgyI8vcUCtK/view?usp=sharing"
+}

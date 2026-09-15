@@ -30,6 +30,18 @@ ARG PUBLISH_GID=65532
 # reason to be able to mutate it.
 COPY content/ /opt/sw5e/content/
 COPY schemas/ /opt/sw5e/schemas/
+
+# The files the resource documents describe.
+#
+# Kept out of content/ rather than beside the documents that name them, because
+# everything under content/ is a JSON document validated against a schema, and
+# a directory of PDFs in there would have to be special-cased by every tool
+# that walks it. The documents carry a file name; this is where that name
+# resolves.
+#
+# These are re-hosted with permission and are rebuilds rather than originals —
+# see tools/sanitize_pdf.py for what was taken out and why.
+COPY assets/ /opt/sw5e/assets/
 COPY LICENSE CONTENT-LICENSE.md /opt/sw5e/
 COPY docker/publish-content.sh /usr/local/bin/sw5e-publish-content
 

@@ -1,0 +1,14 @@
+{
+  "key": "deployment-sheet-fillable",
+  "name": "Deployment sheet, form fillable",
+  "blurb": "For a character's role aboard a ship.",
+  "file": "deployment-sheet-fillable.pdf",
+  "pages": 1,
+  "fillable": true,
+  "sanitized": true,
+  "removed": [],
+  "order": 3,
+  "accent": "amber",
+  "credit": "Galiphile and the Star Wars 5e team",
+  "sourceUrl": "https://drive.google.com/file/d/1Oh9v-kWR7Vd0YNFZE5ESKt1VutzQQSl-/view?usp=sharing"
+}

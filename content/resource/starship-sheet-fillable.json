@@ -1,0 +1,14 @@
+{
+  "key": "starship-sheet-fillable",
+  "name": "Starship sheet, form fillable",
+  "blurb": "For the ship itself.",
+  "file": "starship-sheet-fillable.pdf",
+  "pages": 4,
+  "fillable": true,
+  "sanitized": true,
+  "removed": [],
+  "order": 4,
+  "accent": "steel",
+  "credit": "Galiphile and the Star Wars 5e team",
+  "sourceUrl": "https://drive.google.com/file/d/1viykv2MazM26WRMJZ4fNAixhoeYWLR7N/view?usp=sharing"
+}

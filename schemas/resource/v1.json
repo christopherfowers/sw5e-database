@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/resource/v1.json",
+  "title": "Resource",
+  "description": "A file the site hosts and offers for download — a character sheet, a form to fill in, a reference to print. The document describes the file; the bytes live beside it in assets/resource.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "file",
+    "order"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this resource."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What the resource is called on the shelf."
+    },
+    "blurb": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One line a reader can use to decide whether they want it. Optional, for the same reason a book's blurb is: a resource nobody has described yet should still be addable."
+    },
+    "file": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*\\.pdf$",
+      "description": "The file's name within assets/resource. PDFs only — see docs/managed-resources-design.md in the API repository for why the accepted set is deliberately one format."
+    },
+    "pages": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "How many pages the file has, so a reader knows what they are downloading before they download it."
+    },
+    "fillable": {
+      "type": "boolean",
+      "default": false,
+      "description": "True when the file carries form fields a reader can type into rather than print and write on. This is the difference between two otherwise identical sheets, so it has to be stated rather than inferred from the name."
+    },
+    "sanitized": {
+      "type": "boolean",
+      "default": false,
+      "description": "True when the file committed here is a rebuild rather than the original. The site says so where a reader can see it: a file that has been altered, however safely, must not be presented as the author's untouched work."
+    },
+    "removed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "What the rebuild took out, in the words the reader gets. Present only when sanitized is true, and empty is meaningful: it says the file was rebuilt and carried nothing active."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Where it sits among the others. A run from one with nothing repeated, so the shelf cannot quietly reorder itself between builds."
+    },
+    "accent": {
+      "type": "string",
+      "enum": [
+        "amber",
+        "clay",
+        "cyan",
+        "green",
+        "indigo",
+        "red",
+        "rose",
+        "steel",
+        "teal",
+        "violet"
+      ],
+      "description": "The hue it is drawn in, matching the palette a book may use."
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Who made it. These are somebody's artwork, re-hosted with permission, and the site should say whose."
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Where the file came from, so the provenance of a re-hosted file is recorded rather than remembered."
+    }
+  }
+}
