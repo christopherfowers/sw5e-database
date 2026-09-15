@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Clone Specialization",
-    "description": "While most clones serve as simple soldier, there are many specialized units. Roll a d8 or choose from the options in the table below to determine your specialization:\n\n|d8|Specialization|\n|:--:|:--|\n|1|Trooper|\n|2|Commando|\n|3|Jet Trooper|\n|4|Medic|\n\n|d8|Specialization|\n|:--:|:--|\n|5|Spec Ops|\n|6|Ordnance|\n|7|Officer|\n|8|Scout|",
+    "description": "While most clones serve as simple soldier, there are many specialized units. Roll a d8 or choose from the options in the table below to determine your specialization:\n\n|d8|Specialization|\n|:--:|:--|\n|1|Trooper|\n|2|Commando|\n|3|Jet Trooper|\n|4|Medic|\n|5|Spec Ops|\n|6|Ordnance|\n|7|Officer|\n|8|Scout|",
     "options": [
       {
         "roll": 1,

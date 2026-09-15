@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Pick Your Poison",
-    "description": "While most addicts are willing to try everything once, they typically have a drug of choice. You can determine what the source of your addiction or determine it randomly below.\n\n|d16|Substance of Choice|\n|:---:|:----------:|\n|1|Deuterium-pyro|\n|2|Mummergy|\n|3|Novanian grog|\n|4|Raava|\n|5|Spicebrew|\n|6|Tihaar|\n|7|Tsiraki|\n|8|Vayerbok|\n\n|d16|Substance of Choice|\n|:---:|:----------:|\n|9|Andris|\n|10|Cilona|\n|11|Giggledust|\n|12|Glitterstim|\n|13|Karrak|\n|14|Muon gold|\n|15|Yaladai|\n|16|Yarrock|",
+    "description": "While most addicts are willing to try everything once, they typically have a drug of choice. You can determine what the source of your addiction or determine it randomly below.\n\n|d16|Substance of Choice|\n|:---:|:----------:|\n|1|Deuterium-pyro|\n|2|Mummergy|\n|3|Novanian grog|\n|4|Raava|\n|5|Spicebrew|\n|6|Tihaar|\n|7|Tsiraki|\n|8|Vayerbok|\n|9|Andris|\n|10|Cilona|\n|11|Giggledust|\n|12|Glitterstim|\n|13|Karrak|\n|14|Muon gold|\n|15|Yaladai|\n|16|Yarrock|",
     "options": [
       {
         "roll": 1,

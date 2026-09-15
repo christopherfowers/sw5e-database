@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Scavenger Specialty",
-    "description": "|d8|Specialty|\n|:---:|:----------:|\n|1|Droid Scavenger|\n|2|Ship Scavenger|\n|3|Junk Dealer|\n|4|Scrapper|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Collector|\n|6|Trader|\n|7|Clean-up|\n|8|Fence|",
+    "description": "|d8|Specialty|\n|:---:|:----------:|\n|1|Droid Scavenger|\n|2|Ship Scavenger|\n|3|Junk Dealer|\n|4|Scrapper|\n|5|Collector|\n|6|Trader|\n|7|Clean-up|\n|8|Fence|",
     "options": [
       {
         "roll": 1,

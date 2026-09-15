@@ -164,7 +164,7 @@
   ],
   "variant": {
     "name": "Ideology",
-    "description": "What is the world you envision to create through policy?\n\n|d6|Specialization|\n|:---:|:----------:|\n|1|Democracy|\n|2|Dictatorship|\n|3|Egalitarianism|\n\n|d6|Specialization|\n|:---:|:----------:|\n|4|Anarchy|\n|5|Monarchy|\n|6|Theocracy|",
+    "description": "What is the world you envision to create through policy?\n\n|d6|Specialization|\n|:---:|:----------:|\n|1|Democracy|\n|2|Dictatorship|\n|3|Egalitarianism|\n|4|Anarchy|\n|5|Monarchy|\n|6|Theocracy|",
     "options": [
       {
         "roll": 1,

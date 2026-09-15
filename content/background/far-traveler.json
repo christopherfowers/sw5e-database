@@ -157,7 +157,7 @@
   ],
   "variant": {
     "name": "Why Are You Here?",
-    "description": "To determine why you are so far from home, roll on the table below or choose from the options provided.\n\n|d6|Reason|\n|:--:|:--:|\n|1|Emissary|\n|2|Exile|\n|3|Fugitive|\n\n|d6|Reason|\n|:--:|:--:|\n|4|Pilgrim|\n|5|Sightseer|\n|6|Wanderer|",
+    "description": "To determine why you are so far from home, roll on the table below or choose from the options provided.\n\n|d6|Reason|\n|:--:|:--:|\n|1|Emissary|\n|2|Exile|\n|3|Fugitive|\n|4|Pilgrim|\n|5|Sightseer|\n|6|Wanderer|",
     "options": [
       {
         "roll": 1,

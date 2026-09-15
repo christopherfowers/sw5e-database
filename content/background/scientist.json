@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Field of Research",
-    "description": "While scientist's are widely knowledgeable, they also choose a focus for their studies. Choose an option or roll on the table below to define your field of research.\n\n| d8 | Field of Research |\n|:----:|:-------------|\n| 1 | Biology |\n| 2 | Artificial Intelligence |\n| 3 | Chemistry |\n| 4 | Geology |\n\n| d8 | Field of Research |\n|:----:|:-------------|\n| 5 | Physics |\n| 6 | the Force |\n| 7 | Astrogation |\n| 8 | Medicine |"
+    "description": "While scientist's are widely knowledgeable, they also choose a focus for their studies. Choose an option or roll on the table below to define your field of research.\n\n| d8 | Field of Research |\n|:----:|:-------------|\n| 1 | Biology |\n| 2 | Artificial Intelligence |\n| 3 | Chemistry |\n| 4 | Geology |\n| 5 | Physics |\n| 6 | the Force |\n| 7 | Astrogation |\n| 8 | Medicine |"
   },
   "sourceKey": "phb",
   "contentSet": "core"

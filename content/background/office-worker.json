@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Office Specialty",
-    "description": "There are many kinds of office workers, and within a government or private enterprise, individual members have particular specialties. Choose your role or the department you worked for in your office life or roll on the table below.\n\n|d8|Role|\n|:---:|:----------:|\n|1|Accounting|\n|2|Droid Management|\n|3|Executive Assistant|\n|4|Facilities|\n\n|d8|Role|\n|:---:|:----------:|\n|5|Information Technology|\n|6|Procurement|\n|7|Public Relations|\n|8|Sentient Resources|",
+    "description": "There are many kinds of office workers, and within a government or private enterprise, individual members have particular specialties. Choose your role or the department you worked for in your office life or roll on the table below.\n\n|d8|Role|\n|:---:|:----------:|\n|1|Accounting|\n|2|Droid Management|\n|3|Executive Assistant|\n|4|Facilities|\n|5|Information Technology|\n|6|Procurement|\n|7|Public Relations|\n|8|Sentient Resources|",
     "options": [
       {
         "roll": 1,

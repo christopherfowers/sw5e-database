@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Mandalorian Clan",
-    "description": "Mandalorian culture is built on the backbone of various clans. The clan you are a part of has it's own history, allegiances, and fueds which shape your persepctive. Choose an option or roll on the table below to determine your clan.\n\n|d8|Clan|\n|:---:|:----------:|\n|1|Vizsla|\n|2|Fett|\n|3|Kryze|\n|4|Ordo|\n\n|d8|Clan|\n|:---:|:----------:|\n|5|Wren|\n|6|Lok|\n|7|Cadera|\n|8|Clanless|",
+    "description": "Mandalorian culture is built on the backbone of various clans. The clan you are a part of has it's own history, allegiances, and fueds which shape your persepctive. Choose an option or roll on the table below to determine your clan.\n\n|d8|Clan|\n|:---:|:----------:|\n|1|Vizsla|\n|2|Fett|\n|3|Kryze|\n|4|Ordo|\n|5|Wren|\n|6|Lok|\n|7|Cadera|\n|8|Clanless|",
     "options": [
       {
         "roll": 1,

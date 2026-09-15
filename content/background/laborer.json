@@ -164,7 +164,7 @@
   ],
   "variant": {
     "name": "Labor Specialty",
-    "description": "There are many kinds of manual laborors, skilled and unskilled. Choose your field or specialty or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Construction|\n|2|Droid Repair|\n|3|Electrician|\n|4|Facilities Maintenance|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Logistics/Shipping|\n|6|Manufacturing|\n|7|Mechanic|\n|8|Plumbing/HVAC|",
+    "description": "There are many kinds of manual laborors, skilled and unskilled. Choose your field or specialty or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Construction|\n|2|Droid Repair|\n|3|Electrician|\n|4|Facilities Maintenance|\n|5|Logistics/Shipping|\n|6|Manufacturing|\n|7|Mechanic|\n|8|Plumbing/HVAC|",
     "options": [
       {
         "roll": 1,

@@ -164,7 +164,7 @@
   ],
   "variant": {
     "name": "Employment Type",
-    "description": "There are many people who service parts of the holonet, and many more who want to control the flow of information. Choose which best suits your character or roll on the table below.\n\n|d8|Role|\n|:---:|:----------:|\n|1|Inter-world Government|\n|2|Inter-world Corporation|\n|3|World Government|\n|4|Crime Syndicate|\n\n|d8|Role|\n|:---:|:----------:|\n|5|Independent Contractor|\n|6|Broadcasting Service|\n|7|Small Corporation|\n|8|Darknet Broadcasting|",
+    "description": "There are many people who service parts of the holonet, and many more who want to control the flow of information. Choose which best suits your character or roll on the table below.\n\n|d8|Role|\n|:---:|:----------:|\n|1|Inter-world Government|\n|2|Inter-world Corporation|\n|3|World Government|\n|4|Crime Syndicate|\n|5|Independent Contractor|\n|6|Broadcasting Service|\n|7|Small Corporation|\n|8|Darknet Broadcasting|",
     "options": [
       {
         "roll": 1,

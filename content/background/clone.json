@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "DNA-Donor",
-    "description": "The background of your DNA-Donor often shapes a clone's path in life.\n\n|d20|Donor's Background|\n|:---:|:-----------:|\n|1|Agent|\n|2|Bounty Hunter|\n|3|Criminal|\n|4|Entertainer|\n|5|Force Adept|\n|6|Gambler|\n|7|Investigator|\n|8|Jedi|\n|9|Mandalorian|\n|10|Mercenary|\n\n|d20|Donor's Background |\n|:---:|:-----------:|\n|11|Noble|\n|12|Nomad|\n|13|Outlaw|\n|14|Pirate|\n|15|Scientist|\n|16|Scoundrel|\n|17|Sith|\n|18|Smuggler|\n|19|Soldier|\n|20|Spacer|",
+    "description": "The background of your DNA-Donor often shapes a clone's path in life.\n\n|d20|Donor's Background|\n|:---:|:-----------:|\n|1|Agent|\n|2|Bounty Hunter|\n|3|Criminal|\n|4|Entertainer|\n|5|Force Adept|\n|6|Gambler|\n|7|Investigator|\n|8|Jedi|\n|9|Mandalorian|\n|10|Mercenary|\n|11|Noble|\n|12|Nomad|\n|13|Outlaw|\n|14|Pirate|\n|15|Scientist|\n|16|Scoundrel|\n|17|Sith|\n|18|Smuggler|\n|19|Soldier|\n|20|Spacer|",
     "options": [
       {
         "roll": 1,

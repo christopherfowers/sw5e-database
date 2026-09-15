@@ -165,7 +165,7 @@
   ],
   "variant": {
     "name": "Racing Specialty",
-    "description": "There are many places to race and many things to race with. Maybe you dabble in all things fast. Even still, all professional racers have a type of racing they prefer above all else; a race in which they are masters. Choose your vehicular or beastly specialty, or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Air Speeders|\n|2|Boonta Speeders|\n|3|Pod Racers|\n|4|Speeder Bikes|\n\n|d8|Specialty|\n|:---:|:----------:|\n|5|Starships|\n|6|Swoop Bikes|\n|7|Fathiers|\n|8|Varactyls|",
+    "description": "There are many places to race and many things to race with. Maybe you dabble in all things fast. Even still, all professional racers have a type of racing they prefer above all else; a race in which they are masters. Choose your vehicular or beastly specialty, or roll on the table below.\n\n|d8|Specialty|\n|:---:|:----------:|\n|1|Air Speeders|\n|2|Boonta Speeders|\n|3|Pod Racers|\n|4|Speeder Bikes|\n|5|Starships|\n|6|Swoop Bikes|\n|7|Fathiers|\n|8|Varactyls|",
     "options": [
       {
         "roll": 1,
