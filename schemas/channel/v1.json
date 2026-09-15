@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/channel/v1.json",
+  "title": "Channel",
+  "description": "A place the community gathers, off this site — a Discord, a subreddit, a funding page. Content rather than markup, because this is an open-source project whose leadership is expected to change hands, and the day the Discord moves should not require a code edit and a deploy by whoever still has commit rights.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "platform",
+    "group",
+    "url",
+    "order"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this channel."
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "discord",
+        "reddit",
+        "facebook",
+        "twitter",
+        "youtube",
+        "github",
+        "patreon",
+        "kofi",
+        "opencollective",
+        "githubsponsors"
+      ],
+      "description": "Which service this is. A closed set on purpose: it decides the icon, the label a reader sees, and — the part that matters — the hosts the URL is allowed to use. Adding a platform is an edit to this file and to the site's host allowlist, which means it goes through review. That is the one part of a channel a compromised administrator account cannot reach."
+    },
+    "group": {
+      "type": "string",
+      "enum": [
+        "development",
+        "connect",
+        "support"
+      ],
+      "description": "Which column it appears under. A group with no enabled channels renders nothing at all — no heading, no empty column — which is how a site with no funding page simply has no Support column rather than an empty one."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Where it goes. HTTPS only: every platform here serves it, and a downgrade has no legitimate use. The site checks the host against the platform as well, which the schema cannot express."
+    },
+    "blurb": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The paragraph above the group this channel belongs to. Rendered as text, never as markup."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Where it sits within its group."
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true,
+      "description": "False hides the channel without discarding its history. Turning one off is the reversible alternative to deleting it."
+    }
+  }
+}
