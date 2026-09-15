@@ -1,0 +1,9 @@
+{
+  "key": "reddit",
+  "platform": "reddit",
+  "group": "connect",
+  "url": "https://www.reddit.com/r/sw5e",
+  "blurb": "These channels are used for sharing Star Wars 5e content, questions, and more.",
+  "order": 1,
+  "enabled": true
+}

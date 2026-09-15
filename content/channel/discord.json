@@ -1,0 +1,9 @@
+{
+  "key": "discord",
+  "platform": "discord",
+  "group": "development",
+  "url": "https://discord.gg/zYcPYTu",
+  "blurb": "Discord is where the development happens. If you have a question you could not find an answer to, or you want to develop content for Star Wars 5e, this is the place to do it.",
+  "order": 1,
+  "enabled": true
+}
