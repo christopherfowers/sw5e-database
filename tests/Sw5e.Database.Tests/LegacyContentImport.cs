@@ -260,8 +260,8 @@ public static class LegacyContentImport
     [
         new("archetype", "trickster-order",
             "The only replacement character left in this corpus after repair. It sits between " +
-            "a closing quotation mark and a space — 'the archetypal role of the \"trickster\"? " +
-            "one who seemingly bumbles through life' — where the general rules refuse to choose " +
+            "a closing quotation mark and a space, in 'the archetypal role of the \"trickster\"? " +
+            "one who seemingly bumbles through life', where the general rules refuse to choose " +
             "between an em dash and an ellipsis. Here the sentence continues into an appositive " +
             "that renames the quoted word, which an ellipsis does not introduce and a dash does.",
             document => ReplaceIn(document, "description",
@@ -272,7 +272,7 @@ public static class LegacyContentImport
             "cannot be the name of anything. The row's own Ideals Known and Ideal Manifests " +
             "columns both read 3, so the scrape picked up a neighbouring cell; the levels either " +
             "side of it that grant nothing print an em dash. The cell is dropped rather than " +
-            "guessed at, which leaves the row saying nothing arrives at 9th level — and the " +
+            "guessed at, which leaves the row saying nothing arrives at 9th level, and the " +
             "authoritative record of what does is the feature documents, which put Sentinel " +
             "Ideals at 9th level regardless of what the table prints.",
             document => RemoveFeature(document, level: 9, printed: "3")),

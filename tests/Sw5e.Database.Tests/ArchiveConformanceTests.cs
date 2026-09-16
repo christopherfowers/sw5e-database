@@ -111,7 +111,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
     private static readonly Dictionary<(string MappingKey, string Name), string> KnownCorruptItems = new()
     {
         [("monster", "B'omarr Brain Walker")] =
-            "challengeRating holds the literal string \"CR\" — the scrape captured the column " +
+            "challengeRating holds the literal string \"CR\": the scrape captured the column " +
             "header instead of the value. Its 3 experience points imply a challenge rating of 0.",
 
         [("species", "Trandoshan")] =
@@ -170,7 +170,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
             }
             catch (Exception exception)
             {
-                unexpectedFailures.Add($"{name}: mapping threw {exception.GetType().Name} — {exception.Message}");
+                unexpectedFailures.Add($"{name}: mapping threw {exception.GetType().Name}, {exception.Message}");
                 continue;
             }
 

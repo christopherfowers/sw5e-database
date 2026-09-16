@@ -22,7 +22,7 @@ leave the number fields unable to format. The official character sheet carries
     AFNumber_Format(0, 0, 0, 0, "", true)
     AFNumber_Keystroke(0, 0, 0, 0, "", true)
 
-Those are Adobe's own field-formatting API — declarative, literal-argumented,
+Those are Adobe's own field-formatting API: declarative, literal-argumented,
 and holding no capability. They are kept, and only when the whole entry parses
 as exactly one call to one allowlisted function with literal arguments.
 
@@ -31,7 +31,7 @@ broken one: anything that merely *contains* an approved call would wave through
 
     AFNumber_Format(0,0,0,0,"",true); app.launchURL("http://example.invalid")
 
-The 33rd entry in that sheet is an /OpenAction running `this.print(...)` — the
+The 33rd entry in that sheet is an /OpenAction running `this.print(...)`, so the
 document tries to print itself when opened. Nobody asked for that, and it does
 not survive.
 
@@ -65,7 +65,7 @@ ALLOWED_FUNCTIONS = {
 }
 
 # One call. A function name from the list, then arguments that are only
-# literals — numbers, quoted strings, booleans, null. No sequencing, no member
+# literals: numbers, quoted strings, booleans, null. No sequencing, no member
 # access, no expressions, no concatenation.
 LITERAL = r'\s*(?:-?\d+(?:\.\d+)?|"[^"]*"|' + r"'[^']*'" + r"|true|false|null)\s*"
 ONE_CALL = re.compile(
@@ -74,8 +74,8 @@ ONE_CALL = re.compile(
 
 # A backslash in a script entry is refused outright rather than parsed.
 #
-# String literals here have no legitimate need for an escape — these are format
-# masks and separators like "" and "," — and admitting escapes would mean the
+# String literals here have no legitimate need for an escape (these are format
+# masks and separators like "" and ",") and admitting escapes would mean the
 # allowlist has to agree with a JavaScript engine about what a string ends on.
 # That is precisely the parser-differential this design exists to avoid, so the
 # conservative answer is the correct one: no backslash, anywhere.
@@ -97,7 +97,7 @@ def script_text(value) -> str:
     """
     A /JS entry is either a string or a stream; both mean the same thing.
 
-    pikepdf raises its own `PdfError` — not AttributeError or TypeError — when
+    pikepdf raises its own `PdfError`, not AttributeError or TypeError, when
     `read_bytes` is reached on a string object. Getting this wrong made the
     sanitiser refuse the one sheet in the corpus that actually carries script.
     It refused *safely*, by failing closed, which is the behaviour working as
@@ -200,7 +200,7 @@ def main() -> int:
 
     try:
         removed = sanitize(source, target)
-    except Exception as error:  # noqa: BLE001 — fail closed on anything
+    except Exception as error:  # noqa: BLE001, fail closed on anything
         print(f"REFUSED {source}: {error}", file=sys.stderr)
         return 1
 
