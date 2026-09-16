@@ -23,7 +23,7 @@ becoming the export rather than the origin.**
 
 Content management now lives in the API: contributors draft changes, an
 administrator publishes them, and PostgreSQL holds the result with a full
-revision history. That was not a preference — publishing through this
+revision history. That was not a preference. Publishing through this
 repository means a commit, a container image and a redeploy between an edit and
 anyone seeing it, the API container mounts its content volume read-only, and the
 file-backed store builds its index once at start-up and never reloads. A write
@@ -39,8 +39,8 @@ What that means in practice:
   store serves exactly this.
 - **`content/` is refreshed from the database by the API's exporter.**
   `dotnet Sw5e.Migrator.dll export --output <path-to-this-checkout>` rewrites
-  this tree from what is published in PostgreSQL — drafts excluded, reverts
-  reflected — and leaves a working tree for a human to review and commit. It
+  this tree from what is published in PostgreSQL (drafts excluded, reverts
+  reflected) and leaves a working tree for a human to review and commit. It
   does not commit and does not push. So `content/` is current as of the last
   export, and the pull request that carries one is where the community's edits
   get reviewed on their way into the seed.
@@ -56,14 +56,14 @@ trailing newline, UTF-8 without a byte-order mark, and no `\uXXXX` escape for
 any character that does not need one.
 
 This is not tidiness. PostgreSQL stores documents as `jsonb`, which keeps a
-document's values and discards its text — member order, indentation and
+document's values and discards its text. Member order, indentation and
 whitespace are all gone by the time the exporter reads a row. So the exporter
 cannot reproduce a file by remembering how it was written; it derives the bytes
 from the document. If the file already here was written any other way, the first
 export rewrites it, and the reviewer of that pull request is shown a diff of
 reformatting with the actual edit buried inside it.
 
-One writer produces that form — `CanonicalContent`, in
+One writer produces that form: `CanonicalContent`, in
 `src/Sw5e.Database.Schemas`, which the API references through the submodule for
 exactly the reason it references `SchemaValidator`: two implementations of one
 byte-exact format would drift, and the drift would show up as noise in every
@@ -80,7 +80,7 @@ mystery diff months later.
 
 **Member order comes from the schema**, which makes reordering a schema's
 `properties` a change to the file format of every document of that type. That is
-a reasonable thing to do deliberately — and `CanonicalFormTests` is what stops it
+a reasonable thing to do deliberately, and `CanonicalFormTests` is what stops it
 happening by accident.
 
 ## This repository is consumed as a submodule
@@ -90,14 +90,14 @@ references `src/Sw5e.Database.Schemas` directly, so that the validator gating a
 write in the API is literally the one gating the corpus here.
 
 **Changing `SchemaValidator` changes what the API accepts.** Its evaluation
-options in particular — `OutputFormat.List` and `RequireFormatValidation` — are
+options in particular, `OutputFormat.List` and `RequireFormatValidation`, are
 part of that contract, not an implementation detail. So is
 `SchemaRepository`'s `{root}/{contentType}/v{version}.json` layout, which the
 API resolves schema versions from. `CanonicalContent` joined that contract with
 the exporter: it defines the bytes of every file under `content/`.
 
-`content/` is not part of the shipped contract — the API excludes it from its
-Docker build context and no running API process reads it — but the API's test
+`content/` is not part of the shipped contract (the API excludes it from its
+Docker build context and no running API process reads it) but the API's test
 suite does, over the pinned submodule commit: it imports this corpus into
 PostgreSQL, exports it again, and asserts the result is byte-identical to what
 is committed here. So a change here that breaks the round trip turns the API's
@@ -125,8 +125,8 @@ and demonstrated against. Three rules hold it together, each enforced by a test
 in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
 
 - every file validates against the schema for the directory it sits in;
-- every U+FFFD — the replacement character left behind wherever the original
-  scrape lost an apostrophe, a dash or an accented letter — is either repaired
+- every U+FFFD (the replacement character left behind wherever the original
+  scrape lost an apostrophe, a dash or an accented letter) is either repaired
   or recorded, exactly and per file, in the ledger of characters that cannot be
   recovered without inventing content;
 - every cross-reference resolves inside the set: `sourceKey`, a background's
@@ -135,8 +135,8 @@ in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
   species a feature is granted by, and the class an archetype or a class
   improvement belongs to.
 
-The six combat-option types — maneuvers, fighting styles, fighting masteries,
-lightsaber forms, weapon focuses and weapon supremacies — are the exception to
+The six combat-option types (maneuvers, fighting styles, fighting masteries,
+lightsaber forms, weapon focuses and weapon supremacies) are the exception to
 "curated seed set": all 219 of them are published, because they are small,
 self-contained, and complete. `CombatOptionContentTests` asserts the size and
 shape of each type, so a partial import fails rather than quietly publishing a
@@ -156,7 +156,7 @@ dotnet run --project src/Sw5e.Database.Tools --   import-legacy ../sw5e-legacy-a
 The importer is deterministic and re-runnable: the same archive produces
 byte-identical documents, so re-running it after a change to a repair rule shows
 up as a diff of exactly what changed. It is the only stage in the pipeline that
-repairs anything — the archive's encoding damage is fixed once, here, so nothing
+repairs anything. The archive's encoding damage is fixed once, here, so nothing
 reading `content/` has to know the corpus was scraped badly. It writes files and
 never deletes them, so a document corrected by hand after import is not silently
 reverted.
@@ -167,7 +167,7 @@ Two decisions are worth knowing about before editing any of it.
 `sourceKey`, `contentSet` and `description` and no mechanical field at all.
 Equipment carries a price, a weight and a stealth flag on every one of its 505
 documents; an enhanced item carries a rarity band, an attunement requirement and
-a kind on every one of its 1,918, and no price whatsoever — `valueText` is null
+a kind on every one of its 1,918, and no price whatsoever. `valueText` is null
 on every archived record and not one description names a credit amount. They
 relate by cross-reference: an enhanced item's `subtype` names the gear it is
 built on or installed in, and for 20 of the 56 subtypes that is exactly one
@@ -175,8 +175,8 @@ equipment document.
 
 **Three types carry no `sourceKey`.** The archive records `contentSource` as
 "None" for all 46 weapon properties, all 30 armour properties and all 33
-reference tables, and unlike the rule chapters — where the file a record sits in
-names the book — there is nothing to infer one from. They are published without
+reference tables, and unlike the rule chapters, where the file a record sits in
+names the book, there is nothing to infer one from. They are published without
 a citation rather than with a guessed one.
 
 Four archived records are deliberately not imported: the Player's Handbook
@@ -203,8 +203,8 @@ the 2022 scrape zeroed the columns that held them:
 - all nineteen pieces of ammunition carry a name and a price and nothing else,
   so their damage, weight, range and properties come from the Tertiary
   Ammunition table in rule chapter 5, joined on name and cross-checked on price;
-- armour and shields lost their table columns entirely — a shield's archived
-  `regenerationRateCoefficient` in fact holds the *capacity* column — so both
+- armour and shields lost their table columns entirely (a shield's archived
+  `regenerationRateCoefficient` in fact holds the *capacity* column) so both
   come from the Armor and Shields table in the same chapter.
 
 The test names each of these losses and asserts the archive field is still
@@ -229,7 +229,7 @@ They are a graph, not four lists. An archetype names its class in `className`;
 a feature names what grants it in `grantedBy` and `grantedByName`, and the level
 it arrives at in `level`. A class's level table names, per row, the proficiency
 bonus, whatever the class prints in its Features column, and the class-specific
-columns as labelled cells — so a character sheet can ask what a 7th-level scout
+columns as labelled cells, so a character sheet can ask what a 7th-level scout
 has without reading a word of prose, and a print layout can lay the columns out
 in the order the book does.
 
@@ -244,7 +244,7 @@ that name to resolve, and it does now that all 141 species are published.
 The import is `tests/Sw5e.Database.Tests/LegacyContentImport.cs`, and it runs in
 one step: map the archive record mechanically, repair the encoding damage, apply
 the handful of named adjudications, and drop table cells that lost their
-contents. It is deterministic — the same archive produces the same bytes.
+contents. It is deterministic. The same archive produces the same bytes.
 
 ```bash
 SW5E_WRITE_CONTENT=1 dotnet test --filter ImportedContentTests
@@ -317,7 +317,7 @@ attached.
 
 ## License
 
-MIT — see [LICENSE](LICENSE). Game content is governed separately; see
+MIT. See [LICENSE](LICENSE). Game content is governed separately; see
 [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
 
 ## QA deployment
@@ -327,7 +327,7 @@ environment at <https://sw5e.cfowers.io>, which runs the database, API and site
 as one Compose stack behind the reverse proxy.
 
 The deploy step runs on a self-hosted runner on the QA host. That runner polls
-GitHub outbound — no inbound port is opened — holds no secrets, and is
+GitHub outbound (no inbound port is opened) holds no secrets, and is
 permitted to run exactly one script via a narrow sudoers rule. Only the
 immutable `sha-<full commit SHA>` tag is ever deployed; `latest` is refused.
 This repository deploys only the `database` service, so a merge here cannot move
