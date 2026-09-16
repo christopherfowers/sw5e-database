@@ -13,7 +13,7 @@ namespace Sw5e.Database.Tests;
 /// The source books set wide tables as two side-by-side columns, and the
 /// conversion took each column for a table of its own. Ninety-four of them came
 /// through that way: a header, the first half of the rows, then the same header
-/// again and the rest — so a reader looking up the point cost of a 6th-level
+/// again and the rest, so a reader looking up the point cost of a 6th-level
 /// power found a table that stopped at 4 and a second one underneath starting
 /// at 5.
 /// </para>
@@ -25,7 +25,7 @@ namespace Sw5e.Database.Tests;
 /// </para>
 /// <para>
 /// <b>Adjacency and a shared header are not enough.</b> This file holds fifty
-/// <c>|d8|Feat|</c> tables — one per background — and they are legitimately
+/// <c>|d8|Feat|</c> tables, one per background, and they are legitimately
 /// separate. The signal is a <em>continuation</em>: the second table's first
 /// column picks up where the first's leaves off, with no value in both. Two
 /// tables that each run 1–8 are two tables; one running 1–4 followed by one
@@ -84,7 +84,7 @@ public sealed class SplitTableTests
     /// <remarks>
     /// The guard on the guard. A rejoin that was too eager would merge the
     /// forty per-background feat tables into one, and the test above would
-    /// still pass — it only ever looks for splits. This is the assertion that
+    /// still pass. It only ever looks for splits. This is the assertion that
     /// notices the opposite mistake, which is the destructive one.
     /// </remarks>
     [Fact]

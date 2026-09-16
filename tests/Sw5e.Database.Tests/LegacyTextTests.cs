@@ -10,8 +10,8 @@ namespace Sw5e.Database.Tests;
 /// <remarks>
 /// Every input below is taken verbatim from the archive. That matters: a rule
 /// tested against a string invented to suit it proves only that the regular
-/// expression compiles. The "left alone" block is the more important half —
-/// it fixes the boundary between a character that can be recovered and one that
+/// expression compiles. The "left alone" block is the more important half.
+/// It fixes the boundary between a character that can be recovered and one that
 /// can only be guessed, and a change that pushes a case across that boundary
 /// fails here rather than quietly inventing game content.
 /// </remarks>

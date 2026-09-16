@@ -59,7 +59,7 @@ public sealed class StarshipContentTests(ITestOutputHelper output)
     /// rather than a style choice: the six modifications and one venture were
     /// the only entries in their tables set in capitals, and one plating
     /// modification lost the space after its comma while its three siblings
-    /// kept theirs. SLAM is deliberately absent — it is an acronym, and its own
+    /// kept theirs. SLAM is deliberately absent. It is an acronym, and its own
     /// body text writes it in capitals too.
     /// </summary>
     private static readonly Dictionary<string, string> CorrectedNames = new(StringComparer.Ordinal)
@@ -484,8 +484,8 @@ public sealed class StarshipContentTests(ITestOutputHelper output)
             }
         }
 
-        // A role names its systems by their leading word — "Deflection",
-        // "Quick-Charge", "Hub & Spoke" — because that is how the size tables
+        // A role names its systems by their leading word ("Deflection",
+        // "Quick-Charge", "Hub & Spoke") because that is how the size tables
         // print them. Resolving them is what lets a ship built from a role be
         // costed without a human reading the table.
         foreach (var document in Documents("starship-base-size"))
@@ -520,8 +520,8 @@ public sealed class StarshipContentTests(ITestOutputHelper output)
     /// <summary>
     /// Rows where the printed tier table and the printed feature blocks
     /// disagree about a feature's name. All three are defects in the book
-    /// rather than in the import — the table and the body were typeset from
-    /// different drafts — and both spellings are published as printed. Pinning
+    /// rather than in the import, the table and the body were typeset from
+    /// different drafts, and both spellings are published as printed. Pinning
     /// them here is what keeps a fourth from appearing unnoticed.
     /// </summary>
     private static readonly Dictionary<(string Size, string TableName), string> RenamedInTheBody =
@@ -685,8 +685,8 @@ public sealed class StarshipContentTests(ITestOutputHelper output)
             failures.Add($"{Name(round)}: no launcher fires it, so it cannot be bought for a ship.");
         }
 
-        // Six rounds are a special rule rather than a damage roll — a conner
-        // net, a discord missile, an s-thread tracer and their kin — so this is
+        // Six rounds are a special rule rather than a damage roll (a conner
+        // net, a discord missile, an s-thread tracer and their kin) so this is
         // a floor rather than a total.
         ammunition.Count(round => round.ContainsKey("damage")).ShouldBe(15);
         ammunition.Count(round => round.ContainsKey("weightInPounds")).ShouldBe(19);

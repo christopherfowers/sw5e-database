@@ -18,7 +18,7 @@ public sealed class SchemaRepository
     /// Every schema in this repository is at v1 today. This is what
     /// <see cref="LatestVersion"/> falls back to, not a hard-coded answer: the
     /// probe reads the directory, so publishing <c>v2.json</c> is picked up
-    /// without a code change, which is the property the design asks for — a
+    /// without a code change, which is the property the design asks for. A
     /// content type's definition is a reviewed schema file, never a release.
     /// </remarks>
     public const int FallbackVersion = 1;

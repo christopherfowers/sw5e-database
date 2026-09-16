@@ -3,14 +3,14 @@
  * Rejoins tables the conversion split in half.
  *
  * The original books print wide tables as two side-by-side columns, and the
- * conversion read each column as a table of its own. So the site shows one
+ * conversion read each column as a table of its own, so the site shows one
  * table twice over: a header, the first half of the rows, then the same header
  * again and the rest.
  *
  * ## What counts as split, and what does not
  *
  * Adjacent tables sharing a header is not enough on its own. `ec-backgrounds`
- * carries fifty `|d8|Feat|` tables — one per background — and merging those
+ * carries fifty `|d8|Feat|` tables, one per background, and merging those
  * would destroy the document. The signal is a **continuation**: the second
  * table's first column picks up where the first's leaves off, with no value in
  * both.
@@ -44,7 +44,7 @@
  *   dotnet run --project src/Sw5e.Database.Tools -- canonicalise
  *
  * `JSON.stringify` is not the repository's writer and does not agree with it
- * everywhere — it emits an em space as the character where the canonical form
+ * everywhere. It emits an em space as the character where the canonical form
  * escapes it as ` `, which is one file in this corpus and enough to fail
  * `CanonicalFormTests`. Reimplementing the canonical writer in this script
  * would be a second implementation to keep in step, so this one writes
@@ -65,7 +65,7 @@ const squash = (line) => line.replace(/\s+/g, "");
 /**
  * Every integer a first-column cell stands for, or null when it is not numeric.
  *
- * A d100 table's cells are ranges — `01-02`, `99-100` — so one cell covers many
+ * A d100 table's cells are ranges (`01-02`, `99-100`) so one cell covers many
  * values and overlap has to be tested across the whole span. Reading only the
  * first number of each range is how an earlier survey reported a table ending
  * at 75 when it actually ran to 100.
@@ -138,7 +138,7 @@ function readTable(lines, index) {
  * Rejoins every split pair in one string.
  *
  * A single pass suffices, because after joining a pair the walk continues from
- * the joined table — so a table printed in three columns is folded left to
+ * the joined table, so a table printed in three columns is folded left to
  * right in the same pass.
  */
 function rejoin(text) {

@@ -22,7 +22,7 @@ namespace Sw5e.Database.Tests;
 /// <para>
 /// Which makes this the load-bearing assertion for the whole arrangement. If a
 /// committed file is not already what the canonical writer would produce, the
-/// first export rewrites it — and the reviewer of that pull request is shown a
+/// first export rewrites it, and the reviewer of that pull request is shown a
 /// diff of reformatting with the actual edit hidden somewhere inside it. Every
 /// export after that repeats the argument.
 /// </para>
@@ -54,7 +54,7 @@ public sealed class CanonicalFormTests
             // Read as text with the line endings normalised: a checkout on
             // Windows may hold CRLF, and which of the two sits in a working
             // tree is git's decision rather than the format's. Everything else
-            // — member order, indentation, escaping, the trailing newline — is
+            // (member order, indentation, escaping, the trailing newline) is
             // compared exactly.
             var committed = File.ReadAllText(file, Encoding.UTF8).Replace("\r\n", "\n");
 
@@ -86,7 +86,7 @@ public sealed class CanonicalFormTests
     /// </summary>
     /// <remarks>
     /// The test above proves the corpus matches the writer. This proves the
-    /// writer has a fixed point at all — that it is not, say, appending a
+    /// writer has a fixed point at all. That it is not, say, appending a
     /// newline or re-escaping a character on every pass. Without it a writer
     /// that drifted a little each time would be caught only once the corpus had
     /// already drifted with it.

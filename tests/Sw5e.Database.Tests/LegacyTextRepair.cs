@@ -34,7 +34,7 @@ namespace Sw5e.Database.Tests;
 /// </para>
 /// <para>
 /// <see cref="LegacyContentMapper"/> deliberately does none of this. Mapping is
-/// mechanical and lossless — rename, regroup, drop storage artefacts — and is
+/// mechanical and lossless (rename, regroup, drop storage artefacts) and is
 /// held to the whole corpus by <see cref="ArchiveConformanceTests"/>. Repair is
 /// a judgement call about characters that are gone, and it belongs to the
 /// import stage, where each judgement can be named.
@@ -78,7 +78,7 @@ public static partial class LegacyTextRepair
 
     /// <summary>
     /// A replacement character standing alone after a space: a spaced em dash.
-    /// Stat blocks write <c>Languages —</c> to mean "none", which is why the
+    /// Stat blocks write <c>Languages , </c> to mean "none", which is why the
     /// form that ends a line matters as much as the one between two words.
     /// </summary>
     [GeneratedRegex(@"(?<= )�(?=\s|$)")]
@@ -90,8 +90,8 @@ public static partial class LegacyTextRepair
     /// </summary>
     /// <remarks>
     /// The length guards are what keep this rule off proper nouns. The same
-    /// corruption ate accented letters out of names — <c>L?vern</c>,
-    /// <c>Seelv?n</c>, <c>Ty?k</c>, <c>H?sk</c> — and those are unrecoverable.
+    /// corruption ate accented letters out of names (<c>L?vern</c>,
+    /// <c>Seelv?n</c>, <c>Ty?k</c>, <c>H?sk</c>) and those are unrecoverable.
     /// Demanding two word characters on the left and a real word on the right
     /// (two or more letters, or the only two single-letter English words)
     /// excludes every such name in the archive while still catching sentence
@@ -150,8 +150,8 @@ public static partial class LegacyTextRepair
     /// <summary>
     /// True when a value carried content that is now entirely gone: it holds
     /// nothing but replacement characters and whitespace. A class level table
-    /// is full of these — a column that says nothing at this level is printed
-    /// as an em dash — and the honest result is no cell rather than a cell
+    /// is full of these, a column that says nothing at this level is printed
+    /// as an em dash, and the honest result is no cell rather than a cell
     /// holding a broken glyph.
     /// </summary>
     public static bool IsTotalLoss(string value) =>

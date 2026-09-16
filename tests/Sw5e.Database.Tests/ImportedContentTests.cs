@@ -7,14 +7,14 @@ using Xunit.Abstractions;
 namespace Sw5e.Database.Tests;
 
 /// <summary>
-/// Holds the committed class graph — classes, class improvements, archetypes
-/// and the features they grant — to the archive it was imported from.
+/// Holds the committed class graph (classes, class improvements, archetypes
+/// and the features they grant) to the archive it was imported from.
 /// </summary>
 /// <remarks>
 /// <para>
 /// Two thousand nine hundred files cannot be reviewed by reading them. What can
 /// be reviewed is the code that produced them, and that is only worth reviewing
-/// if the files are provably its output. So this asserts exactly that: for
+/// if the files are provably its output, so this asserts exactly that: for
 /// every document in the four directories this stream owns, the bytes on disk
 /// are what <see cref="LegacyContentImport"/> produces from the archive today.
 /// A hand-edit to one of those files fails here until it is expressed as a rule
@@ -28,8 +28,8 @@ namespace Sw5e.Database.Tests;
 /// </para>
 /// <para>
 /// Everything except the byte comparison runs from the archive, so on a machine
-/// without it the suite reports why it skipped rather than passing silently —
-/// the same contract <see cref="ArchiveConformanceTests"/> works to.
+/// without it the suite reports why it skipped rather than passing silently.
+/// The same contract <see cref="ArchiveConformanceTests"/> works to.
 /// </para>
 /// </remarks>
 public sealed class ImportedContentTests(ITestOutputHelper output)
@@ -45,7 +45,7 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
     /// smaller set. Ten classes and one improvement of each of three kinds for
     /// each of them; a hundred and thirty-seven archetypes; and 2,682 features,
     /// which is the archive's 2,723 rows less the 41 duplicates the scrape left
-    /// behind — 218 granted by a class, 871 by an archetype, 1,593 by a
+    /// behind. 218 granted by a class, 871 by an archetype, 1,593 by a
     /// species.
     /// </remarks>
     private static readonly (string ContentType, int Count)[] Expected =
@@ -280,7 +280,7 @@ public sealed class ImportedContentTests(ITestOutputHelper output)
                 .ShouldBe(expected, LegacyArchive.Text(feature, "key"));
         }
 
-        // Ataru Form is expanded content, so everything it grants is too — the
+        // Ataru Form is expanded content, so everything it grants is too. The
         // archive's storage partition files two of its features under Core,
         // and it is the partition that is wrong.
         ByKey(documents, "feature")["archetype-ataru-form-hawk-bat-swoop-7"]["sourceKey"]!

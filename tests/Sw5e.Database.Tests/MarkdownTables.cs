@@ -15,8 +15,8 @@ namespace Sw5e.Database.Tests;
 /// </para>
 /// <para>
 /// <b>Adjacency and a shared header are not enough to act on.</b>
-/// <c>ec-backgrounds</c> carries forty <c>|d8|Feat|</c> tables — one per
-/// background — and merging those would destroy the document. The signal is a
+/// <c>ec-backgrounds</c> carries forty <c>|d8|Feat|</c> tables, one per
+/// background, and merging those would destroy the document. The signal is a
 /// <em>continuation</em>: the second table's first column picks up where the
 /// first's leaves off, with no value in both. Two tables each running 1–8 are
 /// two tables; one running 1–4 followed by one running 5–8 is one table cut in
@@ -45,7 +45,7 @@ public static class MarkdownTables
     /// Every value a first-column cell stands for, or null when it is not numeric.
     /// </summary>
     /// <remarks>
-    /// A d100 table's cells are ranges — <c>01-02</c>, <c>99-100</c> — so one
+    /// A d100 table's cells are ranges (<c>01-02</c>, <c>99-100</c>) so one
     /// cell covers many values and overlap has to be tested across the whole
     /// span. Reading only the first number of each range is how an early survey
     /// of this fault reported a table ending at 75 when it ran to 100.
@@ -166,7 +166,7 @@ public static class MarkdownTables
     /// </summary>
     /// <remarks>
     /// Returns the input unchanged when there is nothing to do, which is the
-    /// overwhelmingly common case — this runs over every string the archive
+    /// overwhelmingly common case. This runs over every string the archive
     /// carries, and almost none of them hold a table at all.
     /// </remarks>
     public static string Rejoin(string text)
