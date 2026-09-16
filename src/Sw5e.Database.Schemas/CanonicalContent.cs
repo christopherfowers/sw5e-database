@@ -12,7 +12,7 @@ namespace Sw5e.Database.Schemas;
 /// <b>Why a canonical form is needed at all.</b> Content is authored in two
 /// places now. Most of it arrives as a file in a pull request; the rest arrives
 /// through the site's authoring endpoints and lives in PostgreSQL, which stores
-/// documents as <c>jsonb</c> — a form that keeps the values and throws away the
+/// documents as <c>jsonb</c>. A form that keeps the values and throws away the
 /// text: member order, indentation and whitespace are all gone by the time a
 /// document is read back. Exporting the database into this repository therefore
 /// cannot reproduce a file by remembering how it was written. It has to derive
@@ -26,7 +26,7 @@ namespace Sw5e.Database.Schemas;
 /// definition of the type and already reviewed on the way in, so it is the one
 /// place a field order can be stated without inventing a second registry that
 /// could disagree with it. The rule is total: members the schema does not
-/// declare — which <c>additionalProperties: false</c> makes impossible today —
+/// declare, which <c>additionalProperties: false</c> makes impossible today,
 /// are written after the declared ones in ordinal order, so an undeclared
 /// member cannot make the output depend on the order it happened to arrive in.
 /// </para>
@@ -167,7 +167,7 @@ public sealed class CanonicalContent(SchemaRepository schemas)
 
             case JsonValueKind.String:
                 // Re-encoded rather than copied, so a document that arrived
-                // with "—" and one that arrived with an em dash are
+                // with ", " and one that arrived with an em dash are
                 // written the same way. The two are the same document, and a
                 // file format in which they are not is a file format that
                 // diffs when nothing changed.
@@ -195,8 +195,8 @@ public sealed class CanonicalContent(SchemaRepository schemas)
     /// <remarks>
     /// Ordered by a stable sort over the members that are actually present,
     /// rather than by looking up each declared name in turn. A document with a
-    /// member repeated — which a parser permits and this writer has no business
-    /// silently repairing — keeps both copies rather than losing one.
+    /// member repeated, which a parser permits and this writer has no business
+    /// silently repairing, keeps both copies rather than losing one.
     /// </remarks>
     private static IEnumerable<JsonProperty> Ordered(
         JsonElement value,

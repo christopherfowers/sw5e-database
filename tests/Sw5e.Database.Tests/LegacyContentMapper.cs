@@ -515,7 +515,7 @@ public static class LegacyContentMapper
     /// <para>
     /// The level table arrives as an object keyed by level, each value an
     /// object keyed by column heading. Property order in that inner object is
-    /// the printed column order — <c>levelChangeHeadersJson</c> holds the same
+    /// the printed column order. <c>levelChangeHeadersJson</c> holds the same
     /// order, and it agrees with the row keys for all ten classes, so the rows
     /// are read directly and the stringified field is dropped with the rest of
     /// the <c>*Json</c> duplicates. Three columns every class prints get
@@ -669,8 +669,8 @@ public static class LegacyContentMapper
     /// <summary>
     /// The Features column is a comma-separated list of what arrives at this
     /// level. Splitting is all that happens here: a name that no feature
-    /// document matches — "Ability Score Improvement", "Approach feature",
-    /// "Brutal Critical (two dice)" — is what the book prints and is kept as
+    /// document matches ("Ability Score Improvement", "Approach feature",
+    /// "Brutal Critical (two dice)") is what the book prints and is kept as
     /// printed. Cells that hold nothing but a lost character survive this step
     /// and are dropped by the repair stage, which is where corruption is
     /// handled.
@@ -745,9 +745,9 @@ public static class LegacyContentMapper
     //
     // That is still mapping rather than repair, and the distinction is worth
     // stating because it is the line the rest of this file holds. Each rule
-    // below keys off a marker the source itself prints — a "- " bullet, a
+    // below keys off a marker the source itself prints (a "- " bullet, a
     // blank line, the italic "**Prerequisite:**" run-in, the literal sentence
-    // "As a part of the bonus action to adopt this form" — and reproduces the
+    // "As a part of the bonus action to adopt this form") and reproduces the
     // text it finds byte for byte. Nothing here rewrites a value, supplies a
     // missing one, or decides what a sentence means. Where the archive is
     // simply wrong, it stays wrong here and is caught by a test, exactly as

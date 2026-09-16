@@ -188,7 +188,7 @@ public static class LegacyArchive
     /// The rejoin belongs here rather than in a pass over <c>content/</c>,
     /// because this is where the archive's text becomes the corpus. Ninety-four
     /// tables were repaired by rewriting the committed documents first, and
-    /// <c>CommittedContentIsExactlyWhatTheImportProduces</c> refused it — the
+    /// <c>CommittedContentIsExactlyWhatTheImportProduces</c> refused it. The
     /// next import would have put every one of them back, and nothing about
     /// that diff would have looked wrong.
     /// </para>

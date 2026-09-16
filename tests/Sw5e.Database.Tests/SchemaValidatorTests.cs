@@ -171,8 +171,8 @@ public sealed class SchemaValidatorTests
 /// </summary>
 /// <remarks>
 /// <para>
-/// A refusal has always carried three facts — where the failure was, which
-/// keyword rejected it, and what the validator wanted to say — and it used to
+/// A refusal has always carried three facts (where the failure was, which
+/// keyword rejected it, and what the validator wanted to say) and it used to
 /// throw two of them away by formatting all three into one line. The editor in
 /// the front end then pulled that line back apart with a regular expression so
 /// it could put each error beside the control that caused it.
@@ -259,13 +259,13 @@ public sealed class SchemaViolationTests
 
           `additionalProperties: false` is implemented as a false schema, and a
           false schema fails with no keyword: the validator reports
-          `/quantumEntanglement:  — All values fail against the false schema`.
+          `/quantumEntanglement: . All values fail against the false schema`.
           There is genuinely no keyword there, and putting one in would be
           making something up.
 
           It matters because it is exactly the line the front end's regular
-          expression could not parse — it required a keyword of at least one
-          letter — so a property that does not belong to a content type used to
+          expression could not parse, it required a keyword of at least one
+          letter, so a property that does not belong to a content type used to
           land in the "we could not place this" list. With the parts sent
           apart, it lands on the property.
         */

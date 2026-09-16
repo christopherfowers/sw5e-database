@@ -19,8 +19,8 @@ namespace Sw5e.Database.Tests;
 /// because it looks like an oversight. A source that describes none of them
 /// still works: the site falls back to a plain badge rather than drawing an
 /// empty book. That degradation is what lets somebody add a supplement to the
-/// corpus before anybody has written a sentence about it — which is the whole
-/// point of the books being data — and a schema that demanded a blurb would
+/// corpus before anybody has written a sentence about it, which is the whole
+/// point of the books being data, and a schema that demanded a blurb would
 /// turn "not described yet" into "cannot be added".
 /// </para>
 /// <para>
@@ -111,7 +111,7 @@ public sealed class SourceShelfTests
     /// <remarks>
     /// The colour is how a reader tells at a glance which book a row came from,
     /// on a page mixing all five. Two books sharing a hue does not fail
-    /// anywhere — it just quietly stops answering the question the colour
+    /// anywhere. It just quietly stops answering the question the colour
     /// exists to answer.
     /// </remarks>
     [Fact]

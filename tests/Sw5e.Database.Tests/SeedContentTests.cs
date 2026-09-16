@@ -95,7 +95,7 @@ public sealed class SeedContentTests
         // space, ambiguous between an em dash and an ellipsis and reading
         // naturally as either, and the accented letters in the Expanded
         // Content species chapter's name tables. Every other replacement
-        // character in these four archive files — 393 of the 416 — is
+        // character in these four archive files, 393 of the 416, is
         // repaired on import, most of them by the rule that recognises a
         // character standing alone in a markdown table cell as the em dash
         // those tables use for "none".
@@ -346,7 +346,7 @@ public sealed class SeedContentTests
                 case "maneuver":
                     // Maneuvers reference each other twice over, and the two
                     // references mean different things. The prerequisite is the
-                    // gate — "Administer Aid (Improved) maneuver" — and names
+                    // gate, "Administer Aid (Improved) maneuver", and names
                     // the tier immediately below. `improves` names the base
                     // maneuver the whole chain hangs off, which for a third
                     // tier is not the same document. Both have to resolve, or
@@ -432,8 +432,8 @@ public sealed class SeedContentTests
     /// Pulls the referenced names out of a prerequisite line. A prerequisite is
     /// a comma-separated list of clauses, and a clause that names another
     /// document of the same type always ends in that type's noun: "Durable
-    /// feat", "Administer Aid maneuver". Clauses that name something else — an
-    /// ability score, a skill proficiency, a level — end in nothing of the sort
+    /// feat", "Administer Aid maneuver". Clauses that name something else (an
+    /// ability score, a skill proficiency, a level) end in nothing of the sort
     /// and are skipped.
     /// </summary>
     private static IEnumerable<string> PrerequisiteNames(string? prerequisite, string noun)

@@ -12,7 +12,7 @@ namespace Sw5e.Database.Tests;
 /// <remarks>
 /// <para>
 /// Every document here already validates against its schema and resolves its
-/// cross-references — <see cref="SeedContentTests"/> proves that. None of that
+/// cross-references. <see cref="SeedContentTests"/> proves that. None of that
 /// says anything about the <em>text</em>. A name with two spaces in it, a
 /// description that is the empty string, a paragraph whose line breaks were
 /// eaten on the way out of the original site: all of those are a valid string
@@ -177,8 +177,8 @@ public sealed class CorpusHygieneTests
     public void TheScanActuallyReachesTheCorpus()
     {
         // The control. Every assertion above passes trivially against an empty
-        // sequence, so a change that stopped this walking the tree — a renamed
-        // directory, a parser returning null — would look like a clean corpus.
+        // sequence, so a change that stopped this walking the tree (a renamed
+        // directory, a parser returning null) would look like a clean corpus.
         var strings = AllStrings().ToList();
 
         strings.Count.ShouldBeGreaterThan(50_000);

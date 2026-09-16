@@ -57,8 +57,8 @@ internal static partial class LegacyText
     /// </summary>
     /// <remarks>
     /// The closing context includes <c>|</c> because the corpus quotes inside
-    /// pipe tables — a background's personality-trait table is one quoted line
-    /// per row — and a quotation that ends a cell is followed by the cell
+    /// pipe tables, a background's personality-trait table is one quoted line
+    /// per row, and a quotation that ends a cell is followed by the cell
     /// boundary rather than by a space.
     /// </remarks>
     [GeneratedRegex(@"(^|[\s([])�(?=\S)([^�\n]{0,80}?)(?<=\S)�(?=[\s.,;:!?)\]|]|$)",
@@ -74,7 +74,7 @@ internal static partial class LegacyText
     /// </summary>
     /// <remarks>
     /// The cell boundaries are matched as lookaround rather than consumed, so
-    /// a run of empty cells — <c>|1-4|6|3|?|?|?|?|9|</c> — repairs every one of
+    /// a run of empty cells, <c>|1-4|6|3|?|?|?|?|9|</c>, repairs every one of
     /// them rather than every other one.
     /// </remarks>
     [GeneratedRegex(@"(?<=\|)([ \t]*)�([ \t]*)(?=\|)")]
@@ -82,7 +82,7 @@ internal static partial class LegacyText
 
     /// <summary>
     /// A replacement character standing alone after a space: a spaced em dash.
-    /// Stat blocks write <c>Languages —</c> to mean "none", which is why the
+    /// Stat blocks write <c>Languages , </c> to mean "none", which is why the
     /// form that ends a line matters as much as the one between two words.
     /// </summary>
     [GeneratedRegex(@"(?<= )�(?=\s|$)")]
@@ -94,8 +94,8 @@ internal static partial class LegacyText
     /// </summary>
     /// <remarks>
     /// The length guards are what keep this rule off proper nouns. The same
-    /// corruption ate accented letters out of names — <c>L?vern</c>,
-    /// <c>Seelv?n</c>, <c>Ty?k</c>, <c>H?sk</c> — and those are unrecoverable.
+    /// corruption ate accented letters out of names (<c>L?vern</c>,
+    /// <c>Seelv?n</c>, <c>Ty?k</c>, <c>H?sk</c>) and those are unrecoverable.
     /// Demanding two word characters on the left and a real word on the right
     /// excludes every such name in the archive while still catching sentence
     /// dashes after short words.
@@ -114,7 +114,7 @@ internal static partial class LegacyText
     /// shape is safe to collapse because no English word begins with a doubled
     /// capital followed by lower case, and the corpus bears that out: the rule
     /// matches eight places in the whole archive and every one of them is a
-    /// drop cap — five variant rules, two chapters and one enhanced item.
+    /// drop cap. Five variant rules, two chapters and one enhanced item.
     /// Anchoring to the start of a line is what keeps it away from the middle
     /// of a sentence, where a doubled capital would more likely be an
     /// abbreviation or an alien name.
@@ -219,7 +219,7 @@ internal static partial class LegacyText
     /// </para>
     /// <para>
     /// Comparison ignores case, every non-alphanumeric character, and a leading
-    /// "Chapter N:" — the number is kept in its own field, so a heading is a
+    /// "Chapter N:". The number is kept in its own field, so a heading is a
     /// repeat of the title whether or not it carries one. A heading that says
     /// anything else is left alone: the Player's Handbook's "What's Different"
     /// opens with "### The Player's Handbook", which is a real subheading and

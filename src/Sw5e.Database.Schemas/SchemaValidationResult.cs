@@ -7,21 +7,21 @@ namespace Sw5e.Database.Schemas;
 /// A JSON Pointer to the value that failed, empty for the document root.
 /// </param>
 /// <param name="Keyword">
-/// The JSON Schema keyword that rejected it — <c>required</c>, <c>pattern</c>,
+/// The JSON Schema keyword that rejected it. <c>required</c>, <c>pattern</c>,
 /// <c>additionalProperties</c> and so on.
 /// </param>
 /// <param name="Message">The validator's sentence about what was wrong.</param>
 /// <remarks>
 /// <para>
 /// These three facts were always in hand and were being thrown away. The
-/// validator formatted them into "<c>{location}: {keyword} — {message}</c>",
+/// validator formatted them into "<c>{location}: {keyword}. {message}</c>",
 /// the API published that string, and the editor in the front end pulled it
 /// back apart with a regular expression so it could put each error beside the
 /// control that caused it.
 /// </para>
 /// <para>
-/// That parser is careful and its failure mode is safe — an unrecognised line
-/// is shown in full rather than dropped — but it is still a guess at a format
+/// That parser is careful and its failure mode is safe, an unrecognised line
+/// is shown in full rather than dropped, but it is still a guess at a format
 /// nothing promises. Nothing on the wire said the shape, no test asserted it,
 /// and it is produced here, one repository away from the code that reads it.
 /// A reworded message would have quietly stopped errors landing on fields.

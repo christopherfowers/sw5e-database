@@ -29,13 +29,13 @@ public sealed record ImportedDocument(string ContentType, string Key, JsonObject
 /// document and one reason;</item>
 /// <item>drop table cells that lost their contents, because a heading with
 /// nothing under it is not a cell;</item>
-/// <item>nothing else — no reordering, no rewriting, no inference.</item>
+/// <item>nothing else. No reordering, no rewriting, no inference.</item>
 /// </list>
 /// <para>
 /// The result is deterministic: the same archive produces the same bytes.
 /// <see cref="ImportedContentTests"/> depends on that, because it asserts that
 /// every committed file in these four directories is exactly what this
-/// produces, which is what makes the corpus reviewable — a diff on
+/// produces, which is what makes the corpus reviewable. A diff on
 /// <c>content/</c> is a diff on the archive plus a named judgement, never an
 /// unexplained edit.
 /// </para>
@@ -72,7 +72,7 @@ public static class LegacyContentImport
     /// Which feature grants this import is responsible for: all of them.
     /// </summary>
     /// <remarks>
-    /// A third of this corpus — 1,593 of 2,682 features — is granted by a
+    /// A third of this corpus (1,593 of 2,682 features) is granted by a
     /// species rather than by a class or an archetype. They were held back
     /// while <c>content/species</c> was a fourteen-item sample, because every
     /// one of them names its species in <c>grantedByName</c> and the seed set's
@@ -187,7 +187,7 @@ public static class LegacyContentImport
     /// <remarks>
     /// <para>
     /// A feature record in the archive carries no source and no content set at
-    /// all — unlike every other type, whose provenance is copied straight
+    /// all. Unlike every other type, whose provenance is copied straight
     /// across. It does carry a storage partition that looks like one, and using
     /// it would be wrong: the partition disagrees with the granting entry for
     /// 47 of these 1,089 features, and the partition is the side that must be
@@ -217,7 +217,7 @@ public static class LegacyContentImport
         // Species are somebody else's import. Their provenance is read from
         // the published documents rather than re-derived from the archive,
         // because those documents are the authority on what this repository
-        // says a species is — and because a species that is not there has to
+        // says a species is, and because a species that is not there has to
         // fail here rather than produce a feature nothing can attribute.
         foreach (var species in PublishedSpecies())
         {

@@ -15,7 +15,7 @@ namespace Sw5e.Database.Tests;
 /// resolves its cross-references. What it cannot prove is that the documents
 /// are <em>there</em>. A build that imported nothing, or imported a tenth of
 /// the corpus because a loop stopped early, satisfies every assertion in that
-/// class trivially — an empty set validates.
+/// class trivially. An empty set validates.
 /// </para>
 /// <para>
 /// So the counts below are exact and derived from the archive rather than from
@@ -203,8 +203,8 @@ public sealed class ImportedCorpusTests
 
     /// <summary>
     /// A glossary entry's body must not open by repeating its own name. The
-    /// archived text does — every entry starts with a level-four heading naming
-    /// the property — and a page that prints its title twice reads as a defect.
+    /// archived text does, every entry starts with a level-four heading naming
+    /// the property, and a page that prints its title twice reads as a defect.
     /// </summary>
     [Theory]
     [InlineData("weapon-property")]
@@ -228,7 +228,7 @@ public sealed class ImportedCorpusTests
     /// <summary>
     /// The rules corpus, by book and kind. Rules are the one content type that
     /// is prose rather than a catalogue, and the four archive files that feed it
-    /// are the only record of which book each passage belongs to — so the split
+    /// are the only record of which book each passage belongs to, so the split
     /// is asserted here, per book, rather than as one total that any mapping
     /// could produce.
     /// </summary>

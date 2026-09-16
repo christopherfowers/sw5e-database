@@ -15,9 +15,9 @@ namespace Sw5e.Database.Tests;
 /// valid, clean and internally consistent, and it would keep proving that if
 /// the directories held four documents instead of 219. That is the failure
 /// this class exists for. The combat options were imported wholesale from a
-/// 2022 archive by a mapping that reads structure out of prose — bullets out
+/// 2022 archive by a mapping that reads structure out of prose (bullets out
 /// of a paragraph, a die cost out of a clause, a form's two halves out of a
-/// blank line — and every one of those rules degrades quietly. A regex that
+/// blank line) and every one of those rules degrades quietly. A regex that
 /// stops matching does not throw; it returns nothing, and the import writes
 /// 219 documents that are each individually valid and collectively useless.
 /// </para>
@@ -104,8 +104,8 @@ public sealed class CombatOptionContentTests
 
     /// <summary>
     /// The three maneuver lists, with the number of maneuvers on each. The
-    /// split matters mechanically — a class feature grants access to a named
-    /// list — so a mapping that collapsed the three into one, or dropped the
+    /// split matters mechanically, a class feature grants access to a named
+    /// list, so a mapping that collapsed the three into one, or dropped the
     /// field and left every maneuver general, has to fail rather than produce
     /// 119 plausible documents.
     /// </summary>
@@ -260,7 +260,7 @@ public sealed class CombatOptionContentTests
     /// <summary>
     /// Fighting masteries are the later-career counterpart of the styles and
     /// are written to be longer. 32 of each, and the masteries carry more
-    /// benefits in total — which is only checkable because the benefits are a
+    /// benefits in total. Which is only checkable because the benefits are a
     /// list rather than prose.
     /// </summary>
     [Fact]

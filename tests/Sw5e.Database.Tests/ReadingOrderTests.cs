@@ -11,7 +11,7 @@ namespace Sw5e.Database.Tests;
 /// <para>
 /// The site does not read <c>chapterNumber</c>, and is not meant to. That field
 /// records where a passage fell in a PDF, which is a fact about a book nobody
-/// browsing a website is holding — and it actively misleads: the handbook
+/// browsing a website is holding, and it actively misleads: the handbook
 /// numbers "What's Different?" -1 so it sorts ahead of the introduction, which
 /// is right for a reader who already plays 5e and wrong for one meeting the
 /// game. It stays in the corpus because it is true about the archive, and the
@@ -52,7 +52,7 @@ public sealed class ReadingOrderTests
     /// </summary>
     /// <remarks>
     /// Every document of that type is a chapter of the one book, so there is
-    /// nothing to filter on — which is why the predicate is a parameter rather
+    /// nothing to filter on. Which is why the predicate is a parameter rather
     /// than this method being a copy of the one above with two conditions
     /// removed.
     /// </remarks>
@@ -88,9 +88,9 @@ public sealed class ReadingOrderTests
     /// </summary>
     /// <remarks>
     /// An absent order is not a schema error: a variant rule has no place in a
-    /// reading path and should not be forced to claim one. But the handbook is
+    /// reading path and should not be forced to claim one, but the handbook is
     /// the path a new reader is walked down, and a chapter of it left unplaced
-    /// simply would not appear — so an omission here is invisible rather than
+    /// simply would not appear, so an omission here is invisible rather than
     /// noisy, which is exactly the kind that needs a test.
     /// </remarks>
     [Fact]
@@ -112,8 +112,8 @@ public sealed class ReadingOrderTests
     /// </summary>
     /// <remarks>
     /// A duplicate is the failure worth catching. Two chapters sharing a
-    /// position do not fail anywhere — they render, in whatever order the tie
-    /// break happens to produce — so the first anybody knows about it is a
+    /// position do not fail anywhere (they render, in whatever order the tie
+    /// break happens to produce) so the first anybody knows about it is a
     /// reader finding the combat chapter before the one that explains dice.
     /// </remarks>
     [Fact]
@@ -173,8 +173,8 @@ public sealed class ReadingOrderTests
     /// Groups are drawn in the order of their earliest member, so the grouping
     /// and the sequence are one decision rather than two that can disagree.
     /// That only holds while a group's members are contiguous: interleave two
-    /// groups and the site must either reorder them — contradicting the
-    /// authored positions — or draw the same heading twice.
+    /// groups and the site must either reorder them, contradicting the
+    /// authored positions, or draw the same heading twice.
     /// </para>
     /// <para>
     /// Nothing enforces this in the schema, because it is a property of the set

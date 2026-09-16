@@ -62,8 +62,8 @@ public sealed class SchemaValidator(SchemaRepository repository)
 
         var violations = Flatten(evaluation).ToList();
 
-        // A rejection with nothing attached to it. It should not happen — the
-        // evaluation said the document is invalid, so something failed — but
+        // A rejection with nothing attached to it. It should not happen (the
+        // evaluation said the document is invalid, so something failed) but
         // an empty list of reasons would reach a contributor as a refusal with
         // no explanation, which is the worst thing this can hand them.
         return violations.Count > 0
@@ -78,7 +78,7 @@ public sealed class SchemaValidator(SchemaRepository repository)
     /// The parts are kept apart rather than formatted here. The instance
     /// location is what lets an error be placed beside the control that caused
     /// it, and it was being joined into a sentence that the front end then took
-    /// back apart with a regular expression — a guess at a format produced in
+    /// back apart with a regular expression. A guess at a format produced in
     /// another repository, which nothing on the wire promised and no test
     /// asserted.
     /// </remarks>

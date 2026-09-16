@@ -11,7 +11,7 @@ namespace Sw5e.Database.Tests;
 /// </summary>
 /// <remarks>
 /// These assertions are deliberately specific. A credits page is the one part
-/// of this repository where being approximately right is being wrong — the
+/// of this repository where being approximately right is being wrong. The
 /// failure mode is not a broken build but somebody's name spelled wrong, or
 /// their acknowledgement for a particular piece of work quietly flattened into
 /// membership of a list. None of that would turn a test red on its own, so the
@@ -200,8 +200,8 @@ public sealed class CreditContentTests
     /// no ground truth to check against. These two are the other case: real
     /// personal names whose surviving letters admit one spelling each. The
     /// assertion is on the repaired form rather than on the mere absence of
-    /// U+FFFD, so that a future import which drops the accent entirely — and
-    /// so passes the replacement-character check — still fails here.
+    /// U+FFFD, so that a future import which drops the accent entirely, and
+    /// so passes the replacement-character check, still fails here.
     /// </remarks>
     [Theory]
     [InlineData("César Díaz")]

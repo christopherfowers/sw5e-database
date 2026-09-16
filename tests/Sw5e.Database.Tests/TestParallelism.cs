@@ -1,7 +1,7 @@
 using Xunit;
 
-// Every test class in this assembly reads the same directory tree — the whole
-// of content/, several thousand files — and one of them writes it: passing
+// Every test class in this assembly reads the same directory tree (the whole
+// of content/, several thousand files) and one of them writes it: passing
 // SW5E_WRITE_CONTENT=1 makes ImportedContentTests regenerate the class graph
 // before asserting on it. xUnit runs collections in parallel by default, so
 // that regeneration raced the readers and failed on a locked file, which is a

@@ -44,8 +44,8 @@ internal sealed class ImportReport
 /// import and an importer that clears the directory would silently revert that.
 /// </para>
 /// <para>
-/// The mechanical half of this mapping — which archive field becomes which
-/// document field — is also written out in the test project's
+/// The mechanical half of this mapping, which archive field becomes which
+/// document field, is also written out in the test project's
 /// <c>LegacyContentMapper</c>, which applies no repair and is what proves the
 /// schemas fit every one of the archive's records. The two agree on structure
 /// by construction: if they disagreed, the imported documents would fail the
@@ -140,8 +140,8 @@ internal static class LegacyImporter
     // ---------------------------------------------------------- enhanced items
 
     /// <summary>
-    /// The legacy record carries ten mutually exclusive <c>*Type</c> fields —
-    /// one per kind of enhanced item — of which at most one is ever set, and
+    /// The legacy record carries ten mutually exclusive <c>*Type</c> fields,
+    /// one per kind of enhanced item, of which at most one is ever set, and
     /// which for over half the corpus are all "None" even when the item plainly
     /// has a kind. The <c>subtype</c> field says the same thing for every
     /// record and says it more precisely, so it is the one that is kept and the
@@ -192,8 +192,8 @@ internal static class LegacyImporter
     /// The archive stores rarity twice as an array and twice as a string. Every
     /// one of the 1,918 records has exactly one rarity, so the array is
     /// collapsed to a scalar. <c>rarityOptions</c> is preferred over
-    /// <c>rarityText</c>, which is inconsistently cased — eleven records
-    /// capitalise it and the rest do not — and over <c>searchableRarity</c>,
+    /// <c>rarityText</c>, which is inconsistently cased, eleven records
+    /// capitalise it and the rest do not, and over <c>searchableRarity</c>,
     /// which is a display artefact of the old site's search box.
     /// </summary>
     private static string Rarity(JsonObject item)
@@ -219,7 +219,7 @@ internal static class LegacyImporter
     /// small ways and consistent in every other: three item modifications
     /// capitalise "Lightweapon" where a hundred and nine do not, and one
     /// adventuring-gear entry writes the singular "forearm" where the other
-    /// writes "forearms" — as every other paired body slot in the list does,
+    /// writes "forearms". As every other paired body slot in the list does,
     /// "hands", "legs", "shoulders". Fifty adventuring-gear entries record no
     /// subtype at all, which stays absent rather than becoming an empty string.
     /// </summary>
@@ -297,9 +297,9 @@ internal static class LegacyImporter
     /// </summary>
     /// <remarks>
     /// Chapter keys carry the book's key as a prefix. Seven chapter titles are
-    /// reused across the books — all three print a chapter called "Equipment",
+    /// reused across the books (all three print a chapter called "Equipment",
     /// and "Customization Options", "Using Ability Scores", "Introduction",
-    /// "Changelog", "Enhanced Items" and "Species" each appear in two — so an
+    /// "Changelog", "Enhanced Items" and "Species" each appear in two) so an
     /// unprefixed key would silently drop whichever book was imported first.
     /// </remarks>
     private static IEnumerable<ImportedDocument> RuleChapters(
@@ -349,7 +349,7 @@ internal static class LegacyImporter
     /// <summary>
     /// The forty optional variant rules. They are attributed to the Expanded
     /// Content supplement because that is the book whose "Variant Rules"
-    /// chapter prints them — the archive marks every one of them as expanded
+    /// chapter prints them. The archive marks every one of them as expanded
     /// content and records no source of its own.
     /// </summary>
     private static IEnumerable<ImportedDocument> VariantRules(

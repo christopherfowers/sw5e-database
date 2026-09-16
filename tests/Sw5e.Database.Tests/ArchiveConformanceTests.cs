@@ -42,7 +42,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
         // because that is how the archive stores them and how the books print
         // them: a character chooses a fighting style from one list and a
         // fighting mastery from another, and nothing lets one stand in for the
-        // other. The counts are the point of writing them down — the whole set
+        // other. The counts are the point of writing them down. The whole set
         // is 219 items, and a mapping that quietly produced 40 of them would
         // otherwise look identical to one that worked.
         ("maneuver", "Maneuvers", 119),
@@ -70,7 +70,7 @@ public sealed class ArchiveConformanceTests(ITestOutputHelper output)
         // The rules prose. Four more mapping keys that are not content types,
         // for the same reason the class improvements need them: every rules
         // record in the archive has a contentSource of "None", so the file is
-        // the only thing that says which book printed the chapter — or that it
+        // the only thing that says which book printed the chapter, or that it
         // is not a chapter at all but one of the optional variant rules.
         ("rule/phb", "playerHandbookRule", 16),
         ("rule/wh", "wretchedHivesRule", 10),
