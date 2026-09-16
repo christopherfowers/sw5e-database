@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/page/v1.json",
+  "title": "Page",
+  "description": "The words a built page carries that are not drawn from the corpus: a hero paragraph, the heading and sentence above a section. One document per page, keyed by the route it belongs to. Every slot is optional, and a slot nobody has filled in renders the wording the page was built with, so a deployment holding no page documents at all looks exactly as it did before this type existed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "enum": [
+        "home"
+      ],
+      "description": "Which page this describes. A closed set rather than a free slug, because a page document only means anything where the built page reads it, and a document keyed to a route nobody renders is a silent no-op that looks like a broken edit."
+    },
+    "heroLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The paragraph under the site's name, which says what the game is before it says what the site does. Rendered as text, never as markup."
+    },
+    "booksHeading": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading above the shelf of rulebooks."
+    },
+    "booksLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence under that heading. Left empty it counts the books itself, which is the wording that cannot go stale; filling it in means you own the sentence, including any number in it."
+    },
+    "resourcesHeading": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading above the character sheets and other files the site hosts."
+    },
+    "resourcesLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence under that heading."
+    },
+    "touchHeading": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading above the community's links."
+    },
+    "touchLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence under that heading."
+    }
+  }
+}
