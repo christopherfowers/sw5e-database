@@ -33,5 +33,5 @@ where it looked and passes, so a checkout on its own still builds green.
 ## Reviewing content changes
 
 Changes to canonical game content are reviewed like code. A content pull request
-should state its source — the book and page it comes from — so a reviewer can
+should state its source, the book and page it comes from, so a reviewer can
 verify it against the original text.
