@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://sw5e.com/schemas/channel/v1.json",
   "title": "Channel",
-  "description": "A place the community gathers, off this site — a Discord, a subreddit, a funding page. Content rather than markup, because this is an open-source project whose leadership is expected to change hands, and the day the Discord moves should not require a code edit and a deploy by whoever still has commit rights.",
+  "description": "A link to somewhere the community gathers away from this site: a Discord, a subreddit, a funding page. These are content rather than code so that they can be changed without a developer, which matters for a project whose leadership is expected to change hands.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -32,7 +32,7 @@
         "opencollective",
         "githubsponsors"
       ],
-      "description": "Which service this is. A closed set on purpose: it decides the icon, the label a reader sees, and — the part that matters — the hosts the URL is allowed to use. Adding a platform is an edit to this file and to the site's host allowlist, which means it goes through review. That is the one part of a channel a compromised administrator account cannot reach."
+      "description": "Which service this link goes to. This decides the icon and the label on the button, and which web addresses the link is allowed to use: a Discord link has to point at Discord. Adding a service to this list is a code change."
     },
     "group": {
       "type": "string",
@@ -41,28 +41,28 @@
         "connect",
         "support"
       ],
-      "description": "Which column it appears under. A group with no enabled channels renders nothing at all — no heading, no empty column — which is how a site with no funding page simply has no Support column rather than an empty one."
+      "description": "Which column this appears under on the front page. A column with nothing enabled in it is not drawn at all, so the site simply has no Support column rather than an empty one."
     },
     "url": {
       "type": "string",
       "format": "uri",
       "pattern": "^https://",
-      "description": "Where it goes. HTTPS only: every platform here serves it, and a downgrade has no legitimate use. The site checks the host against the platform as well, which the schema cannot express."
+      "description": "Where the link goes. Must start with https, and must match the service chosen above, or the site will not show it."
     },
     "blurb": {
       "type": "string",
       "minLength": 1,
-      "description": "The paragraph above the group this channel belongs to. Rendered as text, never as markup."
+      "description": "The paragraph above this column. Shown as plain text, so formatting marks would appear as characters."
     },
     "order": {
       "type": "integer",
       "minimum": 1,
-      "description": "Where it sits within its group."
+      "description": "Where this sits within its column."
     },
     "enabled": {
       "type": "boolean",
       "default": true,
-      "description": "False hides the channel without discarding its history. Turning one off is the reversible alternative to deleting it."
+      "description": "Untick to hide this link without deleting it. Use this rather than deleting when a link might come back."
     }
   }
 }
