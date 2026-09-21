@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-natural-empathy",
+  "name": "Natural Empathy",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "Nautolan head tentacles are adept at determining moods. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

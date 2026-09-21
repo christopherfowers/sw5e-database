@@ -1,0 +1,11 @@
+{
+  "key": "rocket-fragmentation-lethal",
+  "name": "Rocket, Fragmentation (Lethal)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack rolls made with this enhanced rocket launcher ammunition, which deals 3d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 22 Dexterity saving throw, taking 10d10 kinetic damage on a failed save or half as much on a successful one."
+}

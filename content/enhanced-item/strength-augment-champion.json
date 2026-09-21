@@ -1,0 +1,11 @@
+{
+  "key": "strength-augment-champion",
+  "name": "Strength Augment (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Strength score increases by 2, and your maximum for this score increases by 2."
+}

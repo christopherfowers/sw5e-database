@@ -1,0 +1,9 @@
+{
+  "key": "species-ssi-ruu-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Ssi-Ruu",
+  "description": "Ssi-ruuk typically stand between 6 or 7 feet tall and weigh over 300 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

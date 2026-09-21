@@ -1,0 +1,16 @@
+{
+  "key": "weapon-slave-array",
+  "name": "Weapon Slave Array",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Hardpoint",
+      "modificationName": "Hardpoint"
+    }
+  ],
+  "description": "A weapon slave array is attached to a hardpoint and used to fire the weapon effectively from a remote station.  A crewmember taking the Attack Run, Dogfight, or Harass action and using a weapon equipped to this hardpoint is no longer limited to a forward facing arc.\nAdditionally, when taking the Fire action with a weapon equipped to this hardpoint, a crewmwmber at the helm no longer suffers disadvantage with a forward-facing limited arc."
+}

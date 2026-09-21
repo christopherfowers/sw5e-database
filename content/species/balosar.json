@@ -1,0 +1,85 @@
+{
+  "key": "balosar",
+  "name": "Balosar",
+  "size": "medium",
+  "homeworld": "Balosar",
+  "nativeLanguage": "Balosur",
+  "lore": "### Biology and Appearance\nPhysically similar to humans, balosars appear to be sickly and gaunt when compared with the galaxy's most common species due to the heavy pollution of their homeworld. The most striking difference between balosars and humanity is a pair of antennapalps which sprouts from underneath the thick, coarse hair on their skulls. Retractable, these atennapalps allow them to listen into the subsonic range and give the species physical intuition and preternatural reflexes, which members of the Jedi Order sometimes mistook for Force-sensitivity. Balosars also possess an acute tolerance for poisonous substances, a byproduct of life on their toxic homeworld.\n\n### Society and Culture\nEarly in its history, the balosar homeworld was overrun by galactic megacorporations eager to exploit the world's lax ecological protection laws. The planet was home to the balo mushroom, a key ingredient in death sticks, one of the galaxy's most infamous narcotics. After its discovery, Balosar was wrought with corruption, addiction, and pollution from the production and usage of death sticks.\n\nSince there is little opportunity to flourish on their homeworld, balosars often leave in search of fortune elsewhere. Their natural resistance to the lethal—but not the addictive—effects of the drug encourages some to enter the death stick business.\n\n### Names\nBalosar names have a slight exotic tinge to them—often because Balosar parents name their children while on a death stick high. Their surnames are familial.\n\n**Male Names.** Barin, Elan, Fantes, Zerba\n\n**Female Names.** Delaana, Ferrika, Reki, Vetyl\n\n**Surnames.** Cher'dak, Mer'darro, Sel'Sabagno",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Balosars reach adulthood in their late teens and live about 70 years naturally, though death stick addiction has lead to a general decline in their lifespan."
+    },
+    {
+      "name": "Alignment",
+      "description": "Balosars are notoriously cynical, selfish, and pragmatic, causing most to be neutral dark side. However, there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Balosar stand at an average height of about 5 feet, and weigh about 115 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Keen Hearing",
+      "description": "Your antennapalps give you advantage on Wisdom (Perception) checks based on hearing."
+    },
+    {
+      "name": "Snap Senses",
+      "description": "Through your antennapalps, you can sense incoming danger and react accordingly. When you roll for initiative, you can choose to gain advantage on the roll. Alternatively, if you are surprised, you may act normally on your first turn. Once you've used this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Spicer",
+      "description": "You are proficient in spicer's kit."
+    },
+    {
+      "name": "Toxin Resistance",
+      "description": "You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9)."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Balosur. Balosur is known by its throaty rasps and deep vocalizations, and is considered crude as a written language."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Antennapalps, resistance to toxins",
+    "skinColorOptions": "Pale",
+    "hairColorOptions": "Black, blond, orange, brown, white",
+    "eyeColorOptions": "Varies"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_balosar.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

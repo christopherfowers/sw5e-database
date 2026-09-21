@@ -1,0 +1,9 @@
+{
+  "key": "species-ardennian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ardennian",
+  "description": "You can speak, read, and write Galactic Basic and Ardennian. Ardennian has a bubbly, energizing tone to it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "venomous-strike",
+  "name": "Venomous Strike",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Varies",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "As part of the action used to cast this power, you must make a melee weapon attack against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and if you were hidden from it, it takes an additional 1d4 poison damage.\n\nThis power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 poison damage to the target, and the damage the target takes when you are hidden from it increases to 2d4. Both damage rolls increase by 1d8 and 1d4, respectively, at 11th level and 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

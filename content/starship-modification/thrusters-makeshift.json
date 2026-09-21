@@ -1,0 +1,9 @@
+{
+  "key": "thrusters-makeshift",
+  "name": "Thrusters, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You improve your ship's thrusters, at a cost. Your ship's Dexterity score increases by 1. One ability score other than Dexterity (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+}

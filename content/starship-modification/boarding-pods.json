@@ -1,0 +1,20 @@
+{
+  "key": "boarding-pods",
+  "name": "Boarding Pods",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite adds boarding pods to your ship. Boarding pods are designed to be fired at a ship, burrow into the ship's hull, and inject host droids to overcome the target ship. Each boarding pod can support ten Medium or smaller droids. The quantity of boarding pods is equal to one-hundredth of the ship's suite capacity, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nBoarding pods are Small size and have a flying speed of 200 feet, a turning speed of 100 feet, an AC of 12, and 10 hull points. Boarding pods do not have weapons, but can take the Ram action. The DC for the saving throw is 12, and the target has disadvantage. On a failure, the ship takes 2d4 kinetic damage, and the pod burrows into the ship's hull, releasing its contents on the target ship."
+}

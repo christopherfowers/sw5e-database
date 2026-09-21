@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "Droids don't age, though they require maintenance to retain functionality.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

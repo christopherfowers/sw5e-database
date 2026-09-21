@@ -1,0 +1,10 @@
+{
+  "key": "clothes-traveler-s",
+  "name": "Clothes, traveler's",
+  "category": "clothing",
+  "costInCredits": 20,
+  "weight": 4.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

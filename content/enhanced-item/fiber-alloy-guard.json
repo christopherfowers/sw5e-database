@@ -1,0 +1,12 @@
+{
+  "key": "fiber-alloy-guard",
+  "name": "Fiber-Alloy Guard",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "prerequisite": "Two-handed property",
+  "description": "This weapon loses the two-handed property."
+}

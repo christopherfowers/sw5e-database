@@ -1,0 +1,12 @@
+{
+  "key": "hawkeye-ocular-package",
+  "name": "Hawkeye Ocular Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Intelligence 13",
+  "description": "This augmentation replaces your eyes.\n\nYou can activate or deactivate this augmentation as a bonus action. While this augmentation is active, you gain advantage on Wisdom (Perception) checks that rely on sight beyond 30 feet. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.\n\n**Side Effect:** While this augmentation is active, you have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks within 30 feet that rely on sight.\n\n_This eye replacement features integrated macrobinoculars, granting improved ability to see further away._"
+}

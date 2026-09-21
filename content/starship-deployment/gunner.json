@@ -1,0 +1,90 @@
+{
+  "key": "gunner",
+  "name": "Gunner",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "role": "Controls one or more weapon emplacements",
+  "rankProgression": [
+    {
+      "rank": 1,
+      "features": [
+        "Venture",
+        "Gunner Techniques"
+      ]
+    },
+    {
+      "rank": 2,
+      "features": [
+        "Gunning Style",
+        "Improved Critical"
+      ]
+    },
+    {
+      "rank": 3,
+      "features": [
+        "Dependable Gunner",
+        "Brutal Critical"
+      ]
+    },
+    {
+      "rank": 4,
+      "features": [
+        "Gunning Mastery",
+        "Protean Gunner"
+      ]
+    },
+    {
+      "rank": 5,
+      "features": [
+        "Paragon Gunner",
+        "Maximum Power"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "Venture",
+      "description": "Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures)."
+    },
+    {
+      "name": "Gunner Techniques",
+      "description": "Also at 1st rank, you learn gambits that are fueled by special dice called power dice.\n\n#### Gambits\nYou learn two gambits of your choice, which are detailed under \"Gambits\" below. Many gambits enhance an attack in some way. You can use only one gambit per attack, and you can only use each gambit once per turn.\n\nYou learn an additional gambit at 2nd, 3rd, 4th, and 5th rank in this deployment. Each time you learn a new gambit, you can also replace one gambit you know with a different one.\n\n#### Power Dice\nA power die is expended when you use it. Your ship must have a power die at the required system in order to use the gambit.\n\nYour ship gains power dice based primarily on reactor production.  These power dice are stored in a central and/or system capacitors to power abilities of crewmembers.  Your power die type is determined by your ship tier."
+    },
+    {
+      "name": "Gambits",
+      "description": "The gambits are presented in alphabetical order.\n\n#### Crippling Shot\n_**Power Die Location:** Weapons_\nWhen you hit a ship with a ship attack, you can expend one power die to cripple it. Add the power die to the attack's damage roll, and the target ship's flying speed is reduced by half until the end of their next turn.\n\n#### Disabling Shot\n_**Power Die Location:** Weapons_\nWhen you make a ship attack roll against a ship, you can expend one power die to add it to the roll. On a hit, the ship has disadvantage on the next ability check or attack roll it makes before the end of your next turn.\n\n#### Distracting Shot\n_**Power Die Location:** Weapons_\nWhen you hit a ship with a ship attack, you can expend one power die to give your allies an opening. You add the power die to the attack's damage roll, and the next attack roll against the target by someone other than you has advantage if the attack is made before the start of your next turn.\n\n#### Explosive Shot\n_**Power Die Location:** Weapons_\nWhen you reduce a ship to 0 hit points, you can expend one power die and use a bonus action on your turn to make one additional ship attack against a different ship within range. If that attack hits, add the power die to the attack's damage roll.\n\n#### Expose Weakness\n_**Power Die Location:** Weapons_\nWhen you hit a ship with a ship attack, you can expend a power die and deal additional damage equal to the number rolled. This damage cannot be reduced in any way.\n\n#### Feinting Shot\n_**Power Die Location:** Weapons_\nYou can expend one power die and use a bonus action on your turn to feint, choosing one ship within your primary weapon's normal range as your target. You have advantage on your next attack roll against that ship. If that attack hits, add the power die to the attack's damage roll.\n\n#### Penetrating Shot\n_**Power Die Location:** Weapons_\nWhen you hit a ship with a ship attack, you can expend one power die to attempt to damage another ship with the same attack. Choose a second ship within 150 feet of and directly behind your initial target. If the original attack roll would hit the second ship, it takes damage equal to the number you roll on your power die. The damage is of the same type dealt by the original attack.\n\n#### Precision Shot\n_**Power Die Location:** Weapons_\nWhen you make a ship attack roll against a ship, you can expend one power die to add it to the roll. If that attack hits, add the power die to the attack's damage roll. You can use this power before or after making the attack roll, but before any effects of the attack are applied."
+    },
+    {
+      "name": "Gunning Style",
+      "description": "At 2nd rank, you adopt a particular style of gunning as your specialty. Choose one of the Gunning Style options, detailed in Chapter 6. You can't take a Gunning Style option more than once, even if you later get to choose again."
+    },
+    {
+      "name": "Improved Critical",
+      "description": "Also at 2nd rank, your critical hit range with primary and secondary weapons increases by 1, and when a ship rolls a 1 on a saving throw against a tertiary or quaternary weapon that you control, they treat the effect's damage as if it had rolled the maximum."
+    },
+    {
+      "name": "Dependable Gunner",
+      "description": "Starting at 3rd rank, when you roll for damage with a ship weapon, you can reroll one of the dice, but you must use the new result.  You may use this feature a number of times equal to your ranks in gunner.  You regain all expended uses when you complete a long rest."
+    },
+    {
+      "name": "Brutal Critical",
+      "description": "Also at 3rd rank, you can roll the weapon damage dice one additional time when determining the extra damage for a critical hit with a ship weapon."
+    },
+    {
+      "name": "Gunning Mastery",
+      "description": "At 4th rank, you master a particular style of gunning. Choose one of the Gunning Mastery options, detailed in Chapter 6. You can't take a Gunning Mastery option more than once, even if you later get to choose again."
+    },
+    {
+      "name": "Protean Gunner",
+      "description": "Also at 4th rank, you can choose a second Gunning Style option."
+    },
+    {
+      "name": "Paragon Gunner",
+      "description": "At 5th rank, when you would expend a power die, you can use a d4 instead of expending a die. You can only use this feature once per round.\n\nAdditionally, when you make a ship attack roll, you can choose to make the roll a critical hit. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Maximum Power",
+      "description": "Also at 5th rank, when you hit a ship with a ship attack, you can deal maximum damage with that attack.\n\nOnce you've used this feature, you can't use it again until you finish a short or long rest."
+    }
+  ]
+}

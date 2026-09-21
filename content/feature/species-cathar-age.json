@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "Cathar reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

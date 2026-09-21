@@ -1,0 +1,9 @@
+{
+  "key": "kennel",
+  "name": "Kennel",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite comes with all of the proper equipment to house beasts and comes with an integrated trapper's kit. When making Animal Handling or trapper's kit checks on your ship, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.\nAdditionally, while crafting in a kennel using the integrated kit, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your proficiency bonus to checks you make with them, the market value increases by 10 x your character level.\nLastly, this suite can house a number of medium beasts equal to half of the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nAlternatively, this suite can house beasts of other sizes. A Huge beast takes up the space of two Large beasts, which in turn takes up the place of two Medium beasts, and so on."
+}

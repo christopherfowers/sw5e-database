@@ -1,0 +1,11 @@
+{
+  "key": "rocket-boots",
+  "name": "Rocket boots",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 2500,
+  "weight": 3.0,
+  "description": "Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 25 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cells.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

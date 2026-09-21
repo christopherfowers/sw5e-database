@@ -1,0 +1,86 @@
+{
+  "key": "rattataki",
+  "name": "Rattataki",
+  "size": "medium",
+  "homeworld": "Rattatak",
+  "nativeLanguage": "Rattataki",
+  "lore": "### Biology and Appearance\nThe Rattataki are a near-human species characterized by their nimble movements, chalk-white skin and oft-bald heads. Virtually isolated from the rest of the galaxy, the Rattataki developed a violent society on their home planet of Rattatak, which involves extensive gladiatorial combat.\n\n### Society and Culture\nWhile most other inhabitants of Rattatak came from the Unknown Regions, there are a significant number of off-worlder mercenaries who come to Rattatak from time to time, likely to view or participate in gladiatorial combat, only to be stranded there permanently. The remarkably harsh conditions on the planet nearly drove its population to extinction. For eons, the Rattataki constantly battled amongst themselves and their fellow inhabitants (represented primarily by Humans, Zabraks, Siniteens, Vollick, and Weequay) over the planet's limited resources. Despite being nearly completely isolated from the outside galaxy, the Rattataki displayed remarkable initiative and continually created new ways to kill each other.\n\nRattataki culture is bloody and unforgiving. Punishment for even the smallest crimes is unnecessarily harsh, which does little to quell that behavior. In fact, Rattataki who are known to commit crimes without being caught are celebrated.\n\n### Names\nRattataki names are harsh sounding and short. Surnames are familial, though many Rattataki abandon them in favor of self-aggrandizing titles.\n\n**Male Names.** Aidus, Charnagus, Karok, Veran\n\n**Female Names.** Amaran, Kassien, Silas, Sraja, Vol\n\n**Surnames.** Anjek, Danvik, Degger, Kolla, Venkorr",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Dexterity or Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Rattataki reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Rattataki are self-serving and violent which causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Rattataki typically stand about 5 and a half feet tall and weigh 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 35 feet."
+    },
+    {
+      "name": "Acrobatic",
+      "description": "You have proficiency in Acrobatics."
+    },
+    {
+      "name": "Intimidating",
+      "description": "You have proficiency in Intimidation."
+    },
+    {
+      "name": "Surprise Attack",
+      "description": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+    },
+    {
+      "name": "Unarmed Combatant",
+      "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Rattataki. Rattataki is known for have an inordinate amount of curses."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity",
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'4\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "90 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Near-human features, white skin, usually with a bald head, often tattooed",
+    "skinColorOptions": "Chalk-white",
+    "hairColorOptions": "Brown, grey or white",
+    "eyeColorOptions": "Grey or white"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_rattataki.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

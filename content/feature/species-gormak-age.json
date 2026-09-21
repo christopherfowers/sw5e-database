@@ -1,0 +1,9 @@
+{
+  "key": "species-gormak-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Gormak",
+  "description": "Gormaks reach adulthood in their late teens and live for more than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

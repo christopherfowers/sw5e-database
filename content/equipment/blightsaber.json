@@ -1,0 +1,21 @@
+{
+  "key": "blightsaber",
+  "name": "Blightsaber",
+  "category": "weapon",
+  "costInCredits": 1800,
+  "weight": 2.5,
+  "properties": [
+    "corruption 13",
+    "hidden",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "necrotic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

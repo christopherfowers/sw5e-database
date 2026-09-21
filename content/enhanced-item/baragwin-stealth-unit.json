@@ -1,0 +1,11 @@
+{
+  "key": "baragwin-stealth-unit",
+  "name": "Baragwin Stealth Unit",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile wearing this belt, you can turn on its stealth field to cause yourself to become invisible. While you are invisible, anything you are carrying or wearing is invisible with you. You become visible when you turn off the field. Turning the field on or off requires an action.\n\nDeduct the time you are invisible, in increments of 1 minute, from the belt's maximum duration of 2 hours. After 2 hours of use, the belt ceases to function. For every uninterrupted period of 12 hours the belt goes unused, it regains 1 hour of use.\n\n_Those Baragwin who sought to turn their telepathic empathy into an asset for bounty hunting needed something special to overcome the drawbacks of their lumbering frames._"
+}

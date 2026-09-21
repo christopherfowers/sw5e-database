@@ -1,0 +1,17 @@
+{
+  "key": "minor-hologram",
+  "name": "Minor Hologram",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "10 feet",
+  "duration": "Up to 1 hour",
+  "concentration": false,
+  "description": "This ability is a minor tech trick that creates one of the following effects within range.\n- You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.\n- You instantaneously light or snuff out a source of light.\n- You instantaneously clean or soil an object no larger than 1 cubic foot.\n- You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.\n- You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.\n- You create a trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.\n\nIf you use this power multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

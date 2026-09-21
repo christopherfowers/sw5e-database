@@ -1,0 +1,23 @@
+{
+  "key": "cycler-rifle",
+  "name": "Cycler rifle",
+  "category": "weapon",
+  "costInCredits": 825,
+  "weight": 7.5,
+  "properties": [
+    "rapid 2",
+    "reload 8",
+    "slug cartridge (range 90/360)",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

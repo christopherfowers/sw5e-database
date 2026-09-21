@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/credit/v1.json",
+  "title": "Credit",
+  "description": "One person's acknowledgement for one kind of work. The unit is the pairing rather than the person, because somebody can appear in more than one category and be owed a different thing by each: the same handle turns up in the Jedi Council for writing a book of archetypes and again among the contributors for reviewing everyone else's. Splitting those into two documents is what lets each be edited, reordered or corrected without touching the other. Where the original credits recorded what somebody actually did, that sentence is the most valuable part of the record and is kept verbatim in contribution.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "categoryKey", "order"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this credit. Built from the category key and a slug of the name, because a name alone is not unique across the corpus once the same person is credited in two categories."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The person as they chose to be known: a handle, a full name, or whatever they gave. Reproduced exactly as the original credits recorded it, including capitalisation, because this is the one field where getting somebody's own spelling of their own name right is the entire point. Names are never normalised, tidied or case-folded."
+    },
+    "categoryKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the category this credit belongs to, matching a document of the credit-category content type."
+    },
+    "contribution": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What this person specifically did, as a fragment that reads on from the name: \"for the epic cover and SW5e logo\". Present only where the source actually recorded it. Never invent one to fill the field, and never generalise a specific credit into a vague one: an unrecorded contribution is a fact about the archive worth showing honestly, whereas a guessed one silently misattributes work."
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Somewhere this person can be found, if they have offered one: a portfolio, a shop, a profile. Absent by default. Only add a link the person themselves published for this purpose."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Position within the category, counting from one. Held explicitly rather than sorted at render time so that a category the original site ordered deliberately keeps that order, and so an editor can move one entry without renaming anything."
+    }
+  }
+}

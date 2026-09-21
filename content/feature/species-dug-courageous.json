@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-courageous",
+  "name": "Courageous",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "You have advantage on saving throws against being frightened.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

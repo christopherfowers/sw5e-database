@@ -1,0 +1,9 @@
+{
+  "key": "species-kaminoan-geneticist",
+  "name": "Geneticist",
+  "grantedBy": "species",
+  "grantedByName": "Kaminoan",
+  "description": "You have proficiency in the Medicine skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

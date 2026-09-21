@@ -1,0 +1,12 @@
+{
+  "key": "vaapad-form",
+  "name": "Vaapad Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Once before the start of your next turn, if you would have advantage on a melee weapon attack, you can choose to forgo the advantage. If you do so, you can make one melee weapon attack against the same target (no action required), also without advantage."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

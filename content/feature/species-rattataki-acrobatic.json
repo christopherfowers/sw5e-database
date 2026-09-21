@@ -1,0 +1,9 @@
+{
+  "key": "species-rattataki-acrobatic",
+  "name": "Acrobatic",
+  "grantedBy": "species",
+  "grantedByName": "Rattataki",
+  "description": "You have proficiency in Acrobatics.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

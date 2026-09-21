@@ -1,0 +1,17 @@
+{
+  "key": "force-intuition",
+  "name": "Force Intuition",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "8 hours",
+  "concentration": false,
+  "description": "Your senses attune to your environment for the duration, allowing you to see things before they happen, and react even faster than normal. For the duration, you can use your forcecasting ability modifier in place of your Dexterity modifier when you make initiative checks, if the check doesn't already include that modifier.\n\nIn addition, once during the duration of this power, if you are surprised at the start of combat, rather than being completely unable to act, you can still use a reaction, and take an action on your first turn in combat. This action can be used only to take one of the following actions: Dash, Disengage, Dodge, Hide, or Use an Object.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

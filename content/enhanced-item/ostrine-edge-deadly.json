@@ -1,0 +1,11 @@
+{
+  "key": "ostrine-edge-deadly",
+  "name": "Ostrine Edge (Deadly)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you deal damage with this weapon, you deal an additional 1d4 acid, cold, fire, lightning, poison, or sonic damage (chosen by the GM when generating this item)."
+}

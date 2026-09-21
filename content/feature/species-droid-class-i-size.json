@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-i-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class I",
+  "description": "Class I droids stand between 5 and 6 feet tall and weigh about 170 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

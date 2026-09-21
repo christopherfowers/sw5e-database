@@ -1,0 +1,9 @@
+{
+  "key": "species-toydarian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Toydarian",
+  "description": "Toydarians average 4 feet tall and weigh less than 50 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

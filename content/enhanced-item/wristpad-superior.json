@@ -1,0 +1,11 @@
+{
+  "key": "wristpad-superior",
+  "name": "Wristpad (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "tech",
+  "description": "_**Requires attunement**_\nYou gain a +3 bonus to the tech attack rolls for tech powers you cast through this wristpad."
+}

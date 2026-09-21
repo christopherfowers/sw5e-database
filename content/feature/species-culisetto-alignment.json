@@ -1,0 +1,9 @@
+{
+  "key": "species-culisetto-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Culisetto",
+  "description": "Culisettos' thirst for blood cause them to tend towards the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

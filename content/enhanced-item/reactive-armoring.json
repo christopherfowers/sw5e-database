@@ -1,0 +1,12 @@
+{
+  "key": "reactive-armoring",
+  "name": "Reactive Armoring",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the reactive 1 property. If it already has the reactive property, its reactive number increases by 1, to a maximum of 3."
+}

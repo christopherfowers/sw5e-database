@@ -1,0 +1,9 @@
+{
+  "key": "species-aqualish-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Aqualish",
+  "description": "Aqualish reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-champion-approach-battlefield-euphoria-10",
+  "name": "Battlefield Euphoria",
+  "grantedBy": "archetype",
+  "grantedByName": "Champion Approach",
+  "level": 10,
+  "description": "_**Champion Approach:** 10th level_\nWhile raging, when you score a critical hit with a melee weapon attack, and when you reduce a hostile creature to 0 hit points with a melee weapon attack, you recover an expended superiority die.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

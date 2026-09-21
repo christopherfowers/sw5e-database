@@ -1,0 +1,11 @@
+{
+  "key": "constitution-dataport-champion",
+  "name": "Constitution Dataport (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item loses the constitution property."
+}

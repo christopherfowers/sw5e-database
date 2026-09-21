@@ -1,0 +1,7 @@
+{
+  "key": "counterslicer",
+  "name": "Counterslicer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you are the target of the Interfere action and are forced to make an Wisdom (Scan), if you succeed on the contest, you have advantage on the next Charisma (Interfere) check you make before the end of your next turn."
+}

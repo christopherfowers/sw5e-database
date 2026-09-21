@@ -1,0 +1,9 @@
+{
+  "key": "navcomputer",
+  "name": "Navcomputer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "description": "This modification adds a navcomputer slot on your ship and includes a basic navcomputer.  Your ship is proficiently equipped for Intelligence (Astrogation) checks.  A crewmember can use their bonus action to make their Intelligence (Astrogation) check, rather than their action. Your ship can still only make one check per round."
+}

@@ -1,0 +1,22 @@
+{
+  "key": "saberwhip",
+  "name": "Saberwhip",
+  "category": "weapon",
+  "costInCredits": 750,
+  "weight": 3.5,
+  "properties": [
+    "finesse",
+    "hidden",
+    "luminous",
+    "reach"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

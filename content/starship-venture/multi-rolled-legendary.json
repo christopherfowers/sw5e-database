@@ -1,0 +1,22 @@
+{
+  "key": "multi-rolled-legendary",
+  "name": "Multi-Rolled, Legendary",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "other",
+      "text": "Dual Roles"
+    },
+    {
+      "kind": "other",
+      "text": "Multi-Roles"
+    },
+    {
+      "kind": "deploymentRank",
+      "text": "Rank 5",
+      "rank": 5
+    }
+  ],
+  "description": "Over a long rest you may switch out a number of deployment maneuvers (collaboration, gambit, technique, disruption, tactic, or stratagem) you know up to your intelligence modifier (minimum of 1) for an equal number of maneuvers from other deployments.\nIf any of your chosen maneuvers are a technique, you can use a power die from any location instead of a tech die for that technique."
+}

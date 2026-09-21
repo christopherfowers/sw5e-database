@@ -1,0 +1,27 @@
+{
+  "key": "ion-cannon-point-defense",
+  "name": "Ion cannon point-defense",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 5500,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "ionizing",
+    "saturate",
+    "zone"
+  ],
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "ion"
+  },
+  "range": {
+    "normal": 300,
+    "long": 1200
+  }
+}

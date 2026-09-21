@@ -1,0 +1,17 @@
+{
+  "key": "slow",
+  "name": "Slow",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "15 feet",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "A hostile creature of your choice must make a Constitution saving throw. On a failed save, the target gains 1 slowed level until the power ends. At the end of each of the creature's turns, it repeats this saving throw, ending the effect on a success.\n\nThis power can affect multiple targets when you reach higher levels: two targets at 5th level, three targets at 11th level, and four targets at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

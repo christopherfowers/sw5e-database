@@ -1,0 +1,22 @@
+{
+  "key": "bitesaber",
+  "name": "Bitesaber",
+  "category": "weapon",
+  "costInCredits": 1800,
+  "weight": 2.5,
+  "properties": [
+    "biting 13",
+    "hidden",
+    "luminous",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "acid"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "denounce",
+  "name": "Denounce",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "30 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "A target of your choice within range must make a Charisma saving throw. On a failed save, when the target makes their next attack roll or saving throw they must roll a d4 and subtract the number from it. The power then ends.\n\nThis power's die increases at higher levels: to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

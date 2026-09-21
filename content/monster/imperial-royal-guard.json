@@ -1,0 +1,117 @@
+{
+  "key": "imperial-royal-guard",
+  "name": "Imperial Royal Guard",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 17,
+    "type": "powered battle armor"
+  },
+  "hitPoints": {
+    "average": 91,
+    "roll": "14d8 + 28"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 18,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 17,
+      "modifier": 3
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex +6",
+    "Con +7",
+    "Wis",
+    "+7"
+  ],
+  "skills": [
+    "Athletics +8",
+    "Perception +7",
+    "Insight +7"
+  ],
+  "senses": [
+    "passive Perception 17"
+  ],
+  "languages": [
+    "Glactic Basic"
+  ],
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "behaviors": [
+    {
+      "name": "Choreography of Belligerence",
+      "behaviorType": "trait",
+      "description": "The Imperial Royal Guard has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Imperial Royal Guard makes two attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vibroblade",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "hit",
+      "targets": "reach 5 ft.",
+      "averageDamage": 8,
+      "damageRoll": "1d8 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Force Pike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit 9 (1d10 + 4) kinetic damage plus 12 (4d6) lightning damage. On a hit, the target must then succeed on a Constitution Saving Throw (DC 17) or become stunned.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 8,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 9,
+      "damageRoll": "1d10 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "The Royal Gard adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard must see the attacker and bewielding a melee weapon.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The Emperor's Royal Guard, also known as the Imperial Royal Guard, the Imperial Guard or the Red Guard, is an elite unit whose members serve as personal bodyguards to the Galactic Emperor. Fully clad in crimson robes and face-concealing helmets, the Emperor's guards are a silent, imposing, and deadly force armed with force pikes. In addition to strict requirements of size, strength, intelligence, and loyalty, only the most skilled soldiers in the Imperial Military qualify for duty in the Royal Guard. The Imperial Royal Guard is also occasionally assigned to provide protection to members of the Imperial Ruling Council and even Lord Vader himself.",
+  "sectionText": "The Galactic Empire, also known as the Old Empire, the First Galactic Empire, Palpatine's New Order, the Imperium or simply the Empire, is the galactic government established by Supreme Chancellor Palpatine to replace the Galactic Republic in 19 BBY and bring Sith rule to the galaxy. The government personnel of this new Empire are protected by some of its most highly trained warriors.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

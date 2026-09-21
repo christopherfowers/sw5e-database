@@ -1,0 +1,12 @@
+{
+  "key": "powered-armoring-mk-vi",
+  "name": "Powered Armoring Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the powered 21 property. If it already has the powered property, its powered number increases to 21."
+}

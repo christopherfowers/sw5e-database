@@ -1,0 +1,17 @@
+{
+  "key": "greater-salvo",
+  "name": "Greater Salvo",
+  "powerType": "tech",
+  "level": 9,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You launch four projectiles at points you can see within range. Each creature within a 20-foot-radius sphere of each point must make a Dexterity saving throw. A creature takes 15d6 fire damage and 15d6 kinetic damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.\n\nThe power damages objects in the area and ignites flammable objects that aren't being worn or carried.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-hutt-adolescent-slow-and-lethargic",
+  "name": "Slow and Lethargic",
+  "grantedBy": "species",
+  "grantedByName": "Hutt, Adolescent",
+  "description": "Hutts are slow and generally incapable of moving quickly. You have disadvantage on Dexterity saving throws, and when determining your bonus to AC from your Dexterity, you can't add more than +3.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

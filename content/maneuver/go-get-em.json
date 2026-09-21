@@ -1,0 +1,10 @@
+{
+  "key": "go-get-em",
+  "name": "Go Get 'Em",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "prerequisite": "Companion",
+  "description": "While your companion is moving, you can expend a superiority die and add 5 times the number rolled to its movement speed.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "unnatural-resilience",
+  "name": "Unnatural Resilience",
+  "prerequisite": "12th level, Constitution 20",
+  "description": "You have the fortitude often attributed to gods, granting the following benefits:\n- You gain proficiency in Constitution saving throws. If you are already proficient in them, you instead gain expertise in them.\n- Enhanced effects, such as powers or medpacs, that would restore hit points to you can't restore an amount less than half your level + your Constitution modifier. If this amount would exceed that maximum amount of hit points that effect could restore, you instead take that effect's maximum.\n- You can add your Constitution modifier to death saving throws you make.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

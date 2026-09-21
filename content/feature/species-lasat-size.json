@@ -1,0 +1,9 @@
+{
+  "key": "species-lasat-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Lasat",
+  "description": "Lasats tower over other species, averaging 7 feet tall and weighing over 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

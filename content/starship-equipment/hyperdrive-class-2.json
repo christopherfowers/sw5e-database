@@ -1,0 +1,9 @@
+{
+  "key": "hyperdrive-class-2",
+  "name": "Hyperdrive, class 2",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "hyperdrive",
+  "costInCredits": 10000,
+  "hyperdriveClass": "2"
+}

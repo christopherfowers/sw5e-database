@@ -1,0 +1,9 @@
+{
+  "key": "species-falleen-hold-breath",
+  "name": "Hold Breath",
+  "grantedBy": "species",
+  "grantedByName": "Falleen",
+  "description": "You can hold your breath for up to 1 hour at a time.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-zilkin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Zilkin",
+  "description": "Zilkin are considered adults at 4 years old, and rarely live to be over 12.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

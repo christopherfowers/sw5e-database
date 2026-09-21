@@ -1,0 +1,12 @@
+{
+  "key": "optimized-actuators-mk-i",
+  "name": "Optimized Actuators Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "Your movement speed increases by 5 feet."
+}

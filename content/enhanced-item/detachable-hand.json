@@ -1,0 +1,11 @@
+{
+  "key": "detachable-hand",
+  "name": "Detachable Hand",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces a hand.\n\nAs an action, you can attach or detach this hand. While detached, the hand has a speed of 15 feet, an AC of 10, and 1 hit point. As an action on each of your turns, you can control the hand as long as it is within 30 feet of you. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a container. You can move the hand up to its speed each time you use it.\n\n**Side Effect:** This hand can no longer wield items that weigh more than 7 lbs.\n\n_This unique hand replacement is a favored option for those looking into places they aren't welcome._"
+}

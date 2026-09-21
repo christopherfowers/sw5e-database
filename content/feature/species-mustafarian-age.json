@@ -1,0 +1,9 @@
+{
+  "key": "species-mustafarian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Mustafarian",
+  "description": "Mustafarians reach adulthood in their late teens and live about 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

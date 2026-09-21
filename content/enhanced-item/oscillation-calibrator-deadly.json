@@ -1,0 +1,11 @@
+{
+  "key": "oscillation-calibrator-deadly",
+  "name": "Oscillation Calibrator (Deadly)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "As an action, you can apply this calibrator to one vibroweapon or pair of handwraps within 5 feet, granting it a +3 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, if the weapon is not enhanced, it becomes enhanced for the duration."
+}

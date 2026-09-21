@@ -1,0 +1,9 @@
+{
+  "key": "species-chiss-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Chiss",
+  "description": "Chiss' tactical and selfish nature cause them to tend toward lawful dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

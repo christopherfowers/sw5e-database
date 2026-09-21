@@ -1,0 +1,10 @@
+{
+  "key": "archetype-juyo-vaapad-form-fury-7",
+  "name": "Fury",
+  "grantedBy": "archetype",
+  "grantedByName": "Juyo/Vaapad Form",
+  "level": 7,
+  "description": "_**Juyo/Vaapad Form:** 7th level_\nYou gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vaapad.\n#### Relentless\nYou have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.\n#### Punishing Charge\nWhen a hostile creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up to half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

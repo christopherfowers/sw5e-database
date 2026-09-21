@@ -1,0 +1,11 @@
+{
+  "key": "ostrine-crystal-flawless",
+  "name": "Ostrine Crystal (Flawless)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When you deal damage with this weapon, you deal an additional 1d6 force, lightning, necrotic, poison, psychic, or sonic damage (chosen by the GM when generating this item)."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "mine-gas-deadly",
+  "name": "Mine, Gas (Deadly)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "explosive",
+  "description": "Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine fills the air in a 15-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.\n\nWhen a creature enters the fog or starts its turn there, it creature must make a DC 20 Constitution saving throw. The creature takes 8d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected."
+}

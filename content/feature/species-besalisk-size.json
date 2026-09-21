@@ -1,0 +1,9 @@
+{
+  "key": "species-besalisk-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Besalisk",
+  "description": "Besalisks tower over almost all other species, with the smallest standing at 6 feet tall and weighing 200 lbs., and the largest approaching 8 feet tall and 400 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

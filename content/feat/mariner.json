@@ -1,0 +1,10 @@
+{
+  "key": "mariner",
+  "name": "Mariner",
+  "abilityScoreIncreases": [
+    "constitution"
+  ],
+  "description": "You've spent an exorbitant amount of time in water. You gain the following benefits:\n- Increase your Constitution score by 1, to a maximum of 20.\n- You gain a swimming speed equal to your movement speed.\n- You have advantage on a ability checks and saving throws related to swimming.\n- You can hold your breath for a number of minutes equal to 1 + twice your Constitution modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

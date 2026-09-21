@@ -1,0 +1,9 @@
+{
+  "key": "species-bith-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Bith",
+  "description": "Your Intelligence score increases by 2, and your Dexterity score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

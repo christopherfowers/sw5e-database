@@ -1,0 +1,10 @@
+{
+  "key": "encouraging-speech",
+  "name": "Encouraging Speech",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "Proficiency in Persuasion",
+  "description": "You can expend a superiority die to give an encouraging speech, spending the next minute rallying your allies. You grant two allies temporary hit points equal to the amount rolled on the superiority die + your maneuver ability modifier.\n\nThis increases to three allies at 5th level, four allies at 9th level, five allies at 13th level, and six allies at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "nano-droid-distributor",
+  "name": "Nano-Droid Distributor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with a nano-droid distributor that allows it to repair other ships. When a crewmember takes the Patch action, they can instead repair another ship within 100 feet. You spend and roll one of your ship's Hull Dice, and the target ship regains that many hull points."
+}

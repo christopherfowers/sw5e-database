@@ -1,0 +1,10 @@
+{
+  "key": "archetype-unstable-engineering-bonus-proficiencies-3",
+  "name": "Bonus Proficiencies",
+  "grantedBy": "archetype",
+  "grantedByName": "Unstable Engineering",
+  "level": 3,
+  "description": "_**Unstable Engineering:** 3rd level_\nYou gain proficiency in your choice of artisan's implements. Additionally, when you engage in crafting with tinker's implements, the rate at which you craft doubles.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "targeting-amplifier-mastery",
+  "name": "Targeting Amplifier (Mastery)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "While using this item as your focus, you gain a +3 bonus to melee tech attacks."
+}

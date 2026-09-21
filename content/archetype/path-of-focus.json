@@ -1,0 +1,11 @@
+{
+  "key": "path-of-focus",
+  "name": "Path of Focus",
+  "className": "Sentinel",
+  "casterType": "none",
+  "casterRatio": 0,
+  "classCasterType": "force",
+  "description": "The ways of the Force can reveal themselves to a sentinel through intense concentration and, most importantly, focus. Those sentinels who follow the Path of Focus use debilitating bursts of lightsaber strikes and force powers to exhaust their foes, crushing any hopes they had of mounting an effective defense.\n\n### Focused Burst\n_**Path of Focus:** 3rd level_\nYou learn the *burst* force power, which does not count against your total powers known. Additionally, you can use The Double Strike Force-Empowered Self options when you cast it as your action. If more than one creature would be affected, only one creature takes the additional damage. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of +1) to damage rolls with it, and creatures that succeed on their saving throw take half damage, instead of none.\n\n### Blade Dance\n_**Path of Focus:** 3rd level_\nWhen you deal damage to a creature within 5 feet of you, you can move up to 10 feet without provoking opportunity attacks.\n\n### Blade Storm\n_**Path of Focus:** 7th level_\nYour bursts become even more overwhelming. Once on your turn, when a creature takes damage from you twice, you can immediately make one additional attack against that creature (no action required). This attack uses your Kinetic Combat die instead of the weapon's damage die.\n\n### Focused Flow\n_**Path of Focus:** 13th level_\nWhenever you use a Force-Empowered Self feature, you may instead expend no force points and roll a d4 in place of your Kinetic Combat die.\n\n### Master Strike\n_**Path of Focus:** 18th level_\nAt 18th level, your bursts can overpower even the fiercest of foes. Once on your turn, when a creature takes damage from  you three times, you can force it to make a Constitution saving throw against your universal force save DC. On a failed save, it becomes stunned until the end of its next turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

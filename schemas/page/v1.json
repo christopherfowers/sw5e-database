@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/page/v1.json",
+  "title": "Page",
+  "description": "The words a page carries itself: the paragraph near the top, and the heading and sentence above each section. One document per page. Every field is optional, and anything left blank keeps the wording the page already has.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "enum": [
+        "home"
+      ],
+      "description": "Which page these words belong to."
+    },
+    "heroLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The paragraph under the site's name, near the top of the page. It is shown as plain text, so formatting marks like **bold** would appear as those characters rather than as bold."
+    },
+    "booksHeading": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading above the row of rulebooks. Leave it blank for \"The rulebooks\"."
+    },
+    "booksLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence under the rulebooks heading. Leave it blank and the site writes one for you that counts your books, so the number stays right on its own when a book is added. Write your own and it is used exactly as typed, which means any number in it is yours to keep up to date."
+    },
+    "resourcesHeading": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading above the character sheets and other files. Leave it blank for \"Sheets and downloads\"."
+    },
+    "resourcesLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence under the sheets heading. Leave it blank to keep the one that is there now."
+    },
+    "touchHeading": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The heading above the community links. Leave it blank for \"Getting in touch\"."
+    },
+    "touchLede": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The sentence under the community links heading. Leave it blank to keep the one that is there now."
+    }
+  }
+}

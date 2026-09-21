@@ -1,0 +1,7 @@
+{
+  "key": "calculating-gunner",
+  "name": "Calculating Gunner",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "When you make an attack roll with a secondary ship weapon, you can use your Intelligence modifier, instead of the ship's Wisdom modifier, for the attack rolls."
+}

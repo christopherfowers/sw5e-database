@@ -1,0 +1,99 @@
+{
+  "key": "anzellan",
+  "name": "Anzellan",
+  "size": "tiny",
+  "homeworld": "Anzella",
+  "nativeLanguage": "Anzellan",
+  "lore": "### Biology and Appearance\nThe anzellans are a diminutive species hailing from the secluded planet Anzella. Their eyes have floating corneal micro-lenses that allow them to see microscopic details. Anzellans are a bubbly and receptive people. They are a jovial and trusting people that tend to welcome strangers with open arms.\n\nDue to their volcanic homeworld, anzellans are also adapted towards heat. This, coupled with their small size, make them well-suited to working in compact places.\n\n### Society and Culture\nAnzella is a tropical planet covered in thousands of small volcanic islands. Many of these islands are developed as small villages, with the largest islands designed to accommodate larger species. Anzellan culture is generally based around tourism and crafting; in fact, anzellans are renowned craftsmen due to their discerning eyesight and ability to fit into small spaces.\n\nAnzellan government is generally casual. Each village has its own governing council of rotating members; these villages act independently from one another unless their decisions would affect more than a single island. In that case, all of the councils work together to come to a planet-wide decision.\n\n### Names\nAnzellan names are rarely longer than two syllables, with a bouncy intonation to them. Their surnames are familial.\n\n**Male Names.** Babu, Gridel, Moru, Rano, Yodel\n\n**Female Names.** Dibi, Fing, Nooni, Teena, Zazi\n\n**Surnames.** E'ayoo, Frik, Meer, Tanni, Vrut",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and two other ability scores of your choice increase by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Anzellans are considered adults at ten years old. They are a short-lived species, however, that rarely lives longer than 60 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Anzellans are a friendly and respectful people, which causes them to tend toward lawful light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Anzellans stand between 1 and 2 feet tall and weigh around 10 lbs. Regardless of your position in that range, your size is Tiny."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 20 feet."
+    },
+    {
+      "name": "Crafters",
+      "description": "You have proficiency in one tool of your choice."
+    },
+    {
+      "name": "Detail Oriented",
+      "description": "You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks that rely on sight within 5 feet."
+    },
+    {
+      "name": "Pintsized",
+      "description": "Your tiny stature makes it hard for you to wield bigger weapons. You can't use medium or heavy shields. Additionally, you can't wield weapons with the two-handed or versatile property, and you can only wield one-handed weapons in two hands unless they have the light property."
+    },
+    {
+      "name": "Puny",
+      "description": "Anzellans are too small to pack much of a punch. You have disadvantage on Strength saving throws, and when determining your bonus to attack and damage rolls for weapon attacks using Strength, you can't add more than +3."
+    },
+    {
+      "name": "Small and Nimble",
+      "description": "You are too small and fast to effectively target. You have a +1 bonus to AC, and you have advantage on Dexterity saving throws."
+    },
+    {
+      "name": "Tanned",
+      "description": "You are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Technician",
+      "description": "You are proficient in the Technology skill."
+    },
+    {
+      "name": "Tinker",
+      "description": "You have proficiency with tinker's implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, create a soothing melody for 1 minute. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Anzellan. Anzellan is characterized by its bouncy sound and emphasis on alternating syllables."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "anyAbilityCount": 2
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "1'0\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "3 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Diminutive size, wispy eyebrows",
+    "skinColorOptions": "Brown, green, or tan",
+    "hairColorOptions": "Black, gray, or white",
+    "eyeColorOptions": "Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_anzellan.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

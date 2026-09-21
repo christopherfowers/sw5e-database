@@ -1,0 +1,22 @@
+{
+  "key": "switch-rifle",
+  "name": "Switch rifle",
+  "category": "weapon",
+  "costInCredits": 1025,
+  "weight": 9.5,
+  "properties": [
+    "power cell (range 105/420)",
+    "reload 8",
+    "switch (1d6 lightning)",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

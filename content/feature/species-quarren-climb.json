@@ -1,0 +1,9 @@
+{
+  "key": "species-quarren-climb",
+  "name": "Climb",
+  "grantedBy": "species",
+  "grantedByName": "Quarren",
+  "description": "You have a climbing speed of 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

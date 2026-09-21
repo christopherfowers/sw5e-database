@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/starship-modification/v1.json",
+  "title": "Starship modification",
+  "description": "An upgrade bolted onto a ship after it leaves the yard, paid for in modification slots from the budget its base size grants. Modifications are the largest starship type by a wide margin and the one a crew spends the most time in: they are how a hull is turned into a particular ship. Each has a type deciding what it upgrades, a grade deciding what it costs, and a prerequisite list that is frequently another modification, which makes the catalogue a set of upgrade chains rather than a flat list.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "modificationType",
+    "grade",
+    "description"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this modification. Derived from the name once and never reused, so an installed modification keeps resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as printed. Members of an upgrade chain are named \"<System>, Mk <n>\", with Makeshift below Mk I, and the comma is part of the name rather than a separator."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this modification was published in, matching a document of the source content type."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
+    },
+    "modificationType": {
+      "enum": ["universal", "engineering", "operation", "suite", "weapon"],
+      "description": "What part of the ship the modification upgrades, which is also what limits how many of it a ship can carry. Suite modifications are the crew spaces — an armoury, a medbay, holding cells — and are capped separately by the base size's maximum suite systems; the other four compete for the same slot budget."
+    },
+    "grade": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "How advanced the modification is, which is what its slot cost and installation time are read from. Grade 0 covers the makeshift and structural entries that any ship can fit, and grades run up to 5 for the top of an upgrade chain. Every suite is grade 0 bar one, because a suite's cost comes from the suite cap rather than from its grade."
+    },
+    "prerequisites": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Everything that must already be true before this modification can be installed, one entry per clause as printed. Absent on the roughly half of the catalogue that has no prerequisite at all. Each entry keeps the printed text and, where the clause names something this database holds, adds the resolved link — which is what makes an upgrade chain navigable in both directions instead of being a string a reader has to match by eye.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "text"],
+        "properties": {
+          "kind": {
+            "enum": [
+              "modification",
+              "equipment",
+              "shipSize",
+              "weaponMounting",
+              "weaponDamageType",
+              "other"
+            ],
+            "description": "What sort of requirement the clause is, which decides which of the fields below is present. \"other\" is used deliberately rather than being forced into a shape: a handful of clauses state a condition no field can carry, such as needing 12 Constitution and no droid brain, and inventing structure for them would misrepresent them."
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The clause exactly as printed, always present. This is what a page shows a reader, so a resolved link never replaces the wording — it only adds to it."
+          },
+          "modificationName": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the modification the clause requires, matching another document of this type. Present when kind is modification."
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "How many of the named modification are required, when the clause says so: the Broadside Mounting needs two Hardpoints. Absent means one."
+          },
+          "equipmentName": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Name of the part the clause requires the ship to be fitted with, matching a starship-equipment document. Present when kind is equipment, and always armour: the plating chains each build on one of the three armour types."
+          },
+          "shipSizes": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "Every size the clause admits, expanded from the printed comparison so a filter does not have to understand the words \"or larger\". Present when kind is shipSize.",
+            "items": {
+              "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"]
+            }
+          },
+          "mountings": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "The weapon mountings that satisfy the clause, any one of which is enough. Present when kind is weaponMounting.",
+            "items": { "enum": ["primary", "secondary", "tertiary", "quaternary"] }
+          },
+          "damageTypes": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "The damage types a fitted weapon must deal to satisfy the clause. Present when kind is weaponDamageType.",
+            "items": { "enum": ["energy", "fire", "ion", "kinetic"] }
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown rules text, addressed to the player who owns the ship. This is the whole of what the modification does; there is no separate summary line in the source and inventing one would be editorial."
+    }
+  }
+}

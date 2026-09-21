@@ -1,0 +1,12 @@
+{
+  "key": "droid-dura-plating-mk-ii",
+  "name": "Droid Dura Plating Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Proficiency with heavy armor",
+  "description": "Your base AC becomes 20.\n\n_Originally used on starship hulls, durasteel is the most cost-effective way to prevent the destruction of your droids._"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "corellian-crippler-matrix",
+  "name": "Corellian Crippler Matrix",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "Once per round, when you hit a creature with a ranged attack using this weapon, its speed is reduced by 5 feet until the end of its next turn."
+}

@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Sw5e.Database.Schemas/Sw5e.Database.Schemas.csproj" />
+    <Project Path="src/Sw5e.Database.Tools/Sw5e.Database.Tools.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Sw5e.Database.Tests/Sw5e.Database.Tests.csproj" />
+  </Folder>
+</Solution>

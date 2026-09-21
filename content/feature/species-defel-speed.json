@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "Your base walking speed is 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

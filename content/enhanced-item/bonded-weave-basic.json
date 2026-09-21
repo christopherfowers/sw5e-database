@@ -1,0 +1,11 @@
+{
+  "key": "bonded-weave-basic",
+  "name": "Bonded Weave (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain a +1 bonus to AC against melee attacks and a -1 penalty to AC against ranged attacks while wearing this clothing."
+}

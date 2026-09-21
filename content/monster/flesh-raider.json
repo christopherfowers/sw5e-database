@@ -1,0 +1,82 @@
+{
+  "key": "flesh-raider",
+  "name": "Flesh Raider",
+  "size": "medium",
+  "types": [
+    "aberration"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 12
+  },
+  "hitPoints": {
+    "average": 8,
+    "roll": "1d12 + 2"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 12,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "senses": [
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Rakata"
+  ],
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Blade Strike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., Hit: 4 (1d6 + 1) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "averageDamage": 4,
+      "damageRoll": "1d6 + 1",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Feasting Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., Hit: 3 (1d4 + 1) kinetic damage and the flesh raider takes a chunk of flesh out of its target, swallowing it whole and gaining temporary hit points equal to its constitution modifier.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "usageLimit": "1/day",
+      "range": "reach 5 ft.",
+      "averageDamage": 3,
+      "damageRoll": "1d4 + 1",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Flesh Raiders are a species of mutated soldiers who originally served the Infinite Empire. Originally lower-caste members of the Rakata species, they were mutated and bred by the Infinite Empire by the thousands as soldiers. By the time of the Cold War, some Flesh Raiders survived on the planet Tython.\n\n***Biology & Appearance.*** The Flesh Raiders are extremely primitive and violent. Bulky bipedal humanoids, Flesh Raiders have razor-sharp teeth, which they used to strip the bones of both sentient and non-sentient prey. Eight small olfactory slits line their upper lip and two stumpy eye stalks protrude from the sides of their box-shaped heads.\n\n***History.*** The origin of the Flesh Raiders is lost to history and they do not appear to keep records. From what little study of the creatures the Jedi Order was able to perform, the Flesh Raiders appear to have evolved from a more civilized society that devolved into their primitive and cannibalistic forms after the other colonists of Tython disappeared. Another theory is that the aforementioned society was attacked by the Sith and subjected to bizarre experiments which reduced them to maddened hostiles.\n\n***Society & Culture.*** Having no established cities or formal government, the Flesh Raiders are tribal and erect temporary shelters on the Tythos Ridge. Flesh Raiders practice a form of spiritual worship: shamans have been seen inside their small settlements. Preferring naked earth, the Flesh Raiders scour the land they chose to occupy, burning away grass and trees and littering the earth with the bones of their prey. The raiders use signal fires to communicate over great distances.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

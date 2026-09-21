@@ -1,0 +1,86 @@
+{
+  "key": "ugor",
+  "name": "Ugor",
+  "size": "medium",
+  "homeworld": "Paradise System",
+  "nativeLanguage": "Ugor",
+  "lore": "### Biology and Appearance\nUgors are sentient, unicellular protozoans. Considered exotic for being one of the few sentient species to fall outside the standard classificiations of birds, mammals, etc. Their bodies consist of cytoplasm, which can vary in colors and shade, bound by a slime-coated membrane. Being amorphic, ugors can assume nearly any shape, and can exude pseudopodia limbs such as crude arms, mouths, and sensory organs, although a globular form was the most comfortable and easy to maintain. Due to their unique physiology and evolution, they are able to digest substances that would prove toxic to other species, and can subsist on other species' trash. While most maintain globular form, some who interact with humanoid species will wear EVA suits or armor to give themselves a humanoid appearence.\n\n### Society and Culture\nUgor society revolves around trading and scavenging; they are famed for providing equipment to nascent civilizations and for salvaging wreckage from failed ones. The beings are supremely adaptable and astutely able to get what they want from others. Ugor business deals are extremely complex, incorporating opaque knots of loans, interest, and payment plans. Ugors have an intense love of trash, which they base their religions off, and excel at those skills that are useful in their pursuit of rubbish collection: a member of the species' education emphasizes skills related to scavenging and starship operation (although members of the species rarely became more than passable pilots).\n\n### Names\nUgor names typically consisted of two parts, with no notable difference between the genders. Ugor do not use surnames.\n\n**Names.** ArrGack, GrrKack, SplrMuck",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Ugors reach adulthood in their early teens and live about 70 years, though some live to be over 100."
+    },
+    {
+      "name": "Alignment",
+      "description": "Ugors are loyal to their theocratic state and see outsiders as expendable. Many follow a Lawful Balanced alignment, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Ugors typically stand between 5 and 6 feet tall and weigh 130 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Amorphous Form",
+      "description": "You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You also have advantage on ability checks you make to initiate or escape a grapple."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Galactic Scavengers",
+      "description": "You have proficiency in mechanic's kits or scavenging kits (your choice)."
+    },
+    {
+      "name": "Natural Resilience",
+      "description": "You have resistance to poison damage, and you have advantage on saving throws against poison."
+    },
+    {
+      "name": "Shape Self",
+      "description": "If you are not incapacitated, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob (no action required). As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. You can use this pseudopod to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour out the contents of a container. The pseudopod can't attack, activate enhanced items, or carry more than 10 pounds."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read and write in Galactic Basic and Ugor. Additionally, Your vocal range allows you to speak languages other species might have difficulty with."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'6\"",
+    "heightModifier": "+1d12\"",
+    "weightAverage": "200 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Unicellular organism",
+    "skinColorOptions": "Clear, green, blue, or brown",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Varies"
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

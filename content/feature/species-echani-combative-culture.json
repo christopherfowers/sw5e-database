@@ -1,0 +1,9 @@
+{
+  "key": "species-echani-combative-culture",
+  "name": "Combative Culture",
+  "grantedBy": "species",
+  "grantedByName": "Echani",
+  "description": "You have proficiency in Lore and Acrobatics.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

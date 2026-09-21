@@ -1,0 +1,10 @@
+{
+  "key": "archetype-fireteam-specialist-lead-by-example-3",
+  "name": "Lead By Example",
+  "grantedBy": "archetype",
+  "grantedByName": "Fireteam Specialist",
+  "level": 3,
+  "description": "_**Fireteam Specialist:** 3rd level_\nOnce per turn, when an ally that can see or hear you attacks a creature that you can see, you can expend a superiority die and enhance that ally's attack, using one of the maneuvers that you know.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

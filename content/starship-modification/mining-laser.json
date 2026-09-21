@@ -1,0 +1,9 @@
+{
+  "key": "mining-laser",
+  "name": "Mining Laser",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with a laser used to extract ores and other minerals from objects such as asteroids.  Checks made while using the mining laser for determining outcomes of work (for example, using downtime rules from Wretched Hives) are made with advantage. If you already have advantage on the roll, you can instead reroll one of the dice once.\nAdditionally, a crewmember can activate the mining laser as an action in order to make a Strength (Boost) check against a ship that is touching you (for example, a ship that is ramming or being rammed by your ship, or one you are landed on) (DC = the ship's AC).  On a success, the adjacent ship takes 1d8 + Strength modifier energy damage."
+}

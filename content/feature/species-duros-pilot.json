@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-pilot",
+  "name": "Pilot",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "You have proficiency in Piloting.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

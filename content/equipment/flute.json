@@ -1,0 +1,10 @@
+{
+  "key": "flute",
+  "name": "Flute",
+  "category": "musicalInstrument",
+  "costInCredits": 20,
+  "weight": 1.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

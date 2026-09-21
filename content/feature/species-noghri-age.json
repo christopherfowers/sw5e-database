@@ -1,0 +1,9 @@
+{
+  "key": "species-noghri-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Noghri",
+  "description": "Noghri reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

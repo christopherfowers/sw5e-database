@@ -1,0 +1,16 @@
+{
+  "key": "bomb-layer",
+  "name": "Bomb layer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 8000,
+  "weapon": {
+    "mounting": "quaternary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "ammunition",
+    "reload 8"
+  ]
+}

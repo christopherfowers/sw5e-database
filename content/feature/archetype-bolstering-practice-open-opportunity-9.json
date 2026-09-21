@@ -1,0 +1,10 @@
+{
+  "key": "archetype-bolstering-practice-open-opportunity-9",
+  "name": "Open Opportunity",
+  "grantedBy": "archetype",
+  "grantedByName": "Bolstering Practice",
+  "level": 9,
+  "description": "_**Bolstering Practice:** 9th level_\nOnce per turn, when you take the Attack action and hit a creature without applying your Sneak Attack damage to it, you can forgo your Sneak Attack damage for the turn and use your bonus action to throw the creature off balance. The next ally to hit that creature before the start of your next turn may add your Sneak Attack dice to the damage of their attack.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

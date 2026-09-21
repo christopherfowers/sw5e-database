@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "Twi'leks harsh upbringing cause them to tend toward the dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

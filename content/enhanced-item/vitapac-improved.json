@@ -1,0 +1,11 @@
+{
+  "key": "vitapac-improved",
+  "name": "Vitapac (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "medpac",
+  "description": "This fast-acting syringe grants a revitalizing boost. As an action, you can use this vitapac to restore expended Hit Dice to a beast or humanoid within 5 feet. The creature immediately regains five Hit Dice. If the creature has spent Hit Dice of different sizes, determine which Hit Dice are restored randomly."
+}

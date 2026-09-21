@@ -1,0 +1,9 @@
+{
+  "key": "species-kushiban-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Kushiban",
+  "description": "Kushibans reach adulthood at 13 and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

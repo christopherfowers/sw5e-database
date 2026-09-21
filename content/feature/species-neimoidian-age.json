@@ -1,0 +1,9 @@
+{
+  "key": "species-neimoidian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Neimoidian",
+  "description": "Neimoidians reach adulthood in their 20s and live about 150 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

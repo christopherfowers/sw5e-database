@@ -1,0 +1,10 @@
+{
+  "key": "archetype-fireteam-specialist-companion-humanoid-companion-3",
+  "name": "Humanoid Companion",
+  "grantedBy": "archetype",
+  "grantedByName": "Fireteam Specialist (Companion)",
+  "level": 3,
+  "description": "_**Fireteam Specialist:** 3rd, 11th, and 17th level_\nYou've been assigned a squadmate who is under your command, gaining a humanoid companion.\nCreate your humanoid companion as detailed in the Companions section of the Customization Options document for Expanded Content.\nIn addition to its traits and features, your companion gains additional benefits while it is bonded to you:\n- Your companion gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each trait in excess of your proficiency bonus, your number of Hit Dice that can be spent to restore hitpoints is reduced by 1.\nLastly, while your companion is bonded to you and within 10 feet of you, your companion can uses your superiority dice and maneuvers as if it knows them.\nThis radius increases to 30 feet at 11th level, and 60 feet at 17th level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

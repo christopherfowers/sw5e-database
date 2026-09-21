@@ -1,0 +1,96 @@
+{
+  "key": "imperial-senate-guard",
+  "name": "Imperial Senate Guard",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 17,
+    "type": "battle armor and personal shield"
+  },
+  "hitPoints": {
+    "average": 49,
+    "roll": "9d8 + 9"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30."
+  },
+  "abilities": {
+    "strength": {
+      "score": 15,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 13,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 13,
+      "modifier": 1
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 10,
+      "modifier": 0
+    }
+  },
+  "skills": [
+    "Perception +3",
+    "Insight +3"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Galactic Basic"
+  ],
+  "damageResistances": {
+    "other": [
+      "Energy from melee weapons"
+    ]
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Choreography of Belligerence",
+      "behaviorType": "trait",
+      "description": "The Imperial Senate Guard has advantage on attack rolls against a creature if at least one other Imperial Guard is within 5 feet of the creature and the ally isn't incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Imperial Senate Guard makes two attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Cortosis Staff",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6 + 2",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "The Imperial Senate Guard is an elite unit of soldiers in the Galactic Empire. Stemming from the original Senate Guard of the Galactic Republic, the Imperial Senate Guard inherited the duty to protect senators and to accompany them as they traveled the galaxy. However, their true purpose is to ensure that the Imperial Senate remains loyal to Emperor Palpatine, the architect of the New Order. The Imperial Senate Guard's armor is blue-colored, and they are trained solely in melee combat, being equipped with cortosis staffs and personal energy shields that are powerful enough to deflect lightsaber attacks.",
+  "sectionText": "The Galactic Empire, also known as the Old Empire, the First Galactic Empire, Palpatine's New Order, the Imperium or simply the Empire, is the galactic government established by Supreme Chancellor Palpatine to replace the Galactic Republic in 19 BBY and bring Sith rule to the galaxy. The government personnel of this new Empire are protected by some of its most highly trained warriors.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/enhanced-item/v1.json",
+  "title": "Enhanced item",
+  "description": "A piece of enhanced gear: a specific named artefact, a modification bolted onto ordinary equipment, a cybernetic augmentation, a droid part, or a consumable. This is deliberately not the equipment content type. Enhanced items share only a name and a provenance with mundane equipment; they have no list price, no weight, no armor class and no damage dice, and they are found or crafted rather than bought. What they do have — a rarity band, an attunement requirement, a prerequisite, and the kind of item they attach to — is exactly what mundane equipment does not. Folding the two together would make eleven of equipment's fields conditional and would bury 507 shoppable rows under 1,918 rows with no price.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "sourceKey", "contentSet", "itemType", "rarity", "requiresAttunement", "description"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this item. Derived from the name once and never reused, so a character sheet keeps resolving after a rename."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name as printed. Many names carry a parenthesised grade — \"Dispelling Dataport (Fine)\" — because a modification is published once per grade rather than once with a table of grades."
+    },
+    "sourceKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Key of the source this item was published in, matching a document of the source content type. Every archived enhanced item comes from either wh or ec; the Player's Handbook has none."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this item belongs to the core rules or to the community expanded-content supplement."
+    },
+    "itemType": {
+      "enum": [
+        "adventuringGear",
+        "armor",
+        "consumable",
+        "cyberneticAugmentation",
+        "droidCustomization",
+        "focus",
+        "itemModification",
+        "shield",
+        "shipArmor",
+        "shipShield",
+        "shipWeapon",
+        "weapon"
+      ],
+      "description": "What kind of enhanced item this is, and with it what a reader has to own before the item is usable. An itemModification is applied to a piece of equipment the character already has; a cyberneticAugmentation is grafted onto the character; a consumable is spent; the rest are worn or wielded. Over half the corpus is itemModification, which is why this and rarity are the two fields a list page cannot omit."
+    },
+    "rarity": {
+      "enum": ["standard", "premium", "prototype", "advanced", "legendary", "artifact"],
+      "description": "The rarity band, in ascending order. Rarity is the enhanced-item corpus's substitute for a price: nothing here carries a cost in credits, and rarity is what a table decides availability, crafting time and loot placement from. The enum order is the game's ladder, not alphabetical, so a schema-aware consumer can sort by it directly."
+    },
+    "requiresAttunement": {
+      "type": "boolean",
+      "description": "Whether a character has to attune to the item before its enhanced properties work. Always present, including when false, so a character sheet can count attunement slots without a null check."
+    },
+    "subtype": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The narrower kind, whose meaning follows from itemType. For an itemModification it is the equipment the modification is installed in (\"wristpad\", \"vibroweapon\", \"clothing\"); for adventuringGear it is the body slot the item occupies (\"hands\", \"waist\"); for a consumable it is what the thing is (\"ammunition\", \"stimpac\"); for a weapon it is the base weapon the enhanced version is built on (\"bo-rifle\", \"sniper rifle\"), or a whole family (\"any blaster\"). Fifty archived adventuring-gear entries record no slot at all, so the field is optional."
+    },
+    "prerequisite": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What the item needs before it can be used or installed, as printed: an ability score (\"Constitution 13\"), a class level (\"At least 3 levels in berserker\"), a droid class, or a property the host equipment must have or lack (\"Lacks double or two-handed property\"). Prose rather than structured conditions, because the printed clauses mix kinds freely and nothing downstream evaluates them yet."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown giving the item's rules text, and sometimes a closing italic line of flavour. Always present: unlike equipment, an enhanced item with no text would have no effect."
+    }
+  }
+}

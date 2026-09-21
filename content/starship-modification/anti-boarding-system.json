@@ -1,0 +1,21 @@
+{
+  "key": "anti-boarding-system",
+  "name": "Anti-Boarding System",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "An anti-boarding system is a robust series of blast doors, cameras, and hidden turrets, reinforcing each portal throughout the ship, as well as directly outside each ship entrance. These features are controllable from the cockpit or in the Security Suite (if it exists) by a crewmember. The anti-boarding system comes with its own power backup in case of main system failure.\nThe reinforced doors can be bypassed with a DC 20 Intelligence (Security Kit) check."
+}

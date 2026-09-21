@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-modification-workforce",
+  "name": "Starship Size Modification Workforce",
+  "contentSet": "core",
+  "body": "| Starship Size | Minimum Workforce |\n|:----:|:----:|\n| Tiny  | 1 |\n| Small  | 2 |\n| Medium  | 4 |\n| Large  | 10 |\n| Huge | 100 |\n| Gargantuan | 1,000 |",
+  "subject": "Starships"
+}

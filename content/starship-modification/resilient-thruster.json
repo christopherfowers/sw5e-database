@@ -1,0 +1,9 @@
+{
+  "key": "resilient-thruster",
+  "name": "Resilient Thruster",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You overhaul your ship's thruster to make it more adaptive. Your ship is proficiently equipped for Dexterity saving throws."
+}

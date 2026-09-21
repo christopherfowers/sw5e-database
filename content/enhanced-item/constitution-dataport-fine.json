@@ -1,0 +1,11 @@
+{
+  "key": "constitution-dataport-fine",
+  "name": "Constitution Dataport (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item's constitution number is reduced by two steps (from 21 to 17, 19 to 15, 17 to 13, or 15 to 11). If the constitution number is 13 or lower, this modification removes the constitution property from it entirely."
+}

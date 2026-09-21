@@ -1,0 +1,9 @@
+{
+  "key": "species-toydarian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Toydarian",
+  "description": "Toydarians' greedy nature causes them to tend toward chaotic balanced, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

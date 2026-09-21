@@ -1,0 +1,11 @@
+{
+  "key": "ship-armor-improved",
+  "name": "Ship Armor (Improved)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "shipArmor",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "Your ship has a +2 bonus to AC while this armor is installed."
+}

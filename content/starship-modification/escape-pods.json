@@ -1,0 +1,21 @@
+{
+  "key": "escape-pods",
+  "name": "Escape Pods",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite adds escape pods to your ship. Each escape pod comes equipped with 5 units of fuel and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in chapter 5 of the Dungeon Master’s Guide. The quantity of escape pods is equal to one-fourth the ship’s suite capacity, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nAll expended escape pods are replaced when the ship undergoes refitting."
+}

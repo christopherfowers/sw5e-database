@@ -1,0 +1,18 @@
+{
+  "key": "rocket-rifle",
+  "name": "Rocket rifle",
+  "category": "weapon",
+  "costInCredits": 2250,
+  "weight": 12.0,
+  "description": "Rather than traditional power cells, the rocket rifle fires specialized projectiles in the form of small missiles.",
+  "properties": [
+    "reload 6",
+    "special (range 60/240)",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

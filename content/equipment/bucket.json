@@ -1,0 +1,11 @@
+{
+  "key": "bucket",
+  "name": "Bucket",
+  "category": "storage",
+  "costInCredits": 2,
+  "weight": 2.0,
+  "description": "A bucket stores 3 gallons of liquid or 1/2 cubic foot of solids.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

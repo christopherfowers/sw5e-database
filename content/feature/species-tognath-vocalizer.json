@@ -1,0 +1,9 @@
+{
+  "key": "species-tognath-vocalizer",
+  "name": "Vocalizer",
+  "grantedBy": "species",
+  "grantedByName": "Tognath",
+  "description": "Tognath vocal cords are not made for oxygen rich environments, and rely on a vocalizer to communicate effectively with other species. If your vocalizer is removed or destroyed, your voice becomes quiet and difficult to understand.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

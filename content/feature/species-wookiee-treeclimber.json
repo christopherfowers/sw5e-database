@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-treeclimber",
+  "name": "Treeclimber",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

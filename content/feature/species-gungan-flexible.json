@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-flexible",
+  "name": "Flexible",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "You have advantage on Dexterity (Acrobatics) checks that involve flexibility.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

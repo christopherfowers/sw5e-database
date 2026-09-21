@@ -1,0 +1,16 @@
+{
+  "key": "carbonite-launcher-mk-ii",
+  "name": "Carbonite Launcher, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Carbonite Launcher, Mk I",
+      "modificationName": "Carbonite Launcher, Mk I"
+    }
+  ],
+  "description": "As an action, a crewmember may cause an explosion of cold energy to erupt from a point it chooses within 900 feet. Each ship in a 50-foot-radius sphere centered on that point must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's wisdom modifier). On a failed save, a ship takes 3d6 cold damage, and gains 1 [Slowed Level](#Slowed%20Level) until the start of your next turn. On a successful save, a ship takes half as much damage and isn’t slowed.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

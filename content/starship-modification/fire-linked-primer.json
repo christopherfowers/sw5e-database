@@ -1,0 +1,9 @@
+{
+  "key": "fire-linked-primer",
+  "name": "Fire-linked Primer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 1,
+  "description": "***Prerequisite:*** *Fire-Linked Mounting*\nWhen you make a bonus attack with a weapon equipped to this mounting, you can add the ship's damage modifier to the damage roll of the bonus attack as long as it doesn’t already include that modifier."
+}

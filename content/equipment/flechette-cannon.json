@@ -1,0 +1,18 @@
+{
+  "key": "flechette-cannon",
+  "name": "Flechette cannon",
+  "category": "weapon",
+  "costInCredits": 2300,
+  "weight": 13.0,
+  "description": "The flechette cannon does not make attack rolls. Rather than traditional power cells, the flechette cannon uses specialized projector tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank's effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you're using as you fire it (no action required). If you don't meet the flechette cannon's strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the flechette cannon, you must roll the damage dice twice and take the lesser total.",
+  "properties": [
+    "reload 6",
+    "special (range special)",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

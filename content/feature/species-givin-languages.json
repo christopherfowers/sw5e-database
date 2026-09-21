@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "You can speak, read, and write Galactic Basic and Givin. Givin is characterized by its use of mathematical jargon and symbols, making it nigh incomprehensible to the less mathematically inclined.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "tibanna-gas-projector-mk-ii",
+  "name": "Tibanna Gas Projector, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Tibanna Gas Projector, Mk I",
+      "modificationName": "Tibanna Gas Projector, Mk I"
+    }
+  ],
+  "description": "As an action, a crewmember can shoot a thin sheet of flames from the ship. Each ship in a 150-foot cone must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's constitution modifier). A ship takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\nThe fire ignites any flammable objects in the area.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

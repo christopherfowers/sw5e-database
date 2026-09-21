@@ -1,0 +1,11 @@
+{
+  "key": "power-cell-major",
+  "name": "Power Cell (Major)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +2 bonus to attack and damage rolls made with this enhanced power cell. This bonus is in addition to any bonuses granted by the weapon. Once the power cell is depleted, it no longer gives a bonus."
+}

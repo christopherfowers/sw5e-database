@@ -1,0 +1,12 @@
+{
+  "key": "pauldron-of-retribution",
+  "name": "Pauldron of Retribution",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "shoulders",
+  "prerequisite": "At least 3 levels in berserker",
+  "description": "This item can hold a number of charges equal to half your berserker level (rounded up). When you complete a long rest, this item regains all missing charges. While raging, when you deal damage that would include your Rage Damage, you can expend one charge to double your Rage Damage bonus for that damage.\n\nWhen you reach 5th level in berserker, when you use your Reckless Attack feature, your critical hit range increases by 1.\n\nWhen you reach 11th level in berserker, once per critical hit, when you roll maximum damage on a weapon damage die, you can roll an additional die and add both to the total.\n\nWhen you reach 17th level in berserker, when you are conscious and fail a Strength, Dexterity, or Constitution saving throw, you can choose to instead succeed. Once you've done so, you must complete a short or long rest before you can do so again.\n\n_This single pauldron, which can be worn over armor, features the visage of a howling beast._"
+}

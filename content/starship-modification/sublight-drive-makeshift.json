@@ -1,0 +1,9 @@
+{
+  "key": "sublight-drive-makeshift",
+  "name": "Sublight Drive, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "Your ship’s flying speed increases by 50 feet and turning speed increases by 50 feet."
+}

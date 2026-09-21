@@ -1,0 +1,17 @@
+{
+  "key": "translocate",
+  "name": "Translocate",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Self",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Your form shimmers in a holographic configuration, and then collapses. You teleport up to 30 feet to an unoccupied space that you can see.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

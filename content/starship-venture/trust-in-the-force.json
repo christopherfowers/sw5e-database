@@ -1,0 +1,15 @@
+{
+  "key": "trust-in-the-force",
+  "name": "Trust in the Force",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 10 levels in sentinel",
+      "className": "sentinel",
+      "level": 10
+    }
+  ],
+  "description": "When you take the Dogfight action, you can make a Dexterity (Maneuvering) check (DC = 10 + the number of enemy ships you can see).  On a success, the next attack made against your ship by any ship you can see is not granted advantage by the Dogfight action.\n\\pagebreakNum"
+}

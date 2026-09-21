@@ -1,0 +1,22 @@
+{
+  "key": "slugpistol",
+  "name": "Slugpistol",
+  "category": "weapon",
+  "costInCredits": 325,
+  "weight": 3.0,
+  "properties": [
+    "rapid 8",
+    "reload 16",
+    "slug cartridge (range 40/160)",
+    "strength 11"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

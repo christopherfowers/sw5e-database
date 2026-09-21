@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-powerful-build",
+  "name": "Powerful Build",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

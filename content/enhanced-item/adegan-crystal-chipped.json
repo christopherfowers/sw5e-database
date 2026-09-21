@@ -1,0 +1,11 @@
+{
+  "key": "adegan-crystal-chipped",
+  "name": "Adegan Crystal (Chipped)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "You gain a +1 bonus to damage rolls made with this weapon."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-flesh-raider-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Flesh Raider",
+  "description": "You gain proficiency in the Intimidation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

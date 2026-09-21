@@ -1,0 +1,9 @@
+{
+  "key": "species-ho-din-rain-forest-dweller",
+  "name": "Rain Forest Dweller",
+  "grantedBy": "species",
+  "grantedByName": "Ho'din",
+  "description": "Growing up in the rain forests of Moltok has left an impact. You don't treat forest terrain as difficult terrain.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

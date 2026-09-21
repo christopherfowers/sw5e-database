@@ -1,0 +1,9 @@
+{
+  "key": "species-sullustan-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Sullustan",
+  "description": "Your Intelligence score increases by 2, and your Dexterity score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

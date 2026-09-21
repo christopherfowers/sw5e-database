@@ -1,0 +1,10 @@
+{
+  "key": "archetype-beastmaster-approach-lick-wounds-10",
+  "name": "Lick Wounds",
+  "grantedBy": "archetype",
+  "grantedByName": "Beastmaster Approach",
+  "level": 10,
+  "description": "_**Beastmaster Approach:** 10th level_\nWhenever you reduce a creature to 0 hit points while raging, you gain a number of temporary hit points equal to your berserker level, which last for the duration of your rage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

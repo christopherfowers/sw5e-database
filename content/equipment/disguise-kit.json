@@ -1,0 +1,10 @@
+{
+  "key": "disguise-kit",
+  "name": "Disguise kit",
+  "category": "kit",
+  "costInCredits": 250,
+  "weight": 3.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

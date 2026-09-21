@@ -1,0 +1,13 @@
+{
+  "key": "directional-shield",
+  "name": "Directional shield",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "shield",
+  "costInCredits": 4300,
+  "description": "Directional Shields are the most commonly used and balanced shields on the market.",
+  "shield": {
+    "capacityMultiplier": "x 1",
+    "regenerationRateCoefficient": "x 1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-hide",
+  "name": "Hide",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "You have a thick hide. When you aren't wearing armor, your AC is 13 + your Dexterity modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

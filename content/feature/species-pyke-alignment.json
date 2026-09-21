@@ -1,0 +1,9 @@
+{
+  "key": "species-pyke-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Pyke",
+  "description": "Due to their underhanded nature, Pykes tend toward the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "multiclassing-proficiencies",
+  "name": "Multiclassing Proficiencies",
+  "contentSet": "core",
+  "body": "|Class||Proficiencies Gained|\n|:--|:--:|:--|\n|Berserker||Light armor, all vibroweapons||\n|Consular||Simple lightweapons|\n|Fighter||Light armor, medium armor, all blasters, all vibroweapons|\n|Engineer||Light armor, one skill from the class's skill list, one tool from the class's list|\n|Guardian||Light armor, medium armor, all lightweapons, all vibroweapons|\n|Operative||Light armor, any one skill, one tool from the class's list|\n|Monk||Techblades|\n|Scout||Light armor, medium armor, all blasters, all vibroweapons, one skill from the class's list|\n|Scholar||Light armor, one skill from the class's list|\n|Sentinel||Light armor, simple lightweapons, one skill from the class's list|",
+  "subject": "Character creation"
+}

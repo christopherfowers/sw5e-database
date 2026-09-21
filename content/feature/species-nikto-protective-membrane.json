@@ -1,0 +1,9 @@
+{
+  "key": "species-nikto-protective-membrane",
+  "name": "Protective Membrane",
+  "grantedBy": "species",
+  "grantedByName": "Nikto",
+  "description": "You have advantage on saving throws against being blinded.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

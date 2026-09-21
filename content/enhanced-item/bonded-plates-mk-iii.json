@@ -1,0 +1,11 @@
+{
+  "key": "bonded-plates-mk-iii",
+  "name": "Bonded Plates Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "You gain a +2 bonus to AC against melee attacks while wearing this armor or wielding this shield."
+}

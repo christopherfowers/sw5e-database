@@ -1,0 +1,18 @@
+{
+  "key": "quadanium-heavy-shield",
+  "name": "Quadanium heavy shield",
+  "category": "armor",
+  "costInCredits": 2000,
+  "weight": 36.0,
+  "properties": [
+    "charging 1",
+    "cumbersome",
+    "obtrusive",
+    "strength 15"
+  ],
+  "armorClassification": "shield",
+  "armorClass": "+3",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

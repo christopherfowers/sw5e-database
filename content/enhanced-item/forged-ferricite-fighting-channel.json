@@ -1,0 +1,11 @@
+{
+  "key": "forged-ferricite-fighting-channel",
+  "name": "Forged Ferricite Fighting Channel",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power of 1st-level or higher that deals damage, you can increase the damage by half (rounded down) the number of force points spent."
+}

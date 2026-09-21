@@ -1,0 +1,17 @@
+{
+  "key": "tri-shot",
+  "name": "Tri-Shot",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Choose up to three creatures within range, none of whom can be more than 10 feet apart. If you choose three creatures, each target must succeed on a Dexterity saving throw or take 1d4 energy damage. If you choose two creatures, each target takes 1d6 energy damage on a failed save instead. If you choose only one creature, the target takes 1d8 energy damage on a failed save.\n\nThis power's damage increases by one die when you reach 5th level (two dice), 11th level (three dice), and 17th level (four dice).",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

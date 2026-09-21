@@ -1,0 +1,17 @@
+{
+  "key": "force-mend",
+  "name": "Force Mend",
+  "powerType": "force",
+  "level": 7,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "minute",
+    "text": "1 minute"
+  },
+  "range": "Touch",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "You touch a creature and stimulate its natural healing ability. The target regains 4d8+15 hit points. For the duration of the power, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).\n\nIf the creature has a severed part you hold it to the stump, the power instantaneously causes the limb to knit to the stump.\n\nThis power has no effect on droids or constructs.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

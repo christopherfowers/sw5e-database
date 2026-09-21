@@ -1,0 +1,11 @@
+{
+  "key": "heightened-subroutine",
+  "name": "Heightened Subroutine",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you cast a power that forces a creature to make a saving throw to resist its effects, you can spend 3 additional tech points to give one target of the power disadvantage on its first saving throw made against the power.\n\nYou can only spend a number of tech points in this way equal to your proficiency bonus (minimum of once). You regain the ability to do so when you complete a long rest.\n\nYou can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+}

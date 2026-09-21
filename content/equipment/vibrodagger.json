@@ -1,0 +1,21 @@
+{
+  "key": "vibrodagger",
+  "name": "Vibrodagger",
+  "category": "weapon",
+  "costInCredits": 50,
+  "weight": 0.5,
+  "properties": [
+    "finesse",
+    "light",
+    "thrown (range 20/60)"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

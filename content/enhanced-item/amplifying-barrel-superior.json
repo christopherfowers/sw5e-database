@@ -1,0 +1,11 @@
+{
+  "key": "amplifying-barrel-superior",
+  "name": "Amplifying Barrel (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "You gain a +3 bonus to damage rolls made with this weapon."
+}

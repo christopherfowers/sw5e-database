@@ -1,0 +1,16 @@
+{
+  "key": "thrusters-mk-v",
+  "name": "Thrusters, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Thrusters, Mk IV",
+      "modificationName": "Thrusters, Mk IV"
+    }
+  ],
+  "description": "Your ship's Thrusters have reached it's maximum potential. Your ship's Dexterity score increases by 2. Your ship's maximum for this score increases by 2."
+}

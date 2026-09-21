@@ -1,0 +1,11 @@
+{
+  "key": "shield-chassis-prototype",
+  "name": "Shield Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable shield chassis comes with vacant modification slots for armor modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

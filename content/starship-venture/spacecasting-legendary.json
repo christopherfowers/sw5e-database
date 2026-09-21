@@ -1,0 +1,14 @@
+{
+  "key": "spacecasting-legendary",
+  "name": "Spacecasting, Legendary",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "venture",
+      "text": "Spacecasting, Master",
+      "ventureName": "Spacecasting, Master"
+    }
+  ],
+  "description": "When casting a force or tech power while aboard your ship and in space that affects an area, the area's dimensions are instead multiplied by 1,000.\nAdditionally, when casting a force or tech power while aboard your ship and in space, you ignore the damage scaling against Medium and smaller ships."
+}

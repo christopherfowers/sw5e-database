@@ -1,0 +1,21 @@
+{
+  "key": "interrogation-chamber",
+  "name": "Interrogation Chamber",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite includes all of the necessary implements and apparatuses necessary to interrogate, or even torture, a number of prisoners equal to half the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. When interrogating a prisoner, the interrogator has advantage on Charisma (Intimidation) and Charisma (Persuasion) checks. If they spend at least an hour interrogating a prisoner, the prisoner has disadvantage on Charisma (Deception) checks."
+}

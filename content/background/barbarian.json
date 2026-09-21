@@ -1,0 +1,168 @@
+{
+  "key": "barbarian",
+  "name": "Barbarian",
+  "lore": "Though you might have only recently arrived in civilized lands, you are no stranger to the values of cooperation and group effort when striving for supremacy. You learned these principles, and much more, as a member of your tribe.\n\nYour people have always tried to hold to the old ways. Tradition and taboo have kept your tribe strong while the kingdoms of others have collapsed into chaos and ruin. But for the last few generations, some bands among the tribes were tempted to settle, make peace, trade, and even to build towns. Perhaps this is why your tribe chose to raise up the totems among the people as living embodiments of his power. Perhaps they needed a reminder of who they were and from whence they came. The Chosen of your tribe led bands back to the old ways, and most of your people abandoned the soft ways of civilization.",
+  "skillProficiencies": "Choose two from Animal Handling, Athletics, Nature, and Survival",
+  "toolProficiencies": "One type of musical instrument or artisan's implements",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A hunting trap, a totemic token or set of tattoos marking your loyalty to your tribe, a set of traveler's clothes, and a pouch containing 100 cr",
+  "feature": {
+    "name": "Barbarian Heritage",
+    "description": "You have an excellent knowledge of not only your tribe's territory, but also the terrain and natural resources of the rest of the worlds. You are familiar enough with any wilderness area that you find twice as much food and water as you normally would when you forage there.\n\nAdditionally, you can call upon the hospitality of other tribes in times of need."
+  },
+  "suggestedCharacteristics": "Often considered rude and uncouth among civilized folk, barbarians have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I'm driven by a wanderlust that led me away from home."
+    },
+    {
+      "roll": 2,
+      "description": "I watch over my friends as if they were a litter of newborn pups."
+    },
+    {
+      "roll": 3,
+      "description": "I once ran twenty-five miles without stopping to warn my clan of an approaching horde. I'd do it again if I had to."
+    },
+    {
+      "roll": 4,
+      "description": "I have a lesson for every situation, drawn from observing nature."
+    },
+    {
+      "roll": 5,
+      "description": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry rancor."
+    },
+    {
+      "roll": 6,
+      "description": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them."
+    },
+    {
+      "roll": 7,
+      "description": "I feel far more comfortable around animals than people."
+    },
+    {
+      "roll": 8,
+      "description": "I was, in fact, raised by wampas."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Change",
+      "description": "Life is like the seasons, in constant change, and we must change with it. (Chaotic)"
+    },
+    {
+      "roll": 2,
+      "name": "Greater Good",
+      "description": "It is each person's responsibility to make the most happiness for the whole tribe. (Light)"
+    },
+    {
+      "roll": 3,
+      "name": "Honor",
+      "description": "If I dishonor myself, I dishonor my whole clan. (Lawful)"
+    },
+    {
+      "roll": 4,
+      "name": "Might",
+      "description": "The strongest are meant to rule. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Nature",
+      "description": "The natural world is more important than all the constructs of civilization. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Glory",
+      "description": "I must earn glory in battle, for myself and my clan. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "My family, clan, or tribe is the most important thing in my life, even when they are far from me."
+    },
+    {
+      "roll": 2,
+      "description": "An injury to the unspoiled wilderness of my home is an injury to me."
+    },
+    {
+      "roll": 3,
+      "description": "I will bring terrible wrath down on the Darkdoers who destroyed my homeland."
+    },
+    {
+      "roll": 4,
+      "description": "I am the last of my tribe, and it is up to me to ensure their names enter legend."
+    },
+    {
+      "roll": 5,
+      "description": "I suffer awful visions of a coming disaster and will do anything to prevent it."
+    },
+    {
+      "roll": 6,
+      "description": "It is my duty to provide children to sustain my tribe."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I am too enamored of ale, wine, and other intoxicants."
+    },
+    {
+      "roll": 2,
+      "description": "There's no room for caution in a life lived to the fullest."
+    },
+    {
+      "roll": 3,
+      "description": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me."
+    },
+    {
+      "roll": 4,
+      "description": "I am slow to trust members of other species, tribes, and societies."
+    },
+    {
+      "roll": 5,
+      "description": "Violence is my answer to almost any challenge."
+    },
+    {
+      "roll": 6,
+      "description": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Animal Handler"
+    },
+    {
+      "roll": 2,
+      "name": "Brawny"
+    },
+    {
+      "roll": 3,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Entertainer"
+    },
+    {
+      "roll": 6,
+      "name": "Crafter"
+    },
+    {
+      "roll": 7,
+      "name": "Athlete"
+    },
+    {
+      "roll": 8,
+      "name": "Weapon Expert"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

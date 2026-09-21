@@ -1,0 +1,8 @@
+{
+  "key": "splashclass-improvement",
+  "name": "Splashclass Improvement",
+  "prerequisite": "4th level",
+  "description": "You've learned to blend the skills of your different classes. Choose one of the splashclass improvement options, detailed later in this chapter. You can take this feat multiple times.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

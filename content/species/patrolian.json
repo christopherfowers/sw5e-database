@@ -1,0 +1,102 @@
+{
+  "key": "patrolian",
+  "name": "Patrolian",
+  "size": "small",
+  "homeworld": "Patrolia",
+  "nativeLanguage": "Patrolian",
+  "lore": "### Biology and Appearance\nPatrolians are fish-like in appearance, covered in pale, pastel-colored scales and possessing numerous fins on their long limbs and face, as well as a notable dorsal fin which often require modified clothing to accommodate.\n\nThanks to their gills, patrolians are perfectly comfortable breathing underwater as well as on land, and their physiology is also notoriously resistant to electric shocks—both likely throwbacks to evolution on their native homeworld of Patrolia.\n\n### Society and Culture\nPatrolians are a notably innovative and resourceful species, and many of their number have found their way into roles in the construction, maintenance and sale of technology.\n\nUnfortunately, patrolians tend to pursue these businesses in a shady manner, and most tend to operate such ventures in the criminal underworld, working as bounty hunters, thieves, fences, slicers and other such technically-demanding criminal roles.\n\nThis inclination towards crime stems from their homeworld, which is perpetually stalled in a state of economic decay due to wartime. With the advent of multiple wars fought in the system, different armies continue to see the aquatic world as a strategic bulwark in the region. Because of this, patrolians have to find work not only off-world, but typically in fields not falling under governmental purview; unfortunately, criminal activities are the most common path.\n\n### Names\nPatrolian names are usually multisyllabic and sing-songy with lots of open vowels and few fricatives. Patrolians are not known to use family names or other surnames.\n\n**Male Names.** Dalladu, Feddi, Nogagai, Teconica\n\n**Female Names.** Kakeda, Machibido, Rinimma, Talla",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Dexterity or Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Patrolians reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Patrolians' greedy, scheming nature causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Patrolians typically stand just over 3 feet tall and generally weigh about 40 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Conniving",
+      "description": "You have proficiency in Deception or Stealth (your choice)."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Electrical Resistance",
+      "description": "Patrolians are notably capable of shrugging off electricity. You have resistance to lightning damage."
+    },
+    {
+      "name": "Specialist",
+      "description": "You have proficiency in one specialist's kit of your choice."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 25 feet."
+    },
+    {
+      "name": "Technician",
+      "description": "You are proficient in the Technology skill."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Patrolian. Patrolian is a high-energy language, consisting mostly of gurgles and skittish vocalizations. Patrolian, even when spoken on land, sounds like it's being spoken underwater."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity",
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "2'8\"",
+    "heightModifier": "+2d4\"",
+    "weightAverage": "35 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Fin-like limbs, pastel-color scales",
+    "skinColorOptions": "Blue-purple to green",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Light to dark red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_patrolian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

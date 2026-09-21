@@ -1,0 +1,9 @@
+{
+  "key": "species-verpine-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Verpine",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

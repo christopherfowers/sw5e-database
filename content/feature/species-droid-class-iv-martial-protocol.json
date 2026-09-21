@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iv-martial-protocol",
+  "name": "Martial Protocol",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class IV",
+  "description": "You have proficiency with light and medium armor as well as two simple or martial blasters or vibroweapons of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

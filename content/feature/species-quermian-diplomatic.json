@@ -1,0 +1,9 @@
+{
+  "key": "species-quermian-diplomatic",
+  "name": "Diplomatic",
+  "grantedBy": "species",
+  "grantedByName": "Quermian",
+  "description": "You have proficiency with Insight or Persuasion (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

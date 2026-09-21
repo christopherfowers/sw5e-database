@@ -1,0 +1,94 @@
+{
+  "key": "colicoid",
+  "name": "Colicoid",
+  "size": "medium",
+  "homeworld": "Colla IV",
+  "nativeLanguage": "Colicoid",
+  "lore": "### Biology and Appearance\nColicoids are tall insectoids that held multiple appendages. Their bodies are chitinous and include a powerful stinging tail. A colicoid's physiology allows them to curl up into a protective ball and unfurl suddenly which allow them to catch their prey unaware. This rolling method of locomotion is second nature to the colicoids. Their insectoid minds provide them a natural defense against mind tricks.\n\nSome members are colicoid queens that are different as they are more than twice the size of even the largest warrior breeds. This makes them extremely dangerous and are the only colicoids that possess a unique poisonous stinger. This combined with their strength and size makes them deadly combatants, especially when within their nests. However, a queen tends to only fight when her young are being threatened.\n\n### Society and Culture\nThough highly intelligent, colicoids are emotionless and cannibalistic in nature. Their ruthless cunning serves them well on the battlefield as it does on the negotiating table. It is known that long ago that they transferred these ruthless characteristics to their commerce activities. As a result, they are known to be brutally efficient in their business practices. They are noted for being vicious and calculating creatures that are driven by greed whilst showing little regard for others. The colicoids have numerous successful commercial ventures and hold strict business protocols.\n\n### Names\nColicoid names are typically very short and gender neutral, with surnames being based on the queen from which they spawned.\n\n**First Names.** Gal, Het, Kaf, Lyp, Nok, Yin\n\n**Surnames.** Bek, Dor, Set, Tel, Wim, Zal",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Strength or Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Colicoids reach adulthood by 8 and live to be about 65."
+    },
+    {
+      "name": "Alignment",
+      "description": "Colicoid's emotionless nature causes them to tend towards balanced alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Colicoids typically stand 6 to 6 and a half feet tall and generally weigh about 170 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Acute Senses",
+      "description": "You have proficiency in the Perception skill."
+    },
+    {
+      "name": "Cannibalize",
+      "description": "If you spend at least 1 minute devouring the corpse of a beast or humanoid, you gain temporary hit points equal to your Constitution modifier (minimum of one). Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Closed Mind",
+      "description": "Colicoid brains have an unusual composition which gives them a natural defense against the Force. You have advantage on Wisdom and Charisma saving throws against force powers."
+    },
+    {
+      "name": "Defensive Ball",
+      "description": "You are able to curl into a rolling ball for extra protection. When you take the Dash action while you aren't wielding a shield, you gain a bonus to AC equal to half your proficiency bonus until the start of your next turn."
+    },
+    {
+      "name": "Natural Armor",
+      "description": "Due to your carapace and the shape of your body, you are ill-suited to wearing armor. Your carapace provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+    },
+    {
+      "name": "Stinger",
+      "description": "Your stinger is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Colicoid. The Colicoid language uses sounds produced by the antennae and jointed legs of the colicoids, including humming sounds and clicks, which makes it difficult for other species to speak."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength",
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'2\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "120 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Carnivorous insectoids, four legs, defensive \"ball mode\"",
+    "skinColorOptions": "Brown, green, or purple",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Orange, purple, red, or yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_colicoid.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

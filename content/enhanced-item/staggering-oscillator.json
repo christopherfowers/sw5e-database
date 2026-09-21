@@ -1,0 +1,11 @@
+{
+  "key": "staggering-oscillator",
+  "name": "Staggering Oscillator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you hit with the weapon, you can force the target to make a DC 13 Strength saving throw. On a failed save, the creature is pushed back 10 feet and knocked prone.\n\nOnce you've used this feature, you must complete a short or long rest before you can use it again."
+}

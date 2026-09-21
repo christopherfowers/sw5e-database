@@ -1,0 +1,89 @@
+{
+  "key": "lannik",
+  "name": "Lannik",
+  "size": "small",
+  "homeworld": "Lannik",
+  "nativeLanguage": "Lannik",
+  "lore": "### Biology and Appearance\nLannik are short, bipedal humanoids with droopy, long ears. Males and females are equally tall, although the latter have a considerably less strong complexity. Their species is, however, much more vigorous and resistant than what its size could suggest. A Lannik's skin tends to be of colours similar to his or her eyes and hair. The species has evolved long pointy ears which allow them to hear better than human ears.\n\n### Society and Culture\nThe Lannik culture is apparently war loving, and Lanniks feel a great respect for warriors. At the same time, though, they follow a strict centuries-old code of honour. Lannik soldiers have the custom of tying all their hair in a single topknot over their head. Their species is one of fierce warriors, whose abilities have developed fighting against terrible predators and other Lanniks in a long history of wars. Although many regard the Lannik as hotheaded and temperamental, they are quite fearless and clear-headed even in combat, giving them the ability to think their way out of a dangerous situation.\n\nThe Lannik do not show their thoughts through their facial expressions, and seem always angry to other species. They are also very stubborn, and are not likely to change career once they chose it. Most males - and many females - serve in the planetary militia, celebrating the species' past as a warrior species. Some take on off-world mercenary work.\n\n### Names\nLannik names are generally short. Lanniks don't often give out their surnames.\n\n**Male Names.** Minch, Oteg, Vandar, Yaddle, Yoda\n\n**Female Names.** Giro, Lina, Penny, Vona, Zeya\n\n**Surnames.** Bek, Kaz, Mon, Var, Zin",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Lanniks reach adulthood in their 100's and can live up to 900 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Despite the turbulence on their homeworld, Lanniks tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Lanniks typically stand 3 to 4 feet tall and rarely weigh more than 50 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Closed Mind",
+      "description": "Lanniks have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against force powers."
+    },
+    {
+      "name": "Force-Sensitive",
+      "description": "You know the *guidance* at-will force power. When you reach 3rd level, you learn and can cast the *valor* force power once per day. When you reach 5th level, you learn and can cast the *force enlightenment* force power once per day. Wisdom is your forcecasting ability for these powers."
+    },
+    {
+      "name": "Keen Hearing",
+      "description": "You have advantage on Wisdom (Perception) checks that rely on hearing."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Wisdom of the Elders",
+      "description": "You are proficient in the Lore skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Lannik. Due to their large ears, the Lannik language is spoken softly, and it is considered insulting to shout."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "3'0\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "40 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Downward-sloping, large ears",
+    "skinColorOptions": "Blue, brown, green, orange, red, purple, yellow, or gray",
+    "hairColorOptions": "Brown, gray, or white",
+    "eyeColorOptions": "Amber, blue, brown, gray, green, hazel, purple, or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_lannik.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

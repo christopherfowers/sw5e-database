@@ -1,0 +1,11 @@
+{
+  "key": "burning-cell",
+  "name": "Burning Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When you score a critical hit with this weapon, you have advantage on the next attack roll you make against that creature before the end of your next turn."
+}

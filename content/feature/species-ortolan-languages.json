@@ -1,0 +1,9 @@
+{
+  "key": "species-ortolan-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ortolan",
+  "description": "You can speak, read, and write Galactic Basic and Ortolan. Ortolan is characterized by its grunts and hoots.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-umbaran-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Umbaran",
+  "description": "Umbarans' desire to improve their social standing at all costs causes them to tend towards chaos, though there are exceptions",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

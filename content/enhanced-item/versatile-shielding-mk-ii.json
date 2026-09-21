@@ -1,0 +1,11 @@
+{
+  "key": "versatile-shielding-mk-ii",
+  "name": "Versatile Shielding Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "_**Prerequiste:** Shield_\nThis shield gains the versatile 2 property. If it already has the versatile property, its versatile number increases by 2, to a maximum of 3."
+}

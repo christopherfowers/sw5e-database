@@ -1,0 +1,99 @@
+{
+  "key": "trooper-demolitions",
+  "name": "Trooper, Demolitions",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any alignment",
+  "armor": {
+    "class": 16,
+    "type": "durasteel armor"
+  },
+  "hitPoints": {
+    "average": 16,
+    "roll": "2d10 + 6"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 11,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one other"
+  ],
+  "challengeRating": "1/2",
+  "experiencePoints": 100,
+  "behaviors": [
+    {
+      "name": "Fragmentation Grenade",
+      "behaviorType": "action",
+      "description": "The trooper throws a grenade, choosing a point within 35 feet. Each creature within 10 feet must make a DC 12 Dexterity saving throw. A creature takes 2d6 kinetic damage on a failed save, or half as much as on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/day"
+    },
+    {
+      "name": "Set Mine",
+      "behaviorType": "action",
+      "description": "After setting this mine, a laser line imperceptible to normal vision extends up to 15 feet out. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d6 kinetic damage, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "2/day"
+    },
+    {
+      "name": "Breaching Charge",
+      "behaviorType": "action",
+      "description": "After spending at least 30 seconds setting the charge, the trooper may attach the charge to a surface. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator, which the trooper has. Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep. Additionally, each creature within 20 feet of the charge must make a DC 15 Dexterity saving throw. A creature takes 3d6 fire damage and 3d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "2/day"
+    },
+    {
+      "name": "Blaster Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 5 (1d6+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 40/160 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6+2",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "Whether clones, conscripts, or academy recruits, the backbone of the central government's war and peace machine are well trained, well armed, and well armored individuals. Deployed throughout the galaxy to deal with threats to authority, these troopers have various roles and specialties.",
+  "sectionText": "As the branch of the galactic military that dealt with surface operations, the galactic army was composed of many sub-units and organizations, and utilized a vast array of vehicles to achieve its objectives throughout the years.\n\n***Grand Army of the Republic.*** The Grand Army of the Republic (GAR), also known as the Republic Army or the clone army, was the army branch of the Republic Military during the Clone Wars. The Grand Army initially consisted of over a million clone troopers; genetically identical soldiers cloned from a human template, outfitted with armor, weapons and gear, and programmed for absolute loyalty to the Galactic Republic. Formed as a result of the Republic's efforts to create a centralized army in response to the threat of separatism, the Grand Army represented the evolution of galactic warfare at the time of its introduction on Geonosis, and was instrumental to the Sith Order's secret plot to take over the galaxy.\n\n***Imperial Army.*** As the ultimate evolution of the Grand Army of the Republic, the Imperial Army swiftly asserted dominance throughout the galaxy, making use of highly trained soldiers, mechanized walkers, and overwhelming numbers. The Imperial Army worked in tandem with the forces of the Imperial Navy, relying on the numerous fleets to transport legions of troopers across the far reaches of the galaxy. The most common soldiers of the Empire's ground forces were known as Imperial Army soldiers, the core infantry of the army tasked with establishing Imperial regimes and pacifying troublesome worlds. As the Imperials reinforced their grip on the galaxy, these units were gradually phased out in favor of stormtroopers, elite shock troops fanatically loyal to the Emperor himself.\n\n***First Order.*** The First Order army was the ground-based service branch of the First Order military. Formed from the Imperial Army of the Galactic Empire, it was responsible for maintaining order throughout First Order space as well as the gradual conquest and colonization of the Unknown Regions.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

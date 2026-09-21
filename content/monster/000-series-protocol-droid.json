@@ -1,0 +1,107 @@
+{
+  "key": "000-series-protocol-droid",
+  "name": "000 Series Protocol Droid",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 11,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 27,
+    "roll": "5d8 + 5"
+  },
+  "speed": {
+    "walk": 25,
+    "text": "25 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 10,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 10,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 14,
+      "modifier": 2
+    }
+  },
+  "skills": [
+    "Lore +5",
+    "Insight +4",
+    "Intimidation +5"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "languages": [
+    "All registered languages"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ],
+    "other": [
+      "diseased"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Techcasting",
+      "behaviorType": "trait",
+      "description": "At will: assess the situation, electroshock, venomous strike 1st-level: poison dart, spot the weakness, toxin scan, tranquilizer 2nd-level: paralyze humanoid, toxin purge, truth serum 3rd-level: tactical advantage The droid is a 5th-level techcaster. Its techcasting ability is Intelligence (tech save DC 13, +5 to hit with tech powers). It has 22 tech points and knows the following tech powers:",
+      "descriptionWithLinks": "Techcasting. The droid is a 5th-level techcaster. Its techcasting ability is Intelligence (tech save DC 13, +5 to hit with tech powers). It has 22 tech points and knows the following tech powers: [](#)\nAt will: [assess the situation](#assess%20the%20situation), [electroshock](#electroshock), [venomous strike](#venomous%20strike)\n1st-level: [poison dart](#poison%20dart), [spot the weakness](#spot%20the%20weakness), [toxin scan](#toxin%20scan), [tranquilizer](#tranquilizer)\n2nd-level: [paralyze humanoid](#paralyze%20humanoid), [toxin purge](#toxin%20purge), [truth serum](#truth%20serum)\n3rd-level: [tactical advantage](#tactical%20advantage)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tortuous Strike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) kinetic damage and, if the target is a creature, the creature is shocked until the end of its next turn.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 2,
+      "damageRoll": "1d4",
+      "damageType": "kinetic"
+    }
+  ],
+  "flavorText": "The 3PO-series protocol droid is a Human-cyborg relations protocol droid produced by Cybot Galactica. They are equipped with a TranLang III communication module, and as a result are fluent in over 6 million forms of communication. The model series has very similar aesthetic design in its casing to other Cybot Galactica droid model series such as the TC-series, 3PX-series, and 5YQ-series protocol droids.***0-0-0.*** The Triple-Zero protocol personality matrix is a droid personality matrix that was created centuries before the rise of the Galactic Empire. The matrix is considered incredibly dangerous when placed into its designed droid body: a protocol droid. The matrix, when inserted into a protocol droid, turns it into an assassin droid that specializes in torture. It was quarantined on Quarantine World III in Kallidahin Space for centuries before it was stolen by the rogue archaeologist Doctor Aphra during the Galactic Civil War.",
+  "sectionText": "Protocol droids are programmed mostly for etiquette, and are often used as translators between sentients or between sentients and computers. They are generally designed to look like the sentients they serve; for example, 3PO-series protocol droids are humanoid. They possess knowledge about various cultures and customs, both to advise those for whom they were working, and to ensure their own behavior is diplomatic and culturally sensitive.\n\n***History.*** Protocol droids constructed around 4000 BBY (around the time of the Great Sith War and the Jedi Civil War) were frequently engineered with certain behavioral shifts set to occur whenever another design-generation was reached. A number of these droids underwent radical changes with each new generation—for example, when a C7-model droid supplanted the C6 variety. Each numeric \"jump\" in sequence could have had wide-ranging changes in functionality and temperament during that historical period.\n\n***Programming Units.*** Cybot Galactica, the most famous and successful manufacturer of protocol droids, outfit them with SyntheTech AA-1 VerboBrains to give their droids personalities with emotions and the ability to learn and grow very similar to organic beings. The 3PO unit possesses a TranLang III communications module that can reproduce over six million languages, as well as reproduce any sound it picks up. Linguistic modules are also used to improve their speech functions. Some models, such as the pricey E-3POs, also include the TechSpan I module, making it possible to interface with Imperial networks and undocumented technologies of Imperial subcontractors.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

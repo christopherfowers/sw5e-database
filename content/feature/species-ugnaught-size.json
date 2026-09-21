@@ -1,0 +1,9 @@
+{
+  "key": "species-ugnaught-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Ugnaught",
+  "description": "Ugnaughts typically stand around 4 feet and weigh about 50 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

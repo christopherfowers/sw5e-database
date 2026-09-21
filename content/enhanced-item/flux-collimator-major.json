@@ -1,0 +1,11 @@
+{
+  "key": "flux-collimator-major",
+  "name": "Flux Collimator (Major)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "As an action, you can apply this collimator to one lightweapon within 5 feet, granting it a +2 bonus to attack and damage rolls for 1 minute. This bonus is in addition to any bonuses granted by the weapon. Additionally, if the weapon is not enhanced, it becomes enhanced for the duration."
+}

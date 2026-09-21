@@ -1,0 +1,9 @@
+{
+  "key": "countermeasures",
+  "name": "Countermeasures",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "This modification adds a series of countermeasures to the ship, granting it a more active approach to ward off effects. Once per round, when your ship is forced to make a saving throw against an effect that would cause it to be blinded, ionized, shocked, stalled, stunned, or tractored a crewmember can use their reaction to add the ship's Wisdom modifier to the roll (minimum of +1)."
+}

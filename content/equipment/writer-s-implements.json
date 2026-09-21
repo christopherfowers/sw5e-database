@@ -1,0 +1,10 @@
+{
+  "key": "writer-s-implements",
+  "name": "Writer's implements",
+  "category": "tool",
+  "costInCredits": 200,
+  "weight": 3.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

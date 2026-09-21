@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-intuitive-initiative",
+  "name": "Intuitive Initiative",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "You can choose to reroll Initiative checks, but you must use the new roll.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "repelling-wristpad",
+  "name": "Repelling wristpad",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 1600,
+  "weight": 2.0,
+  "description": "This wristpad has the repelling and constitution 11 properties.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

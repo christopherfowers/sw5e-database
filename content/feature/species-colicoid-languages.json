@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "You can speak, read, and write Galactic Basic and Colicoid. The Colicoid language uses sounds produced by the antennae and jointed legs of the colicoids, including humming sounds and clicks, which makes it difficult for other species to speak.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

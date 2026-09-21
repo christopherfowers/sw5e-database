@@ -1,0 +1,9 @@
+{
+  "key": "species-zabrak-toughness",
+  "name": "Toughness",
+  "grantedBy": "species",
+  "grantedByName": "Zabrak",
+  "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

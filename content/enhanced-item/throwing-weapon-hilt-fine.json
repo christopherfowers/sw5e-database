@@ -1,0 +1,11 @@
+{
+  "key": "throwing-weapon-hilt-fine",
+  "name": "Throwing Weapon Hilt (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains thrown (20/60) property. If it already has the thrown property, the range increases by 10/30."
+}

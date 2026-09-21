@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "Twi'leks reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

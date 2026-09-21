@@ -1,0 +1,10 @@
+{
+  "key": "archetype-aqinos-form-form-basics-3",
+  "name": "Form Basics",
+  "grantedBy": "archetype",
+  "grantedByName": "Aqinos Form",
+  "level": 3,
+  "description": "_**Aqinos Form:** 3rd level_\nYou gain the Aqinos lightsaber form, detailed in the Lightsaber Forms section of the Customization Options document for Expanded Content. If you already know this form, you can instead choose another lightsaber form.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

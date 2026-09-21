@@ -1,0 +1,9 @@
+{
+  "key": "species-zeltron-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Zeltron",
+  "description": "Zeltron reach adulthood in their late teens and live about 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

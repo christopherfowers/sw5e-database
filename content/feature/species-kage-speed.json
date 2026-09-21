@@ -1,0 +1,9 @@
+{
+  "key": "species-kage-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Kage",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

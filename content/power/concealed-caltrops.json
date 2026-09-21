@@ -1,0 +1,17 @@
+{
+  "key": "concealed-caltrops",
+  "name": "Concealed Caltrops",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "150 feet",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "You scatter a large number of caltrops across ground in a 20-foot radius centered on a point within range. These caltrops pierce deep into the feet and boots of anyone who walks upon them. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 kinetic damage for every 5 feet it travels.\n\nThe caltrops are nearly invisible to the naked eye. Any creature that can't see the area at the time the power is cast must make a Wisdom (Perception) check against your tech save DC to notice the caltrops before entering the area.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

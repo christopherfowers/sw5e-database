@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "Wookiees tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

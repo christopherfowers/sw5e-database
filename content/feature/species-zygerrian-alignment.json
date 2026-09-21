@@ -1,0 +1,9 @@
+{
+  "key": "species-zygerrian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Zygerrian",
+  "description": "Zygerrian culture's emphasis on subjugation and strength causes them to tend towards chaotic dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

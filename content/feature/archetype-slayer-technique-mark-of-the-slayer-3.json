@@ -1,0 +1,10 @@
+{
+  "key": "archetype-slayer-technique-mark-of-the-slayer-3",
+  "name": "Mark of the Slayer",
+  "grantedBy": "archetype",
+  "grantedByName": "Slayer Technique",
+  "level": 3,
+  "description": "_**Slayer Technique:** 3rd level_\nYou immediately learn if the target of your Ranger's Quarry feature has any damage immunities, resistances, or vulnerabilities and what they are. Additionally, the first time you hit the target of your Ranger's Quarry feature with a weapon attack each turn, it takes extra damage equal to your Ranger's Quarry Damage Die. The damage is of the same type as the weapon's damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

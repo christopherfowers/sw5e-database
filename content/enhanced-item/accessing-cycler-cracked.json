@@ -1,0 +1,11 @@
+{
+  "key": "accessing-cycler-cracked",
+  "name": "Accessing Cycler (Cracked)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the accessing 1 property. If it already has the accessing property, its accessing number increases by 1, to a maximum of 6."
+}

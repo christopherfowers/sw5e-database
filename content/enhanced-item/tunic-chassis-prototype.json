@@ -1,0 +1,11 @@
+{
+  "key": "tunic-chassis-prototype",
+  "name": "Tunic Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nThis modifiable clothing chassis comes with vacant modification slots for clothing modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

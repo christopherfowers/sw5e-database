@@ -1,0 +1,17 @@
+{
+  "key": "mind-spike",
+  "name": "Mind Spike",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "Choose one creature you can see. The target must make a Wisdom saving throw. A creature takes 3d8 psychic damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, you always know the target's location, but only while the two of you are on the same planet. The target can't become hidden from you, and if it's invisible, it gains no benefits from this condition against you. This power has no effect on droids or constructs.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

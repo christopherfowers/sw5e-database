@@ -1,0 +1,10 @@
+{
+  "key": "field-rations-one-day-s",
+  "name": "Field rations (one day's)",
+  "category": "utility",
+  "costInCredits": 5,
+  "weight": 1.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

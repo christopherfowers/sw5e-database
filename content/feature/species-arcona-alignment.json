@@ -1,0 +1,9 @@
+{
+  "key": "species-arcona-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Arcona",
+  "description": "Arcona tend toward no particular alignment. They can vary from the chaotic thrillseekers to the orderly lawkeepers. The best and worst are found among them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

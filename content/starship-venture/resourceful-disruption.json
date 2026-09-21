@@ -1,0 +1,15 @@
+{
+  "key": "resourceful-disruption",
+  "name": "Resourceful Disruption",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "at least 1 rank in operator",
+      "deploymentName": "Operator",
+      "rank": 1
+    }
+  ],
+  "description": "Once per round, when you roll a power die as part of an operator's disruption, you can roll the die twice and take either result."
+}

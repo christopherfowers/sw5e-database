@@ -1,0 +1,11 @@
+{
+  "key": "rocket-fragmentation",
+  "name": "Rocket, fragmentation",
+  "category": "ammunition",
+  "costInCredits": 350,
+  "weight": 2.0,
+  "description": "This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 14 Dexterity saving throw, taking 2d10 kinetic damage on a failed save or half as much on a successful one.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

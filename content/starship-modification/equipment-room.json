@@ -1,0 +1,9 @@
+{
+  "key": "equipment-room",
+  "name": "Equipment Room",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite adds an equipment room, adding 4 modification slots to your base modification capacity."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "channeling-amplifier-dueling",
+  "name": "Channeling Amplifier (Dueling)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "While using this item as your focus, you gain a +2 bonus to melee force attacks."
+}

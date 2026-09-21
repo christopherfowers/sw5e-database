@@ -1,0 +1,10 @@
+{
+  "key": "archetype-matukai-order-force-enhanced-strikes-3",
+  "name": "Force-Enhanced Strikes",
+  "grantedBy": "archetype",
+  "grantedByName": "Matukai Order",
+  "level": 3,
+  "description": "_**Matukai Order:** 3rd level_\nYou learn to channel the Force into your unarmed strikes and monk weapons, further enhancing your melee strikes. When you hit a creature with an unarmed strike or melee weapon attack with a monk weapon, you can spend 1 focus point to force the creature to make a Strength saving throw against your focus save DC. On a failed save, it takes 2d6 force damage and is pushed up to 15 feet away from you. On a successful save, the creature only takes half as much damage and isn't pushed.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

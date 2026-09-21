@@ -1,0 +1,21 @@
+{
+  "key": "lightcutlass",
+  "name": "Lightcutlass",
+  "category": "weapon",
+  "costInCredits": 725,
+  "weight": 1.5,
+  "properties": [
+    "dexterity 11",
+    "hidden",
+    "luminous"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

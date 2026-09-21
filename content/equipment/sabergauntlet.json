@@ -1,0 +1,21 @@
+{
+  "key": "sabergauntlet",
+  "name": "Sabergauntlet",
+  "category": "weapon",
+  "costInCredits": 475,
+  "weight": 1.5,
+  "properties": [
+    "finesse",
+    "fixed",
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

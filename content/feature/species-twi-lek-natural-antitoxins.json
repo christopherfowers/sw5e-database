@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-natural-antitoxins",
+  "name": "Natural Antitoxins",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "You have advantage on saving throws against poison and disease, and you have resistance against poison damage (explained in Chapter 9).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

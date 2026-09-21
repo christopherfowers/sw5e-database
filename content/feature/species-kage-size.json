@@ -1,0 +1,9 @@
+{
+  "key": "species-kage-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kage",
+  "description": "Kage typically stand between 5 and 6 feet tall, and weigh around 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

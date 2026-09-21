@@ -1,0 +1,17 @@
+{
+  "key": "heighten-senses",
+  "name": "Heighten Senses",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "reaction",
+    "text": "1 reaction, which you take when you would roll initiative"
+  },
+  "range": "Self",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "Through the Force, you sense a sudden shift in your environment, and can seize on it with great speed. You gain advantage on your initiative check, and until the end of your first turn in combat, your walking speed increases by 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "gauntlet-armoring-mk-ii",
+  "name": "Gauntlet Armoring Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the gauntleted (1d6) property. If it already has the gauntleted property, the gauntleted damage increases by two steps (from d4 to d8)."
+}

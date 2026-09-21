@@ -1,0 +1,9 @@
+{
+  "key": "fuel-storage",
+  "name": "Fuel Storage",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This large fuel tank is able to store additional fuel portions in your starship. The tank stores fuel units equal to 5 times your ship's normal fuel capacity. These units can be used to fuel your own starship, or they can be transfered to other ships.\nFuel can be transferred to ships of other size. A Gargantuan fuel unit takes up the space of 10 Huge units, which in turn takes up the space of 10 Large units, which takes the space of 10 Medium units. One Medium unit takes up the space of two Small units, which in turn takes up the space of two Tiny units."
+}

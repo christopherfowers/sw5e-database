@@ -1,0 +1,10 @@
+{
+  "key": "holocron-novice",
+  "name": "Holocron (Novice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "description": "This holocron contains a single at-will force power. After meditating with the holocron for at least 2 hours, a forcecaster with a Max Power Level of 1st or higher can make a DC 10 forcecasting ability check with proficiency based on the alignment of the power stored within. On a success, they learn the contained force power, which does not count against their force powers known and can not be unlearned except through use of a *remove curse* power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.\n\n_Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._"
+}

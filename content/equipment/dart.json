@@ -1,0 +1,11 @@
+{
+  "key": "dart",
+  "name": "Dart",
+  "category": "ammunition",
+  "costInCredits": 5,
+  "weight": 0.0,
+  "description": "This wrist launcher ammunition deals 1d6 kinetic damage on a hit.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

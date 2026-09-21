@@ -1,0 +1,11 @@
+{
+  "key": "bonded-weave-fine",
+  "name": "Bonded Weave (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain a +1 bonus to AC against melee attacks while wearing this clothing."
+}

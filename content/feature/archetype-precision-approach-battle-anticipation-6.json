@@ -1,0 +1,10 @@
+{
+  "key": "archetype-precision-approach-battle-anticipation-6",
+  "name": "Battle Anticipation",
+  "grantedBy": "archetype",
+  "grantedByName": "Precision Approach",
+  "level": 6,
+  "description": "_**Precision Approach:** 6th level_\nWhile raging, your critical hit range with melee weapon attacks using Dexterity increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

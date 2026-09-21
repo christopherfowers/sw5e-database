@@ -1,0 +1,11 @@
+{
+  "key": "cns-strength-enhancer",
+  "name": "CNS Strength Enhancer",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile wearing this belt, your Strength score becomes 23. If your Strength is already equal to or greater than 23, it has no effect on you.\n\n_This belt further increases a users physical power with pneumaticized assistance joists and a repulsorfield microgenerator._"
+}

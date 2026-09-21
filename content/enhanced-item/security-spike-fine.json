@@ -1,0 +1,11 @@
+{
+  "key": "security-spike-fine",
+  "name": "Security Spike (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "technology",
+  "description": "When you make an Intelligence (security kit) check, you can use the spike (no action required) to gain advantage on the check. You can wait until after you roll the d20 before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails."
+}

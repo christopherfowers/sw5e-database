@@ -1,0 +1,93 @@
+{
+  "key": "kalleran",
+  "name": "Kalleran",
+  "size": "medium",
+  "homeworld": "Kaller",
+  "nativeLanguage": "Kall",
+  "lore": "### Biology and Appearance\nKallerans evolved from a semi-amphibious species on Kaller. Kallerans are tall and flexible; their hands and feet have three prehensile digits on each, which leeds kallerans to avoid wearing shoes or boots. The majority of kallerans have green skin patterned with distinctive black stripes. The species have dense muscles that assist them in the protection of their otherwise delicate bodies. The kalleran head is distinguished by fin-like folds on the tops and sides of their faces. These fins augment a kalleran's hearing, allowing sound to bounce back and be picked up by the two antenna crowning their head. These antenna are sensory organs that serve as olfactory and aural receptors. Kallerans have lungs adapted to breathe above water, though the majority of their respiration is done through their skin. A holdover from their amphibious past, their skin can draw oxygen in from the air and filter out carbon dioxide. Their respiratory system requires them to consume more water than other species their size to keep their skin moist and supple. Because they do not primarily breathe through their mouths, kallerans did not evolve noses.\n\n### Society and Culture\nAbove all else, kalleran's value personal achievement over collective accomplishments. Because of this, the people of Kaller have never united to form great societies or participate in galactic affairs. Much of the cultural expansion on Kaller was brought by colonists, both friendly and violent, who had settled the world over the course of millennia.\n\n### Names\nKallerans have regal sounding names, sometimes using accents on vowels, with clan-based surnames.\n\n**Male Names.** Gliconn, Orcas, L�vern, Seelv�n\n\n**Female Names.** Cybele, F�ress, Numarin, Retesh\n\n**Surnames.** Alash, Byssus, Estair, Lash",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Kallerans reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Kallerans' individualistic society causes them to tend towards chaotic alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Kallerans typically stand 6 and a half to 8 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Flexible",
+      "description": "You have advantage on Dexterity (Acrobatics) checks that involve flexibility."
+    },
+    {
+      "name": "Keen Hearing",
+      "description": "You have advantage on Wisdom (Perception) checks that involve hearing."
+    },
+    {
+      "name": "Prehensile Feet",
+      "description": "You have supreme control over your feet and can use them to manipulate objects as well as your hands."
+    },
+    {
+      "name": "Snap Senses",
+      "description": "Through your antenna, you can sense incoming danger and react accordingly. When you roll for initiative, you can choose to gain advantage on the roll. Alternatively, if you are surprised, you may act normally on your first turn. Once you've used this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Kall. Kall depends upon distinct antenna movements communicate correctly. This leads to this characteristic antenna movement when kallerans speak Galactic Basic. Because antenna movement is an integral part of Kall, it is difficult for most other species to master."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'4\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "110 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Olfactory antenna, noseless",
+    "skinColorOptions": "Green with distinct black markings",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, orange, green, or blue"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kalleran.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

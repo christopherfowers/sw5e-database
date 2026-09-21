@@ -1,0 +1,9 @@
+{
+  "key": "species-ugor-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ugor",
+  "description": "Ugors reach adulthood in their early teens and live about 70 years, though some live to be over 100.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "overlay-rangefinder-apprentice",
+  "name": "Overlay Rangefinder (Apprentice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +1 bonus to ranged force attacks."
+}

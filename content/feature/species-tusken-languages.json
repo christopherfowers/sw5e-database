@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "You can speak Tusken, and speak, read, and write Galactic Basic. Tusken is a guttural language characterized by its barks, growls, and roars. While Tuskens typically understand Galactic Basic, it is rare to hear them speak anything but Tusken. Tusken has no written form. Tuskens also know a complex sign language used to communicate with other tuskens silently.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

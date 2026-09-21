@@ -1,0 +1,8 @@
+{
+  "key": "resilient",
+  "name": "Resilient",
+  "prerequisite": "4th level",
+  "description": "Choose one ability score. You gain the following benefits:\n- Increase the chosen ability score by 1, to a maximum of 20.\n- You gain proficiency in saving throws using the chosen ability.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

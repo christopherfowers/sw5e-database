@@ -1,0 +1,11 @@
+{
+  "key": "defensive-guard-champion",
+  "name": "Defensive Guard (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the defensive 3 property. If it already has the defensive property, its defensive number increases to 3."
+}

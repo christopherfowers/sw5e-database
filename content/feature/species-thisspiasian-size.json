@@ -1,0 +1,9 @@
+{
+  "key": "species-thisspiasian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Thisspiasian",
+  "description": "Thisspiasians typically stand 5 to 6 and a half feet tall and generally weigh about 300 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

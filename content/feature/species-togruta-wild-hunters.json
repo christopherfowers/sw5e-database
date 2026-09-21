@@ -1,0 +1,9 @@
+{
+  "key": "species-togruta-wild-hunters",
+  "name": "Wild Hunters",
+  "grantedBy": "species",
+  "grantedByName": "Togruta",
+  "description": "You have proficiency in the Survival skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

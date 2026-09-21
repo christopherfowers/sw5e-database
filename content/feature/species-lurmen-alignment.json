@@ -1,0 +1,9 @@
+{
+  "key": "species-lurmen-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Lurmen",
+  "description": "The pacifistic nature of the lurmen causes them to be neutral light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

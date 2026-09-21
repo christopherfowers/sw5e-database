@@ -1,0 +1,11 @@
+{
+  "key": "brawny-pattern-exquisite",
+  "name": "Brawny Pattern (Exquisite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain grand mastery in Athletics."
+}

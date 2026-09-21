@@ -1,0 +1,153 @@
+{
+  "key": "blastromech-series-bt-1",
+  "name": "Blastromech Series, BT-1",
+  "size": "small",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 17,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 90,
+    "roll": "12d8+36"
+  },
+  "speed": {
+    "walk": 25,
+    "text": "25 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 18,
+      "modifier": 4
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "skills": [
+    "Stealth +6",
+    "Perception +5",
+    "Survival +5",
+    "Intimidation +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 15"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the assassin droid fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/Day"
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The assassin droid makes three Blaster Cannon attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Cannon",
+      "behaviorType": "action",
+      "description": "Each creature in a 10 foot cube centered on a point the droid can see within 100 feetmust make a DC 16 Dexterity saving throw. A creature takes 9 (1d10+4) energy damage on a failed save.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Flamethrower",
+      "behaviorType": "action",
+      "description": "Each creature in a 30-foot cone must make a DC 16 Dexterity saving throw. A creature takes 36 (8d8) fire damage on a failed save, or half as much on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "2/day"
+    },
+    {
+      "name": "Rocket Barrage",
+      "behaviorType": "action",
+      "description": "Each creature in a 20-foot-radius sphere centered on a point that you can see within 150 feet must make a DC 16 Dexterity saving throw. A target takes 14 (4d6) kinetic damage and 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "2/Day"
+    },
+    {
+      "name": "Attack",
+      "behaviorType": "legendary",
+      "description": "The assassin droid makes one Blaster Cannon attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Detect",
+      "behaviorType": "legendary",
+      "description": "The assassin droid makes a Wisdom (Perception) check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Rocket Boost",
+      "behaviorType": "legendary",
+      "description": "The assassin droid leaps up to 40 feet in any direction. This movement does not provoke opportunity attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "A homicidal assassin droid created by the Galactic Empire's Tarkin Initiative, the BT-1 model is designed to look like an astromech droid in order to fool others. The droid is armed with a variety of weapons including several blaster cannons, flamethrowers, and rockets. The BT-1 model is also equipped with rocket boosters.",
+  "sectionText": "Assassin droids are a type of droid built specifically for the purpose of assassination. These droids generally perform with unflinching loyalty to their masters, but rogue assassin droids are not unknown. Since their missions generally require a far higher degree of independent skill, savvy, and judgment than normally possessed by simple war droids, their programming subroutines, circuitry, and memory cores are of correspondingly higher sophistication. Equipped with an array of weapons, assassin droids are also used as elite infantry when the need for skillful and quickly adaptable soldiers with unquestionable loyalty arises. An inordinate number of assassin droids have achieved sentient independence, including IG-88 and C-3PX, presumably due to the higher level of autonomy incorporated into their processor design. These droids typically fund their independent existences through the use of their innate abilities, often plying their trade as bounty hunters.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

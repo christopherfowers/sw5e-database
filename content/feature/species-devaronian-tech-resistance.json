@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-tech-resistance",
+  "name": "Tech Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "Growing up around technology leaves an impact on devaronians. You have advantage on Dexterity and Intelligence saving throws against tech powers.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

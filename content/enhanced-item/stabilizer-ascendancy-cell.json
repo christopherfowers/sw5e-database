@@ -1,0 +1,11 @@
+{
+  "key": "stabilizer-ascendancy-cell",
+  "name": "Stabilizer Ascendancy Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon loses the dexterity property."
+}

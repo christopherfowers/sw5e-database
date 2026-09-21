@@ -1,0 +1,10 @@
+{
+  "key": "brewer-s-kit",
+  "name": "Brewer's kit",
+  "category": "kit",
+  "costInCredits": 200,
+  "weight": 9.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

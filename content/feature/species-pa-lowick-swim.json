@@ -1,0 +1,9 @@
+{
+  "key": "species-pa-lowick-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Pa'lowick",
+  "description": "You have a swimming speed of 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

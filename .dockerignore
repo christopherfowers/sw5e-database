@@ -1,0 +1,56 @@
+# Keep the build context to what the image actually ships: content/, schemas/,
+# the publish script and the two licence files.
+
+# Version control and CI
+.git
+.gitattributes
+.gitignore
+.github
+
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+*.user
+
+# Managed code and tests. This image runs no .NET, so none of it belongs in the
+# build context.
+src/
+tests/
+*.slnx
+global.json
+
+# Local development only
+docker-compose.yml
+.env.example
+
+# Secrets and local config - these must never reach an image layer
+.env
+.env.*
+*.pfx
+appsettings.*.local.json
+secrets.json
+
+# Tooling directories that must never be published
+.claude/
+CLAUDE.md
+AGENTS.md
+.agents/
+.cursor/
+.aider*
+
+# Editor
+.vs/
+.idea/
+*.swp
+.DS_Store
+
+# Docs, except the content licence, which ships beside the content it governs.
+*.md
+!CONTENT-LICENSE.md
+
+# migrations/ is deliberately NOT excluded. It holds only .gitkeep today and the
+# image copies nothing from it, but it is the build context the migration step
+# will need, and an exclusion added now would be easy to miss later.

@@ -1,0 +1,319 @@
+{
+  "key": "slicer-pursuit",
+  "name": "Slicer Pursuit",
+  "className": "Scholar",
+  "casterType": "tech",
+  "casterRatio": 0.3333333333333333,
+  "classCasterType": "none",
+  "description": "Across the galaxy one can find numerous pseudonyms and false identities belonging to the hackers and cyber-infiltrators that call the world of electronics home. Those scholars who choose the Slicer Pursuit put their impressive intellectual prowess to work in the field of technology, to ends both benevolent and malicious.\n\n### Hacker's Disposition\n_**Slicer Pursuit:** 3rd level_\nYou gain proficiency with slicer's kits and in the Technology skill. Additionally, you can't have disadvantage on checks you make with them.\n\n### Techcasting\n_**Slicer Pursuit:** 3rd level_\nYou have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.\n\n#### Tech Powers Known\nYou learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Slicer Pursuit Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.\n\n#### Tech Points\nYou have a number of tech points equal to half of your scholar level, as shown in the Tech Points column of the Slicer Pursuit Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.\n\n#### Max Power Level\nMany tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Slicer Pursuit Techcasting table.\n\nYou may only cast tech powers at 4th-level once. You regain the ability to do so after a long rest.\n\n#### Techcasting Ability\nIntelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.\n\n___\n\n**Tech save DC** = 8 + your proficiency bonus + your Intelligence modifier\n\n___\n\n**Tech attack modifier** = your proficiency bonus + your Intelligence modifier\n\n___\n\n#### Techcasting Focus\nYou use a wristpad (found in chapter 5 of the Player's Handbook) as a tech focus for your tech powers.\n\n##### Slicer Techcasting\n\n### Systems Hijack\nAlso at 3rd level, when the target of your Critical Analysis is a droid or construct, or wearing or holding a techcasting focus, that creature is a viable target for any tech powers with you cast with a range of touch.\n\nAdditionally, when the target of your Critical Analysis casts a tech power, you can use your reaction to identify the tech power being cast, and at what level.\n\n### Potent Programming\n_**Slicer Pursuit:** 6th level_\nWhen a creature succeeds on a saving throw against an at-will tech power you cast that deals damage, the creature takes half the power's damage, but suffers no additional effects of the power.\n\n### Redirect Error\n_**Slicer Pursuit:** 9th level_\nWhen the target of your Critical Analysis feature casts a tech power that affects an area, you can use your reaction to cause that power to instead affect an area in a 10-foot-radius sphere centered on the caster.\n\nOnce you've used this feature, you must complete a long rest before you can use it again.\n\n### System Override\n_**Slicer Pursuit:** 17th level_\nYou know how to quickly activate anti-tech subroutines you have encoded into your wristpad. You can cast the *diminish tech* and *tech override* powers at 3rd level without expending tech points. If the target is the target of your Critical Analysis, you have advantage on the techcasting ability check for these powers.\n\nYou can use this feature three times. You regain all expended uses when you finish a long rest.\n\n### Slicer Discoveries\nWhen you select this pursuit, you gain access to new discoveries which reflect your understanding of tech casting. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.\n\n#### Administrator's Log\nIf you spend at least 10 minutes working on a computer or terminal, you can get a full list of users who have accessed the machine within the past 24 hours. Over the course of a long rest, you may then form a facsimile of identification that would allow you to pass yourself off as that person when accessing machines.\n\n#### Backdoor Egress\nWhen you cast a tech power that affects an area and requires a saving throw, and you are inside that power's area, you can use your reaction to move up to half your speed without provoking opportunity attacks. If you end this movement outside the area affected by the tech power, you do not have to make a saving throw to avoid its effects.\n\n#### Intelligence Core Override\n_**Prerequisite:** 9th level_\nYou can cast the *override interface* tech power at 5th level without spending tech points.\n\nOnce you've used this feature, you must complete a long rest before you can use it again.\n\n#### Resource Appropriation\n_**Prerequisite:** 11th level_\nIf you reduce the target of your Critical Analysis feature to 0 hit points, and it has tech point remaining, you may choose to gain any tech points it had remaining. Your current tech points cannot exceed your tech point maximum.\n\nOnce you've used this feature, you must complete a short or long rest before you can use it again.\n\n#### Skillful Casting\nWhen you hit a creature with an at-will tech power that requires an attack roll, you may treat that attack roll as a weapon attack for the purpose of using maneuvers.\n\n#### Sleeper Program\nWhenever you cast a tech power with a casting time of 1 action, you can choose to delay the power's activation up to a minute. When you do so, you cast the power as normal, but holds its energy for the duration of the delay. Holding onto the power's effect requires concentration. If your concentration is broken before the delay ends, the power dissipates without taking effect. You can use your reaction to activate the power at any time.\n\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses  when you finish a long rest.",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "3"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "4"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "5"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "6"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "8"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "10"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "11"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "14"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "16"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "20"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

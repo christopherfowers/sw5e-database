@@ -1,0 +1,15 @@
+{
+  "key": "protected-by-the-force",
+  "name": "Protected by the Force",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 3 levels in consular",
+      "className": "consular",
+      "level": 3
+    }
+  ],
+  "description": "When your ship is hit by an attack, you can use your reaction to shroud your ship in Force energy. Until the start of your next turn, you have a bonus to AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1). This includes the triggering attack.\nYou can use this feature a number of times equal to your proficiency bonus, as shown in the consular table. You regain all expended uses when you finish a long rest."
+}

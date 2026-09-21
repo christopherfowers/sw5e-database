@@ -1,0 +1,21 @@
+{
+  "key": "blaster-carbine",
+  "name": "Blaster carbine",
+  "category": "weapon",
+  "costInCredits": 425,
+  "weight": 5.5,
+  "properties": [
+    "power cell (range 70/280)",
+    "reload 16",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

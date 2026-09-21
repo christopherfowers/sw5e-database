@@ -1,0 +1,9 @@
+{
+  "key": "species-togruta-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Togruta",
+  "description": "Your Wisdom score increases by 2, and your Strength or Dexterity score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

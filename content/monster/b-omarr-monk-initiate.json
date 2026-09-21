@@ -1,0 +1,77 @@
+{
+  "key": "b-omarr-monk-initiate",
+  "name": "B'omarr Monk Initiate",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any neutral alignment",
+  "armor": {
+    "class": 12,
+    "type": "Combat Suit"
+  },
+  "hitPoints": {
+    "average": 9,
+    "roll": "2d8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 8,
+      "modifier": -1
+    },
+    "constitution": {
+      "score": 8,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 1,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "skills": [
+    "Medicine +4",
+    "Deception +2"
+  ],
+  "senses": [
+    "Senses passive Perception 10"
+  ],
+  "languages": [
+    "Basic",
+    "Huttese"
+  ],
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Hold-Out Blaster",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +2 to hit, range 30/120, one target. Hit: 4 (1d4+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 2,
+      "range": "range 30/120",
+      "targets": "one target",
+      "averageDamage": 4,
+      "damageRoll": "1d4+2",
+      "damageType": "energy"
+    }
+  ],
+  "sectionText": "The B'omarr Order, which consisted of the B'omarr Monks, was a mysterious religious order that moved to the planet Tatooine around 700 BBY. The B'omarr believed that cutting themselves off from all physical sensation would further their studies, and allow them to ponder the galaxy and achieve enlightenment. When a monk became enlightened, his brain was removed through a special procedure, and was placed in a nutrient-filled jar. The brains were held in very high regard by the lower, embodied monks, who saw to their every need, though the brains rarely did anything other than think and wonder. When they did need to travel around their monastery on Tatooine, the brains were transferred into specially modified BT-16 perimeter droids.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

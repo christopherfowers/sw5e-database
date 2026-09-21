@@ -1,0 +1,17 @@
+{
+  "key": "sense-emotion",
+  "name": "Sense Emotion",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 10 minutes",
+  "concentration": true,
+  "description": "You attune your senses to pick up the emotions of others for the duration. When you cast the power, and as your action on each turn until the power ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target's prevailing emotion, whether it's love, anger, pain, fear, calm, or something else, and you have advantage on Wisdom (Insight) checks against the target. If the target isn't actually humanoid or it is immune to being charmed, you sense that it is calm.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-tech-impaired",
+  "name": "Tech-Impaired",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "While tuskens can figure out basic technology, they experience difficulty using more complex equipment like wristpads. You can not use tech powers or take levels in techcasting classes.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

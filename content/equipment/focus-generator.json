@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator",
+  "name": "Focus generator",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 200,
+  "weight": 1.0,
+  "description": "A focus generator is a handheld object used to help forcecasters learn to focus on their powers.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

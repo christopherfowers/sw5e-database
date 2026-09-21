@@ -1,0 +1,10 @@
+{
+  "key": "snappy-interjection",
+  "name": "Snappy Interjection",
+  "abilityScoreIncreases": [
+    "charisma"
+  ],
+  "description": "You've mastered a quick tongue to aid your allies. You gain the following benefits:\n- Increase your Charisma score by 1, to a maximum of 20.\n- Once per short or long rest, when an ally makes an attack roll, an ability check or a saving throw, you can spend your reaction to give them advantage on the roll.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

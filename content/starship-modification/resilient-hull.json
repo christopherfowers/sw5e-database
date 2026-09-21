@@ -1,0 +1,9 @@
+{
+  "key": "resilient-hull",
+  "name": "Resilient Hull",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You overhaul your ship's hull to make it more adaptive. Your ship is proficiently equipped for Constitution saving throws."
+}

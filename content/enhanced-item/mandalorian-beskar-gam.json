@@ -1,0 +1,11 @@
+{
+  "key": "mandalorian-beskar-gam",
+  "name": "Mandalorian Beskar'gam",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis armor comes equipped with 24 slots that can each hold a single item that weighs less than 2 lb. Additionally, it grants a +1 bonus to AC.\n\n***Mandalorian Vestments.*** While wearing and attuned to this armor and Mandalorian Helmet, you are able to survive and operate in zero gravity space and other dangerous conditions. Additionally, this armor now grants a +2 bonus to AC, instead of +1. While wearing and attuned to this armor, Mandalorian Helmet, and Mandalorian Shuk'orok, this armor now grants a +3 bonus to AC, instead of +2.\n\n_This armor is forged from an incredibly rare material known as beskar, a highly durable metal._"
+}

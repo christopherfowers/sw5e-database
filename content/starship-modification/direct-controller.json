@@ -1,0 +1,19 @@
+{
+  "key": "direct-controller",
+  "name": "Direct Controller",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "weaponMounting",
+      "text": "Primary or Secondary Weapon",
+      "mountings": [
+        "primary",
+        "secondary"
+      ]
+    }
+  ],
+  "description": "You have installed a dedicated gunner station at or about the hardpoint.  A crewmember deployed at this station can use their Dexterity modifier instead of the ship's Wisdom modifier for the attack rolls or save DCs of the chosen weapon."
+}

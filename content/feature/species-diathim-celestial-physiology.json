@@ -1,0 +1,9 @@
+{
+  "key": "species-diathim-celestial-physiology",
+  "name": "Celestial Physiology",
+  "grantedBy": "species",
+  "grantedByName": "Diathim",
+  "description": "You can survive for one day within the vacuum of space.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

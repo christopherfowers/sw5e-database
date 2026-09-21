@@ -1,0 +1,9 @@
+{
+  "key": "species-aqualish-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Aqualish",
+  "description": "You can speak, read, and write Galactic Basic and Aqualish. Aqualish is a harsh, guttural language. It's rare that other species bother to learn it unless they regularly interact with Aqualish.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

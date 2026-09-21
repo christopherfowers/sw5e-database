@@ -1,0 +1,12 @@
+{
+  "key": "iridonian-grav-lev-arm",
+  "name": "Iridonian Grav-lev Arm",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Constitution 13",
+  "description": "This augmentation replaces a hand.\n\nYour unarmed strikes with this arm deal 1d4 ion damage, and your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples. Additionally, you deal double damage to energy-based structures with your unarmed strikes.\n\n**Side Effect:** You can no longer wield weapons with electronic components, such as blasters, vibroweapons, or lightweapons. Additionally, if this hand interacts with a small electronic device, such as a datapad or commlink, it is immediately disabled.\n\n_This cybernetic arm replacement increases a user's physical strength and can be overloaded to release a unique field resonance discharge that is particularly effective against containment fields and makes holding on to hydrospanners a breeze._"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "reinforced-chassis",
+  "name": "Reinforced Chassis",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "You've reinforced your chassis. When you don't have armor integrated, your AC is 13 + your Dexterity modifier."
+}

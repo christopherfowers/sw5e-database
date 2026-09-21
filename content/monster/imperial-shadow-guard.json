@@ -1,0 +1,102 @@
+{
+  "key": "imperial-shadow-guard",
+  "name": "Imperial Shadow Guard",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 17,
+    "type": "powered battle armor"
+  },
+  "hitPoints": {
+    "average": 118,
+    "roll": "15d8 + 45"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 18,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 19,
+      "modifier": 4
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "savingThrows": [
+    "Dex +8",
+    "Con +5",
+    "Wis +8"
+  ],
+  "skills": [
+    "Athletics +9",
+    "Perception +8",
+    "Insight +8"
+  ],
+  "senses": [
+    "passive Perception 18"
+  ],
+  "languages": [
+    "Glactic Basic"
+  ],
+  "challengeRating": "10",
+  "experiencePoints": 5900,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Imperial Shadow Guard makes two attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +8 to hit, range 40/160, one target. Hit: 7 (1d6 + 4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 8,
+      "range": "range 40/160",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d6 + 4",
+      "damageType": "energy"
+    },
+    {
+      "name": "Lightsaber Pike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit 10 (1d10 + 5) energy damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 10,
+      "damageRoll": "1d10 + 5",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "The Emperor's Shadow Guard is an organization of elite, Force-sensitive soldiers. Many suspect that they are former Jedi that have been captured, tortured, and brainwashed by Palpatine. They have been trained by Darth Vader. They were silent and enigmatic warriors that received orders directly from Emperor Palpatine himself and are often sent to eliminate suspected Jedi and other Force users. The Shadow Guards command a great level of respect within the Empire's ranks and often lead quartets of Imperial Stormtroopers into battle against the Emperor's most hated foes. Shadow Guard members are often guarded by their own detail made up of Imperial Navy Commandos or stormtroopers, or in certain cases, members of the standard Royal Guard,",
+  "sectionText": "The Galactic Empire, also known as the Old Empire, the First Galactic Empire, Palpatine's New Order, the Imperium or simply the Empire, is the galactic government established by Supreme Chancellor Palpatine to replace the Galactic Republic in 19 BBY and bring Sith rule to the galaxy. The government personnel of this new Empire are protected by some of its most highly trained warriors.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

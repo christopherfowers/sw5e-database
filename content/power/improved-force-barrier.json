@@ -1,0 +1,18 @@
+{
+  "key": "improved-force-barrier",
+  "name": "Improved Force Barrier",
+  "powerType": "force",
+  "level": 5,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "minute",
+    "text": "10 minutes"
+  },
+  "range": "30 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "prerequisite": "Force Barrier",
+  "description": "This power further bolsters your allies with toughness and resolve. Choose up to twelve creatures within range. Each target gains the following benefits:\n- The becomes immune to poison and disease. Any currently existing poison or diseases still exist.\n- The creature becomes immune to being frightened by powers.\n- The creature's hit point maximum and current hit points increase by 2d10 for the duration.\n\nThese benefits last for 24 hours or until the end of your next long rest, whichever happens first.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

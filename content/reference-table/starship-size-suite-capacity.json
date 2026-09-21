@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-suite-capacity",
+  "name": "Starship Size Suite Capacity",
+  "contentSet": "core",
+  "body": "| Starship Size | Suite Capacity |\n|:----:|:----:|\n| Tiny  | — |\n| Small  | 1 |\n| Medium  | 4 |\n| Large  | 400 |\n| Huge | 4,000 |\n| Gargantuan | 40,000 |",
+  "subject": "Starships"
+}

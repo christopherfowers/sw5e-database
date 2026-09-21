@@ -1,0 +1,11 @@
+{
+  "key": "armor-chassis-artifact",
+  "name": "Armor Chassis (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable armor chassis comes with vacant modification slots for armor modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+}

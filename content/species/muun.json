@@ -1,0 +1,81 @@
+{
+  "key": "muun",
+  "name": "Muun",
+  "size": "medium",
+  "homeworld": "Scipio",
+  "nativeLanguage": "Muun",
+  "lore": "### Biology and Appearance\nMuuns are tall, gaunt humanoids with thin bodies, long limbs, and elongated hairless heads. They typically have pale pink or white skin, most likely derived from their propensity for staying indoors. Muuns have tiny ears on the middle of the sides of their heads, flat noses, and slim mouths which leads to a commonly nasally voice.\n\n### Society and Culture\nMuuns believe in tradition, with an established culture based on intelligence and merit. A class-based hierarchy, Muuns consider the the intellectual pursuits — financiers, lawyers, engineers, diplomats, scientists — as the highest levels of society. Muun culture, and life, revolves around economics and finance. Intense competition among coworkers encourages economic growth, increased productivity, and superior work ethic. Muuns also have a fundamental respect for justice, though they typically adhere to the letter of the law rather than the spirit.\n\nSince Muuns tend to shy away from fighting and physical pursuits, Muun society relies on alternative means for their planet's protection, using vast financial resources to purchase massive floating defense platforms to defend their civilization from attack.\n\n### Names\nMuun names are typically clear and concise, rarely containing more than two syllables, with familial surnames.\n\n**Male Names.** Clu, Hego, Nix, Pors, San\n\n**Female Names.** Dax, Efra, Gil, Rel, Ter\n\n**Surnames.** Card, Damask, Hill, Lesser, Tonith",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Muuns reach adulthood in their late teens and live an average of a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Muuns' lawful culture nature causes them to tend toward lawful balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Muuns typically stand 6 and a half to 7 feet tall and weigh around 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Finance Savvy",
+      "description": "Muun share a keen business sense and an ability to find value where others don't. Whenever you make a Charisma (Persuasion) check involving finances you are considered to have expertise in the Persuasion skill."
+    },
+    {
+      "name": "Long-Limbed",
+      "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+    },
+    {
+      "name": "Three Hearts",
+      "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Muun. The Muuns' admiration of mathematics carries over into their language, which bares a striking resemblance to Binary."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "145 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Three hearts, long limbs, elongated heads",
+    "skinColorOptions": "Light pink or white",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black or grey"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_muun.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

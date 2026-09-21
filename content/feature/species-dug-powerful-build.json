@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-powerful-build",
+  "name": "Powerful Build",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

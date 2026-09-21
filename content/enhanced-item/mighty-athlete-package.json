@@ -1,0 +1,12 @@
+{
+  "key": "mighty-athlete-package",
+  "name": "Mighty Athlete Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Strength 15",
+  "description": "Your Strength score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Strength saving throws.\n\n**Side Effect:** One ability score other than Strength (chosen by the GM) decreases by 1.\n\n_This implant drastically increases your physical capacities._"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "heavy-shield-generator",
+  "name": "Heavy shield generator",
+  "category": "armor",
+  "costInCredits": 1250,
+  "weight": 12.0,
+  "armorClassification": "shield",
+  "armorClass": "+3",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

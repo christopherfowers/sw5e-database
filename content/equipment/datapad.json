@@ -1,0 +1,11 @@
+{
+  "key": "datapad",
+  "name": "Datapad",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 100,
+  "weight": 0.5,
+  "description": "A datapad is a small electronic device used for the input, storage and displaying of information. It features a holoprojective surface for 3D viewing.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,25 @@
+{
+  "key": "sentry-gun",
+  "name": "Sentry gun",
+  "category": "weapon",
+  "costInCredits": 3250,
+  "weight": 16.5,
+  "description": "Before firing the sentry gun, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you’re able to make multiple attacks with the Attack action, this action replaces one of them. While deployed in this way, you treat this weapon’s strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the sentry gun as an action or bonus action.",
+  "properties": [
+    "brutal",
+    "keen 1",
+    "reload 4",
+    "special (range 120/480)",
+    "strength 19",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-anx-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Anx",
+  "description": "Anx reach adulthood in their late teens and live up to 120 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

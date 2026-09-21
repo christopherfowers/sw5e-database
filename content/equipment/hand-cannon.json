@@ -1,0 +1,23 @@
+{
+  "key": "hand-cannon",
+  "name": "Hand cannon",
+  "category": "weapon",
+  "costInCredits": 1300,
+  "weight": 10.5,
+  "properties": [
+    "brutal 1",
+    "slug cartridge (range 25/100)",
+    "reload 8",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

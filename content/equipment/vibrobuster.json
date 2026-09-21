@@ -1,0 +1,24 @@
+{
+  "key": "vibrobuster",
+  "name": "Vibrobuster",
+  "category": "weapon",
+  "costInCredits": 1850,
+  "weight": 13.25,
+  "properties": [
+    "brutal 1",
+    "dexterity 19",
+    "heavy",
+    "keen 1",
+    "reach",
+    "two-handed"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

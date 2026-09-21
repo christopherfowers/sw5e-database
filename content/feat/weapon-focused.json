@@ -1,0 +1,8 @@
+{
+  "key": "weapon-focused",
+  "name": "Weapon Focused",
+  "prerequisite": "4th level",
+  "description": "You adopt a particular type of weapon as your focus. Choose one of the weapon focus options, detailed later in this chapter. You can take this feat multiple times.",
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

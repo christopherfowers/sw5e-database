@@ -1,0 +1,21 @@
+{
+  "key": "electroprod",
+  "name": "Electroprod",
+  "category": "weapon",
+  "costInCredits": 650,
+  "weight": 6.0,
+  "properties": [
+    "disruptive",
+    "shocking 13",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

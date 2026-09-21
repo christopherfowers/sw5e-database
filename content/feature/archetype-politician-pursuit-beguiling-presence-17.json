@@ -1,0 +1,10 @@
+{
+  "key": "archetype-politician-pursuit-beguiling-presence-17",
+  "name": "Beguiling Presence",
+  "grantedBy": "archetype",
+  "grantedByName": "Politician Pursuit",
+  "level": 17,
+  "description": "_**Politician Pursuit:** 17th level_\nHumanoids within 60 feet are particularly susceptible to your presence. Humanoids within range have disadvantage on saving throws against any charm or fear effects that originate from you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

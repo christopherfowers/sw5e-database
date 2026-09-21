@@ -1,0 +1,20 @@
+{
+  "key": "vibrospear",
+  "name": "Vibrospear",
+  "category": "weapon",
+  "costInCredits": 125,
+  "weight": 4.0,
+  "properties": [
+    "thrown (range 25/75)",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

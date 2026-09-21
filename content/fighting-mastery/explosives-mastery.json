@@ -1,0 +1,12 @@
+{
+  "key": "explosives-mastery",
+  "name": "Explosives Mastery",
+  "description": "You've mastered fighting with explosives, causing untold destruction. You gain the following benefits:",
+  "benefits": [
+    "When determining the save DC of a grenade, mine, or missile you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.",
+    "You have advantage on saving throws against grenades, mines, and missiles you control.",
+    "When using a grenade, mine, or missile that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

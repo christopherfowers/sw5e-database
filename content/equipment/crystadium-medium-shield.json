@@ -1,0 +1,17 @@
+{
+  "key": "crystadium-medium-shield",
+  "name": "Crystadium medium shield",
+  "category": "armor",
+  "costInCredits": 900,
+  "weight": 18.0,
+  "properties": [
+    "absorptive 1",
+    "imbalanced",
+    "strength 13"
+  ],
+  "armorClassification": "shield",
+  "armorClass": "+2",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

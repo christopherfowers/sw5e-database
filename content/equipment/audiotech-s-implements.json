@@ -1,0 +1,10 @@
+{
+  "key": "audiotech-s-implements",
+  "name": "Audiotech's implements",
+  "category": "tool",
+  "costInCredits": 550,
+  "weight": 0.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

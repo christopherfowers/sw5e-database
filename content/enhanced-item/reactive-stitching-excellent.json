@@ -1,0 +1,11 @@
+{
+  "key": "reactive-stitching-excellent",
+  "name": "Reactive Stitching (Excellent)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the reactive 2 armor property. If it already has the reactive armor property, its reactive number increases by 2, to a maximum of 3."
+}

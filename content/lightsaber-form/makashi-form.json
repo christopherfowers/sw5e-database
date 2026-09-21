@@ -1,0 +1,12 @@
+{
+  "key": "makashi-form",
+  "name": "Makashi Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Until the start of your next turn, you gain a special reaction. When a creature makes a melee weapon attack against you and misses, you can use this special reaction to make an opportunity attack against that creature."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

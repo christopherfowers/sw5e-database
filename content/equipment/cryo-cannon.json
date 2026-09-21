@@ -1,0 +1,25 @@
+{
+  "key": "cryo-cannon",
+  "name": "Cryo cannon",
+  "category": "weapon",
+  "costInCredits": 3300,
+  "weight": 12.5,
+  "properties": [
+    "auto",
+    "burst 2",
+    "power cell (range 75/300)",
+    "reload 4",
+    "strength 13",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "cold"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "Your Charisma score increases by 2, and your Dexterity score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

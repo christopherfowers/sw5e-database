@@ -1,0 +1,14 @@
+{
+  "key": "gunner-adept",
+  "name": "Gunner Adept",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "deploymentRank",
+      "text": "Rank 2",
+      "rank": 2
+    }
+  ],
+  "description": "You have gunner training that allows you to perform special combat gambits. You learn two gambits of your choice from among those available to the gunner deployment."
+}

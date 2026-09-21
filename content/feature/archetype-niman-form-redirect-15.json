@@ -1,0 +1,10 @@
+{
+  "key": "archetype-niman-form-redirect-15",
+  "name": "Redirect",
+  "grantedBy": "archetype",
+  "grantedByName": "Niman Form",
+  "level": 15,
+  "description": "_**Niman Form:** 15th level_\nWhen you would be affected by a weapon or force power that requires a Dexterity saving throw or attack roll and would affect only you, you can use your reaction to redirect that power to another target within 30 feet. If the weapon or power required a melee or ranged attack, make a melee or ranged force attack against the new target, as appropriate. If it required a Dexterity saving throw, the new target must make a Dexterity saving throw against your universal force save DC.\nOnce you've used this feature, you must complete a short or long rest before you can use it again.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

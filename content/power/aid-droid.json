@@ -1,0 +1,17 @@
+{
+  "key": "aid-droid",
+  "name": "Aid Droid",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Choose one droid or construct that you can see within range. The target can immediately use its reaction to regain hit points equal to 1d6 + your techcasting ability modifier.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

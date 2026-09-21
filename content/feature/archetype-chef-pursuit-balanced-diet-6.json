@@ -1,0 +1,10 @@
+{
+  "key": "archetype-chef-pursuit-balanced-diet-6",
+  "name": "Balanced Diet",
+  "grantedBy": "archetype",
+  "grantedByName": "Chef Pursuit",
+  "level": 6,
+  "description": "_**Chef Pursuit:** 6th level_\nYour cooking is so nutritionally balanced that it allows allies to stave off the effects of continued rigorous activity. Creatures of your choice who eat food prepared by you have advantage on Constitution saving throws to avoid exhaustion, as described in chapter 8, until the end of their next long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

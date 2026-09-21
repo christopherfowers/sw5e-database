@@ -1,0 +1,11 @@
+{
+  "key": "lightweight-reinforcement",
+  "name": "Lightweight Reinforcement",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield gains the lightweight property."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "withercasting-core-dueling",
+  "name": "Withercasting Core (Dueling)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "While using this item as your focus, you gain a +2 bonus to the tech save DC of powers that require a Wisdom or Charisma saving throw."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator-chassis-standard",
+  "name": "Focus Generator Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "force",
+  "description": "_**Requires attunement**_\nThis modifiable focus generator chassis comes with vacant modification slots for focus generator modifications. It can house modifications of standard rarity."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kel-dor-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Kel Dor",
+  "description": "Kel dor reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

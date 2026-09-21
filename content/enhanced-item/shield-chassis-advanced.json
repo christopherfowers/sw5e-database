@@ -1,0 +1,11 @@
+{
+  "key": "shield-chassis-advanced",
+  "name": "Shield Chassis (Advanced)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable shield chassis comes with vacant modification slots for armor modifications, as well as one augment slot. It can house modifications of advanced rarity or lower."
+}

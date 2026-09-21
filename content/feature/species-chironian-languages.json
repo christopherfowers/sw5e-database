@@ -1,0 +1,9 @@
+{
+  "key": "species-chironian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Chironian",
+  "description": "You can speak, read, and write Galactic Basic and Chironan. Chironan is characterized by its soft, melodic sounds.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "durasteel-exoskeleton",
+  "name": "Durasteel exoskeleton",
+  "category": "armor",
+  "costInCredits": 15000,
+  "weight": 65.0,
+  "properties": [
+    "bulky",
+    "impermeable 2",
+    "rigid",
+    "strength 17"
+  ],
+  "armorClassification": "heavy",
+  "armorClass": "18",
+  "stealthDisadvantage": true,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

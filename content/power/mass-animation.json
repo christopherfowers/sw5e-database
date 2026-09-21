@@ -1,0 +1,18 @@
+{
+  "key": "mass-animation",
+  "name": "Mass Animation",
+  "powerType": "force",
+  "level": 5,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Animate Weapon",
+  "description": "You snag several objects using the Force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.\n\nAs a bonus action, you can mentally direct any object controlled by this power. If you control multiple objects, you can command any or all of them at the same time. You decide what action the object will take and where it will move. The objects act at the end of your turn. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and kinetic damage determined by its size.\n\n|Size|\t\tHP|\tAC|\tAttack|\n|:--|:--:|:--:|:--:|\n|Tiny\t|20|16|+6 to hit, 1d4 + 3 damage|\n|Small\t|25|15|+6 to hit, 1d8 + 2 damage|\n|Medium\t|40|13|+5 to hit, 2d6 + 1 damage|\n|Large\t|50|10|+6 to hit, 2d10 + 2 damage|\n|Huge\t|80|10|+8 to hit, 2d12 + 4 damage|\n\n***Force Potency.*** If you cast this power using a force slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "tuned-shields",
+  "name": "Tuned Shields",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You tune your shield output to allow a crewmember to take the Boost Shields action as a bonus action on their turn."
+}

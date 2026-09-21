@@ -1,0 +1,23 @@
+{
+  "key": "sonic-carbine",
+  "name": "Sonic carbine",
+  "category": "weapon",
+  "costInCredits": 675,
+  "weight": 7.0,
+  "properties": [
+    "power cell (range 60/240)",
+    "disruptive",
+    "reload 12",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "sonic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

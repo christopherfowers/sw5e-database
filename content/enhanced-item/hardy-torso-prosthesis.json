@@ -1,0 +1,11 @@
+{
+  "key": "hardy-torso-prosthesis",
+  "name": "Hardy Torso Prosthesis",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces your torso.\n\nYour Constitution score becomes 13. If your Constitution score is already equal to or greater than 13, it has no effect on you. Additionally, you have advantage on saving throws against poison.\n\n**Side Effect:** When you roll a 1 a Constitution saving throw to avoid exhaustion, you suffer 2 levels of exhaustion, instead of just 1.\n\n_For the wary traveler who is desperately afraid of poison._"
+}

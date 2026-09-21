@@ -1,0 +1,22 @@
+{
+  "key": "revolver",
+  "name": "Revolver",
+  "category": "weapon",
+  "costInCredits": 625,
+  "weight": 6.5,
+  "properties": [
+    "slug cartridge (range 60/240)",
+    "rapid 4",
+    "reload 8",
+    "strength 11"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

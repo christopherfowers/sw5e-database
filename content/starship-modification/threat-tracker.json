@@ -1,0 +1,9 @@
+{
+  "key": "threat-tracker",
+  "name": "Threat Tracker",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "description": "You equip your ship with a specialized defensive computer system.  When you would make a Dexterity saving throw, you\ncan instead make a Wisdom saving throw. You can use this feature a number of times equal to your ship's\nWisdom modifier.  All expended uses are regained when the ship recharges."
+}

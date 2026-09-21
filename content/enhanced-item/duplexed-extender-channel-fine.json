@@ -1,0 +1,11 @@
+{
+  "key": "duplexed-extender-channel-fine",
+  "name": "Duplexed Extender Channel (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power through this focus generator that has a range of 5 feet or greater, you can increase the range of that force power by 20 feet."
+}

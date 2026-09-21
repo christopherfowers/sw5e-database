@@ -1,0 +1,11 @@
+{
+  "key": "mine-incendiary-devastating",
+  "name": "Mine, Incendiary (Devastating)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "explosive",
+  "description": "Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.\n\nWhen a creature enters the fire or starts its turn there, it creature must make a DC 24 Dexterity saving throw. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one."
+}

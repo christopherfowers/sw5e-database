@@ -1,0 +1,10 @@
+{
+  "key": "shawm",
+  "name": "Shawm",
+  "category": "musicalInstrument",
+  "costInCredits": 20,
+  "weight": 1.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

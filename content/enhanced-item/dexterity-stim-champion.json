@@ -1,0 +1,11 @@
+{
+  "key": "dexterity-stim-champion",
+  "name": "Dexterity Stim (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "stimpac",
+  "description": "As an action, you can administer this stimpac to a creature within 5 feet. When you administer this stimpac, the target's Dexterity score increases by 10, and its maximum for this score increases by 10. This effect lasts for 1 hour. A creature can benefit from only one stimpac at a time."
+}

@@ -1,0 +1,20 @@
+{
+  "key": "vibrosword",
+  "name": "Vibrosword",
+  "category": "weapon",
+  "costInCredits": 1150,
+  "weight": 9.25,
+  "properties": [
+    "dexterity 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

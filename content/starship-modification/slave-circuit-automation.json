@@ -1,0 +1,26 @@
+{
+  "key": "slave-circuit-automation",
+  "name": "Slave Circuit Automation",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    },
+    {
+      "kind": "modification",
+      "text": "Slave Circuit",
+      "modificationName": "Slave Circuit"
+    }
+  ],
+  "description": "You improve the slave circuit in your ship for further automation. You reduce the minimum crew requirement to one quarter (minimum of 1), instead of by half."
+}

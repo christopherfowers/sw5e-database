@@ -1,0 +1,7 @@
+{
+  "key": "modification-category-base-cost",
+  "name": "Modification Category Base Cost",
+  "contentSet": "core",
+  "body": "| Modification Category | Base Cost |\n|:----|----:|\n| Engineering  | 3,500 cr |\n| Operation | 3,500 cr |\n| Suite | 5,000 cr |\n| Universal | 4,000 cr |\n| Weapon | 3,000 cr |",
+  "subject": "Starships"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-thisspiasian-claws",
+  "name": "Claws",
+  "grantedBy": "species",
+  "grantedByName": "Thisspiasian",
+  "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

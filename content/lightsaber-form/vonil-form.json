@@ -1,0 +1,12 @@
+{
+  "key": "vonil-form",
+  "name": "Vonil Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "If you took the Attack action before adopting this form, you can direct one of your allies to strike a creature you hit with an attack. Choose a friendly creature that can see or hear you and is within 5 feet of the creature you hit with an attack. That creature can immediately use its reaction to make one weapon attack against the same creature."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

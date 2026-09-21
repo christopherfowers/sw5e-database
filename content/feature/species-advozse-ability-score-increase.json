@@ -1,0 +1,9 @@
+{
+  "key": "species-advozse-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Advozse",
+  "description": "Your Constitution score increases by 2, and your Wisdom score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

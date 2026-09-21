@@ -1,0 +1,168 @@
+{
+  "key": "bartender",
+  "name": "Bartender",
+  "lore": "Sometimes you want to go where everybody knows your name and they're always glad you came. As a bartender, you're a charismatic fellow that knows how to deal with people. Whether you're the life of the party or simply an ear for someone who needs advice, people from all walks of life are drawn to your trustworthy nature.",
+  "skillProficiencies": "Choose two from Insight, Intimidation, Medicine, or Persuasion",
+  "toolProficiencies": "Brewer's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, a brewer's kit, and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Social Lubricant",
+    "description": "You have no trouble finding and getting into places that serve drinks. While drinking in a social establishment, strangers take a liking to you and feel comfortable enough to share gossip."
+  },
+  "suggestedCharacteristics": "A bartender's demeanor ranges from jovial to downright rude. Regardless, all bartenders know how to take care of business—they break up fights, kick out drunk patrons, and offer honest counsel to people down on their luck.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I'm always looking for a good time with good company."
+    },
+    {
+      "roll": 2,
+      "description": "I earnestly enjoy offering advice."
+    },
+    {
+      "roll": 3,
+      "description": "Even in a social atmosphere, I always feel alone."
+    },
+    {
+      "roll": 4,
+      "description": "I live vicariously through the people I meet and the stories I hear."
+    },
+    {
+      "roll": 5,
+      "description": "I'm everyone's outlet but sometimes I just want to punch them in their thoughtless face."
+    },
+    {
+      "roll": 6,
+      "description": "If you're looking for a fight, I'll give you one."
+    },
+    {
+      "roll": 7,
+      "description": "TI know how to calm people down, but I also know how to rile them up."
+    },
+    {
+      "roll": 8,
+      "description": "It's not all fun and games. Business needs to run smoothly, whatever that might be."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Cheer",
+      "description": "Spreading joy is my passion. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Guidance",
+      "description": "It's our duty to help others. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Legacy",
+      "description": "We have only one chance to write our story. Do what you will and make it count. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Manipulation",
+      "description": "Drunk people are the most vulnerable and can easily be taken advantage of. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "It's always good to meet and connect with new people. (Any)"
+    },
+    {
+      "roll": 6,
+      "name": "Honesty",
+      "description": "If I call you a nerf herder, it means I like you. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "My cantina means everything to me. It brings back important memories from my past."
+    },
+    {
+      "roll": 2,
+      "description": "Brewing is my craft. My art brings people together."
+    },
+    {
+      "roll": 3,
+      "description": "The regular patrons of my cantina are like family to me."
+    },
+    {
+      "roll": 4,
+      "description": "I want to be successful. Whatever it takes."
+    },
+    {
+      "roll": 5,
+      "description": "Alcohol is all I ened, and sometimes all I want."
+    },
+    {
+      "roll": 6,
+      "description": "I've met so many people while staying in the same place. I need my own story to tell."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I can always go for another round. The gutter is my second home."
+    },
+    {
+      "roll": 2,
+      "description": "I judge people that don't drink to be antisocial and untrustworthy."
+    },
+    {
+      "roll": 3,
+      "description": "Party animals and depressed people make me feel bitter about my life."
+    },
+    {
+      "roll": 4,
+      "description": "Whenever life gets hard, I drink my problems away."
+    },
+    {
+      "roll": 5,
+      "description": "I need to know everyone's story."
+    },
+    {
+      "roll": 6,
+      "description": "I curse more than a kriffing sailor."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 2,
+      "name": "Threatening"
+    },
+    {
+      "roll": 3,
+      "name": "Medic"
+    },
+    {
+      "roll": 4,
+      "name": "Charmer"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Observant"
+    },
+    {
+      "roll": 8,
+      "name": "Snappy Interjection"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

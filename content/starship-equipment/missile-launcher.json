@@ -1,0 +1,16 @@
+{
+  "key": "missile-launcher",
+  "name": "Missile launcher",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 6250,
+  "weapon": {
+    "mounting": "tertiary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "ammunition",
+    "reload 4"
+  ]
+}

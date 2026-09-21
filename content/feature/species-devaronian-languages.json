@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "You can speak, read, and write Galactic Basic and Devaronese. Devaronese is characterized by grunts and grumbles. It is rare to hear a Devaronian speak it anywhere other than their homeworld of Devaron.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "fighter-class-improvement",
+  "name": "Fighter Class Improvement",
+  "className": "Fighter",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in fighter",
+  "description": "Whenever you complete a long rest, you can replace a fighting style you know with another style available. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

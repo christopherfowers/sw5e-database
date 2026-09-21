@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-tech-resistance",
+  "name": "Tech Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "Growing up around technology leaves an impact on anomid. You have advantage on Dexterity and Intelligence saving throws against tech powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

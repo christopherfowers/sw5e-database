@@ -1,0 +1,99 @@
+{
+  "key": "zilkin",
+  "name": "Zilkin",
+  "size": "tiny",
+  "homeworld": "Zilk",
+  "nativeLanguage": "Zilkin",
+  "lore": "### Biology and Appearance\nThe zilkins are a bipedal, amphibious species discernible by their diminutive stature and stalk eyes. Their homeworld, Zilk, has many dense jungles and swamps deemed impossible to navigate by most species. Only the zilkins themselves, evolved from worm-like creatures, were able to easily slip through the gaps in the tangled, coarse foliage. Their powerful legs make them adept at swimming and leaping.\n\nZilkin also have bulbous chins which inflate with excess air while they are speaking.\n\n### Society and Culture\nTheir short lifespans cause zilkins to be one of the fastest learners in the galaxy, capable of learning in weeks what takes other species months. Zilkins live in large communities woven into the thick clumps of trees on Zilk. Whenever a dispute occurs, zilkins turn to a ritualistic form of debate where everyone affected voices their opinion on the matter. Whoever croaks their views the loudest and most confidently, wins. As a result, zilkins tend to be quite opinionated.\n\nFor a long time, the zilkins remained unknown to the galaxy at large, simply because few individuals had any interest in visiting Zilk, let alone exploring its notoriously impenetrable jungles. Having lived in isolation for so many generations, and often mocked for their size, zilkins tend to exhibit cantankerous behavior toward other species. Despite this, a number of zilkins leave their homeworld and take an active role in galactic politics, gaining the planet representation in the Senate.\n\n### Names\nZilkin names are usually clear and concise. Surnames are familial.\n\n**Male Names.** Belip, Jegg, Meebur, Ponix\n\n**Female Names.** Fula, Nili, Sia, Vo\n\n**Surnames.** Bestrein, Cruu, Odebre, Telvet",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and two other ability scores of your choice increase by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Zilkin are considered adults at 4 years old, and rarely live to be over 12."
+    },
+    {
+      "name": "Alignment",
+      "description": "Zilkin have an outspoken but just nature that causes them to tend towards lawful light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Zilkin stand between 1 and 2 feet tall and weigh around 10 lbs. Regardless of your position in that range, your size is Tiny."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 20 feet."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Pintsized",
+      "description": "Your tiny stature makes it hard for you to wield bigger weapons. You can't use medium or heavy shields. Additionally, you can't wield weapons with the two-handed or versatile property, and you can only wield one-handed weapons in two hands unless they have the light property."
+    },
+    {
+      "name": "Puny",
+      "description": "Zilkin are too small to pack much of a punch. You have disadvantage on Strength saving throws, and when determining your bonus to attack and damage rolls for weapon attacks using Strength, you can't add more than +3."
+    },
+    {
+      "name": "Quick Learner",
+      "description": "When using downtime for learning a new language or training with a set of tools, it takes half the amount of time and credits necessary to complete."
+    },
+    {
+      "name": "Small and Nimble",
+      "description": "You are too small and fast to effectively target. You have a +1 bonus to AC, and you have advantage on Dexterity saving throws."
+    },
+    {
+      "name": "Strong-Legged",
+      "description": "When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 20 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Zilkin. Zilkin is characterized by loud, croaking noises from the throat, supported by air stored in the chin."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "anyAbilityCount": 2
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "1'0\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "3 lbs.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Four-fingered hands, three-toed feet, stalk eyes",
+    "skinColorOptions": "Green",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Turquoise"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_zilkin.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

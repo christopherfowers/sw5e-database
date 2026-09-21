@@ -1,0 +1,21 @@
+{
+  "key": "light-pistol",
+  "name": "Light pistol",
+  "category": "weapon",
+  "costInCredits": 250,
+  "weight": 0.5,
+  "properties": [
+    "light",
+    "power cell (range 40/160)",
+    "reload 8"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

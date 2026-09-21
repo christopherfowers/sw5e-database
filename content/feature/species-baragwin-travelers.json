@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-travelers",
+  "name": "Travelers",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "You have proficiency in the Survival skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

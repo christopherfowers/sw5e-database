@@ -1,0 +1,16 @@
+{
+  "key": "power-converter-mk-ii",
+  "name": "Power Converter, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Power Converter, Mk II",
+      "modificationName": "Power Converter, Mk II"
+    }
+  ],
+  "description": "You further improve your ship's power converters. Your ship is expertly equipped for Constitution (Regulation) checks."
+}

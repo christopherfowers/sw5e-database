@@ -1,0 +1,11 @@
+{
+  "key": "clothes-clandestine-fine",
+  "name": "Clothes, Clandestine (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "body",
+  "description": "These clothes come with three hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 18 Investigation check."
+}

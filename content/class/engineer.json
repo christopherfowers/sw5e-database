@@ -1,0 +1,608 @@
+{
+  "key": "engineer",
+  "name": "Engineer",
+  "summary": "Tech caster who enhances items to benefit allies",
+  "primaryAbility": "intelligence",
+  "hitPoints": {
+    "dieFaces": 8,
+    "atFirstLevel": "8 + your Constitution modifier",
+    "atFirstLevelValue": 8,
+    "atHigherLevels": "1d8 (or 5) + your Constitution modifier per engineer level after 1st",
+    "atHigherLevelsAverage": 5
+  },
+  "proficiencies": {
+    "armor": "Light armor",
+    "weapons": "Simple blasters, simple vibroweapons",
+    "tools": "Tinker's implements, one of your choice",
+    "savingThrows": [
+      "constitution",
+      "intelligence"
+    ],
+    "skills": {
+      "choose": 3,
+      "from": [
+        "Investigation",
+        "Lore",
+        "Medicine",
+        "Nature",
+        "Piloting",
+        "Technology"
+      ],
+      "text": "Choose three from Investigation, Lore, Medicine, Nature, Piloting, and Technology"
+    }
+  },
+  "multiclassProficiencies": "Light armor",
+  "startingEquipment": "- *(a)* a simple vibroweapon or *(b)* a simple blaster and two power cells\n- *(a)* a dungeoneer's pack or *(b)* an explorer's pack\n- A combat suit, a set of tinker's implements, a vibrodagger, and a wristpad",
+  "startingWealth": "6d4 x 100 cr",
+  "casterType": "tech",
+  "casterRatio": 1,
+  "archetypeLabel": "Engineering Disciplines",
+  "archetypeIntroduction": "Each discipline focuses on maximizing the personal use of a certain tool. Your discipline grants you features at 3rd, 6th, 14th, and 18th level.",
+  "lore": "Flinching occasionally as a blaster bolt hits the nearby bulkhead, a Sullustan mechanic quickly solders a large wire. He peers through his tinted goggles, ignoring the shouts of his ship captain as the enemy descends on the hanger. Finally he shouts with pride as the repaired coupling powers up, causing the frigate to hum with energy. He gathers his tools and runs into the ship moments before it finally takes off.\n\nInside, the human captain jumps into the cockpit. She nods to her droid co-pilot, who quickly begins charting a course home. Before the calculations can be completed, enemy Starfighters scream in from the clouds. The pilot rolls the ship, nimbly evading incoming fire. She reroutes the power to shields, leaving just enough for astronavigation. Just as the energy reserves near depletion, the exosphere and stars beyond blur into streaks of light. In a flash, they warp to safety.\n\nA Cerean officer surveys the battlefield, looking for weaknesses. When he identifies a potential problem, he keys in a quick combination in his wristpad. In a blink, a custom suit of armor assembles itself around him. As the helmet locks into place, the officer leaps into the air, flying overhead and raining destruction on the opposition.\n\nEvery machine needs an engineer to run it, and a living crew is no different. Engineers are the experts and professionals who rely on skill, bravery, and their tools to survive and keep others alive. While they do not claim to be fighters, their mere presence can turn the tide of battle or simply keep operations running.\n\n### Behind the Curtain\nWhile perhaps not as intimidating as a heavily-armored trooper, or as exotic as a lighsaber-wielding guardian, engineers are no less vital to group dynamic. They are armorers and gunsmiths, electricians and welders, or any other facet to be found in facilities across the galaxy. Their work, often unsung, is what keeps starships (and their crew) intact.\n\n### Unflappable\nIt takes bravery for a soldier to enter a battlefield. It perhaps takes more for someone who is unarmed, and untrained in combat, to do the same. Engineers put their lives on the line for a living, whether by choice or acknowledging their plights as an occupational hazard. Whether they come from an elite training academy or learned their talents surviving in the slums, they are no strangers to danger and conflict.",
+  "creatingCharacter": "While creating your engineer character, consider what your primary skill set is and how you use it. You could be a street-smart mechanic who taught yourself how to fix swoop bikes as a teenager. Perhaps you are the recent graduate of an esteemed medical college, or a rookie pilot in the fledgling Rebel Alliance. What is the number one skill you are known for? Why are you willing to enter battles when you have no combat training? How do you view the more adventurous members of your group, and how do they see you and your role?",
+  "quickBuild": "You can make an engineer quickly by following these suggestions. First, make Intelligence your highest ability score. Your next-highest score should be Constitution. Second, choose the scientist background.",
+  "description": "### Techcasting\n_**Engineer:** 1st level_\nDuring your training you have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.\n\n#### Tech Powers Known\nYou learn 6 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the engineer table. You may not learn a tech power of a level higher than your Max Power Level.\n\n#### Tech Points\nYou have a number of tech points equal to your engineer level x 2, as shown in the Tech Points column of the engineer table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.\n\n#### Max Power Level\nMany tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the engineer table.\n\nYou may only cast tech powers at 6th, 7th, 8th, and 9th-level once. You regain the ability to do so after a long rest.\n\n#### Techcasting Ability\nIntelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.\n\n___\n\n**Tech save DC** = 8 + your proficiency bonus + your Intelligence modifier\n\n___\n\n**Tech attack modifier** = your proficiency bonus + your Intelligence modifier\n\n___\n\n#### Techcasting Focus\nYou use a wristpad (found in chapter 5) or the tools in which you are granted proficiency by this class as a tech focus for your tech powers.\n\n### Potent Aptitude\n_**Engineer:** 1st level_\nYour technological experience lends you an uncommon insight that you can use to bolster your allies. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Potent Aptitude die, a d4. This die changes as you gain engineer levels, as shown in the Potent Aptitude column of the engineer table.\n\nOnce within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. Once the Potent Aptitude die is rolled, it is lost.\n\nA creature can have only one Potent Aptitude die at a time.\n\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a short or long rest.\n\n### Infuse Item\n_**Engineer:** 2nd level_\nYou gain the ability to temporarily enhance a weapon or armor. At the end of a long rest, you can touch one unenhanced object that is a suit of armor, a shield, or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes an enhanced item, granting a +1 bonus to AC if it's armor or a shield or a +1 bonus to attack and damage rolls if it's a weapon.\n\nOnce you've used this feature, you can't use it again until you finish a long rest.\n\nThis bonus increases to +2 at 10th level and +3 at 15th level.\n\n### Tool Expertise\n_**Engineer:** 2nd level_\nYou gain expertise in any tool proficiencies you gain from this class.\n\n### Engineering Discipline\n_**Engineer:** 3rd, 6th, 14th, and 18th level_\nYou begin to focus on a specific engineering discipline, which is detailed at the end of the class description.\n\n### Ability Score Improvement\n_**Engineer:** 4th, 8th, 12th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature.\n\n### Tech Mastery\n_**Engineer:** 20th level_\nYour mastery of technology is unrivaled. Your Constitution and Intelligence scores increase by 2. Your maximum for those scores increases by 2.\n\nAdditionally, when you roll initiative and have no uses of Potent Aptitude left, you regain one use.",
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/classes/engineer_01.png"
+  ],
+  "progression": [
+    {
+      "level": 1,
+      "proficiencyBonus": 2,
+      "features": [
+        "Techcasting",
+        "Potent Aptitude"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "6"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d4"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "proficiencyBonus": 2,
+      "features": [
+        "Infuse Item (+1)",
+        "Tool Expertise"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d4"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "proficiencyBonus": 2,
+      "features": [
+        "Engineering Discipline"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d4"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "proficiencyBonus": 2,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "10"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d4"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "proficiencyBonus": 3,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d6"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "proficiencyBonus": 3,
+      "features": [
+        "Discipline feature"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Tech Points",
+          "value": "12"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d6"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "proficiencyBonus": 3,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Tech Points",
+          "value": "14"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d6"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "proficiencyBonus": 3,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "16"
+        },
+        {
+          "label": "Tech Points",
+          "value": "16"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d6"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "proficiencyBonus": 4,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Tech Points",
+          "value": "18"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d8"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "proficiencyBonus": 4,
+      "features": [
+        "Infuse Item (+2)"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Tech Points",
+          "value": "20"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d8"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "proficiencyBonus": 4,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "21"
+        },
+        {
+          "label": "Tech Points",
+          "value": "22"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d8"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "proficiencyBonus": 4,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "22"
+        },
+        {
+          "label": "Tech Points",
+          "value": "24"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d8"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "proficiencyBonus": 5,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "23"
+        },
+        {
+          "label": "Tech Points",
+          "value": "26"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d10"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "proficiencyBonus": 5,
+      "features": [
+        "Discipline feature"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "24"
+        },
+        {
+          "label": "Tech Points",
+          "value": "28"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d10"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "proficiencyBonus": 5,
+      "features": [
+        "Infuse Item (+3)"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "25"
+        },
+        {
+          "label": "Tech Points",
+          "value": "30"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "8th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d10"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "proficiencyBonus": 5,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "26"
+        },
+        {
+          "label": "Tech Points",
+          "value": "32"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "8th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d10"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "8"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "proficiencyBonus": 6,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "27"
+        },
+        {
+          "label": "Tech Points",
+          "value": "34"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d12"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "proficiencyBonus": 6,
+      "features": [
+        "Discipline feature"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "28"
+        },
+        {
+          "label": "Tech Points",
+          "value": "36"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d12"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "proficiencyBonus": 6,
+      "features": [
+        "Ability Score Improvement"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "29"
+        },
+        {
+          "label": "Tech Points",
+          "value": "38"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d12"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "proficiencyBonus": 6,
+      "features": [
+        "Tech Mastery"
+      ],
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "30"
+        },
+        {
+          "label": "Tech Points",
+          "value": "40"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "9th"
+        },
+        {
+          "label": "Potent Aptitude",
+          "value": "d12"
+        },
+        {
+          "label": "Modification Slots",
+          "value": "9"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,21 @@
+{
+  "key": "cryo-pistol",
+  "name": "Cryo pistol",
+  "category": "weapon",
+  "costInCredits": 750,
+  "weight": 2.0,
+  "properties": [
+    "power cell (range 30/120)",
+    "reload 8",
+    "vicious 1"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "cold"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

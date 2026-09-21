@@ -1,0 +1,10 @@
+{
+  "key": "datacron-mk-i",
+  "name": "Datacron Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "description": "This datacron contains a single at-will tech power. After tinkering with the datacron for at least 2 hours, a techcaster with a Max Power Level of 1st or higher can make a DC 10 techcasting ability check with proficiency. On a success, they learn the contained tech power, which does not count against their tech powers known. On a failure, the power is not learned and the techcaster can't try again for 24 hours.\n\n_Datacrons are encrypted storage devices that contain an interactive projection, and are used to store high-value, sensitive information._"
+}

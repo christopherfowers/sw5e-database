@@ -1,0 +1,11 @@
+{
+  "key": "mine-gas",
+  "name": "Mine, gas",
+  "category": "explosive",
+  "costInCredits": 625,
+  "weight": 2.0,
+  "description": "Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "central-computer-mk-iii",
+  "name": "Central Computer, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Central Computer, Mk II",
+      "modificationName": "Central Computer, Mk II"
+    }
+  ],
+  "description": "You greatly improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 4. Additionally, your artificial intelligence gains proficiency in Piloting, can move the ship during combat conditions, and can take the Helm action if at the helm."
+}

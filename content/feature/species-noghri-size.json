@@ -1,0 +1,9 @@
+{
+  "key": "species-noghri-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Noghri",
+  "description": "Noghri typically stand about 5 feet tall and weigh around 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

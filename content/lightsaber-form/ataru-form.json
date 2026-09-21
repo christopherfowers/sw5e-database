@@ -1,0 +1,12 @@
+{
+  "key": "ataru-form",
+  "name": "Ataru Form",
+  "effects": [
+    {
+      "timing": "onAdopt",
+      "description": "As a part of the bonus action to adopt this form, you can leap up to 15 feet to an unoccupied space you can see."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

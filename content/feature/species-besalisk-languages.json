@@ -1,0 +1,9 @@
+{
+  "key": "species-besalisk-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Besalisk",
+  "description": "You can speak, read, and write Galactic Basic and Besalisk.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

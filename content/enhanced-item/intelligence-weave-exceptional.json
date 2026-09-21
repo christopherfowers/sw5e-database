@@ -1,0 +1,11 @@
+{
+  "key": "intelligence-weave-exceptional",
+  "name": "Intelligence Weave (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Intelligence saving throws increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery)."
+}

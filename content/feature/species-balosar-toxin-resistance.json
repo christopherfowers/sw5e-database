@@ -1,0 +1,9 @@
+{
+  "key": "species-balosar-toxin-resistance",
+  "name": "Toxin Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Balosar",
+  "description": "You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

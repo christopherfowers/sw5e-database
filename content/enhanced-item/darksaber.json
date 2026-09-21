@@ -1,0 +1,11 @@
+{
+  "key": "darksaber",
+  "name": "Darksaber",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "martial lightsaber",
+  "description": "_**Requires attunement**_\nYou gain a +3 bonus to attack and damage rolls made with this enhanced lightsaber. Additionally, the weapon ignores resistance to energy damage.\n\nWhen you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to energy damage, doesn't have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d6 energy damage from the hit.\n\n_The Darksaber was an ancient and unique black-bladed lightsaber created by Tarre Vizsla, the first Mandalorian ever inducted into the Jedi Order. It features a distinctly Mandalorian hilt and an ominous black blade._"
+}

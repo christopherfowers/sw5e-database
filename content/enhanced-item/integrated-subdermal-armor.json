@@ -1,0 +1,11 @@
+{
+  "key": "integrated-subdermal-armor",
+  "name": "Integrated Subdermal Armor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "description": "When you aren't wearing armor, your AC becomes 13 + your Dexterity modifier.\n\n**Side Effect:** Each time you take damage while you aren't wearing armor, your speed decreases by 5 feet until the start of your next turn.\n\n_This implant reinforces your skin with an ablative woven alloy, making you difficult to damage._"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-yevetha-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Yevetha",
+  "description": "You can speak, read, and write Galactic Basic and Yevethan. Yevetha are able to speak other languages, but their isolationist nature makes them tend to reject the languages of other species. Only rarely would a Yevethan speak Galactic Basic, as this would often decrease their social standing.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

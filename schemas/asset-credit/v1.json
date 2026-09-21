@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/asset-credit/v1.json",
+  "title": "AssetCredit",
+  "description": "Who made one particular picture, and on what footing the site shows it. An artist is owed credit for the specific work of theirs that appears on a page, not merely inclusion in a list of everyone who ever contributed art, so the unit here is a single asset and the citation travels with it to wherever it is rendered. Every image the site carries has one of these documents, including the ones inherited from the original site whose artist was never written down: those are recorded as unattributed rather than omitted, because a record that admits it is incomplete is a worklist somebody can finish, whereas a missing record is invisible. The status field is what makes that distinction structural — see the oneOf, which refuses to let a citation be half-filled and refuses to let an unattributed record quietly claim an artist.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "assetGroup", "assetKey", "status", "provenance", "basis"],
+  "oneOf": [
+    {
+      "description": "A cited work. Naming the artist is not enough on its own: the title identifies which of their works this is, and the basis records why the site may show it, so all four are required together.",
+      "properties": {
+        "status": { "const": "cited" },
+        "basis": { "not": { "const": "unrecorded" } }
+      },
+      "required": ["artist", "workTitle"]
+    },
+    {
+      "description": "A work inherited from the original site with no artist recorded anywhere in the archive. Such a record must not carry an artist or a title, because a half-remembered guess about who painted something is worse than an honest gap: it credits the wrong person and stops anyone looking for the right one.",
+      "properties": {
+        "status": { "const": "inherited-unattributed" },
+        "basis": { "const": "unrecorded" }
+      },
+      "not": {
+        "anyOf": [
+          { "required": ["artist"] },
+          { "required": ["workTitle"] }
+        ]
+      }
+    }
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this citation, formed from the asset group and the asset key. It is the asset that is being cited, so the key names the asset rather than the artist."
+    },
+    "assetGroup": {
+      "enum": ["species", "classes", "sources", "brand"],
+      "description": "Which family of imagery the asset belongs to. Derived sizes and croppings are not listed here: a gallery thumbnail is the same work as the portrait it was cut from and inherits this citation rather than needing one of its own."
+    },
+    "assetKey": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "The asset's own key within its group, matching the file name the site's image pipeline emits: a species slug, a lowercased class name, a source abbreviation, or a brand image name."
+    },
+    "status": {
+      "enum": ["cited", "inherited-unattributed"],
+      "description": "Whether the artist is known. Only two states exist on purpose, and inherited-unattributed is reserved for work already on the site when this record was created. Anything added afterwards has an artist at the moment it is uploaded, so it has no honest claim on that state and must be cited."
+    },
+    "artist": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Who made the work, named as they wish to be credited. Required whenever the status is cited; forbidden otherwise, so the field can never hold a guess."
+    },
+    "workTitle": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The title of the specific work, which is what distinguishes this piece from everything else the same artist made. Where a piece was never formally titled, describe it plainly: \"SW5e logo\", \"Player's Handbook cover\"."
+    },
+    "provenance": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Where the file came from and how it reached this site, in a sentence. Required even when the artist is unknown, because the trail is often the only thing that would let somebody establish authorship later. For the inherited set this records that the file came from the original site's art pool and that the archive preserved no per-image artist."
+    },
+    "basis": {
+      "enum": [
+        "artist-permission",
+        "licence",
+        "fan-content-policy",
+        "public-domain",
+        "unrecorded"
+      ],
+      "description": "Why the site may show this work. State only what is actually known: unrecorded is the honest answer for the inherited set and is deliberately not available to a cited record, so adding a citation forces somebody to establish the footing rather than assert one. Choosing licence obliges basisNote to name the licence."
+    },
+    "basisNote": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The detail behind the basis: which licence, whose permission and when it was given, or what makes the work public domain. Free text, because the shape of the answer differs for each basis."
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Where the work or its artist can be found, so a reader can go from the picture on the page to its author. Absent unless a real destination is known."
+    }
+  }
+}

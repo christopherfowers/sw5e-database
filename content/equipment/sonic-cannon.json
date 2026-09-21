@@ -1,0 +1,25 @@
+{
+  "key": "sonic-cannon",
+  "name": "Sonic cannon",
+  "category": "weapon",
+  "costInCredits": 2100,
+  "weight": 16.5,
+  "properties": [
+    "power cell (range 90/360)",
+    "auto",
+    "burst 2",
+    "disruptive",
+    "reload 4",
+    "strength 17",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "sonic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

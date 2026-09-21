@@ -1,0 +1,89 @@
+{
+  "key": "codru-ji",
+  "name": "Codru-Ji",
+  "size": "medium",
+  "homeworld": "Munto Codru",
+  "nativeLanguage": "Codruese",
+  "lore": "### Biology and Appearance\nCodru-Ji are humanoids generally near-human in their adult appearances, save for their four arms. While their hair, eye, and skin pigmentations tend towards earthen hues, brighter colorations such as blonde hair or blue eyes, though uncommon, also exist. Rarer still, some adults maintain a light coat of fur or elongated, pointed ears. These eccentric attributes result from their unusual childhood forms.\n\nCodru-Ji children are actually sapient, six-legged canid creatures that cannot speak. Codru-Ji in this stage of their lives are called Wyrwulves: they mature to their more recognizable figures after reaching puberty. At that point, a blue, rubbery substance cocoons a Wyrwulf for several weeks before it emerges as a humanoid adolescent. They do, however, retain both the natural resilience and the enhanced hearing of their previous selves.\n\n### Society and Culture\nThe Codru-Ji are proud and protective of their ancient customs, and they carefully manage their homeworld's economy to keep a degree of anonymity from the galaxy at large. They fear the tainting of their long-held practices by outside influence as well as prejudice against them for the almost barbaric level of callousness they will display towards one another in pursuit of personal gain. The kidnapping of a political rivals' children or the ransoming of off-worlders back to their people are both common practices.\n\n### Names\nCodru-Ji names are often kept to two syllables. Clan names are appended to the given name as a hyphenated affix.\n\n**Male Names.** Kossok, Tirrit, Uttar, Yunnan\n\n**Female Names.** Davvi, Kella, Russa, Zollu\n\n**Clan Names.** -Fa, -Mu, Ro-, -Sy, Yi-",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Codru-Ji reach adulthood in their early teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Steeped in selfish tradition, Codru-Ji tend towards the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Codru-Ji stand 5 to 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Four-Armed",
+      "description": "Codru-Ji have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required)."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+    },
+    {
+      "name": "Keen Hearing",
+      "description": "You have advantage on Wisdom (Perception) checks that rely on hearing."
+    },
+    {
+      "name": "Natural Grappler",
+      "description": "Whenever you make a Strength (Athletics) check to grapple you are considered to have expertise in the Athletics skill."
+    },
+    {
+      "name": "Trance",
+      "description": "You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Codruese, which has a solemn and stately cadence to it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'6\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "90 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Four arms",
+    "skinColorOptions": "Light to dark tones",
+    "hairColorOptions": "Black, brown, gray, or white (usually with age)",
+    "eyeColorOptions": "Black, slate, gray, or brown"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_codru-ji.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

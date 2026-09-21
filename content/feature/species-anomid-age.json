@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "Anomid reach adulthood in their late teens and live a little under a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "strength-stim-superior",
+  "name": "Strength Stim (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "stimpac",
+  "description": "As an action, you can administer this stimpac to a creature within 5 feet. When you administer this stimpac, the target's Strength score increases by 6, and its maximum for this score increases by 6. This effect lasts for 1 hour. A creature can benefit from only one stimpac at a time."
+}

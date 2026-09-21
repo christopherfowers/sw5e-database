@@ -1,0 +1,8 @@
+{
+  "key": "quick-caster",
+  "name": "Quick Caster",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "description": "You've practiced casting powers in quick succession, learning techniques that grant you the following benefits:\n- When you cast a power with a casting time of a bonus action, you may use your action to cast a power with a power level no higher than half your proficiency bonus (rounded down).\n- When you cast a power with a casting time of a bonus action, you can cast it without expending force or tech points as long as it is no higher level than your proficiency bonus. Once you've used this feature, you must complete a long rest before you can use it again.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

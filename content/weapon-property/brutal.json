@@ -1,0 +1,6 @@
+{
+  "key": "brutal",
+  "name": "Brutal",
+  "contentSet": "core",
+  "description": "When you score a critical hit with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number."
+}

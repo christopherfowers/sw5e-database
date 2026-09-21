@@ -1,0 +1,11 @@
+{
+  "key": "power-generator",
+  "name": "Power generator",
+  "category": "ammunition",
+  "costInCredits": 1250,
+  "weight": 5.0,
+  "description": "Power generators energize the blaster cannon.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

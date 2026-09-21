@@ -1,0 +1,23 @@
+{
+  "key": "dual-phase-saber",
+  "name": "Dual-phase saber",
+  "category": "weapon",
+  "costInCredits": 1250,
+  "weight": 3.0,
+  "properties": [
+    "dexterity 13",
+    "hidden",
+    "luminous",
+    "versatile (1d12)",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

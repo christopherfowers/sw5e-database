@@ -1,0 +1,9 @@
+{
+  "key": "storage-compartment",
+  "name": "Storage Compartment",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite increases the cargo capacity on your ship by its base cargo capacity, as shown in the **[Starship Size Cargo Capacity](#Starship%20Size%20Cargo%20Capacity)** table on page 79. This suite's [Modification Category Base Cost](#Modification%20Category%20Base%20Cost) is only 500 cr."
+}

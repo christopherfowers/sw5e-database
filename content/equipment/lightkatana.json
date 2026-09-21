@@ -1,0 +1,23 @@
+{
+  "key": "lightkatana",
+  "name": "Lightkatana",
+  "category": "weapon",
+  "costInCredits": 925,
+  "weight": 2.75,
+  "properties": [
+    "dexterity 11",
+    "hidden",
+    "luminous",
+    "piercing 1",
+    "versatile (1d10)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

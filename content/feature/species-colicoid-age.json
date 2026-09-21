@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "Colicoids reach adulthood by 8 and live to be about 65.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

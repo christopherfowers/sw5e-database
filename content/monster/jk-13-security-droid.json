@@ -1,0 +1,137 @@
+{
+  "key": "jk-13-security-droid",
+  "name": "JK-13 Security Droid",
+  "size": "large",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 18,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 150,
+    "roll": "20d10 + 40"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 21,
+      "modifier": 5
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +6",
+    "Intimidate +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 16"
+  ],
+  "languages": [
+    "Galactic basic",
+    "binary"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion",
+      "lightning"
+    ]
+  },
+  "damageResistances": {
+    "other": [
+      "energy from unenhanced sources"
+    ]
+  },
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Droid Encasement",
+      "behaviorType": "trait",
+      "description": "Without its armor, the Dashta Eel has the following statistics: AC 12, hp 19 (3d8 + 6), Strength 8 (-1), and its speed becomes 15 feet. In addition, it has no attack actions. The Dashta Eel within the machine is a somewhat shapeless mass. When the JK-13 Security Droid is reduced to 0 hp, the droid armor breaks and the Dashta Eel exits it. Once out of its armor, the creature's pulpy mass no longer receives the benefits of the listed Damage Resistances.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Jedi Slayer",
+      "behaviorType": "trait",
+      "description": "JK-13 Security Droid has advantage on saving throws versus force powers used by creatures within 5 feet of it. When an enemy within 5 feet casts a force power, JK-13 Security Droid can make a melee attack against that character as a reaction. When JK-13 Security Droid damages an enemy, they have disadvantage on concentration saving throws to maintain their force powers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The JK-13 Security Droid makes any combination of three Slicing Tentacle attacks and Stunning Tentacle attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Stunning Tentacle",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (3d4 +4) kinetic damage and the target must succeed on a Constitution save (DC 17) or be stunned until the end of its next turn.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 11,
+      "damageRoll": "3d4 +4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Slicing Tentacle",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 18 (3d8 +5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 10,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 18,
+      "damageRoll": "3d8 +5",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Deflector Shield",
+      "behaviorType": "reaction",
+      "description": "The JK-13 Security Droid adds 3 to its AC against one attack that would hit it. To do so, the droid must see the attacker.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The JK-13 security droid, unofficially known as the \"Jedi Killer,\" is a JK-series security droid manufactured on the planet Ord Cestus. ***Appearance & Weaponry.*** The JK-13 is approximately chest-high and is divided into sections, giving it an insect-like appearance in its attack mode-so much so that the cave spiders, who used to rule Cestus, thought of them a natural enemy Its primary weapon is a set of stun tentacles extending from virtually every point on its body: these tentacles can be used to cut an opponent or deliver a disabling charge. Its primary defense is a deflector shield generator-like technology that allows it to absorb weapons fire before it even comes into contact with the droid itself. Like all Cestus Cybernetics droids of its period, the JK-13 is unusually ornate and flexible, with a golden finish and enormous articulation of its tentacles, which can become a fine strand or thicker rope or cable as needed.\n\n***Bio Droid.*** The JK-13s are bio-droids: they use a living circuit design incorporating organics into the core processor, which is actually a life-support unit for a creature known as a dashta eel. Because the eels are Force-sensitive, they grant the droid some measure of precognitive abilities. This, in turn, grant it great combat ability. However, Dashta eels cannot kill another sentient being without going insane, meaning that the droids can never be deployed as general purpose combat units.\n\n***Availability.*** They sell faster than they can be produced, and cost 80,000 credits. They are assembled by Clandes Industrial in the city of Clandes.",
+  "sectionText": "Security droids are a type of droid used as bodyguards, or to protect objects of value. During the Clone Wars, the term commonly referred to the security battle droid used by the Trade Federation and Confederacy of Independent Systems. The KX-series is one such example of a security droid model used by the Galactic Empire.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

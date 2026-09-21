@@ -1,0 +1,9 @@
+{
+  "key": "species-gand-lungless",
+  "name": "Lungless",
+  "grantedBy": "species",
+  "grantedByName": "Gand",
+  "description": "Gand do not have lungs, and therefore do not need to breathe.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

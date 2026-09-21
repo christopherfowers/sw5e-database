@@ -1,0 +1,22 @@
+{
+  "key": "marksman-blaster",
+  "name": "Marksman blaster",
+  "category": "weapon",
+  "costInCredits": 1100,
+  "weight": 12.0,
+  "properties": [
+    "power cell (range 125/500)",
+    "reload 8",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

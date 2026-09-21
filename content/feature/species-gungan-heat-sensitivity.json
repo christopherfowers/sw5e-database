@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-heat-sensitivity",
+  "name": "Heat Sensitivity",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme heat.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

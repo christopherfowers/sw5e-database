@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-navigators",
+  "name": "Navigators",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "You have proficiency in surveyor's implements.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

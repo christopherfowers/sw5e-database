@@ -1,0 +1,79 @@
+{
+  "key": "mikkian",
+  "name": "Mikkian",
+  "size": "medium",
+  "homeworld": "Mikkia",
+  "nativeLanguage": "Mikkian",
+  "lore": "### Biology and Appearance\nMikkians are a species of brightly colored humanoids. The mikkians' most distinctive feature are their motile head-tendrils, with the number, form, and pattern varying between individuals. These head-tendrils primarily serve as sensory organs, particularly detecting sound as a replacement for an ear common in other species. Mikkian head-tendrils also could detect other information, such as humidity, temperature, magnetic direction and radiation. This radiation detection can be detected to the extent that mikkians can \"see\" light and dark, although their eyes are still their primary visual organs.\n\n### Society and Culture\nMikkians place kinship and integrity above all. In fact, their honesty can come across as blunt or even rude to other sentients. Conversely, mikkians often have trouble adjusting to the more flexible views of other races. Their complex code of honor encompass all things in life, with a particular insistance on matters of warfare. Although they respect warrior traditions, the Mikkians nevertheless value discipline and honor over victory or physical might.\n\nDifferent religious traditions exist among the Mikkians, but belief in the Force plays a central role in all of them. In Mikkian society, their head-tendrils have important cultural significance, and as such tendril-reading is used by Mikkian mystics to predict their future. Every facet of the head-tendril contributes to that meaning.\n\n### Names\nMikkian names are often short and disyllabic, with a melodic quality to them. Mikkians typically don't use surnames, though some may adopt them.\n\n**Male Names.** Cage, Fedlas, Mekko, Sakas\n\n**Female Names.** Beyra, Fenvar, Tiplee, Zelna",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and one other ability score of your choice increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Mikkian reach adulthood in their late teens and live a little over a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Mikkian's honor and integrity based culture causes them to tend toward lawful alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Mikkian typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Blindsight",
+      "description": "Mikkian can perceive the world around them through heat and radiation. You have blindsight out to 30 feet. If another trait would grant you blindsight, the range is increased by half as many feet."
+    },
+    {
+      "name": "Keen Hearing",
+      "description": "Your head-tendrils provide a keen awareness of your surroundings. You have advantage on Wisdom (Perception) checks that involve hearing."
+    },
+    {
+      "name": "Bureaucratic",
+      "description": "You have proficiency with Persuasion or Intimidation (your choice)."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Mikkian. Mikkian is a melodic, flowing tongue made up of several ancient dialects."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "anyAbilityCount": 1
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Numerous head-tendrils, acute senses of sight and hearing",
+    "skinColorOptions": "Green, pink, red, blue, or yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Blue or Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_mikkian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

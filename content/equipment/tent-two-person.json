@@ -1,0 +1,10 @@
+{
+  "key": "tent-two-person",
+  "name": "Tent, two-person",
+  "category": "utility",
+  "costInCredits": 20,
+  "weight": 5.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

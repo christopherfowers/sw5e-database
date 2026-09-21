@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-fine",
+  "name": "Handwraps (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "hands",
+  "description": "While wearing these handwraps, you have a +1 bonus to attack and damage rolls made with your unarmed strikes."
+}

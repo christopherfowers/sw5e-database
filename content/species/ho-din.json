@@ -1,0 +1,101 @@
+{
+  "key": "ho-din",
+  "name": "Ho'din",
+  "size": "medium",
+  "homeworld": "Moltok",
+  "nativeLanguage": "Ho'Din",
+  "lore": "### Biology and Appearance\nHo'dins are tall humanoids with multi-colored skin, naturally webbed and suction cup-tipped fingers and toes, and temperature-sensing red-violet \"snake hair\". Ho'dins are, on average, over nine feet tall—nearly a full head taller than wookiees. Renowned throughout the galaxy as botanists and healers, the ho'din claim an ancestry derived from the plants of their home planet, Moltok—in fact, \"ho'din\" translates as \"walking flower\" in Galactic Basic. They are, in fact, reptilian, as their natural climbing skills and cold-bloodedness seem to indicate, and boast a second heart to enhance their survivability. Their \"snake hair\" is temperature-sensitive, allowing ho'din to sense changes in ambient temperature.\n\n### Society and Culture\nHo'dins are known to be self-conscious and vain, particularly when it comes to their looks and their work, and do not take criticism or insults well. Their religion, Dinante Fli'R, is centered around worshipping and communing with nature, a trait that has sent many ho'din out into the galaxy to rejuvenate damaged planets. The ho'din have an aversion to technology and avoid surface mining and manufacturing, opting instead to dwell in trees. They have learned to make incredibly advanced pharmaceuticals and gardens using their botanical skills to concoct natural medicines, some of which have cured plagues on distant worlds. The title of \"Master Gardener\" is one of high esteem and great respect in ho'din society.\n\n### Names\nHo'din names are quite diverse. Some names look complicated and difficult to pronounce, while others are quite simple. Surnames are familial.\n\n**Male Names.** Baji, Gra'tau, Iwo, Oojoh, Thrung, Vala\n\n**Female Names.** Chela, Kutu, Lohje, Par'tah, Sirta, Tal\n\n**Surnames.** Alewune, Kulko, Oolos, Plett, Ustu, Wen",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Ho'din reach adulthood in their early 30s and live up to 120 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Ho'dins' benevolent nature causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Ho'din are taller than most species, typically standing 8 to 10 feet tall and generally weighing about 275 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Biological Specialists",
+      "description": "You have proficiency with Medicine or Survival (your choice)."
+    },
+    {
+      "name": "Cold Sensitivity",
+      "description": "You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme cold."
+    },
+    {
+      "name": "Crafters",
+      "description": "You have proficiency with one artisan's implements of your choice."
+    },
+    {
+      "name": "Naturalist",
+      "description": "You have proficiency in the Nature skill."
+    },
+    {
+      "name": "Rain Forest Dweller",
+      "description": "Growing up in the rain forests of Moltok has left an impact. You don't treat forest terrain as difficult terrain."
+    },
+    {
+      "name": "Reptilian Senses",
+      "description": "Whenever you make a Wisdom (Perception) check related to sensing heat, you are considered to have expertise in the Perception skill."
+    },
+    {
+      "name": "Second Heart",
+      "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+    },
+    {
+      "name": "Treeclimber",
+      "description": "You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, and Ho'Din. Ho'Din consists of croaks and hisses. Its written form includes characters derived from the shapes of Moltok flora. The Ho'Din lexicon includes a great amount of plant-based idioms and metaphors."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "7'10\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "150 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Snake-like \"hair\", suction-cupped fingers",
+    "skinColorOptions": "Green, yellow, blue, orange",
+    "hairColorOptions": "Red-violet",
+    "eyeColorOptions": "Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ho'din.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

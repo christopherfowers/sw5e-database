@@ -1,0 +1,12 @@
+{
+  "key": "high-grade-cybernetic-legs",
+  "name": "High-Grade Cybernetic Legs",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "prerequisite": "Constitution 13",
+  "description": "This augmentation replaces both legs.\n\nYou gain advantage on Strength ability checks and Strength saving throws, you can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet, and your speed increases by 10 feet.\n\n**Side Effect:** Your powerful legs have difficulty moving quietly. You have disadvantage on Dexterity (Stealth) checks that rely on moving silently.\n\n_This mechanical leg replacement increases speed and jumping height._"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-arkanian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Arkanian",
+  "description": "Arkanians reach adulthood in their late teens and live about 100 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

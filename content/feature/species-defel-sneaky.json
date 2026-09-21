@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-sneaky",
+  "name": "Sneaky",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "You are proficient in the Stealth skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "you-call-this-archaeology",
+  "name": "You Call This Archaeology?",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "The ability to cast force powers",
+  "description": "When you or a friendly creature that you can see reduces a hostile creature to 0 hit points, you can use your reaction and expend a superiority die to give yourself or that friendly creature temporary hit points equal to the number rolled + your universal forcecasting modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

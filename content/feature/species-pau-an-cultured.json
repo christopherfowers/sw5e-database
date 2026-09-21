@@ -1,0 +1,9 @@
+{
+  "key": "species-pau-an-cultured",
+  "name": "Cultured",
+  "grantedBy": "species",
+  "grantedByName": "Pau'an",
+  "description": "You have proficiency in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

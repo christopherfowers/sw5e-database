@@ -1,0 +1,10 @@
+{
+  "key": "class-guardian-force-purity-6",
+  "name": "Force Purity",
+  "grantedBy": "class",
+  "grantedByName": "Guardian",
+  "level": 6,
+  "description": "_**Guardian:** 6th level_\nThe Force flowing through you makes you immune to poison and disease.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

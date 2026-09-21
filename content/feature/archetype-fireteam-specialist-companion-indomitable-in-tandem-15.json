@@ -1,0 +1,10 @@
+{
+  "key": "archetype-fireteam-specialist-companion-indomitable-in-tandem-15",
+  "name": "Indomitable in Tandem",
+  "grantedBy": "archetype",
+  "grantedByName": "Fireteam Specialist (Companion)",
+  "level": 15,
+  "description": "_**Fireteam Specialist:** 15th level_\nWhen you and your companion are both forced to make a saving throw against the same effect, and one—but not both—of you fails, you can expend a use of your Indomitable feature to instead have you both succeed.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

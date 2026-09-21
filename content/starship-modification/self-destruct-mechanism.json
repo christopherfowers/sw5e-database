@@ -1,0 +1,9 @@
+{
+  "key": "self-destruct-mechanism",
+  "name": "Self-Destruct Mechanism",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with a self-destruct mechanism that can cause immense destruction at the expense of the ship. A crewmember can activate the self-destruct mechanism as an action, setting a timer up to 10 minutes in length. When the timer expires, the ship explodes, dealing fire damage to each enemy within range. The damage is calculated as follows; for each Hull Die the ship has, roll it and add the ship's Strength modifier to the roll.\nThe range that the self-destruct mechanism impacts varies, depending on the ship's size:\n- **Tiny**: A Tiny ship deals damage to each ship within 50 feet of it.\n- **Small**: A Small ship deals damage to each ship within 100 feet of it.\n- **Medium**: A Medium ship deals damage to each ship within 200 feet of it.\n- **Large**: A Large ship deals damage to each ship within 400 feet of it.\n- **Huge**: A Huge ship deals damage to each ship within 1,000 feet of it.\n- **Gargantuan**: A Gargantuan ship deals damage to each ship within 2,000 feet of it."
+}

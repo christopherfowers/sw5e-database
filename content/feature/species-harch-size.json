@@ -1,0 +1,9 @@
+{
+  "key": "species-harch-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Harch",
+  "description": "Harch stand around 6 feet tall and weigh between 200 and 300 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

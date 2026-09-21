@@ -1,0 +1,11 @@
+{
+  "key": "heat-generator",
+  "name": "Heat generator",
+  "category": "utility",
+  "costInCredits": 400,
+  "weight": 4.0,
+  "description": "Heat generators are special devices typically worn on belts that function as a portable, personal heat supply. Activating or deactivating the generator requires a bonus action and, while active, you are adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide. The generator lasts for 10 minutes and can be recharged by a power source or replacing the power cell.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

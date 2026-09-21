@@ -1,0 +1,11 @@
+{
+  "key": "mummergy-reserve",
+  "name": "Mummergy (Reserve)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "substance",
+  "description": "Mummergy is a strong-smelling liquor derived from a plant of the same name. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that allows them to roll an additional d10 when making an ability check, attack roll, or saving throw using Intelligence. At the end of the high, the creature must succeed on a DC 22 Constitution saving throw or experience a low that lasts 4 hours, during which they must roll a d10 and subtract the result when making an ability check, attack roll, or saving throw using Intelligence. At the end of the low, the creature must make a DC 22 Wisdom saving throw to resist addiction."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "jedi-master-s-robe",
+  "name": "Jedi Master's Robe",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nYou gain a +3 bonus to AC while you wear this robe.\n\n_Members of the Order typically wear plain or unassuming garments, but Jedi Masters also know the importance of adequate protection when great challenges must be surmounted._"
+}

@@ -1,0 +1,21 @@
+{
+  "key": "blaster-rifle",
+  "name": "Blaster rifle",
+  "category": "weapon",
+  "costInCredits": 525,
+  "weight": 7.5,
+  "properties": [
+    "power cell (range 105/420)",
+    "reload 12",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

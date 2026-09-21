@@ -1,0 +1,11 @@
+{
+  "key": "lightweapon-chassis-premium",
+  "name": "Lightweapon Chassis (Premium)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "any lightweapon",
+  "description": "_**Requires attunement**_\nThis modifiable lightweapon chassis comes with vacant modification slots for lightweapon modifications. It can house modifications of premium rarity or lower."
+}

@@ -1,0 +1,17 @@
+{
+  "key": "flame-sweep",
+  "name": "Flame Sweep",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (15-foot cone)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "A thin sheet of flames shoots forth from you. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.\n\nThe fire ignites any flammable objects in the area that aren't being worn or carried.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

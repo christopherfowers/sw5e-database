@@ -1,0 +1,11 @@
+{
+  "key": "extending-motherboard-champion",
+  "name": "Extending Motherboard (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the extending 30 property. If it already has the extending property, its extending number increases to 30."
+}

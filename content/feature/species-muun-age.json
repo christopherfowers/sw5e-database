@@ -1,0 +1,9 @@
+{
+  "key": "species-muun-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Muun",
+  "description": "Muuns reach adulthood in their late teens and live an average of a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

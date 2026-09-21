@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-superior",
+  "name": "Handwraps (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "hands",
+  "description": "While wearing these handwraps, you have a +3 bonus to attack and damage rolls made with your unarmed strikes."
+}

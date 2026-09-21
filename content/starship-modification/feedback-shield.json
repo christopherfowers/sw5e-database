@@ -1,0 +1,9 @@
+{
+  "key": "feedback-shield",
+  "name": "Feedback Shield",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship's shield is enhanced to reflect damage to would-be attackers. As a reaction to the ship being hit with a primary or secondary weapon, a crewmember can use their reaction to deal damage to the attacking ship. The damage depends on your ship's size: 1d4 for a Tiny ship, 1d6 for a Small ship, 1d8 for a Medium ship, 1d10 for a Large ship, 1d12 for a Huge ship, or 1d20 for a Gargantuan ship. The damage is of the same type dealt by the original attack."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "tunic-chassis-standard",
+  "name": "Tunic Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nThis modifiable clothing chassis comes with vacant modification slots for clothing modifications. It can house modifications of standard rarity."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kaleesh-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kaleesh",
+  "description": "Kaleesh typically stand about five and a half feet tall and weigh about 140 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

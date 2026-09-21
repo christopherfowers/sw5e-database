@@ -1,0 +1,9 @@
+{
+  "key": "species-esh-kha-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Esh-Kha",
+  "description": "Esh-kha typically stand 6 to 6 and a half feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

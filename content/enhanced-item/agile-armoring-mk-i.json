@@ -1,0 +1,12 @@
+{
+  "key": "agile-armoring-mk-i",
+  "name": "Agile Armoring Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the agile 11 property. If it already has the agile property, its agile number increases by one step (from 11 to 13, 13 to 15, 15 to 17, 17 to 19, or 19 to 21)."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-aing-tii-wisdom-of-the-elders",
+  "name": "Wisdom of the Elders",
+  "grantedBy": "species",
+  "grantedByName": "Aing-Tii",
+  "description": "You are proficient in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

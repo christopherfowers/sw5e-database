@@ -1,0 +1,25 @@
+{
+  "key": "double-laser-cannon",
+  "name": "Double laser cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4500,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "overheat 8"
+  ],
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 800,
+    "long": 3200
+  }
+}

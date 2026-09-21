@@ -1,0 +1,9 @@
+{
+  "key": "species-mustafarian-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Mustafarian",
+  "description": "Your base walking speed is 30 feet. You ignore the strength property of heavy armor.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

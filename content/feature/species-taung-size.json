@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "Taung typically stand between 6 and 7 feet tall and weigh around 210 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

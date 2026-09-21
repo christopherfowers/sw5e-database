@@ -1,0 +1,10 @@
+{
+  "key": "archetype-ysannanite-form-channel-the-force-3",
+  "name": "Channel the Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Ysannanite Form",
+  "level": 3,
+  "description": "_**Ysannanite Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Force-Empowered Shots\nOnce per turn, when you hit a creature with a ranged weapon attack, you can expend a use of your Channel the Force and expend force points to deal additional damage to the target, which is the same type as the weapon's damage. The additional damage is 1d8 for each point spent in this way. You can't deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

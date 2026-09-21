@@ -1,0 +1,89 @@
+{
+  "key": "barabel",
+  "name": "Barabel",
+  "size": "medium",
+  "homeworld": "Barab I",
+  "nativeLanguage": "Barabel",
+  "lore": "### Biology and Appearance\nBarabel are a bipedal species of reptilians who are covered in very tough dark colored scales. Evolved from nocturnal lizards, the Barabel adapted a thick layer of fat which allowed them to remain active and not sluggish when temperatures dropped. A blaster set on stun would not damage them at all or slow them down, as it would merely bounce off their scales. Barabel are able to shed their tails if necessary, an ability that proved the undoing of many startled foes. They also possess heavy retractable claws along with needle sharp teeth which can grow to be 2 inches in length. A carnivorous species, Barabel possess two stomachs in order to process the massive amount of food they required to survive.\n\n### Society and Culture\nLiving in low tech communities ranging from a few dozen individuals to no more than ten thousand, the Barabel community is built around a warren where the group thrives and hunted from. The Barabel species is noted for its hunting and tracking prowess; many of their actions are fueled by their hunting instincts, leading to the general feeling that Barabel are always angry. They are well known for their aggression but are also extremely loyal. They also have a great deal of respect for the Jedi because of their first experiences with a Jedi Master who settled a dangerous clan dispute. Apologies, whether for a misdeed or in sympathy, are an unknown concept to Barabel and are considered insulting.\n\n### Names\nBarabel names are harsh and gutteral. Female names are often softer. Surnames are warren-based.\n\n**Male Names.** Anidroks, Bridiz, Trurzuk, Vilzinok\n\n**Female Names.** Alge, Bulzo, Ekthamo, Inako, Nolku\n\n**Surnames.** Akken, Dutarca, Khigta, Srabulgid, Zhomo",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Barabel reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Barabel aggression causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Barabel typically stand between 6 and 7 feet tall and weigh about 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Hunter",
+      "description": "You are proficient in Survival."
+    },
+    {
+      "name": "Prehensile Tail",
+      "description": "You have supreme control over your tail and can use it to manipulate objects as well as your hands."
+    },
+    {
+      "name": "Tooth and Nail",
+      "description": "Your sharp teeth and claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage. Lastly, as a bonus action, you can perform a special claw attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Barabel. The Barabel language is characterized by its barks and hisses."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'7\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "140 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Four-fingered hands, two inch long teeth",
+    "skinColorOptions": "Black, green, grey, or red",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_barabel.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

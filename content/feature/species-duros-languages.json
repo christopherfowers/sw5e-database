@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "You can speak, read, and write Galactic Basic and Durese. Durese is a common interstellar tongue used by prominent spacers and traders.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

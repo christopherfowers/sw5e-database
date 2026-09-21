@@ -1,0 +1,9 @@
+{
+  "key": "shield-disruptor",
+  "name": "Shield Disruptor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 2,
+  "description": "This modification adds a shield disruptor to a ship, which is used to interfere with another ship's shield. As an action, a crewmember can activate the shield disruptor and choose a ship they can see within 1,000 feet.\nYou make a Charisma (Interfere) check contested by the target’s Constitution (Regulate) check. On a failed save, the ship’s shield regeneration rate is reduced by half for 1 minute. Additionally they take damage to their shields equal to two of their shield dice.\nAt the start of each of the target ship's turns, a crewmember can use an action to repeat the saving throw, ending the effect on a success.\nIf a ship is targeted by a larger ship, it has disadvantage on the saving throw. If targeted by a smaller ship, it instead has advantage.\nYou can end the shield disruptor at any time (no action required).  This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
+}

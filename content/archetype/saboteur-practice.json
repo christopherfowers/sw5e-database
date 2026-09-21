@@ -1,0 +1,319 @@
+{
+  "key": "saboteur-practice",
+  "name": "Saboteur Practice",
+  "className": "Operative",
+  "casterType": "tech",
+  "casterRatio": 0.3333333333333333,
+  "classCasterType": "none",
+  "description": "Those operatives who choose the Saboteur Practice enhance their fine-honed skills of stealth and agility with tech, using advanced technology with the aid of a tracker droid to sustain a longer assault.\n\n### Bonus Proficiencies\n_**Saboteur Practice:** 3rd level_\nYou gain proficiency in astrotech's implements.\n\n### Techcasting\n_**Saboteur Practice:** 3rd level_\nYou have derived powers from schematics with the aid of your wristpad. See chapter 10 for the general rules of techcasting and chapter 12 for the tech powers list.\n\n#### Tech Powers Known\nYou learn 3 tech powers of your choice, and you learn more at higher levels, as shown in the Tech Powers Known column of the Saboteur Practice Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.\n\n#### Tech Points\nYou have a number of tech points equal to half of your operative level, as shown in the Tech Points column of the Saboteur Practice Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.\n\n#### Max Power Level\nMany tech powers can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Saboteur Practice Techcasting table.\n\nYou may only cast tech powers at 4th-level once. You regain the ability to do so after a long rest.\n\n#### Techcasting Ability\nIntelligence is your techcasting ability for your tech powers. You use your Intelligence whenever a power refers to your techcasting ability. Additionally, you use your Intelligence modifier when setting the saving throw DC for a tech power you cast and when making an attack roll with one.\n\n___\n\n**Tech save DC** = 8 + your proficiency bonus + your Intelligence modifier\n\n___\n\n**Tech attack modifier** = your proficiency bonus + your Intelligence modifier\n\n___\n\n#### Techcasting Focus\nYou use a wristpad (found in chapter 5) as a techcasting focus for your tech powers.\n\n### Tracker Droid Companion\n_**Saboteur Practice:** 3rd, 5th, 9th, 13th, and 17th level_\nYou learn to employ all the knowledge you've accumulated to create and customize your own tracker droid companion.\n\nCreate your tracker droid companion as detailed in the Companions section of the Customization Options document for Expanded Content. You must have astrotech's implements in order to create your droid.\n\nIn addition to its traits and features, your tracker droid companion gains an additional benefit while it is bonded to you:\n- Your tracker droid gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each droid trait in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can install, replace, or remove a number of tracker droid traits equal to half your Intelligence modifier (minimum of one).\n\nLastly, when you cast a tech power of 1st-level or higher that would affect only one target, and your tracker droid companion is bonded and within 10 feet of you or your target, your tracker droid companion can use its reaction to increase the level at which you are casting your power by 1. This feature can increase a power's level above your Max Power Level, and using this feature does not cost additional tech points.\n\nAt 11th level, your tracker droid companion must be within 30 feet of you or your target to benefit from this feature. At 17th level, your tracker droid companion must be within 60 feet.\n\nYou can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you complete a long rest.\n\n### Powered Ambush\n_**Saboteur Practice:** 9th level_\nIf you are hidden from a creature when you cast a power on it, the creature has disadvantage on any saving throw it makes against the power this turn.\n\n### Ion Pulse\n_**Saboteur Practice:** 13th level_\nAs a bonus action on your turn, you can expend one or more of your tracker droid's Hit Dice to have it emit an pulse of ion energy. Each creature within 5 feet of your tracker droid must make a Constitution saving throw against your tech save DC. A creature takes ion damage for each Hit Die expended in this way on a failed save, or half as much as on a successful one. The size of the damage die equals the size of your tracker droid's Hit Die. Any electronics not being worn or carried within the blast radius are disabled until rebooted.\n\n##### Saboteur Techcasting\n\n### Sabotage\n_**Saboteur Practice:** 17th level_\nYou gain the ability to sabotage a tech power in the process of being cast. When a hostile creature casts a tech power, and you are the target of the tech power or within its area of effect, you can use your reaction to force that creature to make an Intelligence saving throw against your tech save DC. On a successful save, the power is cast as normal.\n\nOn a failed save, you negate the power's effects, and the caster takes 1d6 lightning damage per level of the power it was casting. Additionally, on a failed save, the caster's tech focus used to cast the tech power is overloaded and can't be used to cast tech powers for 1 minute.\n\nAt the end of each of the caster's turns, it can repeat the Intelligence saving throw. On a success, it can use the tech focus to cast tech powers again.\n\nOnce you've used this feature, you can't use it again until you finish a long rest.",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "3"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "4"
+        },
+        {
+          "label": "Tech Points",
+          "value": "2"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "5"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "6"
+        },
+        {
+          "label": "Tech Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "8"
+        },
+        {
+          "label": "Tech Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "10"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "11"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "14"
+        },
+        {
+          "label": "Tech Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "16"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "20"
+        },
+        {
+          "label": "Tech Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

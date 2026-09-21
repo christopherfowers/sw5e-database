@@ -1,0 +1,11 @@
+{
+  "key": "ranging-emitter-ascendancy",
+  "name": "Ranging Emitter (Ascendancy)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the ranging 3 property. If it already has the ranging property, its ranging number increases to 3."
+}

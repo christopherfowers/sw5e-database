@@ -1,0 +1,11 @@
+{
+  "key": "gravity-generator",
+  "name": "Gravity generator",
+  "category": "utility",
+  "costInCredits": 500,
+  "weight": 3.0,
+  "description": "Gravity generators are special devices typically worn on belts that function as a portable, personal artificial gravity source. Activating or deactivating the belt requires a bonus action and, while active, you are able to move as if in a standard gravitational pull. The generator lasts for 10 minutes and can be recharged by a power source or replacing the power cell.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

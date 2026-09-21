@@ -1,0 +1,15 @@
+{
+  "key": "dogfighter-superiority",
+  "name": "Dogfighter Superiority",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in fighter",
+      "className": "fighter",
+      "level": 2
+    }
+  ],
+  "description": "When you expend a power die or another die granted by your Deployment, roll the die as normal, but you can instead subtract it from your pool of superiority dice."
+}

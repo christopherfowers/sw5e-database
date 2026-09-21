@@ -1,0 +1,12 @@
+{
+  "key": "sharpshooter-mastery",
+  "name": "Sharpshooter Mastery",
+  "description": "You've mastered blaster weapons and can easily make shots that others find impossible. You gain the following benefits:",
+  "benefits": [
+    "Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
+    "Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter cover, you ignore it entirely.",
+    "Before you make an attack against a target greater than 30 feet from you with a blaster weapon with which you are proficient, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

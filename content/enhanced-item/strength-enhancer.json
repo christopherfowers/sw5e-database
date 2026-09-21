@@ -1,0 +1,11 @@
+{
+  "key": "strength-enhancer",
+  "name": "Strength Enhancer",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile wearing this belt, your Strength score becomes 21. If your Strength is already equal to or greater than 21, it has no effect on you.\n\n_This belt increases a users physical power with pneumaticized assistance joists that provide support and leverage in a minimal form-factor._"
+}

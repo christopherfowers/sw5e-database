@@ -1,0 +1,104 @@
+{
+  "key": "b-omarr-brain-walker",
+  "name": "B'omarr Brain Walker",
+  "size": "medium",
+  "types": [
+    "construct"
+  ],
+  "alignment": "any dark",
+  "armor": {
+    "class": 14,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 54,
+    "roll": "8d8+16"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 1,
+      "modifier": -5
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 16,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 16,
+      "modifier": 3
+    }
+  },
+  "savingThrows": [
+    "Int +6",
+    "Wis +4",
+    "Cha +6"
+  ],
+  "skills": [
+    "Lore +6",
+    "Deception +6",
+    "Perception +4",
+    "Persuasion +6"
+  ],
+  "senses": [
+    "blindsight 60 ft.",
+    "passive Perception 11"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Huttese"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "frightened",
+      "paralyzed"
+    ]
+  },
+  "challengeRating": "0",
+  "experiencePoints": 3,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The B'omarr Brain Walker makes Two Mind Thrust attacks",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Mind Thrust",
+      "behaviorType": "action",
+      "description": "One creature within 60 feet of the B'omarr Brain Walker must make a DC 13 Wisdom saving throw, taking 13 (4d6) psychic damage on a failed save, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The B'omarr Order, which consisted of the B'omarr Monks, was a mysterious religious order that moved to the planet Tatooine around 700 BBY. The B'omarr believed that cutting themselves off from all physical sensation would further their studies, and allow them to ponder the galaxy and achieve enlightenment. When a monk became enlightened, his brain was removed through a special procedure, and was placed in a nutrient-filled jar. The brains were held in very high regard by the lower, embodied monks, who saw to their every need, though the brains rarely did anything other than think and wonder. When they did need to travel around their monastery on Tatooine, the brains were transferred into specially modified BT-16 perimeter droids.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

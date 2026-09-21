@@ -1,0 +1,11 @@
+{
+  "key": "multispectral-optics-champion",
+  "name": "Multispectral Optics (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "While looking through this weapon's scope, you have truesight out to a distance equal to the long range of this weapon and you can see creatures that are lightly or heavily obscured. Additionally, you gain a +2 bonus to attack rolls."
+}

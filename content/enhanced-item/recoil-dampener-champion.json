@@ -1,0 +1,11 @@
+{
+  "key": "recoil-dampener-champion",
+  "name": "Recoil Dampener (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon loses the strength property."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "evasive-footwork",
+  "name": "Evasive Footwork",
+  "maneuverType": "general",
+  "superiorityDice": 1,
+  "description": "When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

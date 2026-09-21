@@ -1,0 +1,21 @@
+{
+  "key": "diresword",
+  "name": "Diresword",
+  "category": "weapon",
+  "costInCredits": 300,
+  "weight": 3.75,
+  "properties": [
+    "dexterity 11",
+    "dire 1",
+    "heavy"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

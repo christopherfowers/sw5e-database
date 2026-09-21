@@ -1,0 +1,21 @@
+{
+  "key": "remote-control-console",
+  "name": "Remote Control Console",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite includes the proper equipment necessary for a crewmember to take remote control of another ship from the safety of their own ship. A number of crewmembers can be deployed at a time in remote ships from this suite equal to one quarter of the ship’s suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. The distance at which this suite can connect to remote ships is limited by the communications of the ship this suite is installed in."
+}

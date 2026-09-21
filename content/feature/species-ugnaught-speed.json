@@ -1,0 +1,9 @@
+{
+  "key": "species-ugnaught-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Ugnaught",
+  "description": "Your base walking speed is 25.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

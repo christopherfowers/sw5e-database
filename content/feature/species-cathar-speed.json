@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

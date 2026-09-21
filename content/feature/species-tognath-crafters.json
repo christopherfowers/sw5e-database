@@ -1,0 +1,9 @@
+{
+  "key": "species-tognath-crafters",
+  "name": "Crafters",
+  "grantedBy": "species",
+  "grantedByName": "Tognath",
+  "description": "You have proficiency with one set of artisan's implements of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

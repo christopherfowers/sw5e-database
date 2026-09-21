@@ -1,0 +1,9 @@
+{
+  "key": "species-gungan-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Gungan",
+  "description": "You can speak, read, and write Galactic Basic and Gungan. When speaking Galactic Basic, you often have trouble with word tenses and infinitives; this usually has a comical effect.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

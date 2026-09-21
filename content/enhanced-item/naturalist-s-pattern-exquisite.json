@@ -1,0 +1,11 @@
+{
+  "key": "naturalist-s-pattern-exquisite",
+  "name": "Naturalist's Pattern (Exquisite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain grand mastery in Nature."
+}

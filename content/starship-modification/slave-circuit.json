@@ -1,0 +1,21 @@
+{
+  "key": "slave-circuit",
+  "name": "Slave Circuit",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "You install a slave circuit in your ship. You reduce the minimum crew requirement by half (minimum of 1)."
+}

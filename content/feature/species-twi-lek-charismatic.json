@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-charismatic",
+  "name": "Charismatic",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "You have proficiency with Deception or Persuasion (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

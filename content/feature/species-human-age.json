@@ -1,0 +1,9 @@
+{
+  "key": "species-human-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Human",
+  "description": "Humans reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

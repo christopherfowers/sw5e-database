@@ -1,0 +1,9 @@
+{
+  "key": "species-tiss-shar-predatory-talents",
+  "name": "Predatory Talents",
+  "grantedBy": "species",
+  "grantedByName": "Tiss'shar",
+  "description": "You have proficiency in one of the following skills: Acrobatics, Sleight of Hand, Stealth, or Technology.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-voss-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Voss",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

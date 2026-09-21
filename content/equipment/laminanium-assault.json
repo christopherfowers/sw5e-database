@@ -1,0 +1,18 @@
+{
+  "key": "laminanium-assault",
+  "name": "Laminanium assault",
+  "category": "armor",
+  "costInCredits": 8000,
+  "weight": 60.0,
+  "properties": [
+    "bulky",
+    "cumbersome",
+    "obscured",
+    "strength 15"
+  ],
+  "armorClassification": "heavy",
+  "armorClass": "17",
+  "stealthDisadvantage": true,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

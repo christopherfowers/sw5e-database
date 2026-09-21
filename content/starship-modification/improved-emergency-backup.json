@@ -1,0 +1,9 @@
+{
+  "key": "improved-emergency-backup",
+  "name": "Improved Emergency Backup",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "This system augments your ship's primary system emergency backup. This back up can now continue running the starship, provided there is adequate fuel, for 7 days."
+}

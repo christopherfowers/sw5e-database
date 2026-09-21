@@ -1,0 +1,9 @@
+{
+  "key": "species-arkanian-infrared-sight",
+  "name": "Infrared Sight",
+  "grantedBy": "species",
+  "grantedByName": "Arkanian",
+  "description": "Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

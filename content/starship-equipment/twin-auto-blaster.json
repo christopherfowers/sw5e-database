@@ -1,0 +1,29 @@
+{
+  "key": "twin-auto-blaster",
+  "name": "Twin auto-blaster",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4400,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "auto",
+    "burst 10",
+    "hidden",
+    "overheat 20",
+    "rapid 5"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 250,
+    "long": 1000
+  }
+}

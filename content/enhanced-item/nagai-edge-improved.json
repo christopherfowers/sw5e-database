@@ -1,0 +1,11 @@
+{
+  "key": "nagai-edge-improved",
+  "name": "Nagai Edge (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you have advantage on an attack roll you make with this weapon, get the same result on both dice rolls, and hit, you deal two additional weapon dice worth of damage."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "torpedo-plasma-average",
+  "name": "Torpedo, Plasma (Average)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +1 bonus to attack and damage rolls made with this enhanced torpedo launcher ammunition, which deals 20d6 energy damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+}

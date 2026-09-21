@@ -1,0 +1,11 @@
+{
+  "key": "dire-ascendancy-scope",
+  "name": "Dire Ascendancy Scope",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "This weapon gains the dire 3 property. If it already has the dire property, its dire number increases to 3."
+}

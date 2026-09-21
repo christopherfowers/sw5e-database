@@ -1,0 +1,11 @@
+{
+  "key": "clandestine-stitching-improved",
+  "name": "Clandestine Stitching (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This article of clothing come with three hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 21 Investigation check."
+}

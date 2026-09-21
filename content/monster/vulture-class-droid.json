@@ -1,0 +1,131 @@
+{
+  "key": "vulture-class-droid",
+  "name": "Vulture-Class Droid",
+  "size": "huge",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 90,
+    "roll": "12d10+"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 17,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 9,
+      "modifier": -1
+    },
+    "wisdom": {
+      "score": 15,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "skills": [
+    "Perception +5"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 15"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The starfighter has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Fragile Flyer",
+      "behaviorType": "trait",
+      "description": "The startfighter cannot enter flight mode if it has fewer than 70 hit points.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Mag-lock Limbs",
+      "behaviorType": "trait",
+      "description": "The starfighter can climb metal surfaces, including upside down on ceilings, without needing to make an ability check.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The starfighter makes two slam attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Slam",
+      "behaviorType": "action",
+      "description": "Proton Torpedo (2/maintenance). Ranged Weapon Attack: +3 to hit, range 300/600, one target. Hit: 9 (2d8) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 11), taking 9 (2d8) energy damage on a failed save, or half as much on a successful one. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6+3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 10,
+      "damageRoll": "2d6+3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Deflector Shield",
+      "behaviorType": "reaction",
+      "description": "The starfighter adds 3 to its AC against one attack that would hit it. To do so, the starfighter must see the attacker.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The Variable Geometry Self-Propelled Battle Droid, Mark I, also known as the Vulture-class droid starfighter, or more simply as the vulture droid, is an unmanned model of droid starfighter manufactured by Haor Chall Engineering and utilized by the Trade Federation and the Confederacy of Independent Systems. Constructed in the cathedral factories of Xi Char, their creation through precision manufacturing is considered an act of religious worship. Like the ground forces made up of battle droids, vulture droids are sometimes remote controlled by a control ship. However, later generations of the fighter are able to operate with limited independence due to the installation of artificial intelligence. They are also known to be able to communicate with each other by chattering. While not in flight, vulture droids can transform into walking mode to patrol the surface or provide support during battles, and are specifically designed to fill both space and ground-based roles. The vulture droid carries four blaster cannons and two energy torpedo launchers, and can reach 1200 kilo-meters per hour in a planet's atmosphere. In walker-mode, the Vulture-class could only use its two torpedo launchers as its cannons were situated on the legs and pointed downwards. While in this mode, the droid starfighter can also latch onto surfaces in zero gravity, allowing it to launch directly from the external hull of a capital ship. Vultures are also capable of being programmed to self-destruct if their link with their host control ship is severed. Vulture droid starfighters are usually named by a six-digit designation number, consisting of DFS- and a three-digit alpha-numeric combination, as illustrated by the fighters DFS-1VR and DFS-4CT.",
+  "sectionText": "A droid starfighters are automated starfighters that are droids themselves, instead of being a vessel piloted by another creature or droid. They were used prior to and during the Clone Wars, having the great advantage that if the ship was destroyed lives would be spared. There are several types of droid starfighters like Hyena-class bombers, Vulture droid starfighters, and Droid tri-fighters. Several of these fighters are capable of ground-based locomotion and combat.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

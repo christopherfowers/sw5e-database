@@ -1,0 +1,19 @@
+{
+  "key": "bolt-thrower",
+  "name": "Bolt-thrower",
+  "category": "weapon",
+  "costInCredits": 1825,
+  "weight": 13.5,
+  "description": "Rather than traditional power cells, the bolt-thrower fires specialized projectiles in the form of bolts.",
+  "properties": [
+    "reload 1",
+    "silent",
+    "special (range 90/360)",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

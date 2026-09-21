@@ -1,0 +1,9 @@
+{
+  "key": "species-bothan-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Bothan",
+  "description": "You can speak, read, and write Galactic Basic and Bothese. Bothese had a great influence on the forming of Galactic Basic; the two languages share many cognates.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

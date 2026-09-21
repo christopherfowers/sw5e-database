@@ -1,0 +1,11 @@
+{
+  "key": "poison-major",
+  "name": "Poison (Major)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "poison",
+  "description": "As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 18 Constitution saving throw, taking 6d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+}

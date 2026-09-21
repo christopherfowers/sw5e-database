@@ -1,0 +1,9 @@
+{
+  "key": "species-massassi-force-symbiosis",
+  "name": "Force Symbiosis",
+  "grantedBy": "species",
+  "grantedByName": "Massassi",
+  "description": "When you reach 3rd level, you can cast your choice of the *curse*, *dun moch*, or *hex* force power once per day. Your forcecasting ability is Charisma.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

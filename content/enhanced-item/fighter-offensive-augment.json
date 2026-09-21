@@ -1,0 +1,12 @@
+{
+  "key": "fighter-offensive-augment",
+  "name": "Fighter Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in fighter",
+  "description": "You learn an additional maneuver, and you gain one additional superiority die."
+}

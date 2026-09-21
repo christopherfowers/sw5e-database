@@ -1,0 +1,12 @@
+{
+  "key": "versatile-frame",
+  "name": "Versatile Frame",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "prerequisite": "Lacks double or two-handed property",
+  "description": "This weapon gains the versatile (1d10) property. If it already has the versatile property, the versatile damage increases by one step (from 2d4 to d10, d10 to d12, from d12 to 2d6, or from 2d6 to 3d4)."
+}

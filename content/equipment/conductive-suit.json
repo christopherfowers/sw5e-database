@@ -1,0 +1,10 @@
+{
+  "key": "conductive-suit",
+  "name": "Conductive suit",
+  "category": "lifeSupport",
+  "costInCredits": 3600,
+  "weight": 12.5,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "weapon-exceptional",
+  "name": "Weapon (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +3 bonus to attack rolls and deal an additional 1d8 damage with this enhanced weapon."
+}

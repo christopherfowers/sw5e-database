@@ -1,0 +1,9 @@
+{
+  "key": "tibanna-gas-projector-mk-i",
+  "name": "Tibanna Gas Projector, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 1,
+  "description": "As an action, a crewmember can dump a load of tibanna gas in a 100-foot cube within 600 feet. For up to a number of rounds equal to your ship's tier, it is difficult terrain and lightly obscures the area.\nWhen the gas appears, each ship in its area must succeed on a Dexterity saving throw (DC = 8 + prof. bonus + ship's constitution modifier) or become ionized. A ship that enters the area or ends its turn there must also succeed on a Dexterity saving throw.\nThe gas is flammable. Any 50 foot cube of the gas exposed to fire burns away in one round. Each ship that enters the fire or starts it turn there must make a Dexterity saving throw, taking 3d6 fire damage on a failed save, or half as much on a successful one. The fire ignites any flammable objects in the area.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

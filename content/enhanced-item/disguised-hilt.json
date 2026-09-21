@@ -1,0 +1,11 @@
+{
+  "key": "disguised-hilt",
+  "name": "Disguised Hilt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the disguised property."
+}

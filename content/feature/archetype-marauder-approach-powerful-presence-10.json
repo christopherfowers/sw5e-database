@@ -1,0 +1,10 @@
+{
+  "key": "archetype-marauder-approach-powerful-presence-10",
+  "name": "Powerful Presence",
+  "grantedBy": "archetype",
+  "grantedByName": "Marauder Approach",
+  "level": 10,
+  "description": "_**Marauder Approach:** 10th level_\nAs a bonus action, you unleash a battle cry infused with force energy. Choose up to ten other creatures of within 60 feet of you that can hear you. Friendly creatures have advantage on attack rolls and saving throws until the start of your next turn, and hostile creatures have disadvantage on attack rolls and saving throws until the end of your next turn.\nOnce you've used this feature, you can't use it again until you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

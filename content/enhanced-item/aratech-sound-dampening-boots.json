@@ -1,0 +1,11 @@
+{
+  "key": "aratech-sound-dampening-boots",
+  "name": "Aratech Sound Dampening Boots",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "feet",
+  "description": "_**Requires attunement**_\nWhile you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.\n\n_Before their repulsorcraft hit it big, Aratech honed its edge in the stealth field generator market._"
+}

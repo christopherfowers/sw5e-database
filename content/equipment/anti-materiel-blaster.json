@@ -1,0 +1,24 @@
+{
+  "key": "anti-materiel-blaster",
+  "name": "Anti-materiel blaster",
+  "category": "weapon",
+  "costInCredits": 2500,
+  "weight": 18.5,
+  "properties": [
+    "power cell (range 180/720)",
+    "auto",
+    "reload 2",
+    "penetrating 2",
+    "strength 19",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

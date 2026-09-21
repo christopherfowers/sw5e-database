@@ -1,0 +1,11 @@
+{
+  "key": "compensation-oscillator-fine",
+  "name": "Compensation Oscillator (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon's dexterity number is reduced by two steps (from 21 to 17, 19 to 15, 17 to 13, or 15 to 11). If the dexterity number is 13 or lower, this modification removes the dexterity property from it entirely."
+}

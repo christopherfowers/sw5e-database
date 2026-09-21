@@ -1,0 +1,11 @@
+{
+  "key": "jedi-knight-s-robe",
+  "name": "Jedi Knight's Robe",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nYou gain a +2 bonus to AC while you wear this robe.\n\n_Members of the Order typically wear plain or unassuming garments, but this variant offers the additional protection needed by Jedi influencing important events._"
+}

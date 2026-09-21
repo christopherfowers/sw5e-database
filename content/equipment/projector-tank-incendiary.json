@@ -1,0 +1,11 @@
+{
+  "key": "projector-tank-incendiary",
+  "name": "Projector tank, incendiary",
+  "category": "ammunition",
+  "costInCredits": 650,
+  "weight": 3.0,
+  "description": "When triggered, this vapor projector ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Dexterity saving throw, taking 2d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

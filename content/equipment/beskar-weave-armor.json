@@ -1,0 +1,16 @@
+{
+  "key": "beskar-weave-armor",
+  "name": "Beskar weave armor",
+  "category": "armor",
+  "costInCredits": 3000,
+  "weight": 25.0,
+  "properties": [
+    "regulated",
+    "strength 11"
+  ],
+  "armorClassification": "medium",
+  "armorClass": "14 + Dex modifier (max 2)",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

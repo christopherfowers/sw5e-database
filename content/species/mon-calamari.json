@@ -1,0 +1,90 @@
+{
+  "key": "mon-calamari",
+  "name": "Mon Calamari",
+  "size": "medium",
+  "homeworld": "Mon Cala",
+  "nativeLanguage": "Mon Cal",
+  "lore": "### Biology and Appearence\nThe mon calamari are a bipedal, amphibious species with high-domed heads, webbed hands and large, goggle-like eyes. In addition to being webbed, the mon calamari hand presents three suction-cup like holes on its palm, and featured five claw-tipped fingers: one opposable thumb, two long middle fingers, and two very short outer fingers. Although they are shaped like flippers, their feet can nevertheless fit into boots designed for human-like feet. The females are distinguished from the males by their more prominent chest areas.\n\n### Society and Culture\nThe mon calamari have developed a very advanced and civilized culture. Their art, music, literature, and science show a creativity surpassed by few in the galaxy. Mon calamari literature depicts stars as islands in a galactic sea, showing a passionate longing to explore space and discover other civilizations. Mon Calamari are both soft-spoken and gentle, slow to anger, and have the remarkable ability to maintain their concentration without being distracted by emotional responses. They are both inquisitive and creative, and have a near-legendary quality of being both determined and dedicated; once a mon calamari decides on a course of action, they are not easily swayed from that decision. They often fixate themselves on \"lost causes.\"\n\n### Names\nMon calamari names generally have a melodic feel.\n\n**Male Names.** Creaz, Fior, Hurneerth, Nurrins, Sielpa\n\n**Female Names.** Afwa, Lel, Mhirim, Ri, Theya\n\n**Surnames.** Dualda, Gradi, Tua, Valec, Winab",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Mon calamari reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Mon calamaris' love of the arts cause them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Mon calamari stand between 5 and 6 feet tall and rarely weigh more than 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Mon Calamari Resistance",
+      "description": "You have advantage on saving throws against effects that grant the slowed condition and you have resistance against cold damage (explained in chapter 9)."
+    },
+    {
+      "name": "Musical",
+      "description": "You have proficiency in one musical instrument of your choice."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, Mon Cal, and one language of your choice."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "charisma"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence",
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Large, goggle-like eyes, high-domed heads, webbed hands",
+    "skinColorOptions": "Reddish brown, brown, red, cyan, mottle, salmon, gold, blue, grey, or white",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Yellow, orange, blue, or gray"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_moncalamari.png"
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

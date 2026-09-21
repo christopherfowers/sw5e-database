@@ -1,0 +1,9 @@
+{
+  "key": "species-nikto-radiation-resistant",
+  "name": "Radiation Resistant",
+  "grantedBy": "species",
+  "grantedByName": "Nikto",
+  "description": "The dying star nearby their homeworld makes nikto naturally used to radiation. You have resistance to necrotic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

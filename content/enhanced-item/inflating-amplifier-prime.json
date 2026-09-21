@@ -1,0 +1,11 @@
+{
+  "key": "inflating-amplifier-prime",
+  "name": "Inflating Amplifier (Prime)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the inflating 30 property. If it already has the inflating property, its inflating number increases to 30."
+}

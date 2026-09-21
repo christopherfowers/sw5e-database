@@ -1,0 +1,18 @@
+{
+  "key": "destroy-droid",
+  "name": "Destroy Droid",
+  "powerType": "force",
+  "level": 7,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet (30-foot cube)",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Disable Droid",
+  "description": "Choose a point that you can see within range. Each droid or construct must succeed on a Constitution saving throw or be paralyzed for the duration. At the beginning of each of its turns, an affected target takes energy damage equal to twice your forcecasting ability modifier and then repeats this saving throw. On a success, the power ends on the target.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

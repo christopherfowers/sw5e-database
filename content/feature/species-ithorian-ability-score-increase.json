@@ -1,0 +1,9 @@
+{
+  "key": "species-ithorian-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Ithorian",
+  "description": "Your Charisma score increases by 2, and your Wisdom score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

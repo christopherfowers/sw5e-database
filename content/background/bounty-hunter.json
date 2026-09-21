@@ -1,0 +1,168 @@
+{
+  "key": "bounty-hunter",
+  "name": "Bounty Hunter",
+  "lore": "Before you became an adventurer, your life was already full of conflict and excitement, because you made a living tracking down people for pay. Unlike some people who collect bounties, though, you aren't a savage who follows quarry into or through the wilderness. You're involved in a lucrative trade, in the place where you live, that routinely tests your skills and survival instincts. What's more, you aren't alone, as a bounty hunter in the wild would be: you routinely interact with both the criminal subculture and other bounty hunters, maintaining contacts in both areas to help you succeed.\n\nYou might be a cunning thief-catcher, prowling the rooftops to catch one of the myriad burglars of the city. Perhaps you are someone who has your ear to the street, aware of the doings of street gangs. You might be a \"velvet mask\" bounty hunter, one who blends in with high society and noble circles in order to catch the criminals that prey on the rich, whether pickpockets or con artists. As a member of an adventuring party, you might find it more difficult to pursue a personal agenda that doesn't fit with the group's objectives - but on the other hand, you can take down much more formidable targets with the help of your companions.",
+  "skillProficiencies": "Choose two from Deception, Insight, Persuasion, and Stealth",
+  "toolProficiencies": "Your choice of demolitions kit, security kit, or slicer's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of clothes appropriate to your duties, a set of binders, and a pouch containing 200 cr",
+  "feature": {
+    "name": "Ear to the Ground",
+    "description": "You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area."
+  },
+  "suggestedCharacteristics": "Your bond might involve other bounty hunters or the organizations or individuals that employ you. Your ideal could be associated with your determination always to catch your quarry or your desire to maintain your reputation for being dependable.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I always have a plan for what to do when things go wrong."
+    },
+    {
+      "roll": 2,
+      "description": "I am always calm, no matter what the situation. I never raise my voice or let my emotions control me."
+    },
+    {
+      "roll": 3,
+      "description": "The first thing I do in a new place is note the locations of everything valuable — or where such things could be hidden."
+    },
+    {
+      "roll": 4,
+      "description": "I would rather make a new friend than a new enemy."
+    },
+    {
+      "roll": 5,
+      "description": "I am incredibly slow to trust. Those who seem the fairest often have the most to hide."
+    },
+    {
+      "roll": 6,
+      "description": "I don't pay attention to the risks in a situation. Never tell me the odds."
+    },
+    {
+      "roll": 7,
+      "description": "The best way to get me to do something is to tell me I can't do it."
+    },
+    {
+      "roll": 8,
+      "description": "I blow up at the slightest insult."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Honor",
+      "description": "I don't steal from others in the trade. (Lawful)"
+    },
+    {
+      "roll": 2,
+      "name": "Freedom",
+      "description": "Chains are meant to be broken, as are those who would forge them. (Chaotic)"
+    },
+    {
+      "roll": 3,
+      "name": "Charity",
+      "description": "I steal from the wealthy so that I can help people in need. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Greed",
+      "description": "I will do whatever it takes to become wealthy. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "People",
+      "description": "I'm loyal to my friends, not to any ideals, and everyone else can jog on for all I care. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Redemption",
+      "description": "There's a spark of good in everyone. (Light)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I'm trying to pay off an old debt I owe to a generous benefactor."
+    },
+    {
+      "roll": 2,
+      "description": "My ill-gotten gains go to support my family."
+    },
+    {
+      "roll": 3,
+      "description": "Something important was taken from me, and I aim to steal it back."
+    },
+    {
+      "roll": 4,
+      "description": "I will become the greatest thief that ever lived."
+    },
+    {
+      "roll": 5,
+      "description": "I'm guilty of a terrible crime. I hope I can redeem myself for it."
+    },
+    {
+      "roll": 6,
+      "description": "Someone I loved died because of a mistake I made. That will never happen again."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "When I see something valuable, I can't think about anything but how to steal it."
+    },
+    {
+      "roll": 2,
+      "description": "When faced with a choice between money and my friends, I usually choose the money."
+    },
+    {
+      "roll": 3,
+      "description": "If there's a plan, I'll forget it. If I don't forget it, I'll ignore it."
+    },
+    {
+      "roll": 4,
+      "description": "I have a \"tell\" that reveals when I'm lying."
+    },
+    {
+      "roll": 5,
+      "description": "I turn tail and run when things look bad."
+    },
+    {
+      "roll": 6,
+      "description": "An innocent person is in prison for a crime that I committed. I'm okay with that."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Silver-Tongued"
+    },
+    {
+      "roll": 2,
+      "name": "Empathic"
+    },
+    {
+      "roll": 3,
+      "name": "Charmer"
+    },
+    {
+      "roll": 4,
+      "name": "Stealthy"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Alert"
+    },
+    {
+      "roll": 8,
+      "name": "Athlete"
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

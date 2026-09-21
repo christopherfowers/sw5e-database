@@ -1,0 +1,21 @@
+{
+  "key": "lightblade",
+  "name": "Lightblade",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 1.5,
+  "properties": [
+    "finesse",
+    "hidden",
+    "luminous"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "neutronium-mesh",
+  "name": "Neutronium mesh",
+  "category": "armor",
+  "costInCredits": 2500,
+  "weight": 20.0,
+  "properties": [
+    "insulated 5",
+    "strength 11"
+  ],
+  "armorClassification": "medium",
+  "armorClass": "13 + Dex modifier (max 2)",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

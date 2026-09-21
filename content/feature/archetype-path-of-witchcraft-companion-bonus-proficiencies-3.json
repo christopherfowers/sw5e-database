@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-witchcraft-companion-bonus-proficiencies-3",
+  "name": "Bonus Proficiencies",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Witchcraft (Companion)",
+  "level": 3,
+  "description": "_**Path of Witchcraft:** 3rd level_\nYou gain proficiency in Animal Handling.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

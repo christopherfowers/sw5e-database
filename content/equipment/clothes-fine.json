@@ -1,0 +1,10 @@
+{
+  "key": "clothes-fine",
+  "name": "Clothes, fine",
+  "category": "clothing",
+  "costInCredits": 150,
+  "weight": 6.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

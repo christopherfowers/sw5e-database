@@ -1,0 +1,9 @@
+{
+  "key": "species-shistavanen-keen-hearing-and-smell",
+  "name": "Keen Hearing and Smell",
+  "grantedBy": "species",
+  "grantedByName": "Shistavanen",
+  "description": "You have advantage on Wisdom (Perception) checks that involve hearing or smell.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

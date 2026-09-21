@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/reference-table/v1.json",
+  "title": "Reference table",
+  "description": "One of the standalone lookup tables the rules refer to by name: ability score point costs, experience by level, hyperspace travel times, starship capacities by hull size. These are not catalogue rows and not chapters — each is a single table a reader jumps to mid-session, reads one row of, and leaves.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["key", "name", "contentSet", "body"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this table, derived from its printed caption."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The table's caption, as the rules text cites it: \"XP and PB by Level\", \"Starship Size Fuel Capacity\"."
+    },
+    "contentSet": {
+      "enum": ["core", "expanded-content"],
+      "description": "Whether this table belongs to the core rules or to the community expanded-content supplement. Every archived reference table is core."
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The table as markdown, occasionally preceded or followed by the sentence that qualifies it. Kept as markdown rather than shredded into columns and rows because the archived tables disagree about their own shape: some carry an alignment row, some have an empty header, and two have merged captions. Parsing them into a grid would need a repair pass per table and would gain nothing a reader can see."
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What the table is about, used to group thirty-odd tables into a browsable list: \"Starships\", \"Character creation\", \"Downtime\". Derived from the caption on import rather than archived, which is why it is optional — a table whose caption names no recognised subject simply has none."
+    }
+  }
+}

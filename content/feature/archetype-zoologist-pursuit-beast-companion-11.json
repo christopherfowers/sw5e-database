@@ -1,0 +1,10 @@
+{
+  "key": "archetype-zoologist-pursuit-beast-companion-11",
+  "name": "Beast Companion",
+  "grantedBy": "archetype",
+  "grantedByName": "Zoologist Pursuit",
+  "level": 11,
+  "description": "_**Zoologist Pursuit:** 3rd, 11th, and 17th level_\nYou learn to employ all the knowledge you've accumulated to forge a powerful bond with your own beast companion.\nCreate your beast companion as detailed in the Companions section of the Customization Options document for Expanded Content.\nIn addition to its traits and features, your beast companion gains additional benefits while it is bonded to you:\n- Your beast gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each beast trait in excess of your proficiency bonus, your number of available Hit Dice that can be spend to restore hit points is reduced by 1.\nLastly, while bonded and within 10 feet of you, your beast companion gains a bonus to ability checks, armor class, attack rolls, damage rolls, and saving throws equal to half your Critical Analysis ability modifer (minimum of +1).\nThis radius increases to 30 feet at 11th level, and 60 feet at 17th level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

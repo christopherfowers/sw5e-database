@@ -1,0 +1,26 @@
+{
+  "key": "turbolaser-battery",
+  "name": "Turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4000,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "constitution 11",
+    "overheat 4"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 1000,
+    "long": 4000
+  }
+}

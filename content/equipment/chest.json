@@ -1,0 +1,11 @@
+{
+  "key": "chest",
+  "name": "Chest",
+  "category": "storage",
+  "costInCredits": 50,
+  "weight": 25.0,
+  "description": "A chest stores 300 lb., not exceeding 12 cubic feet.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

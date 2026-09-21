@@ -1,0 +1,15 @@
+{
+  "key": "bone-light-shield",
+  "name": "Bone light shield",
+  "category": "armor",
+  "costInCredits": 300,
+  "weight": 0.0,
+  "properties": [
+    "spiked (1d4)"
+  ],
+  "armorClassification": "shield",
+  "armorClass": "+0",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

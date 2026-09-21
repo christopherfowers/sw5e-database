@@ -1,0 +1,18 @@
+{
+  "key": "drain-life",
+  "name": "Drain Life",
+  "powerType": "force",
+  "level": 4,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "prerequisite": "Drain Vitality",
+  "description": "You draw the life force from a creature you can see within range. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature to 0, you gain temporary hit points equal to half the damage dealt. This power has no effect on droids or constructs.\n\n***Force Potency.*** When you cast this power using a force slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

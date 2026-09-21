@@ -1,0 +1,23 @@
+{
+  "key": "shatter-rifle",
+  "name": "Shatter rifle",
+  "category": "weapon",
+  "costInCredits": 750,
+  "weight": 9.5,
+  "properties": [
+    "slug cartridge (range 100/400)",
+    "reload 8",
+    "silent",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

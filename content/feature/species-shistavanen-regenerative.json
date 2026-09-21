@@ -1,0 +1,9 @@
+{
+  "key": "species-shistavanen-regenerative",
+  "name": "Regenerative",
+  "grantedBy": "species",
+  "grantedByName": "Shistavanen",
+  "description": "When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

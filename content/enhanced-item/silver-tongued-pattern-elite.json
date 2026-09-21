@@ -1,0 +1,11 @@
+{
+  "key": "silver-tongued-pattern-elite",
+  "name": "Silver-Tongued Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Deception increases by five steps (to high mastery or from trained to grand mastery)."
+}

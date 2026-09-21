@@ -1,0 +1,17 @@
+{
+  "key": "jump",
+  "name": "Jump",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "1 minute",
+  "concentration": false,
+  "description": "You touch a creature. The creature's jump distance is tripled until the power ends.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

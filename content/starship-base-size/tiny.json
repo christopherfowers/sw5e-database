@@ -1,0 +1,233 @@
+{
+  "key": "tiny",
+  "name": "Tiny",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "lore": "As the droid fighter ducked and weaved through flying\nblaster bolts and dodged the occasional flak, its optical sensors continued to become more and more occluded as they accumulated a dark haze of dust and smoke.  Switching to active radar systems, the droid continued to relentlessly pursue its target: the fleeing Jedi and its small padawn that was barely larger than a youngling. Not that it mattered.  Whether either target continued to draw breath a few seconds from now didn't really matter to the droid.  Of course, that cessation was its goal, but it didn't really care about that goal...it's just what it was doing.  What it had to do.  But not exactly what it *wanted* to do.  The droid passed power from its fully charged weapon's capacitors into its guns, which blazed to life and spewed plasma towards the small child's back.  It was a perfect shot.  How could it not be.  That's what it did.  Then the Jedi's own plasma weapon flared as it darted across the youngling's back, deflecting the droid's blasts directly back at it.  Of course, *that* is what *Jedi's* did.  And as the bolts tore through the droid ship's hull, into its main computer banks, across its power banks and out its engines, the droid's final computations let it know that it was plummeting to the earth at terminal velocity.  It's just what it was doing.  What it now had to do.  But not exactly what it *wanted* to do.\n\nThe small drone slips silently past the blockade, scanning the defensive formations as it goes.  The only chance to save the people on embattled Neth-Feeno was to coordinate a supply drop with them.  This little, remote-controlled stealth ship was their only hope.  It had to reach the surface to get the plan and maps through.  Then it had to return with a full readout of the defenses.  Only then could a distracting assault be planned to cover the air drop.  As the tiny craft floated past the final sensor pod mounted right next to the final turret canon, the monitoring crew let out a sigh, and wiped sweat from their brows.  As their screens, already more static than signal, winked out as the craft's transmissions were cut-off as it passed completely into the black-out zone, the team leader turned to his squad and said, \"May the force be with us today.\"\n\nOne thing all Tiny starships have in common is that they are unmanned. Sometimes they are controlled remotely, but more often they are controlled by droids.",
+  "abilityScoreAdjustments": [
+    {
+      "ability": "dexterity",
+      "modifier": 4
+    },
+    {
+      "ability": "constitution",
+      "modifier": -4
+    }
+  ],
+  "hull": {
+    "diceAtTier0": {
+      "number": 1,
+      "faces": 4
+    },
+    "firstDiePoints": "4 + your ship's Constitution modifier",
+    "subsequentDiePoints": "1d4 (or 3) + your ship's Constitution modifier per Hull Die after 1st"
+  },
+  "shields": {
+    "diceAtTier0": {
+      "number": 1,
+      "faces": 4
+    },
+    "firstDiePoints": "4 + your ship's Strength modifier",
+    "subsequentDiePoints": "1d4 (or 3) + your ship's Strength modifier per Shield Die after 1st"
+  },
+  "modifications": {
+    "baseModificationSlots": 10,
+    "stockModifications": "Your choice of Droid Brain, Makeshift or Remote Override, Makeshift."
+  },
+  "savingThrows": "Dexterity, Intelligence",
+  "tierProgression": {
+    "dieName": "Swarm Tactics Die",
+    "tiers": [
+      {
+        "tier": 0,
+        "features": [
+          "Role"
+        ],
+        "hullAndShieldDice": "1d4",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 1,
+        "features": [
+          "Swarm Tactics",
+          "Ability Score Increase"
+        ],
+        "die": "d4",
+        "hullAndShieldDice": "2d4",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 2,
+        "features": [
+          "Role Specialization",
+          "Uncanny Dodge",
+          "Ability Score Increase"
+        ],
+        "die": "d6",
+        "hullAndShieldDice": "3d4",
+        "armorClassBonus": 1
+      },
+      {
+        "tier": 3,
+        "features": [
+          "Evasion",
+          "Swarm Defense",
+          "Ability Score Increase"
+        ],
+        "die": "d8",
+        "hullAndShieldDice": "4d4",
+        "armorClassBonus": 2
+      },
+      {
+        "tier": 4,
+        "features": [
+          "Role Mastery",
+          "Elusive Target",
+          "Ability Score Increase"
+        ],
+        "die": "d10",
+        "hullAndShieldDice": "5d4",
+        "armorClassBonus": 3
+      },
+      {
+        "tier": 5,
+        "features": [
+          "Paragon Swarmer",
+          "Keen Accuracy",
+          "Ability Score Increase"
+        ],
+        "die": "d12",
+        "hullAndShieldDice": "6d4",
+        "armorClassBonus": 4
+      }
+    ]
+  },
+  "roles": [
+    {
+      "name": "Droid",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "intelligence",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Distributed",
+      "speed": 450,
+      "turning": 200
+    },
+    {
+      "name": "Munition",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Direct",
+      "speed": 450,
+      "turning": 200
+    },
+    {
+      "name": "Predator",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        }
+      ],
+      "armor": "Lightweight",
+      "reactor": "Ionization",
+      "powerCoupling": "Direct",
+      "speed": 350,
+      "turning": 100
+    },
+    {
+      "name": "Probe",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Lightweight",
+      "reactor": "Ionization",
+      "powerCoupling": "Direct",
+      "speed": 400,
+      "turning": 150
+    },
+    {
+      "name": "Satellite",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "charisma",
+          "modifier": 1
+        }
+      ],
+      "armor": "Lightweight",
+      "reactor": "Ionization",
+      "powerCoupling": "Direct",
+      "speed": 400,
+      "turning": 150
+    },
+    {
+      "name": "Worker",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Direct",
+      "speed": 350,
+      "turning": 100
+    }
+  ],
+  "features": [
+    {
+      "name": "Starship Improvements",
+      "description": "Beginning when your ship reaches 1st tier, it gains the following benefits:\n\n#### Ability Score Improvement\nAt first tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Dexterity above 20, or your Dexterity above 24, with this feature.\n\n#### Additional Hull and Shield Dice\nYour ship gains 1 additional Hull Die and one additional Shield Die. It gains 1 additional Hull Die and one additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).\n\n#### ARMOR CLASS UPGRADE\nBeginning at second Tier, your ship's armor class improves, giving your ship a +1 to its AC. It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
+    },
+    {
+      "name": "Swarm Tactics",
+      "description": "Also at 1st tier, your starship is most effective when working in groups.\n\nYour ship makes the most of every opportunity provided by allies. When a crewmember at the helm would make an attack roll against a larger ship, and there is an allied ship within 200 feet of your target, they can roll a Swarm Tactics die, which is a d4, and add it to the attack roll. You can do this after the roll is made, but before the result is known.\n\nYour ship's Swarm Tactics die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier and a d12 at 5th tier.\n\nThis feature can be used a number of times equal to 2 x your ship's tier. All expended uses are regained when the ship is refitted."
+    },
+    {
+      "name": "Role Specialization",
+      "description": "At 2nd tier, you adopt a particular style of design for your ship. Choose any one from the following:\n\n#### Droid\nYour ship gains the Droid Brain, Makeshift and Droid Brain, Mk I modifications at no cost.\n\nAdditionally, on your ship's turn, it can take one additional action on top of its regular actions.  Once this feature has been used, your ship must recharge before it can use it again.\n\n#### Munition\nYour ship gains the Hardened Prow modification at no cost.\n\nAdditionally, when you deal damage on a ram, the damage you inflict on other ships increases by +2 per hull die of your ship.\n\n#### Predator\nOnce per turn, your ship can deal an extra 1d6 damage to one ship it hits with a primary weapon if your ship has advantage on the attack roll. This damage is the same as the weapon’s damage, and the attack must use a weapon without a constitution requirement.\n\nYour ship doesn’t need advantage on the attack roll if another enemy of the target is within 50 feet of it, that enemy isn’t disabled, and your ship doesn’t have disadvantage on the attack roll\n\n#### Probe\nYour ship gains the Scanner, Mk I modification at no cost.\n\nAdditionally, when your ship attacks a ship or creature it can’t see, its inability to see it doesn’t impose disadvantage on its attack rolls against it.\n\n#### Satellite\nYour ship gains the Comms Package, Mk I modification at no cost.\n\nAdditionally, you can take the Interfere action as a bonus action.\n\n#### Worker\nYour ship gains the Tractor Beam modification at no cost.\n\nAdditionally, your ship is treated as a medium ship for purposes of this modification."
+    },
+    {
+      "name": "Nimble Aerobatics",
+      "description": "Also at 2nd tier, your ship is so nimble that it can ignore unenhanced difficult terrain, and when it you would use an action to break free of an effect that is tractoring or otherwise restraining your ship, you can instead use a bonus action."
+    },
+    {
+      "name": "Uncanny Dodge",
+      "description": "At 3rd tier, your ship's agility lets it dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "Swarm Defense",
+      "description": "Also at 3rd tier, your ship further benefits from being surrounded by allies. Your ship gains a bonus its to AC equal to number of allied ships within 100 feet of it. The bonus has a maximum value equal to your ship's tier (rounded up)."
+    },
+    {
+      "name": "Role Specialization",
+      "description": "At 4th tier, you master a particular style of design for your ship. Choose any one from the following.\n\n#### Droid\nYour ship gains the Droid Brain, Mk II modification at no cost.\n\nAdditionally, your ship can take a second reaction each round. It can only take one reaction per turn.\n\n#### Munition\nYour ship gains the Self-Destruct Mechanism modification at no cost.\n\nAdditionally, when you deal damage upon self-destruction, the damage you inflict on other ships increases by +2 per hull die of your ship.\n\n#### Predator\nYour ship deals 1d6 additional damage when it scores a critical hit with an attack.\n\n#### Probe\nYour ship gains the Stealth Device modification at no cost.\n\nAdditionally, when your ship attempts to conceal on its turn, it can opt to not move on that turn causing creatures that attempt to detect your ship to take a -10 penalty to their Wisdom (Scan) checks until the start of your ship's next turn. Your ship loses this benefit if it moves, either voluntarily or because of some external effect.\n\n#### Satellite\nYour ship gains the Electromagnetic Scrambler, Mk I and Electromagnetic Scrambler, Mk II modifications at no cost.\n\nAdditionally, the range of these modifications is 1200 feet.\n\n#### Worker\nYour ship gains the Tractor Beam Heavy Capacitors modification at no cost.\n\nAdditionally, your ship is treated as a medium ship for purposes of this modification."
+    },
+    {
+      "name": "Elusive Target",
+      "description": "Also at 4th tier, the size and agility of your ship makes it easy to avoid attacks. No primary weapon attacks made against your ship can benefit from advantage while your ship is not disabled."
+    },
+    {
+      "name": "Paragon Swarmer",
+      "description": "As of 5th Tier, your starship is the best in its class. Choose from the following:\n\n#### Droid\nYour ship’s Intelligence score increases by 2. It’s maximum for this score increases by 2.\n\n#### Munition\nYour ship’s Constitution score increases by 2. It’s maximum for this score increases by 2.\n\n#### Predator\nYour ship’s Dexterity score increases by 2. It’s maximum for this score increases by 2.\n\n#### Probe\nYour ship’s Wisdom score increases by 2. It’s maximum for this score increases by 2.\n\n#### Satellite\nYour ship’s Charisma score increases by 2. It’s maximum for this score increases by 2.\n\n#### Worker\nYour ship’s Strength score increases by 2. It’s maximum for this score increases by 2."
+    },
+    {
+      "name": "Keen Accuracy",
+      "description": "At 5th tier, the critical hit range of your ship's weapons increases by 1."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-the-sage-blessed-healer-10",
+  "name": "Blessed Healer",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of the Sage",
+  "level": 10,
+  "description": "_**Way of the Sage:** 10th level_\nThe healing powers you cast on others heal you as well. When you cast a force power that restores hit points to a creature other than you, you regain hit points equal to 2 + the power's level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

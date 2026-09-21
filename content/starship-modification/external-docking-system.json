@@ -1,0 +1,9 @@
+{
+  "key": "external-docking-system",
+  "name": "External Docking System",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "Your ship is equipped with an airlock and couplers\ndesigned to attach and connect to one ship of a size one category smaller than your ship. As an\naction, a crewmember can engage or disengage the\nexternal docking system. While a ship is coupled to\nyour ship, the ships can share primary systems as\nappropriate, and creatures can transfer between ships\nreadily. If at least one external docking system is occupied\nby at least one ship, your ship’s flying speed decreases\nby 50 feet (to a minimum of 50 feet), its turning speed\nincreases by 50 feet, and its hyperdrive is considered\none class greater (to a maximum of Class 20) for\ndetermining travel time in hyperspace.\nAlternatively, this suite can accommodate multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also substitute a Huge or Gargantuan droid/construct for a Tiny or Small ship, respectively."
+}

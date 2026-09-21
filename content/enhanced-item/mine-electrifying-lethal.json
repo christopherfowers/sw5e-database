@@ -1,0 +1,11 @@
+{
+  "key": "mine-electrifying-lethal",
+  "name": "Mine, Electrifying (Lethal)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "explosive",
+  "description": "Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 22 Dexterity saving throw. A creature takes 10d6 lightning damage on a failed save, or half as much as on a successful one.\n\nAdditionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
+}

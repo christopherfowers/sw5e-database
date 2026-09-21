@@ -1,0 +1,11 @@
+{
+  "key": "administer-aid-greater",
+  "name": "Administer Aid (Greater)",
+  "maneuverType": "mental",
+  "superiorityDice": 0,
+  "prerequisite": "Administer Aid (Improved) maneuver",
+  "improves": "Administer Aid",
+  "description": "You can use your Administer Aid maneuver as an action, bonus action, or reaction on your turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

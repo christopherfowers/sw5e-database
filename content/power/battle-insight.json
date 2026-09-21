@@ -1,0 +1,17 @@
+{
+  "key": "battle-insight",
+  "name": "Battle Insight",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "30 feet",
+  "duration": "up to 1 round",
+  "concentration": true,
+  "description": "You center your focus on a target within range. Through the Force, you gain a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this power hasn't ended.\n\nThis power benefits additional attacks at higher levels: two attacks at 5th level, three attacks at 11th level, and four attacks at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

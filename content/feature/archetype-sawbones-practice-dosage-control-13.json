@@ -1,0 +1,10 @@
+{
+  "key": "archetype-sawbones-practice-dosage-control-13",
+  "name": "Dosage Control",
+  "grantedBy": "archetype",
+  "grantedByName": "Sawbones Practice",
+  "level": 13,
+  "description": "_**Sawbones Practice:** 13th level_\nYour knowledge of medicine allows you to partition and ration healing supplies very effectively, without impacting its potency. Over the course of 1 hour, which can be done during a rest, you can carefully measure and mark out dosages of a medpac within reach. The medpac can now be used twice before it is consumed.\nAt your DM's discretion, you may be able to use this feature on other pacs, stims, or adrenals, most likely involving an ability check to succeed.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/resource/v1.json",
+  "title": "Resource",
+  "description": "A file the site hosts for people to download: a character sheet, a form to fill in, a reference to print. This describes the file. The file itself sits beside it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "name",
+    "file",
+    "order"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this resource."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "What the resource is called on the shelf."
+    },
+    "blurb": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One line telling a reader what this is, so they can decide whether they want it. Leave it blank and the tile just shows the name."
+    },
+    "file": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*\\.pdf$",
+      "description": "The file's own name, which is also the address it is served from. PDFs only."
+    },
+    "pages": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "How many pages the file has, so a reader knows what they are downloading before they download it."
+    },
+    "fillable": {
+      "type": "boolean",
+      "default": false,
+      "description": "Tick this when the file has boxes a reader can type into, rather than blanks to print and write on. Two sheets can be otherwise identical, so the site cannot work this out from the name."
+    },
+    "sanitized": {
+      "type": "boolean",
+      "default": false,
+      "description": "Tick this when the file here is a rebuilt copy rather than the original. The site tells readers so, because a file that has been altered should not be presented as the author's untouched work."
+    },
+    "removed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "What the rebuild took out, in words a reader will understand. Only used when the file is marked as rebuilt. Leaving it empty says the file was rebuilt and had nothing active in it."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Where this sits on the shelf. Number them 1, 2, 3 and so on with no repeats, so the order cannot change on its own."
+    },
+    "accent": {
+      "type": "string",
+      "enum": [
+        "amber",
+        "clay",
+        "cyan",
+        "green",
+        "indigo",
+        "red",
+        "rose",
+        "steel",
+        "teal",
+        "violet"
+      ],
+      "description": "The hue it is drawn in, matching the palette a book may use."
+    },
+    "credit": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Who made it. These are somebody's work, re-hosted with permission, and the site should say whose."
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Where the file came from, so nobody has to remember later."
+    }
+  }
+}

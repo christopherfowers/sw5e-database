@@ -1,0 +1,12 @@
+{
+  "key": "drallig-form",
+  "name": "Drallig Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Until the start of your next turn, you gain a special reaction. When a creature enters your reach or moves while within your reach, you can use this special reaction to leap to an unoccupied space you can see within 10 feet without provoking opportunity attacks from that creature."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

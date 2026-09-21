@@ -1,0 +1,9 @@
+{
+  "key": "species-kubaz-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kubaz",
+  "description": "Kubaz typically stand 5 to 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

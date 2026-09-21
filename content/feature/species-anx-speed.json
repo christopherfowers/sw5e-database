@@ -1,0 +1,9 @@
+{
+  "key": "species-anx-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Anx",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,21 @@
+{
+  "key": "wristrifle",
+  "name": "Wristrifle",
+  "category": "weapon",
+  "costInCredits": 250,
+  "weight": 4.5,
+  "properties": [
+    "power cell (range 60/240)",
+    "fixed",
+    "reload 12"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

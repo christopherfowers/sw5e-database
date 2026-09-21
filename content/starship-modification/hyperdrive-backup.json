@@ -1,0 +1,16 @@
+{
+  "key": "hyperdrive-backup",
+  "name": "Hyperdrive, Backup",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Hyperdrive Slot",
+      "modificationName": "Hyperdrive Slot"
+    }
+  ],
+  "description": "This modification adds a backup hyperdrive slot on your ship and includes a class 15 hyperdrive. A crewmember can switch to or from the backup hyperdrive as an action."
+}

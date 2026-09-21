@@ -1,0 +1,9 @@
+{
+  "key": "species-togorian-stealthy-hunter",
+  "name": "Stealthy Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Togorian",
+  "description": "You have proficiency in the Survival and Stealth skills.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

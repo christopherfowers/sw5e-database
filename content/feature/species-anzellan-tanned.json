@@ -1,0 +1,9 @@
+{
+  "key": "species-anzellan-tanned",
+  "name": "Tanned",
+  "grantedBy": "species",
+  "grantedByName": "Anzellan",
+  "description": "You are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

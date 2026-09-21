@@ -1,0 +1,9 @@
+{
+  "key": "tuned-weapons",
+  "name": "Tuned Weapons",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You tune your weapon output to allow a crewmember to take the Boost Weapons action as a bonus action on their turn."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "scanner-mk-i",
+  "name": "Scanner, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 1,
+  "description": "***Modification Grade*** 1\nThis system augments the native radar scanner on your ship.\nYour ship gains blindsight out to 1,000 feet.\nAdditionally, your ship is proficiently equipped for Intelligence (Probe) and Wisdom (Scan) checks."
+}

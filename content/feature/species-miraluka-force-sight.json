@@ -1,0 +1,9 @@
+{
+  "key": "species-miraluka-force-sight",
+  "name": "Force Sight",
+  "grantedBy": "species",
+  "grantedByName": "Miraluka",
+  "description": "Miraluka perceive the environment around them through use of the Force. You are constantly under the effects of the force power *force sight*, though the power does not require concentration for you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

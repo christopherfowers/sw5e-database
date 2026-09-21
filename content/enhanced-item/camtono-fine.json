@@ -1,0 +1,10 @@
+{
+  "key": "camtono-fine",
+  "name": "Camtono (Fine)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "description": "A camtono is a secured, handle container used for transporting valuable goods. A camtono comes with one key. Without the key, unlocking the camtono requires a DC 18 security kit to force open. It stores 6 lb., not exceeding 1/4 cubic foot, has an AC of 11, and 30 hit points. Destroying the camtono risks damaging any goods stored inside."
+}

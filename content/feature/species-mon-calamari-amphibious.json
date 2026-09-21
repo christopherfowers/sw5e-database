@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-amphibious",
+  "name": "Amphibious",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "You can breathe air and water.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

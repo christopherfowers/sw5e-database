@@ -1,0 +1,11 @@
+{
+  "key": "interfaced-tracking-protocol",
+  "name": "Interfaced Tracking Protocol",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "description": "While you are interfaced via the *tracker droid interface* tech power, when your handler makes a Wisdom (Survival) check to track a target, and you are also tracking that target, your handler gains advantage on the check. If they already have advantage, they can instead reroll one of the dice once."
+}

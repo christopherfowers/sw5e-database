@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-ii-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class II",
+  "description": "Droids don't age, though they require maintenance to retain functionality.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

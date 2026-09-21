@@ -1,0 +1,24 @@
+{
+  "key": "energy-slingshot",
+  "name": "Energy slingshot",
+  "category": "weapon",
+  "costInCredits": 425,
+  "weight": 4.0,
+  "properties": [
+    "power cell (range 20/80)",
+    "disruptive",
+    "fixed",
+    "mighty",
+    "reload 20",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

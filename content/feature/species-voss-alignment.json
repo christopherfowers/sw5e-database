@@ -1,0 +1,9 @@
+{
+  "key": "species-voss-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Voss",
+  "description": "As Voss culture encourages duty and emotional composure, individuals tend toward a lawful alignment, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

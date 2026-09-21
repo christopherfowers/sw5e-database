@@ -1,0 +1,24 @@
+{
+  "key": "radrifle",
+  "name": "Radrifle",
+  "category": "weapon",
+  "costInCredits": 1575,
+  "weight": 14.0,
+  "properties": [
+    "disintegrate 15",
+    "power cell (range 120/480)",
+    "reload 8",
+    "specialized (disintegrate)",
+    "strength 13",
+    "two-handed"
+  ],
+  "weaponClassification": "exoticBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "necrotic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

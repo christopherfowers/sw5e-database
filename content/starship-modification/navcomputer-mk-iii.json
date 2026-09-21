@@ -1,0 +1,16 @@
+{
+  "key": "navcomputer-mk-iii",
+  "name": "Navcomputer, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Navcomputer, Mk II",
+      "modificationName": "Navcomputer, Mk II"
+    }
+  ],
+  "description": "This modification further improves the navcomputer on your ship.  Your ship has advantage on Intelligence (Astrogation) checks."
+}

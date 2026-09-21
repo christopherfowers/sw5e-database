@@ -1,0 +1,9 @@
+{
+  "key": "species-echani-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Echani",
+  "description": "You can speak, read, and write Galactic Basic and one extra language of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

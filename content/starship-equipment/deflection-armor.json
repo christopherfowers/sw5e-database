@@ -1,0 +1,13 @@
+{
+  "key": "deflection-armor",
+  "name": "Deflection armor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "armor",
+  "costInCredits": 3450,
+  "armor": {
+    "armorClass": "10 + Dex modifier (max 2)",
+    "damageReduction": 3,
+    "stealthDisadvantage": false
+  }
+}

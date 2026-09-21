@@ -1,0 +1,11 @@
+{
+  "key": "impermeable-inlay-champion",
+  "name": "Impermeable Inlay (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the impermeable 9 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases to 9."
+}

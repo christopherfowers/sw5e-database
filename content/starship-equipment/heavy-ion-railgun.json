@@ -1,0 +1,27 @@
+{
+  "key": "heavy-ion-railgun",
+  "name": "Heavy ion railgun",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 5700,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "constitution 19",
+    "ionizing",
+    "overheat 4"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 10,
+    "type": "ion"
+  },
+  "range": {
+    "normal": 2000,
+    "long": 8000
+  }
+}

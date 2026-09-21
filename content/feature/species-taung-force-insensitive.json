@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-force-insensitive",
+  "name": "Force Insensitive",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "While taung can be manipulated by the force, they cannot sense the Force. You can not use force powers or take levels in forcecasting classes.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

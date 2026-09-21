@@ -1,0 +1,9 @@
+{
+  "key": "species-ardennian-mask-of-the-wild",
+  "name": "Mask of the Wild",
+  "grantedBy": "species",
+  "grantedByName": "Ardennian",
+  "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

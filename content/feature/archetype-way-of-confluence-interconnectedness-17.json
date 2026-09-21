@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-confluence-interconnectedness-17",
+  "name": "Interconnectedness",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of Confluence",
+  "level": 17,
+  "description": "_**Way of Confluence:** 14th and 17th level_\nWhen you cast a 5th level or lower force power that deals damage or restores hit points and targets only one creature, the power can instead target two creatures within range and within 5 feet of each other.\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you finish a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

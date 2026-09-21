@@ -1,0 +1,10 @@
+{
+  "key": "security-kit",
+  "name": "Security kit",
+  "category": "kit",
+  "costInCredits": 650,
+  "weight": 3.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

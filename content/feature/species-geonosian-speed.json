@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

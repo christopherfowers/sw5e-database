@@ -1,0 +1,11 @@
+{
+  "key": "heavy-cell",
+  "name": "Heavy Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the heavy property."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "focus-generator-chassis-artifact",
+  "name": "Focus Generator Chassis (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "force",
+  "description": "_**Requires attunement**_\nThis modifiable focus generator chassis comes with vacant modification slots for focus generator modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+}

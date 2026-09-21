@@ -1,0 +1,9 @@
+{
+  "key": "species-aqualish-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Aqualish",
+  "description": "Aqualish stand between 6 and 7 feet tall and weigh around 190 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

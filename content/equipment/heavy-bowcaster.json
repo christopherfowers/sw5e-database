@@ -1,0 +1,23 @@
+{
+  "key": "heavy-bowcaster",
+  "name": "Heavy bowcaster",
+  "category": "weapon",
+  "costInCredits": 1750,
+  "weight": 15.5,
+  "properties": [
+    "burst 2",
+    "power cell (range 90/360)",
+    "reload 4",
+    "strength 17",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

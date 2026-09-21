@@ -1,0 +1,11 @@
+{
+  "key": "handwraps-basic",
+  "name": "Handwraps (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "hands",
+  "description": "While wearing these handwraps, you have a +1 bonus to damage rolls made with your unarmed strikes."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-hutt-adolescent-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Hutt, Adolescent",
+  "description": "Hutts are considered a child until around the age of 200 in which they are a full fledged adult.  Hutts can live upwards of 900 years with even more ancient ones exceeding that.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

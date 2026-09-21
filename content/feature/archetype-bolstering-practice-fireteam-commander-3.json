@@ -1,0 +1,10 @@
+{
+  "key": "archetype-bolstering-practice-fireteam-commander-3",
+  "name": "Fireteam Commander",
+  "grantedBy": "archetype",
+  "grantedByName": "Bolstering Practice",
+  "level": 3,
+  "description": "_**Bolstering Practice:** 3rd level_\nYou learn a number of squad maneuvers you can use to assist allies or exploit enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a squad maneuver.\n#### Fortifying Strike\nYou inspire a friendly creature within 60 feet of you who can see or hear you and roll two Sneak Attack dice. That ally immediately gains temporary hit points equal to the amount of rolled.\n#### Reaffirming Strike\nYou use the authority your attacks carry to help your ally focus on the task at hand. Choose a creature within 60 feet of you who can see or hear you and that is currently charmed or frightened by the creature you would deal Sneak Attack damage to. The condition immediately ends on that creature.\n#### Bolstering Strike\nYou choose a friendly creature within 60 feet of you who can see or hear you. Once before the start of your next turn, if that creature hits the creature against which you forwent two Sneak Attack damage dice, they deal additional damage to the target equal to the maximum of the two Sneak Attack dice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

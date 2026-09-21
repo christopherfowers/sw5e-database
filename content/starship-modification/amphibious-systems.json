@@ -1,0 +1,9 @@
+{
+  "key": "amphibious-systems",
+  "name": "Amphibious Systems",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "This modification allows your ship and all of its systems (including weapons) to function underwater.  Your ship gains a swimming speed equal to half of its normal speed."
+}

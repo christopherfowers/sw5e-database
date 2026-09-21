@@ -1,0 +1,12 @@
+{
+  "key": "rapid-core-champion",
+  "name": "Rapid Core (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "prerequisite": "Blaster that uses cells or cartridges",
+  "description": "This weapon gains the rapid property, with a rapid number equal to one-eighth its reload number (rounded up), to a minimum of 2. If it already has the rapid property, the rapid number is reduced to one-sixteenth its reload number (rounded up), to a minimum of 2."
+}

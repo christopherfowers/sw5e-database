@@ -1,0 +1,18 @@
+{
+  "key": "force-jump",
+  "name": "Force Jump",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "prerequisite": "Force Leap",
+  "description": "Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see, provided you have a direct path to the space.\n\n***Force Potency.*** When you cast this power using a force slot of 2nd level or higher, your jump distance increases by 5 feet for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

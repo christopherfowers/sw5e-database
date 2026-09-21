@@ -1,0 +1,20 @@
+{
+  "key": "doublesword",
+  "name": "Doublesword",
+  "category": "weapon",
+  "costInCredits": 450,
+  "weight": 5.5,
+  "properties": [
+    "double (1d8 kinetic)",
+    "finesse"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

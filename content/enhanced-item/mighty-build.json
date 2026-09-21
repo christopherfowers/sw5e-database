@@ -1,0 +1,12 @@
+{
+  "key": "mighty-build",
+  "name": "Mighty Build",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Class V droid",
+  "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples."
+}

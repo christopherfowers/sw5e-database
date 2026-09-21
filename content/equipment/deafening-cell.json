@@ -1,0 +1,11 @@
+{
+  "key": "deafening-cell",
+  "name": "Deafening cell",
+  "category": "ammunition",
+  "costInCredits": 425,
+  "weight": 1.0,
+  "description": "A deafening cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes 1d6 sonic damage and is deafened until the start of your next turn. On a successful save, a creature takes half damage and isn't deafened.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

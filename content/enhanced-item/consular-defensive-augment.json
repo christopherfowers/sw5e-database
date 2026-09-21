@@ -1,0 +1,12 @@
+{
+  "key": "consular-defensive-augment",
+  "name": "Consular Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in consular",
+  "description": "When you roll initiative and have no uses of your Force Shield left, you regain one use."
+}

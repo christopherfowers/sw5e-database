@@ -1,0 +1,11 @@
+{
+  "key": "regulated-reinforcement",
+  "name": "Regulated Reinforcement",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield gains the regulated property."
+}

@@ -1,0 +1,27 @@
+{
+  "key": "blaster-cannon",
+  "name": "Blaster cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4000,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "hidden",
+    "overheat 18",
+    "rapid 9"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 600,
+    "long": 2400
+  }
+}

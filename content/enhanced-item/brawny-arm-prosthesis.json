@@ -1,0 +1,11 @@
+{
+  "key": "brawny-arm-prosthesis",
+  "name": "Brawny Arm Prosthesis",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces an arm.\n\nWhen you make an ability check, attack roll, or saving throw using Strength using only this arm, your Strength score is treated as 15. When you make an ability check, attack roll, or saving throw using Strength using more than just this arm, you take the average of the arm's Strength score and your own.\n\n**Side Effect:** When you roll a 1 on an ability check, attack roll, or saving throw using Strength with this arm, it seizes up, becoming unusable until the start of your next turn.\n\n_These arm replacements are popular with the less exercise-inclined._"
+}

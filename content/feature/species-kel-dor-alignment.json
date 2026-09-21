@@ -1,0 +1,9 @@
+{
+  "key": "species-kel-dor-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Kel Dor",
+  "description": "Kel dors' structured nature causes them to tend toward lawful balanced, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

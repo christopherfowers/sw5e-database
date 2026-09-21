@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-specialist",
+  "name": "Specialist",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "You have proficiency in one specialist's kit of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

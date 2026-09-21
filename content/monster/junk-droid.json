@@ -1,0 +1,114 @@
+{
+  "key": "junk-droid",
+  "name": "Junk Droid",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 13,
+    "type": "armor scraps"
+  },
+  "hitPoints": {
+    "average": 13,
+    "roll": "2d8+4"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 10,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 15,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 6,
+      "modifier": -2
+    },
+    "wisdom": {
+      "score": 8,
+      "modifier": -1
+    },
+    "charisma": {
+      "score": 5,
+      "modifier": -3
+    }
+  },
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1/4",
+  "experiencePoints": 50,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The junkyard droid makes two blaster carbine attacks or two vibroblade attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Carbine",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 60/240 ft., one target. Hit: 5 (1d6+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6+2",
+      "damageType": "energy"
+    },
+    {
+      "name": "Vibroblade",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6+2",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Junk Droid, or Monster Droid, is the term used to describe any droid that is created by piecing together component parts of many other droids. Though anyone with the know-how can cobble together a junk droid, they are most notably created by the various Jawa tribes on Tatooine. Because they mainly sell their wares to moisture farmers and small town businesses, Jawas know what peoples' needs are, and are able to create custom droids to meet the individual needs of any customer. Some junk droids are even made by themselves. Because of their often mashed-together programming, they are considered dangerous by most civilized people, for they could go on a rampage, confuse orders, or even start building more of their own kind when having enough junk to do so. Though no two junk droids are exactly the same, they are generally constructed in four classes:* The Mechano-droid was a heavy labor unit* The Tracto-droid was a mobile scanning/radar unit* The Quad-pod droid was a cargo carrier* The Rollarc droid was a multipurpose unit suited to variable tasksJunk droids are sometimes sought after by eccentric collectors looking to find the most functional droid comprised the most incorporated parts that is the most pleasing to the eye.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

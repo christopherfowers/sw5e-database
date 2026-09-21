@@ -1,0 +1,11 @@
+{
+  "key": "forged-ferricite-ascendancy-channel",
+  "name": "Forged Ferricite Ascendancy Channel",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power of 1st-level or higher that deals damage, you can increase the damage by two and a half times (rounded down) the number of force points spent."
+}

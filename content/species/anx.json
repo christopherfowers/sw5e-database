@@ -1,0 +1,82 @@
+{
+  "key": "anx",
+  "name": "Anx",
+  "size": "medium",
+  "homeworld": "Gravlex Med",
+  "nativeLanguage": "Anx",
+  "lore": "### Biology and Appearance\nThe anx are a bipedal, reptilian species discernible by their height, their tall crests, and their tails. Originating from a world with higher-than-average gravity, the anx possess a stooped stature. Their heads are tall and blade-shaped, with a soaring crest which acts as a sinus cavity. While their crests change color to reflect their moods, its primary function gives anx a low rumbling voice. An anx's large, muscular tail serves as a counterbalance for running.\n\nAnx have long necks and limbs, and would appear taller if they didn't walk with their shoulders stooped and their crested heads held out in front of them.\n\n### Society and Culture\nThe anx are serene giants who assume many roles in the Republic. Evolving from herd animals, the anx are a placid, sociable race known for developing a near fanatical interest in groups they related to. Living in complicated clan structures, anx enjoy the company of their large families and are more comfortable in groups.\n\nAn innate trait among the anx is a formidable knowledge of anatomy, especially in regard to nerves, muscles and bone structures. Due to this extensive knowledge, even by species they have never encountered, the anx are considered dangerous unarmed combatants and skilled warriors, capable of incapacitating opponents with a single, well-placed strike.\n\n### Names\nAnx names are less harsh-sounding compared to those of other reptilian species. Surnames are familial.\n\n**Male Names.** Drexol, Graxol, Horox, Theen\n\n**Female Names.** Kendiula, Madurrin, Pipalidi, Quiyya\n\n**Surnames.** Fida, Jur, Kelvyyn, Ryyd",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Anx reach adulthood in their late teens and live up to 120 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "The anx's social nature causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Anx stand at around 8 feet tall and weigh about 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Acute Smell",
+      "description": "Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise in the Perception skill."
+    },
+    {
+      "name": "Anatomical Knowledge",
+      "description": "You have proficiency in the Medicine skill."
+    },
+    {
+      "name": "Subsonic Bellow",
+      "description": "As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest."
+    },
+    {
+      "name": "Surgical Strikes",
+      "description": "Your unarmed strikes deal 1d4 kinetic damage. Additionally, as a bonus action, you can perform a special pressure point attack. On a hit, the target suffers the attack's normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is stunned until the end of its next turn, and you can't use this feature again until you complete a short or long rest."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Anx. Anx is mostly characterized by low, rumbling noises made by the throat, amplified by an anx's crest. Anx are able to communicate over long distances with each other by using loud low-frequency sounds."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "7'0\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "200 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Hunched stature, mood sensitive crests, tails",
+    "skinColorOptions": "Blue, yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black"
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

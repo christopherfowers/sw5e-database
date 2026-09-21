@@ -1,0 +1,9 @@
+{
+  "key": "species-verpine-hardened-carapace",
+  "name": "Hardened Carapace",
+  "grantedBy": "species",
+  "grantedByName": "Verpine",
+  "description": "While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

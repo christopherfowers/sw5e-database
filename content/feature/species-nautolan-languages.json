@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; that nautolans find this annoying.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

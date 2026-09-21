@@ -1,0 +1,11 @@
+{
+  "key": "expanded-magazine-exceptional",
+  "name": "Expanded Magazine (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "Once on each of your turns, you can reload this weapon once without using an action. You can use this feature five times. You regain all expended uses when you reload the weapon with an action."
+}

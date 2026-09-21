@@ -1,0 +1,11 @@
+{
+  "key": "withercasting-overlay-apprentice",
+  "name": "Withercasting Overlay (Apprentice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +1 bonus to the force save DC of powers that require a Wisdom or Charisma saving throw."
+}

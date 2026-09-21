@@ -1,0 +1,21 @@
+{
+  "key": "plating-lightweight-mk-iii",
+  "name": "Plating, Lightweight Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Lightweight Armor",
+      "equipmentName": "Lightweight armor"
+    },
+    {
+      "kind": "modification",
+      "text": "Lightweight Plating, MK II",
+      "modificationName": "Plating, Lightweight Mk II"
+    }
+  ],
+  "description": "You substantially upgrade your ship's armor plating, adding 50 feet to your speed."
+}

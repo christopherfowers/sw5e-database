@@ -1,0 +1,11 @@
+{
+  "key": "accessing-motherboard-prime",
+  "name": "Accessing Motherboard (Prime)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the accessing 6 property. If it already has the accessing property, its accessing number increases to 6."
+}

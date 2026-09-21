@@ -1,0 +1,9 @@
+{
+  "key": "buzz-droid-cloud",
+  "name": "Buzz Droid Cloud",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "description": "As an action, a crewmember may scatter a large number of Buzz Droids across space in a 200-foot radius sphere centered on a point within 1500 feet. These Buzz Droids tear apart the hull of any ship that encounters them. The area becomes difficult terrain for up to a number of minutes equal to you ship's tier. When a ship moves into or within the area, it takes 2d4 kinetic damage directly to the hull for every 50 feet it travels.\nThe Buzz Droids are nearly invisible in the darkness of space. Any creature or ship that can’t see the area at the time the area is created must make a Wisdom (Scan) check (DC 15) to notice the Buzz Droids before entering the area.\nThe effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship is refitted."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-vurk-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Vurk",
+  "description": "Vurk reach adulthood in their 20s and live an average of 70 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

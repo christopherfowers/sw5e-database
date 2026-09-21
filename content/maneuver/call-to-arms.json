@@ -1,0 +1,10 @@
+{
+  "key": "call-to-arms",
+  "name": "Call to Arms",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "Proficiency in Persuasion",
+  "description": "If you are surprised at the start of combat and aren't incapacitated, you can expend one superiority die to act normally.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

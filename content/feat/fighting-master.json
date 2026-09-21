@@ -1,0 +1,8 @@
+{
+  "key": "fighting-master",
+  "name": "Fighting Master",
+  "prerequisite": "4th level",
+  "description": "You've mastered a particular style of fighting. Choose one of the fighting mastery options, detailed later in this chapter. You can take this feat multiple times.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

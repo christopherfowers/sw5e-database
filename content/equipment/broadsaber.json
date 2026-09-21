@@ -1,0 +1,22 @@
+{
+  "key": "broadsaber",
+  "name": "Broadsaber",
+  "category": "weapon",
+  "costInCredits": 1000,
+  "weight": 2.75,
+  "properties": [
+    "dexterity 13",
+    "dire 1",
+    "luminous",
+    "versatile (1d8)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

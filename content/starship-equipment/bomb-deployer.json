@@ -1,0 +1,16 @@
+{
+  "key": "bomb-deployer",
+  "name": "Bomb deployer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 8000,
+  "weapon": {
+    "mounting": "quaternary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "ammunition",
+    "reload 4"
+  ]
+}

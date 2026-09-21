@@ -1,0 +1,93 @@
+{
+  "key": "ortolan",
+  "name": "Ortolan",
+  "size": "small",
+  "homeworld": "Orto",
+  "nativeLanguage": "Ortolan",
+  "lore": "### Biology and Appearance\nOrtolans are squat, heavily-built humanoid bipeds with long, trunklike noses and beady black eyes. They possess floppy ears, which are extremely sensitive to sound waves. They have two hands, each ending in four chubby fingers and a thumb, which is not opposable. A thick, baggy hide covered in fuzz resembling velvet hangs off of the Ortolan body. Ortolans have a keen sense of smell to help them forage for food. In fact, they are handicapped in their business affairs by their attachment to food, sometimes accepting otherwise unfavorable contracts when promised enough to eat. Their twin obsessions are food and music; offworld, many Ortolans find success as chefs or musicians.\n\n### Society and Culture\nOrtolan society is reasonably industrialised, though not as technologically advanced as other species. Despite this, their economy is mostly based on barter, with credits primarily used to trade with offworlders. Education is the responsibility of their parents, though gifted youngsters are often traded to other families to get specialized education.\n\nWhile most Ortolans appear to have blue skin, Ortolans are actually covered in short velvety fur which they often dyed in bright colors, most often blue and pink. This tradition began when a Devaronian trader tried to sell Ortolans a shipment of food dyes—they considered dyeing their food a waste of time, but found dyed fur to be quite stylish.\n\n### Names\nOrtolan names are generally short with big sounds. Female names are typically softer. Surnames are familial.\n\n**Male names.** Donmb, Hegh, Nax, Parm, Teeb\n\n**Female names.** Bedla, Folfe, Nelni, Phoff, Sallo\n\n**Surnames.** Bigek, Lubum, Nad, Rojool, Somo",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Ortolans are considered adults at the age of seven and typically live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Ortolans' love of food and music causes them to tend toward chaotic light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Ortolans stand around 3 to 4 feet tall and weigh about 55 lbs. Regardless of your position in that range, your size is Small."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 25 feet."
+    },
+    {
+      "name": "Foragers",
+      "description": "Whenever you make a Wisdom (Survival) check to forage for food you are considered to have expertise in the Survival skill."
+    },
+    {
+      "name": "Grovel, Cower, and Beg",
+      "description": "As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Hide",
+      "description": "Your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "description": "You have advantage on Wisdom (Perception) checks that involve hearing or smell."
+    },
+    {
+      "name": "Musical",
+      "description": "You have proficiency in Performance and one musical instrument of your choice."
+    },
+    {
+      "name": "Undersized",
+      "description": "Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Ortolan. Ortolan is characterized by its grunts and hoots."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "2'10\"",
+    "heightModifier": "+2d4\"",
+    "weightAverage": "50 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Stocky builds, trunklike noses, floppy ears, small mouths, brightly dyed fur",
+    "skinColorOptions": "Light colors",
+    "hairColorOptions": "Light colors",
+    "eyeColorOptions": "Yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ortolan.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-flesh-raider-force-contention",
+  "name": "Force Contention",
+  "grantedBy": "species",
+  "grantedByName": "Flesh Raider",
+  "description": "Due to their unique physiology, flesh raider hardiness allows them to overcome use of the Force. You have advantage on Strength and Constitution saving throws against force powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

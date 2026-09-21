@@ -1,0 +1,11 @@
+{
+  "key": "impermeable-inlay-fine",
+  "name": "Impermeable Inlay (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the impermeable 3 armor property (suits chosen by the GM). If it already has the impermeable armor property, its impermeable number increases by 3, to a maximum of 9."
+}

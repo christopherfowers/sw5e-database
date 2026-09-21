@@ -1,0 +1,12 @@
+{
+  "key": "juyo-form",
+  "name": "Juyo Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Until the start of your next turn, your critical hit range with weapons increases by 1."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "Your Dexterity score increases by 2, and your Constitution score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

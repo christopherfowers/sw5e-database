@@ -1,0 +1,20 @@
+{
+  "key": "heavy-pistol",
+  "name": "Heavy pistol",
+  "category": "weapon",
+  "costInCredits": 300,
+  "weight": 4.0,
+  "properties": [
+    "power cell (range 45/180)",
+    "reload 16"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

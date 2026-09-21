@@ -1,0 +1,9 @@
+{
+  "key": "species-gran-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Gran",
+  "description": "You can speak, read, and write Galactic Basic and Gran. It is rare to hear Gran spoken on any world other than Kinyen.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

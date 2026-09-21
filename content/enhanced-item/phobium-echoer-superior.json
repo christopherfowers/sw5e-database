@@ -1,0 +1,11 @@
+{
+  "key": "phobium-echoer-superior",
+  "name": "Phobium Echoer (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power that affects an area in a radius or a cube, you can increase the radius or length of the cube by 10 feet."
+}

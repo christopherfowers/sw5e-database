@@ -1,0 +1,9 @@
+{
+  "key": "species-talz-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Talz",
+  "description": "Talz stand between 6 and 8 feet tall and weigh around 250 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

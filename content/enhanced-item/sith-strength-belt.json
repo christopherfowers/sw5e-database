@@ -1,0 +1,11 @@
+{
+  "key": "sith-strength-belt",
+  "name": "Sith Strength Belt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "waist",
+  "description": "_**Requires attunement**_\nWhile wearing this belt, your Strength score becomes 27. If your Strength is already equal to or greater than 27, it has no effect on you.\n\n_Worn on the legs, waist and lower back, this belt massively increases a users physical power with a set of heavy durasteel actuators alongside an synaptic monitoring system that reacts to its users motion with optimized power responses._"
+}

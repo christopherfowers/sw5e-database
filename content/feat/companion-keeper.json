@@ -1,0 +1,8 @@
+{
+  "key": "companion-keeper",
+  "name": "Companion Keeper",
+  "prerequisite": "4th level",
+  "description": "You gain the services of a companion. Choose one of the companion nature options, detailed later in this chapter.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

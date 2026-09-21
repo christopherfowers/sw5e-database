@@ -1,0 +1,10 @@
+{
+  "key": "archetype-champion-approach-the-thrill-6",
+  "name": "The Thrill",
+  "grantedBy": "archetype",
+  "grantedByName": "Champion Approach",
+  "level": 6,
+  "description": "_**Champion Approach:** 6th level_\nYou have advantage on ability checks and saving throws to avoid being charmed or frightened, and creatures can't have advantage on ability checks or saving throws to avoid being charmed or frightened by effects that you control.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

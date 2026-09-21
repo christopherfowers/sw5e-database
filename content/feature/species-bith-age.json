@@ -1,0 +1,9 @@
+{
+  "key": "species-bith-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Bith",
+  "description": "Bith reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

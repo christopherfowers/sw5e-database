@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "Nautolans' benevolence cause them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

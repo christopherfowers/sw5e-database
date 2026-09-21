@@ -1,0 +1,9 @@
+{
+  "key": "hidden-storage",
+  "name": "Hidden Storage",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite comes equipped with hidden storage compartments, which have a capacity equal to half your ship's base cargo capacity, as shown in the **[Starship Size Cargo Capacity](#Starship%20Size%20Cargo%20Capacity)** table on page 79. Finding the hidden storage compartments requires a successful DC 20 Intelligence (Investigation) or Wisdom (Perception) check, which is made with disadvantage."
+}

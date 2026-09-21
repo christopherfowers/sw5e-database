@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-stitching-mk-iv",
+  "name": "Fadecasting Stitching Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +3 bonus to the tech save DC of powers that require a Strength or Constitution saving throw."
+}

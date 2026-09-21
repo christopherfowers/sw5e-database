@@ -1,0 +1,11 @@
+{
+  "key": "distant-subroutine",
+  "name": "Distant Subroutine",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you cast a power that has a range of 5 feet or greater, you can spend 1 additional tech point to double the range of the power.\n\nAlternatively, when you cast a power that has a range of touch, you can spend 1 additional tech point to make the range of the power 30 feet.\n\nYou can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.\n\nYou can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+}

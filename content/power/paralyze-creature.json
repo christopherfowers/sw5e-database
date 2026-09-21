@@ -1,0 +1,17 @@
+{
+  "key": "paralyze-creature",
+  "name": "Paralyze Creature",
+  "powerType": "tech",
+  "level": 5,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "90 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You emit a paralyzing dart at a creature that you can see within range. The target must succeed on a Constitution saving throw or be poisoned for the duration. While poisoned in this way, the target is paralyzed. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

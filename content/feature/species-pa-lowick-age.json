@@ -1,0 +1,9 @@
+{
+  "key": "species-pa-lowick-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Pa'lowick",
+  "description": "Pa'lowick reach adulthood in their late teens and live about 75 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

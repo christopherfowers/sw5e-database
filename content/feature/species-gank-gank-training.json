@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-gank-training",
+  "name": "Gank Training",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "You have proficiency in light and medium armor as well as two vibroweapons or blasters of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

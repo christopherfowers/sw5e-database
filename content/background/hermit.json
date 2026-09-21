@@ -1,0 +1,198 @@
+{
+  "key": "hermit",
+  "name": "Hermit",
+  "lore": "You lived in seclusion—either in a community or alone—for a formative part of your life. In your time apart from society, you found quiet, solitude, and perhaps some of the answers you were looking for.",
+  "skillProficiencies": "Choose two from Animal Handling, Lore, Medicine, and Nature",
+  "toolProficiencies": "Bioanalysis kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A diary of your experiences, a winter blanket, a set of common clothes, a bioanalysis kit, and 50 cr",
+  "feature": {
+    "name": "Discovery",
+    "description": "The seclusion of your hermitage gave you access to a unique and powerful discovery. The nature of this revelation depends on the nature of your seclusion. You might have discovered a great truth about the cosmos or the Force, a fact that has long been forgotten, a relic of the past that could rewrite history, or a place unseen for ages. It might be information that would be damaging to the people who consigned you to exile, and hence the reason for your return to society. Work with your GM to determine the details of your discovery and its impact on the campaign."
+  },
+  "suggestedCharacteristics": "Some hermits are well suited to a life of seclusion, whereas others chafe against it and long for company. Whether they embrace solitude or long to escape it, the solitary life shapes their attitudes and ideals. Some few are driven slightly mad by their isolation.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I've been isolated for so long that I rarely speak, preferring gestures and the occasional grunt."
+    },
+    {
+      "roll": 2,
+      "description": "I am utterly serene, even in the face of disaster."
+    },
+    {
+      "roll": 3,
+      "description": "The leader of my community had something wise to say on every topic, and I am eager to share that wisdom."
+    },
+    {
+      "roll": 4,
+      "description": "I feel tremendous empathy for all who suffer."
+    },
+    {
+      "roll": 5,
+      "description": "I'm oblivious to etiquette and social expectations."
+    },
+    {
+      "roll": 6,
+      "description": "I connect everything that happens to me to a grand, cosmic plan."
+    },
+    {
+      "roll": 7,
+      "description": "I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings."
+    },
+    {
+      "roll": 8,
+      "description": "I am working on a grand philosophical theory and love sharing my ideas."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Greater Good",
+      "description": "My gifts are meant to be shared with all, not used for my own benefit. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Logic",
+      "description": "Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)"
+    },
+    {
+      "roll": 3,
+      "name": "Free Thinking",
+      "description": "Inquiry and curiosity are the pillars of progress. (Chaotic)"
+    },
+    {
+      "roll": 4,
+      "name": "Power",
+      "description": "Solitude and contemplation are paths toward mystical power. (Dark)"
+    },
+    {
+      "roll": 5,
+      "name": "Live and Let Live",
+      "description": "Meddling in the affairs of others only causes trouble. (Neutral)"
+    },
+    {
+      "roll": 6,
+      "name": "Self-Knowledge",
+      "description": "If you know yourself, there's nothing left to know. (Any)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "Nothing is more important than the other members of my hermitage, order, or association."
+    },
+    {
+      "roll": 2,
+      "description": "I entered seclusion to hide from the ones who might still be hunting me. I must someday confront them."
+    },
+    {
+      "roll": 3,
+      "description": "I'm still seeking the enlightenment I pursued in my seclusion, and it still eludes me."
+    },
+    {
+      "roll": 4,
+      "description": "I entered seclusion because I loved someone I could not have."
+    },
+    {
+      "roll": 5,
+      "description": "Should my discovery come to light, it could bring ruin to the world."
+    },
+    {
+      "roll": 6,
+      "description": "My isolation gave me great insight into a great Dark that only I can destroy."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "Now that I've returned to the world, I enjoy its delights a little too much."
+    },
+    {
+      "roll": 2,
+      "description": "I harbor dark, bloodthirsty thoughts that my isolation and meditation failed to quell."
+    },
+    {
+      "roll": 3,
+      "description": "I am dogmatic in my thoughts and philosophy."
+    },
+    {
+      "roll": 4,
+      "description": "I let my need to win arguments overshadow friendships and harmony."
+    },
+    {
+      "roll": 5,
+      "description": "I'd risk too much to uncover a lost bit of knowledge."
+    },
+    {
+      "roll": 6,
+      "description": "I like keeping secrets and won't share them with anyone."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Animal Handler"
+    },
+    {
+      "roll": 2,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 3,
+      "name": "Medic"
+    },
+    {
+      "roll": 4,
+      "name": "Naturalist"
+    },
+    {
+      "roll": 5,
+      "name": "Specialist"
+    },
+    {
+      "roll": 6,
+      "name": "Alert"
+    },
+    {
+      "roll": 7,
+      "name": "Dungeon Delver"
+    },
+    {
+      "roll": 8,
+      "name": "Healer"
+    }
+  ],
+  "variant": {
+    "name": "Life of Seclusion",
+    "description": "What was the reason for your isolation, and what changed to allow you to end your solitude? You can work with your GM to determine the exact nature of your seclusion, or you can choose or roll on the table below to determine the reason behind your seclusion.\n\n|d6|Life of Seclusion|\n|:---:|:----------:|\n|1|I was partaking of communal living in accordance with the dictates of a religious order.|\n|2|I retreated from society after a life-altering event.|\n|3|I needed a quiet place to work on my art, literature, music, or manifesto.|\n|4|I needed to commune with nature, far from civilization.|\n|5|I was the caretaker of an ancient ruin or relic.|\n|6|I was in search of a place of spiritual significance.|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "I was partaking of communal living in accordance with the dictates of a religious order."
+      },
+      {
+        "roll": 2,
+        "name": "I retreated from society after a life-altering event."
+      },
+      {
+        "roll": 3,
+        "name": "I needed a quiet place to work on my art, literature, music, or manifesto."
+      },
+      {
+        "roll": 4,
+        "name": "I needed to commune with nature, far from civilization."
+      },
+      {
+        "roll": 5,
+        "name": "I was the caretaker of an ancient ruin or relic."
+      },
+      {
+        "roll": 6,
+        "name": "I was in search of a place of spiritual significance."
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

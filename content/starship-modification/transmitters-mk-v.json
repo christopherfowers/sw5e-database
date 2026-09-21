@@ -1,0 +1,16 @@
+{
+  "key": "transmitters-mk-v",
+  "name": "Transmitters, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Transmitters, Mk IV",
+      "modificationName": "Transmitters, Mk IV"
+    }
+  ],
+  "description": "Your ship's Transmitters have reached their maximum potential. Your ship's Charisma score increases by 2. Your ship's maximum for this score increases by 2."
+}

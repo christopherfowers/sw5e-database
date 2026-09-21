@@ -1,0 +1,11 @@
+{
+  "key": "throwing-weapon-hilt-basic",
+  "name": "Throwing Weapon Hilt (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains thrown (10/30) property. If it already has the thrown property, the range increases by 5/15."
+}

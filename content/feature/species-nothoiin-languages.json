@@ -1,0 +1,9 @@
+{
+  "key": "species-nothoiin-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Nothoiin",
+  "description": "You can speak, read, and write Galactic Basic and one language of your choice. You can also communicate via Notho, a native hand language developed by hunters living in the Nothoiin plains.  Usage of Notho is exceedingly rare outside Nothoiin culture.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

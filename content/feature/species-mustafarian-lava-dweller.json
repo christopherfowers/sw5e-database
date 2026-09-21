@@ -1,0 +1,9 @@
+{
+  "key": "species-mustafarian-lava-dweller",
+  "name": "Lava Dweller",
+  "grantedBy": "species",
+  "grantedByName": "Mustafarian",
+  "description": "Your body is well accustomed to extreme heat, giving you resistance to fire damage. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-gran-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Gran",
+  "description": "Gran reach adulthood around their late teens and live up to 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

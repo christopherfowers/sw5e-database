@@ -1,0 +1,20 @@
+{
+  "key": "tributary-beam",
+  "name": "Tributary Beam",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 3,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This modification can be taken a number of times equal to a ship's Constitution modifier.\nThis modification upgrades the Super-Heavy\nTurbolaser Battery, Capital Railgun, or Superweapon\non your starship. The weapon deals an additional die of damage of the type used by the weapon."
+}

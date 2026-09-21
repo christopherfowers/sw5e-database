@@ -1,0 +1,24 @@
+{
+  "key": "subrepeater",
+  "name": "Subrepeater",
+  "category": "weapon",
+  "costInCredits": 625,
+  "weight": 4.0,
+  "properties": [
+    "auto",
+    "rapid 4",
+    "light",
+    "power cell (range 30/120)",
+    "reload 16",
+    "strength 11"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

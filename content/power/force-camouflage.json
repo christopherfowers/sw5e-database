@@ -1,0 +1,17 @@
+{
+  "key": "force-camouflage",
+  "name": "Force Camouflage",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "You become invisible until the power ends. Anything you are wearing or carrying is invisible as long as it is on your person. The power ends if you attack, cast a power, or otherwise take a hostile action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "insulated-pattern-fine",
+  "name": "Insulated Pattern (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the insulated 6 armor property. If it already has the insulated armor property, its insulated number increases by 2, to a maximum of 10."
+}

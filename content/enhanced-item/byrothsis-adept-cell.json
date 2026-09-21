@@ -1,0 +1,11 @@
+{
+  "key": "byrothsis-adept-cell",
+  "name": "Byrothsis Adept Cell",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When this weapon is levitated by the Force to deal damage through a class feature or force power you use, it deals additional damage equal to one of its weapon damage dice."
+}

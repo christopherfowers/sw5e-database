@@ -1,0 +1,11 @@
+{
+  "key": "overlay-rangefinder-journeyman",
+  "name": "Overlay Rangefinder (Journeyman)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +2 bonus to ranged force attacks."
+}

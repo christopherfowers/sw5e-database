@@ -1,0 +1,10 @@
+{
+  "key": "runtime-extension",
+  "name": "Runtime Extension",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "The ability to cast tech powers",
+  "description": "When a tech power you cast with a duration of 1 minute or longer reaches the end of its duration, you may expend a superiority die to extend the duration of the power by a number of rounds equal to the number rolled on your superiority die.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

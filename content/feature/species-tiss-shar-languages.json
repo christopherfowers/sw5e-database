@@ -1,0 +1,9 @@
+{
+  "key": "species-tiss-shar-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Tiss'shar",
+  "description": "You can speak, read, and write Galactic Basic and Tiss'shar. Tiss'shar is mainly formed of hisses, shrieks, and lisping vocalizations. As a written language, it has a violent-looking calligraphy of curves and sharp lines.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

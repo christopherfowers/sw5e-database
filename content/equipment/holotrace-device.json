@@ -1,0 +1,11 @@
+{
+  "key": "holotrace-device",
+  "name": "Holotrace device",
+  "category": "communications",
+  "costInCredits": 1000,
+  "weight": 5.0,
+  "description": "A holotrace device is a wrist-worn gadget that can be used to trace a holographic transmission back to its source.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "enhanced-reconstructor",
+  "name": "Enhanced Reconstructor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "protocol",
+  "prerequisite": "Class IV droid",
+  "description": "Whenever you roll a Hit Die to recover hit points, you add your Intelligence modifier to the roll (minimum of +1)."
+}

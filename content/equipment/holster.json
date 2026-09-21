@@ -1,0 +1,11 @@
+{
+  "key": "holster",
+  "name": "Holster",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 75,
+  "weight": 2.0,
+  "description": "A holster can be worn on the leg, hip, or back, and can be used to store a single weapon. You can draw a weapon stored in a holster without using an action. Once you've done so, you can't do so again until you store a weapon in the holster as an action.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

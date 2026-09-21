@@ -1,0 +1,11 @@
+{
+  "key": "vibroweapon-chassis-artifact",
+  "name": "Vibroweapon Chassis (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "any vibroweapon",
+  "description": "_**Requires attunement**_\nThis modifiable vibroweapon chassis comes with vacant modification slots for vibroweapon modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+}

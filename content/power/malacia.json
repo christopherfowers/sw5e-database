@@ -1,0 +1,18 @@
+{
+  "key": "malacia",
+  "name": "Malacia",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "30 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Mind Trick",
+  "description": "A creature of your choice that you can see within range is overcome with a sense of dizziness and nausea, as you disturb its equilibrium with the Force. The creature must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration.\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the power ends. This power has no effect on droids or constructs.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

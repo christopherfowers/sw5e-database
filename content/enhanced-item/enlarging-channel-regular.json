@@ -1,0 +1,11 @@
+{
+  "key": "enlarging-channel-regular",
+  "name": "Enlarging Channel (Regular)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the enlarging 20 property. If it already has the enlarging property, its enlarging number increases by 20, to a maximum of 30."
+}

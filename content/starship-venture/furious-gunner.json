@@ -1,0 +1,15 @@
+{
+  "key": "furious-gunner",
+  "name": "Furious Gunner",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 1 level in berserker",
+      "className": "berserker",
+      "level": 1
+    }
+  ],
+  "description": "While raging and firing a primary weapon, you can take a penalty to your attack roll up to your rage damage bonus, adding twice the amount to the damage roll on a hit."
+}

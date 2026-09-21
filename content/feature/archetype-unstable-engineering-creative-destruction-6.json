@@ -1,0 +1,10 @@
+{
+  "key": "archetype-unstable-engineering-creative-destruction-6",
+  "name": "Creative Destruction",
+  "grantedBy": "archetype",
+  "grantedByName": "Unstable Engineering",
+  "level": 6,
+  "description": "_**Unstable Engineering:** 6th level_\nYou can add your governing ability modifier (minimum of +1) to any damage you deal with tech powers and class features that don't already include that modifier. If the tech power or class feature would damage multiple creatures, you can only deal this additional damage to one of them.\nIf you choose to deal this additional damage, your GM can have you roll on the Unstable Engineering Surge table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

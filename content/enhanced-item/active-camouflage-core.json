@@ -1,0 +1,12 @@
+{
+  "key": "active-camouflage-core",
+  "name": "Active Camouflage Core",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Constitution 13",
+  "description": "As an action, you can activate this augmentation to cast the _infiltrate_ tech power targeting yourself. Intelligence is your tech casting ability for this power, and if you cast it using this augmentation, it does not require concentration.\n\n**Side Effect:** While this augmentation is active, your speed is reduced by 10. Additionally, it fails to activate if you are submerged in water or other liquids.\n\n_This internal augmentation can be activated to project a distortion field that bends visual light._"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-lasat-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Lasat",
+  "description": "You can speak, read, and write Galactic Basic and Lasat, a language whose *r*'s are difficult to replicate by most other species.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

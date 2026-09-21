@@ -1,0 +1,10 @@
+{
+  "key": "archetype-addicted-approach-seeing-sound-10",
+  "name": "Seeing Sound",
+  "grantedBy": "archetype",
+  "grantedByName": "Addicted Approach",
+  "level": 10,
+  "description": "_**Addicted Approach:** 10th level_\nWhile you are raging or experiencing the high of a substance, you have blindsight with a range of 10 feet. If you are both raging and experiencing the high of a substance, you instead have blindsight with a range of 30 feet. If you would already have blindsight, it instead increases by 5 feet or 15 feet, respectively.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

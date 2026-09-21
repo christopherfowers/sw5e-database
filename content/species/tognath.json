@@ -1,0 +1,94 @@
+{
+  "key": "tognath",
+  "name": "Tognath",
+  "size": "medium",
+  "homeworld": "Yar Togna",
+  "nativeLanguage": "Tognath",
+  "lore": "### Biology and Appearance\nTognath are a sentient species native to Yar Togna. Yar Togna is a foul-smelling, high-gravity planet with a toxic, fume-saturated atmosphere. As a result, tognath wear a breathing apparatus to process the oxygen content in a planet's atmosphere. The tognath have a striking look thanks to their insectoid and mammalian characteristics; another factor is their having both an endo- and exoskeleton. They also possess a very primitive nervous system, which provides them with immunity to most pain (a helpful trait in combat). Tognath begin life as larvae born from egg clutches hatched in a suspension jelly, and latch onto one of their parents, feeding directly from their bloodstream. While in that jelly, two or more eggs (not necessarily from the same parent) sometimes graft together, thus creating a bond that continues throughout the life of the eggmates. Six months later, parents visit a nursery tree, where the young detatch from them and spin a cocoon. Within, the offspring undergo a metamorphosis, developing both their skeletons to resist the high gravity and pressures of Yar Togna.\n\n### Society and Culture\nTognath live in stilted homes with lava channels near the main mountain range of Yar Togna, where they have access to mountain springwater. Most of tognath society believes that mate selection and egg laying should occur late in life, after having dedicated most of one's prime years to a career. This means that parents are generally retired and dote on their children relentlessly, often homeschooling them after their transformation.\n\n### Names\nTognath use generally simple, nongendered names, without bothering with surnames.\n\n**First Names.** Darjia, Essec, Irion, Tathak",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength, Dexterity, and Constitution scores increase by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Tognath reach adulthood by 10 and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Tognath are famously dedicated and hard workers, causing them to tend towards balanced alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Tognath typically stand 6 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Crafters",
+      "description": "You have proficiency with one set of artisan's implements of your choice."
+    },
+    {
+      "name": "Exoskeleton",
+      "description": "You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier."
+    },
+    {
+      "name": "Foreign Biology",
+      "description": "You cannot breathe oxygen. The tognath have created a breathing apparatus to negate the negative effects of living in an oxygen rich environment, but if your mask is removed while you are in such an environment, you lose consciousness."
+    },
+    {
+      "name": "Life in the Void",
+      "description": "You have resistance to necrotic damage, and while exposed to the vacuum of space, you can survive for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number of rounds."
+    },
+    {
+      "name": "Primitive Nerves",
+      "description": "Because of their primitive nervous systems, tognath are immune to most pain, letting them shrug off major injuries. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. Once you've used this trait, you can't use it again until you finish a short or long rest."
+    },
+    {
+      "name": "Vocalizer",
+      "description": "Tognath vocal cords are not made for oxygen rich environments, and rely on a vocalizer to communicate effectively with other species. If your vocalizer is removed or destroyed, your voice becomes quiet and difficult to understand."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Tognath. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 1,
+          "abilities": [
+            "strength",
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "105 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Breathing apparatus, endo and exoskeletons",
+    "skinColorOptions": "Tan or cream",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "White"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_tognath.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

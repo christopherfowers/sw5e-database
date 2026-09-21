@@ -1,0 +1,10 @@
+{
+  "key": "chance-cubes",
+  "name": "Chance cubes",
+  "category": "gamingSet",
+  "costInCredits": 1,
+  "weight": 0.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

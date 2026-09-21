@@ -1,0 +1,9 @@
+{
+  "key": "reactive-shielding-compensator",
+  "name": "Reactive Shielding Compensator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You add a reactive compensator to your ship's shield generator granting your shields resistance to energy damage."
+}

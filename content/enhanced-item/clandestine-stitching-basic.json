@@ -1,0 +1,11 @@
+{
+  "key": "clandestine-stitching-basic",
+  "name": "Clandestine Stitching (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This article of clothing come with one hidden pocket, which can store up to 1 lb. Finding this hidden pocket requires a DC 15 Investigation check."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kalleran-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Kalleran",
+  "description": "Kallerans' individualistic society causes them to tend towards chaotic alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

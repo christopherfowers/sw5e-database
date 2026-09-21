@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "You can speak, read, and write Galactic Basic and Defel. Most defel refuse to speak Galactic Basic while on their home planet of Af'El unless they have a specific need for it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

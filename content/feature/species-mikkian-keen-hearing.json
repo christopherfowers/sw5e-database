@@ -1,0 +1,9 @@
+{
+  "key": "species-mikkian-keen-hearing",
+  "name": "Keen Hearing",
+  "grantedBy": "species",
+  "grantedByName": "Mikkian",
+  "description": "Your head-tendrils provide a keen awareness of your surroundings. You have advantage on Wisdom (Perception) checks that involve hearing.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

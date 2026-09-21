@@ -1,0 +1,9 @@
+{
+  "key": "species-ugnaught-industrial-hazards",
+  "name": "Industrial Hazards",
+  "grantedBy": "species",
+  "grantedByName": "Ugnaught",
+  "description": "You have resistance to acid damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

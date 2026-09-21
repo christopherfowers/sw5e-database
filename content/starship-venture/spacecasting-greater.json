@@ -1,0 +1,14 @@
+{
+  "key": "spacecasting-greater",
+  "name": "Spacecasting, Greater",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "venture",
+      "text": "Spacecasting, Improved",
+      "ventureName": "Spacecasting, Improved"
+    }
+  ],
+  "description": "When casting a force or tech power while aboard your ship and in space, the power's range is instead multiplied by 100. You can not target a hostile creature with a power unless you are aware of their presence and location.\nAdditionally, when casting a force or tech power while aboard your ship and in space that affects an area, the area's dimensions are instead multiplied by 10.\nLastly, when casting a force or tech power while aboard your ship and in space, you instead divide by 5 when scaling damage against Tiny ships."
+}

@@ -1,0 +1,10 @@
+{
+  "key": "tool-basic",
+  "name": "Tool (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "description": "Your level of proficiency in these tools increases by one step (to trained, from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "smugglepack",
+  "name": "Smugglepack",
+  "category": "storage",
+  "costInCredits": 400,
+  "weight": 0.0,
+  "description": "This backpack comes with a main compartment that stores 15.00 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 5 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 15 Investigation check.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

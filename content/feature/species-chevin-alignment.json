@@ -1,0 +1,9 @@
+{
+  "key": "species-chevin-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Chevin",
+  "description": "Chevin warmongering and slavetrading cause them to tend toward the dark side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

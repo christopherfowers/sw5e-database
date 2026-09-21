@@ -1,0 +1,9 @@
+{
+  "key": "species-chevin-nomadic",
+  "name": "Nomadic",
+  "grantedBy": "species",
+  "grantedByName": "Chevin",
+  "description": "You are proficient in Survival.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

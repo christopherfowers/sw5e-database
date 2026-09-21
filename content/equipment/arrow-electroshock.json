@@ -1,0 +1,11 @@
+{
+  "key": "arrow-electroshock",
+  "name": "Arrow, Electroshock",
+  "category": "ammunition",
+  "costInCredits": 150,
+  "weight": 0.0,
+  "description": "An electroshock arrow is a specialized arrow for use with bow weapons. When you hit a creature with this arrow, the creature must make a DC 14 Dexterity saving throw. On a failed save, the creature takes 1d3 ion damage and becomes stunned until the start of its next turn. On a successful save, a creature takes half damage and isn’t stunned. Once the arrow hits a target, it no longer gives a bonus.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,6 @@
+{
+  "key": "special",
+  "name": "Special",
+  "contentSet": "core",
+  "description": "A weapon with this property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."
+}

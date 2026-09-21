@@ -1,0 +1,9 @@
+{
+  "key": "species-sullustan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Sullustan",
+  "description": "Sullustans typically stand 4 and a half to 5 feet tall and weigh around 120 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

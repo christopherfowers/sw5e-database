@@ -1,0 +1,7 @@
+{
+  "key": "sample-realspace-travel-times",
+  "name": "Sample Realspace Travel Times",
+  "contentSet": "core",
+  "body": "|Distance|Time Required|\n|:--|--:|\n|Surface of planet to orbit|1-5 minutes|\n|Orbit to safe hyperspace jump distance|1 minute|\n|Orbit to planet's moon|10-30 minutes|\n|Orbit to another planet in the same system|2-6 hours|\n|Orbit to outer edge of system|12-24 hours|",
+  "subject": "Starships"
+}

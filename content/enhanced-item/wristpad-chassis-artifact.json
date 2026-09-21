@@ -1,0 +1,11 @@
+{
+  "key": "wristpad-chassis-artifact",
+  "name": "Wristpad Chassis (Artifact)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "artifact",
+  "requiresAttunement": true,
+  "subtype": "tech",
+  "description": "_**Requires attunement**_\nThis modifiable wristpad chassis comes with vacant modification slots for wristpad modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+}

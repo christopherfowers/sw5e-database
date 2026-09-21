@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "You have a swimming speed of 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

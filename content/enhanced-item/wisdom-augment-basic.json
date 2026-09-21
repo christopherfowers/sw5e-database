@@ -1,0 +1,11 @@
+{
+  "key": "wisdom-augment-basic",
+  "name": "Wisdom Augment (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Wisdom score increases by 1. One ability score other than Wisdom (chosen by the GM) decreases by 1."
+}

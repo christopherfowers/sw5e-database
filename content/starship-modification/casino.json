@@ -1,0 +1,20 @@
+{
+  "key": "casino",
+  "name": "Casino",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite offers all of the necessary implements, including furniture and customized chips, to run a gambling institution. In order to operate, the casino requires a number of crewmembers, equal to one-tenth the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nA casino can comfortably host a number of guests equal to half the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nAt the end of each gaming day, the GM can roll a d20 to determine whether and how much the casino makes or loses money. The amount the casino makes or loses depends on the ship's size:\n| d20 Roll | Large | Huge | Garagntuan |\n|:--:|----:|----:|----:|\n| 20    | 15,000 cr | 150,000 cr  |1,500,000 cr |\n| 16-19 | 7,200 cr  | 72,000 cr   | 720,000 cr  |\n| 12-15 | 3,500 cr  | 35,000 cr   | 350,000 cr  |\n| 8-11  | 1,000 cr  | 10,000 cr   | 100,000 cr  |\n| 4-7   | 0 cr      | 0 cr        | 0 cr        |\n| 2-3   | -4,800 cr | -48,000 cr  | -480,000 cr |\n| 1     | -9,000 cr | -90,000 cr  | -900,000 cr |\nThese amounts include the wages of the employees."
+}

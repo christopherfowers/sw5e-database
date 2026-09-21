@@ -1,0 +1,21 @@
+{
+  "key": "doublesaber",
+  "name": "Doublesaber",
+  "category": "weapon",
+  "costInCredits": 725,
+  "weight": 2.25,
+  "properties": [
+    "double (1d8 energy)",
+    "finesse",
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

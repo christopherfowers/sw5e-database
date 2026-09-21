@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "Anomid's pacifistic culture causes them to tend toward light alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "natural-slicer",
+  "name": "Natural Slicer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "description": "Whenever you make a Charisma (Interfere) check, you may instead make an Intelligence (Slicer Tools) check."
+}

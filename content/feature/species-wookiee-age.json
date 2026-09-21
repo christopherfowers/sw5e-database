@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "Wookiees reach adulthood at about 40 and can live to be 400.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-tarasin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Tarasin",
+  "description": "Tarasins reach adulthood at 10 and live less than 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

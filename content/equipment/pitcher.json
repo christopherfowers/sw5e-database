@@ -1,0 +1,11 @@
+{
+  "key": "pitcher",
+  "name": "Pitcher",
+  "category": "storage",
+  "costInCredits": 8,
+  "weight": 2.0,
+  "description": "A pitcher stores 1 gallon of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

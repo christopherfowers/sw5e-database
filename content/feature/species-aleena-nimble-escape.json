@@ -1,0 +1,9 @@
+{
+  "key": "species-aleena-nimble-escape",
+  "name": "Nimble Escape",
+  "grantedBy": "species",
+  "grantedByName": "Aleena",
+  "description": "You can take the Disengage or Hide action as a bonus action on each of its turns.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "sith-acolyte-s-robe",
+  "name": "Sith Acolyte's Robe",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "body",
+  "description": "_**Requires attunement**_\nYou gain a +1 bonus to damage rolls with weapons and force powers while you wear this robe.\n\n_Designed for those who relish personal combat, and know that power comes to those who take it, these robes augment offensive capabilities with no hindrance to movement._"
+}

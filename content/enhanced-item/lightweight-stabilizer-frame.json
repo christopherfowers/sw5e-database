@@ -1,0 +1,12 @@
+{
+  "key": "lightweight-stabilizer-frame",
+  "name": "Lightweight Stabilizer Frame",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "prerequisite": "Two-handed property",
+  "description": "This weapon loses the two-handed property."
+}

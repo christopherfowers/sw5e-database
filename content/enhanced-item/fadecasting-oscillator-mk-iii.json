@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-oscillator-mk-iii",
+  "name": "Fadecasting Oscillator Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +2 bonus to the tech save DC of powers that require a Strength or Constitution saving throw."
+}

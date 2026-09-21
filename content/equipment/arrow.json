@@ -1,0 +1,11 @@
+{
+  "key": "arrow",
+  "name": "Arrow",
+  "category": "ammunition",
+  "costInCredits": 1,
+  "weight": 0.0,
+  "description": "Arrows are ammunition used in bow weapons. When you would use poison to coat a weapon or slug cartridge you can instead coat an arrow with the poison. Once a poisoned arrow hits a target, it no longer gives a bonus.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-the-corsair-corsair-munitions-3",
+  "name": "Corsair Munitions",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of the Corsair",
+  "level": 3,
+  "description": "_**Path of the Corsair:** 3rd level_\nYou can throw grenades and set mines with your bonus action, instead of your action. Additionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range. Lastly, when determining the save DC of a charge, grenade, mine, missile, or rocket you control, you can use your universal force save DC, if it would be higher than the item's DC.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

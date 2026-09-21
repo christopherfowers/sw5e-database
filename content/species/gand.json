@@ -1,0 +1,85 @@
+{
+  "key": "gand",
+  "name": "Gand",
+  "size": "medium",
+  "homeworld": "Gand",
+  "nativeLanguage": "Gand",
+  "lore": "### Biology and Appearance\nGand are sentient, stocky humanoids whose insectoid bodies are covered in a chitinous exoskeleton. The natural armor allow the Gand to shrug off injuries that would cripple most other species. The exoskeleton provides extra protection in the clavicle region, which prevented most nerve or pressure-point strikes to the neck and shoulders. In addition, Gands have the remarkable ability to regrow lost limbs. If a Gand is dismembered, it can regrow a lost limb in a few days.\n\n### Society and Culture\nGand society places heavy importance on the achievements of an individual and holds that an individual has no name, and thus no worth, until he or she proves otherwise. The speech patterns of Gands utilize third-person self-reference within each level of identity earned. Young or unproven Gands are all called \"Gand,\" as they are considered merely aspects of the same whole. Major accomplishments earn the use of a family surname. Mastering a skill, such as becoming a findsman, allows for the use of the given name, all with third-person self-reference. This manner of speaking is common within the spoken and written Gand language but is more predominant when a Gand speaks Basic; it is often a source of amusement to outsiders.\n\n### Names\nUntil a Gand has earned the use of a name, they go simply by the term \"Gand.\" Gand speak in the third person and refer to themselves by name. Often, when a Gand feels shamed, they will stop referring to themselves by their name and revert to calling themselves \"Gand\" until they prove themselves again. Male and female names are not distinct.\n\n**First Names.** C'nyir, Dash, Iglid, Kyuffax, T'rix\n\n**Surname.** Diqlu, Krakee, Praafri, Quudya, Zooq",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Gand reach adulthood when they earn their name, which is usually in their teens, and live to be about 70 on average."
+    },
+    {
+      "name": "Alignment",
+      "description": "Gand tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Gand stand 4 to 6 feet tall and weigh around 100 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Exoskeleton",
+      "description": "You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+    },
+    {
+      "name": "Gand Resilience",
+      "description": "You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9)."
+    },
+    {
+      "name": "Lungless",
+      "description": "Gand do not have lungs, and therefore do not need to breathe."
+    },
+    {
+      "name": "Regenerative",
+      "description": "When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Gand. The Gand language does not use pronouns as Gand refer to themselves in the third person, so often Gand who speak Galactic Basic are difficult to understand."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'1\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "75 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Exoskeletons, three-fingered hands",
+    "skinColorOptions": "Varying shades of brown, green, and purple",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Brown, black, green, or silver"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gand.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

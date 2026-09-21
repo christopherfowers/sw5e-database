@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-mon-calamari-resistance",
+  "name": "Mon Calamari Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "You have advantage on saving throws against effects that grant the slowed condition and you have resistance against cold damage (explained in chapter 9).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

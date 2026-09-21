@@ -1,0 +1,9 @@
+{
+  "key": "species-vurk-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Vurk",
+  "description": "You can speak, read, and write Galactic Basic and Semblan. Semblan has a very melodic feel and often evokes images of waterfalls to those who don't understand its meanings.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

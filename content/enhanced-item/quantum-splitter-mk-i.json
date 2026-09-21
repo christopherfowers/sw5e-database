@@ -1,0 +1,11 @@
+{
+  "key": "quantum-splitter-mk-i",
+  "name": "Quantum Splitter Mk I",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "When you deal damage with this weapon, you can roll a d4 and add the result to the total."
+}

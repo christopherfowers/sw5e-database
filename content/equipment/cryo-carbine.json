@@ -1,0 +1,22 @@
+{
+  "key": "cryo-carbine",
+  "name": "Cryo carbine",
+  "category": "weapon",
+  "costInCredits": 1250,
+  "weight": 6.0,
+  "properties": [
+    "power cell (range 45/180)",
+    "reload 12",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "cold"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

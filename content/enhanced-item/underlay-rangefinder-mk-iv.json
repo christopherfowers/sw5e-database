@@ -1,0 +1,11 @@
+{
+  "key": "underlay-rangefinder-mk-iv",
+  "name": "Underlay Rangefinder Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +3 bonus to ranged tech attacks."
+}

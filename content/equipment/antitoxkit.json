@@ -1,0 +1,11 @@
+{
+  "key": "antitoxkit",
+  "name": "Antitoxkit",
+  "category": "medical",
+  "costInCredits": 600,
+  "weight": 4.0,
+  "description": "An antitoxkit contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour. It confers no benefit to droids or constructs.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

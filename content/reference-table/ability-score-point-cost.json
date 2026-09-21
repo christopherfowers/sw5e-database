@@ -1,0 +1,7 @@
+{
+  "key": "ability-score-point-cost",
+  "name": "Ability Score Point Cost",
+  "contentSet": "core",
+  "body": "|Score|Cost|\n|:--:|:--:|\n|8|0|\n|9|1|\n|10|2|\n|11|3|\n|12|4|\n|13|5|\n|14|7|\n|15|9|",
+  "subject": "Character creation"
+}

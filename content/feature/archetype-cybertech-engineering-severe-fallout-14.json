@@ -1,0 +1,10 @@
+{
+  "key": "archetype-cybertech-engineering-severe-fallout-14",
+  "name": "Severe Fallout",
+  "grantedBy": "archetype",
+  "grantedByName": "Cybertech Engineering",
+  "level": 14,
+  "description": "***Cybertech Engineering:** 14th level*\nWhenever a creature rolls a natural 1 on a saving throw against one of your tech powers they take double damage from that power. If the power doesn't deal damage, instead they have disadvantage on their next saving throw against a tech power you cast.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

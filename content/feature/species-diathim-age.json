@@ -1,0 +1,9 @@
+{
+  "key": "species-diathim-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Diathim",
+  "description": "Diathim reach adulthood in their late teens and live about 100 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

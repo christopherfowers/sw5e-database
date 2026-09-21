@@ -1,0 +1,86 @@
+{
+  "key": "togorian",
+  "name": "Togorian",
+  "size": "medium",
+  "homeworld": "Togoria",
+  "nativeLanguage": "Togorese",
+  "lore": "### Biology and Appearance\nThe Togorian people are a feline warrior species native to the planet Togoria. They are large, heavy-framed bipeds, with retractable claws on their hands and feet. Female Togorians grow up to 7 feet tall, while adult males can reach up to 9 feet. They're covered in gray-white, black, brown, or orange fur, often with colorful spots or stripes.\n\n### Society and Culture\nTogorians have a unique cultural division between their sexes. They evolved as nomadic hunters of creatures like the bist and etelo, surviving on the wilderness as apex predators. As time went on, a rift in their society developed between the two sexes. Males were drawn to continue their lifestyle as nomads and hunters for their people, while females tended to prefer remaining in permanent camps and contributed the vast majority of their species technological developments. This division has continued into modern times, with males continuing their nomadic traditions and females frequently preferring to stay in villages and cities. Males visit their mates for about a month each year, but otherwise the sexes live completely separate lives. Whether in spite of this separation of the sexes, or because of it, Togorians are typically monogamous and devoted to their chosen mates.\n\n### Names\nTogorian names tend to be short and primal-sounding. Female names tend to include softer consonants and more vowels, while male names are typically harsher. Togorians do not use surnames.\n\n**Male Names.** Mezgraf, Mlatar, Morto, Mrrov, Torr\n\n**Female Names.** Coelle, Elotis, H'sishi, Kra'ake, Rrowv",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Dexterity or Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Togorian reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Togorians' rigid sense of honor causes them to tend toward lawful light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Togorians tower over almost all other species, with smaller females standing upwards of 7 feet tall and weighing 250 lbs., while males can easily reach 8 feet tall and weigh around 350 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage."
+    },
+    {
+      "name": "Savage Attacks",
+      "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+    },
+    {
+      "name": "Stealthy Hunter",
+      "description": "You have proficiency in the Survival and Stealth skills."
+    },
+    {
+      "name": "Toughness",
+      "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Togorese. Togorese is characterized by its deep, resonating growls."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity",
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'2\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "175 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Large frame, retractable claws, striped fur, rigid honor code",
+    "skinColorOptions": "Black, brown, or white",
+    "hairColorOptions": "Black, brown, orange, or white",
+    "eyeColorOptions": "Brown, green, orange, or yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_togorian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

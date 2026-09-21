@@ -1,0 +1,85 @@
+{
+  "key": "kyuzo",
+  "name": "Kyuzo",
+  "size": "medium",
+  "homeworld": "Phatrong",
+  "nativeLanguage": "Kyuzo",
+  "lore": "### Biology and Appearance\nA lanky, bipedal humanoid species, the Kyuzo originate on the gravity-heavy Outer Rim world of Phatrong. Kyuzo are tall and slender, though their appearance belies their strength and quickness. Due to the uncommon makeup of their homeworld's atmosphere, Kyuzo frequently wear corrective lenses and a highly pressurized filter mask over their faces to protect their sensitive respiratory systems and assist them in coping with uncomfortable climates like galactic standard habitable environments. As well as causing respiratory and vision problems, exposure to such conditions causes a Kyuzo to become ill within in a short period of time, interfering with their ability to concentrate and slowing them down.\n\n### Society and Culture\nA species known for its strong sense of justice and honor, most Kyuzo regard oaths and contracts as unbreakable and many species seek them as mercenaries, law-enforcement personnel and bounty hunters. A highly political species, the Kyuzo developed societies that span considerable geographical areas, and most identify as members of a particular country or region. Most major islands and continents on Phatrong are their own political units, though they do form a loose confederacy.\n\n### Names\nMale names typically end in vowels, while female names end in consonants. Surnames are based on region.\n\n**Male Names.** Drego, Embo, Khalu, Mhali, Zuvio\n\n**Female Names.** Catras, Garing, Streehn, Turung\n\n**Surnames.** Brihney, Ghall, Khambey, Maway, Vori",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Kyuzo reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Kyuzos' belief in justice and honor cause them to tend toward lawful balanced, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Kyuzo typically stand between 6 and 7 feet tall and weigh around 170 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Foreign Biology",
+      "description": "Kyuzo struggle in atmospheres other than those of Phatrong. You wear a filter mask, and if your mask is removed while you are in such an environment, you lose consciousness."
+    },
+    {
+      "name": "Long-Limbed",
+      "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+    },
+    {
+      "name": "Strong-Legged",
+      "description": "When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Kyuzo. Kyuzo is characterized by short words and quick phrases. Kyuzo struggle with Galactic Basic as it is grammatically dissimilar to Kyuzo."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'9\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "140 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Compound or slit-pupiled eyes, dense musculature, suffer from respiratory and vision problems in standard gravity environments",
+    "skinColorOptions": "Green, ranging from lighter olive shades to deep blue-green colors",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kyuzo.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

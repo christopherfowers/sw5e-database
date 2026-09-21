@@ -1,0 +1,9 @@
+{
+  "key": "species-gormak-adaptive-resilience",
+  "name": "Adaptive Resilience",
+  "grantedBy": "species",
+  "grantedByName": "Gormak",
+  "description": "Their innate understanding of technology allow gormak to readily adapt to its effects. You have advantage on Strength and Constitution saving throws against tech powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

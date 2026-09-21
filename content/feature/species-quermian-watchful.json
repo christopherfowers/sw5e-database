@@ -1,0 +1,9 @@
+{
+  "key": "species-quermian-watchful",
+  "name": "Watchful",
+  "grantedBy": "species",
+  "grantedByName": "Quermian",
+  "description": "You have proficiency in the Perception skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-culisetto-prehensile-feet",
+  "name": "Prehensile Feet",
+  "grantedBy": "species",
+  "grantedByName": "Culisetto",
+  "description": "You have supreme control over your feet and can use them to manipulate objects as well as your hands.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

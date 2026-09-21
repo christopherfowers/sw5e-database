@@ -1,0 +1,10 @@
+{
+  "key": "archetype-niman-form-channel-the-force-3",
+  "name": "Channel the Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Niman Form",
+  "level": 3,
+  "description": "_**Niman Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Telekinetic Slash\nWhen you deal damage with an at-will force power that requires a force attack or a saving throw, you can expend a use of your Channel the Force and expend force points to deal additional damage to the target, which is the same type as the power's damage. The additional damage is 1d8 for each point spent in this way. You can't deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

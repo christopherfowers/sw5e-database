@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-ii-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class II",
+  "description": "Class II droids stand 2 to 4 feet tall and weigh about 70 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

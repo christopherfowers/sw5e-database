@@ -1,0 +1,8 @@
+{
+  "key": "multiclass-improvement",
+  "name": "Multiclass Improvement",
+  "prerequisite": "4th level",
+  "description": "You've learned to blend the skills of your different classes. Choose two of the multiclass improvement options, detailed later in this chapter. You can take this feat multiple times.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

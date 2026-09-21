@@ -1,0 +1,13 @@
+{
+  "key": "force-piloting",
+  "name": "Force Piloting",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "casting",
+      "text": "The ability to cast force powers"
+    }
+  ],
+  "description": "When you make an Dexterity (Manuever) check while aboard your ship, you may add half (round up) your Wisdom or Charisma modifier (your choice), to your result. Additionally, you can add half (round up) your Wisdom or Charisma modifier (your choice) to your ship's AC while at the helm.\n\\pagebreakNum"
+}

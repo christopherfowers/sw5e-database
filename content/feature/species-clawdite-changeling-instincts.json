@@ -1,0 +1,9 @@
+{
+  "key": "species-clawdite-changeling-instincts",
+  "name": "Changeling Instincts",
+  "grantedBy": "species",
+  "grantedByName": "Clawdite",
+  "description": "You gain proficiency with two of the following skills of your choice: Deception, Intimidation, Insight, and Persuasion",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-jungle-dweller",
+  "name": "Jungle Dweller",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "Growing up in the rainforests of Troiken has left an impact. You don't treat jungle terrain as difficult terrain.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

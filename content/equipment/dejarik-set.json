@@ -1,0 +1,10 @@
+{
+  "key": "dejarik-set",
+  "name": "Dejarik set",
+  "category": "gamingSet",
+  "costInCredits": 300,
+  "weight": 8.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

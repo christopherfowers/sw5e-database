@@ -1,0 +1,11 @@
+{
+  "key": "bolstering-channel-novice",
+  "name": "Bolstering Channel (Novice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the bolstering 2 property. If it already has the bolstering property, its bolstering number increases by 2, to a maximum of 12."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "mind-over-matter",
+  "name": "Mind Over Matter",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "description": "When you are forced to make an Intelligence, Wisdom, or Charisma saving throw, you can expend a superiority die to change the saving throw ability to your maneuver ability modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

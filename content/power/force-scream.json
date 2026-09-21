@@ -1,0 +1,17 @@
+{
+  "key": "force-scream",
+  "name": "Force Scream",
+  "powerType": "force",
+  "level": 3,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (15-foot radius)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You emit a scream imbued with the power of the Force. Each creature you choose within 15 feet of you must succeed on a Constitution saving throw. On a failed save, a creature take 4d6 psychic damage, 4d6 sonic damage, and is deafened until the end of its next turn. On a successful save, it takes half as much damage and isn't deafened.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

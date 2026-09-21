@@ -1,0 +1,9 @@
+{
+  "key": "species-sith-pureblood-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Sith Pureblood",
+  "description": "The cruelty of the Sith causes them to tend toward chaotic dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

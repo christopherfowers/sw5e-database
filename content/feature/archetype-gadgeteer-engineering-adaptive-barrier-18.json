@@ -1,0 +1,10 @@
+{
+  "key": "archetype-gadgeteer-engineering-adaptive-barrier-18",
+  "name": "Adaptive Barrier",
+  "grantedBy": "archetype",
+  "grantedByName": "Gadgeteer Engineering",
+  "level": 18,
+  "description": "_**Gadgeteer Engineering:** 18th level_\nWhen a creature who has one of your barriers within 30 feet of you that you can see takes damage, and that damage is of a type that could be affected by that barrier, you can use your reaction to grant them resistance to the triggering damage. If that damage is the same type as the barrier's chosen damage, you instead grant them immunity. Whether resistance or immunity, the barrier immediately drops to 0 hit points.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

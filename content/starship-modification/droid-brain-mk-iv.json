@@ -1,0 +1,16 @@
+{
+  "key": "droid-brain-mk-iv",
+  "name": "Droid Brain, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Droid Brain, Mk III",
+      "modificationName": "Droid Brain, Mk III"
+    }
+  ],
+  "description": "You massively improve your ship's droid brain. Your droid brain's proficiency bonus increases to 5. Additionally, your droid brain has expertise in Piloting."
+}

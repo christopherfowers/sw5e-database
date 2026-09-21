@@ -1,0 +1,10 @@
+{
+  "key": "archetype-zoologist-pursuit-wilderness-expert-3",
+  "name": "Wilderness Expert",
+  "grantedBy": "archetype",
+  "grantedByName": "Zoologist Pursuit",
+  "level": 3,
+  "description": "_**Zoologist Pursuit:** 3rd level_\nYou gain proficiency in Animal Handling, and you have advantage on Wisdom (Animal Handling) checks. Additionally, you can't have disadvantage on Wisdom (Animal Handling) checks.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

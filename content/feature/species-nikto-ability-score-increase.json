@@ -1,0 +1,9 @@
+{
+  "key": "species-nikto-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Nikto",
+  "description": "Your Constitution score increases by 2, and one other ability score of your choice increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

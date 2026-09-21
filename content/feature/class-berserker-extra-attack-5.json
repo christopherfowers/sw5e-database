@@ -1,0 +1,10 @@
+{
+  "key": "class-berserker-extra-attack-5",
+  "name": "Extra Attack",
+  "grantedBy": "class",
+  "grantedByName": "Berserker",
+  "level": 5,
+  "description": "_**Berserker:** 5th level_\nYou can attack twice, instead of once, whenever you take the Attack action on your turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,8 @@
+{
+  "key": "close-quarters-caster",
+  "name": "Close Quarters Caster",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "description": "You've practiced utilizing powers in close quarters, learning techniques that grant you the following benefits:\n- When making a ranged force or tech attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.\n- Your ranged force and tech attacks ignore half cover and three-quarters cover against targets within 30 feet of you.\n- You learn one at-will power that requires an attack roll. Your casting ability for this at-will power depends on the power list you chose from: Wisdom or Charisma (depending on power alignment) for force powers or Intelligence for tech powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

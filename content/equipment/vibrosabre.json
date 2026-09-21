@@ -1,0 +1,21 @@
+{
+  "key": "vibrosabre",
+  "name": "Vibrosabre",
+  "category": "weapon",
+  "costInCredits": 300,
+  "weight": 1.75,
+  "properties": [
+    "dexterity 11",
+    "keen 1",
+    "light"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-houk-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Houk",
+  "description": "You can speak, read, and write Galactic Basic and Houkese. Houkese is mainly formed by grunts, with subtle tonal inflections to differentiate words that would otherwise sound the same. Written Houkese uses primitive ideograms with one letter to represent each simple verb, and complex pictograms to represent nouns.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

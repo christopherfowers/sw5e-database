@@ -1,0 +1,11 @@
+{
+  "key": "slayer-technique",
+  "name": "Slayer Technique",
+  "className": "Scout",
+  "casterType": "none",
+  "casterRatio": 0,
+  "classCasterType": "tech",
+  "description": "Some scouts seek to learn the most about their foes and to capitalize on that knowledge. Followers of the Slayer Technique focus on identifying the strengths and weaknesses of their prey, taking advantage of that knowledge to vanquish their foes.\n\n### Bonus Proficiencies\n_**Slayer Technique:** 3rd level_\nYou gain proficiency in heavy armor.\n\n### Slayer's Pride\n_**Slayer Technique:** 3rd level_\nYou have advantage on saving throws against being frightened.\n\n### Mark of the Slayer\n_**Slayer Technique:** 3rd level_\nYou immediately learn if the target of your Ranger's Quarry feature has any damage immunities, resistances, or vulnerabilities and what they are. Additionally, the first time you hit the target of your Ranger's Quarry feature with a weapon attack each turn, it takes extra damage equal to your Ranger's Quarry Damage Die. The damage is of the same type as the weapon's damage.\n\n### Supernatural Defense\n_**Slayer Technique:** 7th level_\nWhenever the target of your Ranger's Quarry forces you to make a saving throw, or whenever you make an ability check to escape that targets grapple, you can use your reaction and roll your Ranger's Quarry Damage Die, adding it to the roll.\n\n### Nemesis\n_**Slayer Technique:** 11th level_\nWhen you score a critical hit or reduce a creature to 0 hit points on your turn, you can use your bonus action to force one creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw against your tech save DC. On a failed save, a creature becomes frightened of you for 1 minute. At the end of each of the creature's turns it repeats this saving throw, ending the effect on a success.\n\n### Slayer's Counter\n_**Slayer Technique:** 15th level_\nIf the target of your Ranger's Quarry feature forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, you automatically succeed on the saving throw, in addition to the attack's normal effects.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "ace-pilot-s-pattern-elite",
+  "name": "Ace Pilot's Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Piloting increases by five steps (to high mastery or from trained to grand mastery)."
+}

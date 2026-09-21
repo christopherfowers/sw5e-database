@@ -1,0 +1,10 @@
+{
+  "key": "administer-aid",
+  "name": "Administer Aid",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "prerequisite": "Proficiency in Medicine",
+  "description": "As an action, you can expend a superiority die to tend to a creature you can touch. The creature regains a number of hit points equal to the number rolled + your maneuver ability modifier.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "hardpoint",
+  "name": "Hardpoint",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "description": "A hardpoint is used to mount a primary, secondary, tertiary, or quaternary weapon. A weapon mounted on a Hardpoint has a limited firing arc, as described in chapter 9."
+}

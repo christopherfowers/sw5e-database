@@ -1,0 +1,9 @@
+{
+  "key": "species-herglic-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Herglic",
+  "description": "You can speak, read, and write Galactic Basic and Herglese. Herglese has a clear and commanding cadence, drawing the attention of those who hear it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

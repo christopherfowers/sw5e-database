@@ -1,0 +1,23 @@
+{
+  "key": "anti-materiel-rifle",
+  "name": "Anti-materiel rifle",
+  "category": "weapon",
+  "costInCredits": 1900,
+  "weight": 17.0,
+  "properties": [
+    "slug cartridge (range 180/720)",
+    "reload 2",
+    "penetrating 2",
+    "strength 19",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

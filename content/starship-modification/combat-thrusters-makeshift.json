@@ -1,0 +1,9 @@
+{
+  "key": "combat-thrusters-makeshift",
+  "name": "Combat Thrusters, Makeshift",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "Your ship’s turning speed decreases by 50 feet and flying speed decreases by 50 feet."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-half-human-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Half-human",
+  "description": "Half-humans tend towards their non-human half's alignment.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

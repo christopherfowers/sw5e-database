@@ -1,0 +1,10 @@
+{
+  "key": "archetype-armstech-engineering-close-call-3",
+  "name": "Close Call",
+  "grantedBy": "archetype",
+  "grantedByName": "Armstech Engineering",
+  "level": 3,
+  "description": "_**Armstech Engineering:** 3rd level_\nWhen you make an attack roll with your modified weapon and miss, you can expend one use of your Potent Aptitude to attempt to turn that miss into a hit. Roll the die and add it to the attack roll.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

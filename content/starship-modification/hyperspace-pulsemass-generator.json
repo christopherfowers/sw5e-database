@@ -1,0 +1,20 @@
+{
+  "key": "hyperspace-pulsemass-generator",
+  "name": "Hyperspace pulsemass generator",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "As an action, a crewmember can create a turbulent field of tiny spheres of hyper-energy that buffets ships around you. The field extends out to a distance of 150 feet around your ship for a number of rounds up to your ship's tier (minimum of one).\nWhen you activate this feature, you can designate any number of ships you can see to be unaffected by it. An affected ship gains 1 [Slowed Level](#Slowed%20Level) while in the area, and when the ship enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, the ship takes 3d8 energy damage. On a successful save, the ship takes half as much damage.\nThe effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

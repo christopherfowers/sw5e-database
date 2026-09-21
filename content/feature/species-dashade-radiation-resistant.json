@@ -1,0 +1,9 @@
+{
+  "key": "species-dashade-radiation-resistant",
+  "name": "Radiation Resistant",
+  "grantedBy": "species",
+  "grantedByName": "Dashade",
+  "description": "Dashade are naturally able to resist radiation. You have resistance to necrotic damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

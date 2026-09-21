@@ -1,0 +1,10 @@
+{
+  "key": "stabilizer-suit",
+  "name": "Stabilizer suit",
+  "category": "lifeSupport",
+  "costInCredits": 1800,
+  "weight": 25.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

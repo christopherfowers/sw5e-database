@@ -1,0 +1,21 @@
+{
+  "key": "saberspear",
+  "name": "Saberspear",
+  "category": "weapon",
+  "costInCredits": 450,
+  "weight": 2.0,
+  "properties": [
+    "luminous",
+    "thrown (range 20/60)",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

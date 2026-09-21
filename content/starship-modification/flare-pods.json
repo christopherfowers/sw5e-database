@@ -1,0 +1,9 @@
+{
+  "key": "flare-pods",
+  "name": "Flare Pods",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "Your ship is equipped with a series of counter-measure flares. When your ship is forced to make a Dexterity saving throw, a crewmember can use their reaction to release a flare. When they do so, your ship has advantage on the triggering saving throw. The crewmember can choose to use this feature after the roll is made, but before the GM says whether the roll succeeds or fails. If they already have advantage on the saving throw, they can instead reroll one of the dice once.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+}

@@ -1,0 +1,21 @@
+{
+  "key": "electrobaton",
+  "name": "Electrobaton",
+  "category": "weapon",
+  "costInCredits": 275,
+  "weight": 1.0,
+  "properties": [
+    "finesse",
+    "light",
+    "shocking 13"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

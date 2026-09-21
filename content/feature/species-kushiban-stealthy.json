@@ -1,0 +1,9 @@
+{
+  "key": "species-kushiban-stealthy",
+  "name": "Stealthy",
+  "grantedBy": "species",
+  "grantedByName": "Kushiban",
+  "description": "You are proficient in the Stealth skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

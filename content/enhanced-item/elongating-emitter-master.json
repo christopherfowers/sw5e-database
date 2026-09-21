@@ -1,0 +1,11 @@
+{
+  "key": "elongating-emitter-master",
+  "name": "Elongating Emitter (Master)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the elongating 25 property. If it already has the elongating property, its elongating number increases by 25, to a maximum of 30."
+}

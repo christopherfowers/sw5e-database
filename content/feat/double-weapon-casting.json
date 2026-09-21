@@ -1,0 +1,13 @@
+{
+  "key": "double-weapon-casting",
+  "name": "Double-Weapon Casting",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "abilityScoreIncreases": [
+    "intelligence",
+    "wisdom",
+    "charisma"
+  ],
+  "description": "You've learned to blend your prowess with twinblades with your casting. You gain the following benefits:\n- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n- When you use your action to Cast a Power that calls for a weapon attack and attack with a weapon with the light and double properties while wielding it in two hands, you can use your bonus action to engage in Double-Weapon Fighting. All the rules of Double-Weapon Fighting still apply to you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

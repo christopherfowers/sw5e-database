@@ -1,0 +1,9 @@
+{
+  "key": "species-human-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Human",
+  "description": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

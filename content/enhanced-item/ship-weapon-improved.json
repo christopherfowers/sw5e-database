@@ -1,0 +1,11 @@
+{
+  "key": "ship-weapon-improved",
+  "name": "Ship Weapon (Improved)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "shipWeapon",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "Your ship has a +2 bonus to attack and damage rolls made with this enhanced ship weapon."
+}

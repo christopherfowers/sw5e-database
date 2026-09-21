@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-ii-droid-vulnerabilities",
+  "name": "Droid Vulnerabilities",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class II",
+  "description": "You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

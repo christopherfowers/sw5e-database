@@ -1,0 +1,11 @@
+{
+  "key": "matrix-armor",
+  "name": "Matrix Armor",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "armor",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "any heavy",
+  "description": "While wearing this suit of armor, any critical hit against you becomes a normal hit.\n\n_This suit of armor has had its protective durasteel components replaced by equivalents made of matrix, a purple metal used to reinforce starships._"
+}

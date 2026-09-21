@@ -1,0 +1,11 @@
+{
+  "key": "code-cylinder",
+  "name": "Code cylinder",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 20,
+  "weight": 0.5,
+  "description": "Code cylinders are security devices in the shape of short cylinders that contain coded information about their bearers and grant them access to secure areas.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

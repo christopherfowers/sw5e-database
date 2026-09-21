@@ -1,0 +1,8 @@
+{
+  "key": "spiritual-techcaster",
+  "name": "Spiritual Techcaster",
+  "prerequisite": "The ability to cast tech powers",
+  "description": "You've developed a transcendent approach to your tech prowess. Choose one from Wisdom or Charisma. You gain the following benefits:\n- Increase the chosen ability score by 1, to a maximum of 20.\n- You can use the chosen ability instead of Intelligence as your techcasting ability.\n- You can add the chosen ability instead of Intelligence when determining your maximum tech points.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

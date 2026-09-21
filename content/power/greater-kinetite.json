@@ -1,0 +1,18 @@
+{
+  "key": "greater-kinetite",
+  "name": "Greater Kinetite",
+  "powerType": "force",
+  "level": 5,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Kinetite",
+  "description": "A 5-foot diameter sphere of compressed lightning appears in an unoccupied space of your choice and lasts for the duration. Each creature within 5 feet of the sphere when the power is cast must make a Dexterity saving throw. A creature takes 5d8 lightning damage on a failed save, or half as much damage on a successful one.\n\nAs a bonus action on each of your turns, you can move the ball of lightning up to 30 feet vertically or horizontally. If you ram the sphere into a creature, that creature must make a Dexterity saving throw or take 5d8 kinetic damage (or half as much damage on a success), and the sphere stops moving this turn. A creature takes half as damage on a successful Dexterity saving throw.\n\n***Force Potency.*** When you cast this power with a force slot of 6th level or higher, both the lightning and kinetic damage increase by 1d8 for each slot level above 5th.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

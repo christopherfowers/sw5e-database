@@ -1,0 +1,11 @@
+{
+  "key": "disruption-oscillator",
+  "name": "Disruption Oscillator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the disruptive property."
+}

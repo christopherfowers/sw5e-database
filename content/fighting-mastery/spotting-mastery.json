@@ -1,0 +1,14 @@
+{
+  "key": "spotting-mastery",
+  "name": "Spotting Mastery",
+  "description": "You've mastered keeping track of your surroundings, noticing things in detail that others miss entirely. You gain the following benefits:",
+  "benefits": [
+    "You no longer have disadvantage on Wisdom (Perception) checks due to an area being lightly obscured in a 120 foot range.",
+    "When a creature rolls a d20 to redirect an attack roll you make to an illusory duplicate, they have disadvantage on the roll.",
+    "When you take the Search action, you give off no indication that you are devoting your attention to finding something.",
+    "When you find a hidden creature using the Search action, it has disadvantage on any ability checks it makes to attempt Hide from you before the start of your next turn.",
+    "When you take the Search action, you have advantage on all ability checks, attack rolls, and saving throws made as a part of that search that occur within a radius in feet equal to 5 x your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

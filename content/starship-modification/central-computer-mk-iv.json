@@ -1,0 +1,16 @@
+{
+  "key": "central-computer-mk-iv",
+  "name": "Central Computer, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Central Computer, Mk III",
+      "modificationName": "Central Computer, Mk III"
+    }
+  ],
+  "description": "You massively improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 5. Additionally, when your artificial intelligence takes the Interfere action, it has advantage on the Charisma (Interfere) check."
+}

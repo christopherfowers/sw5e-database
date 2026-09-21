@@ -1,0 +1,11 @@
+{
+  "key": "physical-barrier-mk-vi",
+  "name": "Physical Barrier Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "barrier",
+  "description": "As an action, you can administer this barrier to a creature within 5 feet. The barrier has 60 hit points, and lasts 8 hours. Whenever the creature takes damage (one of energy, ion, or kinetic, chosen by the GM when the item is created), the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage. A creature can benefit from only one barrier at a time."
+}

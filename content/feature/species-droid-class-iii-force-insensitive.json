@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-force-insensitive",
+  "name": "Force-Insensitive",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

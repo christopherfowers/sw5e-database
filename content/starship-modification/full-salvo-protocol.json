@@ -1,0 +1,9 @@
+{
+  "key": "full-salvo-protocol",
+  "name": "Full Salvo Protocol",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 3,
+  "description": "***Prerequisite:*** *Fire-Linked Mounting*\nYou can gain the benefits of your Fire-Linked Mounting even if one or both weapons are tertiary weapons."
+}

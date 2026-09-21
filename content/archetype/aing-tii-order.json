@@ -1,0 +1,319 @@
+{
+  "key": "aing-tii-order",
+  "name": "Aing-Tii Order",
+  "className": "Monk",
+  "casterType": "force",
+  "casterRatio": 0.3333333333333333,
+  "classCasterType": "none",
+  "description": "Monks of the Aing-Tii Order blend an attunement to the Force with their supreme focus to become a blur of motion in the heat of battle.\n\n### Forcecasting\n_**Aing-Tii Order:** 3rd level_\nYou have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.\n\n#### Force Powers Known\nYou learn 4 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the Aing-Tii Order Forcecasting table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.\n\n#### Force Points\nYou have a number of force points equal to your monk level, as shown in the Force Points column of the Aing-Tii Order Forcecasting table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.\n\n#### Max Power Level\nMany force powers can be overpowered, consuming more force points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Aing-Tii Order Forcecasting table.\n\nYou may only cast force powers at 4th-level once. You regain the ability to do so after a long rest.\n\n#### Forcecasting Ability\nYour forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability whenever a power refers to your forcecasting ability. Additionally, you use this ability modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.\n\n___\n\n**Force save DC** = 8 + your proficiency bonus + your forcecasting ability modifier\n\n___\n\n**Force attack modifier** = your proficiency bonus + your forcecasting ability modifier\n\n___\n\n### Flow-Walking\n_**Aing-Tii Order:** 6th, 9th, 13th, and 17th level_\nYou can cast the *phasestrike* force power without expending force points. When you reach 11th level, the damage bonus of the special attack made during *phasestrike* increases to 2d8, and at 17th level it increases to 3d8.\n\n##### Aing-Tii Order Forcecasting\n\nAdditionally, when you use your action to cast an at-will force power, you can use your Martial Arts or Focus features.\n\nYou can use these features a combined three times. You gain an additional use at 9th, 13th, and 17th level. You regain any expended uses when you finish a long rest.\n\n### Prismatic Step\n_**Aing-Tii Order:** 11th level_\nWhen you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.\n\nIf you attack at least two different creatures with the action, you can make one additional attack against a third creature (no action required).\n\n### Iridescent Strikes\n_**Aing-Tii Order:** 17th level_\nWhen you use your action to cast a force power, you can spend 2 focus points to teleport to a space within 5 feet of a creature affected by the power and make two unarmed strikes against that creature as a bonus action.",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "4"
+        },
+        {
+          "label": "Force Points",
+          "value": "3"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "6"
+        },
+        {
+          "label": "Force Points",
+          "value": "4"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Force Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "8"
+        },
+        {
+          "label": "Force Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "1st"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "10"
+        },
+        {
+          "label": "Force Points",
+          "value": "7"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "11"
+        },
+        {
+          "label": "Force Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Force Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Force Points",
+          "value": "10"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "14"
+        },
+        {
+          "label": "Force Points",
+          "value": "11"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Force Points",
+          "value": "12"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Force Points",
+          "value": "13"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Force Points",
+          "value": "14"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Force Points",
+          "value": "15"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "20"
+        },
+        {
+          "label": "Force Points",
+          "value": "16"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "22"
+        },
+        {
+          "label": "Force Points",
+          "value": "17"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "23"
+        },
+        {
+          "label": "Force Points",
+          "value": "18"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "24"
+        },
+        {
+          "label": "Force Points",
+          "value": "19"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Force Powers Known",
+          "value": "25"
+        },
+        {
+          "label": "Force Points",
+          "value": "20"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

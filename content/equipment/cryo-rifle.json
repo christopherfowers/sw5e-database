@@ -1,0 +1,23 @@
+{
+  "key": "cryo-rifle",
+  "name": "Cryo rifle",
+  "category": "weapon",
+  "costInCredits": 2400,
+  "weight": 10.5,
+  "properties": [
+    "power cell (range 50/200)",
+    "reload 4",
+    "strength 11",
+    "two-handed",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "cold"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

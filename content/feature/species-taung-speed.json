@@ -1,0 +1,9 @@
+{
+  "key": "species-taung-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Taung",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

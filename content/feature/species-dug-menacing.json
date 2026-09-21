@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "You have proficiency in the Intimidation skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

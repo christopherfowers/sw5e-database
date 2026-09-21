@@ -1,0 +1,9 @@
+{
+  "key": "species-quarren-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Quarren",
+  "description": "Quarren desire for equal rights causes them to tend toward balanced, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

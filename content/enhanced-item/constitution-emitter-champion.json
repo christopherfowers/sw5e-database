@@ -1,0 +1,11 @@
+{
+  "key": "constitution-emitter-champion",
+  "name": "Constitution Emitter (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item loses the constitution property."
+}

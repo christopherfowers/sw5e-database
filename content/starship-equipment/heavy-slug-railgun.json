@@ -1,0 +1,26 @@
+{
+  "key": "heavy-slug-railgun",
+  "name": "Heavy slug railgun",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 5150,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "constitution 17",
+    "overheat 2"
+  ],
+  "damage": {
+    "numberOfDice": 3,
+    "dieFaces": 12,
+    "type": "kinetic"
+  },
+  "range": {
+    "normal": 2400,
+    "long": 9600
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-verpine-crafters",
+  "name": "Crafters",
+  "grantedBy": "species",
+  "grantedByName": "Verpine",
+  "description": "You have proficiency in one tool of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "slowed-level",
+  "name": "Slowed Level",
+  "contentSet": "core",
+  "body": "|Level|Effect|\n|:--:|:--|\n|1|Speed reduced by 15 feet|\n|2|Speed reduced by 25 feet|\n|3|Speed reduced by 30 feet|\n|4|Speed reduced to 0, and can't benefit from any bonus to speed|",
+  "subject": "Conditions"
+}

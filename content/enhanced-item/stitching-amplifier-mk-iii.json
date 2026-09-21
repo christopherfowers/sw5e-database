@@ -1,0 +1,11 @@
+{
+  "key": "stitching-amplifier-mk-iii",
+  "name": "Stitching Amplifier Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +2 bonus to melee tech attacks."
+}

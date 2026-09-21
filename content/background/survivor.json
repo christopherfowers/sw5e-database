@@ -1,0 +1,198 @@
+{
+  "key": "survivor",
+  "name": "Survivor",
+  "lore": "You are haunted by something so terrible that you dare not speak of it. You've tried to bury it and run away from it, to no avail. Whatever this thing is that haunts you can't be slain, a ghost in the dark, a bloodcurdling nightmare, or a memory that refuses to die. The burden has taken its toll, isolating you from most people and making you question your sanity. You must find a way to overcome it before it destroys you.",
+  "skillProficiencies": "Choose two from Investigation, Lore, Survival, and Technology",
+  "toolProficiencies": "Your choice of artist's implements, biotech's implements, or brewer's kit",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A set of common clothes, one tool with which you are proficient, a tattered journal, and a belt pouch containing 100 cr",
+  "feature": {
+    "name": "Heart of Darkness",
+    "description": "Those who look into your eyes can see that you have faced unimaginable horror and that you are no stranger to darkness. Though they might fear you, commoners will extend you every courtesy and do their utmost to help you. Unless you have shown yourself to be a danger to them, they may even take up arms to fight alongside you, should you find yourself facing an enemy alone."
+  },
+  "suggestedCharacteristics": "Survivors live through some traumatic event that shapes and defines them.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I don't run from evil. Evil runs from me."
+    },
+    {
+      "roll": 2,
+      "description": "I like to read and memorize poetry. It keeps me calm and brings me fleeting moments of happiness."
+    },
+    {
+      "roll": 3,
+      "description": "I spend money freely and live life to the fullest, knowing that tomorrow I might die."
+    },
+    {
+      "roll": 4,
+      "description": "I live for the thrill of the hunt."
+    },
+    {
+      "roll": 5,
+      "description": "I don't talk about the thing that torments me. I'd rather not burden others with my curse."
+    },
+    {
+      "roll": 6,
+      "description": "I expect danger around every corner."
+    },
+    {
+      "roll": 7,
+      "description": "I refuse to become a victim, and I will not allow others to be victimized."
+    },
+    {
+      "roll": 8,
+      "description": "I put no trust in authority."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Honor",
+      "description": "I try to help those in need, no matter what the personal cost. (Light)"
+    },
+    {
+      "roll": 2,
+      "name": "Vengeance",
+      "description": "I'll stop the spirits that haunt me or die trying. (Any)"
+    },
+    {
+      "roll": 3,
+      "name": "Fury",
+      "description": "I kill monsters to make the world a safer place, and to exorcise my own demons. (Light)"
+    },
+    {
+      "roll": 4,
+      "name": "Entitlement",
+      "description": "I have a dark calling that puts me above the law. (Chaotic)"
+    },
+    {
+      "roll": 5,
+      "name": "Focus",
+      "description": "I like to know my enemy's capabilities and weaknesses before rushing into battle. (Lawful)"
+    },
+    {
+      "roll": 6,
+      "name": "Selfish",
+      "description": "I'm a monster that destroys other monsters, and anything else that gets in my way. (Dark)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "I keep my thoughts and discoveries in a journal. My journal is my legacy."
+    },
+    {
+      "roll": 2,
+      "description": "I would sacrifice my life to protect the innocent."
+    },
+    {
+      "roll": 3,
+      "description": "My torment drove away the person I love. I strive to win back the love I've lost."
+    },
+    {
+      "roll": 4,
+      "description": "A terrible guilt consumes me. I hope that I can find redemption through my actions."
+    },
+    {
+      "roll": 5,
+      "description": "There's evil in me, I can feel it. It must never be set free."
+    },
+    {
+      "roll": 6,
+      "description": "I have a child to protect. I must make the world a safer place for him (or her)."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I have certain rituals that I must follow every day. I can never break them."
+    },
+    {
+      "roll": 2,
+      "description": "I assume the worst in people."
+    },
+    {
+      "roll": 3,
+      "description": "I feel no compassion for the dead. They're the lucky ones."
+    },
+    {
+      "roll": 4,
+      "description": "I have an addiction."
+    },
+    {
+      "roll": 5,
+      "description": "I am a purveyor of doom and gloom who lives in a world without hope."
+    },
+    {
+      "roll": 6,
+      "description": "I talk to spirits that no one else can see."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Investigator"
+    },
+    {
+      "roll": 2,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 3,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 4,
+      "name": "Techie"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
+      "name": "Specialist"
+    },
+    {
+      "roll": 7,
+      "name": "Linguist"
+    },
+    {
+      "roll": 8,
+      "name": "Total Reconstruction"
+    }
+  ],
+  "variant": {
+    "name": "Source of Dismay",
+    "description": "What dire event molded you into who you are today?\n\n| d6 | Source of Dismay |\n|:---:|:-----------:|\n| 1 | A creature that slaughtered dozens of innocent people spared your life, and you don't know why. |\n| 2 | An apparition that has haunted your family for generations now haunts you, unrelentingly. |\n| 3 | Your family has a history of practicing dark sorcery or alchemy. You dabbled once and felt something horrible clutch at your mind, whereupon you fled in terror. |\n| 4 | A stranger took your sibling one cold, dark night, and you were unable to stop it. |\n| 5 | You were drastically changed physically by an accident and are haunted by what you once were.|\n| 6 | A cultist kidnapped and raised you. You escaped, but they still have a mental hold over you.|",
+    "options": [
+      {
+        "roll": 1,
+        "name": "Investigator"
+      },
+      {
+        "roll": 2,
+        "name": "Loremaster"
+      },
+      {
+        "roll": 3,
+        "name": "Survivalist"
+      },
+      {
+        "roll": 4,
+        "name": "Techie"
+      },
+      {
+        "roll": 5,
+        "name": "Crafter"
+      },
+      {
+        "roll": 6,
+        "name": "Specialist"
+      }
+    ]
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

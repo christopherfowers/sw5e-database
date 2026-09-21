@@ -1,0 +1,9 @@
+{
+  "key": "species-gotal-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Gotal",
+  "description": "You can speak, read, and write Galactic Basic and Antarian. The Antarian language is characterized by growls and clicking noises at various volumes.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

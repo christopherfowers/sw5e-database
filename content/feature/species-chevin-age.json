@@ -1,0 +1,9 @@
+{
+  "key": "species-chevin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Chevin",
+  "description": "Chevin reach adulthood in their thirties and live up to 200 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

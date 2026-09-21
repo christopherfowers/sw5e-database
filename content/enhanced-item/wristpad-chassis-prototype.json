@@ -1,0 +1,11 @@
+{
+  "key": "wristpad-chassis-prototype",
+  "name": "Wristpad Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "focus",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "tech",
+  "description": "_**Requires attunement**_\nThis modifiable wristpad chassis comes with vacant modification slots for wristpad modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "inconspicuous-shielding",
+  "name": "Inconspicuous Shielding",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "_**Prerequiste:** Shield_\nThis shield loses the obtrusive property."
+}

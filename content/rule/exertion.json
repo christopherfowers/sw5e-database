@@ -1,0 +1,8 @@
+{
+  "key": "exertion",
+  "name": "Exertion",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "ruleType": "variant",
+  "body": "When the outlook of a situation is grim, player's might want to have their character attempt to go above and beyond, fueling their endeavors with their own vitality at the expense of potentially overexerting themselves through use of this variant rule.\n\n### Exert\nOnce per round, a player can have their character attempt to exert themselves. When the character makes an ability check, attack roll, or saving throw, the character can roll a Hit Die without expending it, adding the result of the die to the roll. Alternatively, on their turn, the character can roll a Hit Die without expending it, increasing their speed by 5 x the amount rolled until the end of their turn. If the character has Hit Dice of different sizes, they can choose which Hit Die they use.\n\nThe character can wait until after it rolls the d20 before deciding to exert themselves, but must decide before the GM says whether the roll succeeds or fails.\n\n### Over-Exertion\nWhen a character exerts themselves, they immediately lose hit points equal to the amount rolled, which can't be reduced or negated in any way. If this damage would reduce the character to 0 hit points, they don't immediately fall unconscious. At the end of the current turn, if the character is still at 0 hit points, they fall unconscious and are stable."
+}

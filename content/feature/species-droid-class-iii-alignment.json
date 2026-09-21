@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "Droids tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

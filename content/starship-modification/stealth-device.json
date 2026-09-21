@@ -1,0 +1,9 @@
+{
+  "key": "stealth-device",
+  "name": "Stealth Device",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 2,
+  "description": "This modification adds a stealth device to your ship. This device effectively counteracts or negates the use of scanners, both for and against your ship.\nA crewmember can activate or deactivate the stealth device as an action. While active, your ship has advantage on Dexterty (Hide) checks that rely on scanners, but your ship has disadvantage on Intelligence (Probe) and Wisdom (Scan) checks that rely on scanners.\nAdditionally, if you try to enter hyperspace while the cloaking device is active, you must roll on the [Hyperspace Mishaps](#Hyperspace%20Mishaps) table on page 76.\nFinally, your ship is proficiently equipped for Dexterity (Hide) checks.  If your ship is already proficiently equipped, it is instead considered expertly equipped."
+}

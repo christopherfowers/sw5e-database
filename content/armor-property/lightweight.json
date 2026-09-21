@@ -1,0 +1,6 @@
+{
+  "key": "lightweight",
+  "name": "Lightweight",
+  "contentSet": "core",
+  "description": "Armor and shields with this property have their weight reduced by half."
+}

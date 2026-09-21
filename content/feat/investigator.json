@@ -1,0 +1,10 @@
+{
+  "key": "investigator",
+  "name": "Investigator",
+  "abilityScoreIncreases": [
+    "intelligence"
+  ],
+  "description": "You have an eye for detail and can pick out the smallest clues. You gain the following benefits:\n- Increase your Intelligence score by 1, to a maximum of 20.\n- You gain proficiency in the Investigation skill. If you are already proficient in it, you instead gain expertise in it.\n- You can take the Search action as a bonus action.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

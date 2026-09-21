@@ -1,0 +1,8 @@
+{
+  "key": "weapon-supremacist",
+  "name": "Weapon Supremacist",
+  "prerequisite": "4th level",
+  "description": "You've mastered a particular type of weapon. Choose one of the weapon supremacist options, detailed later in this chapter. You can take this feat multiple times.",
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,21 @@
+{
+  "key": "lightning-pistol",
+  "name": "Lightning pistol",
+  "category": "weapon",
+  "costInCredits": 550,
+  "weight": 2.0,
+  "properties": [
+    "power cell (range 30/120)",
+    "penetrating 8",
+    "reload 16"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "lightning"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

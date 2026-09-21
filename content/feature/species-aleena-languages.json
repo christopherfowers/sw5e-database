@@ -1,0 +1,9 @@
+{
+  "key": "species-aleena-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Aleena",
+  "description": "You can speak, read, and write Galactic Basic and Aleena. Aleena is characterized by its use of short syllables and energetic movements to convey urgency and emotion.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

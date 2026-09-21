@@ -1,0 +1,9 @@
+{
+  "key": "species-ithorian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ithorian",
+  "description": "You can speak, read, and write Ithorese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

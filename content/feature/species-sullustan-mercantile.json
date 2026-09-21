@@ -1,0 +1,9 @@
+{
+  "key": "species-sullustan-mercantile",
+  "name": "Mercantile",
+  "grantedBy": "species",
+  "grantedByName": "Sullustan",
+  "description": "Whenever you make a Charisma (Persuasion) check related to conducting business, you are considered to have expertise in the Persuasion skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

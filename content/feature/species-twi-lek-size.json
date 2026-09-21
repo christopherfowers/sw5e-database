@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "Twi'leks stand between 5 and 7 feet tall and weigh up to 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

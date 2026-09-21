@@ -1,0 +1,108 @@
+{
+  "key": "droid-class-v",
+  "name": "Droid, Class V",
+  "size": "medium",
+  "nativeLanguage": "Binary",
+  "lore": "### Appearance\nClass V droids are typically vaguely human-like in both shape and size, standing at around 6 feet, although many can be larger. They are usually a polished metallic color, though this can vary based on tasks for which they are created, their affiliation, or quirks of their owner.\n\nThey are noteworthy for their simple programming and quiet, focused work habits.\n\n### Utility\nClass V droids are programmed for menial and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation. Labor droids are fifth-degree droids.\n\n### Names\nDroids are typically called by their designation, given to them when they are created, or some affectation given to them by their owner. Often this affectation is a play on their designation. Occasionally, noteworthy droids will earn monikers based on their accomplishments.\n\n**Designations (Names).** CO-34 (See-Oh Three Four), FX-9 (Effex), PK-4 (Pook), SAE-B13 (Sable)",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Dexterity or Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Droids don't age, though they require maintenance to retain functionality."
+    },
+    {
+      "name": "Alignment",
+      "description": "Droids tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Class V droids typically stand between 5 and 7 feet and weigh around 260 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Type",
+      "description": "Your creature type is droid."
+    },
+    {
+      "name": "Armor Integration",
+      "description": "You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+    },
+    {
+      "name": "Droid Resistances",
+      "description": "You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+    },
+    {
+      "name": "Droid Systems",
+      "description": "You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+    },
+    {
+      "name": "Droid Vulnerabilities",
+      "description": "You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+    },
+    {
+      "name": "Force-Insensitive",
+      "description": "While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+    },
+    {
+      "name": "Maintenance Mode",
+      "description": "Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+    },
+    {
+      "name": "Manual Laborer",
+      "description": "You have proficiency in Athletics and one set of artisan's implements of your choice."
+    },
+    {
+      "name": "Powerful Build",
+      "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples."
+    },
+    {
+      "name": "Rapid Reconstruction",
+      "description": "You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity",
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'2\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "140 lb.",
+    "weightModifier": "x(2d8) lb."
+  },
+  "appearance": {
+    "distinctions": "Vaguely human-like size and shape, typically quiet",
+    "colorScheme": "Typically metallic",
+    "manufacturer": "Cybot Galactica, Industrial Automaton"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_droidclass05.png"
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

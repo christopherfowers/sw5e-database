@@ -1,0 +1,9 @@
+{
+  "key": "species-abyssin-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Abyssin",
+  "description": "You can speak, read, and write Galactic Basic and Abyssin. Abyssin uses mainly growls and grunts that many species consider primitive. The written form of language uses only a small number of simple hieroglyphs.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

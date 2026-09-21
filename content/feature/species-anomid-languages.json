@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "You can speak, read, and write Galactic Basic through the use of your vocalizer. You can also use Anomid Sign Language, which is an elaborate language requiring six-fingered hands.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

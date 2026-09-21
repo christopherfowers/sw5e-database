@@ -1,0 +1,9 @@
+{
+  "key": "species-flesh-raider-hunters",
+  "name": "Hunters",
+  "grantedBy": "species",
+  "grantedByName": "Flesh Raider",
+  "description": "Whenever you make a Wisdom (Survival) check to hunt for food, you are considered to have expertise in the Survival skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

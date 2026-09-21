@@ -1,0 +1,11 @@
+{
+  "key": "magnetic-lock-grip",
+  "name": "Magnetic-Lock Grip",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "While wielding this weapon, you have advantage on ability checks and saving throws made to disarm or avoid being disarmed."
+}

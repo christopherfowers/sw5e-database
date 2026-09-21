@@ -1,0 +1,11 @@
+{
+  "key": "pot",
+  "name": "Pot",
+  "category": "storage",
+  "costInCredits": 15,
+  "weight": 10.0,
+  "description": "A pot stores 1 gallon of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-i-knowledge-protocol",
+  "name": "Knowledge Protocol",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class I",
+  "description": "You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

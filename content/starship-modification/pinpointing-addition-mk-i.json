@@ -1,0 +1,19 @@
+{
+  "key": "pinpointing-addition-mk-i",
+  "name": "Pinpointing Addition, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "weaponMounting",
+      "text": "Primary or Secondary Weapon",
+      "mountings": [
+        "primary",
+        "secondary"
+      ]
+    }
+  ],
+  "description": "The ranges of the chosen weapon of your choice increase by half."
+}

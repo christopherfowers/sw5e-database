@@ -1,0 +1,27 @@
+{
+  "key": "ion-railgun",
+  "name": "Ion railgun",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 5700,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "constitution 17",
+    "ionizing",
+    "overheat 4"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "ion"
+  },
+  "range": {
+    "normal": 1000,
+    "long": 4000
+  }
+}

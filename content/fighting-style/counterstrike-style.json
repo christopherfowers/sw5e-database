@@ -1,0 +1,11 @@
+{
+  "key": "counterstrike-style",
+  "name": "Counterstrike Style",
+  "description": "You are skilled at returning attacks at those who dare strike you. You gain the following benefits:",
+  "benefits": [
+    "When you would provoke an opportunity attack on your turn, you can use your bonus action to force the creature to make the opportunity attack, if it can.",
+    "Creatures who make opportunity attacks against you provoke opportunity attacks from you."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

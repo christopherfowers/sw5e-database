@@ -1,0 +1,9 @@
+{
+  "key": "species-zygerrian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Zygerrian",
+  "description": "Zygerrians normally stand between 5 to 6 feet tall and weigh about 140 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

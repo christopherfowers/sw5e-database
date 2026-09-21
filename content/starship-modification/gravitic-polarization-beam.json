@@ -1,0 +1,16 @@
+{
+  "key": "gravitic-polarization-beam",
+  "name": "Gravitic Polarization Beam",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Gravity Well Projector",
+      "modificationName": "Gravity Well Projector"
+    }
+  ],
+  "description": "As an action, a crewmember can use a ship's gravity well projector to target a ship within 600 feet and within that projector's limited arc. The beam disrupts matter on an atomic level, causing it to rip apart. The target must make a Constitution saving throw (DC = 8 + ship tier + the ship’s Strength modifier). The target takes 8d8 true damage on a failed save, or half as much damage on a successful one.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

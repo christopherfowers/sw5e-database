@@ -1,0 +1,9 @@
+{
+  "key": "species-bothan-naturally-stealthy",
+  "name": "Naturally Stealthy",
+  "grantedBy": "species",
+  "grantedByName": "Bothan",
+  "description": "You can attempt to hide even when you are obscured only by a creature that is your size or larger than you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

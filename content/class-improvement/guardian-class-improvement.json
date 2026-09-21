@@ -1,0 +1,10 @@
+{
+  "key": "guardian-class-improvement",
+  "name": "Guardian Class Improvement",
+  "className": "Guardian",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in guardian",
+  "description": "As a bonus action, you can expend a use of your Channel the Force to regain 2 force points. You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

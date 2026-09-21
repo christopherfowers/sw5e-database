@@ -1,0 +1,11 @@
+{
+  "key": "loremaster-s-pattern-elite",
+  "name": "Loremaster's Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Lore increases by five steps (to high mastery or from trained to grand mastery)."
+}

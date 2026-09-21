@@ -1,0 +1,8 @@
+{
+  "key": "wounds",
+  "name": "Wounds",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "ruleType": "variant",
+  "body": "When a character is reduced to 0 hit points, begins making death saving throws, and has hit points restored, they can return to the battle no worse for the wear. Using this variant rule, you can add an additional layer to make falling to 0 hit points more threatening.\n\n### Gaining Wounds\nWhen a character is reduced to 0 hit points, that character must make a DC 10 Constitution saving throw. On a success, nothing happens, but the DC of this saving throw for that character increases by 5, cumulatively, until they complete a short or long rest or fail the saving throw, at which point the DC resets to 10. On a failed save, the character suffers 1 wounded level. On a success or a failure, a creature immediately gains one death saving throw failure for each wounded level it has.\n\nFor instance, if a character with no wounded levels is reduced to 0 hit points and fails their Constitution saving throw, they gain 1 wounded level, and they then gain 1 death saving throw failure for their 1 wounded level. Alternatively, if a character with 2 wounded levels is reduced to 0 hit points and succeeds on their Constitution saving throw, they don't gain a wounded level, but they then gain 2 death saving throw failures for their 2 wounded levels. If they take damage, or fail the death saving throw they make at the start of their next turn, they immediately die.\n\n### Clearing Wounds\nA character loses all wounded levels when they are restored to their hit point maximum, whether through consumables, powers, resting, or other means."
+}

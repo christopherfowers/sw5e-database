@@ -1,0 +1,12 @@
+{
+  "key": "berserker-offensive-augment",
+  "name": "Berserker Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in berserker",
+  "description": "Your Rage damage bonus increases by 1, and when you score a critical hit, you can roll one additional weapon damage die and add the result to the total."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-ryn-eternal-nomads",
+  "name": "Eternal Nomads",
+  "grantedBy": "species",
+  "grantedByName": "Ryn",
+  "description": "You have proficiency in Lore or Survival (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "czerka-elite-pro-mk-v",
+  "name": "Czerka Elite Pro Mk V",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you cast a tech power with this wristpad and at least one creature fails its saving throw to resist its effects, you gain a d12 that you can roll and add to the damage or healing of a tech power you cast. This die lasts for 1 minute, and you can only have one at a time."
+}

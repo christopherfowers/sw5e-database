@@ -1,0 +1,85 @@
+{
+  "key": "yevetha",
+  "name": "Yevetha",
+  "size": "medium",
+  "homeworld": "N'zoth",
+  "nativeLanguage": "Yevethan",
+  "lore": "### Biology and Appearance\nPhysically, the Yevetha are tall beings with a ghoulish appearance that is bereft of any body hair, being described as being so gaunt as to seem skeletal due to their pallid gray skin and lithe builds. The species possesses six fingered hands that have retractable dewclaws. Each one is located on the inside of the wrist above their six-fingered hands. Their dewclaws shoot from a sheath of a skin beneath their cadaverous hands and are capable of being retracted. When extended fully, the wrist blades reach about a foot in length, and are used in close combat and blood sacrifices. The Yevetha also possess a greater tolerance for g-forces when compared to Human pilots.\n\n### Society and Culture\nWithin their society, blood is an important aspect of their culture and is a central focus of their religious belief system. This has resulted in them becoming a particularly violent species. For the Yevetha, death is not to be feared. They are described as being dutiful, attentive, cautious but also fatalistic in their view of the universe. When fighting against other foes, Yevetha are notable for being ruthless fighters who never surrender even in the face of certain defeat. Due to the brutal nature of their society, the Yevetha do not possess a single jail, penitentiary or stockade as they believe there is no need for such facilities. In fact, they do not possess a word in their language for either convict or incarcerate.\n\n### Names\nYevetha names are sharp and are kept to one syllable, not varying significantly based on gender. Surnames are familial.\n\n**First Names.** Ral, Var, Cax, Tav, Fol, Sip, Nov\n\n**Surnames.** Faalk, Naalar, Giinn, Ralle, Xoota",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Intelligence score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Yevetha reach adulthood in their early teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Yevetha's xenophobic attitude causes them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Yevetha typically stand between 6 and 6 and a half feet tall and generally weigh about 160 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Aggressive",
+      "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+    },
+    {
+      "name": "Arm Blades",
+      "description": "Your retractable dewclaws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage."
+    },
+    {
+      "name": "Toughness",
+      "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    },
+    {
+      "name": "Mechanical Memory",
+      "description": "Whenever you make an Intelligence (Technology) check related to memorizing or duplicating mechanical readouts, you are considered to have expertise in the Technology skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Yevethan. Yevetha are able to speak other languages, but their isolationist nature makes them tend to reject the languages of other species. Only rarely would a Yevethan speak Galactic Basic, as this would often decrease their social standing."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'2\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "105 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Retractable dewclaws, six fingers",
+    "skinColorOptions": "Green or yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_yevetha.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

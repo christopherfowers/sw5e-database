@@ -1,0 +1,12 @@
+{
+  "key": "engineer-offensive-augment",
+  "name": "Engineer Offensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in engineer",
+  "description": "When you use your Potent Aptitude feature, you can target an additional creature within 60 feet of you who can hear you and grant them a Potent Aptitude die as well without expending an additional use."
+}

@@ -1,0 +1,25 @@
+{
+  "key": "double-turbolaser-battery",
+  "name": "Double turbolaser battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4500,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "overheat 8"
+  ],
+  "damage": {
+    "numberOfDice": 6,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 800,
+    "long": 3200
+  }
+}

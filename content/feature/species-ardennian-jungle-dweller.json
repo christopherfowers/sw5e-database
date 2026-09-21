@@ -1,0 +1,9 @@
+{
+  "key": "species-ardennian-jungle-dweller",
+  "name": "Jungle Dweller",
+  "grantedBy": "species",
+  "grantedByName": "Ardennian",
+  "description": "Growing up in the tree-villages of Ardennia has left an impact. You don't treat jungle terrain as difficult terrain.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,26 @@
+{
+  "key": "shoulder-cannon",
+  "name": "Shoulder cannon",
+  "category": "weapon",
+  "costInCredits": 1625,
+  "weight": 8.5,
+  "description": "Mounted by the shoulder slot, a shoulder cannon does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.",
+  "properties": [
+    "auto",
+    "burst 8",
+    "power cell (range 60/240)",
+    "reload 8",
+    "smart (15/+2)",
+    "special",
+    "strength 11"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

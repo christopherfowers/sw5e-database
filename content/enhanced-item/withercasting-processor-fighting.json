@@ -1,0 +1,11 @@
+{
+  "key": "withercasting-processor-fighting",
+  "name": "Withercasting Processor (Fighting)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "While using this item as your focus, you gain a +1 bonus to the tech save DC of powers that require a Wisdom or Charisma saving throw."
+}

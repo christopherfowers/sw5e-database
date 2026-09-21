@@ -1,0 +1,11 @@
+{
+  "key": "commander-s-strike-greater",
+  "name": "Commander's Strike (Greater)",
+  "maneuverType": "physical",
+  "superiorityDice": 0,
+  "prerequisite": "Commander's Strike (Improved) maneuver",
+  "improves": "Commander's Strike",
+  "description": "When you use the Commander's Strike maneuver, you can choose to forgo an attack or use your bonus action, rather than both. All the other rules of Commander's Strike still apply to you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

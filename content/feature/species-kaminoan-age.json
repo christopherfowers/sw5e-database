@@ -1,0 +1,9 @@
+{
+  "key": "species-kaminoan-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Kaminoan",
+  "description": "Kaminoans reach adulthood at 11 years old and live around 100 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

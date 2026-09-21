@@ -1,0 +1,9 @@
+{
+  "key": "species-trandoshan-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Trandoshan",
+  "description": "You can speak, read, and write Galactic Basic and Dosh. Dosh is characterized by its harsh grunts, hisses and growls, and its written form that used alphabetic glyphs.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "constitution-emitter-superior",
+  "name": "Constitution Emitter (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item's constitution number is reduced by four steps (from 21 to 13 or 19 to 11). If the constitution number is 17 or lower, this modification removes the constitution property from it entirely."
+}

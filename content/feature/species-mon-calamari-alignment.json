@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "Mon calamaris' love of the arts cause them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

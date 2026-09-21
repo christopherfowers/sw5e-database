@@ -1,0 +1,10 @@
+{
+  "key": "archetype-tactician-pursuit-battle-display-3",
+  "name": "Battle Display",
+  "grantedBy": "archetype",
+  "grantedByName": "Tactician Pursuit",
+  "level": 3,
+  "description": "_**Tactician Pursuit:** 3rd level_\nYou gain proficiency in martial blasters and martial vibroweapons.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

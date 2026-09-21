@@ -1,0 +1,11 @@
+{
+  "key": "arrow-noisemaker",
+  "name": "Arrow, Noisemaker",
+  "category": "ammunition",
+  "costInCredits": 125,
+  "weight": 0.0,
+  "description": "A noisemaker arrow is a specialized arrow for use with bow weapons. When the arrow hits another creature, object, or surface it generates an explosion of sound that can be heard up to 100 feet away. If the target of the attack is a creature, the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes 1d6 sonic damage and is deafened until the end of its next turn. Once the arrow hits a target, it no longer gives a bonus.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

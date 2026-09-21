@@ -1,0 +1,11 @@
+{
+  "key": "mess-kit",
+  "name": "Mess kit",
+  "category": "utility",
+  "costInCredits": 20,
+  "weight": 1.0,
+  "description": "This box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

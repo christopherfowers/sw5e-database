@@ -1,0 +1,9 @@
+{
+  "key": "species-arcona-hide",
+  "name": "Hide",
+  "grantedBy": "species",
+  "grantedByName": "Arcona",
+  "description": "You have a thick hide. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

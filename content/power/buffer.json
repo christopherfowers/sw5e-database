@@ -1,0 +1,17 @@
+{
+  "key": "buffer",
+  "name": "Buffer",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "You gain 1d4 + 4 temporary hit points for the duration.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

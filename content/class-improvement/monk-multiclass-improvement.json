@@ -1,0 +1,10 @@
+{
+  "key": "monk-multiclass-improvement",
+  "name": "Monk Multiclass Improvement",
+  "className": "Monk",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in monk",
+  "description": "You can add your other chosen class's levels to your monk levels when determining the size of your Martial Arts die.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-anzellan-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Anzellan",
+  "description": "Your base walking speed is 20 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

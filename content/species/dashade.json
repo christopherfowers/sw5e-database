@@ -1,0 +1,89 @@
+{
+  "key": "dashade",
+  "name": "Dashade",
+  "size": "medium",
+  "homeworld": "Urkupp",
+  "nativeLanguage": "Dashadi",
+  "lore": "### Biology and Appearance\nDashade are a hulking reptillian species known for their strength and aggression. They have three fingers on each hand, each tipped with a long, curving claw.\n\nTheir most notable feature is their natural resistance to the power of the Force. Along with their resistance to the Force, Dashade possess a high tolerance for radioactive energy, able to withstand contact with radioactive materials much longer than other species.\n\nDespite the thick skin Dashade possess, they have the uncanny ability to control the rate that heat dissipates from their skin. This allows them to regulate their body temperature at will.\n\n### Society and Culture\nDashade's brute strength and Force resistance makes them prime candidates for mercenary and assassin work.\n\nDashade society is clan-based. Theses clan's often feud over honor and reputation, a trait that the dashade as a species exhibit.\n\n### Names\nMany dashade names are short, dominated by harsher sounds, while others are longer and seperated by an apostrophe. Dashade names are gender neutral. Surnames are clan-based, but most dashade don't share or use them.\n\n**First Names.** Anarin, Rak'vhul, Set, Vattix, Vos\n\n**Surnames.** Ferrex, Gusar, Kruyel, Orath, Xeng, Zath",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Dashade reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Dashade's aggressive yet loyal nature causes them to tend toward lawful dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Dashade typically stand 5 and a half to 6 and a half feet tall and generally weigh around 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage."
+    },
+    {
+      "name": "Force Contention",
+      "description": "Due to their unique physiology, dashade hardiness allows them to overcome use of the Force. You have advantage on Strength and Constitution saving throws against force powers."
+    },
+    {
+      "name": "Heat Dissipation",
+      "description": "Whenever you make a Dexterity (Stealth) check to avoid detection by electronic sensors and cameras, you are considered to have expertise in the Stealth skill."
+    },
+    {
+      "name": "Menacing",
+      "description": "You gain proficiency in the Intimidation skill."
+    },
+    {
+      "name": "Radiation Resistant",
+      "description": "Dashade are naturally able to resist radiation. You have resistance to necrotic damage."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Dashadi. Dashadi is characterized by its low pitch and elongated growls."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'1\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "145 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Heat dissipation, Force-resistance, radiation resistance",
+    "skinColorOptions": "Black, dark gray, or Olive green",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, orange, or red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_dashade.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

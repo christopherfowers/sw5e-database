@@ -1,0 +1,9 @@
+{
+  "key": "species-abyssin-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Abyssin",
+  "description": "Abyssin reach adulthood at age 30 and can live up to 300 years thanks to their regenerative abilities.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

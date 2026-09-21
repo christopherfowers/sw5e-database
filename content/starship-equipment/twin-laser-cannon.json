@@ -1,0 +1,27 @@
+{
+  "key": "twin-laser-cannon",
+  "name": "Twin laser cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4400,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "constitution 11",
+    "rapid 3",
+    "overheat 12"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 600,
+    "long": 2400
+  }
+}

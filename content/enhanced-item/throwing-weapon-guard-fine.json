@@ -1,0 +1,11 @@
+{
+  "key": "throwing-weapon-guard-fine",
+  "name": "Throwing Weapon Guard (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains thrown (20/60) property. If it already has the thrown property, the range increases by 10/30."
+}

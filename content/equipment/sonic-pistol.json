@@ -1,0 +1,21 @@
+{
+  "key": "sonic-pistol",
+  "name": "Sonic pistol",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 2.0,
+  "properties": [
+    "power cell (range 30/120)",
+    "disruptive",
+    "reload 16"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "sonic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

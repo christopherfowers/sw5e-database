@@ -1,0 +1,9 @@
+{
+  "key": "species-duros-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Duros",
+  "description": "Duros reach adulthood in their 20s and live an average of 150 years.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

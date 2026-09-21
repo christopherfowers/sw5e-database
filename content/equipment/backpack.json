@@ -1,0 +1,11 @@
+{
+  "key": "backpack",
+  "name": "Backpack",
+  "category": "storage",
+  "costInCredits": 50,
+  "weight": 5.0,
+  "description": "A backpack stores 30 lb., not exceeding 1 cubic foot.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

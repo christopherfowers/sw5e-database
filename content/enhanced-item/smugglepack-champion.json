@@ -1,0 +1,11 @@
+{
+  "key": "smugglepack-champion",
+  "name": "Smugglepack (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "back",
+  "description": "This backpack comes with a main compartment that stores 10 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 10 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 30 Investigation check."
+}

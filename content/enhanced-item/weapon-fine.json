@@ -1,0 +1,11 @@
+{
+  "key": "weapon-fine",
+  "name": "Weapon (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "any",
+  "description": "You have a +1 bonus to attack and damage rolls made with this enhanced weapon."
+}

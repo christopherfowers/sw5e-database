@@ -1,0 +1,9 @@
+{
+  "key": "species-pantoran-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Pantoran",
+  "description": "You can speak, read, and write Galactic Basic and Pantoran. Pantoran comprises many dialects that prevent clear communication, a vestige of the feudal culture of the planet's past. Because of the difficulties of operating a planetary government with so many different languages, the Assembly established Galactic Basic as the official language of their people as a means of unifying the planet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

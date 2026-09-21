@@ -1,0 +1,9 @@
+{
+  "key": "species-lannik-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Lannik",
+  "description": "You can speak, read, and write Galactic Basic and Lannik. Due to their large ears, the Lannik language is spoken softly, and it is considered insulting to shout.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

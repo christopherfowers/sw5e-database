@@ -1,0 +1,11 @@
+{
+  "key": "damind-crystal-regular",
+  "name": "Damind Crystal (Regular)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When you deal damage with this weapon, you can roll a d6 and add the result to the total."
+}

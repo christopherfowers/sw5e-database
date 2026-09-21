@@ -1,0 +1,17 @@
+{
+  "key": "ward",
+  "name": "Ward",
+  "powerType": "tech",
+  "level": 0,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "You emit a powerful force field that deflects incoming attacks. Until the end of your next turn, you have resistance against kinetic, energy, and ion damage dealt by weapon attacks.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

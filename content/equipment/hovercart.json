@@ -1,0 +1,11 @@
+{
+  "key": "hovercart",
+  "name": "Hovercart",
+  "category": "storage",
+  "costInCredits": 2000,
+  "weight": 150.0,
+  "description": "This repulsorcraft is designed to efficiently move large amounts of goods. It has a speed of 30 feet and can store 2,000 lb., not exceeding 120 cubic feet.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

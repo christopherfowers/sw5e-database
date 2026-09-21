@@ -1,0 +1,9 @@
+{
+  "key": "species-geonosian-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Geonosian",
+  "description": "Geonosians typically stand from 5 to 6 feet tall and rarely weigh more than 80 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

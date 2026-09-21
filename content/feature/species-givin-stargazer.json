@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-stargazer",
+  "name": "Stargazer",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "You have proficiency in Piloting and Technology.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

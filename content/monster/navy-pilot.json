@@ -1,0 +1,80 @@
+{
+  "key": "navy-pilot",
+  "name": "Navy Pilot",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful balanced",
+  "armor": {
+    "class": 13,
+    "type": "combat suit"
+  },
+  "hitPoints": {
+    "average": 9,
+    "roll": "2d8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "savingThrows": [
+    "Dex +4",
+    "Int +4"
+  ],
+  "skills": [
+    "Perception +3",
+    "Piloting +4"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Galactic Basic"
+  ],
+  "challengeRating": "1/8",
+  "experiencePoints": 25,
+  "behaviors": [
+    {
+      "name": "Light Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 4 (1d4 + 2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 40/160 ft.",
+      "targets": "one target",
+      "averageDamage": 4,
+      "damageRoll": "1d4 + 2",
+      "damageType": "energy"
+    }
+  ],
+  "sectionText": "As the branch of the galactic military that deals with space operations, the galactic navy has been composed of many sub-units and organizations, and has utilized a vast array of starships to achieve its objectives throughout the years.\n\n***Republic Navy.*** The Republic Navy, also referred to as the Republic fleet, Republic starfleet or the Galactic Republic fleet, was the military naval force of the Galactic Republic during the Clone Wars. The Navy served to transport the clone army across the galaxy while also engaging in ship-to-ship combat with the Confederacy navy. Following the end of the war and the formation of the Galactic Empire, the Republic Navy transitioned into the Imperial Navy.\n\n***Imperial Navy.*** The Imperial Navy, also known as the Imperial Starfleet or the Imperial fleet, was the naval branch of the Galactic Empire's military. It was created in the wake of the Clone Wars, when Chancellor Sheev Palpatine transformed the Galactic Republic he led into an authoritarian Empire. Consisting mainly of Star Destroyers and TIE fighters, the Imperial Navy was tasked with maintaining order in the galaxy.\n\n***First Order Navy.*** The First Order Navy, also referred to as the First Order fleet, was the naval branch of the First Order military. It superseded the Imperial Navy of the former Galactic Empire, it would be paramount to the gradual conquest and colonization of the Unknown Regions by the Imperial successor state, the First Order.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

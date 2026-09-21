@@ -1,0 +1,9 @@
+{
+  "key": "species-squib-hide",
+  "name": "Hide",
+  "grantedBy": "species",
+  "grantedByName": "Squib",
+  "description": "Your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

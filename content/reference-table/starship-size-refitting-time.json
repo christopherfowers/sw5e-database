@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-refitting-time",
+  "name": "Starship Size Refitting Time",
+  "contentSet": "core",
+  "body": "|Starship Size|Time|\n|:--|--:|\n|Tiny|4 hours|\n|Small|8 hours|\n|Medium|1 day|\n|Large|3 days|\n|Huge|1 week|\n|Gargantuan|1 month|",
+  "subject": "Starships"
+}

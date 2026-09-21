@@ -1,0 +1,11 @@
+{
+  "key": "respirator",
+  "name": "Respirator",
+  "category": "lifeSupport",
+  "costInCredits": 200,
+  "weight": 1.0,
+  "description": "A respirator, or breath mask, is a portable device that includes 1 hour's worth of oxygen. The respirator is designed to function in all environments.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "plating-deflection-mk-i",
+  "name": "Plating, Deflection Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Deflection Armor",
+      "equipmentName": "Deflection armor"
+    }
+  ],
+  "description": "You upgrade your ship's armor plating, granting your ship a +1 bonus to AC."
+}

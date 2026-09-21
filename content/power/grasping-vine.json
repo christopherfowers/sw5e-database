@@ -1,0 +1,18 @@
+{
+  "key": "grasping-vine",
+  "name": "Grasping Vine",
+  "powerType": "force",
+  "level": 4,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "30 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Plant Surge",
+  "description": "You make a vine sprout from the ground in an unoccupied space you can see. When you cast this power, you can make the vine whip a creature up to 30 feet from it, if you can see the target. The creature must pass a Dexterity save or be pulled 20 feet directly toward the vine.\n\nUntil the power ends, you can use your bonus action to have the vine lash out again.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

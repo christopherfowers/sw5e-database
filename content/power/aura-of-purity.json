@@ -1,0 +1,18 @@
+{
+  "key": "aura-of-purity",
+  "name": "Aura of Purity",
+  "powerType": "force",
+  "level": 4,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (30-foot radius)",
+  "duration": "up to 10 minutes",
+  "concentration": true,
+  "prerequisite": "Restoration",
+  "description": "Purifying energy radiates from you in a 30-foot radius. Until the power ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

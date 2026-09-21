@@ -1,0 +1,15 @@
+{
+  "key": "space-explorer",
+  "name": "Space Explorer",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 1 level in scout",
+      "className": "scout",
+      "level": 1
+    }
+  ],
+  "description": "While deployed, parts of your Skilled Explorer class feature extend to your ship:\n- Your ship is not slowed by difficult terrain.\n- Your ship can't get lost by unenhanced means.\n- Your ship can move stealthily at a normal pace."
+}

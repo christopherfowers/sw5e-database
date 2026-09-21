@@ -1,0 +1,11 @@
+{
+  "key": "extending-cycler-champion",
+  "name": "Extending Cycler (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the extending 30 property. If it already has the extending property, its extending number increases to 30."
+}

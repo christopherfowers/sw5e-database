@@ -1,0 +1,9 @@
+{
+  "key": "species-mikkian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Mikkian",
+  "description": "You can speak, read, and write Galactic Basic and Mikkian. Mikkian is a melodic, flowing tongue made up of several ancient dialects.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

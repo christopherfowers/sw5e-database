@@ -1,0 +1,25 @@
+{
+  "key": "bustersaber",
+  "name": "Bustersaber",
+  "category": "weapon",
+  "costInCredits": 2900,
+  "weight": 7.25,
+  "properties": [
+    "brutal 1",
+    "dexterity 19",
+    "heavy",
+    "keen 1",
+    "luminous",
+    "reach",
+    "two-handed"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

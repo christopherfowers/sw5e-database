@@ -1,0 +1,10 @@
+{
+  "key": "traz",
+  "name": "Traz",
+  "category": "musicalInstrument",
+  "costInCredits": 300,
+  "weight": 6.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "water-of-life",
+  "name": "Water of Life",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "description": "When an allied creature within 30 feet that you can see takes damage, you can use a reaction to expend a superiority die and roll it. The ally regains a number of hit points equal to the roll + your maneuver modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

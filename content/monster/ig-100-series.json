@@ -1,0 +1,131 @@
+{
+  "key": "ig-100-series",
+  "name": "IG-100 Series",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 16,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 58,
+    "roll": "9d8 + 18"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 19,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 15,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex + 6"
+  ],
+  "skills": [
+    "Perception +3",
+    "Stealth +6",
+    "Intimidate +1"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison"
+    ],
+    "other": [
+      "psychic; energy from melee weapons"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "poisoned"
+    ],
+    "other": [
+      "disease"
+    ]
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The MagnaGuard makes two electrostaff attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Electrostaff",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 6,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 9,
+      "damageRoll": "2d4+4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Blaster Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 7 (1d6+4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "range": "range 40/160 ft.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d6+4",
+      "damageType": "energy"
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "The droid adds 3 to its AC against one melee attack that would hit it. To do so, the droid must see the attacker and be wielding a melee weapon.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "After the InterGalactic Banking Clan secured Grievous's services as an enforcer, they refused to hire his Kaleesh, and thus the cyborg general demanded a cadre of \"more intelligent battle droids\" to serve him. The construction of the MagnaGuards was then commissioned for Grievous's service. Constructed by Holowan Mechanicals, MagnaGuards were roughly two meters tall, with a humanoid body shape, but possessed a far-superior mechanical anatomy. This allowed for superhuman acrobatics, speed, and combat ability. Their internal systems were furnished with advanced combat learning programs, which, compared to most of the droids utilized by the Confederacy of Independent Systems, allowed the MagnaGuards to adapt to a highly diverse variety of tasks. These tasks ranged from melee and ranged combat to starfighter control. MagnaGuards were also capable of speech and were programmed to taunt their opponents in a low growling Basic. The MagnaGuard's weapon of choice was the lightsaber-resistant electrostaff, and wore cloaks and head wraps similar to the garments of Grievous's old Izvoshra elite during the general's time as a Kaleesh warlord. Grievous personally trained his bodyguards in the seven classic styles of lightsaber combat so that they could effectively engage and then kill Jedi. Grievous would not allow any repairs to be made to the droids, believing that their numerous scrapes and battle scars made them more intimidating to enemies.",
+  "sectionText": "Battle droids, also known as combat droids or battle bots, are a type of droid designed for combat. One thing most battle droids have in common is limited intelligence. They are programmed to follow orders, and not much else, though they do have personalities. Some battle droids, however, have some form of intelligence. These droids are much more expensive to make, due to their advanced brains.\n\n***Clone Wars.*** Over the years, many different models of battle droid have been utilized by various factions throughout the galaxy. The Confederacy of Independent Systems, for example, used a number of different models of battle droid during the Clone Wars to make up the Separatist Droid Army. Under the command of General Grievous, varying models of battle droid fought against the Galactic Republic's clone troopers until the final days of the war, when the Confederate battle droids were deactivated by the Galactic Empire.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-chadra-fan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Chadra-Fan",
+  "description": "Chadra-Fan stand 3-4 feet tall and weigh about 45 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

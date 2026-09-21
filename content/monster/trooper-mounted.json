@@ -1,0 +1,135 @@
+{
+  "key": "trooper-mounted",
+  "name": "Trooper, Mounted",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any alignment",
+  "armor": {
+    "class": 19
+  },
+  "hitPoints": {
+    "average": 75,
+    "roll": "10d8 + 30"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 14,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "skills": [
+    "Athletics +4"
+  ],
+  "senses": [
+    "passive Perception 12"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one other of your choice"
+  ],
+  "conditionImmunities": {
+    "other": [
+      "exhaustion"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Charge",
+      "behaviorType": "trait",
+      "description": "If the mounted trooper moves at least 20 feet straight toward a creature while mounted and then hits with a vibrolance attack on the same turn, it can make a trample attack against the creature as a bonus action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Locked Saddle",
+      "behaviorType": "trait",
+      "description": "The trooper cannot be knocked prone, dismounted, or moved against it's will while mounted.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Mounted Warrior",
+      "behaviorType": "trait",
+      "description": "While the trooper is mounted, the mount cannot be charmed or frightened.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vibrolance",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 8 (1d12 + 2) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 8,
+      "damageRoll": "1d12 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Assault Cannon",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack. +3 to hit, range 80/320 ft., one target. Hit: 6 (1d10 + 1) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 3,
+      "range": "range 80/320 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d10 + 1",
+      "damageType": "energy"
+    },
+    {
+      "name": "Trample",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) kinetic damage and the target must succeed on a DC 13 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 4,
+      "usageLimit": "Mounted Only",
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 9,
+      "damageRoll": "2d6 + 2",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Flamethrower",
+      "behaviorType": "action",
+      "description": "The trooper unleashes a torrent of flame in a 15-foot cone. All creatures in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharges after a Short or Long Rest"
+    }
+  ],
+  "flavorText": "Well-suited for destroying lightly defended buildings, such as Prefab shelters and power cores, mounted troopers' primary role was in attacking hostile combat vehicles such as combat speeders and attack tanks. They accomplished this task by utilizing a flamethrower as their primary weapon. Mounted troopers were usually vulnerable to unmounted troopers and ground vehicles. Common mounts include Orray form Geonosis, Dewbacks from Tatooine, Kaadu and Tusk-cats from Naboo, Tauntauns from Hoth, Blurrgs from Endor, and Varactyls from Utapau.",
+  "sectionText": "As the branch of the galactic military that dealt with surface operations, the galactic army was composed of many sub-units and organizations, and utilized a vast array of vehicles to achieve its objectives throughout the years.\n\n***Grand Army of the Republic.*** The Grand Army of the Republic (GAR), also known as the Republic Army or the clone army, was the army branch of the Republic Military during the Clone Wars. The Grand Army initially consisted of over a million clone troopers; genetically identical soldiers cloned from a human template, outfitted with armor, weapons and gear, and programmed for absolute loyalty to the Galactic Republic. Formed as a result of the Republic's efforts to create a centralized army in response to the threat of separatism, the Grand Army represented the evolution of galactic warfare at the time of its introduction on Geonosis, and was instrumental to the Sith Order's secret plot to take over the galaxy.\n\n***Imperial Army.*** As the ultimate evolution of the Grand Army of the Republic, the Imperial Army swiftly asserted dominance throughout the galaxy, making use of highly trained soldiers, mechanized walkers, and overwhelming numbers. The Imperial Army worked in tandem with the forces of the Imperial Navy, relying on the numerous fleets to transport legions of troopers across the far reaches of the galaxy. The most common soldiers of the Empire's ground forces were known as Imperial Army soldiers, the core infantry of the army tasked with establishing Imperial regimes and pacifying troublesome worlds. As the Imperials reinforced their grip on the galaxy, these units were gradually phased out in favor of stormtroopers, elite shock troops fanatically loyal to the Emperor himself.\n\n***First Order.*** The First Order army was the ground-based service branch of the First Order military. Formed from the Imperial Army of the Galactic Empire, it was responsible for maintaining order throughout First Order space as well as the gradual conquest and colonization of the Unknown Regions.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

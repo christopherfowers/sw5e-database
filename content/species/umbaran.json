@@ -1,0 +1,90 @@
+{
+  "key": "umbaran",
+  "name": "Umbaran",
+  "size": "medium",
+  "homeworld": "Umbara",
+  "nativeLanguage": "Umbaran",
+  "lore": "### Biology and Appearance\nUmbarans, called the \"Shadow People\" by some, are a near-human species characterized by their pale, bluish skin and colorless, sunken eyes. Their homeworld, Umbara, is situated deep within the Ghost Nebula, and receives almost no direct light from the planet's primary star. As a result, Umbaran eyes are well-adjusted to seeing in low light, and can see into the ultraviolet spectrum, but can be disoriented by bright light.\n\n### Society and Culture\nUmbaran society is strictly divided into a leveled caste system, with most Umbarans constantly scheming to improve their social rank, using tactics such as blackmail, subterfuege, and even assassination if necessary. Only those within the ten highest caste tiers were given opportunities to leave their homeworld. Because of the cutthroat machinations required to get there, Umbarans in the wider galaxy are known as skilled, ruthless politicians. This reputation is enhanced by the Umbarans' talents for reading and influencing the emotions of others.\n\nUmbara developed its own technological advances separate from galactic society, and possessed technology that was in many fields far more advanced than the galactic standard.\n\n### Names\nUmbaran names are typically no more than one or two syllables. Surnames are familial.\n\n**Male Names.** Mee, Pir, Nyss, Moshenu\n\n**Female Names.** Sly, Syll, Myn, Sata\n\n**Surnames.** Deechi, Moore, Phobi, Nenn",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Charisma or Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Umbarans reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Umbarans' desire to improve their social standing at all costs causes them to tend towards chaos, though there are exceptions"
+    },
+    {
+      "name": "Size",
+      "description": "Umbarans typically stand 5 to 6 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Superior Darkvision",
+      "description": "You've lived most of your life without direct sunlight. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Umbaran Specilization",
+      "description": "You have proficiency in one of the following skills: Insight, Technology, Deception, or Perception."
+    },
+    {
+      "name": "Tech Dabbler",
+      "description": "You know the *ward* at-will tech power. When you reach 3rd level, you learn and can cast the *analyze* tech power once per day. When you reach 5th level, you can also cast the *infiltrate* tech power once per day. Intelligence is your techcasting ability for these powers. You do not require use of a wristpad for these powers."
+    },
+    {
+      "name": "Shadow People",
+      "description": "You can attempt to hide even when you are only lightly obscured by dim light."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Umbaran. Umbaran is characterized by its blending of technical jargon with informal language. It is rarely spoken off Umbara."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom",
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'11\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "105 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Blue tinted skin and sunken, colorless eyes",
+    "skinColorOptions": "Pale grey or white",
+    "hairColorOptions": "White",
+    "eyeColorOptions": "White"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_umbaran.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

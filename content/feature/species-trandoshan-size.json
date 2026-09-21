@@ -1,0 +1,9 @@
+{
+  "key": "species-trandoshan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Trandoshan",
+  "description": "Trandoshans stand as tall as 7 and a half feet and can weigh over 300 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

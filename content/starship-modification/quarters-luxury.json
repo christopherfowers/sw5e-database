@@ -1,0 +1,21 @@
+{
+  "key": "quarters-luxury",
+  "name": "Quarters, Luxury",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite features separate rooms to house a number of creatures equal to half the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. Each room comes fully furnished and includes its own refresher station.\nWhen a creature completes a long rest involving this suite, they regain all spent Hit Dice, instead of only half, and their exhaustion level is reduced by 2, instead of only 1."
+}

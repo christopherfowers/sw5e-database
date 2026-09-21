@@ -1,0 +1,11 @@
+{
+  "key": "throwing-weapon-hilt-exceptional",
+  "name": "Throwing Weapon Hilt (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains thrown (50/150) property. If it already has the thrown property, the range increases by 25/75."
+}

@@ -1,0 +1,17 @@
+{
+  "key": "irradiate",
+  "name": "Irradiate",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "A surge of radiation washes over a creature within range. The creature must make a Constitution saving throw. On a failed save, the target takes 3d10 necrotic damage and suffers one level of exhaustion, which lasts for the duration. On a successful save, the target takes half as much damage and does not suffer a level of exhaustion. A creature exhausted by this power can make a Constitution saving throw at the end of each of its turns. On a successful save, the power ends.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

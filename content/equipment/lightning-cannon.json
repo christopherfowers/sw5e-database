@@ -1,0 +1,25 @@
+{
+  "key": "lightning-cannon",
+  "name": "Lightning cannon",
+  "category": "weapon",
+  "costInCredits": 4400,
+  "weight": 16.0,
+  "description": "Whenever you deal damage with this weapon and roll the maximum on the weapon damage die, the creature hit becomes shocked until the end of its next turn.",
+  "properties": [
+    "power cell (range 90/360)",
+    "auto",
+    "penetrating 2",
+    "reload 4",
+    "strength 15",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "lightning"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

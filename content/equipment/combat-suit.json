@@ -1,0 +1,13 @@
+{
+  "key": "combat-suit",
+  "name": "Combat suit",
+  "category": "armor",
+  "costInCredits": 100,
+  "weight": 10.0,
+  "description": "Combat suits are seen all over the galaxy, and can be found for sale by almost any merchant who dealt in weapons and armor. Many such suits are used by military organizations, such as the Galactic Republic's military, as well as by mercenaries, criminals, bounty hunters and even some Jedi.\n\nThe suit itself offers decent protection from most types of attacks while maintaining maximum flexibility and minimum weight. However this armor is only recommended for light skirmishes.",
+  "armorClassification": "light",
+  "armorClass": "11 + Dex modifier",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

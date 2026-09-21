@@ -1,0 +1,16 @@
+{
+  "key": "reactor-mk-v",
+  "name": "Reactor, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Reactor, Mk IV",
+      "modificationName": "Reactor, Mk IV"
+    }
+  ],
+  "description": "Your ship's reactor has reached it's maximum potential. Your ship's Strength score increases by 2. Your ship's maximum for this score increases by 2."
+}

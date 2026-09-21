@@ -1,0 +1,9 @@
+{
+  "key": "species-kiffar-tribal-warrior",
+  "name": "Tribal Warrior",
+  "grantedBy": "species",
+  "grantedByName": "Kiffar",
+  "description": "You have proficiency with two vibroweapons of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

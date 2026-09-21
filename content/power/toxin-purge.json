@@ -1,0 +1,17 @@
+{
+  "key": "toxin-purge",
+  "name": "Toxin Purge",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "You touch a creature. If it is poisoned or diseased, you neutralize the poison or disease. If more than one poison or disease afflicts the target, you neutralize one poison or disease that you know is present, or you neutralize one at random.\n\nFor the duration, the target has advantage on saving throws against being poisoned or diseased, and it has resistance to poison damage.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

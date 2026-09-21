@@ -1,0 +1,11 @@
+{
+  "key": "reverse-engineered-crushgaunts",
+  "name": "Reverse-Engineered Crushgaunts",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "hands",
+  "description": "_**Requires attunement**_\nYour Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher.\n\n_Though the knowledge to forge a pair of true_ shuk'orok _is a closely-guarded Mandalorian secret, the effects of these gloves are desirable enough to spawn numerous imitators._"
+}

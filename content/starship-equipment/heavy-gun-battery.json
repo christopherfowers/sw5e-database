@@ -1,0 +1,27 @@
+{
+  "key": "heavy-gun-battery",
+  "name": "Heavy gun battery",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4000,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "huge"
+  },
+  "properties": [
+    "power",
+    "constitution 17",
+    "overheat 1",
+    "vicious 1"
+  ],
+  "damage": {
+    "numberOfDice": 4,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "range": {
+    "normal": 400,
+    "long": 1600
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-anzellan-crafters",
+  "name": "Crafters",
+  "grantedBy": "species",
+  "grantedByName": "Anzellan",
+  "description": "You have proficiency in one tool of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

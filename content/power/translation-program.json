@@ -1,0 +1,17 @@
+{
+  "key": "translation-program",
+  "name": "Translation Program",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "For the duration, you understand the literal meaning of any spoken registered language that you hear, as long as you have your tech focus. You also understand any written language that you see, but you must be within reach of the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis power doesn't decode secret messages in a text, nor does it interpret a glyph, such as an ancient Sith rune, that isn't part of a written language.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

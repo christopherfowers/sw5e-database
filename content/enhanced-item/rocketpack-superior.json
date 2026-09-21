@@ -1,0 +1,11 @@
+{
+  "key": "rocketpack-superior",
+  "name": "Rocketpack (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "back",
+  "description": "Rocketpacks combine the aerial transportation of a jetpack with the firepower of a rocket launcher. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 40 feet. The jetpack last for 1 minute per power cell (to a maximum of 8 minutes) and can be recharged by a power source or replacing the power cells.\n\nAdditionally, your rocketpack comes with an enhanced integrated rocket launcher with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional power cells, this rocket launcher fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this rocket launcher. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this rocket launcher takes 1 minute. You have a +3 bonus to attack and damage rolls made with this enhanced rocket launcher."
+}

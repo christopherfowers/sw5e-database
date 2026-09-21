@@ -1,0 +1,9 @@
+{
+  "key": "species-barabel-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Barabel",
+  "description": "You can speak, read, and write Galactic Basic and Barabel. The Barabel language is characterized by its barks and hisses.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

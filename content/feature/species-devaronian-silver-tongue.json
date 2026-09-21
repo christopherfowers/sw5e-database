@@ -1,0 +1,9 @@
+{
+  "key": "species-devaronian-silver-tongue",
+  "name": "Silver Tongue",
+  "grantedBy": "species",
+  "grantedByName": "Devaronian",
+  "description": "You have proficiency with Deception or Persuasion (your choice).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

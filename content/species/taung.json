@@ -1,0 +1,93 @@
+{
+  "key": "taung",
+  "name": "Taung",
+  "size": "medium",
+  "homeworld": "Coruscant, Mandalore (adopted)",
+  "nativeLanguage": "Mando'a",
+  "lore": "### Biology and Appearance\nTaung are a humanoid species of tall and strong sentient simians. Physically, the taung are extremely resilient and are able to endure hardships many other species are unable to, which benefits their warlike nature as well as their tendencies to conquer planets.\n\n### Society and Culture\nTaung society is one steeped in war, and the taung are warriors above all else. Nomadic and clan-based, the taung greatly value strength and honor, with pragmatism and ruthlessness being common traits amongst them. Originally waging war as a means of ritual worship to their god Kad Ha'rangir, the taung eventually became the Mandalorians, and - under the leadership of Mandalore the Indomitable - the act of war itself became the center of Mandalorian worship, and to wage war is to *be* divine.\n\nDespite their volatile nature, the taung are far from primitive, and maintain a high priority in procuring the latest technological advancements whenever possible.\n\nThe Mandalorian armor that has become iconic throughout the galaxy originally began with the culture's taung founders, with their unique helmets and war masks being forged in the image of the taung's face, including slanted outer angles and a pointed chin. However, the armor is quite sparse among the taung as they believe that unarmed combat brings the highest honor.\n\n### Names\nTaung names reflect their practical nature, typically choosing names that correspond to traits they deem desirable. Their names are rarely gender specific and can apply to either male or female. Their surnames reflect that of the clan they hail from.\n\n**First Names.** Adenn (merciless), Atin (stubborn), Kot (strength), Kotep (brave), Tor (justice), Verd (soldier)\n\n**Surnames.** Cadera, Fett, Keldau, Lok, Ordo, Vizla",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Taung reach adulthood at 13 and live to around 85, though they rarely live even half the length as they naturally can due to their deadly lifestyles as Mandalorians."
+    },
+    {
+      "name": "Alignment",
+      "description": "The taung live by the traditions and honor-bound code of the Mandalorians, making them tend towards a lawful alignment, typically balanced or dark, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Taung typically stand between 6 and 7 feet tall and weigh around 210 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Toughness",
+      "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    },
+    {
+      "name": "Relentless Endurance",
+      "description": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+    },
+    {
+      "name": "Taung Weapon Training",
+      "description": "You gain proficiency in one vibroweapon and one blaster of your choice."
+    },
+    {
+      "name": "Menacing",
+      "description": "You gain proficiency in the Intimidation skill."
+    },
+    {
+      "name": "Force Insensitive",
+      "description": "While taung can be manipulated by the force, they cannot sense the Force. You can not use force powers or take levels in forcecasting classes."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Mando'a. Mando'a is primarily a spoken language and is very expressive with simple grammar."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'8\"",
+    "heightModifier": "5'8\"",
+    "weightAverage": "165 lb.",
+    "weightModifier": "165 lb."
+  },
+  "appearance": {
+    "distinctions": "Bony and ridged skulls, tendrils and fin-like protrusions on the back of their heads",
+    "skinColorOptions": "Gray",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_taung.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

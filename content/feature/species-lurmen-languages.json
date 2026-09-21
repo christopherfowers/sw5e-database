@@ -1,0 +1,9 @@
+{
+  "key": "species-lurmen-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Lurmen",
+  "description": "You can speak, read, and write Galactic Basic and Lurmese. Lurmese is a name collectively given to the various tribal languages spoken by the lurmen people. While each language is distinct, shared phrases allow translation between dialects.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

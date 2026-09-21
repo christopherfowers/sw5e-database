@@ -1,0 +1,9 @@
+{
+  "key": "species-lasat-bo-rifle-training",
+  "name": "Bo-rifle Training",
+  "grantedBy": "species",
+  "grantedByName": "Lasat",
+  "description": "You have proficiency with blaster rifles, bo-rifles, and vibrostaffs.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

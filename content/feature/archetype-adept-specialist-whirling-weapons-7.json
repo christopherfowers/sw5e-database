@@ -1,0 +1,10 @@
+{
+  "key": "archetype-adept-specialist-whirling-weapons-7",
+  "name": "Whirling Weapons",
+  "grantedBy": "archetype",
+  "grantedByName": "Adept Specialist",
+  "level": 7,
+  "description": "_**Adept Specialist:** 7th level_\nYour constant blur of motion and attacks becomes an unending barrage as you build momentum. Once on your turn when you miss with a weapon attack you can make another weapon attack, no action required.\n##### Adept Forcecasting\n| Level | Force Powers Known | Force Points | Max Power Level |\n|:---:|:---:|:---:|:---:|\n| 3rd| 4| 3|1st|\n| 4th| 6| 4|1st|\n| 5th| 7| 5|1st|\n| 6th| 8| 6|1st|\n| 7th|10| 7|2nd|\n| 8th|11| 8|2nd|\n| 9th|12| 9|2nd|\n|10th|13|10|2nd|\n|11th|14|11|2nd|\n|12th|15|12|2nd|\n|13th|17|13|3rd|\n|14th|18|14|3rd|\n|15th|19|15|3rd|\n|16th|20|16|3rd|\n|17th|22|17|4th|\n|18th|23|18|4th|\n|19th|24|19|4th|\n|20th|25|20|4th|",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

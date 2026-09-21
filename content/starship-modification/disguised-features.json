@@ -1,0 +1,9 @@
+{
+  "key": "disguised-features",
+  "name": "Disguised Features",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You modify your ship to more easily disguise and/or hide installed modifications and equipment. Your ship is proficiently equipped for Charisma (Swindle) checks. If your ship is already proficiently equipped, it is instead considered expertly equipped."
+}

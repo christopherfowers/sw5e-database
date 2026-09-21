@@ -1,0 +1,11 @@
+{
+  "key": "pocket-scrambler",
+  "name": "Pocket scrambler",
+  "category": "communications",
+  "costInCredits": 800,
+  "weight": 1.0,
+  "description": "A pocket scrambler is a simple add-on to any commlink that automatically encodes any messages sent out. The transmitted message can only be read by a device equipped with a matched scrambler.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "land-stride",
+  "name": "Land Stride",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (40-foot radius)",
+  "duration": "8 hours",
+  "concentration": false,
+  "description": "You align yourself with nature, making traversing natural environments far easier. For the duration, your movement and that of creatures of your choice within 40 feet of you can't be slowed by natural terrain, such as mud, rocky ground, vines, or tall grass. Climbing still costs double normal movement. A creature that receives this bonus leaves behind no traces of its passage.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

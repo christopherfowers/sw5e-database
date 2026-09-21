@@ -1,0 +1,10 @@
+{
+  "key": "archetype-gambler-pursuit-gambler-s-aptitude-3",
+  "name": "Gambler's Aptitude",
+  "grantedBy": "archetype",
+  "grantedByName": "Gambler Pursuit",
+  "level": 3,
+  "description": "_**Gambler Pursuit:** 3rd level_\nYou gain proficiency with your choice of gaming set and your choice of the Insight, Deception, Persuasion, or Sleight of Hand skills. Additionally, you can't have disadvantage on checks you make with them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

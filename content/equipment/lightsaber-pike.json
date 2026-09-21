@@ -1,0 +1,22 @@
+{
+  "key": "lightsaber-pike",
+  "name": "Lightsaber pike",
+  "category": "weapon",
+  "costInCredits": 1175,
+  "weight": 4.25,
+  "properties": [
+    "dexterity 11",
+    "double (1d8 energy)",
+    "luminous",
+    "reach"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

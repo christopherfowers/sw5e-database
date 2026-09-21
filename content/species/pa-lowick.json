@@ -1,0 +1,89 @@
+{
+  "key": "pa-lowick",
+  "name": "Pa'lowick",
+  "size": "medium",
+  "homeworld": "Lowick",
+  "nativeLanguage": "Lowickese",
+  "lore": "### Biology and Appearance\nThe pa'lowick are a species of humanoid amphibians who live in the coastal salt marshes of Lowick. They have compact but rotund midsections that top a pair of long, spindly legs ending in anisodactylic feet—three toes pointing forward, one back. This configuration, combined with their powerful lungs, enabled them to swim.\n\nThe most prominent feature of pa'lowick physiology is their prehensile snout, which ends in a pair of pouty, human-like lips. Pa'lowick are also born with sharp tusks, which some lose by middle age.\n\n### Society and Culture\nPa'lowick live in large, independent communities with a feudal system of government. Many pa'lowick become fishers or hunters, as their biology allows.\n\nSongs and stories are the most treasured aspect of pa'lowick culture. Pa'lowick music runs the gamut of genres and subjects, although religious music is particularly common. Cultural heritage, such as history, genealogy, and parables, is largely passed down orally. Every Pa'lowick community has a dedicated storyteller; the esteem afforded this individual makes the position a coveted one. Large lungs make the Pa'lowick hearty singers and affords at least some members of the species the ability to scream loudly and disarm opponents in combat.\n\n### Names\nPa'lowick names tend to grow longer as the family tree grows older, with each generation adding a few syllables they are fond of.\n\n**Male Names.** Loran, Jelanto, Neeamesh, Samoos\n\n**Female Names.** Larisselle, Rensilla, Sy, Tripika\n\n**Surnames.** Chatrunis, Dym, Geeci, Snootles",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Pa'lowick reach adulthood in their late teens and live about 75 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Pa'lowick enjoy a raucous good time, causing them to tend toward chaotic light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Pa'lowick stand about 5 feet tall, and weigh approximately 100 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Hold Breath",
+      "description": "Pa'lowick have a great lung capacity and can hold their breath for up to 15 minutes at a time."
+    },
+    {
+      "name": "Proud Performer",
+      "description": "Pa'lowick are best known for the energy they can bring to a singing performance. Whenever you make a Charisma (Performance) check involving singing, you are considered to have expertise in the Performance skill."
+    },
+    {
+      "name": "Snout",
+      "description": "You have supreme control over your snout and can use it to manipulate objects as well as your hands. Additionally, your snout is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Sonic Scream",
+      "description": "As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Lowickese. Lowickese requires the user to purse their lips and blow air, and is considered amusing by other species."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'6\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "65 lbs.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Long snout, bulbous body on thin legs",
+    "skinColorOptions": "Generally tan and greenish hues",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Green, blue, gray, red-orange"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_palowick.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

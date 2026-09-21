@@ -1,0 +1,86 @@
+{
+  "key": "harch",
+  "name": "Harch",
+  "size": "medium",
+  "homeworld": "Secundus Ando",
+  "nativeLanguage": "Harchese",
+  "lore": "### Biology and Appearance\nThe Harch possess a large-fanged mouth between two prominent chelicerae, above which they have six red eyes arranged in a semicircle. The two lowest eyes are larger and roughly twice the size of the four smaller eyes. Harch walk on two legs and have six arms, with the second and third set of arm protruding from behind the first pair rather than directly above or below them. These arms are covered in thick hair and end in three-fingered hands.\n\nThe Harch are distantly related to the Aqualish species and there is much debate among geneticists regarding the relationship between the Harch and the Aqualish Ualaq subspecies. However, the Harch themselves considered such discussions to be obscene.\n\n### Society and Culture\nNot much is known about the Harch, as few of them have mingled with the galactic community, preferring to stay on Secundus Ando. Harch that leave the planet tend to have a more aspirant nature than their fellows, and often reach great heights in their chosen professions in the galaxy. Such Harch are considered outliers—most apparently care little for titles.\n\nLike the Arcona species, female Harch are seen as more domineering and aggressive than their male counterparts. It is not unheard of for a male Harch to raise entire broods of hatchlings alone.\n\n### Names\nHarch names are not gender-specific. Harch do not use surnames.\n\n**Names.** Cubach, Quixoch, Trench, Turch",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength, Constitution, and Intelligence scores increase by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Harch reach adulthood at age 10 and can live up to 200 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Harch are cold, calculating beings, causing them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Harch stand around 6 feet tall and weigh between 200 and 300 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Bite",
+      "description": "Your fangs are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage. Lastly, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can't use this feature again until you complete a short or long rest."
+    },
+    {
+      "name": "Six-Armed",
+      "description": "Harch have six arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required)."
+    },
+    {
+      "name": "Spider Climb",
+      "description": "You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing, and while climbing you always have two hands free."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Harchese. Harchese is discernible from other insectoid languages by a noticeable emphasis on consonants, especially the \"ch\" sound."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 1,
+          "abilities": [
+            "strength",
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "intelligence"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "150 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Spider-like with six eyes, eight limbs and chelicerae",
+    "skinColorOptions": "Pale pink",
+    "hairColorOptions": "Brown, black",
+    "eyeColorOptions": "Red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_harch.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

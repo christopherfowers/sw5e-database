@@ -1,0 +1,11 @@
+{
+  "key": "spotting-style",
+  "name": "Spotting Style",
+  "description": "You are skilled at keeping track of your surroundings. You gain the following benefits:",
+  "benefits": [
+    "You can take the Search action as a bonus action. If you could already take the Search action as a bonus action, you can instead take it as a reaction on your turn.",
+    "You have advantage on ability checks and saving throws to determine the nature of illusions. If you would already have advantage, you can instead reroll one of the dice once."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

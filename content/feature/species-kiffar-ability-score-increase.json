@@ -1,0 +1,9 @@
+{
+  "key": "species-kiffar-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Kiffar",
+  "description": "Your Strength or Dexterity score increases by 2, and your Wisdom or Charisma score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

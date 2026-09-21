@@ -1,0 +1,18 @@
+{
+  "key": "master-malacia",
+  "name": "Master Malacia",
+  "powerType": "force",
+  "level": 6,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "30 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Mass Malacia",
+  "description": "Choose one creature that you can see within range. The creature reels with extreme dizziness and nausea for the duration. Creatures that can't be charmed are immune to this power.\n\nThe affected creature must use all of its movement to writhe in discomfort without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this power, other creatures have advantage on attack rolls against it. As an action, an affected creature makes a Wisdom saving throw to regain control of itself. On a successful save, the power ends. This power has no effect on droids or constructs.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

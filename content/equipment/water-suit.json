@@ -1,0 +1,11 @@
+{
+  "key": "water-suit",
+  "name": "Water suit",
+  "category": "lifeSupport",
+  "costInCredits": 1500,
+  "weight": 20.0,
+  "description": "Water suits are sealed suits that prevent water from getting in or out. Additionally, while wearing a water suit, you can breath underwater, as the suit filters the water to create breathable oxygen.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

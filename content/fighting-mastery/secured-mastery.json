@@ -1,0 +1,13 @@
+{
+  "key": "secured-mastery",
+  "name": "Secured Mastery",
+  "description": "You've mastered fighting with weapons in atypical places, seamlessly transitioning between your armaments. You gain the following benefits:",
+  "benefits": [
+    "You can wield a number of items on each forearm equal to your full Strength modifier, instead of half.",
+    "You can now reload fixed weapons using your reaction or object interaction, instead of just your action or bonus action. If you could already reload the weapon using your reaction or object interaction, once on each of your turns, you can instead reload the weapon (no action required). You must have one free hand to reload.",
+    "Once on each of your turns, when you miss an attack with a weapon that lacks the fixed property, you can make an additional attack against the same target with a fixed weapon without the aid of your proficiency bonus (no action required).",
+    "Once on each of your turns, when you would make a weapon attack with a fixed weapon, you can forgo the attack. If you do so, you can add your proficiency bonus to your AC against one attack that would hit you before the start of your next turn (no action required)."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

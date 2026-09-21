@@ -1,0 +1,10 @@
+{
+  "key": "biotech-s-implements",
+  "name": "Biotech's implements",
+  "category": "tool",
+  "costInCredits": 450,
+  "weight": 6.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

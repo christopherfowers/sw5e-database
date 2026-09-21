@@ -1,0 +1,9 @@
+{
+  "key": "cloaking-field",
+  "name": "Cloaking Field",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 5,
+  "description": "***Modification Grade** 5*\n***Prerequisite:** Stealth Field and Cloaking Device*\nThis system improves the cloaking function of your ship, extending its range. While your Cloaking Device is active, each starship you choose within 300 feet of your ship also becomes invisible and gains the other effects of the device."
+}

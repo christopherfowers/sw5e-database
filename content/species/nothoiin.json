@@ -1,0 +1,90 @@
+{
+  "key": "nothoiin",
+  "name": "Nothoiin",
+  "size": "medium",
+  "homeworld": "Nothoiin",
+  "nativeLanguage": "Notho",
+  "lore": "### Biology and Appearance\nNear-humans possessing golden, flaky skin, nothoiins feature fair to brown hair with brown eyes and typically have physical heights and builds common to humans. Nothoiins' appearance has earned their species the nickname of \"Goldskins.\"\n\n### Society and Culture\nAlthough nothoiins hail from their eponymous homeworld and star system in the Anoat Sector, they are ubiquitous throughout the Greater Javin Region and Corporate Sectors. Their history of interstellar exploration and colonization was facilitated by their species' natural spacefaring abilities in both piloting and navigation and necessitated by their home planet's periodically harsh, dry climate. Droughts on Nothoiin can last for decades, and the wildfires they foster have served as one of the primary factors behind the limited development of the planet's economy beyond the ur-diamond mining industry, which produces the system's chief export.\n\nLarge-scale emigration from Nothoiin has led members of its native species to seek careers as pilots, navigators, and operatives in numerous criminal enterprises. Various nothoiin colonies have given rise to a number of different governmental systems running the gamut from representative democracies to autocracies.\n\n### Names\nNothoiin typically receive a gendered given name and a familial surname.\n\n**Male Names.** Amrosio, Jado, Kosimas, Troov\n\n**Female Names.** Elayah, Giranti, Lorinah, Sil\n\n**Surnames.** Caban, Mordu, Plintus, Starstrider",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Nothoiin reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Nothoiins tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Nothoiins typically stand between 5 and 6 feet tall and weigh 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Born Pilots",
+      "description": "Nothoiins demonstrate seemingly innate piloting abilities from a very young age. You have proficiency in the Piloting skill."
+    },
+    {
+      "name": "Expert Navigators",
+      "description": "You are considered to have expertise in Wisdom (Survival) checks made to navigate."
+    },
+    {
+      "name": "Galactic Traveler",
+      "description": "You have proficiency in the Lore skill."
+    },
+    {
+      "name": "Heightened Reflexes",
+      "description": "Whenever you make a Dexterity ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Major Miners",
+      "description": "Nothoiins have intimate knowledge of ur-diamond mining and refinement practices. You gain proficiency in your choice of jeweler's implements, scavenging kit, or archaeologist kit."
+    },
+    {
+      "name": "Starship Specialists",
+      "description": "Whenever you make an Intelligence (Technology) check related to starships, you are considered to have expertise in the Technology skill."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and one language of your choice. You can also communicate via Notho, a native hand language developed by hunters living in the Nothoiin plains. Usage of Notho is exceedingly rare outside Nothoiin culture."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "110 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Near-human, flaky golden skin, skilled pilots",
+    "skinColorOptions": "Golden",
+    "hairColorOptions": "Blond, brown, light brown",
+    "eyeColorOptions": "Brown"
+  },
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

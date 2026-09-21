@@ -1,0 +1,9 @@
+{
+  "key": "species-noghri-hunter",
+  "name": "Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Noghri",
+  "description": "You are proficient in Survival and Stealth.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

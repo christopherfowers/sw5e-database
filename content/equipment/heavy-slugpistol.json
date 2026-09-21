@@ -1,0 +1,21 @@
+{
+  "key": "heavy-slugpistol",
+  "name": "Heavy slugpistol",
+  "category": "weapon",
+  "costInCredits": 375,
+  "weight": 3.5,
+  "properties": [
+    "rapid 8",
+    "reload 12",
+    "slug cartridge (range 30/120)"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

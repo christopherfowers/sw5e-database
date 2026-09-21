@@ -1,0 +1,11 @@
+{
+  "key": "stitching-rangefinder-mk-ii",
+  "name": "Stitching Rangefinder Mk II",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +1 bonus to ranged tech attacks."
+}

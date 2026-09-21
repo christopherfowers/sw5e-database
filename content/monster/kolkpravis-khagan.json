@@ -1,0 +1,118 @@
+{
+  "key": "kolkpravis-khagan",
+  "name": "Kolkpravis Khagan",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful balanced",
+  "armor": {
+    "class": 18,
+    "type": "powered battle armor"
+  },
+  "hitPoints": {
+    "average": 113,
+    "roll": "15d8 + 53"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 11,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 13,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 19,
+      "modifier": 4
+    }
+  },
+  "savingThrows": [
+    "Str +9",
+    "Con +8",
+    "Cha +8"
+  ],
+  "skills": [
+    "Athletics +9",
+    "Intimidation +8"
+  ],
+  "senses": [
+    "darkvision 60ft",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Kaleesh",
+    "Galactic Basic"
+  ],
+  "challengeRating": "9",
+  "experiencePoints": 5000,
+  "behaviors": [
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Kolkpravis Khagan makes three melee attacks once with Blade of Plague and twice with Blade of Pain.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blade of Plague",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit 13 (1d8 + 5 plus 1d8) kinetic damage and the target must succed on a DC 16 Constitution saving throw or become Poisoned.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "1d8 + 5 plus 1d8",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Blade of Pain",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +9 to hit, reach 5 ft. or range 20/60, one target. Hit 13 (1d8 + 5 plus 1d8) kinetic damage plus 20 (4d10) lightining damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 9,
+      "range": "reach 5 ft. or range 20/60",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "1d8 + 5 plus 1d8",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Leadership",
+      "behaviorType": "action",
+      "description": "For 1 minute, the Khan can utter a special command or warning whenever a nonhostile creature that it can see within 30 feetof it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Khan. A creature can benefit from only one Leadership die at a time. This effect ends if the Khan is incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharges after a Short or Long Rest"
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "The Khan adds 3 to his AC against one melee attack that would hit him. To do so, the Royal Guard must see the attacker and bewielding a melee weapon.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The Kolkpravis were a large united band of Kaleesh tribal warriors from the eastern hemisphere of the planet Kalee. The organization of the kolkpravis was naturally tribal, as well as the names. The beginning rank of the kolkpravis was a warrior, who made up a kamen. Kamen was lead by a blackarm. Roughly 100 kamen made up a horde, which was lead by a tarkhan. Around 100 to 200 hordes made up a brigade which was lead by baatars. From several brigades came a khanate' which was lead by one of the eight khans of the Izvoshra. The Supreme Commander of the kolkpravis was the khagan, a title held first by Qymaen jai Sheelal, the infamous Lord Grievous.",
+  "sectionText": "Kaleesh were reptilian humanoids from the planet Kalee. They had scaly skin, tusks, and long nostrils, though few outsiders ever saw a Kaleesh face that wasn't obscured behind a traditional mask. Kaleesh culture was deeply spiritual and warlike. War was seen as an essential part of life, and wars between tribes were common.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

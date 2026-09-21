@@ -1,0 +1,10 @@
+{
+  "key": "consular-splashclass-improvement",
+  "name": "Consular Splashclass Improvement",
+  "className": "Consular",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in consular, the ability to cast force powers",
+  "description": "You gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain one of the Force-Empowered Casting options of your choice from those available to the consular class. You gain an additional option at 11th level.\n\nYou can only spend a number of force points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

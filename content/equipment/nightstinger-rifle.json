@@ -1,0 +1,23 @@
+{
+  "key": "nightstinger-rifle",
+  "name": "Nightstinger rifle",
+  "category": "weapon",
+  "costInCredits": 1075,
+  "weight": 11.0,
+  "properties": [
+    "power cell (range 125/500)",
+    "reload 2",
+    "silent",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

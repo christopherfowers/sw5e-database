@@ -1,0 +1,11 @@
+{
+  "key": "collapsible-hilt",
+  "name": "Collapsible Hilt",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the hidden property."
+}

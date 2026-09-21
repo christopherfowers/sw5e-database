@@ -1,0 +1,17 @@
+{
+  "key": "rescue",
+  "name": "Rescue",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "30 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You pull one willing ally you can see within 30 feet of you to an unoccupied space within 5 feet of you. The target must use their reaction to accept the pull.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

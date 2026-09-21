@@ -1,0 +1,11 @@
+{
+  "key": "bolt-electrifying",
+  "name": "Bolt, Electrifying",
+  "category": "ammunition",
+  "costInCredits": 170,
+  "weight": 0.0,
+  "description": "This bolt-thrower ammunition deals 2d6 kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Dexterity saving throw, taking 2d4 lightning damage on a failed save.\nAdditionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature’s turn, it can repeat this save, ending the effect on a success.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

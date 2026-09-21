@@ -1,0 +1,13 @@
+{
+  "key": "crushing-weapon-focus",
+  "name": "Crushing Weapon Focus",
+  "weaponGroup": "crushing",
+  "description": "You've focused your combat training on crushing weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's damage rolls.",
+    "When you score a critical hit with the weapon, you add the attack's governing ability modifier twice, instead of once, to the attack's damage.",
+    "When you take the Attack action, you can choose to forgo one or more attacks to **shatter** the ground. For each attack you forgo, choose a separate 5-foot square within your weapon's reach to shatter. That square becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand. Additionally, each creature other than you in an affected square must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, a creature takes damage equal to the attack's governing ability modifier."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

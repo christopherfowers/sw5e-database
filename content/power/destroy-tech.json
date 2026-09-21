@@ -1,0 +1,17 @@
+{
+  "key": "destroy-tech",
+  "name": "Destroy Tech",
+  "powerType": "tech",
+  "level": 3,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "120 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Make a ranged tech attack against a creature within range. On a hit, the target takes 4d8 ion damage. Additionally, if the target has tech points, it must make an Intelligence saving throw. On a failed save, it loses 5 tech points, as though it expended a tech slot.\n\n***Overcharge Tech.*** When you cast this power with a tech slot of 4th level or higher, the ion damage increases by 1d8, and the amount of tech points lost increases by 1 for each slot level above 3rd.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

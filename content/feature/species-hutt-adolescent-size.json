@@ -1,0 +1,9 @@
+{
+  "key": "species-hutt-adolescent-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Hutt, Adolescent",
+  "description": "Hutts have a unique special characteristic; from birth to death, they never stop growing. As an adolescent hutt, you typically stand between 6 and 7 feet tall and weigh at least 400 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

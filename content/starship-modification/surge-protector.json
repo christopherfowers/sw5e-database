@@ -1,0 +1,9 @@
+{
+  "key": "surge-protector",
+  "name": "Surge Protector",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 0,
+  "description": "You augment your ship's preventative measures in order to mitigate damage to its systems. When refitting is conducted on your ship, its system damage level is reduced by 2, instead of only 1."
+}

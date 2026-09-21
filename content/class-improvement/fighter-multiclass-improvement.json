@@ -1,0 +1,10 @@
+{
+  "key": "fighter-multiclass-improvement",
+  "name": "Fighter Multiclass Improvement",
+  "className": "Fighter",
+  "improvementType": "multiclass",
+  "prerequisite": "At least 3 levels in fighter",
+  "description": "You can add half your other chosen class's levels (rounded down) to your fighter levels when determining the number of hit points you regain from your Second Wind feature, the size of your superiority dice, and the number of superiority dice you have.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

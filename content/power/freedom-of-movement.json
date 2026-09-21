@@ -1,0 +1,17 @@
+{
+  "key": "freedom-of-movement",
+  "name": "Freedom of Movement",
+  "powerType": "force",
+  "level": 4,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "You touch a willing creature. Its movement is unaffected by difficult terrain, and powers and enhanced effects can't reduce its speed or cause it to be paralyzed or restrained.\n\nThe target can spend 5 feet of movement to automatically escape from unenhanced restraints. Additionally, being underwater imposes no penalties on its movement or attacks.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

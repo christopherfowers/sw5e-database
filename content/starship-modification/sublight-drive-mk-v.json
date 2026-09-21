@@ -1,0 +1,9 @@
+{
+  "key": "sublight-drive-mk-v",
+  "name": "Sublight Drive, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "description": "***Prerequisite:** Strength 17, Sublight Drive, Mk IV*\nYour ship’s flying speed increases by 50 feet."
+}

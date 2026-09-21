@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "Tuskens are considered adults when they turn 15. Because of the harsh and unforgiving climate of their home world, they rarely live longer than half a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-tiss-shar-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Tiss'shar",
+  "description": "Your Dexterity score increases by 2, and your Strength, Intelligence, or Charisma score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,21 @@
+{
+  "key": "splitsaber",
+  "name": "Splitsaber",
+  "category": "weapon",
+  "costInCredits": 1500,
+  "weight": 3.0,
+  "properties": [
+    "double (2d4 energy)",
+    "interlocking",
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

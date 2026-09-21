@@ -1,0 +1,16 @@
+{
+  "key": "plating-lightweight-mk-i",
+  "name": "Plating, Lightweight Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Lightweight Armor",
+      "equipmentName": "Lightweight armor"
+    }
+  ],
+  "description": "You upgrade your ship's armor plating, granting your ship a +1 bonus to AC."
+}

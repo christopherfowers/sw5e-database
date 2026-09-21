@@ -1,0 +1,11 @@
+{
+  "key": "stitching-rangefinder-mk-iv",
+  "name": "Stitching Rangefinder Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +3 bonus to ranged tech attacks."
+}

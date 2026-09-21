@@ -1,0 +1,11 @@
+{
+  "key": "investigator-s-pattern-elite",
+  "name": "Investigator's Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Investigation increases by five steps (to high mastery or from trained to grand mastery)."
+}

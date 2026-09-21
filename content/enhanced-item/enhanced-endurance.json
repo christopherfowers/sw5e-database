@@ -1,0 +1,12 @@
+{
+  "key": "enhanced-endurance",
+  "name": "Enhanced Endurance",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "When you are reduced to 0 hit points while wearing this armor but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+}

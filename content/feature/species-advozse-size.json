@@ -1,0 +1,9 @@
+{
+  "key": "species-advozse-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Advozse",
+  "description": "Advozsec typically stand 5 to 6 feet tall and generally weigh about 130 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

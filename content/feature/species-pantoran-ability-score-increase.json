@@ -1,0 +1,9 @@
+{
+  "key": "species-pantoran-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Pantoran",
+  "description": "Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

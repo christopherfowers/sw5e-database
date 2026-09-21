@@ -1,0 +1,9 @@
+{
+  "key": "species-wookiee-menacing",
+  "name": "Menacing",
+  "grantedBy": "species",
+  "grantedByName": "Wookiee",
+  "description": "You have proficiency in the Intimidation skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

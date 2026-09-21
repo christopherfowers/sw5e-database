@@ -1,0 +1,11 @@
+{
+  "key": "threatening-pattern-favored",
+  "name": "Threatening Pattern (Favored)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Intimidation increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery)."
+}

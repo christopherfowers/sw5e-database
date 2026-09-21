@@ -1,0 +1,16 @@
+{
+  "key": "data-core-mk-ii",
+  "name": "Data Core, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Data Core, Mk I",
+      "modificationName": "Data Core, Mk I"
+    }
+  ],
+  "description": "You further improve your ship's Data Core. Your ship's Intelligence score increases by 1. As normal, you can't increase your ship's Intelligence score above the maximum for your size with this system."
+}

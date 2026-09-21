@@ -1,0 +1,19 @@
+{
+  "key": "saberaxe",
+  "name": "Saberaxe",
+  "category": "weapon",
+  "costInCredits": 600,
+  "weight": 1.0,
+  "properties": [
+    "luminous"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

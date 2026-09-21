@@ -1,0 +1,9 @@
+{
+  "key": "species-cerean-perceptive",
+  "name": "Perceptive",
+  "grantedBy": "species",
+  "grantedByName": "Cerean",
+  "description": "You have proficiency in Perception.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

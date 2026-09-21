@@ -1,0 +1,14 @@
+{
+  "key": "blade-supremacy",
+  "name": "Blade Supremacy",
+  "weaponGroup": "blade",
+  "description": "You've specialized your combat training with blade weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's attack rolls.",
+    "Whenever you have advantage on an attack roll and hit and the lower of the two d20 rolls would also hit (or a creature has disadvantage on a saving throw and the higher of the two d20s would also fail), and the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or gain 1 slowed level until the start of your next turn.",
+    "Your critical hit range increases by 1.",
+    "When you take the Attack action, you can choose to forgo one or more attacks to **parry**. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn. If you could already parry, instead you can do so as your bonus action."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

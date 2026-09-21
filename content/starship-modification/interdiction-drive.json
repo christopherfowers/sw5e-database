@@ -1,0 +1,9 @@
+{
+  "key": "interdiction-drive",
+  "name": "Interdiction Drive",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "description": "You install an interdiction drive on your ship, which can be activated to impede ships around it.\nAs an action, a crewmember can engage the interdiction drive. Each ship within 300 feet of your ship must make a Strength saving throw (DC = 8 + the crewmembers's proficiency bonus + the ship's Strength modifier). On a failed save, a ship gains 1 level of slowed until the end of your ship's next turn.\nIf a ship is two or more sizes larger than your ship, it has advantage on the saving throw. If it is two or more sizes smaller, it instead has disadvantage.\nThis feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "detachable-eye",
+  "name": "Detachable Eye",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "replacement",
+  "description": "This augmentation replaces an eye.\n\nAs an action, you can remove or replace this eye. While removed, the eye sprouts eight small legs, has a speed of 15 feet, an AC of 10, and 1 hit point. As an action on each of your turns, you can move the eye up to its speed as long as it is within 30 feet of you. You can see through both the detached eye and your remaining eye at the same time, or you can use your action to see through only one eye or the other.\n\n**Side Effect:** While the eye is removed, you have disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on sight beyond 5 feet.\n\n_This eye replacement is a favored tool for the augmented spy._"
+}

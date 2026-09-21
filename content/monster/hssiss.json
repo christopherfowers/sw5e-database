@@ -1,0 +1,115 @@
+{
+  "key": "hssiss",
+  "name": "Hssiss",
+  "size": "large",
+  "types": [
+    "aberration"
+  ],
+  "alignment": "chaotic dark",
+  "armor": {
+    "class": 18,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 125,
+    "roll": "15d10+45"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., swim 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 17,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 9,
+      "modifier": -1
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Dex +5",
+    "Con +6",
+    "Wis +3",
+    "Cha +5"
+  ],
+  "skills": [
+    "Perception +6",
+    "Stealth +5"
+  ],
+  "senses": [
+    "Darkvision 60ft",
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Can't speak but underst",
+    "s comm",
+    "s in Sith"
+  ],
+  "challengeRating": "7",
+  "experiencePoints": 0,
+  "behaviors": [
+    {
+      "name": "Amphibious",
+      "behaviorType": "trait",
+      "description": "The dragon can breathe air and water.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sith-born",
+      "behaviorType": "trait",
+      "description": "Dark forcecasters and Sith (species) have advantage on Animal Handling checks against Hssiss.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Hssiss makes three attacks, once with its bite and twice with its claws.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 14 (3d8+4) kinetic damage. The creature must then succeed on a Constitution saving throw (DC 17) or become poisoned and take 6 (2d6) toxin damage per turn. The target is also grappled (escape DC 16). Until this grapple ends, the target is restrained, and the Hssiss can't bite another target",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (3d6+4) kinetic damage. The creature must then succeed on a Constitution saving throw (DC 15) or become poisoned and take 6 (2d6) toxin damage per turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Invisibility",
+      "behaviorType": "action",
+      "description": "The Hssiss magically turns Invisible until it attacks, or until its Concentration ends (as if concentrating on a power).",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Hssiss, or dark side dragons, are a lizard species with the ability to influence Force-sensitive beings around them. ***Biology & Appearance.*** In appearance, Hssiss look like nothing more than particularly vicious reptiles, about three meters in length, with a green, scaly hide. In addition to those three meters, they have a meter long tail, covered in rows of spikes which stretch up past their backs and onto their necks. When in the lakes on Ambria, they hunt in pairs, grasping their prey with their strong jaws and sinking dozens of teeth into the unfortunate animal's body, while the other Hssiss sinks its jagged claws into it.\n\n***Abilities.*** Hssiss have a potent, venomous bite filled or powered by the Dark Side. Hssiss also have the ability to conceal themselves and become invisible, possibly doing so through the Force. ***Origins.*** Hssiss originated as savage reptilian predators on Ambria, and were one of the few creatures to survive the planet's destruction. They lived in and near Lake Natth, where Jedi Master Thon had imprisoned the dark side energies that had plagued the planet for millennia. The dark spirits then began to possess the creatures, turning them into something much fouler—it is said that these \"dark side dragons\" aided those who used the dark side of the Force. Eventually, Great Bogga began to use them as body guards and pitted them against those who had failed him. When he realized how effective and vicious they were, he had them transported off-world and sold in bulk. Soon, Hssiss could be found all over the galaxy, especially on worlds where the dark side was strong, including Korriban, Mimban and Vjun.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

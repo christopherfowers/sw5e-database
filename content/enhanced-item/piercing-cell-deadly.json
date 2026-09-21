@@ -1,0 +1,11 @@
+{
+  "key": "piercing-cell-deadly",
+  "name": "Piercing Cell (Deadly)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon gains the piercing 2 property. If it already has the piercing property, its piercing number increases by 2, to a maximum of 3."
+}

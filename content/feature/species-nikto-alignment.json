@@ -1,0 +1,9 @@
+{
+  "key": "species-nikto-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Nikto",
+  "description": "Nikto's self-sufficient and clever nature causes them to tend toward balanced alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

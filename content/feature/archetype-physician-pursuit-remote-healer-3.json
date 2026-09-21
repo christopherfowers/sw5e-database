@@ -1,0 +1,10 @@
+{
+  "key": "archetype-physician-pursuit-remote-healer-3",
+  "name": "Remote Healer",
+  "grantedBy": "archetype",
+  "grantedByName": "Physician Pursuit",
+  "level": 3,
+  "description": "_**Physician Pursuit:** 3rd level_\nYou have learned to deploy medicine from a range. When you use a maneuver targeting an ally that is the target of your Critical Analysis feature, that maneuver's range becomes 30 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

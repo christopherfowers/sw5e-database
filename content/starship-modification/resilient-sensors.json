@@ -1,0 +1,9 @@
+{
+  "key": "resilient-sensors",
+  "name": "Resilient Sensors",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 3,
+  "description": "You overhaul your ship's sensors to make them more adaptive. Your ship is proficiently equipped for Wisdom saving throws."
+}

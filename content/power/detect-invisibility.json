@@ -1,0 +1,17 @@
+{
+  "key": "detect-invisibility",
+  "name": "Detect Invisibility",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "For the duration, you see invisible creatures and objects as if they were visible.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

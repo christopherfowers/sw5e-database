@@ -1,0 +1,21 @@
+{
+  "key": "jagged-vibroblade",
+  "name": "Jagged vibroblade",
+  "category": "weapon",
+  "costInCredits": 650,
+  "weight": 7.0,
+  "properties": [
+    "dexterity 13",
+    "keen 1",
+    "versatile (1d12)"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

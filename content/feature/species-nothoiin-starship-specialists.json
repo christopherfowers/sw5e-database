@@ -1,0 +1,9 @@
+{
+  "key": "species-nothoiin-starship-specialists",
+  "name": "Starship Specialists",
+  "grantedBy": "species",
+  "grantedByName": "Nothoiin",
+  "description": "Whenever you make an Intelligence (Technology) check related to starships, you are considered to have expertise in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

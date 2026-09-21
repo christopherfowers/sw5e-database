@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sw5e.com/schemas/channel/v1.json",
+  "title": "Channel",
+  "description": "A link to somewhere the community gathers away from this site: a Discord, a subreddit, a funding page. These are content rather than code so that they can be changed without a developer, which matters for a project whose leadership is expected to change hands.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "platform",
+    "group",
+    "url",
+    "order"
+  ],
+  "properties": {
+    "key": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable slug identifying this channel."
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "discord",
+        "reddit",
+        "facebook",
+        "twitter",
+        "youtube",
+        "github",
+        "patreon",
+        "kofi",
+        "opencollective",
+        "githubsponsors"
+      ],
+      "description": "Which service this link goes to. This decides the icon and the label on the button, and which web addresses the link is allowed to use: a Discord link has to point at Discord. Adding a service to this list is a code change."
+    },
+    "group": {
+      "type": "string",
+      "enum": [
+        "development",
+        "connect",
+        "support"
+      ],
+      "description": "Which column this appears under on the front page. A column with nothing enabled in it is not drawn at all, so the site simply has no Support column rather than an empty one."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Where the link goes. Must start with https, and must match the service chosen above, or the site will not show it."
+    },
+    "blurb": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The paragraph above this column. Shown as plain text, so formatting marks would appear as characters."
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Where this sits within its column."
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true,
+      "description": "Untick to hide this link without deleting it. Use this rather than deleting when a link might come back."
+    }
+  }
+}

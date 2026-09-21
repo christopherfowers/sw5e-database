@@ -1,0 +1,21 @@
+{
+  "key": "neuronic-whip",
+  "name": "Neuronic whip",
+  "category": "weapon",
+  "costInCredits": 725,
+  "weight": 0.0,
+  "properties": [
+    "reach",
+    "shocking 15",
+    "specialized (shocking)"
+  ],
+  "weaponClassification": "exoticVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

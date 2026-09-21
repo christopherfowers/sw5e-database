@@ -1,0 +1,16 @@
+{
+  "key": "navcomputer-mk-iv",
+  "name": "Navcomputer, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Navcomputer, Mk III",
+      "modificationName": "Navcomputer, Mk III"
+    }
+  ],
+  "description": "This modification greatly improves the navcomputer on your ship.  When your ship rolls advantage on Intelligence (Astrogation) checks, you can reroll one of the dice once. You must use the new roll."
+}

@@ -1,0 +1,93 @@
+{
+  "key": "bith",
+  "name": "Bith",
+  "size": "medium",
+  "homeworld": "Clak'dor VII",
+  "nativeLanguage": "Bith",
+  "lore": "### Biology and Appearance\nBith are craniopods with pale pink, yellow, or green skin, large heads, large lidless eyes, toeless feet, and long fingers. Their thumb and small finger were both fully opposable. The bith's internal systems are different from most humanoids, as the bith have only one lung, and exhale through their skin. Bith also lack a proper nose, instead having highly sensitive olfactory organs hidden in the skin-flaps of their cheeks.\n\nThe other bith senses are also acute. Bith can sense the tonal qualities of sound as well as other species sensed colors. Their eyes, as big as a Menahuun's, can see microscopic details of nearby objects, but are extremely nearsighted as a result. An interesting side effect of their incredible sensors is the effect of sonic grenades, or screamers, on them. It is described as causing their heads to explode. Similarly, bith have high manual dexterity which helps them manipulate fine tools, though their physical prowess with gross motor skills was only average.\n\n### Society and Culture\nBith are one of the galaxy's most ancient civilizations, with a history going back millions of years. This antiquity garners respect in certain quarters, such as among the Gree, who gave them more respect than other, \"younger\" species. Their society is highly regimented, with everything from mate selection to political leadership controlled by sophisticated computer programs.\n\n### Names\nBith names are quite diverse. Some names look complicated and difficult to pronounce, while others are quite simple.\n\n**Male Names.** Fedu, Jenkiss, Kabadons, Ph'teumkiass\n\n**Female Names.** Duhia, F'hubama, R'hothal, Thidus\n\n**Surnames.** D'intes, Hern, K'sarorn, Nimum, Rumo",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Dexterity score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Bith reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Biths' benevolent nature causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Bith typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Detail Oriented",
+      "description": "You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks within 5 feet."
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "description": "You have advantage on Wisdom (Perception) checks that involve hearing or smell."
+    },
+    {
+      "name": "Musician",
+      "description": "You are proficient in one musical instrument of your choice."
+    },
+    {
+      "name": "Programmer",
+      "description": "Whenever you make an Intelligence (Technology) check related to computers, you are considered to have expertise in the Technology skill."
+    },
+    {
+      "name": "Sonic Sensitivity",
+      "description": "Your powerful sense of hearing makes you especially vulnerable to deafening sounds. You have disadvantage on saving throws against effects that would deal sonic damage (explained in chapter 9)."
+    },
+    {
+      "name": "Trance",
+      "description": "You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, Bith, and one more language of your choice."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Large cranium, acute senses of smell and hearing",
+    "skinColorOptions": "Green, pink, white, or yellow",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_bith.png"
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

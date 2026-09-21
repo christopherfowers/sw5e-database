@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "Ewoks are inherently accepting, albeit naive, and tend toward the light side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

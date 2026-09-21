@@ -1,0 +1,11 @@
+{
+  "key": "expanding-amplifier-improved",
+  "name": "Expanding Amplifier (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the expanding 15 property. If it already has the expanding property, its expanding number increases by 15, to a maximum of 30."
+}

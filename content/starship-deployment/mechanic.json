@@ -1,0 +1,90 @@
+{
+  "key": "mechanic",
+  "name": "Mechanic",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "role": "Controls the energy production and flow of the ship",
+  "rankProgression": [
+    {
+      "rank": 1,
+      "features": [
+        "Venture",
+        "System Boost"
+      ]
+    },
+    {
+      "rank": 2,
+      "features": [
+        "Quick Fixer",
+        "Ship Technician"
+      ]
+    },
+    {
+      "rank": 3,
+      "features": [
+        "Dependable Tech",
+        "Reroute Power"
+      ]
+    },
+    {
+      "rank": 4,
+      "features": [
+        "Rapid Repairman",
+        "Efficient Reroute"
+      ]
+    },
+    {
+      "rank": 5,
+      "features": [
+        "Paragon Tech",
+        "Supreme Boost"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "name": "Venture",
+      "description": "Beginning when you choose this deployment as your specialty, at 1st rank, and again at 2nd, 3rd, 4th, and 5th rank, you can choose a venture (see Chapter 6 for a list of ventures)."
+    },
+    {
+      "name": "System Boost",
+      "description": "Also at 1st rank, you learn techniques to quickly augment different systems on your ship that are fueled by special dice called tech dice.\n\n#### Techniques\nYou learn two techniques of your choice, which are detailed under \"Techniques\" below. You can use only one technique per turn, and you can only use each technique once per round.\n\nYou learn an additional technique at 2nd, 3rd, 4th and 5th rank in this deployment. Each time you learn a new technique, you can also replace one technique you know with a different one.\n\n#### Tech Dice\nYour techniques are represented by your tech die, the starting size of which is a d4. Using your tech die does not expend it.\n\nYour tech die changes when you reach certain ranks in this deployment. The die becomes a d6 at 2nd rank, a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.\n\n#### Creative Thinking\nIf you roll a 1 on your tech die, it decreases by one die size until the end of your next turn. This represents you burning through your creativity. For example, if the die is a d6 and you roll a 1, it becomes a d4. If it’s a d4 and you roll a 1, it becomes unusable until the end of your next turn.\n\nConversely, if you roll the maximum number on your tech die, it increases by one die size until the end of your next turn, up to a d12. This represents you having a creative break-through. For example, if you roll a 4 on a d4, the die then becomes a d6. If it's a d12 and you roll a 12, on future rolls until the end of your next turn, you can roll an extra die and choose which die to use."
+    },
+    {
+      "name": "Techniques",
+      "description": "The techniques are presented in alphabetical order.\n\n#### Comms Boost\nAs a bonus action, you can roll a tech die and add it to the next Charisma (Interfere) check your ship makes before the end of your next turn.\n\n#### Engine Tuning\nAs an action, you can roll your tech die.  Take the result of the die and multiply it by 50. The flying speed of your ship increases by this amount until the end of your next turn.\n\n#### Power Distribution\nAs a bonus action, you can roll your tech die and move that number of power dice from their current location to another location.\n\n#### Quiet Electronics\nAs a bonus action, you can roll a tech die and add it to the next Dexterity (Stealth) check your ship makes before the end of your next turn.\n\n#### Reactor Boost\nAs an action, you can roll your tech die.  Your reactor immediately produces that many power dice that must be stored immediately based on your ship's power coupling.  For any power dice produced in excess of your ship's capacity to store, your ship takes that many hull points in damage.\n\nAdditionally, your ship must succeed on a Constitution (Regulation) check (DC = 10 + the number rolled on your tech die) or take hull damage equal to one hull die + your ship's strength modifier.\n\n#### Sensor Boost\nAs a bonus action, you can roll a tech die and add it to the next Wisdom (Scan) or Intelligence (Probe) check your ship makes before the end of your next turn.\n\n#### Shield Reinforcement\nAs a bonus action, you can roll your tech die.  Your shields immediately regenerate by the result of the die.\n\n#### Weapon Overload\nAs a bonus action, you can roll your tech die.  The next time a ship weapon deals damage before the end of your next turn, it deals additional damage equal to the result of the die. The damage is of the same type dealt by the original attack."
+    },
+    {
+      "name": "Quick Fixer",
+      "description": "At 2nd rank, when you take the Patch action or conduct ship repairs during recharging, you have advantage on the Constitution (Patch) check. If you already have advantage, you can instead reroll one of the dice once."
+    },
+    {
+      "name": "Ship Mechanic",
+      "description": "Also at 2nd rank, when installing new equipment or upgrades, you count as two members of a workforce, instead of one."
+    },
+    {
+      "name": "Dependable Tech",
+      "description": "Starting at 3rd rank, you can regain use of your starting tech die as a reaction.  Once you've used this feature, you must finish a short or long rest before you can use it again."
+    },
+    {
+      "name": "Reroute Power",
+      "description": "Also at 3rd rank, as an action on each of your turns, you can reroute power between your ship's engines, shields, and weapons through use of the ship's power coupling. A power coupling can be toggled to neutral, where all three aspects function normally, or can divert power to a specific system.\n\nWhen diverting power to a system, the effects of that system are doubled:\n- **Engines:** A ship's flying speed is doubled.\n- **Shields:** Shields take half damage and shield regeneration rate is doubled.\n- **Weapons:** Weapons deal double damage.\n\nWhen diverting power to a system, power to the other systems is halved:\n- **Engines:** A ship's flying speed is reduced by half.\n- **Shields:** Shields take double damage and shield regeneration rate reduced by half.\n- **Weapons:** Ship weapon damage is reduced by half."
+    },
+    {
+      "name": "Rapid Repairman",
+      "description": "At 4th rank, when you take the Patch action, you can choose to forgo your proficiently equipped bonus. If you succeed on the check, you can expend 2 Hull Dice, instead of one. For each Hull Die spent in this way, roll the die and add the ship's Constitution modifier to it."
+    },
+    {
+      "name": "Efficient Reroute",
+      "description": "Also at 4th rank, when you reroute power you only halve power to one other system of your choice."
+    },
+    {
+      "name": "Paragon Tech",
+      "description": "As of 5th tier, you are a paragon of your deployment. When you make a Strength (Boost) check or a Constitution (Regulate) check, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Supreme Boost",
+      "description": "As of 5th rank, you learn to briefly and massively boost your ship's system. When you use a technique that uses a bonus action, you can use another, different technique that also uses a bonus action this turn. Additionally, instead of rolling your Tech die for these uses, you can choose to take the maximum.\n\nOnce you've used this feature, you must finish a short or long rest before you can use it again."
+    }
+  ]
+}

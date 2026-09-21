@@ -1,0 +1,9 @@
+{
+  "key": "species-nothoiin-galactic-traveler",
+  "name": "Galactic Traveler",
+  "grantedBy": "species",
+  "grantedByName": "Nothoiin",
+  "description": "You have proficiency in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

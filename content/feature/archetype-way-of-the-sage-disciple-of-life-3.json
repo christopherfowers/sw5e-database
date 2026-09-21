@@ -1,0 +1,10 @@
+{
+  "key": "archetype-way-of-the-sage-disciple-of-life-3",
+  "name": "Disciple of Life",
+  "grantedBy": "archetype",
+  "grantedByName": "Way of the Sage",
+  "level": 3,
+  "description": "_**Way of the Sage:** 3rd level_\nWhen you cast a force power that restores hit points, you can use Wisdom or Charisma as your forcecasting ability for it.\nAdditionally, whenever you use a force power of 1st level or higher to restore hit points to a creature, the creature regains extra hit points equal to 2 + the power's level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

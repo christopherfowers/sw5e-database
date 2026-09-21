@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-silent-step",
+  "name": "Silent Step",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "You have proficiency in the Stealth skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

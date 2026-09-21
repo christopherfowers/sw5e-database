@@ -1,0 +1,10 @@
+{
+  "key": "archetype-trakata-form-channel-the-force-3",
+  "name": "Channel the Force",
+  "grantedBy": "archetype",
+  "grantedByName": "Trakata Form",
+  "level": 3,
+  "description": "_**Trakata Form:** 3rd level_\nYou gain the following Channel the Force option.\n#### Unbalancing Block\nWhen you are hit with a melee weapon attack, and you are wielding a lightweapon with which you are proficient, you can use your reaction and expend a use of your Channel the Force to add your Wisdom or Charisma modifier (your choice, minimum of +1) to your AC for that attack, potentially causing the attack to miss you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

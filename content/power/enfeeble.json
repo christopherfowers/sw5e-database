@@ -1,0 +1,17 @@
+{
+  "key": "enfeeble",
+  "name": "Enfeeble",
+  "powerType": "force",
+  "level": 0,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Dark energy courses from your hand at a creature within range. The target must succeed on a Wisdom saving throw. If it is missing any hit points, it takes 1d12 necrotic damage. Otherwise, it takes 1d8.\n\nThe power's damage increases by one die when you reach 5th, 11th, and 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kalleran-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kalleran",
+  "description": "Kallerans typically stand 6 and a half to 8 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,13 @@
+{
+  "key": "power-core-reactor",
+  "name": "Power core reactor",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "reactor",
+  "costInCredits": 5750,
+  "description": "Power core reactors have highly variable power output capabilities, but sacrifice fuel economy and as a result.",
+  "reactor": {
+    "powerDiceRecovered": "1d2",
+    "fuelCostModifier": "x 3/2"
+  }
+}

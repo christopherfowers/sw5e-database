@@ -1,0 +1,113 @@
+{
+  "key": "tuk-ata",
+  "name": "Tuk'ata",
+  "size": "large",
+  "types": [
+    "aberration"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 14,
+    "type": "natural armor"
+  },
+  "hitPoints": {
+    "average": 59,
+    "roll": "7d10+21"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 11,
+      "modifier": 0
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 11,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 4,
+      "modifier": -3
+    }
+  },
+  "skills": [
+    "Perception +2"
+  ],
+  "senses": [
+    "Darkvision 60ft",
+    "passive Perception 12"
+  ],
+  "languages": [
+    "Sith (telepathically)"
+  ],
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Keen Senses",
+      "behaviorType": "trait",
+      "description": "The Tuk'ata has advantage on Wisdom (Perception) checks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sith-born",
+      "behaviorType": "trait",
+      "description": "Dark forcecasters and Sith (species) have advantage on Animal Handling checks against Tuk'ata.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Telepathy",
+      "behaviorType": "trait",
+      "description": "Tuk'ata can communicate telepathically with other creature within it's line of sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Tuk'ata makes two attacks, once with its bite and once with its claws or poisonous stingers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8+3) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Claws",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6+3) kinetic damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Poisonous Stingers",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4+3) kinetic damage. The creature must then succeed on a Constitution saving throw (DC 13) or become poisoned.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The Force-sensitive tuk'ata, or Sith hounds, have been used for thousands of years to guard the tombs of the Dark Lords of the Sith on Korriban. ***Biology & Appearance.*** Sith hounds are oversized beasts that are bred to be both fearless and relentless. Their distinctive characteristics included sharp horns, long claws and savage teeth. Tuk'ata are unusually intelligent and are even able to communicate with one another through means unknown. It is claimed that originally the species was non-violent and grazing before being corrupted by Sith alchemy experiments that awakened latent parts of their brain which transformed them into unnatural abominations. On occasion, random mutations produce some tuk'ata that are able to live for centuries and grow to immense proportions. Considering that many Sith hounds were sealed inside the tombs themselves, some believe that they are immortal or draw nourishment from the Force itself, the latter part of which is likely true. It is also possible that they survive by feeding on small vermin or other creatures that infest the tombs as decay and time create new openings in the stone walls.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kaminoan-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kaminoan",
+  "description": "Kaminoans typically stand 7 to 8 feet tall and weigh around 150 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

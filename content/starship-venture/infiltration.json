@@ -1,0 +1,15 @@
+{
+  "key": "infiltration",
+  "name": "Infiltration",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 10 levels in scout",
+      "className": "scout",
+      "level": 10
+    }
+  ],
+  "description": "You can take the Fly or Conceal actions as a bonus action on each of your turns.\nWhen you attempt to Conceal your ship, you can opt to not move your ship more than half its speed on that turn. If you do so, ships that attempt to detect you take a -10 penalty to their Wisdom (Scan) checks until the start of your next turn. You lose this benefit if you move more than half your speed, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.\nIf you are still hidden on your next turn, you can continue to move up to half your speed and gain this benefit until you are detected.\n\\columnbreak\n&emsp;Finally, you can no longer be tracked by unenhanced means, unless you choose to leave a trail."
+}

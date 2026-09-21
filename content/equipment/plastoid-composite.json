@@ -1,0 +1,17 @@
+{
+  "key": "plastoid-composite",
+  "name": "Plastoid composite",
+  "category": "armor",
+  "costInCredits": 4500,
+  "weight": 45.0,
+  "properties": [
+    "bulky",
+    "reinforced",
+    "rigid"
+  ],
+  "armorClassification": "medium",
+  "armorClass": "15 + Dex modifier (max 2)",
+  "stealthDisadvantage": true,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "command-center",
+  "name": "Command Center",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Large or larger",
+      "shipSizes": [
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    }
+  ],
+  "description": "This suite creates a separate command center designed to give a comprehensive view of the area surrounding the ship. When a crewmember deployed in a command center takes the Direct action, they can target an additional ally.  This ability can only be used once per ship turn."
+}

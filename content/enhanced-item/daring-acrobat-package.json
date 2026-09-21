@@ -1,0 +1,12 @@
+{
+  "key": "daring-acrobat-package",
+  "name": "Daring Acrobat Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Dexterity 15",
+  "description": "Your Dexterity score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Dexterity saving throws.\n\n**Side Effect:** One ability score other than Dexterity (chosen by the GM) decreases by 1.\n\n_This implant drastically increases your fine motor skills and reaction times._"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-gank-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Gank",
+  "description": "Your base walking speed is 35 feet. You ignore the strength property of heavy armor.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

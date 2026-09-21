@@ -1,0 +1,9 @@
+{
+  "key": "species-ugor-galactic-scavengers",
+  "name": "Galactic Scavengers",
+  "grantedBy": "species",
+  "grantedByName": "Ugor",
+  "description": "You have proficiency in mechanic's kits or scavenging kits (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

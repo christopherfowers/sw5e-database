@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "Your Constitution score increases by 2, and your Strength or Charisma score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

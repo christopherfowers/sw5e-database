@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-iron-form-combat-training-3",
+  "name": "Form Combat Training",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Iron",
+  "level": 3,
+  "description": "_**Path of Iron:** 3rd level_\nYou learn one lightsaber form, as detailed in the Customization Options document for Expanded Content.\nAdditionally, you gain proficiency in all martial light- and vibro- weapons.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

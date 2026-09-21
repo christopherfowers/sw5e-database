@@ -1,0 +1,11 @@
+{
+  "key": "blaster-chassis-standard",
+  "name": "Blaster Chassis (Standard)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "standard",
+  "requiresAttunement": true,
+  "subtype": "any blaster",
+  "description": "_**Requires attunement**_\nThis modifiable blaster chassis comes with vacant modification slots for blaster modifications. It can house modifications of standard rarity."
+}

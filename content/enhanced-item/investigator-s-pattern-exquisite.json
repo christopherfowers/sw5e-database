@@ -1,0 +1,11 @@
+{
+  "key": "investigator-s-pattern-exquisite",
+  "name": "Investigator's Pattern (Exquisite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain grand mastery in Investigation."
+}

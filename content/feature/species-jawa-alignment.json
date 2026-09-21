@@ -1,0 +1,9 @@
+{
+  "key": "species-jawa-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Jawa",
+  "description": "Jawas tendency to steal and swindle causes them to tend towards the dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

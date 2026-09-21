@@ -1,0 +1,9 @@
+{
+  "key": "species-trandoshan-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Trandoshan",
+  "description": "Trandoshans tend toward the dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,23 @@
+{
+  "key": "sonic-rifle",
+  "name": "Sonic rifle",
+  "category": "weapon",
+  "costInCredits": 875,
+  "weight": 9.0,
+  "properties": [
+    "power cell (range 80/320)",
+    "disruptive",
+    "reload 8",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 8,
+    "type": "sonic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

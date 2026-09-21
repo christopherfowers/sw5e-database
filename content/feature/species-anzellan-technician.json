@@ -1,0 +1,9 @@
+{
+  "key": "species-anzellan-technician",
+  "name": "Technician",
+  "grantedBy": "species",
+  "grantedByName": "Anzellan",
+  "description": "You are proficient in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

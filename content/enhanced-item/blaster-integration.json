@@ -1,0 +1,11 @@
+{
+  "key": "blaster-integration",
+  "name": "Blaster Integration",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "You can now integrate a single simple or martial blaster into your droid chassis. Over the course of a short or long rest, you can insert and integrate this blaster into your frame. As a bonus action, you can open or close a small hatch located somewhere on your droid body, permitting you to wield and fire the weapon normally when you want to attack with it. While the hatch is open, your hands are not considered occupied by this blaster. All other rules and conditions apply normally as if you were wielding this blaster in either one or two hands (your choice)."
+}

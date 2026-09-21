@@ -1,0 +1,10 @@
+{
+  "key": "operative-class-improvement",
+  "name": "Operative Class Improvement",
+  "className": "Operative",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in operative",
+  "description": "You can use the bonus action granted by your Cunning Action to carefully aim your next attack. You gain advantage on your next attack roll before the end of your current turn. You can't use this feature if you have moved during this turn, and using this feature reduces your speed to 0 until the end of your current turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

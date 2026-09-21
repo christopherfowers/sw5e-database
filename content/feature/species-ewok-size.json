@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "Ewoks stand between 3 and 4 feet tall and weigh about 50 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

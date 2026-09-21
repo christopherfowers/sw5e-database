@@ -1,0 +1,21 @@
+{
+  "key": "great-saber",
+  "name": "Great-saber",
+  "category": "weapon",
+  "costInCredits": 1725,
+  "weight": 3.25,
+  "properties": [
+    "dexterity 11",
+    "luminous",
+    "two-handed"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

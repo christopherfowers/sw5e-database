@@ -1,0 +1,11 @@
+{
+  "key": "torpedo-plasma-lethal",
+  "name": "Torpedo, Plasma (Lethal)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack and damage rolls made with this enhanced torpedo launcher ammunition, which deals 20d12 energy damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+}

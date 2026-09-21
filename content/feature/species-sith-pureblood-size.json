@@ -1,0 +1,9 @@
+{
+  "key": "species-sith-pureblood-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Sith Pureblood",
+  "description": "Sith generally stand between 5 and 6 feet tall and weigh less than 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-shistavanen-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Shistavanen",
+  "description": "Shistavanen are private and tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

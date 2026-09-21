@@ -1,0 +1,11 @@
+{
+  "key": "gas-cartridge-deadly",
+  "name": "Gas Cartridge (Deadly)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack and damage rolls made with this enhanced gas cartridge. This bonus is in addition to any bonuses granted by the weapon. Once the gas cartridge has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes 1d6 poison damage and is poisoned until the start of its next turn. On a successful save, a creature takes half damage and isn't poisoned."
+}

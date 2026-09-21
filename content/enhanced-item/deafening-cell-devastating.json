@@ -1,0 +1,11 @@
+{
+  "key": "deafening-cell-devastating",
+  "name": "Deafening Cell (Devastating)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack and damage rolls made with this enhanced deafening cell. This bonus is in addition to any bonuses granted by the weapon. Once the deafening cell is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes 1d10 sonic damage and is deafened until the start of your next turn. On a successful save, a creature takes half damage and isn't deafened."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "quarters-basic",
+  "name": "Quarters, Basic",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite features a single room, or series of rooms, to house a number of crewmembers equal to twice the ship's suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. Each room features bunks and individual storage, as well a communal refresher station for every eight beds (minimum of one)."
+}

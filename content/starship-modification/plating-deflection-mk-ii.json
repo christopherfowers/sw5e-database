@@ -1,0 +1,21 @@
+{
+  "key": "plating-deflection-mk-ii",
+  "name": "Plating, Deflection Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Deflection Armor",
+      "equipmentName": "Deflection armor"
+    },
+    {
+      "kind": "modification",
+      "text": "Plating, Deflection MK I",
+      "modificationName": "Plating, Deflection Mk I"
+    }
+  ],
+  "description": "You further upgrade your ship's armor plating, granting your ship a total DR of 4, but granting your ship disadvantage on Dexterity (Hide) checks."
+}

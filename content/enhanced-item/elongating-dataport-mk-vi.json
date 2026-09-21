@@ -1,0 +1,11 @@
+{
+  "key": "elongating-dataport-mk-vi",
+  "name": "Elongating Dataport Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the elongating 30 property. If it already has the elongating property, its elongating number increases to 30."
+}

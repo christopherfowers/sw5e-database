@@ -1,0 +1,85 @@
+{
+  "key": "karkarodon",
+  "name": "Karkarodon",
+  "size": "medium",
+  "homeworld": "Karkaris",
+  "nativeLanguage": "Karkaran",
+  "lore": "### Biology and Appearance\nThe amphibious Karkarodons have tall, slim bodies with webbed hands and feet. Their shark-like heads have pointed noses, gill slits, and many rows of razor-sharp teeth, which they use when attacking and eating. Karkarodons are skilled and fast swimmers. They attack by grabbing the target and used their jaws for ripping and tearing.\n\n### Society and Culture\nKarkarodons hail from the planet Karkaris, which is located in a star system neighboring the planet Mon Cala. They harbor an intense hatred for the Mon Calamari and Quarren inhabitants. The planet is almost entirely under water, and is very uninviting to non-Karkarodons.\n\nKarkarodon culture is a warmongering, strength-based culture. Clans often fight eachother for dominance, natural resources, and to cull the weak. Each clan on the planet has a ruling triumvirate, usually comprised of venerated warriors who rule for life. When a younger Karkarodon wants to replace one of the ruling body, they challenge them to single, mortal combat. Occasionally, the challenged may spare the life of the challenger when they win, though that usually leads to resentment from the loser.\n\nKarkarodons do not believe in lying or duplicity. They believe in approaching problems head on and saying what they mean, and are generally demeaing towards those they deem their lessers.\n\n### Names\nKarkarodon names are harsh and gutteral. They are generally one syllable. Surnames are clan-based rather than familial.\n\n**Male Names.** Aurb, Rend, Riff, Trak, Vour\n\n**Female Names.** Dewb, Garr, Rast, Scrat, Zend\n\n**Surnames.** Alben, Gerdall, Kibben, Tamson, Zendall",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Kakarodon reach adulthood in their early teens and live to be about 70."
+    },
+    {
+      "name": "Alignment",
+      "description": "Karkarodons' warmongering nature causes them to tend toward the dark side, though there are exceptions"
+    },
+    {
+      "name": "Size",
+      "description": "Karkarodons stand 5 to 7 feet tall and weigh upwards of 250 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Aggressive",
+      "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Bite",
+      "description": "Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d6 kinetic damage. Lastly, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+    },
+    {
+      "name": "Swim",
+      "description": "You have a swimming speed of 30 feet."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Karkaran. Karkaran is characterized by its fierce sounds."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "130 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Multiple rows of sharp teeth, powerful jaws, shark-like heads",
+    "skinColorOptions": "Blue, gray, or white",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_karkarodon.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

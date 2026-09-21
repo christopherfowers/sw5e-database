@@ -1,0 +1,26 @@
+{
+  "key": "slave-circuit-independence",
+  "name": "Slave Circuit Independence",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or larger",
+      "shipSizes": [
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ]
+    },
+    {
+      "kind": "modification",
+      "text": "Slave Circuit Automation",
+      "modificationName": "Slave Circuit Automation"
+    }
+  ],
+  "description": "Your ship's slave circuit automates crew functions seamlessly. You reduce the minimum crew requirement to one eighth (minimum of 1), instead of to one quarter."
+}

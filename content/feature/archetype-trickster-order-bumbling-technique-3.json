@@ -1,0 +1,10 @@
+{
+  "key": "archetype-trickster-order-bumbling-technique-3",
+  "name": "Bumbling Technique",
+  "grantedBy": "archetype",
+  "grantedByName": "Trickster Order",
+  "level": 3,
+  "description": "_**Trickster Order:** 3rd level_\nYour martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. You gain proficiency in Performance.\nAdditionally, you learn how to twist and turn quickly. Whenever you use your bonus action to make an unarmed strike, creatures you hit can't make opportunity attacks against you, and your speed increases by 10 feet until the end of your turn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

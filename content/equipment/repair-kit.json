@@ -1,0 +1,11 @@
+{
+  "key": "repair-kit",
+  "name": "Repair kit",
+  "category": "medical",
+  "costInCredits": 750,
+  "weight": 3.0,
+  "description": "A repair kit included the basic tools needed to repair a droid or construct after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

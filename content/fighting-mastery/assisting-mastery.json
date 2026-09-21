@@ -1,0 +1,12 @@
+{
+  "key": "assisting-mastery",
+  "name": "Assisting Mastery",
+  "description": "You've mastered enabling your allies, boosting them to the dismay of your enemies. You gain the following benefits:",
+  "benefits": [
+    "When you take the Help action and target an ally, you can choose to forgo up to half your speed. If you do so, when that ally makes its ability check to complete the task with advantage, it can reroll one of the dice once. You can not use this feature if you have moved more than half your speed this turn.",
+    "When you take the Help action and target an enemy, you can choose to forgo up to half your speed. If you do so, when an ally makes its attack roll against the creature with advantage, it can reroll one of the dice once. You can not use this feature if you have moved more than half your speed this turn.",
+    "When you take the Help action, it has a range in feet equal to 5 x your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

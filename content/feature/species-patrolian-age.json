@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "Patrolians reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

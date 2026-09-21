@@ -1,0 +1,9 @@
+{
+  "key": "comms-package-mk-i",
+  "name": "Comms Package, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 1,
+  "description": "***Modification Grade** 1*\nThis modification augments the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships in the same sector as you as long as they are similarly equipped.\nFinally, your ship is proficiently equipped for Intelligence (Data) checks. If your ship is already proficiently equipped, it is instead considered expertly equipped."
+}

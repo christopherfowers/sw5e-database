@@ -1,0 +1,17 @@
+{
+  "key": "overload",
+  "name": "Overload",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (15-foot cube)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "You expel a burst of power. Each creature in a 15-foot cube originating from you must make a Dexterity saving throw. On a failed save, a creature takes 2d6 ion damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

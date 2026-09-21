@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "Tusken culture's violent focus and disregard of those outside the tribe causes them to tend towards chaotic dark side, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

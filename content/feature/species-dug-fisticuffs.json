@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-fisticuffs",
+  "name": "Fisticuffs",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

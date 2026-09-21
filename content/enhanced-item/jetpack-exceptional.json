@@ -1,0 +1,11 @@
+{
+  "key": "jetpack-exceptional",
+  "name": "Jetpack (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "back",
+  "description": "Jetpacks are personal aerial transportation devices that allow the operator to fly into and through the air with great mobility. Activating or deactivating the jetpack requires a bonus action and, while active, you have a flying speed of 70 feet. The jetpack last for 1 minute per power cell (to a maximum of 18 minutes) and can be recharged by a power source or replacing the power cells."
+}

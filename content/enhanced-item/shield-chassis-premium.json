@@ -1,0 +1,11 @@
+{
+  "key": "shield-chassis-premium",
+  "name": "Shield Chassis (Premium)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "shield",
+  "rarity": "premium",
+  "requiresAttunement": true,
+  "subtype": "any",
+  "description": "_**Requires attunement**_\nThis modifiable shield chassis comes with vacant modification slots for armor modifications. It can house modifications of premium rarity or lower."
+}

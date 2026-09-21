@@ -1,0 +1,11 @@
+{
+  "key": "withercasting-overlay-adept",
+  "name": "Withercasting Overlay (Adept)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While using this item as your focus, you gain a +3 bonus to the force save DC of powers that require a Wisdom or Charisma saving throw."
+}

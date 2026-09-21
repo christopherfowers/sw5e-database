@@ -1,0 +1,168 @@
+{
+  "key": "blackguard",
+  "name": "Blackguard",
+  "lore": "You are a member of the Blackguard: a reclusive sect of Force users from the planet of Mustafar. Rather than being determined by the Force, the Blackguard believe that the light or dark dwell within the user, and that to truly increase one's knowledge and strength in the Force, one must understand and seek out the philosophies and abilities of other Force traditions around the galaxy.",
+  "skillProficiencies": "Choose two from Insight, Investigation, Lore, and Survival",
+  "toolProficiencies": "Artificer's implements",
+  "languageProficiencies": "One of your choice",
+  "startingEquipment": "A copy of a Force-wielder organization's text, a trinket from your travels around the galaxy, a set of common clothes including a robe, and a belt pouch containing 150 cr",
+  "feature": {
+    "name": "Student of the Force",
+    "description": "You often know where to find information on Force-sensitive organizations, or where to find someone who would know, and can readily decipher more common lore about them. Your GM might rule that the knowledge you seek is secreted away in an almost inaccessible place, that it simply cannot be found, or is too difficult to decipher."
+  },
+  "suggestedCharacteristics": "The Blackguard are galactic travelers and students, looking to expand their horizons and knowledge of the Force by learning from others.",
+  "personalityTraitOptions": [
+    {
+      "roll": 1,
+      "description": "I let my actions speak for themselves."
+    },
+    {
+      "roll": 2,
+      "description": "I've left emotion behind me, I'm now perfectly placid."
+    },
+    {
+      "roll": 3,
+      "description": "I question every Force user I meet, trying to acquire every piece of knowledge I can."
+    },
+    {
+      "roll": 4,
+      "description": "I'm willing to listen to every side of an argument before I make my own judgment."
+    },
+    {
+      "roll": 5,
+      "description": "I spend every free moment training in lightsaber techniques."
+    },
+    {
+      "roll": 6,
+      "description": "I judge people by their actions, not their words."
+    },
+    {
+      "roll": 7,
+      "description": "When I set my mind to something, I follow through no matter what gets in my way."
+    },
+    {
+      "roll": 8,
+      "description": "I face problems head-on. A simple, direct solution is the best path to success."
+    }
+  ],
+  "idealOptions": [
+    {
+      "roll": 1,
+      "name": "Knowledge",
+      "description": "The path to true understanding of the Force is through knowledge. (Neutral)"
+    },
+    {
+      "roll": 2,
+      "name": "Might",
+      "description": "Knowledge is the path to power and domination. (Dark)"
+    },
+    {
+      "roll": 3,
+      "name": "Defense",
+      "description": "The Blackguard protect that which others would seek to destroy. (Lawful)"
+    },
+    {
+      "roll": 4,
+      "name": "Loyalty",
+      "description": "The Blackguard Order watches its own. (Any)"
+    },
+    {
+      "roll": 5,
+      "name": "Balance",
+      "description": "There is no light or dark. There is only the Force. (Balanced)"
+    },
+    {
+      "roll": 6,
+      "name": "Freedom",
+      "description": "True freedom rejects the restrictions of the Jedi and Sith. (Chaos)"
+    }
+  ],
+  "bondOptions": [
+    {
+      "roll": 1,
+      "description": "Nothing is more important than the other members of the Blackguard."
+    },
+    {
+      "roll": 2,
+      "description": "I would die to recover an ancient relic that was lost long ago."
+    },
+    {
+      "roll": 3,
+      "description": "I will do anything to protect the temple where I served."
+    },
+    {
+      "roll": 4,
+      "description": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+    },
+    {
+      "roll": 5,
+      "description": "I'm still seeking the enlightenment I pursued in joining the Blackguard, and it still eludes me."
+    },
+    {
+      "roll": 6,
+      "description": "I would do anything for the Wilder that trained me."
+    }
+  ],
+  "flawOptions": [
+    {
+      "roll": 1,
+      "description": "I believe that everyone is beneath me."
+    },
+    {
+      "roll": 2,
+      "description": "I am easily distracted by the promise of information."
+    },
+    {
+      "roll": 3,
+      "description": "I have little respect for anyone who is not a proven warrior."
+    },
+    {
+      "roll": 4,
+      "description": "I find those who believe in the Dark and Light of the Force childish simpletons."
+    },
+    {
+      "roll": 5,
+      "description": "My rejection of Light and Dark has drained me of any real moral compass."
+    },
+    {
+      "roll": 6,
+      "description": "My focus on gaining knowledge has left me with little attachment to people or their feelings."
+    }
+  ],
+  "featOptions": [
+    {
+      "roll": 1,
+      "name": "Empathic"
+    },
+    {
+      "roll": 2,
+      "name": "Investigator"
+    },
+    {
+      "roll": 3,
+      "name": "Loremaster"
+    },
+    {
+      "roll": 4,
+      "name": "Survivalist"
+    },
+    {
+      "roll": 5,
+      "name": "Crafter"
+    },
+    {
+      "roll": 6,
+      "name": "Linguist"
+    },
+    {
+      "roll": 7,
+      "name": "Formfighting Dabbler"
+    },
+    {
+      "roll": 8,
+      "name": "Force-Sensitive"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

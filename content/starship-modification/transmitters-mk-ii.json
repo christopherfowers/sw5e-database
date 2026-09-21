@@ -1,0 +1,16 @@
+{
+  "key": "transmitters-mk-ii",
+  "name": "Transmitters, Mk II",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Transmitters, Mk I",
+      "modificationName": "Transmitters, Mk I"
+    }
+  ],
+  "description": "You further improve your ship's Transmitters. Your ship's Charisma score increases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system."
+}

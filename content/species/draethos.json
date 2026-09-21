@@ -1,0 +1,81 @@
+{
+  "key": "draethos",
+  "name": "Draethos",
+  "size": "medium",
+  "homeworld": "Draethos",
+  "nativeLanguage": "Draethos",
+  "lore": "### Biology and Appearance\nDraethos possess large teeth, which grow outside of their mouths. Coupled with their lack of lips, this leads to the appearance of an overbite. Their scaly skin ranged in color from blue to purple to black. Their hands retain an interstitial web between the fingers. Their fingers end in narrow tips which resemble claws. They possess low-light vision, springing from their cave-dwelling ancestors.\n\nDraethos possess a limited telepathy, granting the ability to communicate with any sentient being. The ability is limited to communication; a Draethos can not invade the thoughts of others.\n\n### Society and Culture\nPartly due to their long lives, Draethos society was slow to evolve and relies heavily on tradition. The Draethos' culture is warrior-based, and those living on the homeworld are expected to demonstrate their martial or hunting prowess. Life on Draethos is harsh, with arrogant aristocrats squabbling among one another for social standing and wealth. Warriors are perpetually in high demand as gladiators, mercenaries, hunters, and soldiers. Those who make a conscious decision to abandon the way of the warrior are exiled to seek a new life among aliens. Consequently, despite their reputation as fierce combatants, most Draethos encountered offworld are peaceful and intellectual.\n\n### Names\nDue to their lack of lips, Draethos names typically lack hard consonants. Surnames are familial.\n\n**Male Names.** Odan, Gyeto, Hurl, Jan, Talon\n\n**Female Names.** Gillen, Teria, Kat'h, Yul, Aswe\n\n**Surnames.** Urr, Slyter, Qelu'tlapa, Ayahu, Jek",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Draethos reach adulthood around their late teens and live up to 800 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Draethos tend toward no particular alignment. The best and worst are found among them."
+    },
+    {
+      "name": "Size",
+      "description": "Draethos typically stand between 6 and 7 feet tall and weigh around 190 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Telepathy",
+      "description": "You can communicate telepathically with creatures within 30 feet of you. You must share a language with the target in order to communicate in this way."
+    },
+    {
+      "name": "Way of the Warrior",
+      "description": "You have proficiency with light and medium armor as well as vibroblades and vibroswords."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Draethos. Draethos is characterized by its flurry of cacophonous sighs and clicks."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'5\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "130 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Four fingers, large teeth, telepathy, long life spans",
+    "skinColorOptions": "Grey, pink, blue, purple, black",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, brown, red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_draethos.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

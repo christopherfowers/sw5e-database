@@ -1,0 +1,10 @@
+{
+  "key": "class-fighter-ability-score-improvement-16",
+  "name": "Ability Score Improvement",
+  "grantedBy": "class",
+  "grantedByName": "Fighter",
+  "level": 16,
+  "description": "_**Fighter:** 4th, 6th, 8th, 12th, 14th, 16th, and 19th level_\nYou can increase one ability score by 2, or you can increase two ability scores by 1. You can't increase an ability score above 20 using this feature.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

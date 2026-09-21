@@ -1,0 +1,8 @@
+{
+  "key": "master-tech-dabbler",
+  "name": "Master Tech Dabbler",
+  "prerequisite": "The ability to cast 4th-level tech powers",
+  "description": "You know one at-will tech power. Additionally, you know one 5th-level tech power, which you can cast once per long rest. Your techcasting ability is Intelligence. You require use of a wristpad for these powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

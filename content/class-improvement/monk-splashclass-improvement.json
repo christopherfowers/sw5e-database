@@ -1,0 +1,10 @@
+{
+  "key": "monk-splashclass-improvement",
+  "name": "Monk Splashclass Improvement",
+  "className": "Monk",
+  "improvementType": "splashclass",
+  "prerequisite": "No levels in monk",
+  "description": "Your practice of martial arts grants you the following benefits:\n- You can make an unarmed strike as a bonus action. If you would already make an unarmed strike as a bonus action, you can instead make this strike in addition to that unarmed strike.\n- You can take the Disengage action as a bonus action. If you would already Disengage as a bonus action, you can instead also Dodge.\n- You can take the Dash action as a bonus action. If you would already Dash as a bonus action, you can instead double your jump distance for the turn.\n\nYou can use these features a combined number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

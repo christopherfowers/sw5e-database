@@ -1,0 +1,11 @@
+{
+  "key": "insulated-pattern-exceptional",
+  "name": "Insulated Pattern (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the insulated 9 armor property. If it already has the insulated armor property, its insulated number increases by 5, to a maximum of 10."
+}

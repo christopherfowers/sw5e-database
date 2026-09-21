@@ -1,0 +1,24 @@
+{
+  "key": "lightning-rifle",
+  "name": "Lightning rifle",
+  "category": "weapon",
+  "costInCredits": 2125,
+  "weight": 8.5,
+  "description": "Whenever you deal damage with this weapon and roll the maximum on the weapon damage die, the creature hit becomes shocked until the end of its next turn.",
+  "properties": [
+    "power cell (range 60/240)",
+    "penetrating 2",
+    "reload 8",
+    "strength 11",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "lightning"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

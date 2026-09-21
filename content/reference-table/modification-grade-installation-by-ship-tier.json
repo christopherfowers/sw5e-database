@@ -1,0 +1,7 @@
+{
+  "key": "modification-grade-installation-by-ship-tier",
+  "name": "Modification Grade Installation by Ship Tier",
+  "contentSet": "core",
+  "body": "|Modification Grade|Tier 0|Tier 1|Tier 2|Tier 3|Tier 4|Tier 5|\n|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\n|**Grade 0**| 10|  9|  8|  7|  6|  5|\n|**Grade 1**| 17| 12| 11| 10|  9|  8|\n|**Grade 2**| 24| 19| 14| 13| 12| 11|\n|**Grade 3**| 31| 26| 21| 16| 15| 14|\n|**Grade 4**| 38| 33| 28| 23| 18| 17|\n|**Grade 5**| 45| 40| 35| 30| 25| 20|",
+  "subject": "Starships"
+}

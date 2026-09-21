@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-aggression-entropic-rush-7",
+  "name": "Entropic Rush",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Aggression",
+  "level": 7,
+  "description": "_**Path of Aggression:** 7th level_\nYou've learned to move with speed and precision, discharging your lightning in a massive burst. When you move at least half your speed before casting *lightning charge*, you make the attack roll with advantage. Additionally, on a hit, the lightning can leap a second time, to a third creature within range or back to the first creature.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

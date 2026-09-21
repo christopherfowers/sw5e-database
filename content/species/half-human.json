@@ -1,0 +1,539 @@
+{
+  "key": "half-human",
+  "name": "Half-human",
+  "lore": "### Biology and Appearance\nThe appearance and biological features of half-humans vary drastically by each species, but tend to fall somewhere in the middle. A common side-effect of a species interbreeding with humans is the loss of darkvision and tails.\n\n### Society and Culture\nHalf-humans are subjects of two separate cultures, but belong in neither. A half-human might be raised amongst humans or their other half, or might be fully ostracized, instead growing up in a remote, isolated place, removed from both species.\n\n> #### Traits\n> Half-humans gain the ***Defiant*** special trait from their human half. They also gain the special traits from their non-human half, except for those trait(s) mentioned in the Half-Human table above.\n\n### Names\nHalf-human names might follow human conventions, or that of the other half. Often, they blend the two in some fashion, perhaps taking a human surname, with a special name.",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Half-humans gain the ability score increases of their non-human half, but they can choose any ability score for one of the options, instead of the given option. Half-humans can not increase the same ability score twice during character creation using this feature."
+    },
+    {
+      "name": "Age",
+      "description": "Half-humans live around the average of the two species' lifespans."
+    },
+    {
+      "name": "Alignment",
+      "description": "Half-humans tend towards their non-human half's alignment."
+    },
+    {
+      "name": "Size",
+      "description": "Half-humans stand and weigh around the average of the two species' height and weight. Regardless of your position in that range, your size is the size of your non-human half."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is that of your non-human half."
+    },
+    {
+      "name": "Defiant",
+      "description": "Half-humans are known to be stubborn and often refuse to give up, even against the worst odds. When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, regardless of whether or not the non-human half can speak it, and the language(s) associated with your non-human half."
+    }
+  ],
+  "halfHumanTraits": [
+    {
+      "speciesName": "Abyssin",
+      "traitName": "Savage Attacks"
+    },
+    {
+      "speciesName": "Advozse",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Aing-Tii",
+      "traitName": "Armored Plates"
+    },
+    {
+      "speciesName": "Aleena",
+      "traitName": "Racer's Reflexes"
+    },
+    {
+      "speciesName": "Anomid",
+      "traitName": "Tech Resistance"
+    },
+    {
+      "speciesName": "Anx",
+      "traitName": "Acute Smell"
+    },
+    {
+      "speciesName": "Aqualish",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Arcona",
+      "traitName": "Keen Smell"
+    },
+    {
+      "speciesName": "Ardennian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Arkanian",
+      "traitName": "Darkvision Infrared Sight Sunlight Sensitivity"
+    },
+    {
+      "speciesName": "Barabel",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Baragwin",
+      "traitName": "Keen Smell"
+    },
+    {
+      "speciesName": "Besalisk",
+      "traitName": "Powerful Build"
+    },
+    {
+      "speciesName": "Bith",
+      "traitName": "Detail Oriented"
+    },
+    {
+      "speciesName": "Bothan",
+      "traitName": "Naturally Stealth"
+    },
+    {
+      "speciesName": "Caamasi",
+      "traitName": "Keen Smell"
+    },
+    {
+      "speciesName": "Cathar",
+      "traitName": "Leonine Agility"
+    },
+    {
+      "speciesName": "Cerean",
+      "traitName": "Closed Mind"
+    },
+    {
+      "speciesName": "Chadra-Fan",
+      "traitName": "Second Heart"
+    },
+    {
+      "speciesName": "Chagrian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Chevin",
+      "traitName": "Keen Hearing"
+    },
+    {
+      "speciesName": "Chiss",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Clawdite",
+      "traitName": "Unsettling Visage"
+    },
+    {
+      "speciesName": "Codru-Ji",
+      "traitName": "Keen Hearing"
+    },
+    {
+      "speciesName": "Dashade",
+      "traitName": "Force Contention"
+    },
+    {
+      "speciesName": "Defel",
+      "traitName": "Hidden Step"
+    },
+    {
+      "speciesName": "Devaronian",
+      "traitName": "Two Livered"
+    },
+    {
+      "speciesName": "Diathim",
+      "traitName": "Luminescent Aura"
+    },
+    {
+      "speciesName": "Dowutin, Young",
+      "traitName": "Hide"
+    },
+    {
+      "speciesName": "Draethos",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Dug",
+      "traitName": "Fury of the Small"
+    },
+    {
+      "speciesName": "Duros",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Echani",
+      "traitName": "Combative Culture"
+    },
+    {
+      "speciesName": "Esh-Kha",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Ewok",
+      "traitName": "Mask of the Wild"
+    },
+    {
+      "speciesName": "Falleen",
+      "traitName": "Closed Mind"
+    },
+    {
+      "speciesName": "Flesh Raider",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Gamorrean",
+      "traitName": "Savage Attacks"
+    },
+    {
+      "speciesName": "Gand",
+      "traitName": "Lungless"
+    },
+    {
+      "speciesName": "Gank",
+      "traitName": "Aggressive"
+    },
+    {
+      "speciesName": "Geonosian",
+      "traitName": "Geonosian Weaponry"
+    },
+    {
+      "speciesName": "Givin",
+      "traitName": "Vacuum Sealed"
+    },
+    {
+      "speciesName": "Gormak",
+      "traitName": "Adaptive Resilience"
+    },
+    {
+      "speciesName": "Gotal",
+      "traitName": "Natural Empathy"
+    },
+    {
+      "speciesName": "Gran",
+      "traitName": "Keen Sight"
+    },
+    {
+      "speciesName": "Gungan",
+      "traitName": "Martial Proficiency"
+    },
+    {
+      "speciesName": "Harch",
+      "traitName": "Venomous Fangs"
+    },
+    {
+      "speciesName": "Herglic",
+      "traitName": "Toughness"
+    },
+    {
+      "speciesName": "Ho'din",
+      "traitName": "Second Heart"
+    },
+    {
+      "speciesName": "Houk",
+      "traitName": "Toughness"
+    },
+    {
+      "speciesName": "Iktotchi",
+      "traitName": "Precognition"
+    },
+    {
+      "speciesName": "Ithorian",
+      "traitName": "Hold Breath"
+    },
+    {
+      "speciesName": "Jawa",
+      "traitName": "Grovel, Cower, and Beg"
+    },
+    {
+      "speciesName": "Kage",
+      "traitName": "Superior Darkvision"
+    },
+    {
+      "speciesName": "Kaleesh",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Kalleran",
+      "traitName": "Keen Hearing"
+    },
+    {
+      "speciesName": "Kaminoan",
+      "traitName": "Geneticist Ultraviolet Sight"
+    },
+    {
+      "speciesName": "Karkarodon",
+      "traitName": "Aggressive"
+    },
+    {
+      "speciesName": "Kel Dor",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Kiffar",
+      "traitName": "Nimble Reflexes"
+    },
+    {
+      "speciesName": "Killik",
+      "traitName": "Carapace"
+    },
+    {
+      "speciesName": "Klatooinian",
+      "traitName": "Wisdom of the Elders"
+    },
+    {
+      "speciesName": "Kubaz",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Kushiban",
+      "traitName": "Grovel, Cower, and Beg"
+    },
+    {
+      "speciesName": "Kyuzo",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Lannik",
+      "traitName": "Closed Mind"
+    },
+    {
+      "speciesName": "Lasat",
+      "traitName": "Powerful Build"
+    },
+    {
+      "speciesName": "Lurmen",
+      "traitName": "Rolling Agility"
+    },
+    {
+      "speciesName": "Massassi",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Mikkian",
+      "traitName": "Keen Hearing"
+    },
+    {
+      "speciesName": "Miraluka",
+      "traitName": "Force Sight"
+    },
+    {
+      "speciesName": "Mirialan",
+      "traitName": "Spiritual"
+    },
+    {
+      "speciesName": "Mon Calamari",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Mustafarian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Muun",
+      "traitName": "Second Heart"
+    },
+    {
+      "speciesName": "Nautolan",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Neimoidian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Nikto",
+      "traitName": "Adaptation"
+    },
+    {
+      "speciesName": "Noghri",
+      "traitName": "Keen Smell"
+    },
+    {
+      "speciesName": "Nothoiin",
+      "traitName": "Heightened Reflexes"
+    },
+    {
+      "speciesName": "Ortolan",
+      "traitName": "Grovel, Cower, and Beg"
+    },
+    {
+      "speciesName": "Quarren",
+      "traitName": "Keen Hearing"
+    },
+    {
+      "speciesName": "Pa'lowick",
+      "traitName": "Hold Breath Snout"
+    },
+    {
+      "speciesName": "Pantoran",
+      "traitName": "Cold Adaptation"
+    },
+    {
+      "speciesName": "Patrolian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Pau'an",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Pyke",
+      "traitName": "Mercantile Notorious Slavers"
+    },
+    {
+      "speciesName": "Quermian",
+      "traitName": "Two Brains"
+    },
+    {
+      "speciesName": "Rakata",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Rattataki",
+      "traitName": "Surprise Attack"
+    },
+    {
+      "speciesName": "Rishii",
+      "traitName": "Keen Hearing and Sight"
+    },
+    {
+      "speciesName": "Rodian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Ryn",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Selkath",
+      "traitName": "Venomous Claws"
+    },
+    {
+      "speciesName": "Selonian",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Shistavanen",
+      "traitName": "Darkvision Forced March"
+    },
+    {
+      "speciesName": "Ssi-Ruu",
+      "traitName": "Keen Smell Sunlight Sensitivity Tooth and Nail"
+    },
+    {
+      "speciesName": "Sith Pureblood",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Squib",
+      "traitName": "Keen Smell"
+    },
+    {
+      "speciesName": "Sullustan",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Talz",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Tarasin",
+      "traitName": "Sa'tosin Sense"
+    },
+    {
+      "speciesName": "Taung",
+      "traitName": "Toughness Force-Insensitive"
+    },
+    {
+      "speciesName": "Theelin",
+      "traitName": "Mutation"
+    },
+    {
+      "speciesName": "Thisspiasian",
+      "traitName": "Prehensile Tail"
+    },
+    {
+      "speciesName": "Tiss'shar",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Tognath",
+      "traitName": "Hide"
+    },
+    {
+      "speciesName": "Togorian",
+      "traitName": "Toughness"
+    },
+    {
+      "speciesName": "Togruta",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Toydarian",
+      "traitName": "Closed Mind"
+    },
+    {
+      "speciesName": "Trandoshan",
+      "traitName": "Saving Face"
+    },
+    {
+      "speciesName": "Tusken",
+      "traitName": "Aggressive"
+    },
+    {
+      "speciesName": "Twi'lek",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Ugnaught",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Umbaran",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Verpine",
+      "traitName": "Hardened Carapace"
+    },
+    {
+      "speciesName": "Voss",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Vurk",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Weequay",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Wookiee",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Xexto",
+      "traitName": "Split Mind"
+    },
+    {
+      "speciesName": "Yevetha",
+      "traitName": "Aggressive"
+    },
+    {
+      "speciesName": "Zabrak",
+      "traitName": "Darkvision"
+    },
+    {
+      "speciesName": "Zeltron",
+      "traitName": "Two Livered"
+    },
+    {
+      "speciesName": "Zygerrian",
+      "traitName": "Darkvision"
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

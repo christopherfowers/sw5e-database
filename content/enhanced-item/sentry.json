@@ -1,0 +1,11 @@
+{
+  "key": "sentry",
+  "name": "Sentry",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "description": "You learn the *alarm* tech power. You can cast it once, without the use of a wristpad and without spending tech points, and you regain the ability to do so when you finish a long rest. Intelligence is your techcasting ability for this power.\n\n_This part equips a droid with a small rotating sensory dish._"
+}

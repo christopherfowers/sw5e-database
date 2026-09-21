@@ -1,0 +1,11 @@
+{
+  "key": "fusion-cutter",
+  "name": "Fusion cutter",
+  "category": "utility",
+  "costInCredits": 25,
+  "weight": 2.0,
+  "description": "A fusion cutter is a handheld cutting tool popular among technicians. It can cut through almost any reinforced material, given enough time. The internal power cell supplies an hour's worth of continuous operation.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-mon-calamari-musical",
+  "name": "Musical",
+  "grantedBy": "species",
+  "grantedByName": "Mon Calamari",
+  "description": "You have proficiency in one musical instrument of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

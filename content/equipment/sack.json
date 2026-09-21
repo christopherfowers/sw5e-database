@@ -1,0 +1,11 @@
+{
+  "key": "sack",
+  "name": "Sack",
+  "category": "storage",
+  "costInCredits": 5,
+  "weight": 0.5,
+  "description": "A sack stores 30 ounces, not exceeding 1 cubic foot.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

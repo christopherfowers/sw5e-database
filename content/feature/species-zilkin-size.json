@@ -1,0 +1,9 @@
+{
+  "key": "species-zilkin-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Zilkin",
+  "description": "Zilkin stand between 1 and 2 feet tall and weigh around 10 lbs. Regardless of your position in that range, your size is Tiny.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

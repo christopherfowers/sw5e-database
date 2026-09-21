@@ -1,0 +1,11 @@
+{
+  "key": "dexterity-weave-champion",
+  "name": "Dexterity Weave (Champion)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Dexterity saving throws increases by three steps (to expertise, from trained to mastery, from proficient to high mastery, or from expertise to grand mastery)."
+}

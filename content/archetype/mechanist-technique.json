@@ -1,0 +1,319 @@
+{
+  "key": "mechanist-technique",
+  "name": "Mechanist Technique",
+  "className": "Scout",
+  "casterType": "none",
+  "casterRatio": 0,
+  "classCasterType": "tech",
+  "description": "Some scouts are peerless inventors, skilled at working with droids and other forms of technology. Followers of the Mechanist Technique make up for the weakness of organics with the strength and purity of their creations.\n\n### Improved Techcasting\n_**Mechanist Technique:** 3rd level_\nYour command of techcasting improves.\n\n#### Improved Tech Powers Known\nYou know 7 tech powers of your choice, instead of 5, and you learn more at higher levels, as shown in the Tech Powers Known column of the Mechanist Technique Techcasting table. You may not learn a tech power of a level higher than your Max Power Level.\n\n#### Improved Tech Points\nYou have a number of tech points equal to one and a half times your scout level, instead of your scout level, as shown in the Tech Points column of the Mechanist Technique Techcasting table, + your Intelligence modifier. You use these tech points to cast tech powers. You regain all expended tech points when you finish a short or long rest.\n\n#### Improved Max Power Level\nYour Max Power Level becomes 2nd, instead of 1st, and it increases at higher levels, as shown in the Mechanist Technique Techcasting table.\n\nYou may only cast tech powers at 5th, 6th, and 7th-level once, instead of 4th and 5th. You regain the ability to do so after a long rest.\n\n### Mark of the Mechanist\n_**Mechanist Technique:** 3rd level_\nAs a bonus action, you can cause the target of your Ranger's Quarry to emit an ion pulse, as long as the target is within 60 feet of you. The target, and any creatures within 5 feet of it, must make a Constitution saving throw against your tech save DC. On a failed save, roll your Ranger's Quarry die; each creature takes ion damage equal to the amount rolled.\n\n### Potent Tech\n_**Mechanist Technique:** 7th, 9th, 13th, and 17th level_\nYou can use your ingenuity to bolster yourself or an ally. As an action, you can touch one creature (which can be yourself) and confer one of the following benefits of your choice to that creature:\n- For 10 minutes, the creature can roll a d3 whenever making an attack roll or an ability check and add the number rolled to the d20 roll. Once a creature receives this benefit, that creature can't receive it again until it finishes a short or long rest.\n- Roll a d4. The creature regains a number of tech points equal to the result. Once a creature receives this benefit, that creature can't receive it again until it finishes a long rest.\n\nYou can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a long rest.\n\n### High Voltage\n_**Mechanist Technique:** 11th level_\nYou are used to working with electronics and have learned to increase their potency, while becoming inured to their dangers. You gain resistance to ion and lightning damage.\n\nAdditionally, whenever you deal ion damage to a creature, you can spend a tech point to force the creature to make a Constitution saving throw. On a failed save, it is stunned until the end of your next turn.\n\n##### Mechanist Techcasting\n\n### Command Droid\n_**Mechanist Technique:** 15th level_\nYou can reprogram a droid and bring it under your control. As an action, you can touch one droid that you can see that is the target of your Ranger's Quarry. That creature must make a Intelligence saving throw against your tech save DC. If it succeeds, you can't use this feature on it again for 24 hours. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.\n\nIntelligent droids are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "7"
+        },
+        {
+          "label": "Tech Points",
+          "value": "5"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "8"
+        },
+        {
+          "label": "Tech Points",
+          "value": "6"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "9"
+        },
+        {
+          "label": "Tech Points",
+          "value": "8"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "2nd"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "11"
+        },
+        {
+          "label": "Tech Points",
+          "value": "9"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "12"
+        },
+        {
+          "label": "Tech Points",
+          "value": "11"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "13"
+        },
+        {
+          "label": "Tech Points",
+          "value": "12"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "3rd"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "15"
+        },
+        {
+          "label": "Tech Points",
+          "value": "14"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "16"
+        },
+        {
+          "label": "Tech Points",
+          "value": "15"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "4th"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "17"
+        },
+        {
+          "label": "Tech Points",
+          "value": "17"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "18"
+        },
+        {
+          "label": "Tech Points",
+          "value": "18"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "19"
+        },
+        {
+          "label": "Tech Points",
+          "value": "20"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "5th"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "20"
+        },
+        {
+          "label": "Tech Points",
+          "value": "21"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "21"
+        },
+        {
+          "label": "Tech Points",
+          "value": "23"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "22"
+        },
+        {
+          "label": "Tech Points",
+          "value": "24"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "6th"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "23"
+        },
+        {
+          "label": "Tech Points",
+          "value": "26"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "24"
+        },
+        {
+          "label": "Tech Points",
+          "value": "27"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "25"
+        },
+        {
+          "label": "Tech Points",
+          "value": "29"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Tech Powers Known",
+          "value": "26"
+        },
+        {
+          "label": "Tech Points",
+          "value": "30"
+        },
+        {
+          "label": "Max Power Level",
+          "value": "7th"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

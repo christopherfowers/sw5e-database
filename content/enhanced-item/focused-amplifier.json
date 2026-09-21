@@ -1,0 +1,11 @@
+{
+  "key": "focused-amplifier",
+  "name": "Focused Amplifier",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the focused property."
+}

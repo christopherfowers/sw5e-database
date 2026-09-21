@@ -1,0 +1,9 @@
+{
+  "key": "species-nautolan-acute-smell",
+  "name": "Acute Smell",
+  "grantedBy": "species",
+  "grantedByName": "Nautolan",
+  "description": "Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise in the Perception skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

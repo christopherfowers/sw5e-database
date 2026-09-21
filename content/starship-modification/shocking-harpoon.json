@@ -1,0 +1,16 @@
+{
+  "key": "shocking-harpoon",
+  "name": "Shocking Harpoon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Boarding Harpoon",
+      "modificationName": "Boarding Harpoon"
+    }
+  ],
+  "description": "Your ship's harpoon has been modified, allowing it to conduct bursts of energy into the harpooned ship. A harpooned ship has disadvantage on the contested Strength (Boost) check to remove the harpoon. Additionally, as an action on each of their turns, a crewmember can deal lightning damage to a harpooned ship. The damage is equal to one of your ship's Shield Dice + your ship's Strength modifier.\nFinally, when your ship makes a Strength (Ram) check, it can reroll one of the dice."
+}

@@ -1,0 +1,12 @@
+{
+  "key": "shock-arm",
+  "name": "Shock Arm",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "droidCustomization",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "part",
+  "prerequisite": "Class II droid",
+  "description": "You have a small integrated droid shock arm with which you can make unarmed strikes. You have proficiency in this shock arm, which is a vibroweapon with the reach property and deals 1d6 lightning damage on a hit. You can use your choice of Strength or Intelligence for the attack and damage rolls. You must use the same modifier for both rolls.\n\n_This small robotic appendage has a fork-like prod from that can release a substantial electrical discharge._"
+}

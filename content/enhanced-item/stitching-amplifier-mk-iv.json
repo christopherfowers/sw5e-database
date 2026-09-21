@@ -1,0 +1,11 @@
+{
+  "key": "stitching-amplifier-mk-iv",
+  "name": "Stitching Amplifier Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +3 bonus to melee tech attacks."
+}

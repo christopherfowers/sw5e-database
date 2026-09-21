@@ -1,0 +1,9 @@
+{
+  "key": "junk-disposal",
+  "name": "Junk Disposal",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 0,
+  "description": "As an action, a crewmember may jettison a clump of refuse or junk that expands into a 50-foot-radius sphere centered on a point within 100 feet.  Each ship in that area must make a Dexterity saving throw (DC = 8 + the crewmembers's proficiency bonus + the ship's Constitution modifier). On a failed save, a ship takes 1d6 kinetic damage and is shocked until the end of it's next turn.\nThe junk field's area of effect becomes difficult terrain for one minute or until cleared.\nThis feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

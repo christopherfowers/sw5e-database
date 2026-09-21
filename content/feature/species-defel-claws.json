@@ -1,0 +1,9 @@
+{
+  "key": "species-defel-claws",
+  "name": "Claws",
+  "grantedBy": "species",
+  "grantedByName": "Defel",
+  "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage and have the finesse property.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

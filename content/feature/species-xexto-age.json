@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "Xexto reach adulthood at 9 and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

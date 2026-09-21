@@ -1,0 +1,26 @@
+{
+  "key": "slug-railgun",
+  "name": "Slug railgun",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 5150,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "constitution 15",
+    "overheat 2"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 12,
+    "type": "kinetic"
+  },
+  "range": {
+    "normal": 1200,
+    "long": 4800
+  }
+}

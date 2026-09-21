@@ -1,0 +1,9 @@
+{
+  "key": "species-kyuzo-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Kyuzo",
+  "description": "Kyuzo reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

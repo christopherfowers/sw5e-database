@@ -1,0 +1,11 @@
+{
+  "key": "savage-shorty",
+  "name": "Savage Shorty",
+  "prerequisite": "Strength 13, size Small",
+  "abilityScoreIncreases": [
+    "strength"
+  ],
+  "description": "Despite being short of stature, your size has no impact on your strength and virility. You gain the following benefits:\n- Increase your Strength score by 1, to a maximum of 20.\n- Your speed increases by 5 feet.\n- You lose the Undersized special trait.",
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

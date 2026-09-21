@@ -1,0 +1,22 @@
+{
+  "key": "electrovoulge",
+  "name": "Electrovoulge",
+  "category": "weapon",
+  "costInCredits": 1250,
+  "weight": 10.0,
+  "properties": [
+    "dexterity 13",
+    "reach",
+    "shocking 13",
+    "two-handed"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

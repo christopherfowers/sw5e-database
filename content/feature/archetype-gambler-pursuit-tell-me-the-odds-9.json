@@ -1,0 +1,10 @@
+{
+  "key": "archetype-gambler-pursuit-tell-me-the-odds-9",
+  "name": "Tell Me the Odds",
+  "grantedBy": "archetype",
+  "grantedByName": "Gambler Pursuit",
+  "level": 9,
+  "description": "_**Gambler Pursuit:** 9th, 13th, and 17th level_\nIf the target of your Critical Analysis hits you with a weapon attack roll, you can use your reaction to roll a d8. On a 4 or higher, you impose disadvantage on the roll. If the target already had disadvantage, they must instead reroll one of the dice once (your choice).\nThis die increases to d10 at 13th level and d12 at 17th level.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

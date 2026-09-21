@@ -1,0 +1,160 @@
+{
+  "key": "war-wyrm",
+  "name": "War Wyrm",
+  "size": "gargantuan",
+  "types": [
+    "aberration"
+  ],
+  "alignment": "chaotic dark",
+  "armor": {
+    "class": 19
+  },
+  "hitPoints": {
+    "average": 261,
+    "roll": "18d20+72"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft., burrow 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 24,
+      "modifier": 7
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 5,
+      "modifier": -3
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 8,
+      "modifier": -1
+    }
+  },
+  "savingThrows": [
+    "Con +10",
+    "Wis +6"
+  ],
+  "skills": [
+    "Athletics +13"
+  ],
+  "senses": [
+    "Darkvision 60 ft.",
+    "Blindsight 30 ft.",
+    "Tremorsense 60 ft.",
+    "passive Perception"
+  ],
+  "languages": [
+    "Can't speak but underst",
+    "s comm",
+    "s in Sith"
+  ],
+  "challengeRating": "20",
+  "experiencePoints": 25000,
+  "behaviors": [
+    {
+      "name": "Tunneler",
+      "behaviorType": "trait",
+      "description": "The wyrm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Legendary resistance",
+      "behaviorType": "trait",
+      "description": "If the wyrm fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/day"
+    },
+    {
+      "name": "Gargantuan Strength",
+      "behaviorType": "trait",
+      "description": "The wyrm's melee weapon attacks are considered enhanced.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Siege Monster",
+      "behaviorType": "trait",
+      "description": "The wyrm deals double damage to objects and structures.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Sith-born",
+      "behaviorType": "trait",
+      "description": "Dark forcecasters and Sith (species) have advantage on Animal Handling checks against war wyrms.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The wyrm makes two attacks: one with its bite and one with its tail.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Bite",
+      "behaviorType": "action",
+      "description": "If the wyrm takes 30 damage or more on a single turn from a creature inside it, the wyrm must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the wyrm. If the wyrm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20 (3d8+7) kinetic damage. If the target is a Large or smaller creature, it must succeed on a DC 17 Dexterity saving throw or be swallowed by the wyrm. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the wyrm, and it takes 21 (6d6) acid damage at the start of each of the wyrm's turns.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 13,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 20,
+      "damageRoll": "3d8+7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Tail",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 17 (3d6+7) kinetic damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 13,
+      "range": "reach 10 ft.",
+      "targets": "one target",
+      "averageDamage": 17,
+      "damageRoll": "3d6+7",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Cloud of Dust",
+      "behaviorType": "legendary",
+      "description": "The wyrm lashes out and scatters a dusty wake. Each creature within 10 feet of the wyrm, including around a corner, must succeed on a DC 15 Constitution saving throw or be blinded until the end of the wyrm's next turn. A creature that succeeds on the saving throw is immune to this effect until the end of the wyrm's next turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tail Attack",
+      "behaviorType": "legendary",
+      "description": "The wyrm makes one tail attack.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Costs 2 Actions."
+    },
+    {
+      "name": "Move",
+      "behaviorType": "legendary",
+      "description": "The wyrm moves up to its speed.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The war wyrm, or sith wyrm, was originally an exogorth altered through Sith alchemy by the Dark Lord of the Sith Naga Sadow and designed as a guardian. The ancient Massassi worshiped the beast as a god.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

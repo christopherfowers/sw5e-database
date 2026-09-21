@@ -1,0 +1,10 @@
+{
+  "key": "archetype-tactical-specialist-maneuver-adept-10",
+  "name": "Maneuver Adept",
+  "grantedBy": "archetype",
+  "grantedByName": "Tactical Specialist",
+  "level": 10,
+  "description": "_**Tactical Specialist:** 10th level_\nOnce per turn, your superiority dice rolls gain a minimum roll threshold, discussed in chapter 7.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

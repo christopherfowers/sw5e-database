@@ -1,0 +1,141 @@
+{
+  "key": "nr-n99-persuader-class-enforcer",
+  "name": "NR-N99 Persuader-Class Enforcer",
+  "size": "huge",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 138,
+    "roll": "12d12 + 60"
+  },
+  "speed": {
+    "walk": 40,
+    "text": "40 ft., swim 40 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 12,
+      "modifier": 1
+    },
+    "constitution": {
+      "score": 20,
+      "modifier": 5
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 1,
+      "modifier": -5
+    }
+  },
+  "savingThrows": [
+    "Str +10",
+    "Con +10"
+  ],
+  "senses": [
+    "darkvision 120 ft.",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "8",
+  "experiencePoints": 3900,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid tank has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Heavy Durasteel Armor",
+      "behaviorType": "trait",
+      "description": "The outer layer of the droid is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 10 points, the droid takes no damage from that attack. If the droid takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The droid tank makes one crushing stride attack, one heavy repeating blaster attack and one ion cannon attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Ion Cannons",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack +6 to hit, 150/300, one target. Hit 27 (4d10 + 5) ion damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "range": "150/300",
+      "targets": "one target. Hit 27 (4d10 + 5) ion damage"
+    },
+    {
+      "name": "Heavy Repeating Blasters",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +6 to hit, range 120/240 ft., one target. Hit: 27 (4d10+5) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "range": "range 120/240 ft.",
+      "targets": "one target",
+      "averageDamage": 27,
+      "damageRoll": "4d10+5",
+      "damageType": "energy"
+    },
+    {
+      "name": "Crushing Stride",
+      "behaviorType": "action",
+      "description": "The droid moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the droid enters must make a DC 18 Dexterity saving throw. On a failed save, the creature falls prone and takes 36 (8d8) kinetic damage. On a successful save, the creature takes half damage and is pushed 5 feet to the nearest space out of the droid's path.If the droid remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the droid. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the droid tank and is no longer restrained.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Ram",
+      "behaviorType": "action",
+      "description": "The droid moves up to its speed in a straight line towards a structure or construct target. A structure or construct whose space the droid ends its turn adjacent must make a DC 18 Strength saving throw. On a failed save, the structure or construct takes 70 (10d12 + 5) kinetic damage. On a successful save, the droid and the structure or construct both take half damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "flavorText": "The NR-N99 Persuader-class droid enforcer of the Confederacy of Independent Systems is a droid tank manufactured by the Techno Union and mainly utilized by Corporate Alliance. The impressive armament of the tank includes ion cannons and heavy repeating blasters, although this weapons package could be swapped out with alternative packages that included shock rifles or concussion missile launchers. The tank moves by way of its huge central tread, and it is augmented on either of its sides by forward-mounted outrigger wheels on a pontoon tread, which gives additional stability. Infantry soldiers are also able to ride on top of these tanks. The NR-N99 Persuader-class tank droid is able to move up to 40 mph, but this droid tank lacks the agility of walking droid tanks. It is also able to plow through battlefields and ram barricades. The droid is able to function through a variety of terrain, and the droid is also able to move on top of water. The NR-N99 Persuader-class droid enforcer is well-armored, possesses heat exchange panels and communications antennae, and the unit has armor-shielded photoreceptors. It was designed to be able to function with its computer brain, but the vehicle could also be controlled by a pilot droid.",
+  "sectionText": "Droid tanks are massive droids that retain the abilities of a droid but come in a larger package, with different functionality and appearance.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

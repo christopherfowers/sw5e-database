@@ -1,0 +1,10 @@
+{
+  "key": "clothes-costume",
+  "name": "Clothes, costume",
+  "category": "clothing",
+  "costInCredits": 50,
+  "weight": 4.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

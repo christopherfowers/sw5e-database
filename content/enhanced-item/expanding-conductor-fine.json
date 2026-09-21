@@ -1,0 +1,11 @@
+{
+  "key": "expanding-conductor-fine",
+  "name": "Expanding Conductor (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the expanding 10 property. If it already has the expanding property, its expanding number increases by 10, to a maximum of 30."
+}

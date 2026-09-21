@@ -1,0 +1,9 @@
+{
+  "key": "species-muun-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Muun",
+  "description": "Muuns typically stand 6 and a half to 7 feet tall and weigh around 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

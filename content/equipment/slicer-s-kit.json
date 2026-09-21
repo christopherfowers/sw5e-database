@@ -1,0 +1,10 @@
+{
+  "key": "slicer-s-kit",
+  "name": "Slicer's kit",
+  "category": "kit",
+  "costInCredits": 800,
+  "weight": 6.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

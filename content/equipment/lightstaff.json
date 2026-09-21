@@ -1,0 +1,22 @@
+{
+  "key": "lightstaff",
+  "name": "Lightstaff",
+  "category": "weapon",
+  "costInCredits": 1275,
+  "weight": 4.25,
+  "properties": [
+    "dexterity 11",
+    "luminous",
+    "reach",
+    "two-handed"
+  ],
+  "weaponClassification": "simpleLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

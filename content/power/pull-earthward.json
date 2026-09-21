@@ -1,0 +1,18 @@
+{
+  "key": "pull-earthward",
+  "name": "Pull Earthward",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "300 feet",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Force Propel",
+  "description": "Choose one creature you can see within range. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the power’s duration. An airborne creature affected by this power descends at 60 feet per round until it reaches the ground or the power ends.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

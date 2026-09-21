@@ -1,0 +1,11 @@
+{
+  "key": "grenade-launcher-fine",
+  "name": "Grenade Launcher (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "grenade launcher",
+  "description": "Rather than traditional power cells, the grenade launcher fires grenades. When firing a grenade at long range, or if you don't meet the grenade launcher's strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the grenade launcher, you must roll the damage dice twice and take the lesser total. You have a +1 bonus to the save DC and damage rolls of grenades fired by this enhanced grenade launcher."
+}

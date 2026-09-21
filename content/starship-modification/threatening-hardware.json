@@ -1,0 +1,16 @@
+{
+  "key": "threatening-hardware",
+  "name": "Threatening Hardware",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Threatening Design",
+      "modificationName": "Threatening Design"
+    }
+  ],
+  "description": "Your ship gains the ability to fine-tune the readings it displays to enemy craft so as to project how dangerous it is directly to their sensor readouts. As an action, a crewmember can attempt to demoralize one ship within 1,000 feet of your ships that can sense your ship by forcing it to succeed at a Wisdom saving throw (DC equal to 8 + your Charisma (Menace) bonus). On a failed save, the target cannot willingly move closer to your ship and has disadvantage on ability checks and attack rolls while it can sense your ship until the end of your ship's next turn. On a success, the target can’t be affected by this modification for 1 hour.\nIf your ship has advantage on Charisma (Menace) checks, the targeted ship makes its saving throw at disadvantage.\nAdditionally, your ship is expertly equipped for Charisma (Menace) checks."
+}

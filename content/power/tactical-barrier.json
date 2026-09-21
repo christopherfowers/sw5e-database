@@ -1,0 +1,17 @@
+{
+  "key": "tactical-barrier",
+  "name": "Tactical Barrier",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "60 feet",
+  "duration": "up to 10 minutes",
+  "concentration": true,
+  "description": "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "chained-lightdagger",
+  "name": "Chained lightdagger",
+  "category": "weapon",
+  "costInCredits": 800,
+  "weight": 3.5,
+  "properties": [
+    "disarming",
+    "finesse",
+    "luminous",
+    "reach"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

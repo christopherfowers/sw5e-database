@@ -1,0 +1,24 @@
+{
+  "key": "hand-bkg",
+  "name": "Hand BKG",
+  "category": "weapon",
+  "costInCredits": 1550,
+  "weight": 10.0,
+  "properties": [
+    "brutal 1",
+    "disintegrate 13",
+    "keen 1",
+    "power cell (range 50/200)",
+    "reload 4",
+    "strength 15"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

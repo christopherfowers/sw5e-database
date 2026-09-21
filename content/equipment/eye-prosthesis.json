@@ -1,0 +1,10 @@
+{
+  "key": "eye-prosthesis",
+  "name": "Eye prosthesis",
+  "category": "medical",
+  "costInCredits": 250,
+  "weight": 0.5,
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

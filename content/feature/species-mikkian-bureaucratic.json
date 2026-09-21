@@ -1,0 +1,9 @@
+{
+  "key": "species-mikkian-bureaucratic",
+  "name": "Bureaucratic",
+  "grantedBy": "species",
+  "grantedByName": "Mikkian",
+  "description": "You have proficiency with Persuasion or Intimidation (your choice).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

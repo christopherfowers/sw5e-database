@@ -1,0 +1,81 @@
+{
+  "key": "talz",
+  "name": "Talz",
+  "size": "medium",
+  "homeworld": "Orto Plutonia",
+  "nativeLanguage": "Talzzi",
+  "lore": "### Biology and Appearance\nTalz are large, bulky, bipedal creatures, that are covered head to toe in thick white fur, which provides exceptional insulation against their frozen world. Talz have four eyes, which are also adaptations to their native environment. The larger set of eyes are shut during the day, when sunlight reflects off the snow with dazzling brightness—able to blind sensitive optical organs—leaving the smaller set to navigate with. Alternatively, during the deep darkness of their homeworld's moonless night, the larger pair are utilized to provide the Talz with adequate vision. Talz use a small proboscis to eat and communicate, creating high-pitched chirps and buzzes.\n\n### Society and Culture\nTalz are a hunter-gatherer, clan-based society. They work in unison, and treat the entire clan as one single familial entity. Resources on Ordo Plutonia are often scarce, which leads to warring among Talz tribes. However, the clans are adept at forming a unified front when they face a common enemy.\n\nTalz are large, brutal creatures and are often used as guards and enforcers. Sometimes they are taken as slaves, though it's rare; they are rebellious against authority and don't take well to slavery. There are rumors that Talz are captured for scientific experimentation.\n\n### Names\nTalz names are fairly gutteral and are characterized by their harsh nature. Female names are typically longer than male names. Surnames are clan-based, though it's rare that a Talz shares them with non-Talz.\n\n**Male Names.** Drak, Fedirk, Imom, Ke, Twift\n\n**Female Names.** Ilnuno, Ontuga, Utrukk, Zimtucc\n\n**Surnames.** Dic, Noetoc, Suptat, Wume, Zapak",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Talz reach adulthood at 10 and rarely live longer than 50 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Talz' peaceful and slow-to-anger nature cause them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Talz stand between 6 and 8 feet tall and weigh around 250 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Hide",
+      "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide."
+    },
+    {
+      "name": "Long-Limbed",
+      "description": "When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Talzzi. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Talzzi is characterized by its high-pitched chirps and buzzes."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'5\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "180 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Covered in fur, four eyes, unable to speak Galactic Basic",
+    "skinColorOptions": "Black or grey",
+    "hairColorOptions": "Grey, pink, or white",
+    "eyeColorOptions": "Black, dark blue, or dark red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_talz.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

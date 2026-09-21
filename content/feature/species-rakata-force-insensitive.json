@@ -1,0 +1,9 @@
+{
+  "key": "species-rakata-force-insensitive",
+  "name": "Force-Insensitive",
+  "grantedBy": "species",
+  "grantedByName": "Rakata",
+  "description": "While rakata can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

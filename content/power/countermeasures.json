@@ -1,0 +1,17 @@
+{
+  "key": "countermeasures",
+  "name": "Countermeasures",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "10 minutes",
+  "concentration": false,
+  "description": "For the duration, you gain the following benefits:\n- You are immune to the *homing rockets* tech power.\n- You and objects you are wearing or carrying cannot be detected by tech powers that reveal your location, such as *scan area* or *frequency scan*, unless the caster makes a successful Intelligence saving throw.\n- Creatures have disadvantage on Wisdom (Survival) checks to track you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

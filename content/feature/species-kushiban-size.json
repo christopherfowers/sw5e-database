@@ -1,0 +1,9 @@
+{
+  "key": "species-kushiban-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kushiban",
+  "description": "Kushibans typically stand 3 and a half to 4 feet tall and weigh around 40 lbs. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

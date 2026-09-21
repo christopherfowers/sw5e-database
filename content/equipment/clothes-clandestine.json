@@ -1,0 +1,11 @@
+{
+  "key": "clothes-clandestine",
+  "name": "Clothes, clandestine",
+  "category": "clothing",
+  "costInCredits": 300,
+  "weight": 7.0,
+  "description": "These clothes come with two hidden pockets, each of which can store up to 1.00 lb. Finding these hidden pockets requires a DC 15 Investigation check.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

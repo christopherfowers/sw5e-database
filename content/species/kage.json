@@ -1,0 +1,97 @@
+{
+  "key": "kage",
+  "name": "Kage",
+  "size": "medium",
+  "homeworld": "Quarzite",
+  "nativeLanguage": "Galactic Basic",
+  "lore": "### Biology and Appearance\nThe kage are a pale-skinned sentient species native to the caverns in the planet of Quarzite. The kage have a long-time conflict with the belugans, consistently at odds with them. During the Clone Wars, Otua Blank ordered the capture of Pluma Sodi to marry her, she was later given back to the Kage Warriors by Asajj Ventress.\n\n### Society and Culture\nThe kage are a dedicated people of physical excellence; they train tireless and elite fighter-monks known as Kage warriors. They tend to use weapons with electric or disruptive properties, but they are also great fighters in unarmed combat. Kage warriors are respected in Kage society as the greatest calling a kage might follow.\n\nKage also share an affinity with animals, most notably the native multi-legged milodon, developing a symbiotic relationship. They use the milodon as transport; they can keep pace with the subtram transports that supply belugan strongholds, and launch raids that often catch the belugan security forces off-guard.\n\n### Names\nKage names are generally multisyllable with melodic intonations. Surnames are familial.\n\n**Male Names.** Baalin, Forta, Krismo, Rafa, Timko\n\n**Female Names.** Chena, Fari, Moora, Ooni, Pluma\n\n**Surnames.** Buno, Keeli, Nima, Sodi, Tani",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Kage reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Kages' rigid sense of honor causes them to tend toward lawful light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Kage typically stand between 5 and 6 feet tall, and weigh around 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Animal Handler",
+      "description": "You are proficient in Animal Handling."
+    },
+    {
+      "name": "Athletic",
+      "description": "You have proficiency in the Athletics skill."
+    },
+    {
+      "name": "Strong-Legged",
+      "description": "When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+    },
+    {
+      "name": "Superior Darkvision",
+      "description": "You've lived most of your life without direct sunlight. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Unarmed Combatant",
+      "description": "Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+    },
+    {
+      "name": "Weapon Training",
+      "description": "Kage are adept warriors. You are proficient with the electroprod and electrostaff."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and one language of your choice."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "95 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Athleticism, pale skin, piercing eyes",
+    "skinColorOptions": "Gray, white",
+    "hairColorOptions": "Gray, pale yellow, white",
+    "eyeColorOptions": "Green, pink, red, yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_kage.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

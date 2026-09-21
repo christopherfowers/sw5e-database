@@ -1,0 +1,10 @@
+{
+  "key": "class-scout-pathfinder-1",
+  "name": "Pathfinder",
+  "grantedBy": "class",
+  "grantedByName": "Scout",
+  "level": 1,
+  "description": "_**Scout:** 1st level_\nYou are skilled at navigating the untamed wilds. You ignore difficult terrain, and when traveling for an hour or more, you gain the following benefits:\n- Difficult terrain doesn't slow your group, provided they can see and hear you.\n- You can't become lost by unenhanced means.\n- Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n- If you are traveling alone, you can move stealthily at a normal pace.\n- When you forage, you find twice as much food.\n- You have advantage on Survival checks.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

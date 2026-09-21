@@ -1,0 +1,9 @@
+{
+  "key": "species-voss-mystic-healing",
+  "name": "Mystic Healing",
+  "grantedBy": "species",
+  "grantedByName": "Voss",
+  "description": "You have proficiency in Medicine.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

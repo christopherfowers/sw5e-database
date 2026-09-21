@@ -1,0 +1,12 @@
+{
+  "key": "impermeable-overlay-mk-vi",
+  "name": "Impermeable Overlay Mk VI",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the impermeable 9 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases to 9."
+}

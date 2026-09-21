@@ -1,0 +1,10 @@
+{
+  "key": "archetype-shadow-killer-practice-poisoner-9",
+  "name": "Poisoner",
+  "grantedBy": "archetype",
+  "grantedByName": "Shadow Killer Practice",
+  "level": 9,
+  "description": "_**Shadow Killer Practice:** 9th level_\nYou are a master of poisons. Targets of your poisons cannot have advantage on the saving throw made to resist your poison, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal the application of poisons.\nAdditionally, when you apply poison to a weapon or its ammunition, that poison can affect an additional hit or an additional piece of ammunition, and when you deal Sneak Attack damage with an attack that would include poison damage, you can change your Sneak Attack damage to poison damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

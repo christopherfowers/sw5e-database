@@ -1,0 +1,18 @@
+{
+  "key": "master-force-barrier",
+  "name": "Master Force Barrier",
+  "powerType": "force",
+  "level": 8,
+  "forceAlignment": "light",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "prerequisite": "Improved Force Barrier",
+  "description": "This power massively bolsters your allies with toughness and resolve. Creatures of your choice in a 30-foot radius around you when you cast this power gain the following benefits:\n- The creature sheds dim light in a 5-foot radius.\n- The creature has advantage on all saving throws\n- Other creatures have disadvantage on attack rolls against them.\n- When a dark side creature hits them with a melee attack, that creature must make a Constitution saving throw or be blinded until the power ends.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

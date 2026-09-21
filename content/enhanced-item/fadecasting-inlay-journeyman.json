@@ -1,0 +1,11 @@
+{
+  "key": "fadecasting-inlay-journeyman",
+  "name": "Fadecasting Inlay (Journeyman)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "While using this item as your focus, you gain a +2 bonus to the force save DC of powers that require a Strength or Constitution saving throw."
+}

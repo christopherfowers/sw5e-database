@@ -1,0 +1,9 @@
+{
+  "key": "species-caamasi-scholarly",
+  "name": "Scholarly",
+  "grantedBy": "species",
+  "grantedByName": "Caamasi",
+  "description": "You have proficiency in the Insight skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-mustafarian-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Mustafarian",
+  "description": "You can speak, read, and write Galactic Basic and Mustafarian. Mustafarian consists of choppy clicks and emphatic groans.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

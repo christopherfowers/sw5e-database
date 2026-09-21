@@ -1,0 +1,16 @@
+{
+  "key": "central-computer-mk-v",
+  "name": "Central Computer, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Central Computer, Mk IV",
+      "modificationName": "Central Computer, Mk IV"
+    }
+  ],
+  "description": "You ship's central computer has reached its maximum potential. Your artificial intelligence's proficiency bonus increases to 6. Additionally, it gains expertise in Piloting."
+}

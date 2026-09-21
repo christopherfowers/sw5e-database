@@ -1,0 +1,9 @@
+{
+  "key": "species-ho-din-naturalist",
+  "name": "Naturalist",
+  "grantedBy": "species",
+  "grantedByName": "Ho'din",
+  "description": "You have proficiency in the Nature skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

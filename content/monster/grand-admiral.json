@@ -1,0 +1,213 @@
+{
+  "key": "grand-admiral",
+  "name": "Grand Admiral",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 19,
+    "type": "heavy combat suit and medium shield generator"
+  },
+  "hitPoints": {
+    "average": 255,
+    "roll": "30d8 + 120"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 20,
+      "modifier": 5
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 27,
+      "modifier": 8
+    },
+    "wisdom": {
+      "score": 23,
+      "modifier": 6
+    },
+    "charisma": {
+      "score": 20,
+      "modifier": 5
+    }
+  },
+  "savingThrows": [
+    "Dex +10",
+    "Int +9",
+    "Wis +7",
+    "Cha"
+  ],
+  "skills": [
+    "Athletics +8",
+    "Deception +12",
+    "Insight +20",
+    "Investigation +22",
+    "Lore +22",
+    "Perception +20",
+    "Persuasion +12"
+  ],
+  "senses": [
+    "Darkvision 120 ft.",
+    "passive Perception 30"
+  ],
+  "languages": [
+    "Galactic basic",
+    "Cheunh",
+    "any 3 others"
+  ],
+  "damageResistances": {
+    "types": [
+      "psychic"
+    ]
+  },
+  "challengeRating": "20",
+  "experiencePoints": 25000,
+  "behaviors": [
+    {
+      "name": "Hardened Mind",
+      "behaviorType": "trait",
+      "description": "When the Grand Admiral makes a saving throw against illusions or to resist charm and fear effects, it may add its Intelligence modifier (8) to the roll.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Hyper Intelligence",
+      "behaviorType": "trait",
+      "description": "At-will: assess the situation, analyze, decryption program, detect enhancement, spot the weakness, detect invisibility, detect traps 3/day each: element of surprise, explosion, tactical advantage, ballistic shield, salvo, friendly fire, greater analyze 1/day each: contingency, find the path, tactical superiority, stun, predictive AI The Grand Admiral's techcasting ability is Intelligence (tech save DC 23, +15 to hit with tech attacks). The Grand Admiral innately knows the following tech powers:",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Leadership",
+      "behaviorType": "trait",
+      "description": "For 1 minute, the Grand Admiral can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Grand Admiral. A creature can benefit from only one Leadership die at a time. This effect ends if the Grand Admiral is incapacitated.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/rest"
+    },
+    {
+      "name": "Legendary Resistance",
+      "behaviorType": "trait",
+      "description": "If the Grand Admiral fails a saving throw, it can choose to succeed instead.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "3/day"
+    },
+    {
+      "name": "Sidearm Mastery",
+      "behaviorType": "trait",
+      "description": "The Grand Admiral's ranged weapon attacks ignore half cover against targets within 15 feet of the Grand Admiral. The Grand Admiral gains a +3 bonus to attack rolls made with a pistol.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Targeted Analysis",
+      "behaviorType": "trait",
+      "description": "The Grand Admiral's attack rolls cannot suffer from disadvantage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tech Resistance",
+      "behaviorType": "trait",
+      "description": "The Grand Admiral has advantage on saving throws against tech powers.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The Grand Admiral makes three melee weapon attacks or three ranged weapon attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Heavy Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +15 to hit, range 40/160 ft., one target. Hit: 16 (1d8 + 2d6 + 5) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 15,
+      "range": "range 40/160 ft.",
+      "targets": "one target",
+      "averageDamage": 16,
+      "damageRoll": "1d8 + 2d6 + 5",
+      "damageType": "energy"
+    },
+    {
+      "name": "Techblade",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 12,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 15,
+      "damageRoll": "3d6 + 5",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Unarmed Strike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (1d4 + 2d6 + 5) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 12,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 14,
+      "damageRoll": "1d4 + 2d6 + 5",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "All-Out Attack",
+      "behaviorType": "action",
+      "description": "The Grand Admiral chooses a number of allies up to its Intelligence modifier (8) within 60 feet who can see or hear it. The chosen allies may then immediately use their reaction to make one weapon attack against a target of the Grand Admiral's choice. It may choose the target for each attack separately.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "1/rest"
+    },
+    {
+      "name": "Calculated Timing",
+      "behaviorType": "reaction",
+      "description": "The Grand Admiral can focus a target down with the help with an ally. Once per round, whenever a creature is attacked by someone other than the Grand Admiral, the Grand Admiral can use its reaction to make one weapon attack against them.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Move",
+      "behaviorType": "legendary",
+      "description": "The Grand Admiral can move up to its speed without provoking opportunity attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Casting",
+      "behaviorType": "legendary",
+      "description": "The Grand Admiral can cast an at-will power.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Attack",
+      "behaviorType": "legendary",
+      "description": "The Grand Admiral makes one Heavy Pistol, Techblade, or Unarmed Strike attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "As the branch of the galactic military that deals with space operations, the galactic navy has been composed of many sub-units and organizations, and has utilized a vast array of starships to achieve its objectives throughout the years.\n\n***Republic Navy.*** The Republic Navy, also referred to as the Republic fleet, Republic starfleet or the Galactic Republic fleet, was the military naval force of the Galactic Republic during the Clone Wars. The Navy served to transport the clone army across the galaxy while also engaging in ship-to-ship combat with the Confederacy navy. Following the end of the war and the formation of the Galactic Empire, the Republic Navy transitioned into the Imperial Navy.\n\n***Imperial Navy.*** The Imperial Navy, also known as the Imperial Starfleet or the Imperial fleet, was the naval branch of the Galactic Empire's military. It was created in the wake of the Clone Wars, when Chancellor Sheev Palpatine transformed the Galactic Republic he led into an authoritarian Empire. Consisting mainly of Star Destroyers and TIE fighters, the Imperial Navy was tasked with maintaining order in the galaxy.\n\n***First Order Navy.*** The First Order Navy, also referred to as the First Order fleet, was the naval branch of the First Order military. It superseded the Imperial Navy of the former Galactic Empire, it would be paramount to the gradual conquest and colonization of the Unknown Regions by the Imperial successor state, the First Order.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

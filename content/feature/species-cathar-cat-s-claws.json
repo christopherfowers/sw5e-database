@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-cat-s-claws",
+  "name": "Cat's Claws",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "Your unarmed strikes deal 1d6 kinetic damage and have the finesse property.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

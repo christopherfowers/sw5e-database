@@ -1,0 +1,9 @@
+{
+  "key": "species-theelin-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Theelin",
+  "description": "Theelin's good-nature and positivity despite the dour state of their species causes them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

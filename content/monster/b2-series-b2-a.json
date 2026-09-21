@@ -1,0 +1,127 @@
+{
+  "key": "b2-series-b2-a",
+  "name": "B2 Series, B2-A",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 16,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 26,
+    "roll": "4d8+8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 13,
+      "modifier": 1
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 14,
+      "modifier": 2
+    },
+    "intelligence": {
+      "score": 14,
+      "modifier": 2
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 11"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "1",
+  "experiencePoints": 200,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The super battle droid makes two weapon attacks with its strike or wrist blaster.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Strike",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 3,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 3,
+      "damageRoll": "1d4+1",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Wrist Blaster",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6+3) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6+3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Wrist Blaster Volley",
+      "behaviorType": "action",
+      "description": "The super battle droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking normal weapon damage on a failed save.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "Recharge 6"
+    }
+  ],
+  "flavorText": "B2 super battle droids were an advanced battle droid used by the Confederacy of Independent Systems during the Clone Wars. Like the updated B1s used by the Confederacy, they did not require a command system to operate, which gave the droids limited independence. Another improvement was their thick armor casing, which contained their fragile sensors. However, B2s were designed with simple processors, limiting their ability to formulate strategies. As a result, they relied on organic commanders or tactical droids in order to effectively operate. The B2 was much stronger than the B1s, with enough strength to lift a clone trooper off the ground as seen at the Battle of Teth. The B2-HA super battle droid was a variant of the B2 equipped with a cannon arm that could fire homing rockets.",
+  "sectionText": "Battle droids, also known as combat droids or battle bots, are a type of droid designed for combat. One thing most battle droids have in common is limited intelligence. They are programmed to follow orders, and not much else, though they do have personalities. Some battle droids, however, have some form of intelligence. These droids are much more expensive to make, due to their advanced brains.\n\n***Clone Wars.*** Over the years, many different models of battle droid have been utilized by various factions throughout the galaxy. The Confederacy of Independent Systems, for example, used a number of different models of battle droid during the Clone Wars to make up the Separatist Droid Army. Under the command of General Grievous, varying models of battle droid fought against the Galactic Republic's clone troopers until the final days of the war, when the Confederate battle droids were deactivated by the Galactic Empire.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

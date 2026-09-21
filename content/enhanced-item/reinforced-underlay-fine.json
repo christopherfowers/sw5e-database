@@ -1,0 +1,11 @@
+{
+  "key": "reinforced-underlay-fine",
+  "name": "Reinforced Underlay (Fine)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "You gain a +1 bonus to AC against ranged attacks while wearing this armor or wielding this shield."
+}

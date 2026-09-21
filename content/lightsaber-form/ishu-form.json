@@ -1,0 +1,12 @@
+{
+  "key": "ishu-form",
+  "name": "Ishu Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "If there is a friendly creature within 15 feet of you, you can move up to 10 feet without provoking opportunity attacks. You must end this movement within 5 feet of the friendly creature."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

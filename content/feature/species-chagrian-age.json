@@ -1,0 +1,9 @@
+{
+  "key": "species-chagrian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Chagrian",
+  "description": "Chagrians reach adulthood in their late teens and live an average of 75 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

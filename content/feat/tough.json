@@ -1,0 +1,11 @@
+{
+  "key": "tough",
+  "name": "Tough",
+  "prerequisite": "4th level, Durable feat",
+  "abilityScoreIncreases": [
+    "constitution"
+  ],
+  "description": "You have the blood of heroes flowing through your veins. You gain the following benefits:\n- Increase your Constitution score by 1, to a maximum of 20.\n- Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of one).",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

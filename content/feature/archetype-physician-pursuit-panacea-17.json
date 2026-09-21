@@ -1,0 +1,10 @@
+{
+  "key": "archetype-physician-pursuit-panacea-17",
+  "name": "Panacea",
+  "grantedBy": "archetype",
+  "grantedByName": "Physician Pursuit",
+  "level": 17,
+  "description": "_**Physician Pursuit:** 17th level_\nYou've developed the formula to concoct a cure-all miracle solution: a panacea. Over the course of 10 minutes, you can expend rare medical supplies worth 1,000 cr to create your panacea in a simple syringe. The panacea retains its potency for 24 hours. As a bonus action, a creature can use the panacea. Alternatively, as an action, they can administer it to another creature within 5 feet.\nThe target has its exhaustion level reduced by one and regains all of its hit points. If the target is diseased, poisoned, paralyzed, or stunned, the condition ends.\nOnce you create a panacea, you can't create another until you finish a long rest.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

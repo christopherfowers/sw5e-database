@@ -1,0 +1,9 @@
+{
+  "key": "species-kage-athletic",
+  "name": "Athletic",
+  "grantedBy": "species",
+  "grantedByName": "Kage",
+  "description": "You have proficiency in the Athletics skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

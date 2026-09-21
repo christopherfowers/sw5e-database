@@ -1,0 +1,17 @@
+{
+  "key": "comprehend-speech",
+  "name": "Comprehend Speech",
+  "powerType": "force",
+  "level": 1,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "description": "For the duration, you understand the literal meaning of any spoken language that you hear.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

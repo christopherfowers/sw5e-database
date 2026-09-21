@@ -1,0 +1,11 @@
+{
+  "key": "increasing-cycler-journeyman",
+  "name": "Increasing Cycler (Journeyman)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the increasing 30 property. If it already has the increasing property, its increasing number increases by 30, to a maximum of 60."
+}

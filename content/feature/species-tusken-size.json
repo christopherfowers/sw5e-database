@@ -1,0 +1,9 @@
+{
+  "key": "species-tusken-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Tusken",
+  "description": "Tusken stand between 5 and 6 feet tall and weigh around 155 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

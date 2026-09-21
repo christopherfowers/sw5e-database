@@ -1,0 +1,93 @@
+{
+  "key": "arkanian",
+  "name": "Arkanian",
+  "size": "medium",
+  "homeworld": "Arkania",
+  "nativeLanguage": "Arkanian",
+  "lore": "### Biology and Appearance\nArkanians are a robust near-human species with solid white eyes and clawed, four-fingered hands.\n\nArkanians are capable of seeing into the infrared spectrum, and their eyes are sensitive to sources of extreme heat. This proved helpful on their dark and frigid homeworld, but when traveling offworld, many must wear blinders on planets with hotter, younger suns. It is not unheard of for arkanians to undergo genetic or cybernetic manipulation of their own bodies, enhancing themselves so as to be better than \"lesser\" species.\n\n### Society and Culture\nArkanians are notoriously arrogant, a trait which came from generations of producing some of the galaxy's greatest advancements in genetics and technology. Their homeworld, Arkania, has vast quantities of precious gems; thus, the arkanians have never wanted for much in trade. This wealth went into funding their ambitious scientific projects, the most elaborate of which take generations to be completed.\n\nMany arkanians have come to see their species as the pinnacle of evolution, and amongst the most—if not *the* most—intelligent beings in the galaxy. Those species that are not already put off by their aloof nature often fear them, as tales of \"mad scientists\" and horrific experiments tend to surround them.\n\n### Names\nArkanian names are simultaneously dignified and succinct. Surnames are familial.\n\n**Male Names.** Arkoh, Hyrim, Zeta, Suprin\n\n**Female Names.** Shenna, Elizie, Cratala, Hanna\n\n**Surnames.** Focela, Barzane, Nasdra, Athacorr",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Intelligence score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Arkanians reach adulthood in their late teens and live about 100 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Due to their arrogance and unscrupulous experimentation, arkanians tend towards lawful dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Arkanians typically stand 5 to 6 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Arkanian Brilliance",
+      "description": "Whenever you make an ability check, attack roll, or saving throw using Intelligence, you can choose to add 1d4 to the result. You can choose to do this after the check is rolled, but before the DM determines if you've passed or failed the check. You cannot do so again until you complete a short or long rest."
+    },
+    {
+      "name": "Crafters",
+      "description": "You have proficiency in one tool of your choice."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Honed Mind",
+      "description": "You have advantage on Intelligence, Wisdom, and Charisma saving throws against force and tech powers."
+    },
+    {
+      "name": "Infrared Sight",
+      "description": "Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "description": "You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Arkanian. Arkanian, when spoken, has an airy tone, and is regarded as one of the most difficult written languages to learn."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "intelligence"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'0\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "100 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Four clawed digits, extreme intelligence, infrared vision",
+    "skinColorOptions": "Tan",
+    "hairColorOptions": "White",
+    "eyeColorOptions": "White"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_arkanian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

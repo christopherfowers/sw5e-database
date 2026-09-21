@@ -1,0 +1,11 @@
+{
+  "key": "canteen",
+  "name": "Canteen",
+  "category": "storage",
+  "costInCredits": 10,
+  "weight": 3.0,
+  "description": "A canteen stores 4 pints of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

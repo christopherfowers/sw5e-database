@@ -1,0 +1,10 @@
+{
+  "key": "chemical-suit",
+  "name": "Chemical suit",
+  "category": "lifeSupport",
+  "costInCredits": 3000,
+  "weight": 15.0,
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

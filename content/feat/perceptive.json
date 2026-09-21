@@ -1,0 +1,10 @@
+{
+  "key": "perceptive",
+  "name": "Perceptive",
+  "abilityScoreIncreases": [
+    "wisdom"
+  ],
+  "description": "You hone your senses until they become razor sharp. You gain the following benefits:\n- Increase your Wisdom score by 1, to a maximum of 20.\n- You gain proficiency in the Perception skill. If you are already proficient in it, you instead gain expertise in it.\n- Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

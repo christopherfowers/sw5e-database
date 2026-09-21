@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-strong-and-small",
+  "name": "Strong and Small",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "You have a climbing speed of 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "repulsor-pack",
+  "name": "Repulsor pack",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 300,
+  "weight": 10.0,
+  "description": "Repulsor packs are used to slow descent from a high elevation. Activating or deactivating the repulsor pack requires a bonus action and, while active, your rate of descent slow to 60 feet per round, and you ignore the effects of wind of less than moderate speed (no more than 10 mph). The repulsor pack lasts for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

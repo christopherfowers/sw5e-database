@@ -1,0 +1,8 @@
+{
+  "key": "dual-focused-caster",
+  "name": "Dual Focused Caster",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "description": "You have learned to bifurcate your attention while concentrating on powers, learning techniques that grant you the following benefits:\n- If you attempt to cast a power that requires concentration while already concentrating on an existing power, you can maintain concentration on both powers simultaneously. You must spend your action each subsequent round on maintaining this concentration, or lose concentration for both powers.\n- At the end of each of your turns where you have two powers you are concentrating on, you must make a Constitution saving throw (DC equals 10 + the number of complete rounds you've been concentrating on two powers). On a failure, you lose concentration for both powers. You can drop concentration on one of your powers during your turn as a free action to avoid this saving throw.\n- Any time you would be forced to make a Constitution saving throw to maintain concentration due to taking damage, the DC equals 10 + both powers' levels combined, or half the damage you take, whichever number is higher. On a failure, you lose concentration on both powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

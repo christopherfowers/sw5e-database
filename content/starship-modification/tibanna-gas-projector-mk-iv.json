@@ -1,0 +1,16 @@
+{
+  "key": "tibanna-gas-projector-mk-iv",
+  "name": "Tibanna Gas Projector, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 4,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Tibanna Gas Projector, Mk III",
+      "modificationName": "Tibanna Gas Projector, Mk III"
+    }
+  ],
+  "description": "As an action, a crewmember can create a wall of fire within 1200 feet. You can make the wall up to 300 feet on a side and 10 feet thick, or a spherical shell up to 150 feet in diameter, and 10 feet thick. The wall is opaque and lasts for up to a number of rounds equal to your ship's tier.\nEach ship that enters the fire or starts it turn there must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's constitution modifier). On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.\nThe fire ignites any flammable objects in the area.\nThe effects of this feature last until the beginning of your next turn unless the crewmember uses a bonus action to maintain it.\nThis feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+}

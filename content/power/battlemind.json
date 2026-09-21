@@ -1,0 +1,18 @@
+{
+  "key": "battlemind",
+  "name": "Battlemind",
+  "powerType": "force",
+  "level": 2,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 10 minutes",
+  "concentration": true,
+  "prerequisite": "Battle Precognition",
+  "description": "Through the Force, you gain a limited form of telepathy that enables you to anticipate the moves of your opponents in combat. While you aren't wearing armor or wielding a shield, you gain a +2 AC bonus against melee attacks and a +3 AC bonus against ranged attacks.\n\nThis AC bonus is not applied against attacks from droids, constructs, or creatures with resistance or immunity to psychic damage.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

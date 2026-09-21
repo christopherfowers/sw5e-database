@@ -1,0 +1,11 @@
+{
+  "key": "enlarging-channel-chipped",
+  "name": "Enlarging Channel (Chipped)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "This item gains the enlarging 10 property. If it already has the enlarging property, its enlarging number increases by 10, to a maximum of 30."
+}

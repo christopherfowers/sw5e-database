@@ -1,0 +1,10 @@
+{
+  "key": "berserker-class-improvement",
+  "name": "Berserker Class Improvement",
+  "className": "Berserker",
+  "improvementType": "class",
+  "prerequisite": "At least 3 levels in berserker",
+  "description": "When a creature ends its turn within 15 feet of you, you can use your reaction to move up to half your speed to a space closer to the creature. This movement doesn't provoke opportunity attacks.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

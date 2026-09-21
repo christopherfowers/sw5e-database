@@ -1,0 +1,16 @@
+{
+  "key": "sensor-array-mk-v",
+  "name": "Sensor Array, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Sensor Array, Mk IV",
+      "modificationName": "Sensor Array, Mk IV"
+    }
+  ],
+  "description": "Your ship's Sensor Array has reached it's maximum potential. Your ship's Wisdom score increases by 2. Your ship's maximum for this score increases by 2."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "sorcerer-s-adrenal-improved",
+  "name": "Sorcerer's Adrenal (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "adrenal",
+  "description": "As an action, you can administer this adrenal to a creature within 5 feet. When you administer this adrenal, the target gains a +2 bonus to its force attack rolls, force save DC, and damage and healing rolls with force powers. This effect lasts for 1 minute. A creature can benefit from only one adrenal at a time."
+}

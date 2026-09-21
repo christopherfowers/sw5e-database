@@ -1,0 +1,85 @@
+{
+  "key": "houk",
+  "name": "Houk",
+  "size": "medium",
+  "homeworld": "Lijuter",
+  "nativeLanguage": "Houkese",
+  "lore": "### Biology and Appearance\nHouk are hulking bipeds with thick skin, hairless heads marked with bony ridges and a pronounced brow, flabby jowls, beady yellow eyes, and no visible ears or nose. They are very powerful due to their large bulk of pure muscle.\n\n### Society and Culture\nThe houk have well-earned reputations as bullies, cheaters, and backstabbers. They are often compared to wookiees because of their great strength and violent disposition. Houk are humorless, short-tempered beings who use their strength to antagonize weaker beings. Their propensity for deceit and skulduggery is matched only by the hutts. Though their tempers are not as explosive as those of wookiees, houk are known for their tendency to solve problems violently. In politics, they will often wage war without formal declarations, negotiate in bad faith, and ignore treaties. Though this preference for violence tend to cause the houk problems in dealing with other societies, it often gets them what they want. Surprisingly though, in personal combat, houk prefer to use stealth rather than direct confrontation. This gives them a reputation for deceit and cowardice. However, just as each houk colony has a different culture and government, houk individuals have varied personalities. Though all houk come from a culture with high levels of corruption and violence, many houk are hard workers who have learned to get along with other sentients. The houk produce little technology of their own, though they adapt themselves to the standard technology of the rest of the galaxy.\n\n### Names\nHouk names are gruff and primitive in nature, and don't vary by gender.\n\n**First Names.** Agamor, Krelba, Morg, Roath\n\n**Surnames.** Krin, Nar, Vogog, Voss",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Houk reach adulthood in their late teens and live for about 80 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Most houk are short-tempered and deceitful, causing them to tend toward the dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Houk typically stand 6 to 8 feet tall and generally weigh about 300 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Ambusher",
+      "description": "You have proficiency in the Stealth skill."
+    },
+    {
+      "name": "Powerful Build",
+      "description": "Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples."
+    },
+    {
+      "name": "Surprise Attack",
+      "description": "If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat."
+    },
+    {
+      "name": "Toughness",
+      "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Houkese. Houkese is mainly formed by grunts, with subtle tonal inflections to differentiate words that would otherwise sound the same. Written Houkese uses primitive ideograms with one letter to represent each simple verb, and complex pictograms to represent nouns."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "6'0\"",
+    "heightModifier": "+2d12\"",
+    "weightAverage": "190 lb.",
+    "weightModifier": "x(2d6) lb."
+  },
+  "appearance": {
+    "distinctions": "Thick skull, large stature, great physical strength",
+    "skinColorOptions": "Violet to blue, or yellow to brown",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_houk.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "brightsaber",
+  "name": "Brightsaber",
+  "category": "weapon",
+  "costInCredits": 1800,
+  "weight": 2.5,
+  "properties": [
+    "bright 13",
+    "hidden",
+    "luminous",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "fire"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

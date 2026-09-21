@@ -1,0 +1,9 @@
+{
+  "key": "cryogenic-capacitor-mk-i",
+  "name": "Cryogenic Capacitor, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "description": "You install high-efficiency reserve power cells giving your ship the ability to better meet peak power demands.  Your ship is proficiently equipped for Strength (Boost) checks."
+}

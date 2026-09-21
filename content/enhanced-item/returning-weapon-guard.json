@@ -1,0 +1,12 @@
+{
+  "key": "returning-weapon-guard",
+  "name": "Returning Weapon Guard",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "prerequisite": "Thrown property",
+  "description": "This weapon gains the returning property."
+}

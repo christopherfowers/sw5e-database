@@ -1,0 +1,11 @@
+{
+  "key": "guard-rangefinder-novice",
+  "name": "Guard Rangefinder (Novice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +1 bonus to ranged force attacks and a -1 penalty to melee force attacks."
+}

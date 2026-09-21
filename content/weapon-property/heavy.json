@@ -1,0 +1,6 @@
+{
+  "key": "heavy",
+  "name": "Heavy",
+  "contentSet": "core",
+  "description": "When you hit with an attack roll using Strength with a weapon with this property, you deal additional damage equal to half your Strength modifier (minimum of +1)."
+}

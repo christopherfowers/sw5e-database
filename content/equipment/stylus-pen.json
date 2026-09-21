@@ -1,0 +1,11 @@
+{
+  "key": "stylus-pen",
+  "name": "Stylus pen",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 10,
+  "weight": 0.5,
+  "description": "A stylus pen is designed to write on both solid surfaces and touch screen interfaces.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

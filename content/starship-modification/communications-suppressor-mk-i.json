@@ -1,0 +1,9 @@
+{
+  "key": "communications-suppressor-mk-i",
+  "name": "Communications Suppressor, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 1,
+  "description": "***Modification Grade** 1*\nThis modification adds a device designed to suppress the communications of a space station or starship within 1,000 feet of your ship. As an action, a crewmember can attempt to suppress the target’s communications by forcing them to succeed at a Charisma saving throw (DC equal to 8 + your Charisma (Interfere) bonus). On a failure, the target’s communications are suppressed for 1 hour, preventing any communication to or from external sources. On a success, they become immune to this feature for one day.\nAdditionally, your ship is proficiently equipped for Charisma (Interfere) checks."
+}

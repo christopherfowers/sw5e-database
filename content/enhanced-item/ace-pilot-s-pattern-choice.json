@@ -1,0 +1,11 @@
+{
+  "key": "ace-pilot-s-pattern-choice",
+  "name": "Ace Pilot's Pattern (Choice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Piloting increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+}

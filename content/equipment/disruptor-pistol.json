@@ -1,0 +1,22 @@
+{
+  "key": "disruptor-pistol",
+  "name": "Disruptor pistol",
+  "category": "weapon",
+  "costInCredits": 750,
+  "weight": 4.5,
+  "properties": [
+    "disintegrate 13",
+    "power cell (range 45/180)",
+    "reload 12",
+    "strength 11"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "acid"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

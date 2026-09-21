@@ -1,0 +1,17 @@
+{
+  "key": "tune-up",
+  "name": "Tune-up",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "minute",
+    "text": "10 minutes"
+  },
+  "range": "30 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "Up to six droids or constructs of your choice that you can see within range each regain hit points equal to 2d8 + your techcasting ability modifier.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

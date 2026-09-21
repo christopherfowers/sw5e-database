@@ -1,0 +1,9 @@
+{
+  "key": "species-herglic-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Herglic",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

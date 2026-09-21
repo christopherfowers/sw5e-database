@@ -1,0 +1,10 @@
+{
+  "key": "archetype-demolitions-specialist-cause-and-effect-7",
+  "name": "Cause and Effect",
+  "grantedBy": "archetype",
+  "grantedByName": "Demolitions Specialist",
+  "level": 7,
+  "description": "_**Demolitions Specialist:** 7th level_\nYou learn to throw grenades as a bonus action. Additionally, when a creature fails a saving throw against a charge or grenade, you can expend a superiority die to apply one of your maneuvers. You can only use this feature once per grenade.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

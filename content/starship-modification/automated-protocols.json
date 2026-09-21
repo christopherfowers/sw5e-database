@@ -1,0 +1,16 @@
+{
+  "key": "automated-protocols",
+  "name": "Automated Protocols",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "engineering",
+  "grade": 2,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Damage Control System",
+      "modificationName": "Damage Control System"
+    }
+  ],
+  "description": "You upgrade your damage control system. A crewmember can take the Patch action as a reaction.  This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting. Additionally, you can add your ship's intelligence modifier (minimum of +1) to whenever you roll hull dice to regain hull points.\nFinally, your ship is expertly equipped for Constitution (Patch) checks."
+}

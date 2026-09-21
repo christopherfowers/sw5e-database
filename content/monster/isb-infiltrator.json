@@ -1,0 +1,111 @@
+{
+  "key": "isb-infiltrator",
+  "name": "ISB Infiltrator",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 15,
+    "type": "heavy combat suit"
+  },
+  "hitPoints": {
+    "average": 36,
+    "roll": "8d8"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 8,
+      "modifier": -1
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 10,
+      "modifier": 0
+    },
+    "intelligence": {
+      "score": 16,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 14,
+      "modifier": 2
+    }
+  },
+  "savingThrows": [
+    "Dex +5",
+    "Int +5"
+  ],
+  "skills": [
+    "Acrobatics +5",
+    "Perception +3",
+    "Stealth +5"
+  ],
+  "senses": [
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "one other of your choice"
+  ],
+  "challengeRating": "3",
+  "experiencePoints": 700,
+  "behaviors": [
+    {
+      "name": "Cunning Action",
+      "behaviorType": "trait",
+      "description": "On each of its turns, the infiltrator can use a bonus action to take the Dash, Disengage, or Hide action.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Evasion",
+      "behaviorType": "trait",
+      "description": "If the infiltrator is subjected to an effect that allows it to make a Dex saving throw to take only half damage, the infiltrator instead takes no damage on a success, and half damage on a fail.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Techcasting",
+      "behaviorType": "trait",
+      "description": "At will: electrical burst, encrypted message, on/off 1st-level: holographic disguise, smoke cloud, tranquilizer 2nd-level: infiltrate, scorching ray The infiltrator is a 3rd-level techcaster. Its techcasting ability is Intelligence (tech save DC 13, +5 to hit with tech powers). It has 15 tech points and knows the following tech powers:",
+      "descriptionWithLinks": "Techcasting. The infiltrator is a 3rd-level techcaster. Its techcasting ability is Intelligence (tech save DC 13, +5 to hit with tech powers). It has 15 tech points and knows the following tech powers: [](#)\nAt will: [electrical burst](#electrical%20burst), [encrypted message](#encrypted%20message), [on/off](#on/off)\n1st-level: [holographic disguise](#holographic%20disguise), [smoke cloud](#smoke%20cloud), [tranquilizer](#tranquilizer)\n2nd-level: [infiltrate](#infiltrate), [scorching ray](#scorching%20ray)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Carbine",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage. The attack deals an extra 14 (4d6) damage when the infiltrator has advantage on the attack roll, or when the target is within 5 feet of an ally of the infiltrator and the infiltrator doesn't have disadvantage on the attack roll.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 5,
+      "range": "range 60/240 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d6 + 3",
+      "damageType": "energy"
+    },
+    {
+      "name": "Uncanny Dodge",
+      "behaviorType": "reaction",
+      "description": "The infiltrator halves the damage that it takes from an attack that hits it.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "The Imperial Security Bureau (ISB), also referred to as the Security Bureau or Imperial Security, was a law-enforcement and intelligence agency of the Galactic Empire that was charged with matters of state security and ensuring the loyalty of citizens to the Empire. It was larger than its sister agency Imperial Intelligence, and was led by ISB highcommand. The Imperial Security Bureau was formed by Galactic Emperor Palpatine as a secret police organization, dedicated to rooting out enemies of the New Order and maintaining stability throughout Imperial territories shortly after the proclamation of the New Order. Prospective ISB personnel were drawn from the Imperial Academy system and given training within the ISB Academy and Offices complex, located within the Verity District on Coruscant. Members went through a training regimen which included learning xenophobic propaganda, and were taught from the ISB Loyalty Manual. Members of the ISB were taught a specialized vocabulary to prevent outsiders from understanding their conversations. The term \"auditing\" was used to signal that suspects knew they were being investigated. The practice of provoking a suspect to commit a crime was referred to as \"crustbusting,\" and interrogating a supposed innocent in hopes he or she would react suspiciously was known as \"scattering.\" Framing a wanted suspect for a crime to makesure he or she would be arrested was referred to as \"Jabba.\" Following completion of the Academy, recruits filed into one of several branches of the organization described below. High-ranking ISB agents could command stormtrooper squads, override orders of civilian and military authorities, replace questionable officers and commandeer Imperial military hardware, including Star Destroyers.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

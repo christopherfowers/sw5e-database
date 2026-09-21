@@ -1,0 +1,9 @@
+{
+  "key": "species-gamorrean-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Gamorrean",
+  "description": "Gamorrean culture causes them to tend toward chaos, though there are exceptions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "riot-baton",
+  "name": "Riot baton",
+  "category": "weapon",
+  "costInCredits": 250,
+  "weight": 1.5,
+  "properties": [
+    "defensive 1",
+    "light"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

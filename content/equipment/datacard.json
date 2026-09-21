@@ -1,0 +1,11 @@
+{
+  "key": "datacard",
+  "name": "Datacard",
+  "category": "dataRecordingAndStorage",
+  "costInCredits": 5,
+  "weight": 0.0,
+  "description": "A datacard or data disk is a flat, hand-held device used in conjunction with a datapad to store information.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "character-sheet",
+  "name": "Character sheet",
+  "blurb": "The official sheet, to print and fill in by hand.",
+  "file": "character-sheet.pdf",
+  "pages": 4,
+  "fillable": false,
+  "sanitized": true,
+  "removed": [],
+  "order": 1,
+  "accent": "indigo",
+  "credit": "Galiphile and the Star Wars 5e team",
+  "sourceUrl": "https://drive.google.com/file/d/16b0luhTq6xBuQUUf8jm6vnLAImnmjuAF/view?usp=sharing"
+}

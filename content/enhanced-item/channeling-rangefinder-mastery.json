@@ -1,0 +1,11 @@
+{
+  "key": "channeling-rangefinder-mastery",
+  "name": "Channeling Rangefinder (Mastery)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "While using this item as your focus, you gain a +3 bonus to ranged force attacks."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "rendcasting-oscillator-mk-iv",
+  "name": "Rendcasting Oscillator Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +3 bonus to the tech save DC of powers that require a Dexterity or Intelligence saving throw."
+}

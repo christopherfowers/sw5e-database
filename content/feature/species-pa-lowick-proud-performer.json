@@ -1,0 +1,9 @@
+{
+  "key": "species-pa-lowick-proud-performer",
+  "name": "Proud Performer",
+  "grantedBy": "species",
+  "grantedByName": "Pa'lowick",
+  "description": "Pa'lowick are best known for the energy they can bring to a singing performance. Whenever you make a Charisma (Performance) check involving singing, you are considered to have expertise in the Performance skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

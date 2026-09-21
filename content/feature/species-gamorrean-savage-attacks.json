@@ -1,0 +1,9 @@
+{
+  "key": "species-gamorrean-savage-attacks",
+  "name": "Savage Attacks",
+  "grantedBy": "species",
+  "grantedByName": "Gamorrean",
+  "description": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,13 @@
+{
+  "key": "intuitive-gunner",
+  "name": "Intuitive Gunner",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "casting",
+      "text": "The ability to cast force powers"
+    }
+  ],
+  "description": "When you determine the save DC for a tertiary ship weapon while on a Medium or smaller ship, you can add half your Wisdom or Charisma modifier (your choice) to the save DC."
+}

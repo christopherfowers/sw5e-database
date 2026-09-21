@@ -1,0 +1,9 @@
+{
+  "key": "species-draethos-telepathy",
+  "name": "Telepathy",
+  "grantedBy": "species",
+  "grantedByName": "Draethos",
+  "description": "You can communicate telepathically with creatures within 30 feet of you. You must share a language with the target in order to communicate in this way.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

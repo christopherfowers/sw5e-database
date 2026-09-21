@@ -1,0 +1,28 @@
+{
+  "key": "rapid-fire-laser-cannon",
+  "name": "Rapid-fire laser cannon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 4600,
+  "weapon": {
+    "mounting": "primary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "auto",
+    "burst 16",
+    "overheat 16",
+    "rapid 4"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "energy"
+  },
+  "range": {
+    "normal": 400,
+    "long": 1600
+  }
+}

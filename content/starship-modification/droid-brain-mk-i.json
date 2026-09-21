@@ -1,0 +1,16 @@
+{
+  "key": "droid-brain-mk-i",
+  "name": "Droid Brain, Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Droid Brain, Makeshift",
+      "modificationName": "Droid Brain, Makeshift"
+    }
+  ],
+  "description": "You improve your ship's droid brain. The number of actions it can take each turn increases:\n- **Tiny or Small:** A Tiny or Small ship can take a number of actions equal to half its proficiency bonus (rounded up).\n- **Medium:** A Medium ship can take a number of actions equal to its proficiency bonus."
+}

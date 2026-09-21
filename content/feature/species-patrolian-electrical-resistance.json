@@ -1,0 +1,9 @@
+{
+  "key": "species-patrolian-electrical-resistance",
+  "name": "Electrical Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Patrolian",
+  "description": "Patrolians are notably capable of shrugging off electricity. You have resistance to lightning damage.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-cathar-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Cathar",
+  "description": "Cathar tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

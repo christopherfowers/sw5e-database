@@ -1,0 +1,21 @@
+{
+  "key": "vibropike",
+  "name": "Vibropike",
+  "category": "weapon",
+  "costInCredits": 950,
+  "weight": 9.25,
+  "properties": [
+    "dexterity 11",
+    "reach",
+    "two-handed"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

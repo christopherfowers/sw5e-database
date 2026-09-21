@@ -1,0 +1,9 @@
+{
+  "key": "species-ryn-musical",
+  "name": "Musical",
+  "grantedBy": "species",
+  "grantedByName": "Ryn",
+  "description": "You have proficiency in Performance and one musical instrument of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

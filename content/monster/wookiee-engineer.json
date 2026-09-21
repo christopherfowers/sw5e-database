@@ -1,0 +1,107 @@
+{
+  "key": "wookiee-engineer",
+  "name": "Wookiee Engineer",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 15,
+    "type": "hide"
+  },
+  "hitPoints": {
+    "average": 60,
+    "roll": "8d8 + 24"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft., climb 30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 16,
+      "modifier": 3
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 16,
+      "modifier": 3
+    },
+    "intelligence": {
+      "score": 16,
+      "modifier": 3
+    },
+    "wisdom": {
+      "score": 12,
+      "modifier": 1
+    },
+    "charisma": {
+      "score": 9,
+      "modifier": -1
+    }
+  },
+  "skills": [
+    "Perception +4",
+    "Stealth +5",
+    "Tech +6"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Shyriiwook"
+  ],
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Brute",
+      "behaviorType": "trait",
+      "description": "A melee weapon does one extra die of damage when the wookiee hits with it (included in the attack).",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Berserk Charge",
+      "behaviorType": "trait",
+      "description": "If the wookiee surprises a creature and hits it with an attack during the first round of combat, the target takes an extar 7 (2d6) damage from the attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Tech Casting",
+      "behaviorType": "trait",
+      "description": "At will: electrical burst, mending, on/off 1st level: element of surprise, kolto pack, repair droid 2nd level: hold droid, overheat 3rd level: enhance weapon, fabricate trap The wookiee engineer is a 5th level tech caster (tech save DC 13, + 5 to hit with tech attacks). The wookiee engineer has 23 tech points and knows the following tech powers:",
+      "descriptionWithLinks": "Tech Casting. The wookiee engineer is a 5th level tech caster (tech save DC 13, + 5 to hit with tech attacks). The wookiee engineer has 23 tech points and knows the following tech powers: [](#)\n At will: [electrical burst](#electrical%20burst), [mending](#mending), [on/off](#on/off)\n 1st level: [element of surprise](#element%20of%20surprise), [kolto pack](#kolto%20pack), [repair droid](#repair%20droid)\n 2nd level: [hold droid](#hold%20droid), [overheat](#overheat)\n 3rd level: [enhance weapon](#enhance%20weapon), [fabricate trap](#fabricate%20trap)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The wookiee engineer makes two melee attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Vibromace",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +5 to hit, one target. Hit: 12 (2d10 + 3) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 5,
+      "range": "one target. *Hit:* 12 (2d10 + 3) kinetic damage.",
+      "averageDamage": 12,
+      "damageRoll": "2d10 + 3",
+      "damageType": "kinetic"
+    }
+  ],
+  "sectionText": "Wookiees are a tall species of furry humanoids from the planet Kashyyyk, who grow to a height of nearly three meters. They are covered from head to toe in a thick, shaggy coat of hair with water-shedding properties that notably comes in shades of brown, black, gray, and white. The species has two sexes, female and male. The latter grow long beards in adult life. Wookiee eye color ranges from blue to brown. Wookiees are big eaters, with the average adult requiring 3,500-6,000 calories a day of food. Wookiees have extendable claws which they use for climbing; using them for anything else violates the Wookiee honor code. Despite their fearsome appearance and volatile temperament, Wookiees are regarded as intelligent, sophisticated, loyal and trusting. When angered, Wookiees are known to descend into a berserker rage. Wookiees have a long lifespan, appearing not to age over a span of fifty years. ***History.*** The softening and repeal of anti-slavery laws under the Empire ultimately led to classifying the Wookiees as non-sentient. The Empire enslaved the Wookiees not because they were a meaningful threat to the Empire but because their massive, robust physiology allowed them to work long and hard in extreme conditions. As a result, many Wookiees were forced into slavery building much of the Imperial war machine, sent to be worked to death in the dangerous spice mines of the planet Kessel, or on construction sites such as the Death Star. Numerous Wookiees were bred for use in medical experimentation, and some were used as playthings, hunted for sport, or forced into gladiatorial combat. Some of these wookiees turned towards darker pursuits after their rough treatment, such as the infamous bounty hunter Black Krrsantan.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

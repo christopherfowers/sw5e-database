@@ -1,0 +1,8 @@
+{
+  "key": "casting-specialist",
+  "name": "Casting Specialist",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "description": "Choose one from force- or tech-casting. You've mastered your chosen casting type, gaining the following benefits:\n- You gain a +1 bonus to your force or tech save DC and your force or tech attack modifier.\n- Once per turn, when you cast a power that requires an attack roll or saving throw, you can have advantage on one attack roll, or you can force one creature affected by the power to have advantage or disadvantage on the saving throw (your choice). Once you've used this feature on a power, you can't affect that power again until you complete a short or long rest. Once you've used this feature on a creature, you can't do so again until you complete a short or long rest.\n- Once per turn, when you cast a power that doesn't require an ability check, attack roll, or saving throw, but requires a die roll, you can choose the maximum or minimum on the die (your choice). If the power requires rolling multiple dice, you can only affect a number of them equal to half your proficiency bonus (rounded up) in this way. Once you've used this feature on a power, you can't affect that power again until you complete a short or long rest.\n\nYou can select this feat twice. Each time you do so, you must choose a different casting type.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

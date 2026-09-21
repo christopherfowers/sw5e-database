@@ -1,0 +1,9 @@
+{
+  "key": "species-dug-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Dug",
+  "description": "Dugs typically stand between 3 and 4 feet tall. Regardless of your position in that range, your size is Small.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

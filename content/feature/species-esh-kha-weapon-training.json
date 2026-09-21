@@ -1,0 +1,9 @@
+{
+  "key": "species-esh-kha-weapon-training",
+  "name": "Weapon Training",
+  "grantedBy": "species",
+  "grantedByName": "Esh-Kha",
+  "description": "You have proficiency in two vibroweapons or blasters of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

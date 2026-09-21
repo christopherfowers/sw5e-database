@@ -1,0 +1,13 @@
+{
+  "key": "guerrilla-mastery",
+  "name": "Guerrilla Mastery",
+  "description": "You've mastered maneuvering across the battlefield, sliding through openings that others might not see. You gain the following benefits:",
+  "benefits": [
+    "You can move through a hostile creature's space regardless of that creature's size.",
+    "When you hit a creature with an opportunity attack, you can move up to half your speed (no action required) without provoking opportunity attacks from that creature.",
+    "When a hostile creature moves to within 5 feet of you, you can use your reaction to Disengage and move up to half your speed.",
+    "Once per turn, when you hit a creature with a weapon attack, another enemy of the creature is within 5 feet of it, and that enemy isn't incapacitated, you can deal additional damage equal to twice your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

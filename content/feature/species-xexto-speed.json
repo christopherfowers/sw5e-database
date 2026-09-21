@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "Your base walking speed is 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

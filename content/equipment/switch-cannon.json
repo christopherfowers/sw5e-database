@@ -1,0 +1,24 @@
+{
+  "key": "switch-cannon",
+  "name": "Switch cannon",
+  "category": "weapon",
+  "costInCredits": 3350,
+  "weight": 12.5,
+  "properties": [
+    "power cell (range 100/400)",
+    "burst 2",
+    "reload 4",
+    "strength 15",
+    "switch (2d4 acid/cold/fire/lightning)",
+    "two-handed"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

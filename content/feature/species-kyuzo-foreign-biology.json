@@ -1,0 +1,9 @@
+{
+  "key": "species-kyuzo-foreign-biology",
+  "name": "Foreign Biology",
+  "grantedBy": "species",
+  "grantedByName": "Kyuzo",
+  "description": "Kyuzo struggle in atmospheres other than those of Phatrong. You wear a filter mask, and if your mask is removed while you are in such an environment, you lose consciousness.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

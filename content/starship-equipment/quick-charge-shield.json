@@ -1,0 +1,13 @@
+{
+  "key": "quick-charge-shield",
+  "name": "Quick-Charge shield",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "shield",
+  "costInCredits": 4900,
+  "description": "Quick-Charge Shields, opposite of Fortress Shields, offer a reduced capacity, but rapidly replenish.",
+  "shield": {
+    "capacityMultiplier": "x 2/3",
+    "regenerationRateCoefficient": "x 3/2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "key": "impressive-exterior",
+  "name": "Impressive Exterior",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "description": "Modifies the exterior appearance of your ship by using a modern design, replacing exterior components with those of higher quality and visual appeal, and includes an anti-corrosion coating to prevent wear and corrosion on the ship's exterior.\nYour ship is proficiently equipped for Charisma (Impress) checks. If your ship is already proficiently equipped, it instead becomes expertly equipped for Charisma (Impress) checks."
+}

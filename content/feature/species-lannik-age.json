@@ -1,0 +1,9 @@
+{
+  "key": "species-lannik-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Lannik",
+  "description": "Lanniks reach adulthood in their 100's and can live up to 900 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

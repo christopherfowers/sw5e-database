@@ -1,0 +1,11 @@
+{
+  "key": "dart-deadly",
+  "name": "Dart (Deadly)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack and damage rolls made with this enhanced wrist launcher dart, which deals 1d6 kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the dart has been fired, it no longer gives a bonus."
+}

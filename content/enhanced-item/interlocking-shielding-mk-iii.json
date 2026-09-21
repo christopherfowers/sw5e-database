@@ -1,0 +1,11 @@
+{
+  "key": "interlocking-shielding-mk-iii",
+  "name": "Interlocking Shielding Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "_**Prerequiste:** Shield_\nThis shield gains the interlocking 3 property. If it already has the interlocking property, its interlocking number increases to 3."
+}

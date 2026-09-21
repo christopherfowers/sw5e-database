@@ -1,0 +1,12 @@
+{
+  "key": "magnetized-shield-improved",
+  "name": "Magnetized Shield (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Physical shield",
+  "description": "This shield gains the magnetic 15 property. If it already has the magnetic property, its magnetic number increases by 3, to a maximum of 18."
+}

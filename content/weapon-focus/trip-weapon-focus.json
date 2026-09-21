@@ -1,0 +1,13 @@
+{
+  "key": "trip-weapon-focus",
+  "name": "Trip Weapon Focus",
+  "weaponGroup": "trip",
+  "description": "You've focused your combat training on trip weapons. You gain the following benefits while wielding any of these weapons, if you are proficient with it:",
+  "benefits": [
+    "You gain a +1 bonus to the weapon's damage rolls.",
+    "When you score a critical hit with the weapon, the next attack roll made against the target before the start of your next turn has advantage.",
+    "When you take the Attack action, you can choose to forgo one or more attacks to **interrupt**. For each attack you forgo, one creature within your reach gains no benefit to armor class from its shield until the end of its next turn."
+  ],
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

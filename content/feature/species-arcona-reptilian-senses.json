@@ -1,0 +1,9 @@
+{
+  "key": "species-arcona-reptilian-senses",
+  "name": "Reptilian Senses",
+  "grantedBy": "species",
+  "grantedByName": "Arcona",
+  "description": "Whenever you make a Wisdom (Perception) check related to sensing heat, you are considered to have expertise in the Perception skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,85 @@
+{
+  "key": "felucian",
+  "name": "Felucian",
+  "size": "medium",
+  "homeworld": "Felucia",
+  "nativeLanguage": "Felucianese",
+  "lore": "### Biology and Appearance\nFelucians are a tall, bipedal species. Both their arms and legs end in four, large webbed digits with suction-cup fingertips. Springing from the underside of each forearm is a second short arm, ending in three large and agile fingers. A Felucian's head is a thick mass of long flexible tendrils featuring illuminated tips. The eyes and mouth appear as black holes or openings within this mass.\n\n### Society and Culture\nFelucians are mysterious sentient beings native to the vast fungal swamps and jungles of Felucia. Though Felucia has long been colonized, the native Felucians avoided notice by living deep in the jungle. Such seclusion was easily maintained. Even the hardiest of colonists were loath to brave the perils of the dangerous wilderness without cause.\n\nThe Felucians are an unusual, amphibious species. They are highly adapted to surviving the wilds of their home planet, and fade easily into its confusing mass of plant life. They are equally at home on land or in the water, and they traverse the swamps with ease.\n\nAll Felucians are part of a single, planetwide tribe that is broken down into smaller villages and communities, each one led by shamans and chieftains. These shamans are very strong in the Force, using it to their own ends with incredible skill.\n\n### Names\nFelucian names are usually two syllables and full of hard consonants. Surnames are a combination of tribe lineage.\n\n**Male Names.** Gokkuul, Kargrek, Hagark, Ruggorn\n\n**Female Names.** Lakko, Taarell, Duuna, Frula\n\n**Surnames.** s'Gokuul, d'Lakko, s'Kargrek, d'Frula",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Felucians reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Felucians' connection to the Living Force causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Felucians typically stand over 6 feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Force-Sensitive",
+      "description": "You know the *burst* at-will force power. When you reach 3rd level, you learn and can cast the *beast trick* force power once per day. When you reach 5th level, you learn and can cast the *plant surge* force power once per day. Wisdom is your forcecasting ability for these powers."
+    },
+    {
+      "name": "Amphibious",
+      "description": "You can breathe air and water."
+    },
+    {
+      "name": "Stealthy",
+      "description": "You are proficient in the Stealth skill."
+    },
+    {
+      "name": "Mask of the Wild",
+      "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic, Felucianese, and one more language of your choice. Felucianese is characterized by guttural, whisper-like vowels, interspersed with hard clicks."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "5'8\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "165 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Extra limb at elbow, innate Force-sensitivity",
+    "skinColorOptions": "Gray, with blue, red, or yellow markings",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Red"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_felucian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

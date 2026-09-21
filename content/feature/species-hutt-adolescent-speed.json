@@ -1,0 +1,9 @@
+{
+  "key": "species-hutt-adolescent-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Hutt, Adolescent",
+  "description": "Your base walking speed is 20 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

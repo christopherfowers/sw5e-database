@@ -1,0 +1,11 @@
+{
+  "key": "vocoder-mask",
+  "name": "Vocoder mask",
+  "category": "communications",
+  "costInCredits": 450,
+  "weight": 0.5,
+  "description": "A vocoder mask is worn over the nose and mouth of a creature, and can translate verbal communications between up to 15 languages. The languages can be changed out while interfaced with a protocol droid or appropriate computer.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

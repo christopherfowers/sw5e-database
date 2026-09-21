@@ -1,0 +1,86 @@
+{
+  "key": "gank",
+  "name": "Gank",
+  "size": "medium",
+  "homeworld": "Nar Shaddaa (possibly)",
+  "nativeLanguage": "Gank",
+  "lore": "### Biology and Appearance\nThe ganks are a species of fur-covered carnivores. The typical member of the species has a face that is squared-off and yellow in color, the expression trapped in a perpetual snarl that non-ganks find unattractive. Small, mean-looking eyes peer from above the maw, their head sitting atop a thick neck between broad, strong shoulders. These cap two thickset, powerful arms, which terminate in hands with five fingers each. Their heavy build affords ganks great strength, yet they are also spry runners. They augment their bodies with cybernetics, making them a species of cyborgs.\n\n### Society and Culture\nPrecious little is known about gank culture. The exception is that the ganks are fabled for their violent and ruthless nature; even the slightest perceived insult is enough to throw a gank into a violent rage of retaliation. Outsiders similarly know little of the organization of gank society, or whether they have any central rulers at all. What is well known was that the ganks are a war-loving and regimented species, whose members enjoy occupations that allow them to fight and shed blood, such as that of assassin, bodyguard, bounty hunter, and mercenary. They are in particular demand by the hutts, who have enough ganks on retainer to constitute a small army. Their warlike ways and physical strength ranks the ganks among the galaxy's most redoubtable fighters. The species have no compunctions about premeditated murder, which lends them the nickname \"Gank Killers.\"\n\n### Names\nGank names do not differentiate between genders, and instead of surnames, they give themselves epithets.\n\n**First Names.** Darakk, Frent, Shett, Yorrath\n\n**Epithets.** the Feared, the Keen, the Slayer, the Tough",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Strength score increases by 2, and your Dexterity or Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Ganks reach adulthood in their late teens and live for slightly more than a century thanks to their cybernetics."
+    },
+    {
+      "name": "Alignment",
+      "description": "Ganks aggressive and hair trigger nature causes them to tend towards chaotic dark side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Ganks typically stand 5 to 6 feet tall and generally weigh about 160 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 35 feet. You ignore the strength property of heavy armor."
+    },
+    {
+      "name": "Aggressive",
+      "description": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+    },
+    {
+      "name": "Athletic",
+      "description": "You have proficiency in the Athletics skill."
+    },
+    {
+      "name": "Gank Training",
+      "description": "You have proficiency in light and medium armor as well as two vibroweapons or blasters of your choice."
+    },
+    {
+      "name": "Mercenary Specialization",
+      "description": "You have proficiency in one of the following skills: Intimidation, Persuasion, Stealth, or Perception."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Gank. You can communicate with other ganks within 30 feet without speaking through use of cybernetic implants. Tech casters can detect the communication but can't understand it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "strength"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "dexterity",
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d6\"",
+    "weightAverage": "115 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Always armored, cybernetic communication",
+    "skinColorOptions": "Yellow or yellowish-brown",
+    "hairColorOptions": "Brown or black",
+    "eyeColorOptions": "Red, green, blue, or white"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gank.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

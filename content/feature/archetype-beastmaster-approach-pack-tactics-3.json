@@ -1,0 +1,10 @@
+{
+  "key": "archetype-beastmaster-approach-pack-tactics-3",
+  "name": "Pack Tactics",
+  "grantedBy": "archetype",
+  "grantedByName": "Beastmaster Approach",
+  "level": 3,
+  "description": "_**Beastmaster Approach:** 3rd level_\nWhen you have advantage on an attack roll against a creature, another enemy of the creature is within 5 feet of it, that enemy isn't incapacitated, you can reroll one of the dice once.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

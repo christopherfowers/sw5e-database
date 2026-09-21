@@ -1,0 +1,9 @@
+{
+  "key": "species-kushiban-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Kushiban",
+  "description": "You can speak, read, and write Galactic Basic and Kushiban. Kushiban has a bubbly, joyful tone to it.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

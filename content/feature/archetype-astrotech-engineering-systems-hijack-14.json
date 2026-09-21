@@ -1,0 +1,10 @@
+{
+  "key": "archetype-astrotech-engineering-systems-hijack-14",
+  "name": "Systems Hijack",
+  "grantedBy": "archetype",
+  "grantedByName": "Astrotech Engineering",
+  "level": 14,
+  "description": "_**Astrotech Engineering:** 14th level_\nAll droids, constructs, and creatures wearing or holding a techcasting focus within 120 feet are viable targets for any tech powers which you cast with a range of touch.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

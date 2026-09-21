@@ -1,0 +1,11 @@
+{
+  "key": "brawny-pattern-elite",
+  "name": "Brawny Pattern (Elite)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Athletics increases by five steps (to high mastery or from trained to grand mastery)."
+}

@@ -1,0 +1,7 @@
+{
+  "key": "multiclassing-prerequisites",
+  "name": "Multiclassing Prerequisites",
+  "contentSet": "core",
+  "body": "|Class||Ability Score Minimum|\n|:--|:--:|:--|\n|Berserker||Strength 13|\n|Consular||Wisdom or Charisma 13|\n|Engineer||Intelligence 13|\n|Fighter||Strength or Dexterity 13|\n|Guardian||Constitution 13, Wisdom or Charisma 13|\n|Monk||Dexterity 13, Wisdom or Charisma 13|\n|Operative||Dexterity 13|\n|Scholar||Intelligence 13|\n|Scout||Strength or Dexterity 13, Intelligence 13|\n|Sentinel||Dexterity 13, Wisdom or Charisma 13|",
+  "subject": "Character creation"
+}

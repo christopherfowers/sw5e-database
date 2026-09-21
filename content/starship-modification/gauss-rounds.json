@@ -1,0 +1,19 @@
+{
+  "key": "gauss-rounds",
+  "name": "Gauss Rounds",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "weaponMounting",
+      "text": "Primary or Secondary Weapon",
+      "mountings": [
+        "primary",
+        "secondary"
+      ]
+    }
+  ],
+  "description": "When you roll a 1 or 2 on a damage die with the chosen weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
+}

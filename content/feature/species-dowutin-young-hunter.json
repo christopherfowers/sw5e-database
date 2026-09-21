@@ -1,0 +1,9 @@
+{
+  "key": "species-dowutin-young-hunter",
+  "name": "Hunter",
+  "grantedBy": "species",
+  "grantedByName": "Dowutin, Young",
+  "description": "You have proficiency in the Survival skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-anx-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Anx",
+  "description": "The anx's social nature causes them to tend toward the light side, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

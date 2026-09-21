@@ -1,0 +1,17 @@
+{
+  "key": "disintegrate",
+  "name": "Disintegrate",
+  "powerType": "tech",
+  "level": 6,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "60 feet",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "description": "A blast of corrosive energy emits from you. Choose a target within range.\n\nA creature targeted by this power must make a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 acid damage. If this damage reduces the target to 0 hit points, it is disintegrated.\n\nA disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.\n\nThis power automatically disintegrates an unenhanced Large or smaller object. If the target is a Huge or larger object, this power disintegrates a 10-foot-cube portion of it.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

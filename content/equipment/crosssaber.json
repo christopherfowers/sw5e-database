@@ -1,0 +1,23 @@
+{
+  "key": "crosssaber",
+  "name": "Crosssaber",
+  "category": "weapon",
+  "costInCredits": 1650,
+  "weight": 5.25,
+  "properties": [
+    "dexterity 15",
+    "double (2d4 energy)",
+    "heavy",
+    "luminous",
+    "reach"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 2,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

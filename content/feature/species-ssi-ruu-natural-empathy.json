@@ -1,0 +1,9 @@
+{
+  "key": "species-ssi-ruu-natural-empathy",
+  "name": "Natural Empathy",
+  "grantedBy": "species",
+  "grantedByName": "Ssi-Ruu",
+  "description": "Ssi-ruuk have scent-tongues that let them read the emotions of individuals. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

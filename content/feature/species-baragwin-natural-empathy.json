@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-natural-empathy",
+  "name": "Natural Empathy",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "Baragwin's powerful sense of smell allows them to sense the emotions in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

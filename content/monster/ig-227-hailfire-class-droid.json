@@ -1,0 +1,124 @@
+{
+  "key": "ig-227-hailfire-class-droid",
+  "name": "IG-227 Hailfire-Class Droid",
+  "size": "huge",
+  "types": [
+    "droid"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 16,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 168,
+    "roll": "16d12 + 64"
+  },
+  "speed": {
+    "walk": 50,
+    "text": "50 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 20,
+      "modifier": 5
+    },
+    "dexterity": {
+      "score": 18,
+      "modifier": 4
+    },
+    "constitution": {
+      "score": 19,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 1,
+      "modifier": -5
+    }
+  },
+  "savingThrows": [
+    "Dex +9",
+    "Wis +5",
+    "Cha +0"
+  ],
+  "senses": [
+    "darkvision 120 ft.",
+    "passive Perception 10"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "14",
+  "experiencePoints": 15000,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid tank has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The droid tank makes two medium laser cannon attacks.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Crushing Stride",
+      "behaviorType": "action",
+      "description": "The droid tank moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the droid tank enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed 5 feet to the nearest space out of the droid tank's path . On a failed save, the creature falls prone and takes 28 (8d6) kinetic damage. If the droid tank remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the droid tank. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the droid tank and is no longer restrained.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Medium Laser Cannon",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack +9 to hit, 100/400, one target. Hit 20 (3d10 + 4) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 9,
+      "range": "100/400",
+      "targets": "one target. Hit 20 (3d10 + 4) energy damage"
+    },
+    {
+      "name": "Missile Launchers",
+      "behaviorType": "action",
+      "description": "The droid tank launches three missiles at points within 240 feet of it that it can see. Each creature within a 10-foot radius sphere of each point must make a DC 18 Dexterity saving throw, taking 21 (6d6) fire and 21 (6d6) kinetic damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one sphere is affected only once. Large and larger constructs and structures have disadvantage on the saving throw, and suffer an additional 21 (6d6) fire and 21 (6d6) kinetic damage if they fail the save by 10 or more.",
+      "attackType": "none",
+      "attackBonus": 0,
+      "usageLimit": "10/Day"
+    }
+  ],
+  "flavorText": "The IG-227 Hailfire-class droid tank, also known simply as the hailfire droid or wheel droid, is a model of droid tank manufactured by Haor Chall Engineering that was used by the InterGalactic Banking Clan and Confederacy of Independent Systems during the Clone Wars as well as the Alliance to Restore the Republic during the Galactic Civil War. Able to roll rapidly into action, the IG-227 Hailfire-class droid tank is an armored missile platform easily identified by its treaded, hoop-like drive wheels 8.5 meters in diameter capable of moving it at intimidating speeds. Their light armor plating, brown and silver in color, made them fast at the cost of making them vulnerable to infantry attacks. Their red photoreceptor \"eye\" could lock on to both land and air targets at impressive distances, greatly improving the range of their missiles. Hailfire droids are equipped with two racks of missile launcher pods on either side of their heads, each carrying 15 guided missile warheads that leave behind a trail of black exhaust when fired. These projectiles are especially effective against stationary or slow-moving targets on terrain where blaster weapons are unusable due to a lack of clear lines of sight. The missiles are most effective at ranges less than a kilometer and follow deliberately swerving, evasive trajectories. When the missiles are depleted, a hailfire droid is forced to rely upon its twin chin-mounted blasters.",
+  "sectionText": "Droid tanks are massive droids that retain the abilities of a droid but come in a larger package, with different functionality and appearance.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

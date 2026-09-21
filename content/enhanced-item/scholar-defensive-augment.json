@@ -1,0 +1,12 @@
+{
+  "key": "scholar-defensive-augment",
+  "name": "Scholar Defensive Augment",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "prerequisite": "At least 3 levels in scholar",
+  "description": "You learn an additional discovery. When you complete a long rest, you can change this discovery for a different option available to you."
+}

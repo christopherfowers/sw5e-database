@@ -1,0 +1,9 @@
+{
+  "key": "species-chiss-tech-resistance",
+  "name": "Tech Resistance",
+  "grantedBy": "species",
+  "grantedByName": "Chiss",
+  "description": "Growing up around technology leaves an impact on chiss. You have advantage on Dexterity and Intelligence saving throws against tech powers.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-dashade-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Dashade",
+  "description": "You can speak, read, and write Galactic Basic and Dashadi. Dashadi is characterized by its low pitch and elongated growls.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

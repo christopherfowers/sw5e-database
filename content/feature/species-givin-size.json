@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "Givin typically stand around 6 feet tall and weigh 150 lb. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

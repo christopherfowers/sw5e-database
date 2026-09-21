@@ -1,0 +1,11 @@
+{
+  "key": "jug",
+  "name": "Jug",
+  "category": "storage",
+  "costInCredits": 5,
+  "weight": 3.0,
+  "description": "A jug stores 1 gallon of liquid.",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

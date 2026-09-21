@@ -1,0 +1,10 @@
+{
+  "key": "archetype-echani-order-sharpen-the-blade-11",
+  "name": "Sharpen the Blade",
+  "grantedBy": "archetype",
+  "grantedByName": "Echani Order",
+  "level": 11,
+  "description": "_**Echani Order:** 11th level_\nYou gain the ability to augment your weapons further with your focus. As a bonus action, you can expend up to 3 focus points to grant one Echani weapon you touch a bonus to attack and damage rolls when you attack with it. The bonus equals the number of points you spent. This bonus lasts for 1 minute or until you use this feature again. This feature has no effect on an enhanced weapon that already has a bonus to attack and damage rolls.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

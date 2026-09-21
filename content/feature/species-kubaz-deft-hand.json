@@ -1,0 +1,9 @@
+{
+  "key": "species-kubaz-deft-hand",
+  "name": "Deft Hand",
+  "grantedBy": "species",
+  "grantedByName": "Kubaz",
+  "description": "You have proficiency in one of the following skills: Deception, Sleight of Hand, or Stealth.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

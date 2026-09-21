@@ -1,0 +1,22 @@
+{
+  "key": "hand-blaster",
+  "name": "Hand blaster",
+  "category": "weapon",
+  "costInCredits": 500,
+  "weight": 0.5,
+  "properties": [
+    "keen 1",
+    "light",
+    "power cell (range 40/160)",
+    "reload 8"
+  ],
+  "weaponClassification": "martialBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

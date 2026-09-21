@@ -1,0 +1,9 @@
+{
+  "key": "species-vurk-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Vurk",
+  "description": "Vurks typically stand between 6 and 7 feet tall and weigh around 175 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "rocket-ion",
+  "name": "Rocket, ion",
+  "category": "ammunition",
+  "costInCredits": 475,
+  "weight": 2.0,
+  "description": "This rocket launcher ammunition deals 2d6 kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 14 Dexterity saving throw, taking 2d6 ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

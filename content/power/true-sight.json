@@ -1,0 +1,18 @@
+{
+  "key": "true-sight",
+  "name": "True Sight",
+  "powerType": "force",
+  "level": 6,
+  "forceAlignment": "universal",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "1 hour",
+  "concentration": false,
+  "prerequisite": "Force Sight",
+  "description": "You shift your vision to see through use of the Force,\n\ngiving you the ability to see things as they actually are. For the duration, you have truesight and notice secret doors hidden by powers, all out to a range of 120 feet.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "duranium-combat-suit",
+  "name": "Duranium combat suit",
+  "category": "armor",
+  "costInCredits": 1100,
+  "weight": 10.0,
+  "properties": [
+    "cumbersome",
+    "reactive 1"
+  ],
+  "armorClassification": "light",
+  "armorClass": "11 + Dex modifier",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

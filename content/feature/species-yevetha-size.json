@@ -1,0 +1,9 @@
+{
+  "key": "species-yevetha-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Yevetha",
+  "description": "Yevetha typically stand between 6 and 6 and a half feet tall and generally weigh about 160 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

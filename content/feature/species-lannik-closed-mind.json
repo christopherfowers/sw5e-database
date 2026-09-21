@@ -1,0 +1,9 @@
+{
+  "key": "species-lannik-closed-mind",
+  "name": "Closed Mind",
+  "grantedBy": "species",
+  "grantedByName": "Lannik",
+  "description": "Lanniks have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against force powers.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

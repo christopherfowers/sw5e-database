@@ -1,0 +1,11 @@
+{
+  "key": "power-belt",
+  "name": "Power belt",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 400,
+  "weight": 1.0,
+  "description": "This belt has slots to hold six power cells, and can be connected to directly power a single blaster weapon that uses power cells. Once per turn, if the powered weapon would be reloaded, it can be done without using an action using any ammunition in the belt. Connecting or disconnecting a weapon takes an action. Replacing an expended power cell takes an action.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

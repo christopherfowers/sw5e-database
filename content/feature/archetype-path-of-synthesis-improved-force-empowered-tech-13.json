@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-synthesis-improved-force-empowered-tech-13",
+  "name": "Improved Force-Empowered Tech",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Synthesis",
+  "level": 13,
+  "description": "_**Path of Synthesis:** 13th level_\nYou've gained access to two additional Force-Empowered Tech effects: Harmonic Synthesis and Conservation of Energy.\n#### Harmonic Synthesis\nWhen you use your action to cast a force power, you can use your bonus action to gain resistance to damage dealt by tech powers until the start of your next turn. If you use your action to cast a tech power, you can instead gain resistance to damage dealt by force powers.\n#### Conservation of Energy\nWhen you reduce a hostile creature to 0 hit points with a tech power, you can reduce the force point cost of the tech power to 0 (no action required).",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "repelling-motherboard-outstanding",
+  "name": "Repelling Motherboard (Outstanding)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the repelling property, but the DC to interrupt or dispel your powers is equal to 10 + the power's level, or 8 + twice your proficiency bonus + your casting modifier for that power, whichever is greater. Additionally, creatures always have disadvantage on ability checks to dispel or interrupt your powers, and when a creatures make an ability check to dispel or interrupt your powers with disadvantage, they must reroll one of the dice once (your choice)."
+}

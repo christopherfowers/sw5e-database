@@ -1,0 +1,9 @@
+{
+  "key": "species-herglic-technician",
+  "name": "Technician",
+  "grantedBy": "species",
+  "grantedByName": "Herglic",
+  "description": "You are proficient in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

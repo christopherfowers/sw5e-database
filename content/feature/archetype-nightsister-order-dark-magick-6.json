@@ -1,0 +1,10 @@
+{
+  "key": "archetype-nightsister-order-dark-magick-6",
+  "name": "Dark Magick",
+  "grantedBy": "archetype",
+  "grantedByName": "Nightsister Order",
+  "level": 6,
+  "description": "_**Nightsister Order:** 6th level_\nYou can use your action to force each creature within 30 feet of you that can see you to make a Wisdom saving throw against your focus save DC or be charmed or frightened (your choice) of you until the end of your next turn.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

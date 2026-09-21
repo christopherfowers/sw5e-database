@@ -1,0 +1,9 @@
+{
+  "key": "species-miraluka-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Miraluka",
+  "description": "Miraluka believe in balance and thus tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

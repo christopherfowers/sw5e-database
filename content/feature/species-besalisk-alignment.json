@@ -1,0 +1,9 @@
+{
+  "key": "species-besalisk-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Besalisk",
+  "description": "Besalisks tend toward no particular alignment. The best and worst are found among them.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

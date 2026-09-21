@@ -1,0 +1,9 @@
+{
+  "key": "cloaking-device",
+  "name": "Cloaking Device",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 5,
+  "description": "***Modification Grade** 5*\nThis system adds an additional stealth function to your ship, adding a true cloaking device. As an action, your ship and everything within it is invisible for one minute.  The invisibility ends if your ship fires it's weapons, or otherwise takes a hostile action.\nAdditionally, when your ship makes a Dexterity (Hide) check while your cloaking device is active, it has advantage on the roll. If your ship already has advantage on the roll, you can instead reroll one of the dice once.\nThis feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+}

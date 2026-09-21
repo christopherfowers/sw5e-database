@@ -1,0 +1,17 @@
+{
+  "key": "detect-traps",
+  "name": "Detect Traps",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You sense the presence, general location, and nature of any trap within 120 feet of you that is within line of sight. A trap, for this power, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended by its creator.\n\nWhile the power is active, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks to find any traps that are within line of sight.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

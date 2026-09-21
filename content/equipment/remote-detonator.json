@@ -1,0 +1,11 @@
+{
+  "key": "remote-detonator",
+  "name": "Remote detonator",
+  "category": "weaponOrArmorAccessory",
+  "costInCredits": 150,
+  "weight": 1.0,
+  "description": "A small handhold device with a single button, used to activate explosives. Over the course of 1 minute, you can pair the detonator with up to two mines within 10 feet. As an action, you can remotely detonate all of the paired mines. You must be within 30 feet of the mines to detonate them.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

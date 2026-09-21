@@ -1,0 +1,9 @@
+{
+  "key": "species-kaleesh-weapon-training",
+  "name": "Weapon Training",
+  "grantedBy": "species",
+  "grantedByName": "Kaleesh",
+  "description": "Kaleesh are adept hunters. You are proficient with the blaster carbine, vibroblade, vibropike, and, vibrospear.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

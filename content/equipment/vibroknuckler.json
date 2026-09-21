@@ -1,0 +1,20 @@
+{
+  "key": "vibroknuckler",
+  "name": "Vibroknuckler",
+  "category": "weapon",
+  "costInCredits": 75,
+  "weight": 1.25,
+  "properties": [
+    "hidden",
+    "light"
+  ],
+  "weaponClassification": "simpleVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

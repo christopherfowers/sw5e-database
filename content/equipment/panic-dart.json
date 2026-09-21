@@ -1,0 +1,11 @@
+{
+  "key": "panic-dart",
+  "name": "Panic dart",
+  "category": "ammunition",
+  "costInCredits": 100,
+  "weight": 0.0,
+  "description": "This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Wisdom saving throw, taking 1d4 psychic damage on a failed save.\n\nAdditionally, on a failed save, a creature becomes frightened of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

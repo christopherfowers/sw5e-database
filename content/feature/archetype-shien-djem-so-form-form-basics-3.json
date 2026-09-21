@@ -1,0 +1,10 @@
+{
+  "key": "archetype-shien-djem-so-form-form-basics-3",
+  "name": "Form Basics",
+  "grantedBy": "archetype",
+  "grantedByName": "Shien/Djem So Form",
+  "level": 3,
+  "description": "_**Shien/Djem So Form:** 3rd level_\nYou gain your choice of the Shien or Djem So lightsaber form, detailed in Chapter 6. If you already know the chosen form, you can instead choose another lightsaber form.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

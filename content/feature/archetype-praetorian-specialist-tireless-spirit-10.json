@@ -1,0 +1,10 @@
+{
+  "key": "archetype-praetorian-specialist-tireless-spirit-10",
+  "name": "Tireless Spirit",
+  "grantedBy": "archetype",
+  "grantedByName": "Praetorian Specialist",
+  "level": 10,
+  "description": "_**Praetorian Specialist:** 10th level_\nWhen you roll initiative and have no uses of Fighting Spirit remaining, you regain one use.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

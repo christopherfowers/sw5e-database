@@ -1,0 +1,9 @@
+{
+  "key": "species-pa-lowick-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Pa'lowick",
+  "description": "Pa'lowick stand about 5 feet tall, and weigh approximately 100 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-kiffar-iron-will",
+  "name": "Iron Will",
+  "grantedBy": "species",
+  "grantedByName": "Kiffar",
+  "description": "You have advantage on saving throws against being charmed.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-chironian-cultured",
+  "name": "Cultured",
+  "grantedBy": "species",
+  "grantedByName": "Chironian",
+  "description": "You have proficiency in the Lore skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

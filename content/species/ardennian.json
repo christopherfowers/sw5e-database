@@ -1,0 +1,97 @@
+{
+  "key": "ardennian",
+  "name": "Ardennian",
+  "size": "medium",
+  "homeworld": "Ardennia",
+  "nativeLanguage": "Adrennian",
+  "lore": "### Biology and Appearance\nArdennians are sentient humanoid simians hailing from the tropical paradise of Ardennia. They are covered in fur from head to their wrists and ankles, with brown and grey being the most common fur colors. Ardennians sport four arms and prehensile feet. All six of their limbs are equally dexterous.\n\n### Society and Culture\nThe Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennan's live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.\n\nArdennia's distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who don't mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy.\n\n### Names\nArdennian's names are typically concise and rarely more than two syllables, with a familal surname.\n\n**Male Names.** Rio, Jakar, Hul, Lup, Quil, Jerno\n\n**Female Names.** Rac, Bras, Nuc, Kua, Karta, Sanya\n\n**Surnames.** Betal, Durant, Jabut, Karon, Rambuan",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Dexterity score increases by 2, and your Charisma score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Ardennians reach adulthood in their late teens and live less than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Ardennians' peaceful nature causes them to tend toward the light side, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Ardennians typically stand 4 to 4 and a half feet tall and weigh around 60 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+    },
+    {
+      "name": "Four-Armed",
+      "description": "Ardennians have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required)."
+    },
+    {
+      "name": "Jungle Dweller",
+      "description": "Growing up in the tree-villages of Ardennia has left an impact. You don't treat jungle terrain as difficult terrain."
+    },
+    {
+      "name": "Mask of the Wild",
+      "description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+    },
+    {
+      "name": "Prehensile Feet",
+      "description": "You have supreme control over your feet and can use them to manipulate objects as well as your hands."
+    },
+    {
+      "name": "Strong-Legged",
+      "description": "When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+    },
+    {
+      "name": "Treeclimber",
+      "description": "You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Ardennian. Ardennian has a bubbly, energizing tone to it."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "dexterity"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "charisma"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "3'2\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "50 lb.",
+    "weightModifier": "x1 lb."
+  },
+  "appearance": {
+    "distinctions": "Four arms, fur-covered, prehensile feet",
+    "skinColorOptions": "Brown or black",
+    "hairColorOptions": "Brown to gray",
+    "eyeColorOptions": "Brown or black"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_ardennian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

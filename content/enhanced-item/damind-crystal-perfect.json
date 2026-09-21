@@ -1,0 +1,11 @@
+{
+  "key": "damind-crystal-perfect",
+  "name": "Damind Crystal (Perfect)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "When you deal damage with this weapon, you can roll a d10 and add the result to the total."
+}

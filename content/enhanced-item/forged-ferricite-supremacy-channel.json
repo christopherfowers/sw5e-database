@@ -1,0 +1,11 @@
+{
+  "key": "forged-ferricite-supremacy-channel",
+  "name": "Forged Ferricite Supremacy Channel",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "focus generator",
+  "description": "When you cast a force power of 1st-level or higher that deals damage, you can increase the damage by twice the number of force points spent."
+}

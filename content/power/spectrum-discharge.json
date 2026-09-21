@@ -1,0 +1,17 @@
+{
+  "key": "spectrum-discharge",
+  "name": "Spectrum Discharge",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "bonusAction",
+    "text": "1 bonus action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 minute",
+  "concentration": true,
+  "description": "You touch a willing creature, granting it an elemental charge. Choose acid, cold, fire, lightning, poison or sonic. For the duration, a creature can use an action to expel energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.\n\n***Overcharge Tech.*** When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+  "sourceKey": "ec",
+  "contentSet": "core"
+}

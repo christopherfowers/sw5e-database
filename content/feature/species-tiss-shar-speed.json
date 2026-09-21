@@ -1,0 +1,9 @@
+{
+  "key": "species-tiss-shar-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Tiss'shar",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

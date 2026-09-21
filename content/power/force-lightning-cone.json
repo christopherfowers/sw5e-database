@@ -1,0 +1,18 @@
+{
+  "key": "force-lightning-cone",
+  "name": "Force Lightning Cone",
+  "powerType": "force",
+  "level": 7,
+  "forceAlignment": "dark",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Self (60-foot cone)",
+  "duration": "Instantaneous",
+  "concentration": false,
+  "prerequisite": "Force Chain Lightning",
+  "description": "Lightning arcs from your hands. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes 12d6 lightning damage on a failed save, or half as much on a successful one.\n\n***Force Potency.*** When you cast this power using a force slot of 8th level or higher, the damage increases by 2d6 for each slot level above 7th.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

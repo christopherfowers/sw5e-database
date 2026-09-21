@@ -1,0 +1,12 @@
+{
+  "key": "indomitable-fortress-package",
+  "name": "Indomitable Fortress Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Constitution 15",
+  "description": "Your Constitution score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Constitution saving throws.\n\n**Side Effect:** One ability score other than Constitution (chosen by the GM) decreases by 1.\n\n_This implant drastically increases your endurance._"
+}

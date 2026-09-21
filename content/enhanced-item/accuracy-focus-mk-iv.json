@@ -1,0 +1,11 @@
+{
+  "key": "accuracy-focus-mk-iv",
+  "name": "Accuracy Focus Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "You gain a +3 bonus to attack rolls made with this weapon."
+}

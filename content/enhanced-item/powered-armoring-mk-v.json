@@ -1,0 +1,12 @@
+{
+  "key": "powered-armoring-mk-v",
+  "name": "Powered Armoring Mk V",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the powered 19 property. If it already has the powered property, its powered number increases by five steps (from 11 to 21)."
+}

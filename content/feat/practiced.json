@@ -1,0 +1,10 @@
+{
+  "key": "practiced",
+  "name": "Practiced",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You have acquired skills over your career, gaining the following benefits:\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- You gain proficiency in any combination of two skills or tools of your choice.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

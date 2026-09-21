@@ -1,0 +1,127 @@
+{
+  "key": "t-series-tactical-droid",
+  "name": "T-Series Tactical Droid",
+  "size": "medium",
+  "types": [
+    "droid"
+  ],
+  "alignment": "lawful dark",
+  "armor": {
+    "class": 13,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 50,
+    "roll": "9d8+10"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 10,
+      "modifier": 0
+    },
+    "dexterity": {
+      "score": 15,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 12,
+      "modifier": 1
+    },
+    "intelligence": {
+      "score": 19,
+      "modifier": 4
+    },
+    "wisdom": {
+      "score": 16,
+      "modifier": 3
+    },
+    "charisma": {
+      "score": 11,
+      "modifier": 0
+    }
+  },
+  "savingThrows": [
+    "Int +6",
+    "Wis +5"
+  ],
+  "skills": [
+    "Deception +2",
+    "Insight +5",
+    "Investigation +6",
+    "Lore +6",
+    "Technology +6"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 13"
+  ],
+  "languages": [
+    "Galactic basic",
+    "binary",
+    "two others"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "other": [
+      "poison",
+      "disease"
+    ]
+  },
+  "challengeRating": "2",
+  "experiencePoints": 450,
+  "behaviors": [
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Innate Tech-casting",
+      "behaviorType": "trait",
+      "description": "The T-series Tactical droid can innately cast the following tech powers (tech save DC 14): assess the situation, encrypted message, on/off, alarm, element of surprise (3/day), repair droid, stack the deck",
+      "descriptionWithLinks": "Innate Tech-casting. The T-series Tactical droid can innately cast the following tech powers (tech save DC 14): [assess the situation](#assess%20the%20situation), [encrypted message](#encrypted%20message), [on/off](#on/off), [alarm](#alarm), [element of surprise (3/day)](#element%20of%20surprise%20(3/day)), [repair droid](#repair%20droid), [stack the deck](#stack%20the%20deck)",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Predictive AI",
+      "behaviorType": "trait",
+      "description": "The tactical droid can enter a state of higher programming as an action. While concentrating, the droid can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target. This lasts for 1 hour.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Pistol",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, Ammunition (range40/160), one target. Hit 5 (1d6 + 2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "Ammunition (range40/160)",
+      "targets": "one target",
+      "averageDamage": 5,
+      "damageRoll": "1d6 + 2",
+      "damageType": "energy"
+    }
+  ],
+  "flavorText": "Super tactical droids are advanced tactical droids that had command capabilities during the Clone Wars, acting as generals of the Separatist Droid Army. They would often resort to threats and torture as interrogation routes. These droids were created to analyze a battle, calculate a possible battle-winning solution, and a time frame to carry out their plan. Being programmed with Separatist beliefs, they ruled through fear and through the lack of courage and hope in their victims and specifically \"freedom from the tyranny of the republic.\" Although Super Tactical Droids were not directly involved in combat, they were able to effectively use self-defense and an E-5 blaster rifle. Being programmed for success, they are willing to kill for the advancement of the Confederacy of Independent Systems. Building off their predecessors, the T-series tactical droid, they had a much more robotic inflection to their voices, as well a larger, more imposing and more damage-resistant body. These droids were also able to better process and adapt to sudden changes and unexpected complications and have more variables in their calculations. Although better than those before them, flaws in their programming were still prevalent. These included the difficulty to see approaches and plans that differ from their own, and the overconfidence in the Confederacy of Independent Systems and its army.",
+  "sectionText": "Tactical droids are a type of battle droid designed to plan battle strategies. Baktoid Combat Automata manufactured several models of tactical droid, including the T-series tactical droid and a more advanced super tactical droid. Later, L-1 tactical droids would be used during the Galactic Civil War.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

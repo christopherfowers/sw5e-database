@@ -1,0 +1,10 @@
+{
+  "key": "archetype-sawbones-practice-swift-surgery-9",
+  "name": "Swift Surgery",
+  "grantedBy": "archetype",
+  "grantedByName": "Sawbones Practice",
+  "level": 9,
+  "description": "_**Sawbones Practice:** 9th level_\nYou know how to quickly patch up wounds, given the right tools. You are able to use a traumakit or administer a medpac as a bonus action, and when you use a traumakit to stabilize a dying creature, that creature also regains a number of hit points equal to your Intelligence modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

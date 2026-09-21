@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-treeclimber",
+  "name": "Treeclimber",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "You have a climbing speed equal to your walking speed. You have advantage on Strength ability checks and saving throws that involve climbing.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

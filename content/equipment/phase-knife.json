@@ -1,0 +1,25 @@
+{
+  "key": "phase-knife",
+  "name": "Phase knife",
+  "category": "weapon",
+  "costInCredits": 1025,
+  "weight": 1.75,
+  "properties": [
+    "dexterity 11",
+    "disguised",
+    "hidden",
+    "keen 1",
+    "light",
+    "luminous",
+    "vicious 1"
+  ],
+  "weaponClassification": "martialLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "energy"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

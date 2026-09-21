@@ -1,0 +1,9 @@
+{
+  "key": "stealth-field",
+  "name": "Stealth Field",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 3,
+  "description": "***Modification Grade** 3*\n***Prerequisite:** Stealth Device*\nThis system improves the stealth mode function on your ship. While is active, your ship extends all effects of it's Stealth Device to nearby starships for one hour.\nAdditionally, for the duration, each starship you choose within 300 feet of you has a +10 bonus to Dexterity (Hide) checks and can’t be tracked except by enhanced means while within this radius."
+}

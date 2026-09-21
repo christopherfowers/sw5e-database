@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "You can speak, read, and write all registered languages.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

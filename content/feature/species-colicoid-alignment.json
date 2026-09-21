@@ -1,0 +1,9 @@
+{
+  "key": "species-colicoid-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Colicoid",
+  "description": "Colicoid's emotionless nature causes them to tend towards balanced alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

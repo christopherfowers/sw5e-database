@@ -1,0 +1,11 @@
+{
+  "key": "light-oscillator",
+  "name": "Light Oscillator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains the light property."
+}

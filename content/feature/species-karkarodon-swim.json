@@ -1,0 +1,9 @@
+{
+  "key": "species-karkarodon-swim",
+  "name": "Swim",
+  "grantedBy": "species",
+  "grantedByName": "Karkarodon",
+  "description": "You have a swimming speed of 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

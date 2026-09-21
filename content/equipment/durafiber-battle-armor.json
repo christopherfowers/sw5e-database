@@ -1,0 +1,16 @@
+{
+  "key": "durafiber-battle-armor",
+  "name": "Durafiber battle armor",
+  "category": "armor",
+  "costInCredits": 6750,
+  "weight": 55.0,
+  "properties": [
+    "bulky",
+    "strength 11"
+  ],
+  "armorClassification": "heavy",
+  "armorClass": "15",
+  "stealthDisadvantage": true,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

@@ -1,0 +1,12 @@
+{
+  "key": "dexterity-enhancement-basic",
+  "name": "Dexterity Enhancement (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Dexterity 11",
+  "description": "Your Dexterity score increases by 1, to a maximum of 20.\n\n**Side Effect:** One ability score other than Dexterity (chosen by the GM) decreases by 1."
+}

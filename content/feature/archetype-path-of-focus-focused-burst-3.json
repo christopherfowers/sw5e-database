@@ -1,0 +1,10 @@
+{
+  "key": "archetype-path-of-focus-focused-burst-3",
+  "name": "Focused Burst",
+  "grantedBy": "archetype",
+  "grantedByName": "Path of Focus",
+  "level": 3,
+  "description": "_**Path of Focus:** 3rd level_\nYou learn the *burst* force power, which does not count against your total powers known. Additionally, you can use The Double Strike Force-Empowered Self options when you cast it as your action. If more than one creature would be affected, only one creature takes the additional damage. Finally, you add your Wisdom or Charisma modifier (your choice, minimum of +1) to damage rolls with it, and creatures that succeed on their saving throw take half damage, instead of none.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

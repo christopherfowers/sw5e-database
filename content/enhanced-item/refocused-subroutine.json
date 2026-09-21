@@ -1,0 +1,11 @@
+{
+  "key": "refocused-subroutine",
+  "name": "Refocused Subroutine",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "When you are forced to make a Constitution saving throw to maintain concentration on a power you can use your reaction and spend 2 tech points to automatically succeed on the saving throw.\n\nYou can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.\n\nYou can use Refocused Subroutine even if you have already used a different Subroutine modification during the casting of the power."
+}

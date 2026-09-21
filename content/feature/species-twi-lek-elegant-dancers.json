@@ -1,0 +1,9 @@
+{
+  "key": "species-twi-lek-elegant-dancers",
+  "name": "Elegant Dancers",
+  "grantedBy": "species",
+  "grantedByName": "Twi'lek",
+  "description": "You have proficiency in the Performance skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

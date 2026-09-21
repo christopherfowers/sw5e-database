@@ -1,0 +1,9 @@
+{
+  "key": "species-kaleesh-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Kaleesh",
+  "description": "Kaleesh reach adulthood in their early teens and live to be about 80.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

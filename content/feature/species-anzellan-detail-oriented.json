@@ -1,0 +1,9 @@
+{
+  "key": "species-anzellan-detail-oriented",
+  "name": "Detail Oriented",
+  "grantedBy": "species",
+  "grantedByName": "Anzellan",
+  "description": "You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks that rely on sight within 5 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "poison",
+  "name": "Poison",
+  "category": "medical",
+  "costInCredits": 125,
+  "weight": 0.5,
+  "description": "As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking 2d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

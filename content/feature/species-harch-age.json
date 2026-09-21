@@ -1,0 +1,9 @@
+{
+  "key": "species-harch-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Harch",
+  "description": "Harch reach adulthood at age 10 and can live up to 200 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

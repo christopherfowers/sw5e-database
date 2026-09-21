@@ -1,0 +1,9 @@
+{
+  "key": "species-givin-mathematical-savants",
+  "name": "Mathematical Savants",
+  "grantedBy": "species",
+  "grantedByName": "Givin",
+  "description": "Whenever you make an Intelligence (Technology) check involving mathematics, you are considered to have expertise in the Technology skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

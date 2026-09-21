@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iv-ability-score-increase",
+  "name": "Ability Score Increase",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class IV",
+  "description": "Your Constitution score increases by 2, and your Strength or Dexterity score increases by 1.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

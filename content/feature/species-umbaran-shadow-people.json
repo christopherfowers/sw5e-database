@@ -1,0 +1,9 @@
+{
+  "key": "species-umbaran-shadow-people",
+  "name": "Shadow People",
+  "grantedBy": "species",
+  "grantedByName": "Umbaran",
+  "description": "You can attempt to hide even when you are only lightly obscured by dim light.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,7 @@
+{
+  "key": "starship-size-fuel-cost",
+  "name": "Starship Size Fuel Cost",
+  "contentSet": "core",
+  "body": "|Starship Size|Fuel Cost|\n|:--|--:|\n|Tiny|25 cr/unit|\n|Small|50 cr/unit|\n|Medium|100 cr/unit|\n|Large|1,000 cr/unit|\n|Huge|10,000 cr/unit|\n|Gargantuan|100,000 cr/unit|",
+  "subject": "Starships"
+}

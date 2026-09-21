@@ -1,0 +1,10 @@
+{
+  "key": "holocron-master",
+  "name": "Holocron (Master)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "description": "This holocron contains a single 7th-level force power, or multiple powers of 1st-6th level with a combined level no greater than 7. After meditating with the holocron for at least 40 hours, a forcecaster with a Max Power Level of 7th or higher can make a DC 26 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a *remove curse* power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.\n\n_Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form._"
+}

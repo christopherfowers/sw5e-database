@@ -1,0 +1,9 @@
+{
+  "key": "species-tognath-life-in-the-void",
+  "name": "Life in the Void",
+  "grantedBy": "species",
+  "grantedByName": "Tognath",
+  "description": "You have resistance to necrotic damage, and while exposed to the vacuum of space, you can survive for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number of rounds.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-toydarian-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Toydarian",
+  "description": "Toydarians reach adulthood at 10 and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

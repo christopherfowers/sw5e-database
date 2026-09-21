@@ -1,0 +1,17 @@
+{
+  "key": "bo-rifle",
+  "name": "Bo-rifle",
+  "category": "weapon",
+  "costInCredits": 1075,
+  "weight": 0.0,
+  "properties": [
+    "modal (blaster rifle and techstaff)"
+  ],
+  "weaponClassification": "exoticBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "additionalWeaponClassifications": [
+    "exoticVibroweapon"
+  ]
+}

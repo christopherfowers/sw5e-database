@@ -1,0 +1,9 @@
+{
+  "key": "species-gran-keen-sight",
+  "name": "Keen Sight",
+  "grantedBy": "species",
+  "grantedByName": "Gran",
+  "description": "Through use of infrared vision, you have advantage on Wisdom (Perception) checks that rely on sight.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

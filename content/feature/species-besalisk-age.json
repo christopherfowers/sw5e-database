@@ -1,0 +1,9 @@
+{
+  "key": "species-besalisk-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Besalisk",
+  "description": "Besalisks reach adulthood in their early teens and generally live to be about 70.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

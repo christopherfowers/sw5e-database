@@ -1,0 +1,23 @@
+{
+  "key": "tranquilizer-rifle",
+  "name": "Tranquilizer rifle",
+  "category": "weapon",
+  "costInCredits": 275,
+  "weight": 2.5,
+  "description": "The tranquilizer rifle includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 4 shots fired by the weapon. Additionally, creatures reduced to 0 hit points by this weapon are immediately stabilized, unless that damage would instantly kill them.",
+  "properties": [
+    "slug cartridge (range 60/240)",
+    "reload 4",
+    "silent",
+    "special"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-zygerrian-acrobatic",
+  "name": "Acrobatic",
+  "grantedBy": "species",
+  "grantedByName": "Zygerrian",
+  "description": "You have proficiency in Acrobatics.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

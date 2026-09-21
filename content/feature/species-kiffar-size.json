@@ -1,0 +1,9 @@
+{
+  "key": "species-kiffar-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Kiffar",
+  "description": "Kiffar vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

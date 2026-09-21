@@ -1,0 +1,11 @@
+{
+  "key": "flechette-clip-plasma",
+  "name": "Flechette clip, plasma",
+  "category": "ammunition",
+  "costInCredits": 275,
+  "weight": 2.0,
+  "description": "When triggered, this wrist launcher ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette clip holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 1d10 energy damage on a failed save, or half as much as on a successful one. If you lack proficiency in the wrist launcher, you have disadvantage on damage rolls with it",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

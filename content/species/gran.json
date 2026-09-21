@@ -1,0 +1,85 @@
+{
+  "key": "gran",
+  "name": "Gran",
+  "size": "medium",
+  "homeworld": "Kinyen",
+  "nativeLanguage": "Gran",
+  "lore": "### Biology and Appearance\nGran can easily be identified by their three eyes and their goat-like snout. Female Gran also have three breasts. They have excellent vision, able to resolve more colors than most species, and even able to see into the infrared, thus they are able to sense one another's emotions and disposition by noting subtle changes in body heat and skin color. Gran have two stomachs, having evolved from herbivorous grazing animals who lived in herds on the mountains and highlands of Kinyen. A single meal can take almost an entire day to finish, after that a Gran does not often need to eat for several days.\n\n### Society and Culture\nThe peaceful nature of Gran society is a reflection of their homeworld, Kinyen. Kinyen boasted large and rolling grasslands and highlands, a dense and beautiful forest, and one of the longest and clearest rivers in the Bes Ber Bikade sector. The beauty of this planet, and the need for primitive Gran to band together for defense against predatory animals, helped the Gran develop strong bonds of home and family in their society.\n\nThe Grans are also very protective of their families, and were some of the most devoted parents in the galaxy. This is because of their very powerful and sensitive sight, which can sense the emotions of their mates and their children. Gran society maintains its balance by setting up strict career quotas, and making sure young Gran are educated for a specific job that best served his or her talents.\n\n### Names\nGran names typically are monosyllabic and accompanied by a surname, which is familial.\n\n**Male Names.** Ask, Dree, Ree, Pax, Nic\n\n**Female Names.** Yan, Alijia, Meeb, Sir, Zeek\n\n**Surnames.** Moe, Leem, Yees, Wix, Naaq",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Constitution score increases by 2, and your Wisdom score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Gran reach adulthood around their late teens and live up to 80 years."
+    },
+    {
+      "name": "Alignment",
+      "description": "Gran highly organized society cause them to tend toward lawful alignments, though there are exceptions.."
+    },
+    {
+      "name": "Size",
+      "description": "Gran typically stand between 5 and 6 feet tall and weigh around 170 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Slow Metabolism",
+      "description": "You are able to go a number of days without food equal to 3 + twice your Constitution modifier before suffering exhaustion."
+    },
+    {
+      "name": "Keen Sight",
+      "description": "Through use of infrared vision, you have advantage on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Reader of Hearts",
+      "description": "Through identifying subtle variations in a target's body heat, the Gran are able to better understand their emotions and intentions. You are proficient in the Insight skill."
+    },
+    {
+      "name": "Toughness",
+      "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Gran. It is rare to hear Gran spoken on any world other than Kinyen."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "constitution"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "wisdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'10\"",
+    "heightModifier": "+2d10\"",
+    "weightAverage": "115 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Three eyes and goat-like snout",
+    "skinColorOptions": "Blue or tan",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Black, purple"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_gran.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

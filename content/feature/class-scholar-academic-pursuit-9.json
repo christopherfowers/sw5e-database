@@ -1,0 +1,10 @@
+{
+  "key": "class-scholar-academic-pursuit-9",
+  "name": "Academic Pursuit",
+  "grantedBy": "class",
+  "grantedByName": "Scholar",
+  "level": 9,
+  "description": "_**Scholar:** 3rd, 6th, 9th, and 17th level_\nYou dedicate your studies towards a pursuit, which is detailed at the end of the class description.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

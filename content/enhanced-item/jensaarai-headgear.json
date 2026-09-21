@@ -1,0 +1,11 @@
+{
+  "key": "jensaarai-headgear",
+  "name": "Jensaarai Headgear",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "advanced",
+  "requiresAttunement": true,
+  "subtype": "head",
+  "description": "_**Requires attunement**_\nWhile you are wearing this headgear, kinetic and energy damage that you take from unenhanced weapons is reduced by an amount equal to your proficiency bonus.\n\n***Jensaarai Regalia.*** While wearing and attuned to this armor and Jensaarai Armor, this headgear no longer count towards your maximum attunement. While wearing and attuned to this headgear, Jensaarai Armor, and Jensaarai Cloak, fire, cold, and force damage you take is reduced by an amount equal to your proficiency bonus.\n\n_Most Jensaarai craft a mask or helmet bearing the visage of an animal that best personifies their desires or goals._"
+}

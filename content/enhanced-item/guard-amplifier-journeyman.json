@@ -1,0 +1,11 @@
+{
+  "key": "guard-amplifier-journeyman",
+  "name": "Guard Amplifier (Journeyman)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +2 bonus to melee force attacks."
+}

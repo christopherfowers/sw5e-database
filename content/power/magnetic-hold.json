@@ -1,0 +1,17 @@
+{
+  "key": "magnetic-hold",
+  "name": "Magnetic Hold",
+  "powerType": "tech",
+  "level": 2,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "action",
+    "text": "1 action"
+  },
+  "range": "Touch",
+  "duration": "up to 1 hour",
+  "concentration": true,
+  "description": "Until the power ends, one willing creature you touch gains the ability affix itself to and move along any metallic surface. It can move up, down, and across vertical surfaces and upside down along ceilings, all while leaving its hands free, at its normal walking speed.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

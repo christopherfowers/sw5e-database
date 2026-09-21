@@ -1,0 +1,15 @@
+{
+  "key": "force-empowered-blasting",
+  "name": "Force-Empowered Blasting",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in guardian",
+      "className": "guardian",
+      "level": 2
+    }
+  ],
+  "description": "Once per turn, when you deal damage with a ship weapon, you can spend 1 force point to deal an additional 1d8 damage to the target. The damage is the same type as the weapon's damage."
+}

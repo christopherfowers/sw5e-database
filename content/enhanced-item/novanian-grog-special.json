@@ -1,0 +1,11 @@
+{
+  "key": "novanian-grog-special",
+  "name": "Novanian Grog (Special)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "consumable",
+  "rarity": "artifact",
+  "requiresAttunement": false,
+  "subtype": "substance",
+  "description": "This grog features a pungent odor and a strong kick. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that increases their current and maximum tech points by 2d12. At the end of the high, the creature must succeed on a DC 24 Constitution saving throw or experience a low that lasts 8 hours, their current and maximum tech points are reduced by 2d12. At the end of the low, the creature must make a DC 24 Wisdom saving throw to resist addiction."
+}

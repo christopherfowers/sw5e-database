@@ -1,0 +1,9 @@
+{
+  "key": "species-voss-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Voss",
+  "description": "Voss reach adulthood in their late teens and live less than a century. They do not reach sexual maturity until they undergo the Rite of Ardor.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

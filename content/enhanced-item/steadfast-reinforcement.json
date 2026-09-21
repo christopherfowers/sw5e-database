@@ -1,0 +1,11 @@
+{
+  "key": "steadfast-reinforcement",
+  "name": "Steadfast Reinforcement",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "This armor or shield gains the steadfast property."
+}

@@ -1,0 +1,12 @@
+{
+  "key": "impermeable-overlay-mk-iii",
+  "name": "Impermeable Overlay Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Armor",
+  "description": "This armor gains the impermeable 5 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases by 5, to a maximum of 9."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-arkanian-crafters",
+  "name": "Crafters",
+  "grantedBy": "species",
+  "grantedByName": "Arkanian",
+  "description": "You have proficiency in one tool of your choice.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

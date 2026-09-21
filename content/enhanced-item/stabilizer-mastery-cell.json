@@ -1,0 +1,11 @@
+{
+  "key": "stabilizer-mastery-cell",
+  "name": "Stabilizer Mastery Cell",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "lightweapon",
+  "description": "This weapon's dexterity number is reduced by four steps (from 21 to 13 or 19 to 11). If the dexterity number is 17 or lower, this modification removes the dexterity property from it entirely."
+}

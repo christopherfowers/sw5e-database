@@ -1,0 +1,11 @@
+{
+  "key": "surging-processor-mk-iv",
+  "name": "Surging Processor Mk IV",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the surging 4 property. If it already has the surging property, its surging number increases by 4, to a maximum of 6."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "oscillating-rangefinder-mk-iii",
+  "name": "Oscillating Rangefinder Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "While using this item as your focus, you gain a +2 bonus to ranged tech attacks."
+}

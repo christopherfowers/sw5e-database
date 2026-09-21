@@ -1,0 +1,9 @@
+{
+  "key": "species-advozse-hide",
+  "name": "Hide",
+  "grantedBy": "species",
+  "grantedByName": "Advozse",
+  "description": "You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

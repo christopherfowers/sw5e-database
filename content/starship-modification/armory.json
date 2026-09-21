@@ -1,0 +1,9 @@
+{
+  "key": "armory",
+  "name": "Armory",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "suite",
+  "grade": 0,
+  "description": "This suite comes with storage for weapons and armor to outfit a number of crewmembers equal to twice the ship’s suite capacity by size, as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table. When installed it comes fully stocked with blaster pistols, blaster rifles, techblades, and vibroblades, as well as combat suits, mesh armor, battle armor, and light and medium shields.\nThe armory is also equipped with both a key and a code lock. The armory can be accessed with a DC 20 Intelligence (Security Kit) check. When the armory is accessed, an alarm sounds in the Bridge and Security Suite (if it exists). If a player rolls a 25 or higher on the Intelligence (Security Kit) check to unlock the armory, or has the key or code, the alarm can be bypassed.\nAdditionally, it comes with a number of weapon training simulators equal to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the **[Starship Size Suite Capacity](#Starship%20Size%20Suite%20Capacity)** table.\nLastly, when a creature completes a long rest involving this suite, they gain advantage on the first attack roll they make before the start of their next long rest."
+}

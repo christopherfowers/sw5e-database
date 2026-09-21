@@ -1,0 +1,16 @@
+{
+  "key": "frame-mk-v",
+  "name": "Frame, Mk V",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 5,
+  "prerequisites": [
+    {
+      "kind": "modification",
+      "text": "Frame, Mk IV",
+      "modificationName": "Frame, Mk IV"
+    }
+  ],
+  "description": "Your ship's Frame has reached it's maximum potential. Your ship's Constitution score increases by 2. Your ship's maximum for this score increases by 2."
+}

@@ -1,0 +1,11 @@
+{
+  "key": "avoidant-weave-basic",
+  "name": "Avoidant Weave (Basic)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "This clothing gains the avoidant 1 armor property. If it already has the avoidant armor property, its avoidant number increases by 1, to a maximum of 3."
+}

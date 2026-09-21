@@ -1,0 +1,14 @@
+{
+  "key": "dual-wield-mastery",
+  "name": "Dual Wield Mastery",
+  "description": "You've mastered fighting with two weapons, becoming a flurry of motion. You gain the following benefits:",
+  "benefits": [
+    "You can engage in Two-Weapon Fighting even when the weapons you are wielding lack the light property.",
+    "You can reload two weapons when you would normally only be able to reload one, and reloading no longer requires a free hand, provided you are wielding separate weapons in each hand.",
+    "Once per round, when you make an opportunity attack while wielding separate weapons in each hand, you can attack with both weapons. Make a separate attack roll with each weapon.",
+    "When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo one or more attacks. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn.",
+    "When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo your proficiency bonus. If you do so, you can make an additional attack with that weapon, also without your proficiency bonus. If you would normally make more than one attack with your bonus action, only one attack is made without your proficiency bonus."
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

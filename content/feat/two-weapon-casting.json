@@ -1,0 +1,13 @@
+{
+  "key": "two-weapon-casting",
+  "name": "Two-Weapon Casting",
+  "prerequisite": "4th level, the ability to cast force or tech powers",
+  "abilityScoreIncreases": [
+    "intelligence",
+    "wisdom",
+    "charisma"
+  ],
+  "description": "You've learned to better combine your dual wielding with your powers. You gain the following benefits:\n- Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n- When you use your action to Cast a Power that calls for a weapon attack and attack with a light weapon that you're holding in one hand, you can use your bonus action to engage in Two-Weapon Fighting. All the rules of Two-Weapon Fighting still apply to you.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

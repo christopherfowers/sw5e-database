@@ -1,0 +1,9 @@
+{
+  "key": "species-pyke-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Pyke",
+  "description": "You can speak, read, and write Galactic Basic and Pyke. The Pyke language is characterized by its multisyllable grunts.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

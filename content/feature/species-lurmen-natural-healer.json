@@ -1,0 +1,9 @@
+{
+  "key": "species-lurmen-natural-healer",
+  "name": "Natural Healer",
+  "grantedBy": "species",
+  "grantedByName": "Lurmen",
+  "description": "You have proficiency in the Medicine and Nature skills, and the bioanalysis kit.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

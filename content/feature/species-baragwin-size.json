@@ -1,0 +1,9 @@
+{
+  "key": "species-baragwin-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Baragwin",
+  "description": "Baragwin typically stand 5 to 7 feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

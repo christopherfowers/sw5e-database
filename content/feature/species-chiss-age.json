@@ -1,0 +1,9 @@
+{
+  "key": "species-chiss-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Chiss",
+  "description": "Chiss reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

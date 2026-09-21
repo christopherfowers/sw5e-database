@@ -1,0 +1,11 @@
+{
+  "key": "repelling-motherboard-adequate",
+  "name": "Repelling Motherboard (Adequate)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "wristpad",
+  "description": "This item gains the repelling property, but the DC to interrupt or dispel your powers is equal to 10 + the power's level, or 8 + your proficiency bonus + your casting modifier for that power, whichever is greater."
+}

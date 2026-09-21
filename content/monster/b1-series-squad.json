@@ -1,0 +1,153 @@
+{
+  "key": "b1-series-squad",
+  "name": "B1 Series, Squad",
+  "size": "huge",
+  "types": [
+    "swarm of medium droids"
+  ],
+  "alignment": "unaligned",
+  "armor": {
+    "class": 14,
+    "type": "armor plating"
+  },
+  "hitPoints": {
+    "average": 110,
+    "roll": "20d12-20"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 15,
+      "modifier": 2
+    },
+    "dexterity": {
+      "score": 14,
+      "modifier": 2
+    },
+    "constitution": {
+      "score": 9,
+      "modifier": -1
+    },
+    "intelligence": {
+      "score": 13,
+      "modifier": 1
+    },
+    "wisdom": {
+      "score": 10,
+      "modifier": 0
+    },
+    "charisma": {
+      "score": 7,
+      "modifier": -2
+    }
+  },
+  "savingThrows": [
+    "Dex +5",
+    "Int +4"
+  ],
+  "skills": [
+    "Perception +3"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 12"
+  ],
+  "languages": [
+    "Binary",
+    "Galactic Basic"
+  ],
+  "damageVulnerabilities": {
+    "types": [
+      "ion"
+    ]
+  },
+  "damageResistances": {
+    "types": [
+      "necrotic",
+      "poison",
+      "psychic"
+    ]
+  },
+  "conditionImmunities": {
+    "conditions": [
+      "charmed",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "other": [
+      "disease",
+      "poison"
+    ]
+  },
+  "challengeRating": "4",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Battle Droid Swarm",
+      "behaviorType": "trait",
+      "description": "When an ally of the battle droid hits a hostile creature that it can see with a weapon attack, the battle droid can use its reaction to make one weapon attack, with disadvantage, against that creature.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Circuitry",
+      "behaviorType": "trait",
+      "description": "The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Reactive",
+      "behaviorType": "trait",
+      "description": "The squad can take one reaction each turn.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Squad",
+      "behaviorType": "trait",
+      "description": "The squad can occupy another creature's space and vice versa, and can move through openings large enough for a Medium droid. The squad is immune to any power or effect that would alter its form.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The squad makes four blaster rifle attacks, or two blaster rifle attacks if it has half its hit points or fewer.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Blaster Rifle",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8+2) energy damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 4,
+      "range": "range 100/400 ft.",
+      "targets": "one target",
+      "averageDamage": 6,
+      "damageRoll": "1d8+2",
+      "damageType": "energy"
+    },
+    {
+      "name": "Massed Fire",
+      "behaviorType": "action",
+      "description": "The squad fires en masse at a point within 150 feetEach creature of the squad's choice in a 10-foot-radius sphere centered on that point must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 36 (8d8) energy damage, or 18 (4d8) energy damage if the squad has half its hit points or fewer. On a successful save, it takes half as much damage.",
+      "attackType": "none",
+      "attackBonus": 150,
+      "range": "a creature takes 36 (8d8) energy damage",
+      "targets": "or 18 (4d8) energy damage if the squad has half its hit points or fewer. On a successful save"
+    }
+  ],
+  "flavorText": "B1 battle droids, also referred to as standard battle droids, are the most widely-used battle droids manufactured by Baktoid Combat Automata and Baktoid Armor Workshop and were the successor to the OOM-series battle droids. The B1 battle droid sees extensive service as the mainlines soldiers due to their cheap, mass produced nature. The B1-X model serves as an officer unit.\n\n***History.*** Early versions of the model required the use of a Central Control Computer, but despite these weaknesses they saw extensive service as the mainlines soldier of the Trade Federation's mechanized droid army. Despite their limitations and despite battle droids being outlawed under the Empire, B1 battle droids continued to see use through Separatist holdouts and the black market during the Imperial Era.",
+  "sectionText": "Battle droids, also known as combat droids or battle bots, are a type of droid designed for combat. One thing most battle droids have in common is limited intelligence. They are programmed to follow orders, and not much else, though they do have personalities. Some battle droids, however, have some form of intelligence. These droids are much more expensive to make, due to their advanced brains.\n\n***Clone Wars.*** Over the years, many different models of battle droid have been utilized by various factions throughout the galaxy. The Confederacy of Independent Systems, for example, used a number of different models of battle droid during the Clone Wars to make up the Separatist Droid Army. Under the command of General Grievous, varying models of battle droid fought against the Galactic Republic's clone troopers until the final days of the war, when the Confederate battle droids were deactivated by the Galactic Empire.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

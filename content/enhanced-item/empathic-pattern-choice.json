@@ -1,0 +1,11 @@
+{
+  "key": "empathic-pattern-choice",
+  "name": "Empathic Pattern (Choice)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "Your level of proficiency in Insight increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+}

@@ -1,0 +1,9 @@
+{
+  "key": "species-ho-din-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Ho'din",
+  "description": "Your base walking speed is 30 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

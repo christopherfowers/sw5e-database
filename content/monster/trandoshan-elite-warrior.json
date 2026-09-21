@@ -1,0 +1,145 @@
+{
+  "key": "trandoshan-elite-warrior",
+  "name": "Trandoshan Elite Warrior",
+  "size": "medium",
+  "types": [
+    "humanoid"
+  ],
+  "alignment": "any dark",
+  "armor": {
+    "class": 15,
+    "type": "heavy combat suit"
+  },
+  "hitPoints": {
+    "average": 127,
+    "roll": "15d8 + 60"
+  },
+  "speed": {
+    "walk": 30,
+    "text": "30 ft."
+  },
+  "abilities": {
+    "strength": {
+      "score": 19,
+      "modifier": 4
+    },
+    "dexterity": {
+      "score": 16,
+      "modifier": 3
+    },
+    "constitution": {
+      "score": 18,
+      "modifier": 4
+    },
+    "intelligence": {
+      "score": 10,
+      "modifier": 0
+    },
+    "wisdom": {
+      "score": 14,
+      "modifier": 2
+    },
+    "charisma": {
+      "score": 13,
+      "modifier": 2
+    }
+  },
+  "savingThrows": [
+    "Strength +7",
+    "Wisdom +5"
+  ],
+  "skills": [
+    "Athletics +7",
+    "Intimidation +5",
+    "Perception +5",
+    "Survival +5"
+  ],
+  "senses": [
+    "darkvision 60 ft.",
+    "passive Perception 15"
+  ],
+  "languages": [
+    "Galactic Basic",
+    "Dosh"
+  ],
+  "challengeRating": "6",
+  "experiencePoints": 1100,
+  "behaviors": [
+    {
+      "name": "Brute",
+      "behaviorType": "trait",
+      "description": "The trandoshan deals an extra 3 (1d6) damage when it hits with a melee weapon attack (included in the attacks).",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Frenzy",
+      "behaviorType": "trait",
+      "description": "When the trandoshan reduces a creature to 0 hit points with a melee attack on its turn, it can immediately move up to half its speed and make a vibrosword attack.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Infrared Vision",
+      "behaviorType": "trait",
+      "description": "The trandoshan has advantage on Wisdom (Perception) checks that rely on sight.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Regeneration",
+      "behaviorType": "trait",
+      "description": "The trandoshan regains 10 hit points at the start of its turn if it has at least 1 hit point.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Multiattack",
+      "behaviorType": "action",
+      "description": "The trandoshan makes three attacks with its sword or slugthrower.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Trandoshan Greatsword",
+      "behaviorType": "action",
+      "description": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 4) kinetic damage.",
+      "attackType": "meleeWeapon",
+      "attackBonus": 7,
+      "range": "reach 5 ft.",
+      "targets": "one target",
+      "averageDamage": 13,
+      "damageRoll": "3d6 + 4",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Slugthrower",
+      "behaviorType": "action",
+      "description": "Ranged Weapon Attack: +6 to hit, range 100/400., one target. Hit: 7 (1d8 + 3) kinetic damage.",
+      "attackType": "rangedWeapon",
+      "attackBonus": 6,
+      "range": "range 100/400.",
+      "targets": "one target",
+      "averageDamage": 7,
+      "damageRoll": "1d8 + 3",
+      "damageType": "kinetic"
+    },
+    {
+      "name": "Burst",
+      "behaviorType": "action",
+      "description": "The trandoshan sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 14 Dexterity saving throw, taking 7 (1d8 + 3) kinetic damage on a failed save, or half as much on a successful one.",
+      "attackType": "none",
+      "attackBonus": 0
+    },
+    {
+      "name": "Parry",
+      "behaviorType": "reaction",
+      "description": "The trandoshan adds 3 to his AC against one melee attack that would hit him. To do so, the trandoshan must see the attacker and be wielding a melee weapon.",
+      "attackType": "none",
+      "attackBonus": 0
+    }
+  ],
+  "sectionText": "Trandoshans, also called T'doshok, were large, bipedal reptilian sentient humanoids from the planet Trandosha, and were renowned as great hunters who relished the thrill of the hunt. Trandoshans are known to embark on a hunting related rite of passage. ***Notable Trandoshans.*** A Trandoshan known as Garnac ran a hunting guild based out of a floating fortress that hovered above an island-designated Island Four-on the moon Wasskah. Garnac's scouts traveled to different worlds to collect other sentient beings to dump on Island Four, where the prisoners would be hunted for sport. Bossk, a famous Trandoshan bounty hunter, worked alongside fellow hunters Aurra Sing and Castas to mentor the orphaned Boba Fett. Bossk owned and operated a modified YV-666 light freighter named the Hound's Tooth. Bossk was renowned and feared for his effectiveness at killing Wookiees. He was ruthless and efficient, but upheld the Bounty Hunter Code and was known to keep his promises to the letter of the law.",
+  "sourceKey": "snv",
+  "contentSet": "core"
+}

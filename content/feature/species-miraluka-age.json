@@ -1,0 +1,9 @@
+{
+  "key": "species-miraluka-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Miraluka",
+  "description": "Miraluka reach adulthood in their late teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

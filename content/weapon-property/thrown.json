@@ -1,0 +1,6 @@
+{
+  "key": "thrown",
+  "name": "Thrown",
+  "contentSet": "core",
+  "description": "Weapons with this property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon."
+}

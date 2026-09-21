@@ -1,0 +1,264 @@
+{
+  "key": "large",
+  "name": "Large",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "lore": "Trapped in the capital ship's tractor beam, the ambassador frigate moves slowly towards the cruiser. The crew struggles to squeeze more power out of their reactor while the few marines on board take positions next to the hatches, wiping sweat from their brows as they check and re-check their weapons. Finally, bringing all the power the ship has to bare, the frigate is able to break the hold of the tractor beam and regain its trajectory, slowly but surely increasing the distance, before finally escaping the planet's moon and being able to jump to hyperspace.  Shouts of joy echo down the ship's corridors and extra rations are ordered in celebration.\n\nEngines burning brightly, the corvette sprints through the blockade, trying to minimize the amount of fire its meager shields will have to absorb.  Top and bottom turrets swivel to port, unleashing return fire against inbound interceptors.  The ground drops from under everyone's feet as the artificial gravity systems flicker for a second as a pulse weapon detonates nearby.  The high-pitched, distant whine of the reactor is barely audible over commands issuing from the bridge.  The visual readouts indicated that they were now past the picket line, and the interceptors appeared to be breaking off, unsure of their ability to take on the much larger ship without the support of their battle stations.  They'd made it.  Looking back at the scopes, the coordinator's head hung down.  They'd been the only ones to do so.\n\nAs the Pelta-Class Picket ship danced between the larger destroyers and dreadnaughts, it continued its near constant barrage of heavy laser cannon fire, interspersed with individual launches of concussion missiles and proton torpedoes directed at vulnerable parts of the opposing fleet.  If too many of those enemy guns came to bear on the the Pelta, it would be in trouble, but it's speed and it's relatively limited firepower made it a less-than juicy target.  For now.  But that is exactly what it's captain needed.  Just a few more clicks and they would be in a perfect flanking position, able to pound the engines of the flag ship as soon as it's shields were brought down by the bombing squad beginning their run now.\n\nLarge ships occupy the pinnacle of size for most private owner/operators in the galaxy.  Large ships require an extensive crew and are costly to maintain, but can pack quite a punch and may house various suites and operation centers that allow the ship to operate as an impressive and mobile base of operations for wealthy individuals and successful adventurers.",
+  "abilityScoreAdjustments": [
+    {
+      "ability": "dexterity",
+      "modifier": -2
+    },
+    {
+      "ability": "constitution",
+      "modifier": 2
+    }
+  ],
+  "hull": {
+    "diceAtTier0": {
+      "number": 7,
+      "faces": 10
+    },
+    "firstDiePoints": "10 + your ship's Constitution modifier",
+    "subsequentDiePoints": "1d10 (or 6) + your ship's Constitution modifier per Hull Die after 1st"
+  },
+  "shields": {
+    "diceAtTier0": {
+      "number": 7,
+      "faces": 10
+    },
+    "firstDiePoints": "10 + your ship's Strength modifier",
+    "subsequentDiePoints": "1d10 (or 6) + your ship's Strength modifier per Shield Die after 1st"
+  },
+  "modifications": {
+    "maximumSuiteSystems": "3 + 2x your ship's Constitution modifier",
+    "baseModificationSlots": 50,
+    "stockModifications": "Your choice of two suite modifications and two non-suite modifications"
+  },
+  "savingThrows": "Wisdom and your choice of Strength or Constitution",
+  "tierProgression": {
+    "dieName": "Blockade Runner Die",
+    "tiers": [
+      {
+        "tier": 0,
+        "features": [
+          "Role"
+        ],
+        "hullAndShieldDice": "7d10",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 1,
+        "features": [
+          "Blockade Runner",
+          "Ability Score Increase"
+        ],
+        "die": "d4",
+        "hullAndShieldDice": "8d10",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 2,
+        "features": [
+          "Role Specialization",
+          "Concentrated Fire",
+          "Ability Score Increase"
+        ],
+        "die": "d6",
+        "hullAndShieldDice": "9d10",
+        "armorClassBonus": 1
+      },
+      {
+        "tier": 3,
+        "features": [
+          "Versatile Frigate",
+          "Heavy Cannon",
+          "Ability Score Increase"
+        ],
+        "die": "d8",
+        "hullAndShieldDice": "10d10",
+        "armorClassBonus": 2
+      },
+      {
+        "tier": 4,
+        "features": [
+          "Role Mastery",
+          "Tactical Retreat",
+          "Ability Score Increase"
+        ],
+        "die": "d10",
+        "hullAndShieldDice": "11d10",
+        "armorClassBonus": 3
+      },
+      {
+        "tier": 5,
+        "features": [
+          "Paragon Frigate",
+          "Spinal Mount",
+          "Ability Score Increase"
+        ],
+        "die": "d12",
+        "hullAndShieldDice": "12d10",
+        "armorClassBonus": 4
+      }
+    ]
+  },
+  "roles": [
+    {
+      "name": "Ambassador",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "charisma",
+          "modifier": 1
+        },
+        {
+          "ability": "constitution",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Fortress",
+      "reactor": "Ionization",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 350,
+      "turning": 250
+    },
+    {
+      "name": "Corvette",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "strength",
+          "modifier": 1
+        },
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Directional",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Direct",
+      "speed": 400,
+      "turning": 300
+    },
+    {
+      "name": "Cruiser",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Fortress",
+      "reactor": "Power Core",
+      "powerCoupling": "Distributed",
+      "speed": 400,
+      "turning": 300
+    },
+    {
+      "name": "Explorer",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        },
+        {
+          "ability": "intelligence",
+          "modifier": 1
+        }
+      ],
+      "armor": "Lightweight",
+      "shields": "Directional",
+      "reactor": "Ionization",
+      "powerCoupling": "Distributed",
+      "speed": 350,
+      "turning": 250
+    },
+    {
+      "name": "Picket Ship",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        },
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Quick-Charge",
+      "reactor": "Power Core",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 300,
+      "turning": 200
+    },
+    {
+      "name": "Ship's Tender",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Quick-Charge",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Direct",
+      "speed": 300,
+      "turning": 200
+    }
+  ],
+  "features": [
+    {
+      "name": "Starship Improvements",
+      "description": "Beginning when your ship reaches 1st tier, it gains the following benefits:\n\n#### Ability Score Improvement\nAt first tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Constitution above 20, or your Constitution above 22, with this feature.\n\n#### Additional Hull and Shield Dice\nYour ship gains 1 additional Hull Die and 1 additional Shield Die. It gains 1 additional Hull Die and 1 additional Shield Die at 2nd tier (2, each), 3rd tier (3, each), 4th tier (4, each), and 5th tier (5, each).\n\n#### Armor Class Improvement\nBeginning at second Tier, your ship's armor class improves, giving your ship a +1 to its AC.  It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
+    },
+    {
+      "name": "Blockade Runner",
+      "description": "Also at 1st tier, your starship gains the ability to react to damage from large ships.\n\nAs a reaction to being hit with an attack roll from a Large or larger ship, a crewmember at the helm can use their reaction to immediately move the ship forward an amount equal to half its flying speed (rounded down) and then roll a Blockade Runner die, which is a d4, and subtract it from the triggering attack roll, potentially causing it to miss.\n\nYour ship's Blockade Runner die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.\n\nThis feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
+    },
+    {
+      "name": "Role Specialization",
+      "description": "At 2nd tier, you adopt a particular style of design for your ship. Choose from the following.\n\n#### Ambassador\nYour ship gains a Luxury Quarters suite at no cost. Additionally, while hosting guests on your ship, crewmembers have advantage on Charisma checks made against them.\n\n#### Corvette\nYour ship gains a Fixed Hardpoint modification at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons.\n\n#### Cruiser\nStarships one or more sizes larger than you have disadvantage on saving throws against your tertiary and quaternary weapons.\n\n#### Explorer\nYour ship gains the Scanner, Premium modification at no cost. Additionally, the range of its scanners is increased by 1,000 feet.\n\n#### Picket Ship\nYour ship can install a single point-defense primary weapon in a hardpoint.  This hardpoint may be modified to include more than a single limited firing arc.\n\n#### Ship's Tender\nYour ship gains a Fuel Storage modification at no cost."
+    },
+    {
+      "name": "Concentrated Fire",
+      "description": "Also at 2nd tier, once per turn, when you attack a ship of size Large or larger, and it was previously hit by an allied ship of size Large or larger's weapons since the end of its last turn, you have advantage on the attack. If you already had advantage, you may instead reroll one of the dice once (your choice)."
+    },
+    {
+      "name": "Versatile Frigate",
+      "description": "Starting at 3rd tier, when a crewmember makes an ability check, attack roll, or saving throw with the ship, they can use their reaction to have advantage on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.\n\nThis feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
+    },
+    {
+      "name": "Super-Heavy Turbolaser Battery",
+      "description": "Also at 3rd tier, your ship is equipped with a forward-mounted special version of a Turbolaser.  Your ship is considered to meet this weapon's constitution requirement regardless of your ship's constitution ability score.  The damage dealt by this Turbolaser is 3d12.\n\nThis weapon does not utilize or count as a weapon hardpoint."
+    },
+    {
+      "name": "Role Mastery",
+      "description": "At 4th tier, you master a particular style of design for your ship. Choose from the following.\n\n#### Ambassador\nYour ship has advantage on saving throws to avoid being rammed or tractored.\n\n#### Corvette\nYour ship's flying speed increases by 50 feet.\n\n#### Cruiser\nWhen firing a tertiary or quaternary weapon, you can load each weapon with multiple types of munitions up to your reload number and select which to fire when you take the attack action with that weapon.\n\n#### Explorer\nYour ship can detect ships moving through hyperspace with its scanners, and it ignores environmental effects that would impact its scanners.\n\n#### Picket Ship\nThe close and long ranges of your point defense systems increase by 100 feet. Additionally, Large or smaller ships have disadvantage on saving throws against your point defense systems.\n\n#### Ship's Tender\nYour ship gains the Nano-Droid Distributor modification at no cost. Additionally, the range of its effects is increased by 400 feet."
+    },
+    {
+      "name": "Tactical Retreat",
+      "description": "Also at 4th tier, when a crewmember rolls a 1 on an Intelligence (Astrogation) check to calculate astrogation, or a Constitution saving throw to maintain the hyperdrive booting, they can reroll the die. They must use the new roll."
+    },
+    {
+      "name": "Paragon Frigate",
+      "description": "As of 5th tier, your starship is the best in its class. Three of your ship's ability scores increase by 2. Its maximum for these scores increases by 2."
+    },
+    {
+      "name": "Spinal Mount",
+      "description": "Also at 5th tier, once on each crewmember's turn, they can add the ship's Strength modifier to the attack roll or the ship's Intelligence modifier to the damage roll of an attack it makes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+    }
+  ]
+}

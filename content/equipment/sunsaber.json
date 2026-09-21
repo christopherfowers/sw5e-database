@@ -1,0 +1,23 @@
+{
+  "key": "sunsaber",
+  "name": "Sunsaber",
+  "category": "weapon",
+  "costInCredits": 1875,
+  "weight": 0.0,
+  "properties": [
+    "bright 15",
+    "dexterity 11",
+    "hidden",
+    "specialized (bright)",
+    "versatile (2d4)"
+  ],
+  "weaponClassification": "exoticLightweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 6,
+    "type": "fire"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

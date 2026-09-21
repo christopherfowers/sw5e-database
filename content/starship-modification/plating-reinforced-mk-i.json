@@ -1,0 +1,16 @@
+{
+  "key": "plating-reinforced-mk-i",
+  "name": "Plating, Reinforced Mk I",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "universal",
+  "grade": 1,
+  "prerequisites": [
+    {
+      "kind": "equipment",
+      "text": "Reinforced Armor",
+      "equipmentName": "Reinforced armor"
+    }
+  ],
+  "description": "You upgrade your ship's armor plating, granting your ship a total DR of 7."
+}

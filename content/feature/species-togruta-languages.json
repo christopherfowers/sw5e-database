@@ -1,0 +1,9 @@
+{
+  "key": "species-togruta-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Togruta",
+  "description": "You can speak, read, and write Galactic Basic and Togruti. Togruti is an ornate language characterized by trills and long vowel sounds which are modified by subtle tremors in the togruta’s head-tails. This language is heavily influenced by Basic, but also incorporates some native idioms, which cause Basic-speaking togruta to use seemingly strange expressions.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "supreme-aptitude",
+  "name": "Supreme Aptitude",
+  "prerequisite": "4th level; Strength, Dexterity, Constitution, or Intelligence 13",
+  "abilityScoreIncreases": [
+    "strength",
+    "dexterity",
+    "constitution",
+    "intelligence"
+  ],
+  "description": "You have uncanny skill with a preternatural focus. You gain the following benefits:\n- Increase your Strength, Dexterity, Constitution, or Intelligence score by 1, to a maximum of 20.\n- Whenever you have advantage on an ability check using Strength, Dexterity, Constitution, or Intelligence you can reroll one of the dice once.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

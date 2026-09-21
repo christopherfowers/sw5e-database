@@ -1,0 +1,9 @@
+{
+  "key": "scanner-mk-iv",
+  "name": "Scanner, Mk IV",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 4,
+  "description": "***Modification Grade*** 4\n***Prerequisite:** Scanner, Mk III*\nThis modification massively improves the radar scanner on your ship.\nYour ship gains truesight out to 1,000 feet."
+}

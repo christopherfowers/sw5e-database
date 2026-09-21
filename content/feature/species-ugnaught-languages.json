@@ -1,0 +1,9 @@
+{
+  "key": "species-ugnaught-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Ugnaught",
+  "description": "You can speak, read, and write Galactic Basic and Ugnaught. The Ugnaught language is composed of grunts, squeals, and chatters, and is difficult for other species to learn.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

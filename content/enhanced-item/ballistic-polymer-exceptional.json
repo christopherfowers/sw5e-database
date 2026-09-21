@@ -1,0 +1,11 @@
+{
+  "key": "ballistic-polymer-exceptional",
+  "name": "Ballistic Polymer (Exceptional)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "description": "While you have temporary hit points, kinetic and energy damage you take is reduced by an amount equal to your proficiency bonus."
+}

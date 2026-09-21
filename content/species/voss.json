@@ -1,0 +1,89 @@
+{
+  "key": "voss",
+  "name": "Voss",
+  "size": "medium",
+  "homeworld": "Voss",
+  "nativeLanguage": "Voss",
+  "lore": "### Biology and Appearance\nVoss are humanoid sentients with a high rate of Force-sensitivity who display prominent sexual dimorphism. The male Voss have blue skin and bright orange eyes, while the females have red skin and azure eyes. The Voss do not have hair or distinct pupils, and posess unique patterns of markings on their face, neck, and body, a trace of their shared ancestry with Gormak. Their voices have a slight mechanical tinge to them, making them sound somewhat like a droid or machine. Voss undogo a physical, developmental change during their marriage ceremonies (known as the Rite of Ardor) and do not develop sexually prior to the performance of these rituals.\n\n### Society and Culture\nThe Voss species resides in the isolated mountain-top city of Voss-Ka and is vastly outnumbered on their homeworld by its other native sentient species, the Gormak, who are extremely hostile toward them and from whom they arose. Most Voss live peacefully in Voss-Ka, caring for their families, cultivating the wild plants and maintaining equipment for the Voss commandos in the war against the Gormak, although some Voss do live outside the capital city, such as the Voss Mystics who reside in the Shrine of Healing. The Voss are great lovers of art, and their architecture features a distinctive artistic style. The entire Voss society is guided by the Force visions of Voss Mystics, which are considered infallible without exception.\n\n### Names\nAll Voss have two short names, connected by a hyphen, with the family name being the second one.\n\n**Male Names.** Char, Edan, Fadith, Nodin, Orin\n\n**Female Names.** Amin, Magra, Tala, Weylin, Yana\n\n**Surnames.** -Ko, -La, -Po, -Rae, -Va",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Constitution score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Voss reach adulthood in their late teens and live less than a century. They do not reach sexual maturity until they undergo the Rite of Ardor."
+    },
+    {
+      "name": "Alignment",
+      "description": "As Voss culture encourages duty and emotional composure, individuals tend toward a lawful alignment, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Voss typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Darkvision",
+      "description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of grey."
+    },
+    {
+      "name": "Precognition",
+      "description": "You see brief visions of the future, that allow you to turn failures into successes. When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+    },
+    {
+      "name": "Mystic Healing",
+      "description": "You have proficiency in Medicine."
+    },
+    {
+      "name": "Voss Weapon Training",
+      "description": "You have proficiency with the blaster rifle and techblade."
+    },
+    {
+      "name": "Inscrutable",
+      "description": "Your calm demeanor and control make you hard to read. Wisdom (Insight) checks made against you have disadvantage, and you have advantage on any saving throw against an effect that would read your thoughts."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Voss. The Voss language is characterized by it's mystic-sounding word pairings."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "constitution"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'9\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "105 lb",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Mechanical apperance, unique patterns and markings along face, neck, and body",
+    "skinColorOptions": "Blue (male) or red (female)",
+    "hairColorOptions": "None",
+    "eyeColorOptions": "Orange (male) or blue (female)"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_voss.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

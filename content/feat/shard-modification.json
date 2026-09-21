@@ -1,0 +1,11 @@
+{
+  "key": "shard-modification",
+  "name": "Shard Modification",
+  "prerequisite": "Type droid",
+  "abilityScoreIncreases": [
+    "any"
+  ],
+  "description": "You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:\n\n- Increase an ability score of your choice by 1, to a maximum of 20.\n- You lose the Force-Insensitive special trait.\n- You can cast the *sense force* force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

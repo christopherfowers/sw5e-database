@@ -1,0 +1,15 @@
+{
+  "key": "infuse-ship-weapon",
+  "name": "Infuse Ship Weapon",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "prerequisites": [
+    {
+      "kind": "classLevel",
+      "text": "at least 2 levels in engineer",
+      "className": "engineer",
+      "level": 2
+    }
+  ],
+  "description": "Ship weapons become valid targets for your Infuse Item class feature."
+}

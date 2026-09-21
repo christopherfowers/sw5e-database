@@ -1,0 +1,9 @@
+{
+  "key": "species-xexto-dexterous",
+  "name": "Dexterous",
+  "grantedBy": "species",
+  "grantedByName": "Xexto",
+  "description": "You have proficiency in one of the following skills: Acrobatics, Piloting, or Sleight of Hand.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

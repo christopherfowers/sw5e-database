@@ -1,0 +1,9 @@
+{
+  "key": "species-quermian-alignment",
+  "name": "Alignment",
+  "grantedBy": "species",
+  "grantedByName": "Quermian",
+  "description": "Querians philosophic culture causes them to tend toward light alignments, though there are exceptions.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

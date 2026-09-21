@@ -1,0 +1,10 @@
+{
+  "key": "loremaster",
+  "name": "Loremaster",
+  "abilityScoreIncreases": [
+    "intelligence"
+  ],
+  "description": "Your study of history rewards you with the following benefits:\n- Increase your Intelligence score by 1, to a maximum of 20.\n- You gain proficiency in the Lore skill. If you are already proficient in it, you instead gain expertise in it.\n- When you take the Help action to aid another creature's ability check, you can make a DC 15 Intelligence (Lore) check. On a success, that creature's check gains a bonus equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

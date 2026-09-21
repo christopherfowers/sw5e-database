@@ -1,0 +1,27 @@
+{
+  "key": "s-foils",
+  "name": "S-Foils",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "weapon",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or smaller",
+      "shipSizes": [
+        "tiny",
+        "small",
+        "medium"
+      ]
+    },
+    {
+      "kind": "weaponMounting",
+      "text": "Primary Weapon",
+      "mountings": [
+        "primary"
+      ]
+    }
+  ],
+  "description": "Your primary weapons are mounted to Strike Foils giving your ship variable operational capacities.  As a bonus action, a crewmember can switch between two modes:\n- **Locked:** Your ship's speed increases by 50 feet and your primary weapons suffer a -2 penalty to attack rolls.\n- **Unlocked:** Your ship's primary weapons gain a +1 bonus to attack rolls."
+}

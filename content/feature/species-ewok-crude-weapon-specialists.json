@@ -1,0 +1,9 @@
+{
+  "key": "species-ewok-crude-weapon-specialists",
+  "name": "Crude Weapon Specialists",
+  "grantedBy": "species",
+  "grantedByName": "Ewok",
+  "description": "Ewoks are used to making do with less. You can spend 1 hour, which you can do over the course of a short rest, crafting a weapon out of loose materials. You can craft any simple kinetic weapon, but the weapon's damage suffers a -1 penalty.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

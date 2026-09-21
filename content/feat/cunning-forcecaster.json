@@ -1,0 +1,11 @@
+{
+  "key": "cunning-forcecaster",
+  "name": "Cunning Forcecaster",
+  "prerequisite": "The ability to cast force powers",
+  "abilityScoreIncreases": [
+    "intelligence"
+  ],
+  "description": "You've discovered a clever avenue to your study of the Force. Choose one from Wisdom or Charisma. You gain the following benefits:\n- Increase your Intelligence score by 1, to a maximum of 20.\n- You can use Intelligence instead of the chosen ability as your forcecasting ability.\n- You can add Intelligence instead of the chosen ability when determining your maximum force points.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

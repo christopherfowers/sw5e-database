@@ -1,0 +1,9 @@
+{
+  "key": "species-ssi-ruu-speed",
+  "name": "Speed",
+  "grantedBy": "species",
+  "grantedByName": "Ssi-Ruu",
+  "description": "Your base walking speed is 35 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

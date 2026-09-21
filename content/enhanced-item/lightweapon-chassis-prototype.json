@@ -1,0 +1,11 @@
+{
+  "key": "lightweapon-chassis-prototype",
+  "name": "Lightweapon Chassis (Prototype)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "weapon",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "any lightweapon",
+  "description": "_**Requires attunement**_\nThis modifiable lightweapon chassis comes with vacant modification slots for lightweapon modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+}

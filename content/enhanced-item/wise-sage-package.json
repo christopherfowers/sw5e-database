@@ -1,0 +1,12 @@
+{
+  "key": "wise-sage-package",
+  "name": "Wise Sage Package",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "cyberneticAugmentation",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "enhancement",
+  "prerequisite": "Wisdom 15",
+  "description": "Your Wisdom score increases by 1, and your maximum for this score increases by 1. Additionally, you have advantage on Wisdom saving throws.\n\n**Side Effect:** One ability score other than Wisdom (chosen by the GM) decreases by 1.\n\n_This implant drastically increases your aural awareness._"
+}

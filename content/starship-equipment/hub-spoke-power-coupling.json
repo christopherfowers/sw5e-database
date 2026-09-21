@@ -1,0 +1,13 @@
+{
+  "key": "hub-spoke-power-coupling",
+  "name": "Hub & spoke power coupling",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "powerCoupling",
+  "costInCredits": 5600,
+  "description": "A hub and spoke coupling system combines attributes of both other systems, providing some flexibility and some increased power storage capacity.",
+  "powerCoupling": {
+    "centralStorageCapacity": 2,
+    "systemStorageCapacity": 1
+  }
+}

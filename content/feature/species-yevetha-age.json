@@ -1,0 +1,9 @@
+{
+  "key": "species-yevetha-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Yevetha",
+  "description": "Yevetha reach adulthood in their early teens and live less than a century.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

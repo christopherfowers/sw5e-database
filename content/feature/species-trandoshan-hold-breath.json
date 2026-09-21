@@ -1,0 +1,9 @@
+{
+  "key": "species-trandoshan-hold-breath",
+  "name": "Hold Breath",
+  "grantedBy": "species",
+  "grantedByName": "Trandoshan",
+  "description": "You can hold your breath for up to 15 minutes at a time.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

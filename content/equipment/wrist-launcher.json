@@ -1,0 +1,17 @@
+{
+  "key": "wrist-launcher",
+  "name": "Wrist launcher",
+  "category": "weapon",
+  "costInCredits": 400,
+  "weight": 2.0,
+  "description": "Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters.",
+  "properties": [
+    "fixed",
+    "reload 1",
+    "special (range 30/120)"
+  ],
+  "weaponClassification": "simpleBlaster",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

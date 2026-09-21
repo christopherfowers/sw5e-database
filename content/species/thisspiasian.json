@@ -1,0 +1,93 @@
+{
+  "key": "thisspiasian",
+  "name": "Thisspiasian",
+  "size": "medium",
+  "homeworld": "Thisspias",
+  "nativeLanguage": "Thisspiasian",
+  "lore": "### Biology and Appearance\nThisspiasians are easily recognized by their abundant beards and their long tails, which often reach over six feet. These tails are very strong and are commonly used to carry large objects. When meditating or at rest, a thisspiasian will coil their tail beneath their torso, reducing their height by several feet. They also possess four arms, with the upper set being stronger and larger. Each of their four hands have five fingers, and each finger is tipped with a long, sturdy claw. It is thought unsophisticated or unseemly by upper-class thisspiasians to have the bottom two visible in public, so they are generally hidden from sight via larger garments, with the smaller limbs sometimes even bound to their bodies. Thisspiasians need very little sleep to function normally, resting for only two hours a day, with brief meditative moments scattered throughout the day to refocus.\n\n### Society and Culture\nThisspiasian culture is one of proud warriors who keep their emotions well-concealed and their rages checked. Many outsiders see only a thisspiasian's outward facade of tranquility, and to most being it seems as if thisspiasians existed in a sea of calm. This is far from the truth, however, as they are in truth a very passionate species below the surface. A thisspiasian who doesn't meditate as often as they should will often be prone to otherwise atypical emotional outbursts.\n\nThisspias is ruled by a hereditary leader called the Blood Monarch. Due to their seemingly archaic ruling structure, thisspiasians are often considered out-of-touch.\n\n### Names\nThisspiasian names typically are composed of two similar sounding syllables. Surnames are familial.\n\n**First Names.** Annak, Effed, Emmet, Gorro, Koto\n\n**Surnames.** Albarn, Braibel, Kirsingr, Raledurn",
+  "traits": [
+    {
+      "name": "Ability Score Increase",
+      "description": "Your Wisdom score increases by 2, and your Strength score increases by 1."
+    },
+    {
+      "name": "Age",
+      "description": "Thisspiasians reach adulthood in their 20s and often live more than a century."
+    },
+    {
+      "name": "Alignment",
+      "description": "Thisspiasians' emotional composure causes them to tend toward lawful alignments, though there are exceptions."
+    },
+    {
+      "name": "Size",
+      "description": "Thisspiasians typically stand 5 to 6 and a half feet tall and generally weigh about 300 lbs. Regardless of your position in that range, your size is Medium."
+    },
+    {
+      "name": "Speed",
+      "description": "Your base walking speed is 30 feet."
+    },
+    {
+      "name": "Claws",
+      "description": "Your claws are a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+    },
+    {
+      "name": "Cultured",
+      "description": "You have proficiency in the Lore skill."
+    },
+    {
+      "name": "Four-Armed",
+      "description": "Thisspiasians have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required)."
+    },
+    {
+      "name": "Inscrutable",
+      "description": "Your calm demeanor and control make you hard to read. Wisdom (Insight) checks made against you have disadvantage, and you have advantage on any saving throw against an effect that would read your thoughts."
+    },
+    {
+      "name": "Prehensile Tail",
+      "description": "You have supreme control over your tail and can use it to manipulate objects as well as your hands."
+    },
+    {
+      "name": "Trance",
+      "description": "You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+    },
+    {
+      "name": "Languages",
+      "description": "You can speak, read, and write Galactic Basic and Thisspiasian. Thisspiasian is a complex language characterized by its interlocking sentences and heavy use of sibilants."
+    }
+  ],
+  "abilityScoreIncreaseOptions": [
+    {
+      "increases": [
+        {
+          "amount": 2,
+          "abilities": [
+            "wisdom"
+          ]
+        },
+        {
+          "amount": 1,
+          "abilities": [
+            "strength"
+          ]
+        }
+      ]
+    }
+  ],
+  "physique": {
+    "heightAverage": "4'8\"",
+    "heightModifier": "+2d8\"",
+    "weightAverage": "250 lb.",
+    "weightModifier": "x(2d4) lb."
+  },
+  "appearance": {
+    "distinctions": "Four arms, serpentine, large beards",
+    "skinColorOptions": "Pale to green",
+    "hairColorOptions": "Black, blond, brown, grey, or white (with age)",
+    "eyeColorOptions": "Yellow"
+  },
+  "imageUrls": [
+    "https://starwars5ecentral.blob.core.windows.net/site-images/species/species_thisspiasian.png"
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

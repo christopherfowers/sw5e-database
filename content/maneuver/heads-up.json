@@ -1,0 +1,9 @@
+{
+  "key": "heads-up",
+  "name": "Heads Up",
+  "maneuverType": "mental",
+  "superiorityDice": 1,
+  "description": "When a friendly creature who can see or hear you makes a saving throw, you can use your reaction and expend a superiority die, adding the number rolled to the result of the saving throw.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

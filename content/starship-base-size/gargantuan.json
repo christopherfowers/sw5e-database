@@ -1,0 +1,264 @@
+{
+  "key": "gargantuan",
+  "name": "Gargantuan",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "lore": "The smaller ships retreat into the shadow of the blockade ship, fleeing an overwhelming foe. As the dread-nought's shields envelope them, they quickly turn and spring on their pursuers, utilizing the bulwark's shields as they unleash all of the firepower they have to bear.  Meanwhile, the blockade ship unleashes a storm of electromagnetic energy from its antenna array, cutting of communications between enemy ships, effectively isolating the incoming forces from their distant fleet and from each other.\n\nIn the center of the fleet, the command ship surveys the battlefield. Wherever the line wavers, the command ship quickly directs ships to reinforce. Finally, the formations of the enemy flag, and the command ship directs the fleet to capitalize on their failure as it determines and uploads targeting coordinates to its torpedo ships.\n\nThe warship looms ominously over the battlefield as the two opposing armies crash. Despite the efforts of the enemy line, the warship closes into firing range of the capital ships.  Having already determined an ordered targeting precedence, the operating crew confirms final firing solutions for the gunners as they charge up the main super-weapon on the prow of the ship.  It unleashes its first devastating blast as the rest of its arsenal begins to lance out at secondary targets nearby.\n\nGargantuan ships are the dreadnoughts that strike fear into the hearts of the faithless. They are the embodiment of indomitable might: a symbol of total and complete control.",
+  "abilityScoreAdjustments": [
+    {
+      "ability": "dexterity",
+      "modifier": -6
+    },
+    {
+      "ability": "constitution",
+      "modifier": 6
+    }
+  ],
+  "hull": {
+    "diceAtTier0": {
+      "number": 11,
+      "faces": 20
+    },
+    "firstDiePoints": "20 + your ship's Constitution modifier",
+    "subsequentDiePoints": "1d20 (or 11) + your ship's Constitution modifier per Hull Die after 1st"
+  },
+  "shields": {
+    "diceAtTier0": {
+      "number": 11,
+      "faces": 20
+    },
+    "firstDiePoints": "20 + your ship's Strength modifier",
+    "subsequentDiePoints": "1d20 (or 11) + your ship's Strength modifier per Shield Die after 1st"
+  },
+  "modifications": {
+    "maximumSuiteSystems": "10 + 4x your ship's Constitution modifier",
+    "baseModificationSlots": 70,
+    "stockModifications": "Your choice of ten suite modifications and six non-suite modifications."
+  },
+  "savingThrows": "Wisdom and your choice of Strength or Constitution",
+  "tierProgression": {
+    "dieName": "Superior Firepower Die",
+    "tiers": [
+      {
+        "tier": 0,
+        "features": [
+          "Role"
+        ],
+        "hullAndShieldDice": "11d20",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 1,
+        "features": [
+          "Superior Firepower",
+          "Ability Score Increase"
+        ],
+        "die": "d4",
+        "hullAndShieldDice": "13d20",
+        "armorClassBonus": 0
+      },
+      {
+        "tier": 2,
+        "features": [
+          "Role Specialization",
+          "Prime Doctrine",
+          "Ability Score Increase"
+        ],
+        "die": "d6",
+        "hullAndShieldDice": "15d20",
+        "armorClassBonus": 1
+      },
+      {
+        "tier": 3,
+        "features": [
+          "Versatile Dreadnought",
+          "Superweapon",
+          "Ability Score Increase"
+        ],
+        "die": "d8",
+        "hullAndShieldDice": "17d20",
+        "armorClassBonus": 2
+      },
+      {
+        "tier": 4,
+        "features": [
+          "Role Mastery",
+          "Citadel",
+          "Ability Score Increase"
+        ],
+        "die": "d10",
+        "hullAndShieldDice": "19d20",
+        "armorClassBonus": 3
+      },
+      {
+        "tier": 5,
+        "features": [
+          "Paragon Dreadnought",
+          "Devastator",
+          "Ability Score Increase"
+        ],
+        "die": "d12",
+        "hullAndShieldDice": "21d20",
+        "armorClassBonus": 4
+      }
+    ]
+  },
+  "roles": [
+    {
+      "name": "Blockade Ship",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "dexterity",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Directional",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Direct",
+      "speed": 100,
+      "turning": 400
+    },
+    {
+      "name": "Flag Ship",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "charisma",
+          "modifier": 1
+        },
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Quick-Charge",
+      "reactor": "Power Core",
+      "powerCoupling": "Distributed",
+      "speed": 200,
+      "turning": 500
+    },
+    {
+      "name": "Industrial Center",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Quick-Charge",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 300,
+      "turning": 600
+    },
+    {
+      "name": "Mobile Metropolis",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "constitution",
+          "modifier": 1
+        },
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Directional",
+      "reactor": "Ionization",
+      "powerCoupling": "Distributed",
+      "speed": 300,
+      "turning": 600
+    },
+    {
+      "name": "Researcher",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "intelligence",
+          "modifier": 1
+        },
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        }
+      ],
+      "armor": "Deflection",
+      "shields": "Fortress",
+      "reactor": "Fuel Cell",
+      "powerCoupling": "Hub & Spoke",
+      "speed": 100,
+      "turning": 400
+    },
+    {
+      "name": "Warship",
+      "abilityScoreAdjustments": [
+        {
+          "ability": "wisdom",
+          "modifier": 1
+        },
+        {
+          "ability": "strength",
+          "modifier": 1
+        }
+      ],
+      "armor": "Reinforced",
+      "shields": "Fortress",
+      "reactor": "Power Core",
+      "powerCoupling": "Distributed",
+      "speed": 200,
+      "turning": 500
+    }
+  ],
+  "features": [
+    {
+      "name": "Starship Improvements",
+      "description": "Beginning when your ship reaches 1st tier, it gains the following benefits:\n\n#### Ability Score Improvement\nAt first tier, and again at 2nd, 3rd, 4th, and 5th tier, you can increase one of your ship's ability scores by 2, or you can increase two of these ability scores by 1. You can't increase your ability scores other than Constitution above 20, or your Constitution above 26, with this feature.\n\n#### Additional Hull and Shield Dice\nYour ship gains 2 additional Hull Dice and 2 additional Shield Dice. It gains 2 additional Hull Dice and 2 additional Shield Dice at 2nd tier (4, each), 3rd tier (6, each), 4th tier (8, each), and 5th tier (10, each).\n\n#### Armor Class Improvement\nBeginning at second Tier, your ship's armor class improves, giving your ship a +1 to its AC.  It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
+    },
+    {
+      "name": "Superior Firepower",
+      "description": "Also at 1st tier, your starship's firepower can overwhelm larger ships.\n\nWhen a crewmember deals damage to a Large or larger ship with a ship weapon, the crewmember can increase the damage by rolling a Superior Firepower die, which is a d4, and add it to the damage roll (no action required).\n\nYour ship's Superior Firepower die changes when it reaches certain tiers. The die becomes a d6 at 2nd tier, a d8 at 3rd tier, a d10 at 4th tier, and a d12 at 5th tier.\n\nThis feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship undergoes recharging."
+    },
+    {
+      "name": "Role Specialization",
+      "description": "At 2nd tier, you adopt a particular style of design for your ship. Choose any one from the following.\n\n#### Blockade Ship\nYour ship gains the Emergency Generator and Power Backup modifications at no cost. Additionally, your ships shields extend further around it. Whenever a friendly ship would take damage while within 500 feet of your ship, if the source of that damage is more than 500 feet away from your ship and your ship's shields are active, your ship's shields instead take that damage. If the damage reduces your ship's shields to 0, the protected ship takes any remaining damage.\n\n#### Flag Ship\nYour ship gains the Command Center suite and Tractor Beam modifications at no cost. Additionally, when a crewmember deployed in a command center takes the Direct action, the target of the Direct action can reroll one of the dice once.\n\n#### Industrial Center\nYour ship gains two Workshop modifications at no cost.  Additionally, the speed at which goods are crafted in your workshops is doubled.\n\n#### Mobile Metropolis\nYour ship gains a Living Quarters suite and a Recreation suite at no cost. Additionally, the capacity of your Living Quarters are doubled.\n\n#### Researcher\nYour ship gains the Laboratory and Workshop modifications at no cost. Additionally, Intelligence (Lore) checks on your ship are made with advantage.\n\n#### Warship\nYour ship gains two Fixed Hardpoint modifications at no cost. Additionally, your ship has a +1 bonus to damage rolls with ship weapons."
+    },
+    {
+      "name": "Prime Doctrine",
+      "description": "Also at 2nd tier, your starship strikes fear in your enemies. When crewmembers roll initiative, one crewmember can attempt to frighten other ships. Each crewmember deployed on a hostile ship must make a Wisdom saving throw contested by a Charisma (Menace) check. On a failed save, affected crewmembers have disadvantage on the first ability check, attack roll, or saving throw they make each round for 1 minute. At the end of each of their turns, they repeat this save, ending this effect on a success. Additionally, on a successful save, they become immune to this feature for one day.\n\nOnce this feature has been used, it can't be used again until the ship recharges."
+    },
+    {
+      "name": "Versatile Dreadnought",
+      "description": "Starting at 3rd tier, when a crewmember makes an ability check, attack roll, or saving throw, they can use their reaction to have advantage on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.\n\nThis feature can be used a number of times equal to 2 x your ship's tier. All expended uses are regained when the ship recharges."
+    },
+    {
+      "name": "Superweapon",
+      "description": "Also at 3rd tier, your ship is equipped with a superweapon. As an action, a crewmember can activate the superweapon, which has a limited firing arc, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity saving throw (DC = 8 + the crewmember's proficiency bonus + the ship's Strength modifier). On a failed save, a ship takes 15d10 energy damage, or half as much on a successful one.\n\nOnce this feature has been used, it can't be used again until the ship recharges."
+    },
+    {
+      "name": "Role Mastery",
+      "description": "At 4th tier, you master a particular style of design for your ship. Choose any one from the following.\n\n#### Blockade Ship\nYour ship's shield regeneration rate doubles.\n\n#### Flag Ship\nA crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying speed, and up to five crewmembers on that ship can use their reaction to immediately take an action.\n\nOnce this feature has been used, it can't be used again until the ship recharges.\n\n#### Industrial Center\nYour ship gains two Docking Bay suites at no cost, which do not count against its total suite systems. Additionally, the capacity of your docking bays are doubled.\n\n#### Mobile Metropolis\nYour ship's fuel capacity, as shown in the Starship Size Fuel Capacity table, and storage capacity, as shown in the **Starship Size Storage Capacity** table, doubles. Additionally, while traveling in realspace, your ship consumes half the amount of fuel as normal.\n\n#### Researcher\nWhen you use your ship's Superweapon, you can alter its functionality. Instead of dealing damage, ships who fail a saving throw are blinded, ionized, and shocked for 1 minute. Ships who succeed on the saving throw suffer these effects until the start of your ship's next turn, instead.\n\n#### Warship\nWhen a crewmember on your ship rolls the maximum on a damage die for a ship weapon, they can roll an additional die."
+    },
+    {
+      "name": "Citadel",
+      "description": "Also at 4th tier, the capacity for all of your suites is doubled.  If a suite type's capacity was already doubled, its size is instead tripled from its standard size. Additionally, your starship's maximum capacity for fuel and consumables doubles, and civilians, crewmembers, and troopers aboard your starship have advantage on Constitution saving throws made to avoid Exhaustion.  If the capacity for fuel and/or consumables was already double its standard amount, it is now triple its original capacity."
+    },
+    {
+      "name": "Paragon Dreadnought",
+      "description": "As of 5th tier, your starship is the best in its class. Two of your ship's ability scores increase by 4, and its maximum for these scores increase by 4.  Another ability score increases by 2, and its maximum for this score increases by 2."
+    },
+    {
+      "name": "Devastator",
+      "description": "Also at 5th tier, as an action, a single crewmember can give the ship the following benefits for 1 minute:\n- Your ship has resistance to all damage.\n- Your ship's ship attacks score a critical hit on a roll of 19 or 20 on the d20.\n\nThis effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes refitting."
+    }
+  ]
+}

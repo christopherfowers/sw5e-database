@@ -1,0 +1,9 @@
+{
+  "key": "species-ryn-age",
+  "name": "Age",
+  "grantedBy": "species",
+  "grantedByName": "Ryn",
+  "description": "Ryn reach adulthood in their early teens and live about 80 years.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

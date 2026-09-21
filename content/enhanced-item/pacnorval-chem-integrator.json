@@ -1,0 +1,11 @@
+{
+  "key": "pacnorval-chem-integrator",
+  "name": "Pacnorval Chem Integrator",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "premium",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "You can apply poisons to this weapon as a bonus action, instead of an action."
+}

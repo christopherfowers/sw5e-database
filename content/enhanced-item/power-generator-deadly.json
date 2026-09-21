@@ -1,0 +1,11 @@
+{
+  "key": "power-generator-deadly",
+  "name": "Power Generator (Deadly)",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content",
+  "itemType": "consumable",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "ammunition",
+  "description": "You have a +3 bonus to attack and damage rolls made with this enhanced power generator. This bonus is in addition to any bonuses granted by the weapon. Once the power generator is depleted, it no longer gives a bonus."
+}

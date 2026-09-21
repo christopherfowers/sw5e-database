@@ -1,0 +1,9 @@
+{
+  "key": "species-ryn-size",
+  "name": "Size",
+  "grantedBy": "species",
+  "grantedByName": "Ryn",
+  "description": "Ryn typically stand 4 and a half to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

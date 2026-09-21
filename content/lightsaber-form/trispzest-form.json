@@ -1,0 +1,12 @@
+{
+  "key": "trispzest-form",
+  "name": "Trispzest Form",
+  "effects": [
+    {
+      "timing": "active",
+      "description": "Once before the start of your next turn, you have advantage on a melee weapon attack against a creature that is frightened of you."
+    }
+  ],
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "focusing-scope",
+  "name": "Focusing Scope",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "blaster",
+  "description": "The simple scope allows you to use a bonus action to take aim at a target you can see. The next attack you make before the end of your next turn does not suffer disadvantage due to being made at long range."
+}

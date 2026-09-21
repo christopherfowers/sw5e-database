@@ -1,0 +1,10 @@
+{
+  "key": "mirror",
+  "name": "Mirror",
+  "category": "utility",
+  "costInCredits": 50,
+  "weight": 0.5,
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

@@ -1,0 +1,319 @@
+{
+  "key": "maverick-practice",
+  "name": "Maverick Practice",
+  "className": "Operative",
+  "casterType": "none",
+  "casterRatio": 0,
+  "classCasterType": "none",
+  "description": "There are those who, when thrust into danger, use unexpected methods to achieve victory. Those operatives who choose the Maverick Practice draw on a wide array of skills, learning new ways to apply them, as their strongest asset.\n\n### Maverick Superiority\n_**Maverick Practice:** 3rd level_\nYou learn maneuvers that are fueled by special dice called superiority dice. See chapter 13 for the maneuvers list.\n\n#### Maneuvers Known\nYou learn two maneuvers of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the Maverick Superiority table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.\n\nEach time you learn new maneuvers, you can also replace one maneuver you know with a different one.\n\n#### Superiority Dice\nYou have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice Quantity column of the Maverick Superiority table. This die changes as you gain operative levels, as shown in the Superiority Dice Size column of the Maverick Superiority table. A superiority die is expended when you use it.\n\nYou regain all of your expended superiority dice when you finish a short or long rest.\n\n#### Maneuver Ability\nYour maneuver ability varies based on the type of the maneuver you use. You use Strength, Dexterity, or Constitution for physical maneuvers (your choice), Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers. You use this ability whenever a maneuver refers to your maneuver ability. Additionally, you use this ability modifier when setting the saving throw DC for a maneuver you use.\n\n___\n\n**Maneuver save DC** = 8 + your proficiency bonus + your maneuver ability modifier\n\n___\n\n### Know a Bit\n_**Maverick Practice:** 3rd level_\nYou can add half your proficiency bonus to any ability check you make that doesn't already include your proficiency bonus.\n\n### Outplayed\n_**Maverick Practice:** 9th level_\nWhen a creature fails a saving throw or ability check against you or an effect you control, you don't need advantage on your attack roll to use Sneak Attack, you can't have disadvantage on attack rolls against that creature, and that creature can't have advantage on ability checks and saving throws against effects you control. These effects last until the end of your next turn.\n\n##### Maverick Superiority\n\n### Practice Makes Perfect\n_**Maverick Practice:** 13th and 17th level_\nWhen you make an ability check as part of or that is affected by a maneuver you use, you can choose to increase your level of proficiency in that check by one step (from trained to proficient, from proficient to expertise, from expertise to mastery, from mastery to high mastery, or from high mastery to grand mastery).\n\nYou can use this feature five times. You gain an additional use at 17th level. You regain all expended uses when you complete a long rest.\n\n### Flow State\n_**Maverick Practice:** 17th level_\nAs an action, you can choose to intensely focus for one minute, gaining the following benefits:\n- Once on each of your turns, when you use a maneuver, you can use a d4 instead of expending a superiority die.\n- You can't have disadvantage on ability checks or saving throws.\n- Creatures can't have advantage on attack rolls against you.\n\nOnce you've used this feature, you must complete a long rest before you can use it again.",
+  "progression": [
+    {
+      "level": 3,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "2"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "2"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d4"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "2"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "2"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d4"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "3"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d6"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "3"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d6"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "3"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d6"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "3"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d6"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d8"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d8"
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "7"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d8"
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "7"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "4"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d8"
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "9"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d10"
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "9"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d10"
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "10"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d10"
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "10"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "5"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d10"
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "11"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d12"
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "11"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d12"
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "12"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d12"
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "entries": [
+        {
+          "label": "Maneuvers Known",
+          "value": "12"
+        },
+        {
+          "label": "Superiority Dice Quantity",
+          "value": "6"
+        },
+        {
+          "label": "Superiority Dice Size",
+          "value": "d12"
+        }
+      ]
+    }
+  ],
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

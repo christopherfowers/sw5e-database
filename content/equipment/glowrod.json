@@ -1,0 +1,11 @@
+{
+  "key": "glowrod",
+  "name": "Glowrod",
+  "category": "utility",
+  "costInCredits": 10,
+  "weight": 2.0,
+  "description": "Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The glowrod lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell.",
+  "stealthDisadvantage": false,
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

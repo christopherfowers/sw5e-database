@@ -1,0 +1,11 @@
+{
+  "key": "serrated-edge-mk-iii",
+  "name": "Serrated Edge Mk III",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "legendary",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "When you deal damage with this weapon, you can roll a d8 and add the result to the total."
+}

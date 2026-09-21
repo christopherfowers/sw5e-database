@@ -1,0 +1,11 @@
+{
+  "key": "slipstream-kickers",
+  "name": "Slipstream Kickers",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "prototype",
+  "requiresAttunement": true,
+  "subtype": "feet",
+  "description": "_**Requires attunement**_\nWhile you wear these boots, you can use a bonus action to activate or deactivate their overdrive mode. If you do, you gain the effect of the _tactical advantage_ tech power for 1 minute. Once you've used this feature, you must complete a long rest before you can use it again."
+}

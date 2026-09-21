@@ -1,0 +1,9 @@
+{
+  "key": "species-culisetto-climb",
+  "name": "Climb",
+  "grantedBy": "species",
+  "grantedByName": "Culisetto",
+  "description": "You have a climbing speed of 25 feet.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

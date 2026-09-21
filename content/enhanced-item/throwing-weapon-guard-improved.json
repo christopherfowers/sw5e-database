@@ -1,0 +1,11 @@
+{
+  "key": "throwing-weapon-guard-improved",
+  "name": "Throwing Weapon Guard (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "vibroweapon",
+  "description": "This weapon gains thrown (30/90) property. If it already has the thrown property, the range increases by 15/45."
+}

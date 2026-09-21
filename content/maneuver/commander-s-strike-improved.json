@@ -1,0 +1,11 @@
+{
+  "key": "commander-s-strike-improved",
+  "name": "Commander's Strike (Improved)",
+  "maneuverType": "physical",
+  "superiorityDice": 0,
+  "prerequisite": "Commander's Strike maneuver",
+  "improves": "Commander's Strike",
+  "description": "When you use the Commander's Strike maneuver, you no longer have to forgo an attack as a part of that maneuver. All the other rules of Commander's Strike still apply to you.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

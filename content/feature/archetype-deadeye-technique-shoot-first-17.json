@@ -1,0 +1,10 @@
+{
+  "key": "archetype-deadeye-technique-shoot-first-17",
+  "name": "Shoot First",
+  "grantedBy": "archetype",
+  "grantedByName": "Deadeye Technique",
+  "level": 17,
+  "description": "_**Deadeye Technique:** 11th, 13th, and 17th level_\nYou have learned that the person who shoots first is often the one who walks out alive. When you make a ranged weapon attack against a creature that has not yet acted during your first turn in combat and you have advantage on the roll, you can reroll one of the dice once. Additionally, on a hit, you deal an extra 1d8 damage of the same type as the weapon. This damage increases to 1d10 at 13th level and 1d12 at 17th level.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

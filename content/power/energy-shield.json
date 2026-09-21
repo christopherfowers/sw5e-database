@@ -1,0 +1,17 @@
+{
+  "key": "energy-shield",
+  "name": "Energy Shield",
+  "powerType": "tech",
+  "level": 1,
+  "forceAlignment": "none",
+  "castingTime": {
+    "period": "reaction",
+    "text": "1 reaction, which you take when you are hit by an attack"
+  },
+  "range": "Self",
+  "duration": "1 round",
+  "concentration": false,
+  "description": "You quickly create an energy shield. Until the start of your next turn, you have a +5 bonus to AC. This includes the triggering attack.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

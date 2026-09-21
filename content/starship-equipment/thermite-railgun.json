@@ -1,0 +1,27 @@
+{
+  "key": "thermite-railgun",
+  "name": "Thermite railgun",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "category": "weapon",
+  "costInCredits": 5400,
+  "weapon": {
+    "mounting": "secondary",
+    "weaponSize": "small"
+  },
+  "properties": [
+    "power",
+    "constitution 17",
+    "melt",
+    "overheat 2"
+  ],
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 10,
+    "type": "fire"
+  },
+  "range": {
+    "normal": 1200,
+    "long": 4800
+  }
+}

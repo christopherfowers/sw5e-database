@@ -1,0 +1,11 @@
+{
+  "key": "reinforced-stitching-improved",
+  "name": "Reinforced Stitching (Improved)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "prototype",
+  "requiresAttunement": false,
+  "subtype": "clothing",
+  "description": "You gain a +2 bonus to AC against ranged attacks while wearing this clothing."
+}

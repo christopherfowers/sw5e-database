@@ -1,0 +1,11 @@
+{
+  "key": "charisma-augment-superior",
+  "name": "Charisma Augment (Superior)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "advanced",
+  "requiresAttunement": false,
+  "subtype": "augment",
+  "description": "Your Charisma score increases by 1, and your maximum for this score increases by 1."
+}

@@ -1,0 +1,21 @@
+{
+  "key": "vibrotonfa",
+  "name": "Vibrotonfa",
+  "category": "weapon",
+  "costInCredits": 225,
+  "weight": 1.0,
+  "properties": [
+    "defensive 1",
+    "finesse",
+    "light"
+  ],
+  "weaponClassification": "martialVibroweapon",
+  "damage": {
+    "numberOfDice": 1,
+    "dieFaces": 4,
+    "type": "kinetic"
+  },
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

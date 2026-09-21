@@ -1,0 +1,12 @@
+{
+  "key": "overload-shield",
+  "name": "Overload Shield",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "itemModification",
+  "rarity": "standard",
+  "requiresAttunement": false,
+  "subtype": "armor",
+  "prerequisite": "Shield generator",
+  "description": "You modify this shield generator to overload. As an action you can overload this shield. Each Large or smaller creature within 5 feet of you must make a DC 13 Dexterity or Strength saving throw (their choice). On a failed save, they are pushed back 5 feet and knocked prone.\n\nYou can use this feature twice. You regain all expended uses when you complete a short or long rest."
+}

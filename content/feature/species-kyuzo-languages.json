@@ -1,0 +1,9 @@
+{
+  "key": "species-kyuzo-languages",
+  "name": "Languages",
+  "grantedBy": "species",
+  "grantedByName": "Kyuzo",
+  "description": "You can speak, read, and write Galactic Basic and Kyuzo. Kyuzo is characterized by short words and quick phrases. Kyuzo struggle with Galactic Basic as it is grammatically dissimilar to Kyuzo.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

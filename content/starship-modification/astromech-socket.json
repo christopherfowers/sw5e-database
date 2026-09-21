@@ -1,0 +1,20 @@
+{
+  "key": "astromech-socket",
+  "name": "Astromech Socket",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 0,
+  "prerequisites": [
+    {
+      "kind": "shipSize",
+      "text": "Ship size Medium or smaller",
+      "shipSizes": [
+        "tiny",
+        "small",
+        "medium"
+      ]
+    }
+  ],
+  "description": "This system adds space for a single Small or Tiny droid crewmember and allows that crewmember to take the Patch action as a bonus action on their turn.  Additionally, this crewmember can use a bonus action to make an Intelligence (Astrogation) check.\nThis modification cannot be installed in a ship that already has Co-Pilot Seat installed."
+}

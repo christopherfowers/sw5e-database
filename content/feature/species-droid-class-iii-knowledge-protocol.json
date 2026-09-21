@@ -1,0 +1,9 @@
+{
+  "key": "species-droid-class-iii-knowledge-protocol",
+  "name": "Knowledge Protocol",
+  "grantedBy": "species",
+  "grantedByName": "Droid, Class III",
+  "description": "You have proficiency in the Lore skill.",
+  "sourceKey": "phb",
+  "contentSet": "core"
+}

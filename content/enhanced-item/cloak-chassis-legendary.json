@@ -1,0 +1,11 @@
+{
+  "key": "cloak-chassis-legendary",
+  "name": "Cloak Chassis (Legendary)",
+  "sourceKey": "wh",
+  "contentSet": "core",
+  "itemType": "adventuringGear",
+  "rarity": "legendary",
+  "requiresAttunement": true,
+  "subtype": "shoulders",
+  "description": "_**Requires attunement**_\nThis modifiable clothing chassis comes with vacant modification slots for clothing modifications, as well as two augment slots. It can house modifications of legendary rarity or lower."
+}

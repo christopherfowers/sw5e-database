@@ -1,0 +1,11 @@
+{
+  "key": "flechette-mag-fragmentation",
+  "name": "Flechette mag, fragmentation",
+  "category": "ammunition",
+  "costInCredits": 550,
+  "weight": 4.0,
+  "description": "When triggered, this flechette cannon ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one.",
+  "stealthDisadvantage": false,
+  "sourceKey": "wh",
+  "contentSet": "core"
+}

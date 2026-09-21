@@ -1,0 +1,9 @@
+{
+  "key": "species-anomid-agricultural-exports",
+  "name": "Agricultural Exports",
+  "grantedBy": "species",
+  "grantedByName": "Anomid",
+  "description": "Whenever you make an Intelligence (Nature) or Intelligence (Technology) check related to food, agriculture, or agricultural technology, you are considered to have expertise in the skill.",
+  "sourceKey": "ec",
+  "contentSet": "expanded-content"
+}

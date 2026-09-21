@@ -1,0 +1,9 @@
+{
+  "key": "scanner-mk-iii",
+  "name": "Scanner, Mk III",
+  "sourceKey": "sotg",
+  "contentSet": "core",
+  "modificationType": "operation",
+  "grade": 3,
+  "description": "***Modification Grade*** 3\n***Prerequisite:** Scanner, Mk II*\nThis modification greatly improves the radar scanner on your ship.\nYour ship has advantage on Intelligence (Probe) and Wisdom (Scan) checks that rely on scanners."
+}
