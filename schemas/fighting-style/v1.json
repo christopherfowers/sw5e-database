@@ -5,7 +5,14 @@
   "description": "A specialisation in one way of fighting, chosen once from a class's list and kept for the rest of the character's career. Every fighting style is written the same way in the books: a sentence saying what the character is skilled at, then a short list of concrete benefits. That is not incidental formatting — the list is the rules text, and each bullet is an independent exception a player checks against the situation in front of them. The two halves are therefore stored apart, so a character sheet can print the benefits without the flavour sentence and the print pipeline can set them as a list rather than re-deriving one from a paragraph.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "sourceKey", "contentSet", "description", "benefits"],
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "description",
+    "benefits"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -33,7 +40,8 @@
       "description": "The concrete rules the style grants, one entry per bullet as printed, in the printed order. Each is markdown, in second person, and stands on its own: a player reads one bullet, decides whether it applies, and moves on. Order is preserved because the books print the most commonly used benefit first.",
       "items": {
         "type": "string",
-        "minLength": 1
+        "minLength": 1,
+        "contentMediaType": "text/markdown"
       }
     },
     "sourceKey": {
@@ -42,7 +50,10 @@
       "description": "Key of the source this fighting style was published in, matching a document of the source content type. Every fighting style in the archive is phb."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this fighting style belongs to the core rules or to the community expanded-content supplement."
     }
   }

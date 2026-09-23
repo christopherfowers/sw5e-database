@@ -5,7 +5,17 @@
   "description": "A specialisation chosen within a class, picked at a level the class sets and kept for the rest of a character's career. An archetype is where a class's identity actually gets decided, so it carries its own casting progression when it grants one and a level-by-level table when its resources grow on their own schedule.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "sourceKey", "contentSet", "className", "casterType", "casterRatio", "classCasterType", "description"],
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "className",
+    "casterType",
+    "casterRatio",
+    "classCasterType",
+    "description"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -23,7 +33,11 @@
       "description": "Name of the class this archetype belongs to, matching a class entry. An archetype is only ever available to that one class."
     },
     "casterType": {
-      "enum": ["none", "force", "tech"],
+      "enum": [
+        "none",
+        "force",
+        "tech"
+      ],
       "description": "Casting the archetype grants by itself. An archetype on a non-casting class may turn it into a partial caster; one on a class that already casts records none here and leaves the progression to the class."
     },
     "casterRatio": {
@@ -33,13 +47,18 @@
       "description": "Fraction of class levels that count toward the casting progression this archetype grants: 1/3 for a third-caster, 1/6 for a sixth-caster, 0 when it grants none. Multiclass casting sums these ratios, which is why it is a number and not a label."
     },
     "classCasterType": {
-      "enum": ["none", "force", "tech"],
+      "enum": [
+        "none",
+        "force",
+        "tech"
+      ],
       "description": "Casting the parent class already provides, copied here so an archetype can be evaluated without loading the class. When this and casterType disagree, the archetype is adding a second casting system to the character."
     },
     "description": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown body of the archetype: an opening paragraph of flavour, then each granted feature under its own heading with the level it arrives at. Individual features are also stored separately in the feature content type; this field is the printed page."
+      "description": "Markdown body of the archetype: an opening paragraph of flavour, then each granted feature under its own heading with the level it arrives at. Individual features are also stored separately in the feature content type; this field is the printed page.",
+      "contentMediaType": "text/markdown"
     },
     "progression": {
       "type": "array",
@@ -48,7 +67,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["level", "entries"],
+        "required": [
+          "level",
+          "entries"
+        ],
         "properties": {
           "level": {
             "type": "integer",
@@ -63,7 +85,10 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["label", "value"],
+              "required": [
+                "label",
+                "value"
+              ],
               "properties": {
                 "label": {
                   "type": "string",
@@ -87,7 +112,10 @@
       "description": "Key of the source this archetype was published in, matching a document of the source content type. Values present in the archive are phb and ec."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this archetype belongs to the core rules or to the community expanded-content supplement."
     }
   }

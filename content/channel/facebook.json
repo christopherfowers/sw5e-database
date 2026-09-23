@@ -5,5 +5,5 @@
   "url": "https://www.facebook.com/groups/starwars5e",
   "blurb": "These channels are used for sharing Star Wars 5e content, questions, and more.",
   "order": 2,
-  "enabled": true
+  "showOnHomePage": true
 }

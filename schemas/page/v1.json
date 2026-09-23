@@ -19,7 +19,8 @@
     "heroLede": {
       "type": "string",
       "minLength": 1,
-      "description": "The paragraph under the site's name, near the top of the page. It is shown as plain text, so formatting marks like **bold** would appear as those characters rather than as bold."
+      "description": "The paragraph under the site's name, at the top of the page. Formatting is available from the toolbar, and the preview shows what a reader will see.",
+      "contentMediaType": "text/markdown"
     },
     "booksHeading": {
       "type": "string",
@@ -29,7 +30,8 @@
     "booksLede": {
       "type": "string",
       "minLength": 1,
-      "description": "The sentence under the rulebooks heading. Leave it blank and the site writes one for you that counts your books, so the number stays right on its own when a book is added. Write your own and it is used exactly as typed, which means any number in it is yours to keep up to date."
+      "description": "The sentence under the rulebooks heading. Leave it blank and the site writes one that counts the books for you, so the number stays right on its own when a book is added or taken off the shelf. Write your own and any number in it is yours to keep up to date.",
+      "contentMediaType": "text/markdown"
     },
     "resourcesHeading": {
       "type": "string",
@@ -39,7 +41,8 @@
     "resourcesLede": {
       "type": "string",
       "minLength": 1,
-      "description": "The sentence under the sheets heading. Leave it blank to keep the one that is there now."
+      "description": "The sentence under the sheets heading. Leave it blank to keep the one that is there now.",
+      "contentMediaType": "text/markdown"
     },
     "touchHeading": {
       "type": "string",
@@ -49,7 +52,8 @@
     "touchLede": {
       "type": "string",
       "minLength": 1,
-      "description": "The sentence under the community links heading. Leave it blank to keep the one that is there now."
+      "description": "The sentence under the community links heading. Leave it blank to keep the one that is there now.",
+      "contentMediaType": "text/markdown"
     }
   }
 }

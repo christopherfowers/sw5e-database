@@ -5,7 +5,13 @@
   "description": "An optional talent taken in place of an ability score improvement. A feat is a small bundle of benefits with a single theme, usually a partial ability score increase plus two or three concrete rules exceptions. Keep the bundle tight: a feat that does five unrelated things is two feats.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "sourceKey", "contentSet", "description"],
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "description"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -28,13 +34,22 @@
       "uniqueItems": true,
       "description": "Abilities this feat raises by one, to the usual maximum of 20. Half-feats list the ability they raise; use \"any\" when the feat lets the player choose. Omit for feats that grant no increase at all.",
       "items": {
-        "enum": ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma", "any"]
+        "enum": [
+          "strength",
+          "dexterity",
+          "constitution",
+          "intelligence",
+          "wisdom",
+          "charisma",
+          "any"
+        ]
       }
     },
     "description": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown rules text in second person. The house style opens with one sentence of flavour, then a bulleted list of benefits, one bullet per benefit including the ability score increase, so a player can check them off at the table."
+      "description": "Markdown rules text in second person. The house style opens with one sentence of flavour, then a bulleted list of benefits, one bullet per benefit including the ability score increase, so a player can check them off at the table.",
+      "contentMediaType": "text/markdown"
     },
     "sourceKey": {
       "type": "string",
@@ -42,7 +57,10 @@
       "description": "Key of the source this feat was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this feat belongs to the core rules or to the community expanded-content supplement."
     }
   }

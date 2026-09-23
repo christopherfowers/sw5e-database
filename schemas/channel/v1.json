@@ -52,17 +52,18 @@
     "blurb": {
       "type": "string",
       "minLength": 1,
-      "description": "The paragraph above this column. Shown as plain text, so formatting marks would appear as characters."
+      "description": "The paragraph above this column on the front page.",
+      "contentMediaType": "text/markdown"
     },
     "order": {
       "type": "integer",
       "minimum": 1,
       "description": "Where this sits within its column."
     },
-    "enabled": {
+    "showOnHomePage": {
       "type": "boolean",
       "default": true,
-      "description": "Untick to hide this link without deleting it. Use this rather than deleting when a link might come back."
+      "description": "Whether this appears on the front page. Taking it off the front page does not delete it or hide it anywhere else."
     }
   }
 }

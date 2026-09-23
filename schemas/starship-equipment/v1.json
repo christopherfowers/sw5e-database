@@ -5,7 +5,14 @@
   "description": "A part a ship is fitted with: a weapon, its ammunition, armour, shields, a reactor, a power coupling or a hyperdrive. Every starship carries one of each system without spending a modification slot, which is what separates this type from starship-modification — equipment is what the hull comes with and can be swapped, a modification is what is bolted on afterwards and costs slots. The fields a shipyard list needs (category, cost) are always present; each category then carries its own block, because nothing a hyperdrive records is meaningful for a shield.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "sourceKey", "contentSet", "category", "costInCredits"],
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "category",
+    "costInCredits"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -23,7 +30,10 @@
       "description": "Key of the source this part was published in, matching a document of the source content type."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
     },
     "category": {
@@ -46,20 +56,32 @@
     "description": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown explaining what the part does beyond its table row. Present on the systems, whose behaviour cannot be read off a row, and absent on most weapons, whose row says everything."
+      "description": "Markdown explaining what the part does beyond its table row. Present on the systems, whose behaviour cannot be read off a row, and absent on most weapons, whose row says everything.",
+      "contentMediaType": "text/markdown"
     },
     "weapon": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["mounting", "weaponSize"],
+      "required": [
+        "mounting",
+        "weaponSize"
+      ],
       "description": "Where the weapon is fitted and what scale of hull it belongs to. Present on weapons only.",
       "properties": {
         "mounting": {
-          "enum": ["primary", "secondary", "tertiary", "quaternary"],
+          "enum": [
+            "primary",
+            "secondary",
+            "tertiary",
+            "quaternary"
+          ],
           "description": "Which of the four weapon mountings the part occupies. The mounting decides who fires it and how: primary weapons are aimed by the helm, secondary by a gunner, tertiary launchers throw the ammunition of this same content type, and quaternary weapons drop mines and bombs behind the ship."
         },
         "weaponSize": {
-          "enum": ["small", "huge"],
+          "enum": [
+            "small",
+            "huge"
+          ],
           "description": "Which of the two weapon tables the part is printed in: small covers Tiny to Large hulls, huge covers Huge and Gargantuan. The same weapon usually appears in both at a different damage die, as two separate parts, which is why this is a property of the part rather than of the ship."
         }
       }
@@ -69,7 +91,10 @@
       "minItems": 1,
       "uniqueItems": true,
       "description": "Weapon properties as printed on the table row, one clause per entry, each carrying its own numeric argument: \"burst 6\", \"overheat 2\", \"constitution 15\". The leading word of every clause names a property defined in the Weapon Properties section of the starship rules. The range clause is not among them, because range is a field of its own.",
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "damage": {
       "$ref": "#/$defs/damage",
@@ -92,11 +117,22 @@
     "range": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["normal", "long"],
+      "required": [
+        "normal",
+        "long"
+      ],
       "description": "The two range bands in feet. Attacks beyond normal range and within long range are made at disadvantage, and nothing can be attacked beyond long range.",
       "properties": {
-        "normal": { "type": "integer", "minimum": 1, "description": "Normal range in feet." },
-        "long": { "type": "integer", "minimum": 1, "description": "Long range in feet." }
+        "normal": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Normal range in feet."
+        },
+        "long": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Long range in feet."
+        }
       }
     },
     "firedBy": {
@@ -104,12 +140,19 @@
       "minItems": 1,
       "uniqueItems": true,
       "description": "Names of the launchers this ammunition fits, each matching a starship-equipment document of category weapon. Ammunition is grouped under its launcher in the printed table and is useless without one, so the link is recorded rather than left for a reader to infer from the name.",
-      "items": { "type": "string", "minLength": 1 }
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
     },
     "armor": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["armorClass", "damageReduction", "stealthDisadvantage"],
+      "required": [
+        "armorClass",
+        "damageReduction",
+        "stealthDisadvantage"
+      ],
       "description": "What the armour does. Present on armour only.",
       "properties": {
         "armorClass": {
@@ -131,7 +174,10 @@
     "shield": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["capacityMultiplier", "regenerationRateCoefficient"],
+      "required": [
+        "capacityMultiplier",
+        "regenerationRateCoefficient"
+      ],
       "description": "How the shields trade capacity against recovery. Present on shields only, and the two values always move in opposite directions: fortress shields hold half again as much and recharge two-thirds as fast, quick-charge shields do the reverse.",
       "properties": {
         "capacityMultiplier": {
@@ -149,7 +195,9 @@
     "reactor": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["powerDiceRecovered"],
+      "required": [
+        "powerDiceRecovered"
+      ],
       "description": "What the reactor produces and what it costs to run. Present on reactors only.",
       "properties": {
         "powerDiceRecovered": {
@@ -191,7 +239,10 @@
     "damage": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["numberOfDice", "dieFaces"],
+      "required": [
+        "numberOfDice",
+        "dieFaces"
+      ],
       "properties": {
         "numberOfDice": {
           "type": "integer",
@@ -200,11 +251,22 @@
         },
         "dieFaces": {
           "type": "integer",
-          "enum": [4, 6, 8, 10, 12],
+          "enum": [
+            4,
+            6,
+            8,
+            10,
+            12
+          ],
           "description": "Faces on each die: the 6 of 3d6."
         },
         "type": {
-          "enum": ["energy", "fire", "ion", "kinetic"],
+          "enum": [
+            "energy",
+            "fire",
+            "ion",
+            "kinetic"
+          ],
           "description": "Damage type, which decides how a target's armour and shields apply. Ion damage is the one that strips shields and disables systems rather than breaching hull. Absent on the few pieces of ammunition whose whole effect is a special rule rather than damage."
         }
       }

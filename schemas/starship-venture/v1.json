@@ -5,7 +5,13 @@
   "description": "A talent a crewmember picks up by serving aboard a ship. A venture is to a deployment what a feat is to a class: one is granted at every rank in every deployment, and the list is shared, so what a character can take is decided almost entirely by prerequisites. Those prerequisites are what make the type interesting to model — they reach across into deployments, into character classes, and into other ventures, which is how the venture list forms chains such as Spacecasting through to Spacecasting, Legendary.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "sourceKey", "contentSet", "description"],
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "description"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -23,7 +29,10 @@
       "description": "Key of the source this venture was published in, matching a document of the source content type."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
     },
     "prerequisites": {
@@ -33,10 +42,19 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["kind", "text"],
+        "required": [
+          "kind",
+          "text"
+        ],
         "properties": {
           "kind": {
-            "enum": ["deploymentRank", "classLevel", "venture", "casting", "other"],
+            "enum": [
+              "deploymentRank",
+              "classLevel",
+              "venture",
+              "casting",
+              "other"
+            ],
             "description": "What sort of requirement the clause is, which decides which of the fields below is present. \"other\" covers the handful of clauses that name a venture the book never printed — Dual Roles and Multi-Roles are both referenced and neither exists — and those are left unresolved rather than guessed at."
           },
           "text": {
@@ -77,7 +95,8 @@
     "description": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown rules text in second person, because a venture is something the crewmember does rather than something the ship has."
+      "description": "Markdown rules text in second person, because a venture is something the crewmember does rather than something the ship has.",
+      "contentMediaType": "text/markdown"
     }
   }
 }

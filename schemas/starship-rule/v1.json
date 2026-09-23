@@ -5,7 +5,14 @@
   "description": "One chapter of the starship rulebook, kept whole. Unlike every other content type this is prose rather than a record: it is the text a player reads to learn how starship combat, movement, repair and encounter building work, and it is where the tables that no single item owns are printed — power dice by tier, fuel and cargo capacity by size, docking fees. Splitting a chapter into items was considered and rejected: its headings are not a taxonomy, its tables are referenced from the middle of paragraphs, and the sections cross-reference each other by chapter number.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "title", "sourceKey", "contentSet", "chapterNumber", "body"],
+  "required": [
+    "key",
+    "title",
+    "sourceKey",
+    "contentSet",
+    "chapterNumber",
+    "body"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -23,7 +30,10 @@
       "description": "Key of the source this chapter belongs to, matching a document of the source content type."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this belongs to the core rules or to the community expanded-content supplement."
     },
     "chapterNumber": {
@@ -35,7 +45,12 @@
       "type": "string",
       "minLength": 1,
       "description": "The heading this passage is read under. Same field, same meaning and same reason as on a rule: thirteen links in a row is a list, and a handful of named groups is a path somebody can see the shape of. Absent means the passage is not on a path.",
-      "examples": ["Start here", "Building a starship", "Flying it", "Reference"]
+      "examples": [
+        "Start here",
+        "Building a starship",
+        "Flying it",
+        "Reference"
+      ]
     },
     "order": {
       "type": "integer",
@@ -44,7 +59,8 @@
     "body": {
       "type": "string",
       "minLength": 1,
-      "description": "The whole chapter as Markdown, headings and tables included. Long — the equipment chapter runs to about forty-eight thousand characters — because a rules chapter that has been cut into pieces is no longer usable as rules."
+      "description": "The whole chapter as Markdown, headings and tables included. Long — the equipment chapter runs to about forty-eight thousand characters — because a rules chapter that has been cut into pieces is no longer usable as rules.",
+      "contentMediaType": "text/markdown"
     }
   }
 }
