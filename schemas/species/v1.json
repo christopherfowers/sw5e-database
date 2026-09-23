@@ -5,7 +5,14 @@
   "description": "A playable species: the heritage a character is born into. A species grants an ability score increase, a size, a set of inherent traits, and the physical ranges used to roll or pick a character's build. Everything here applies at character creation and never changes with level; anything gained at a later level belongs in a feature instead.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "sourceKey", "contentSet", "lore", "traits"],
+  "required": [
+    "key",
+    "name",
+    "sourceKey",
+    "contentSet",
+    "lore",
+    "traits"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -18,7 +25,14 @@
       "description": "Display name as it appears in the species list, singular and in the form a player would say at the table (Bothan, not Bothans)."
     },
     "size": {
-      "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
+      "enum": [
+        "tiny",
+        "small",
+        "medium",
+        "large",
+        "huge",
+        "gargantuan"
+      ],
       "description": "Size category, which drives carrying capacity, the space the creature occupies, and which weapons it can wield. Omit only for a species that inherits its size from another species."
     },
     "homeworld": {
@@ -34,7 +48,8 @@
     "lore": {
       "type": "string",
       "minLength": 1,
-      "description": "Long-form Markdown on biology, appearance, society and homeworld. This is colour for the player, not rules: keep every mechanical effect in traits so it can be applied automatically."
+      "description": "Long-form Markdown on biology, appearance, society and homeworld. This is colour for the player, not rules: keep every mechanical effect in traits so it can be applied automatically.",
+      "contentMediaType": "text/markdown"
     },
     "traits": {
       "type": "array",
@@ -43,7 +58,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "description"],
+        "required": [
+          "name",
+          "description"
+        ],
         "properties": {
           "name": {
             "type": "string",
@@ -65,7 +83,9 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["increases"],
+        "required": [
+          "increases"
+        ],
         "properties": {
           "increases": {
             "type": "array",
@@ -74,10 +94,20 @@
             "items": {
               "type": "object",
               "additionalProperties": false,
-              "required": ["amount"],
+              "required": [
+                "amount"
+              ],
               "oneOf": [
-                { "required": ["abilities"] },
-                { "required": ["anyAbilityCount"] }
+                {
+                  "required": [
+                    "abilities"
+                  ]
+                },
+                {
+                  "required": [
+                    "anyAbilityCount"
+                  ]
+                }
               ],
               "properties": {
                 "amount": {
@@ -91,7 +121,14 @@
                   "uniqueItems": true,
                   "description": "The specific abilities that gain the amount. Use this when the species dictates which abilities improve.",
                   "items": {
-                    "enum": ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"]
+                    "enum": [
+                      "strength",
+                      "dexterity",
+                      "constitution",
+                      "intelligence",
+                      "wisdom",
+                      "charisma"
+                    ]
                   }
                 },
                 "anyAbilityCount": {
@@ -175,7 +212,10 @@
       "minItems": 1,
       "uniqueItems": true,
       "description": "Illustrations of the species, most representative first.",
-      "items": { "type": "string", "format": "uri" }
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
     },
     "halfHumanTraits": {
       "type": "array",
@@ -184,7 +224,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["speciesName", "traitName"],
+        "required": [
+          "speciesName",
+          "traitName"
+        ],
         "properties": {
           "speciesName": {
             "type": "string",
@@ -205,7 +248,10 @@
       "description": "Key of the source this species was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this species belongs to the core rules or to the community expanded-content supplement. Tables that mix both should let players filter on it."
     }
   }

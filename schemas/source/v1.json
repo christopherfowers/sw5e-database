@@ -77,6 +77,11 @@
     },
     "attribution": {
       "type": "string"
+    },
+    "showOnHomePage": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this book appears on the front page shelf. The book stays browsable and searchable either way; only its place on the front page changes."
     }
   }
 }

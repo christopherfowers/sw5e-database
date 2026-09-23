@@ -5,7 +5,12 @@
   "description": "One entry from the weapon-property glossary: the rules a weapon obeys because its table row names this property. Weapon and armour properties are two content types rather than one because four names — interlocking, silent, strength and versatile — are published in both glossaries with different rules, and merging them would mean showing a reader the armour rule for a property their blaster has.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "contentSet", "description"],
+  "required": [
+    "key",
+    "name",
+    "contentSet",
+    "description"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -18,13 +23,17 @@
       "description": "Display name in title case, as printed at the head of the glossary entry."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this property belongs to the core rules or to the community expanded-content supplement. Every archived weapon property is core."
     },
     "description": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown giving the property's rules. The archived text opens with a level-four heading repeating the property's name; that heading is dropped on import, because the name is already the document's own name and a page that prints it twice reads as a mistake."
+      "description": "Markdown giving the property's rules. The archived text opens with a level-four heading repeating the property's name; that heading is dropped on import, because the name is already the document's own name and a page that prints it twice reads as a mistake.",
+      "contentMediaType": "text/markdown"
     }
   }
 }

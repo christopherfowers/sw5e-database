@@ -25,7 +25,8 @@
     "blurb": {
       "type": "string",
       "minLength": 1,
-      "description": "One line telling a reader what this is, so they can decide whether they want it. Leave it blank and the tile just shows the name."
+      "description": "One line telling a reader what this is, so they can decide whether they want it. Leave it blank and the tile shows just the name.",
+      "contentMediaType": "text/markdown"
     },
     "file": {
       "type": "string",
@@ -85,6 +86,11 @@
       "type": "string",
       "format": "uri",
       "description": "Where the file came from, so nobody has to remember later."
+    },
+    "showOnHomePage": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether this appears on the front page. Taking it off the front page does not delete it or hide it anywhere else."
     }
   }
 }

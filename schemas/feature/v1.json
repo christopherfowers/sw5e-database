@@ -5,7 +5,12 @@
   "description": "One granted ability, extracted from the class, archetype or species that grants it. A feature is the unit a character sheet actually tracks: it is what appears on the sheet when a character reaches the level that grants it. The parent's own body text still contains the same prose for reading; this content type exists so the grant can be resolved by level without parsing that prose.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["key", "name", "grantedBy", "grantedByName"],
+  "required": [
+    "key",
+    "name",
+    "grantedBy",
+    "grantedByName"
+  ],
   "properties": {
     "key": {
       "type": "string",
@@ -18,7 +23,11 @@
       "description": "Display name, as it appears as a heading in the parent's text and on a character sheet."
     },
     "grantedBy": {
-      "enum": ["class", "archetype", "species"],
+      "enum": [
+        "class",
+        "archetype",
+        "species"
+      ],
       "description": "What kind of entry grants this feature. It decides how the grant is triggered: class and archetype features arrive at a level, species features are held from level 1."
     },
     "grantedByName": {
@@ -35,7 +44,8 @@
     "description": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown rules text in second person. The house style opens with an italic line naming the parent and level, then the rules. Omit only when the source text is genuinely missing, which is a data defect rather than a design choice."
+      "description": "Markdown rules text in second person. The house style opens with an italic line naming the parent and level, then the rules. Omit only when the source text is genuinely missing, which is a data defect rather than a design choice.",
+      "contentMediaType": "text/markdown"
     },
     "sourceKey": {
       "type": "string",
@@ -43,7 +53,10 @@
       "description": "Key of the source this feature was printed in, matching a document of the source content type. A feature is printed inside the class, archetype or species that grants it, so this is that entry's source and cannot differ from it. The archive has no source field of its own on a feature, which is why this is derived rather than copied; its storage partition looks like one and is not, disagreeing with the parent for 47 of the 1,089 class and archetype features."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this feature belongs to the core rules or to the community expanded-content supplement, taken from the entry that grants it for the same reason sourceKey is."
     }
   }

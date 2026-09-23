@@ -35,7 +35,8 @@
     "lore": {
       "type": "string",
       "minLength": 1,
-      "description": "Markdown introduction written to the player, explaining who takes this background and what the life was like. Rules belong in the fields below; this is the pitch."
+      "description": "Markdown introduction written to the player, explaining who takes this background and what the life was like. Rules belong in the fields below; this is the pitch.",
+      "contentMediaType": "text/markdown"
     },
     "skillProficiencies": {
       "type": "string",
@@ -60,7 +61,10 @@
     "feature": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "description"],
+      "required": [
+        "name",
+        "description"
+      ],
       "description": "The single narrative privilege the background grants, such as a contact network or safe lodging. Backgrounds grant exactly one, and it is almost always a licence to ask the GM for something rather than a die roll.",
       "properties": {
         "name": {
@@ -78,7 +82,8 @@
     "suggestedCharacteristics": {
       "type": "string",
       "minLength": 1,
-      "description": "A short Markdown preamble framing the roll tables that follow: what tends to motivate someone with this history."
+      "description": "A short Markdown preamble framing the roll tables that follow: what tends to motivate someone with this history.",
+      "contentMediaType": "text/markdown"
     },
     "personalityTraitOptions": {
       "$ref": "#/$defs/rollTable",
@@ -103,7 +108,10 @@
     "variant": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name", "description"],
+      "required": [
+        "name",
+        "description"
+      ],
       "description": "An optional specialisation that narrows the background, such as a criminal's speciality or a soldier's rank. Purely flavour: it does not change proficiencies, equipment or the feature.",
       "properties": {
         "name": {
@@ -128,7 +136,10 @@
       "description": "Key of the source this background was published in, matching a document of the source content type. Values present in the archive are phb, wh, snv and ec."
     },
     "contentSet": {
-      "enum": ["core", "expanded-content"],
+      "enum": [
+        "core",
+        "expanded-content"
+      ],
       "description": "Whether this background belongs to the core rules or to the community expanded-content supplement."
     }
   },
@@ -140,10 +151,20 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["roll"],
+        "required": [
+          "roll"
+        ],
         "anyOf": [
-          { "required": ["name"] },
-          { "required": ["description"] }
+          {
+            "required": [
+              "name"
+            ]
+          },
+          {
+            "required": [
+              "description"
+            ]
+          }
         ],
         "properties": {
           "roll": {
