@@ -299,8 +299,51 @@ public static class LegacyContentImport
             "double hyphens in this corpus are all markdown table rules, and rewriting those " +
             "would break the tables.",
             document => ReplaceIn(document, "description",
-                "vulnerable -- if not dead", "vulnerable — if not dead"))
+                "vulnerable -- if not dead", "vulnerable — if not dead")),
+
+        /*
+          Two corrections to the sentinel, published through the content tools
+          by the community lead and recorded here so they survive an import.
+
+          They were made against the live site and lived only in the database,
+          which an import overwrites: the importer's job is to make the
+          database match this repository, so a correction that exists only on
+          the other side of it is a correction with a deadline. Bringing them
+          here is what makes them permanent.
+        */
+        new("class", "sentinel",
+            "Sentinel Ideals says how many times the ideals may be manifested and never says " +
+            "how they come back. Every other limited feature on this class ends with the same " +
+            "sentence, including Forcecasting two paragraphs above it, so the omission reads " +
+            "as a gap in the transcription rather than a rule that the uses are never regained.",
+            document => ReplaceIn(document, "description",
+                "Ideal Manifests column of the sentinel table.\n\n### Sentinel Calling",
+                "Ideal Manifests column of the sentinel table. You regain all expended uses " +
+                "when you finish a long rest.\n\n### Sentinel Calling")),
+
+        new("class", "sentinel",
+            "The level marker on each feature runs into the sentence after it, because the " +
+            "scrape dropped the line break the book prints. Restored as an explicit break " +
+            "rather than a blank line: a blank line would make the marker its own paragraph " +
+            "and space it away from the feature it belongs to.",
+            document => ReplaceEveryIn(document, "description", " level_\n", " level_<br>\n")),
     ];
+
+    /// <summary>
+    /// Replaces every occurrence rather than the first, for a correction that
+    /// is the same edit in several places.
+    /// </summary>
+    private static bool ReplaceEveryIn(
+        JsonObject document, string field, string find, string replace)
+    {
+        if (document[field]?.GetValue<string>() is not { } text || !text.Contains(find))
+        {
+            return false;
+        }
+
+        document[field] = text.Replace(find, replace);
+        return true;
+    }
 
     /// <summary>Applies every adjudication that names this document.</summary>
     private static void Adjudicate(string contentType, string key, JsonObject document)

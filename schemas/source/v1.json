@@ -19,7 +19,8 @@
     },
     "title": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "description": "The book's full name, as printed on it."
     },
     "shelfName": {
       "type": "string",
@@ -29,17 +30,21 @@
     "abbreviation": {
       "type": "string",
       "minLength": 1,
-      "maxLength": 12
+      "maxLength": 12,
+      "description": "The short form shown on a content row: PHB, SnV."
     },
     "publisher": {
-      "type": "string"
+      "type": "string",
+      "description": "Who published it."
     },
     "publishedAt": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "description": "The date this edition was published."
     },
     "isOfficial": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Whether this is a licensed Star Wars product. It is not, for everything published here: Star Wars 5e is community work built on the D&D 5e SRD. Leave it off. This is not the setting that marks a book as homebrew."
     },
     "isCoreRulebook": {
       "type": "boolean",
@@ -73,15 +78,22 @@
       "description": "Where this book sits when the books are listed together. Absent means unplaced, and an unplaced book is listed after the placed ones by name."
     },
     "licenseNote": {
-      "type": "string"
+      "type": "string",
+      "description": "The licensing this book is published under, in the words the licence asks for. Shown wherever the book is cited."
     },
     "attribution": {
-      "type": "string"
+      "type": "string",
+      "description": "Who to credit, when that is not simply the publisher."
     },
     "showOnHomePage": {
       "type": "boolean",
       "default": true,
       "description": "Whether this book appears on the front page shelf. The book stays browsable and searchable either way; only its place on the front page changes."
+    },
+    "homebrew": {
+      "type": "boolean",
+      "default": false,
+      "description": "Tick this for a book somebody wrote for their own table, rather than one of the Star Wars 5e books. Homebrew is kept out of the front page shelf, and everything published into it inherits the answer, so a feat in a homebrew book is homebrew without being marked one by one."
     }
   }
 }
