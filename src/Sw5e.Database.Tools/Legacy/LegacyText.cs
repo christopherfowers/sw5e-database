@@ -14,9 +14,15 @@ namespace Sw5e.Database.Tools.Legacy;
 /// outside the scraper's code page was written out as U+FFFD REPLACEMENT
 /// CHARACTER. The original character is not recoverable from the bytes, only
 /// from context, so each rule below has to earn its place: it must describe a
-/// shape that only one plausible character could have produced. Anything that
-/// stays ambiguous is deliberately left as U+FFFD rather than guessed, because
-/// inventing a letter inside a proper noun silently invents game content.
+/// shape that only one plausible character could have produced.
+/// </para>
+/// <para>
+/// Where context cannot settle it, the answer is not a guess and it is not
+/// U+FFFD either: it is a lookup, read out of the document the chapter is
+/// printed from and recorded with that source named. <see
+/// cref="NamesFromSource"/> is the one such table, and it exists because no
+/// shape can tell you which vowel stood in <c>H?sk</c>. Inventing a letter
+/// inside a proper noun silently invents game content; looking it up does not.
 /// </para>
 /// <para>
 /// <b>This is a second implementation of a set of rules that also exists in
@@ -89,19 +95,73 @@ internal static partial class LegacyText
     private static partial Regex SpacedDash();
 
     /// <summary>
-    /// A replacement character welded between two words with no spaces, as in
-    /// <c>generation?for example</c>. The source PDFs set em dashes unspaced.
+    /// A replacement character welded to the word before it, as in
+    /// <c>generation?for example</c> or <c>cost many lives? and I would</c>.
+    /// Every one of these is an em dash.
     /// </summary>
     /// <remarks>
-    /// The length guards are what keep this rule off proper nouns. The same
-    /// corruption ate accented letters out of names — <c>L?vern</c>,
-    /// <c>Seelv?n</c>, <c>Ty?k</c>, <c>H?sk</c> — and those are unrecoverable.
-    /// Demanding two word characters on the left and a real word on the right
-    /// excludes every such name in the archive while still catching sentence
-    /// dashes after short words.
+    /// <para>
+    /// What follows the dash is left exactly as the archive has it, because
+    /// the source books are not consistent and both forms are deliberate. The
+    /// Player's Handbook and the Expanded Content chapters set a space after
+    /// the dash and none before it — <c>I can't help it— I'm a
+    /// perfectionist.</c>, <c>whatever services you can afford— paying for
+    /// food</c> — while Wretched Hives sets the pair closed:
+    /// <c>insignia—the Kyr'bes—features</c>. Normalising either way would be
+    /// an editorial change dressed up as a repair, so the rule inserts the
+    /// character and nothing else.
+    /// </para>
+    /// <para>
+    /// The left-hand guard is what keeps this off proper nouns: two
+    /// non-space characters have to precede the dash, which excludes
+    /// <c>L?vern</c>, <c>H?sk</c>, <c>F?ress</c> and <c>J?nsone</c>, where the
+    /// lost letter sits second in a name that follows a space. Asterisks are
+    /// in the class because the corpus welds dashes to markdown emphasis —
+    /// <c>**insignia**?the</c> — and a digit is allowed on the right for
+    /// <c>the final three scores?12, 10, and 8?to Charisma</c>. That same
+    /// sentence is why a digit needs no second character before it: in
+    /// <c>and 8?to Charisma</c> the dash follows a space and a single <c>8</c>,
+    /// and a digit after a space is never the second letter of a name.
+    /// </para>
+    /// <para>
+    /// A lone letter on the right is still excluded, which is what keeps the
+    /// rule away from <c>Seelv?n</c> and <c>Ty?k</c>; those two are repaired
+    /// by <see cref="NamesFromSource"/> before this rule ever sees them.
+    /// </para>
     /// </remarks>
-    [GeneratedRegex(@"(?<=[\p{L}\d'’""]{2})�(?=(?:\p{L}{2}|[aI]\b))")]
+    [GeneratedRegex(@"(?:(?<=\d)|(?<=[\p{L}\d'’""*]{2}))�(?=(?:\p{L}{2}|\d|[aI]\b|[ ]\p{L}))")]
     private static partial Regex WeldedDash();
+
+    /// <summary>
+    /// Accented letters the scrape ate out of the Expanded Content species
+    /// name tables, read back out of the document those tables are printed
+    /// from and quoted here rather than inferred.
+    /// </summary>
+    /// <remarks>
+    /// <para>
+    /// No pattern can recover these. <c>H?sk</c> gives no clue which vowel
+    /// stood there, and the chapter's own prose says only that kallerans use
+    /// "accents on vowels". The source is
+    /// <c>gmbinder.com/share/-LM7Sz_VhFOf0IYKXHQG</c> — "EC 02 - Species", the
+    /// document sw5e.com's Expanded Content species chapter is printed from.
+    /// </para>
+    /// <para>
+    /// Each entry carries enough of the name either side of the lost letter to
+    /// be unambiguous, so a name repairs wherever it appears rather than only
+    /// inside a table row.
+    /// </para>
+    /// </remarks>
+    private static readonly (string Broken, string Repaired)[] NamesFromSource =
+    [
+        ("L�vern", "Lávern"),     // kalleran, male
+        ("Seelv�n", "Seelván"),   // kalleran, male
+        ("F�ress", "Fáress"),     // kalleran, female
+        ("Ian�", "Iané"),         // kiffar, female
+        ("H�sk", "Hâsk"),         // massassi, male
+        ("Ty�k", "Tyûk"),         // massassi, female
+        ("J�nsone", "Jánsone"),   // theelin, male
+        ("F�niss", "Fániss")      // theelin, female
+    ];
 
     /// <summary>
     /// A capital letter doubled at the start of a line and followed by lower
@@ -140,13 +200,20 @@ internal static partial class LegacyText
 
     /// <summary>
     /// Applies every repair rule, in the order that keeps them from competing.
-    /// Quotation pairs run first because a closing quote looks exactly like a
-    /// welded dash once its partner has been rewritten, and the table-cell rule
-    /// runs before the spaced-dash rule so that a cell padded with spaces is
-    /// recognised as a cell rather than as a mid-sentence dash.
+    /// The name lookup runs first so that no dash rule can reach a lost letter
+    /// that is already accounted for. Quotation pairs run next because a
+    /// closing quote looks exactly like a welded dash once its partner has
+    /// been rewritten, and the table-cell rule runs before the spaced-dash
+    /// rule so that a cell padded with spaces is recognised as a cell rather
+    /// than as a mid-sentence dash.
     /// </summary>
     private static string ApplyRules(string text)
     {
+        foreach (var (broken, repaired) in NamesFromSource)
+        {
+            text = text.Replace(broken, repaired, StringComparison.Ordinal);
+        }
+
         text = QuotePair().Replace(text, "$1\"$2\"");
         text = Contraction().Replace(text, "'");
         text = TableCellDash().Replace(text, "$1—$2");

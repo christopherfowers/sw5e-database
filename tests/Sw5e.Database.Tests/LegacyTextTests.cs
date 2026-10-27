@@ -87,22 +87,50 @@ public sealed class LegacyTextTests
             .ShouldBe("the droid designated RRuk, of the RRuk line");
 
     /// <summary>
-    /// The cases where the original character is genuinely unknowable. A rule
-    /// that "fixed" any of these would be inventing content: a lost character
-    /// before a space could be an em dash or an ellipsis and reads naturally as
-    /// either, and a lost letter inside a proper noun has nothing to recover it
-    /// from at all.
+    /// The two shapes no pattern can settle, and what settles them: the
+    /// document the chapter is printed from.
+    /// <para>
+    /// A lost character before a space was long read here as ambiguous between
+    /// an em dash and an ellipsis. It is an em dash — the Player's Handbook
+    /// sets <c>I am a free spirit— no one tells me what to do.</c> and the
+    /// Expanded Content backgrounds chapter sets <c>I can't help it— I'm a
+    /// perfectionist.</c>, both with the following space that made the shape
+    /// look ambiguous. A lost letter inside a proper noun has nothing in the
+    /// text to recover it from, and the Expanded Content species chapter's
+    /// source spells every one of them out.
+    /// </para>
     /// </summary>
     [Theory]
-    [InlineData("I can't help it� I'm a perfectionist.")]
-    [InlineData("**Male Names.** Gliconn, Orcas, L�vern, Seelv�n")]
-    [InlineData("**Female Names.** Kintik, Midwan, Siqsa, Ty�k")]
-    public void LeavesUnrecoverableCharactersAlone(string archived)
+    [InlineData("I can't help it� I'm a perfectionist.",
+                "I can't help it— I'm a perfectionist.")]
+    [InlineData("I am a free spirit� no one tells me",
+                "I am a free spirit— no one tells me")]
+    [InlineData("**insignia**�the *Kyr'bes*�features",
+                "**insignia**—the *Kyr'bes*—features")]
+    [InlineData("the final three scores�12, 10, and 8�to Charisma",
+                "the final three scores—12, 10, and 8—to Charisma")]
+    [InlineData("**Male Names.** Gliconn, Orcas, L�vern, Seelv�n",
+                "**Male Names.** Gliconn, Orcas, Lávern, Seelván")]
+    [InlineData("**Female Names.** Kintik, Midwan, Siqsa, Ty�k",
+                "**Female Names.** Kintik, Midwan, Siqsa, Tyûk")]
+    [InlineData("**Male Names.** Dhess, Gooti, J�nsone, Qylett",
+                "**Male Names.** Dhess, Gooti, Jánsone, Qylett")]
+    public void RepairsTheShapesOnlyTheSourceCouldSettle(string archived, string repaired) =>
+        LegacyText.Repair(archived).ShouldBe(repaired);
+
+    /// <summary>
+    /// What the lookup does not relax: a lost letter in a name the source does
+    /// not list stays lost, because there is nothing to read it out of. The
+    /// guard is the rule's own, not the lookup's — a single letter on the
+    /// right of the dash is never a welded em dash.
+    /// </summary>
+    [Fact]
+    public void LeavesALostLetterInAnUnlistedNameAlone()
     {
-        var repaired = LegacyText.Repair(archived);
+        var repaired = LegacyText.Repair("**Surnames.** Alash, Byss�k, Estair");
 
         LegacyText.ContainsUnrepairedLoss(repaired).ShouldBeTrue(
-            $"'{archived}' was repaired; the original character is not recoverable from it.");
+            "the name is not in the source table, so the letter cannot be recovered");
     }
 
     [Fact]

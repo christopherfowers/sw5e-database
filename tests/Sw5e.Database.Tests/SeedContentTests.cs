@@ -61,50 +61,30 @@ public sealed class SeedContentTests
 
     /// <summary>
     /// Every character the archive lost that cannot be recovered, by file.
+    /// <b>It is empty, and that is the whole point of keeping it.</b>
     /// <para>
-    /// These are the two shapes <c>repair-text.mjs</c> in the site repository
-    /// documents as deliberately unrepaired: an accented letter inside a
-    /// species name table, where the letter is gone and inventing one would
-    /// fabricate game content; and a lost character before a space, which is
-    /// ambiguous between an em dash and an ellipsis with nothing in the
-    /// context to choose between them.
+    /// It held 42 characters in two shapes, both of which were settled by
+    /// reading the document the chapter is printed from rather than by a
+    /// cleverer rule. The 26 dashes are em dashes: the Player's Handbook sets
+    /// <c>I am a free spirit— no one tells me what to do.</c> and Wretched
+    /// Hives sets <c>insignia—the Kyr'bes—features</c>, so the shape that read
+    /// as ambiguous between an em dash and an ellipsis was only ever a dash
+    /// with the source's own spacing after it. The 16 accented letters are the
+    /// eight names in the Expanded Content species tables — Lávern, Seelván,
+    /// Fáress, Iané, Hâsk, Tyûk, Jánsone, Fániss — quoted from that chapter's
+    /// source document, which is the only thing that could have supplied them.
+    /// Both are expressed as rules in <see cref="LegacyTextRepair"/>, so the
+    /// import reproduces them.
     /// </para>
     /// <para>
     /// The counts are exact in both directions. New damage fails, and so does
     /// a repair, which is what forces this list to be revisited rather than
-    /// left to rot.
+    /// left to rot. An entry belongs here only when no source answers it:
+    /// a name the species chapter does not print, say.
     /// </para>
     /// </summary>
-    private static readonly Dictionary<string, int> UnrepairableCharacters = new(StringComparer.Ordinal)
-    {
-        ["content/background/city-watch.json"] = 1,
-        ["content/background/courtier.json"] = 2,
-        ["content/background/faction-artisan.json"] = 2,
-        ["content/background/faction-merchant.json"] = 2,
-        ["content/background/scoundrel.json"] = 1,
-        ["content/background/soldier.json"] = 1,
-        ["content/background/un-retired-adventurer.json"] = 1,
-        ["content/background/urchin.json"] = 1,
-        ["content/species/kalleran.json"] = 3,
-        ["content/species/kiffar.json"] = 1,
-        ["content/species/massassi.json"] = 2,
-        ["content/species/theelin.json"] = 2,
-
-        // The rules corpus. Twenty-three characters across five chapters, in
-        // the same two shapes as the entries above: a lost character before a
-        // space, ambiguous between an em dash and an ellipsis and reading
-        // naturally as either, and the accented letters in the Expanded
-        // Content species chapter's name tables. Every other replacement
-        // character in these four archive files — 393 of the 416 — is
-        // repaired on import, most of them by the rule that recognises a
-        // character standing alone in a markdown table cell as the em dash
-        // those tables use for "none".
-        ["content/rule/ec-archetypes.json"] = 1,
-        ["content/rule/ec-backgrounds.json"] = 9,
-        ["content/rule/ec-species.json"] = 8,
-        ["content/rule/phb-equipment.json"] = 1,
-        ["content/rule/wh-step-by-step-factions.json"] = 4
-    };
+    private static readonly Dictionary<string, int> UnrepairableCharacters =
+        new(StringComparer.Ordinal);
 
     /// <summary>
     /// Every seed file, as (content type, path, parsed document). The content
@@ -207,9 +187,12 @@ public sealed class SeedContentTests
 
     /// <summary>
     /// The archive lost apostrophes, dashes and accented letters to a bad
-    /// decode. Almost all of it is repairable from context and is repaired
-    /// before the content is written; what is left is enumerated exactly, so
-    /// neither new damage nor a silent repair can pass unnoticed.
+    /// decode. All of it is now repaired before the content is written —
+    /// from context where context suffices, and from the published source
+    /// where it does not — so the content set holds no replacement characters
+    /// at all. Anything that cannot be recovered is enumerated exactly in
+    /// <see cref="UnrepairableCharacters"/>, so neither new damage nor a
+    /// silent repair can pass unnoticed.
     /// </summary>
     [Fact]
     public void OnlyTheUnrepairableCharactersRemain()

@@ -41,7 +41,11 @@ in `tests/Sw5e.Database.Tests/SeedContentTests.cs`:
 - every U+FFFD — the replacement character left behind wherever the original
   scrape lost an apostrophe, a dash or an accented letter — is either repaired
   or recorded, exactly and per file, in the ledger of characters that cannot be
-  recovered without inventing content;
+  recovered without inventing content. **That ledger is empty.** The last 42
+  were settled by reading the documents the chapters are printed from: 26 em
+  dashes, and the eight accented names in the Expanded Content species tables
+  (Lávern, Seelván, Fáress, Iané, Hâsk, Tyûk, Jánsone, Fániss), which no
+  pattern could have recovered;
 - every cross-reference resolves inside the set: `sourceKey`, a background's
   suggested feats, a feat prerequisite naming another feat, a maneuver
   prerequisite or upgrade naming another maneuver, the class, archetype or
